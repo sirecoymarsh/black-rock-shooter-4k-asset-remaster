@@ -1,0 +1,21 @@
+
+# Original game images and emulator/runtime data
+*.iso
+*.cso
+*.chd
+*.pbp
+*.elf
+*.prx
+*.sav
+*.ppst
+
+# Game-derived texture dumps and generated replacements stay local
+/workspace/
+/qa/screenshots/
+/release/
+
+# Generated caches
+__pycache__/
+*.pyc
+*.tmp
+*.bak
