@@ -1,0 +1,82 @@
+{
+  "validated_at": "2026-09-22T14:19:31.633713",
+  "source_files": [
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\2de0febbbfcb792eb6ae4f69071bb2fca26bf727",
+      "sha256": "0935030c749657894abaf5fa180455cd40cb745c406bc5beef92e3ebff81133c",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\724e841520b743343e1b04e63d47f06496ce781d",
+      "sha256": "a81b32c302c277f8d3f20ab8c08a1491277865eda2da0a062cd53ada2e1c1830",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\3393eddea783fc6773b14b02cedbb630da3bba03",
+      "sha256": "3abb53cae840d4a12cfb66da33c279978f0cde924b1e30e872f7d1224a8a1ba0",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\b6fdf9adb6a33600ddbc1e8d65485591edc922e8",
+      "sha256": "ebadbc9fe12a637efb5e7a68fb8cc2bfc917f376a3272bd65a3c7745bd4ae480",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\c1aeff5b0065c5c1f0697cf1ba7a55f40339f2f8",
+      "sha256": "fe02ef7d6041ae5391a32d45529311e80dad14d2ecd230d7fad27a66a5b7db80",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\c7ebfcefe0b25581e1e537b538b53c59d0bb811a",
+      "sha256": "3e4f6c89959e82b52f713c508c7a206c20089a92ac22120b0d2fc11574db612f",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\1360b966fd031b18d8212491c9e0386884373e5b",
+      "sha256": "23c22fef449d2cb59332e594c96193270f9bc6d7da62a7fadec09fcc6a7c82d9",
+      "unchanged": true,
+      "index_sha1_match": true
+    },
+    {
+      "source": "Y:\\Punishing Gray Raven Game\\PGR_Data\\StreamingAssets\\resource\\matrix\\84cdeec90f697ebcdc5820791d5a6fcf25761ac4",
+      "sha256": "a0ef0b4076a76850529f0233537192670bcc90ff9918ba10a77eb4099478e5f3",
+      "unchanged": true,
+      "index_sha1_match": true
+    }
+  ],
+  "source_unchanged": true,
+  "extraction_errors": [],
+  "visual_qa": [
+    "base costume rendered in local browser",
+    "alternate costume rendered in local browser"
+  ],
+  "glb_check": "header, byte length, triangle indices, UV/normal vertex counts passed",
+  "deliverables": [
+    {
+      "file": "BRS_model_reference.html",
+      "bytes": 7904465,
+      "sha256": "a57a37356fe28b396f9f3949bf2088e1b75b7228c0df7544ac4b680d96c6b20c"
+    },
+    {
+      "file": "R2BlackrockMd010011_static_reference.glb",
+      "bytes": 1566292,
+      "sha256": "7aea037612363b874647308ee0483743fc327052e8cf5c963c278153390397fc"
+    },
+    {
+      "file": "R2BlackrockMd019031_static_reference.glb",
+      "bytes": 2036420,
+      "sha256": "9611b3497fdd47f35d0d28ed4e63dd925ed2a8a32f4a43e99fbb8d9716e6b2c3"
+    },
+    {
+      "file": "참고자료_판정.md",
+      "bytes": 4274,
+      "sha256": "525a3bdbcc68b09ac96b678fb848639e0cb20d9922699e35f03070ad61f2e5ab"
+    }
+  ]
+}

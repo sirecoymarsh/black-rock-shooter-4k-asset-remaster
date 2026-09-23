@@ -1,0 +1,5 @@
+# Preserve snapshot bytes, including frozen source and evidence.
+* -text
+*.py linguist-language=Python
+*.BIN binary
+*.glb binary

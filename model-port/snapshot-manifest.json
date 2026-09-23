@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-23T14:12:41.177070+00:00",
+  "scope": "User-requested model progress checkpoint; no runtime verification resumed",
+  "files": [
+    {
+      "path": "model-port/geometry/FCHR_P_BRS00_geometry.json",
+      "bytes": 10728551,
+      "sha256": "ada712b61e8ec36d2a5921e5dde5b7308d352be4dcfd8564edb1e5b22fa88040",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS00_geometry.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/FCHR_P_BRS00_structure.json",
+      "bytes": 43733,
+      "sha256": "fffc861f17de061b939f71e5718cb96971628dcccad15c25b4f81afb240ef1db",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS00_structure.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/FCHR_P_BRS00_vertex_records.json",
+      "bytes": 898834,
+      "sha256": "b11f9b24d09e18c7658b9863ba6d3e997cc6070bb57e98b4059a45f7cc9807e2",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS00_vertex_records.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/FCHR_P_BRS02_geometry.json",
+      "bytes": 11861728,
+      "sha256": "0d0e41f3aaab63cc1396e611a87861ba0b9198d18ea6060bb847d9256fb297d9",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS02_geometry.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/FCHR_P_BRS02_structure.json",
+      "bytes": 49109,
+      "sha256": "5fc3a0a16151f3fccc7d521ea399847d5b5a901e21177be5ee5800b7b8d47223",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS02_structure.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/FCHR_P_BRS02_vertex_records.json",
+      "bytes": 962183,
+      "sha256": "eacd201e2b4a28a1da505ce01b09ad7eab49758384fc8ddf82a92e018c197887",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\FCHR_P_BRS02_vertex_records.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/pgr_skin_source.json",
+      "bytes": 3767743,
+      "sha256": "0d90021dcd04f395f34069a882c661890f33a5c36269a883731a40cc5e1ad421",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\pgr_skin_source.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/pgr_on_psp_skin.json",
+      "bytes": 4417407,
+      "sha256": "b6ef11869fc3173c23a74846136e9dc2fe9e4503e395ca973eba3044f5d86345",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\pgr_on_psp_skin.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/geometry/psp_models.json",
+      "bytes": 22083833,
+      "sha256": "56a309ae9a4cdf30b00448ba3155bd674c7a76341eda585508b63c5d65340aab",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\psp_models.json",
+      "role": "decoded model and skin checkpoint",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/retarget_validation.json",
+      "bytes": 37463,
+      "sha256": "bb9366be3acffffb834e1b60f08a4b8fe9b6892e271297d7da881b4f882ab4dd",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\retarget_validation.json",
+      "role": "bone remapping and remaining limitations",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/history/STATUS_before_runtime_confirmation.json",
+      "bytes": 992,
+      "sha256": "a773aa8aa845e8854e376ba6fff3e0abe6771d7b0f216554e9422b8410ceecb4",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\STATUS.json",
+      "role": "historical status; superseded by STATUS.json",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/FCHR_P_BRS02_pgr_candidate.BIN",
+      "bytes": 727157,
+      "sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\FCHR_P_BRS02_pgr_candidate.BIN",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/original_reencoded.BIN",
+      "bytes": 326338,
+      "sha256": "c9c1d6c9b298b5187d713b58b24f70573ddf4bd7ba80a3123ee5750115295242",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\original_reencoded.BIN",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/candidate_decoded_geometry.json",
+      "bytes": 22045128,
+      "sha256": "0ce88158b8fa19c06745a81688482ee34f5a1716ef86498dfb0c797b757d65d9",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\candidate_decoded_geometry.json",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/validation.json",
+      "bytes": 2092,
+      "sha256": "734455c7f0fc164a9b32da66279d3a311c067f58fdaa7137fa82d7235789b65a",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\validation.json",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/texture_sources.json",
+      "bytes": 1790,
+      "sha256": "9a99a668ac59a24b4deecec9751b44858605aa133274ed3cb76c0daefd8297ee",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_sources.json",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/iso_validation.json",
+      "bytes": 1278,
+      "sha256": "48f8813713cf63647c649d1de3bd0345f95fa62a26a72a7813d6118f71a49836",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\iso_validation.json",
+      "role": "generated PSP model candidate; ISO hashes only",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_07.png",
+      "bytes": 13112,
+      "sha256": "c225b72d6670bf85c237c80b256eb827d5de5ec58c5fa46e127546a9a6fafce8",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_07.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_08.png",
+      "bytes": 15500,
+      "sha256": "5f7223654bb7ac48a29f32fedfc80d1e34e8b01b730ac71c7d89ff3d1584b518",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_08.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_09.png",
+      "bytes": 18454,
+      "sha256": "0f99653db834f948469f447eb8c32ebfd620f633210efbed3003b618a4e3e9c5",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_09.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_10.png",
+      "bytes": 17756,
+      "sha256": "7f733b550862ae82e01c4de12ec13a67f723aa818413d19932dbccbef0d79e7e",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_10.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_11.png",
+      "bytes": 45866,
+      "sha256": "9a6ab25cad15bc68686a849d45b7617e300e6ed19d5d2a523bb3694664e7bf11",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_11.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/candidate/textures/texture_12.png",
+      "bytes": 4814,
+      "sha256": "898cb3c645cae0105a1073e4f6145d2a839cce12271582aff383e628a607574b",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\texture_12.png",
+      "role": "decoded PSP fallback texture",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/Model_port_preview.html",
+      "bytes": 40933732,
+      "sha256": "a1d3890c8a340bb0d98f73c58696163397c31678680ff71f00f609e895f007c6",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\Model_port_preview.html",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/BRS_model_reference.html",
+      "bytes": 7904465,
+      "sha256": "a57a37356fe28b396f9f3949bf2088e1b75b7228c0df7544ac4b680d96c6b20c",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\BRS_model_reference.html",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/R2BlackrockMd010011_static_reference.glb",
+      "bytes": 1566292,
+      "sha256": "7aea037612363b874647308ee0483743fc327052e8cf5c963c278153390397fc",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\R2BlackrockMd010011_static_reference.glb",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/R2BlackrockMd019031_static_reference.glb",
+      "bytes": 2036420,
+      "sha256": "9611b3497fdd47f35d0d28ed4e63dd925ed2a8a32f4a43e99fbb8d9716e6b2c3",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\R2BlackrockMd019031_static_reference.glb",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/three.min.js",
+      "bytes": 669884,
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\three.min.js",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/THREE_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\THREE_LICENSE.txt",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/viewer/viewer_manifest.json",
+      "bytes": 621,
+      "sha256": "3bc95e4aee648cc832ee56d87c6c00b756626a3c339f1244356f4dba5a9e4e71",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\viewer_manifest.json",
+      "role": "offline preview or static reference; not gameplay proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Body.png",
+      "bytes": 34780,
+      "sha256": "c4f41a96b35e9c22d1818fffd2fb7bd769033e0c45e0e23c82092626452624b9",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Body.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Cloth.png",
+      "bytes": 179532,
+      "sha256": "1fc1df127ce20beaf4b1aaac783798fc45026ed2e6d49f37f9e7028e235b7ece",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Cloth.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Hair.png",
+      "bytes": 499995,
+      "sha256": "7f54645af97c5285f5e8c0bbac16731ba6c5e6afc62b0edb345f70b9e90381c9",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Hair.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Face.png",
+      "bytes": 63254,
+      "sha256": "5d827a12ba7473f17dd5fcf8a620cea3bd02d3fbceeca9d905350e10678ef61b",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Face.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Eyes.png",
+      "bytes": 33510,
+      "sha256": "cb094f23e1abce8bb8869de1b6be6396e245fb794369fc004271ed7a8d8d4c12",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Eyes.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Zipper.png",
+      "bytes": 13953,
+      "sha256": "0167b8885250de50d55f8db3582695471a3387bdde6d17dd88189ada809c98bf",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Zipper.png",
+      "role": "source diffuse texture used in conversion",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Body.material.json",
+      "bytes": 15228,
+      "sha256": "3e2d2696013f15b202ff40bf3e2ca122a8be5ab1a251af946943d31ff40d15eb",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Body.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Cloth.material.json",
+      "bytes": 15360,
+      "sha256": "763a9a7838a9472f8bfe12292fe85939bdb453332dba5c6838614101cbd3f993",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Cloth.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Hair.material.json",
+      "bytes": 15204,
+      "sha256": "f9b703f021f6fa19275a0eca2cac97b07e02476a7a152c4accbc4d4c486d0888",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Hair.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Face.material.json",
+      "bytes": 15112,
+      "sha256": "518ebaeb442fc7a1a9ba6a6aaf4d15d6317f0f68e5109bfe1217621ce2978324",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Face.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Eye.material.json",
+      "bytes": 15087,
+      "sha256": "857b12dca423ca63a1174a3a66d6db32e0b3ce66b523ffb925f1e2ffecbd1336",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Eye.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/pgr/R2BlackrockMd010011Zipper.material.json",
+      "bytes": 15252,
+      "sha256": "5e29e8d424493c11773a2b66a2ba29a87c036e9a1d1a91859295105fd1b9e0a6",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extracted\\role\\body\\r2blackrockmd010011\\R2BlackrockMd010011Zipper.material.json",
+      "role": "material parameters including alpha cutoff",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_00.png",
+      "bytes": 81273,
+      "sha256": "37849a895288768c6092f32ad89c17c27f3e88be3141ac4b69081fe44de552dd",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_00.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_01.png",
+      "bytes": 2883,
+      "sha256": "ac09acaf16bff1df22913e45f690258d96ef83accf2a44a9425bef935d0d4cc4",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_01.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_02.png",
+      "bytes": 981,
+      "sha256": "7757422b39fccba911b75288123a489577cebc8812e080dbcd92e1cbd76d44a7",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_02.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_03.png",
+      "bytes": 981,
+      "sha256": "7757422b39fccba911b75288123a489577cebc8812e080dbcd92e1cbd76d44a7",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_03.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_04.png",
+      "bytes": 5475,
+      "sha256": "1fa39cc4e25af651ec8fedef97284daf52865564263e941a6519b001b5a7102f",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_04.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_05.png",
+      "bytes": 3442,
+      "sha256": "9c755a9e337695e5729f4ccfcd6c7b03d5d248baf3cbb075f2f8e19604b5e8f3",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_05.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS00_06.png",
+      "bytes": 390,
+      "sha256": "a4086f6537895f685f60560f4ba7e11b21e9e8129dc4383bd9042dc23513f24a",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS00_06.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_00.png",
+      "bytes": 80780,
+      "sha256": "a9a08163cf7e8fd14f58103d9a2cacc9aafd0381593f4f2cf2afb75c70dd9359",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_00.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_01.png",
+      "bytes": 2883,
+      "sha256": "ac09acaf16bff1df22913e45f690258d96ef83accf2a44a9425bef935d0d4cc4",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_01.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_02.png",
+      "bytes": 981,
+      "sha256": "7757422b39fccba911b75288123a489577cebc8812e080dbcd92e1cbd76d44a7",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_02.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_03.png",
+      "bytes": 981,
+      "sha256": "7757422b39fccba911b75288123a489577cebc8812e080dbcd92e1cbd76d44a7",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_03.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_04.png",
+      "bytes": 387,
+      "sha256": "fc9b70aeddfe959bd709b881e2713d7d06e2e401987c9b95208d22adbd38a906",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_04.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_05.png",
+      "bytes": 5475,
+      "sha256": "1fa39cc4e25af651ec8fedef97284daf52865564263e941a6519b001b5a7102f",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_05.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/source-textures/psp/FCHR_P_BRS02_06.png",
+      "bytes": 3442,
+      "sha256": "9c755a9e337695e5729f4ccfcd6c7b03d5d248baf3cbb075f2f8e19604b5e8f3",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\variants\\FCHR_P_BRS02_06.png",
+      "role": "PSP atlas used by model parser",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/extraction_manifest.json",
+      "bytes": 459354,
+      "sha256": "332959424d1d08deae941c7603a73f6b8c03f799850aef885d02d0650b452da1",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\extraction_manifest.json",
+      "role": "PGR extraction provenance; no decryption keys",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/reference_validation.json",
+      "bytes": 3427,
+      "sha256": "194a9ec86cdc75d6090ec969a4f69a80956e363ec21412834f9f8c1991663fb4",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\reference_validation.json",
+      "role": "PGR extraction provenance; no decryption keys",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/references/INSM.md",
+      "bytes": 4804,
+      "sha256": "8786d06f9d0043919a6453785562249f216f8d3b5f340312e9314833383b5feb",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\research\\INSM.md",
+      "role": "format research lead",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/references/INSM_LICENSE",
+      "bytes": 1493,
+      "sha256": "8789b87ffcadf159f28f818dd9dbaeb22259d5766547d2b7ceb0d07306c7e137",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\research\\LICENSE",
+      "role": "upstream documentation license",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/history/PGR_BRS_REFERENCE_ASSESSMENT.md",
+      "bytes": 4274,
+      "sha256": "525a3bdbcc68b09ac96b678fb848639e0cb20d9922699e35f03070ad61f2e5ab",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\docs\\PGR_BRS_REFERENCE_ASSESSMENT.md",
+      "role": "earlier reference assessment; predates model candidate",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/history/PROGRESS_before_git_checkpoint.md",
+      "bytes": 29477,
+      "sha256": "e2ee942e7c9894f7b24abc26b1863c73d9bd1aa84502dbb71f310013571e6165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\PROGRESS.md",
+      "role": "historical project notes; current model status is STATUS.json",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/runtime/reencoded-consumption.json",
+      "bytes": 401,
+      "sha256": "5ae85841d6b4bc8994f6f37302f8f69f7f3f0be4d5b0a9498334aee82fec9539",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\runtime_test\\20260922-184753-reencoded\\captures\\reencoded-consumption.json",
+      "role": "exact in-game memory match of rewritten original",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/runtime/20260922-184753-reencoded.json",
+      "bytes": 1022,
+      "sha256": "28c6b96ecead60f78e67240053f0f76cbad95c550c75866282b8dc785bc5f7db",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\runtime_test\\20260922-184753-reencoded\\session.json",
+      "role": "test launch metadata; not current process state",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/runtime/20260922-185518-pgr.json",
+      "bytes": 1008,
+      "sha256": "07cb5afce1a1c95b2ac9aebb02dc5e073d40a2d50049b4060672442432c89807",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\runtime_test\\20260922-185518-pgr\\session.json",
+      "role": "test launch metadata; not current process state",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/binding_candidate.json",
+      "bytes": 716,
+      "sha256": "4c76d4daea58d7ad06329ec8a26e0e5069fd9d14291b28b361f8043c6ca65157",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\binding_candidate.json",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/detail_mask.png",
+      "bytes": 172288,
+      "sha256": "c9eeec3c5d22c52d0bffe79cdc23bcb02e625fdf4cb1ed04a1a688d6e939f98f",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\detail_mask.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/original_nearest_2048.png",
+      "bytes": 156885,
+      "sha256": "698be2db0f3e2c78cfe1604d11f145bb9c705d54f6de335ae8581a8ad34006ce",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\original_nearest_2048.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/protected_source_pixels.png",
+      "bytes": 2487,
+      "sha256": "b330755528306af9bb5e874c4e7a25a915835f90282b657fb2e3fe68214d9171",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\protected_source_pixels.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/README_한국어.txt",
+      "bytes": 2485,
+      "sha256": "40fdb2bbecaad25b919752340d41669d746047d932f9f12ea1cffc626b7016d5",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\README_한국어.txt",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/registration_diagnostic.jpg",
+      "bytes": 246995,
+      "sha256": "4b937e8993b902639dfa9ab9347ffeb23a1cbefc4b1d709052d0eb7fbfadc6c9",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\registration_diagnostic.jpg",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/source_only_2048.png",
+      "bytes": 2952055,
+      "sha256": "3b905d65df525b48caaa58dbf08c5108bb2f317553833e363c16af135bb38878",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\source_only_2048.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/stella_body_psp_2048.png",
+      "bytes": 3758732,
+      "sha256": "49f44e51c1c48c3b59f97252f4fe986e9a40a6765be5b1adb9d5645ec3f07225",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\stella_body_psp_2048.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/Stella_comparison.png",
+      "bytes": 891961,
+      "sha256": "baf754774cc7df094c6da8bf7c04fc7be6b739845036e9924d7d86c7e745adaf",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\Stella_comparison.png",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/booster-texture-v2/validation.json",
+      "bytes": 1710,
+      "sha256": "efe93121af277a78c46e649d2e313a29a7b75cf94b695739816c3227bf3c60d8",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\stella_hd\\corrected_v2\\validation.json",
+      "role": "earlier PSP costume texture refinement; not PGR geometry",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/runtime/booster-application-confirmed.json",
+      "bytes": 484,
+      "sha256": "3f18e3c856ef806b078c5e44bf8c5f88291f675af57151e8ef6570cac115b73c",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\captures\\booster-application-confirmed.json",
+      "role": "earlier booster texture upload proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/records/runtime/booster-live-gpu-texture.json",
+      "bytes": 335,
+      "sha256": "398e0f2d3ce982b2f42dbae80150ca82b3635a715c6afc2130091937f20fca65",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\captures\\booster-live-gpu-texture.json",
+      "role": "earlier booster texture upload proof",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/brs_model_port.py",
+      "bytes": 9193,
+      "sha256": "c65cc33731b7ffa6dc82d80fbf3878f9915d4017d666910595ead980b507de82",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\brs_model_port.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/pgr_skin_source.py",
+      "bytes": 3244,
+      "sha256": "23cdd2e9a3de680fef185d29aee23450637ce5cc6a36e7f888e56cad0d3e5136",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\pgr_skin_source.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/pgr_retarget_psp.py",
+      "bytes": 7617,
+      "sha256": "2a039a7fced4779adccdef2e1bfcef7adb5581020a5795e2c5d553dad6bcb8da",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\pgr_retarget_psp.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/brs_build_model_candidate.py",
+      "bytes": 12951,
+      "sha256": "f6fccf447ac72faf2dd00c3f62bfd00d5e3839cc393b0a865294e7d69e2bf080",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\brs_build_model_candidate.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/build_model_test_iso.py",
+      "bytes": 1829,
+      "sha256": "cea64a2e2d48b594a301573f4b13dbc0eccfc4d8a25b5dd864d9d98b02d38143",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\build_model_test_iso.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/build_port_viewer.py",
+      "bytes": 6914,
+      "sha256": "26293de71e4c0d33180188fe6ed937e4a90f9ce957e01dfba5c32aec78811692",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\build_port_viewer.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/pgr_build_viewer.py",
+      "bytes": 9412,
+      "sha256": "cb74a3cdd276b99b9e0926d63a64ef25f6bcf94d7688b002e6a814f20b53a9d6",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\pgr_build_viewer.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/pgr_extract_reference.py",
+      "bytes": 3653,
+      "sha256": "b64093737638fbc8c7acebbdc480d2f71909122e59d27b70b8410578c8a41df4",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\pgr_extract_reference.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/pgr_probe_index.py",
+      "bytes": 1333,
+      "sha256": "dbf2ed6e42668f7f0f435df9f9fb7737412ccdde5af17c67451e00391eda70f8",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\pgr_probe_index.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/Launch-ModelTest.ps1",
+      "bytes": 3667,
+      "sha256": "01c06b3b1b78024072a1ccb7dd121518511922d0a9c923bb587616bd12df50bf",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\Launch-ModelTest.ps1",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/model_runtime.mjs",
+      "bytes": 2221,
+      "sha256": "5b34ecb0125fc95eb8340acf4de5bd0c67db8403d15b9b69d2ca892148001075",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\model_runtime.mjs",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/stella_correct_atlas.py",
+      "bytes": 6919,
+      "sha256": "398e5e4fac335196e7da8e5b28391341875669694aa0bbabaf30eb948982febd",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\stella_correct_atlas.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/stella_extract_source.py",
+      "bytes": 2066,
+      "sha256": "3975f38d3aacd700735c7bae2149a375791483e8caf6330e3d172c0e4bdf3876",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\stella_extract_source.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/stella_inventory_variants.py",
+      "bytes": 3844,
+      "sha256": "914a38e1b16f47b7c72381ce1329e01a1cba8c3d6e635ae5a8e4ce1ee78ff3e7",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\stella_inventory_variants.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/stella_package_preview.py",
+      "bytes": 13426,
+      "sha256": "c5d8698fc7051477b706a9c38183f16ed303668268c829dbffc3f1dbd5d8218d",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\tools\\stella_package_preview.py",
+      "role": "frozen source script; original local paths retained",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/dependencies/brs_patch.py",
+      "bytes": 45876,
+      "sha256": "afdfd0ef6d36200be672c58985702a1774f154b1a83163b95e886bbe278697b4",
+      "source": "P:\\AI\\Codex\\work_archive\\2026-07-25\\new-chat-2\\work\\patch_pipeline\\brs_patch.py",
+      "role": "local ISO reader and relocation helper",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/tools/dependencies/ptmd_codec.py",
+      "bytes": 25468,
+      "sha256": "78b3b1f3b1f3541c93f934d7991132c05fd394f0706583fe9c37336108d63d9a",
+      "source": "P:\\AI\\Codex\\work_archive\\2026-07-25\\new-chat-2\\work\\ui_graphics_pipeline\\ptmd_codec.py",
+      "role": "local texture-format helper",
+      "copy_exact": true
+    },
+    {
+      "path": "model-port/STATUS.json",
+      "bytes": 1545,
+      "sha256": "be917018153b32942660f68628f6a67766b7272b33ecb60d94940cd5a91c7eb5",
+      "source": null,
+      "role": "current authoritative model status",
+      "copy_exact": false
+    },
+    {
+      "path": "model-port/README.md",
+      "bytes": 4897,
+      "sha256": "1cfdd2d12dbd54771093e514752e5d5a0df4540dfb60a40143821e4960b59b1a",
+      "source": null,
+      "role": "resume guide and verified scope",
+      "copy_exact": false
+    },
+    {
+      "path": "model-port/.gitattributes",
+      "bytes": 129,
+      "sha256": "53d029756824c916a995feb4add1f9391e0c0e5d2bf017d75a7dcf37f2e865a6",
+      "source": null,
+      "role": "byte-preserving Git attributes",
+      "copy_exact": false
+    },
+    {
+      "path": "model-port/.gitignore",
+      "bytes": 75,
+      "sha256": "62baf66cc451ca70e4a5ebc8972045eb16786838f5bcc2385f0c45277666ebe6",
+      "source": null,
+      "role": "exclude runtime files and local keys",
+      "copy_exact": false
+    }
+  ],
+  "total_bytes": 141148649,
+  "excluded": [
+    "original game ISO/CSO",
+    "PGR bundle snapshots and decryption key file",
+    "emulator executables and dependencies",
+    "saves and savestates",
+    "32MiB PSP memory dumps"
+  ],
+  "current_status": "model-port/STATUS.json"
+}

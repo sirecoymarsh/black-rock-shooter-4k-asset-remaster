@@ -1,0 +1,9 @@
+*.iso
+*.cso
+*.ppst
+*.sav
+*.exe
+*.dll
+*Keys.json
+model-ram.bin
+__pycache__/

@@ -1,0 +1,102 @@
+{
+  "scope": "Full INSM+SC development candidate, not game verified",
+  "original_reencode": {
+    "header": [
+      1,
+      7,
+      8,
+      0,
+      47,
+      44,
+      7,
+      0,
+      134,
+      56,
+      344,
+      1416,
+      2920,
+      258144,
+      258256,
+      4488,
+      4088,
+      16896,
+      258256
+    ],
+    "size": 342496,
+    "scratch_size": 16896,
+    "draws": 134,
+    "vertex_bytes": 246612
+  },
+  "original_reencode_positions_exact": true,
+  "original_reencode_weights_exact": true,
+  "original_reencode_textures_exact": true,
+  "script_animation_suffix_exact": true,
+  "candidate": {
+    "header": [
+      1,
+      13,
+      14,
+      0,
+      47,
+      44,
+      7,
+      0,
+      155,
+      56,
+      560,
+      1800,
+      3304,
+      2626096,
+      2626208,
+      5440,
+      4940,
+      25244,
+      2626208
+    ],
+    "size": 3109904,
+    "scratch_size": 25244,
+    "draws": 155,
+    "vertex_bytes": 2612772
+  },
+  "candidate_compressed_size": 727157,
+  "candidate_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "parts": [
+    {
+      "part": "R2BlackrockMd010011Eye",
+      "triangles": 432,
+      "batches": 1
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "triangles": 8695,
+      "batches": 14
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "triangles": 2112,
+      "batches": 1
+    },
+    {
+      "part": "R2BlackrockMd010011Face",
+      "triangles": 2324,
+      "batches": 1
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "triangles": 3910,
+      "batches": 1
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "triangles": 1390,
+      "batches": 3
+    }
+  ],
+  "game_installed": false,
+  "limitations": [
+    "PGR facial blendshapes not transplanted",
+    "Original alternate hand meshes disabled; weapon meshes preserved",
+    "Accessory skin collapsed to available PSP joints; motion and clipping unverified",
+    "Memory budget and loader growth unverified"
+  ]
+}

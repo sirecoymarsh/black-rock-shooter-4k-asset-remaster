@@ -1,0 +1,23 @@
+{
+  "reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6",
+  "port": 49219,
+  "pid": 82636,
+  "variant": "pgr",
+  "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\runtime_test\\20260922-185518-pgr",
+  "iso_sha256": "ffd94390d4f0703a5ba4c2fe66e15cf576215ffaabf588a2a0574cdb7398dd42",
+  "executable": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\runtime_test\\runtime\\PPSSPPModelPort.exe",
+  "changes": {
+    "WindowY": "80",
+    "GameVolume": "0",
+    "WindowWidth": "1056",
+    "WindowX": "80",
+    "ReplaceTextures": "False",
+    "InternalResolution": "4",
+    "WindowHeight": "660",
+    "RemoteISOPort": "49219",
+    "FullScreen": "False"
+  },
+  "iso": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\candidate_v1\\BRS_pgr_candidate.iso",
+  "state_before_costume_swap": true,
+  "tested": false
+}

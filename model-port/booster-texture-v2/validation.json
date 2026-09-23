@@ -1,0 +1,30 @@
+{
+  "scope": "FCHR_P_BRS02_00 only; PSP costume and source-coordinate layout preserved",
+  "input_sha256": "a9a08163cf7e8fd14f58103d9a2cacc9aafd0381593f4f2cf2afb75c70dd9359",
+  "output_sha256": "49f44e51c1c48c3b59f97252f4fe986e9a40a6765be5b1adb9d5645ec3f07225",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "scale": 8,
+  "mode": "RGBA",
+  "alpha_exact_nearest_8x": true,
+  "protected_pixels_match_source_only_baseline": true,
+  "protected_source_pixel_count": 39013,
+  "detail_applied_fraction": 0.4046907424926758,
+  "mean_source_scale_RGB_error": 2.7224629720052085,
+  "max_generated_detail_delta": 20,
+  "registration_forward_backward_error_median": 0.014170167967677116,
+  "method": "Source RGB interpolation and bounded sharpening; original alpha exact nearest 8x. Farneback registers AI to source, transfers only masked +/-18 high-frequency material residual. Protect original face, skin, stars, zipper, strong edges and alpha boundaries.",
+  "limitations": [
+    "No new mesh geometry",
+    "Source atlas is 256x256; not native 4K artwork",
+    "Runtime motion/UV seam review and black-screen cause investigation pending; menu GPU upload verified",
+    "Auxiliary eye/hair/weapon textures and other costumes unchanged"
+  ],
+  "game_applied": true,
+  "runtime_verified": false,
+  "runtime_texture_upload_verified": true,
+  "runtime_verification_scope": "Booster Unit in character menu: live GPU RGBA equals 2048x2048 candidate exactly. Motion/seams and black-screen cause remain unverified.",
+  "runtime_evidence": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\captures\\booster-application-confirmed.json"
+}

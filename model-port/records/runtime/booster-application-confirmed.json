@@ -1,0 +1,13 @@
+{
+  "size": [
+    2048,
+    2048
+  ],
+  "exact_RGBA_match": true,
+  "gpu_RGBA_sha256": "476674145709eb08eea90378dd30e7b77515f38c881e4da23b3a97a05496ad2e",
+  "candidate_RGBA_sha256": "476674145709eb08eea90378dd30e7b77515f38c881e4da23b3a97a05496ad2e",
+  "scene": "menu character rendering; Booster Unit",
+  "ge_address": "0x040cc010",
+  "ge_draw_count": 176,
+  "finding": "GPU replacement verified; earlier zero-count interpretation invalid because debug overlay disabled"
+}

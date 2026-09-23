@@ -1,0 +1,20 @@
+{
+  "source_ptmd_sha256": "5bd54623f9f9b349a6d8b76178aaa11fcdabd078dea98ce779f863b72175e4db",
+  "texture_dimensions": [
+    256,
+    256
+  ],
+  "bytes_hashed": 65536,
+  "hash_algorithm": "xxh64 lower 32 bits, seed 0xBACD7814",
+  "clut_cache_low": "d2aac913",
+  "data_hash": "25a1703a",
+  "candidate_key": "00000000d2aac91325a1703a",
+  "assumptions": [
+    "Runtime uploads original swizzled PTMD bytes unchanged",
+    "Runtime bufw equals 256",
+    "Runtime CLUT format matches historical d2aac913 family"
+  ],
+  "evidence": "PPSSPP TextureReplacer.cpp ComputeHash and historical matching palette/dimension cache key",
+  "runtime_key_observed": false,
+  "broad_palette_only_wildcard_used": false
+}

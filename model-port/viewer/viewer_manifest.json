@@ -1,0 +1,16 @@
+[
+  {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\R2BlackrockMd010011_static_reference.glb",
+    "sha256": "7aea037612363b874647308ee0483743fc327052e8cf5c963c278153390397fc",
+    "meshes": 6,
+    "vertices": 15846,
+    "triangles": 18863
+  },
+  {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\pgr_reference\\viewer\\R2BlackrockMd019031_static_reference.glb",
+    "sha256": "9611b3497fdd47f35d0d28ed4e63dd925ed2a8a32f4a43e99fbb8d9716e6b2c3",
+    "meshes": 6,
+    "vertices": 28971,
+    "triangles": 23704
+  }
+]

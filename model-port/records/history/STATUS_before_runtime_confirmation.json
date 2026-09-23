@@ -1,0 +1,25 @@
+{
+  "stage": "pgr_geometry_skin_and_psp_candidate_built",
+  "candidate_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "candidate_iso_sha256": "ffd94390d4f0703a5ba4c2fe66e15cf576215ffaabf588a2a0574cdb7398dd42",
+  "psp_character_target": "FCHR_P_BRS02 / Booster Unit",
+  "pgr_parts": [
+    "Face",
+    "Eye",
+    "Hair",
+    "Body",
+    "Cloth",
+    "Zipper"
+  ],
+  "psp_bones": 47,
+  "pgr_triangles": 18863,
+  "preview": "http://127.0.0.1:49327/Model_port_preview.html",
+  "game_applied": false,
+  "runtime_status": "Original-reencode test exited before verified costume swap; awaiting user clarification before relaunch.",
+  "next_step": "Load separate reencoded ISO, reload Booster asset by costume swap; prove reencoded original then PGR candidate, native PNG mapping, movement.",
+  "limitations": [
+    "PGR facial blendshapes absent",
+    "Accessory and finger rig simplified",
+    "Game memory/animation/collision unverified"
+  ]
+}

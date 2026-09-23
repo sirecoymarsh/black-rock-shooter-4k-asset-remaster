@@ -1,0 +1,1428 @@
+{
+  "scope": "Offline prototype skin remapping; not installed or runtime verified",
+  "source_skin_sha256": "0d90021dcd04f395f34069a882c661890f33a5c36269a883731a40cc5e1ad421",
+  "psp_sha256": "c4e006fa2c59cd258669991b8fd36132222140caa4db52ab90af70037db63822",
+  "landmarks_source_y": [
+    0.0,
+    0.11752364784478668,
+    0.5567498217954828,
+    0.9744546413421631,
+    1.2275575128114362,
+    1.382835638626426,
+    1.46992027759552,
+    1.8
+  ],
+  "landmarks_target_y": [
+    0.0,
+    11.990838821237835,
+    52.71278835199599,
+    90.6036148071289,
+    105.55104064941406,
+    120.06922149658203,
+    126.49478149414062,
+    154.88163762092591
+  ],
+  "bone_rules": [
+    {
+      "part": "R2BlackrockMd010011Eye",
+      "source": "Bip001Head",
+      "psp_bone": 4,
+      "rule": "head"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Pelvis",
+      "psp_bone": 0,
+      "rule": "pelvis"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLThighTwist",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Spine",
+      "psp_bone": 1,
+      "rule": "lower spine"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneL01",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRThighTwist",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneR01",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneL00",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneR00",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneL02",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairPelvisBoneR02",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLCalfTwist",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLCalfTwist1",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLForeArmTwist",
+      "psp_bone": 19,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLForeArmTwist1",
+      "psp_bone": 19,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LHand",
+      "psp_bone": 20,
+      "rule": "hand"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Neck",
+      "psp_bone": 3,
+      "rule": "neck"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Head",
+      "psp_bone": 4,
+      "rule": "head"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Spine2",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "OppeinBoneL00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger0",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger2",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger3",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger4",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger41",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger42",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger01",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger21",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger22",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger1",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger11",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger12",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger02",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger31",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFinger32",
+      "psp_bone": 21,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRCalfTwist",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRCalfTwist1",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRForeArmTwist",
+      "psp_bone": 24,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRForeArmTwist1",
+      "psp_bone": 24,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RHand",
+      "psp_bone": 25,
+      "rule": "hand"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "OppeinBoneR00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger0",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger2",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger3",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger4",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger41",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger42",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger01",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger21",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger22",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger1",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger11",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger12",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger02",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger31",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFinger32",
+      "psp_bone": 27,
+      "rule": "fingers collapsed to PSP hand end"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LClavicle",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLUpperArmTwist",
+      "psp_bone": 18,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneL00",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneL01",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneR02",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneR03",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneR00",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneR01",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneL02",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneL03",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneL00",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "StreamerBoneL01",
+      "psp_bone": 0,
+      "rule": "waist streamer collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "ZipperBone00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BowBone06",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BowBone01",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BowBone03",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BowBone04",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LFoot",
+      "psp_bone": 40,
+      "rule": "ankle"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LToe0",
+      "psp_bone": 41,
+      "rule": "toe"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RFoot",
+      "psp_bone": 44,
+      "rule": "ankle"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RToe0",
+      "psp_bone": 45,
+      "rule": "toe"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RClavicle",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneM04",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR04",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR05",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneM03",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001Spine1",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneM00",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneM01",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneM02",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR00",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL00",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRUpperArmTwist",
+      "psp_bone": 23,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneR01",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneR02",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001RUpperArm",
+      "psp_bone": 23,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneRUpperArmTwist1",
+      "psp_bone": 23,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "ElbowBoneR01",
+      "psp_bone": 24,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "ElbowBoneR00",
+      "psp_bone": 24,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneR00",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR01",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL01",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR02",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneR03",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL04",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL05",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "RepairClavicleBoneL02",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "BoneLUpperArmTwist1",
+      "psp_bone": 18,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "Bip001LUpperArm",
+      "psp_bone": 18,
+      "rule": "upper arm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "ElbowBoneL01",
+      "psp_bone": 19,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "ElbowBoneL00",
+      "psp_bone": 19,
+      "rule": "forearm/twist collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL02",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Cloth",
+      "source": "CloakBoneL03",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "Bip001Spine2",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "OppeinBoneL00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "Bip001Spine1",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneL00",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneL01",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneL02",
+      "psp_bone": 30,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "OppeinBoneR00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneR00",
+      "psp_bone": 29,
+      "rule": "coat root"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneR01",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Zipper",
+      "source": "CloakBoneR02",
+      "psp_bone": 31,
+      "rule": "coat side; original PGR cloth dynamics not preserved"
+    },
+    {
+      "part": "R2BlackrockMd010011Face",
+      "source": "Bip001Head",
+      "psp_bone": 4,
+      "rule": "head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR01",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR06",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR07",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR08",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR00",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "Bip001Head",
+      "psp_bone": 4,
+      "rule": "head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL00",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL01",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL02",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL07",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL08",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL09",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL10",
+      "psp_bone": 9,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL11",
+      "psp_bone": 9,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL03",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL04",
+      "psp_bone": 9,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL05",
+      "psp_bone": 10,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL13",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL18",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL14",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL15",
+      "psp_bone": 9,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL16",
+      "psp_bone": 9,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL27",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL28",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL29",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL30",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL19",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL20",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL21",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR03",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR04",
+      "psp_bone": 12,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR02",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR19",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR20",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR21",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR22",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR12",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR13",
+      "psp_bone": 12,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR11",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR10",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR15",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR16",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneR17",
+      "psp_bone": 11,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL23",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL24",
+      "psp_bone": 7,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneL25",
+      "psp_bone": 8,
+      "rule": "hair chain by height and side"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF12",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF13",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF16",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF07",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF08",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF14",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF09",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF10",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF03",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF04",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF00",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF01",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF05",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF18",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF19",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF20",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF21",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF25",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF26",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF23",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF28",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF31",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF35",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF32",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF36",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF33",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF37",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF38",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF29",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF40",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF41",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF44",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "HairBoneF42",
+      "psp_bone": 4,
+      "rule": "front hair follows head"
+    },
+    {
+      "part": "R2BlackrockMd010011Hair",
+      "source": "Bip001Neck",
+      "psp_bone": 3,
+      "rule": "neck"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Pelvis",
+      "psp_bone": 0,
+      "rule": "pelvis"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Spine",
+      "psp_bone": 1,
+      "rule": "lower spine"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Spine1",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Spine2",
+      "psp_bone": 2,
+      "rule": "upper spine collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Neck",
+      "psp_bone": 3,
+      "rule": "neck"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001RClavicle",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001LClavicle",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001Head",
+      "psp_bone": 4,
+      "rule": "head"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "OppeinBoneR00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "OppeinBoneL00",
+      "psp_bone": 2,
+      "rule": "torso accessory collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneRThighTwist",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneR00",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneRThighTwist1",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneR02",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001RThigh",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "kneeBoneR00",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneRCalfTwist",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "kneeBoneR01",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneRCalfTwist1",
+      "psp_bone": 43,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneR01",
+      "psp_bone": 42,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneLThighTwist",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneL00",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneLThighTwist1",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneL02",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "Bip001LThigh",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "kneeBoneL00",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneLCalfTwist",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "kneeBoneL01",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "BoneLCalfTwist1",
+      "psp_bone": 39,
+      "rule": "calf/knee collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairPelvisBoneL01",
+      "psp_bone": 38,
+      "rule": "thigh/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairClavicleBoneR01",
+      "psp_bone": 22,
+      "rule": "shoulder/repair collapse"
+    },
+    {
+      "part": "R2BlackrockMd010011Body",
+      "source": "RepairClavicleBoneL01",
+      "psp_bone": 17,
+      "rule": "shoulder/repair collapse"
+    }
+  ],
+  "vertices": 15846,
+  "triangles": 18863,
+  "psp_bones": 47,
+  "limitations": [
+    "PGR fingers/cloth/twist/hair chains collapsed to PSP bones",
+    "Original PGR facial blendshapes not transplanted",
+    "Rest fit and animation deformation require visual/game verification"
+  ],
+  "game_installed": false
+}

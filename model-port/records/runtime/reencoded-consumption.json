@@ -1,0 +1,16 @@
+{
+  "runtime_model_reencode_consumed": true,
+  "expected_insm_sha256": "3a5be38d73b97716bfc6cb2de67dced1aa4caa89cb12e8d8fa94acde1f1cbcc7",
+  "matches": [
+    {
+      "address": "0x8bb57a0",
+      "full_model_exact": true
+    },
+    {
+      "address": "0x9cd0cd0",
+      "full_model_exact": true
+    }
+  ],
+  "psp_menu_booster_visual_verified": true,
+  "full_animation_verified": false
+}

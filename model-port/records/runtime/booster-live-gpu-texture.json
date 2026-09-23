@@ -1,0 +1,9 @@
+{
+  "time": "2026-09-22T07:14:33.213Z",
+  "event": "gpu.buffer.texture",
+  "width": 2048,
+  "height": 2048,
+  "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\captures\\booster-live-gpu-texture.png",
+  "ge_texture_address": "0x040cc010",
+  "ge_draw_count": 176
+}
