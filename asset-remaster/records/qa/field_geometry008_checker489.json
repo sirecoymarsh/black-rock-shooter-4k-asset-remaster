@@ -1,0 +1,228 @@
+{
+  "group_id": "FM0489",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_04.bin\\sc11\\sc01\\sc00\\tex012.png",
+  "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_04.bin\\sc11\\sc01\\sc00\\tex012.ptm",
+  "source_ptm_sha256": "f90fd910750c2abd85210aaa89f239a239ed85f9b42c0a67cb7c2071268d218e",
+  "source_rgba_sha256": "343b2113e68ba955af58ce7250a67db64952d058cff10c88702b7bfdf27c1484",
+  "id": "FM0489-source-checker-geometry",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry008\\FM0489-source-checker-geometry-8x.png",
+  "output_sha256": "ec6ffa32b0a5d6bc7552cfb2461f36bd2aaccb040383f02b29ed9ecf72c368f5",
+  "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry008\\FM0489-checker-gold-mask.svg",
+  "vector_sha256": "d80224cd6819723bb7ea5b9fd98631edab1e82f197c0b325fee68232e19adbd8",
+  "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry008\\FM0489-checker-gold-mask.png",
+  "mask_sha256": "0b8c34b1e64c05369e7738adaedd2291c4aaafbfee43e6449489935bef423101",
+  "source_audit_sha256": "b4dbd2c0caf2004708a5b5ac9ee890b2b1506581b9a980006a3d7feaa1fff24e",
+  "cells": [
+    {
+      "column": 0,
+      "row": 0,
+      "source_box": [
+        0,
+        0,
+        8,
+        8
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 1,
+      "row": 0,
+      "source_box": [
+        8,
+        0,
+        16,
+        8
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 2,
+      "row": 0,
+      "source_box": [
+        16,
+        0,
+        24,
+        8
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 3,
+      "row": 0,
+      "source_box": [
+        24,
+        0,
+        32,
+        8
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 0,
+      "row": 1,
+      "source_box": [
+        0,
+        8,
+        8,
+        16
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 1,
+      "row": 1,
+      "source_box": [
+        8,
+        8,
+        16,
+        16
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 2,
+      "row": 1,
+      "source_box": [
+        16,
+        8,
+        24,
+        16
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 3,
+      "row": 1,
+      "source_box": [
+        24,
+        8,
+        32,
+        16
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 0,
+      "row": 2,
+      "source_box": [
+        0,
+        16,
+        8,
+        24
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 1,
+      "row": 2,
+      "source_box": [
+        8,
+        16,
+        16,
+        24
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 2,
+      "row": 2,
+      "source_box": [
+        16,
+        16,
+        24,
+        24
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 3,
+      "row": 2,
+      "source_box": [
+        24,
+        16,
+        32,
+        24
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 0,
+      "row": 3,
+      "source_box": [
+        0,
+        24,
+        8,
+        32
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 1,
+      "row": 3,
+      "source_box": [
+        8,
+        24,
+        16,
+        32
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    },
+    {
+      "column": 2,
+      "row": 3,
+      "source_box": [
+        16,
+        24,
+        24,
+        32
+      ],
+      "kind": "translucent_red_gradient",
+      "alpha": 64
+    },
+    {
+      "column": 3,
+      "row": 3,
+      "source_box": [
+        24,
+        24,
+        32,
+        32
+      ],
+      "kind": "solid_gold",
+      "alpha": 255
+    }
+  ],
+  "method": "Direct4x4 source rectangle reconstruction; gold RGB exact, red gradients bilinear within each source cell, alpha64/255 exact source nearest8x. This is authored deterministic geometry, not neural upscale.",
+  "source_interpretation_correction": "The apparent gray cells are actually dark red RGB with alpha64; prior yellow/gray visual label depended on the background. Preserve actual source RGBA.",
+  "new_neural_unique_originals": 0,
+  "new_geometry_only_unique_originals": 1,
+  "new_local_passes": 0,
+  "new_external_calls": 0,
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0489-geometry-dual-matte.png",
+      "sha256": "65af860a878f5755fa039240d2cfda1c5829105bcdaf565f004dbbdeef81f052",
+      "review_status": "pending",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ]
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

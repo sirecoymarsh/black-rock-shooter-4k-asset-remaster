@@ -1,0 +1,350 @@
+{
+  "schema": "brs-field-foliage006-source-audit/v1",
+  "previous_goal_turn_classification": "The most recent user percentage reply was status-only/no progress; authoritative geometry010 previously resolved496. No live job is being assumed or restarted. Safe next action is the queued9 unprocessed foliage originals.",
+  "files": [
+    {
+      "group_id": "FM0290",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex016",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.ptm",
+      "source_ptm_sha256": "b9672f925e79fdabf2094e347956aa423f47520d88deaef15d14d501334caa15",
+      "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 2,
+      "source_visual_note": "Tall green branching plants with thin stems.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 508725,
+        "zero_pixels": 2101,
+        "nonzero_pixels": 1995,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 1995,
+        "RGB_in_alpha0_mean": [
+          101.0,
+          105.0,
+          101.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0301",
+      "representative": "map_d_stg04_02.bin/sc11/sc01/sc00/tex013",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.ptm",
+      "source_ptm_sha256": "712e7e556cca6731cfa7bf0c3c361435f290ecdd29d7251b7b8b840b1c3b5915",
+      "source_rgba_sha256": "cbf5a31844c147d815c04c70eb24a3c8cea915aec31704617b47324ba8fdabee",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 2,
+      "source_visual_note": "Radial broad olive leaves.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 506430,
+        "zero_pixels": 2110,
+        "nonzero_pixels": 1986,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 1986,
+        "RGB_in_alpha0_mean": [
+          67.0,
+          69.0,
+          58.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0312",
+      "representative": "map_d_stg04_0a.bin/sc11/sc01/sc00/tex010",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "0e750b9bff29a7bf902d51f0c58a42b022485134316d832c32d83a05a01f42f3",
+      "source_rgba_sha256": "1f1d29b53cbf5deee68e05205f8935ba7a9dcd6df32197c7af87d64ee4cb0f0f",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 3,
+      "source_visual_note": "Wide gray tree-canopy cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 1102110,
+        "zero_pixels": 3870,
+        "nonzero_pixels": 4322,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 4322,
+        "RGB_in_alpha0_mean": [
+          56.0,
+          56.0,
+          50.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0314",
+      "representative": "map_d_stg04_0h.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "f8b3b726ab1701df2f49bfbde1b91d54fc703d90b571ab79d90e12b467d22292",
+      "source_rgba_sha256": "2a4c36ca4bb42ea894cd09594b6ffd091f39c23a2c3da5c8f588fd65366e3aab",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Dark tree-line billboard with trunks and leafy canopy.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 2559180,
+        "zero_pixels": 6348,
+        "nonzero_pixels": 10036,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 10036,
+        "RGB_in_alpha0_mean": [
+          1.3585381222432262,
+          1.6751732829237556,
+          1.670132325141777
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0316",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "2f2eec8d3c3d0ea19a16328aa7929bc3ccf234b4e8584049219d0757090e287e",
+      "source_rgba_sha256": "66b0cb690e4f4cd0b38973d0b963303508d53d833a1d5770e71b89b339c716f3",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Pale tree-line billboard with visible trunks and foliage.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 2831775,
+        "zero_pixels": 5279,
+        "nonzero_pixels": 11105,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 11105,
+        "RGB_in_alpha0_mean": [
+          74.76075014207237,
+          74.76075014207237,
+          74.76075014207237
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0317",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "550b61bf11b04b00f8287c61dac8c759fe79185127d124af2c9f1f7152008834",
+      "source_rgba_sha256": "23ab809579abfe5ed3e4a6b526f3f68a2557fd1284e29f65ff739daf365fa951",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Related pale tree-line billboard; distinct source RGBA, not assumed duplicate.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 2482425,
+        "zero_pixels": 6649,
+        "nonzero_pixels": 9735,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 9735,
+        "RGB_in_alpha0_mean": [
+          82.0,
+          90.0,
+          99.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0318",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "cedc2c2ce9e8dfb7eca356cc7e64e50b6522480614e7fa3b39c22d6f51afbb7b",
+      "source_rgba_sha256": "4931281d35164ecc82cff59b033b81d1f8b030fcdef9a1d862dbe1fa2d2e732a",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Wide pale-gray foliage cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 1102110,
+        "zero_pixels": 3870,
+        "nonzero_pixels": 4322,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 4322,
+        "RGB_in_alpha0_mean": [
+          132.0,
+          140.0,
+          132.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0320",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.ptm",
+      "source_ptm_sha256": "3bb02d96884ab4b0fab8e10f57dbf9df6edfba4c7a11a1de4ac6e9a046a2148d",
+      "source_rgba_sha256": "c1603b3d401380e26457d3e22cc6ac5899dfe53aea43e2477a2cf6e9b84a3a16",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Round green canopy cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 533205,
+        "zero_pixels": 2005,
+        "nonzero_pixels": 2091,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 2091,
+        "RGB_in_alpha0_mean": [
+          132.0,
+          140.0,
+          132.0
+        ],
+        "unique_alpha_levels": 2
+      }
+    },
+    {
+      "group_id": "FM0325",
+      "representative": "map_d_stg04_0k.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "621fc0924ff3148339892830acffc7d213471b6a6bbff55de250231b076b7b75",
+      "source_rgba_sha256": "60759116fdd8e5adb6785e45b13c7655f7ba621c74fbd141d5f534c93f4bb8b9",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 5,
+      "source_visual_note": "Dark tree cluster billboard with several trunks.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false,
+      "source_alpha": {
+        "min": 0,
+        "max": 255,
+        "mass": 2541330,
+        "zero_pixels": 6418,
+        "nonzero_pixels": 9966,
+        "weak_1_to31_pixels": 0,
+        "opaque_pixels": 9966,
+        "RGB_in_alpha0_mean": [
+          3.050483016516049,
+          3.5232159551262074,
+          3.664069803677158
+        ],
+        "unique_alpha_levels": 2
+      }
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\source-alpha-01.png",
+      "sha256": "273cc786ec2c09bd1410eb5ce225173d03e74614084e20e6f8ecd93916050b7c",
+      "group_ids": [
+        "FM0290",
+        "FM0301",
+        "FM0312"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\source-alpha-02.png",
+      "sha256": "963ae7ef4af16616c26b7225d20b39c335f90671b45fcb9d75a828cb22a0ecf2",
+      "group_ids": [
+        "FM0314",
+        "FM0316",
+        "FM0317"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\source-alpha-03.png",
+      "sha256": "d2d26f3c31ce6264979bd9d0202a3747c95cc40a1f613c7db6dc6409f437dd6a",
+      "group_ids": [
+        "FM0318",
+        "FM0320",
+        "FM0325"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "catalog_before_sha256": "9bd21fb0c9f49430fe662f849b661fad55f84e58ed6647bdc1520c500a164ffa",
+  "geometry_contract_before_sha256": "bfb0772f39c28d3260ac51fd2fce690773db6e499710f6ab44b1eab86b15d7d3",
+  "new_local_passes": 0,
+  "new_external_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

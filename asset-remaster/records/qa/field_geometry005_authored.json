@@ -1,0 +1,1083 @@
+{
+  "schema": "brs-authored-material-geometry/v1",
+  "parent_report_sha256": "a129abbaa81e15ddf41315f2cab6aa66c58b2cdab1d3cfd54812cfcfcfdf0f27",
+  "files": [
+    {
+      "group_id": "FM0113",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.ptm",
+      "source_ptm_sha256": "96a595559793146a06fcd51226c03835d4dc1945d1db2a00eb160ab246839e63",
+      "source_rgba_sha256": "cdc6e87bb899a92da7de3362bece2d2adf9538c9c36685bc02dff9851b9cd5b8",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0113-wdn-8x.png",
+      "parent_sha256": "2979f1056fa9cbdaed9575decacdbd45b93e78571bef216b190c5fac0df901d4",
+      "id": "FM0113-authored-v2",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-v2-8x.png",
+      "output_sha256": "d2790d282caa5015f1722c6f15ed1e45c281c5632c99fd908380548d0a87ad79",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-v2-mask.png",
+      "mask_sha256": "0bf81813c5b0ae71151078dc63082600e4c90efeb58f371a3ea1fa1451bca121",
+      "previous": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-source-grid-v1-8x.png",
+      "previous_sha256": "e6f36bd46897932f5a6100a5204a3122da1262ae46fe8cc466b0eac3fc027c00",
+      "gpt_raw": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0113-v1\\generated-raw.png",
+      "gpt_raw_sha256": "5e350116543ca899c98bd4e66bd79c9ba438a1d7fa2c22887e5bd108aba316c1",
+      "gpt_actual_size": [
+        887,
+        1774
+      ],
+      "gpt_prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0113-v1\\prompt.txt",
+      "gpt_prompt_sha256": "0508b99e171aba86895f8fd0f0251f3ce5a5db50a8f8a7d6ff0d6221ce99e563",
+      "method": "Explicit straight source geometry, rectangular slot and triangular voids; original illumination with constrained externally generated wood/mineral material.",
+      "geometry_vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-support-alpha-v2.svg",
+      "geometry_vector_sha256": "7965e76946a909cd64d2731013c53126444c69a232aba03877a418b5f94f28c3",
+      "alpha_render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-support-alpha-v2.png",
+      "alpha_render_sha256": "447fe9655c6e28f4ad58a3feacd88f80af59f518e91be2cd6e9341556d331b05",
+      "outer_source_polygon": [
+        [
+          7,
+          32
+        ],
+        [
+          25,
+          32
+        ],
+        [
+          26,
+          33
+        ],
+        [
+          26,
+          36
+        ],
+        [
+          27,
+          36
+        ],
+        [
+          27,
+          37
+        ],
+        [
+          26,
+          37
+        ],
+        [
+          26,
+          38
+        ],
+        [
+          25.625,
+          38
+        ],
+        [
+          32.125,
+          64
+        ],
+        [
+          27,
+          64
+        ],
+        [
+          16,
+          49
+        ],
+        [
+          5,
+          64
+        ],
+        [
+          -0.125,
+          64
+        ],
+        [
+          6.375,
+          38
+        ],
+        [
+          6,
+          38
+        ],
+        [
+          6,
+          37
+        ],
+        [
+          5,
+          37
+        ],
+        [
+          5,
+          36
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          6,
+          33
+        ]
+      ],
+      "holes_source_polygons": [
+        [
+          [
+            10,
+            34
+          ],
+          [
+            22,
+            34
+          ],
+          [
+            22,
+            36
+          ],
+          [
+            10,
+            36
+          ]
+        ],
+        [
+          [
+            10.5,
+            38
+          ],
+          [
+            21.5,
+            38
+          ],
+          [
+            16,
+            44
+          ]
+        ],
+        [
+          [
+            9,
+            40.5
+          ],
+          [
+            14.5,
+            45.7
+          ],
+          [
+            5.8,
+            56.5
+          ]
+        ],
+        [
+          [
+            23,
+            40.5
+          ],
+          [
+            17.5,
+            45.7
+          ],
+          [
+            26.2,
+            56.5
+          ]
+        ]
+      ],
+      "material_planes": [
+        {
+          "id": "left-leg",
+          "target_quad_source": [
+            [
+              6.375,
+              38
+            ],
+            [
+              9.6,
+              38
+            ],
+            [
+              5,
+              64
+            ],
+            [
+              -0.125,
+              64
+            ]
+          ],
+          "generated_donor_quad_in_32x64_coordinates": [
+            [
+              6.45,
+              36
+            ],
+            [
+              8.65,
+              36
+            ],
+            [
+              3.95,
+              60.4
+            ],
+            [
+              1.6,
+              61.7
+            ]
+          ]
+        },
+        {
+          "id": "right-leg",
+          "target_quad_source": [
+            [
+              22.4,
+              38
+            ],
+            [
+              25.625,
+              38
+            ],
+            [
+              32.125,
+              64
+            ],
+            [
+              27,
+              64
+            ]
+          ],
+          "generated_donor_quad_in_32x64_coordinates": [
+            [
+              23.35,
+              36
+            ],
+            [
+              25.55,
+              36
+            ],
+            [
+              30.4,
+              61.7
+            ],
+            [
+              28.05,
+              60.4
+            ]
+          ]
+        },
+        {
+          "id": "back-rising-brace",
+          "target_quad_source": [
+            [
+              21,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              4.1,
+              64
+            ],
+            [
+              -1,
+              64
+            ]
+          ],
+          "generated_donor_quad_in_32x64_coordinates": [
+            [
+              6.45,
+              36
+            ],
+            [
+              8.65,
+              36
+            ],
+            [
+              3.95,
+              60.4
+            ],
+            [
+              1.6,
+              61.7
+            ]
+          ]
+        },
+        {
+          "id": "front-falling-brace",
+          "target_quad_source": [
+            [
+              7,
+              38
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              33,
+              64
+            ],
+            [
+              27.9,
+              64
+            ]
+          ],
+          "generated_donor_quad_in_32x64_coordinates": [
+            [
+              6.45,
+              36
+            ],
+            [
+              8.65,
+              36
+            ],
+            [
+              3.95,
+              60.4
+            ],
+            [
+              1.6,
+              61.7
+            ]
+          ]
+        },
+        {
+          "id": "horizontal-cap",
+          "target_quad_source": [
+            [
+              5,
+              32
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              27,
+              38
+            ],
+            [
+              5,
+              38
+            ]
+          ],
+          "generated_donor_quad_in_32x64_coordinates": [
+            [
+              5.8,
+              31.4
+            ],
+            [
+              26,
+              31.4
+            ],
+            [
+              26,
+              35
+            ],
+            [
+              5.8,
+              35
+            ]
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "axis": "v",
+          "position": 2.5,
+          "box": [
+            2.15,
+            0.8,
+            2.85,
+            30
+          ]
+        },
+        {
+          "axis": "v",
+          "position": 4.5,
+          "box": [
+            4.15,
+            0.8,
+            4.85,
+            30
+          ]
+        },
+        {
+          "axis": "v",
+          "position": 7.5,
+          "box": [
+            7.15,
+            0.8,
+            7.85,
+            30
+          ]
+        },
+        {
+          "axis": "v",
+          "position": 10.5,
+          "box": [
+            10.15,
+            0.8,
+            10.85,
+            30
+          ]
+        },
+        {
+          "axis": "v",
+          "position": 13.5,
+          "box": [
+            13.15,
+            0.8,
+            13.85,
+            30
+          ]
+        },
+        {
+          "axis": "v",
+          "position": 15.5,
+          "box": [
+            15.15,
+            0.8,
+            15.85,
+            30
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 1.5,
+          "box": [
+            0,
+            1.15,
+            16,
+            1.85
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 6.5,
+          "box": [
+            0,
+            6.15,
+            16,
+            6.85
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 12.5,
+          "box": [
+            0,
+            12.15,
+            16,
+            12.85
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 18.5,
+          "box": [
+            0,
+            18.15,
+            16,
+            18.85
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 24.5,
+          "box": [
+            0,
+            24.15,
+            16,
+            24.85
+          ]
+        },
+        {
+          "axis": "h",
+          "position": 29.5,
+          "box": [
+            0,
+            29.15,
+            16,
+            29.85
+          ]
+        }
+      ],
+      "source_grid_cell_regions": [
+        [
+          0,
+          0,
+          2.5,
+          1.5
+        ],
+        [
+          0,
+          1.5,
+          2.5,
+          6.5
+        ],
+        [
+          0,
+          6.5,
+          2.5,
+          12.5
+        ],
+        [
+          0,
+          12.5,
+          2.5,
+          18.5
+        ],
+        [
+          0,
+          18.5,
+          2.5,
+          24.5
+        ],
+        [
+          0,
+          24.5,
+          2.5,
+          29.5
+        ],
+        [
+          0,
+          29.5,
+          2.5,
+          30
+        ],
+        [
+          0,
+          30,
+          2.5,
+          32
+        ],
+        [
+          2.5,
+          0,
+          4.5,
+          1.5
+        ],
+        [
+          2.5,
+          1.5,
+          4.5,
+          6.5
+        ],
+        [
+          2.5,
+          6.5,
+          4.5,
+          12.5
+        ],
+        [
+          2.5,
+          12.5,
+          4.5,
+          18.5
+        ],
+        [
+          2.5,
+          18.5,
+          4.5,
+          24.5
+        ],
+        [
+          2.5,
+          24.5,
+          4.5,
+          29.5
+        ],
+        [
+          2.5,
+          29.5,
+          4.5,
+          30
+        ],
+        [
+          2.5,
+          30,
+          4.5,
+          32
+        ],
+        [
+          4.5,
+          0,
+          7.5,
+          1.5
+        ],
+        [
+          4.5,
+          1.5,
+          7.5,
+          6.5
+        ],
+        [
+          4.5,
+          6.5,
+          7.5,
+          12.5
+        ],
+        [
+          4.5,
+          12.5,
+          7.5,
+          18.5
+        ],
+        [
+          4.5,
+          18.5,
+          7.5,
+          24.5
+        ],
+        [
+          4.5,
+          24.5,
+          7.5,
+          29.5
+        ],
+        [
+          4.5,
+          29.5,
+          7.5,
+          30
+        ],
+        [
+          4.5,
+          30,
+          7.5,
+          32
+        ],
+        [
+          7.5,
+          0,
+          10.5,
+          1.5
+        ],
+        [
+          7.5,
+          1.5,
+          10.5,
+          6.5
+        ],
+        [
+          7.5,
+          6.5,
+          10.5,
+          12.5
+        ],
+        [
+          7.5,
+          12.5,
+          10.5,
+          18.5
+        ],
+        [
+          7.5,
+          18.5,
+          10.5,
+          24.5
+        ],
+        [
+          7.5,
+          24.5,
+          10.5,
+          29.5
+        ],
+        [
+          7.5,
+          29.5,
+          10.5,
+          30
+        ],
+        [
+          7.5,
+          30,
+          10.5,
+          32
+        ],
+        [
+          10.5,
+          0,
+          13.5,
+          1.5
+        ],
+        [
+          10.5,
+          1.5,
+          13.5,
+          6.5
+        ],
+        [
+          10.5,
+          6.5,
+          13.5,
+          12.5
+        ],
+        [
+          10.5,
+          12.5,
+          13.5,
+          18.5
+        ],
+        [
+          10.5,
+          18.5,
+          13.5,
+          24.5
+        ],
+        [
+          10.5,
+          24.5,
+          13.5,
+          29.5
+        ],
+        [
+          10.5,
+          29.5,
+          13.5,
+          30
+        ],
+        [
+          10.5,
+          30,
+          13.5,
+          32
+        ],
+        [
+          13.5,
+          0,
+          15.5,
+          1.5
+        ],
+        [
+          13.5,
+          1.5,
+          15.5,
+          6.5
+        ],
+        [
+          13.5,
+          6.5,
+          15.5,
+          12.5
+        ],
+        [
+          13.5,
+          12.5,
+          15.5,
+          18.5
+        ],
+        [
+          13.5,
+          18.5,
+          15.5,
+          24.5
+        ],
+        [
+          13.5,
+          24.5,
+          15.5,
+          29.5
+        ],
+        [
+          13.5,
+          29.5,
+          15.5,
+          30
+        ],
+        [
+          13.5,
+          30,
+          15.5,
+          32
+        ],
+        [
+          15.5,
+          0,
+          16,
+          1.5
+        ],
+        [
+          15.5,
+          1.5,
+          16,
+          6.5
+        ],
+        [
+          15.5,
+          6.5,
+          16,
+          12.5
+        ],
+        [
+          15.5,
+          12.5,
+          16,
+          18.5
+        ],
+        [
+          15.5,
+          18.5,
+          16,
+          24.5
+        ],
+        [
+          15.5,
+          24.5,
+          16,
+          29.5
+        ],
+        [
+          15.5,
+          29.5,
+          16,
+          30
+        ],
+        [
+          15.5,
+          30,
+          16,
+          32
+        ]
+      ],
+      "base_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-material-base-v2.npz",
+      "base_planes_sha256": "e9b8931dc88abb92fcebed93164a1d52f432097c93fa7be8b28956934b99636a",
+      "lower_source_alpha_center_mismatches": 22,
+      "lower_source_alpha_center_IoU": 0.9538784067085954,
+      "lower_alpha_mass_ratio": 1.0060728222959465,
+      "lower_holes_count_at_threshold128": 6,
+      "material_interpretation": "Timber support and concrete/plaster wall inferred as art direction from construction and user request; not independently proven native material metadata.",
+      "limitation": "Straight construction is authored from source anchors, not exact source alpha identity. Upper grid/source shading is interpreted; generated whole layout is not adopted.",
+      "new_neural_passes": 0,
+      "new_external_calls": 1,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "visual_review": "pending"
+    },
+    {
+      "group_id": "FM0029",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "dd883bea40b06bcab188c66267f8dcf9c07589499ce5d1d640fabcb283a66393",
+      "source_rgba_sha256": "b8647bd372b9b63727e763c183af69f3ac91bc36de71425ff46c385bce229611",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0029-wdn-8x.png",
+      "parent_sha256": "03beab1bf4d39ad2fd01c704968ae5d1166a7eccbdc2e38bf10b0ad4b6bace8b",
+      "id": "FM0029-authored-v2",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-authored-v2-8x.png",
+      "output_sha256": "aa34f538c148341c27ee08acf0ef4575d88d9b6dd25129c5cd480c733701cd0f",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-authored-v2-mask.png",
+      "mask_sha256": "0657c9a1b388b55a56d7c4880883c8f8b14a95f1506fba9b6ade3977441df055",
+      "previous": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-source-grid-v1-8x.png",
+      "previous_sha256": "90102b2c228116d7323906d2641879e1ad1b9fec523459cb978366696d8a8728",
+      "gpt_raw": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0029-v1\\generated-raw.png",
+      "gpt_raw_sha256": "eb95b74708c9fe948a22cc56ae2c7c8b35bfb1061cd2304e2f49d42155a45fa4",
+      "gpt_actual_size": [
+        1774,
+        887
+      ],
+      "gpt_prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0029-v1\\prompt.txt",
+      "gpt_prompt_sha256": "2a7141514bdec49b63a00136311edc9bdd01d6f879945deee6a4bdf28d6e6db9",
+      "method": "Built-in GPT redraw, six glass interiors reprojected into source palette-defined opaque glass masks, original source-grid parent elsewhere.",
+      "panes": [
+        {
+          "id": "left-clipped",
+          "source_box": [
+            0,
+            23,
+            8,
+            42
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            0,
+            23.2,
+            7.6,
+            41.4
+          ],
+          "RGB_dark_floor_offset": [
+            4.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        {
+          "id": "small-left",
+          "source_box": [
+            13,
+            25,
+            22,
+            41
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            12.9,
+            24.6,
+            22,
+            41.3
+          ],
+          "RGB_dark_floor_offset": [
+            4.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "large-left",
+          "source_box": [
+            29,
+            23,
+            41,
+            42
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            29.2,
+            23.3,
+            41.5,
+            41.5
+          ],
+          "RGB_dark_floor_offset": [
+            3.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        {
+          "id": "large-right",
+          "source_box": [
+            48,
+            23,
+            60,
+            42
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            48.7,
+            23.3,
+            60.5,
+            41.5
+          ],
+          "RGB_dark_floor_offset": [
+            3.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        {
+          "id": "narrow",
+          "source_box": [
+            64,
+            23,
+            72,
+            64
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            65.0,
+            23.3,
+            72.7,
+            63.8
+          ],
+          "RGB_dark_floor_offset": [
+            3.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        {
+          "id": "small-right",
+          "source_box": [
+            78,
+            32,
+            88,
+            42
+          ],
+          "generated_donor_box_in_128x64_coordinates": [
+            79.5,
+            32.5,
+            89.1,
+            41.5
+          ],
+          "RGB_dark_floor_offset": [
+            5.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "outside_mask_parent_rgba_exact": true,
+      "parent_for_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-source-grid-v1-8x.png",
+      "parent_for_mask_sha256": "90102b2c228116d7323906d2641879e1ad1b9fec523459cb978366696d8a8728",
+      "alpha_parent_exact": true,
+      "limitation": "Glass-only trial. Frames and other atlas regions still carry unapproved prior local geometry; whole atlas remains held. Generated shard placement must be compared to source, not assumed exact.",
+      "new_neural_passes": 0,
+      "new_external_calls": 1,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "visual_review": "pending"
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-whole-authored-v2.png",
+      "sha256": "827232582b6ef0e239fc5815d2a7590e8b53b42c27d5a324af966ea6aa9ca75a",
+      "source_box": [
+        0,
+        0,
+        32,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-detail-authored-v2.png",
+      "sha256": "b6c79312f3de81144382d4ae55204c3ae6787848919b1efabdfc0020e1159ddb",
+      "source_box": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-upper-authored-v2.png",
+      "sha256": "8ccb8e65c7f989a43fc665dc104838d3590e01cdc57ec9206b79269911a964d1",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-whole-authored-v2.png",
+      "sha256": "beb1d17ee1ae4c6b10512f64b5840dcba4fb1767f2af70d4bb6c92e39404d30c",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-detail-authored-v2.png",
+      "sha256": "05008f3bcdc600c6a6ce06a4cfdf79ad7f92093a7df6b7563386f935bf6990e8",
+      "source_box": [
+        0,
+        21,
+        92,
+        45
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-glass-authored-v2.png",
+      "sha256": "7a1387c5c0d88c0f2f2e4933060f8685ae7d057ff77762e888211e6da57d30c9",
+      "source_box": [
+        26,
+        21,
+        64,
+        45
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 2,
+  "tool": "built-in image_gen, model identifier not exposed",
+  "runtime_verified": false,
+  "release_eligible": false
+}

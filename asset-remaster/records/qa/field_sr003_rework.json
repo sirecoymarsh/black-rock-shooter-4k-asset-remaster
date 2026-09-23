@@ -1,0 +1,297 @@
+{
+  "schema": "brs-field-alpha-rework/v1",
+  "batch": "FIELD-SR-003",
+  "basis": "Both initial local outputs exaggerated flat distant architecture boundaries as peeling/deep edges. Compare more prefiltering and Fate anime model, preserving initial Photo alpha exactly.",
+  "new_unique_originals": 0,
+  "image_upload": false,
+  "external_calls": 0,
+  "files": [
+    {
+      "group_id": "FM0115",
+      "representative": "map_d_stg01_0c.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0c.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0c.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "84568479e6421ff6f7d47cb195a202fd53a2c2085ecc53c177fdd44d7975be00",
+      "source_rgba_sha256": "ecaa6fa9976668a59937e4203eee4d8c15f10cd66bf103e118f17519339afc35",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0115-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-wdn065-input.png",
+      "input_sha256": "e40c7fb78b9f0b653e9d89600066f3f773dc95935ef410a8ea9c68c7bb72091f",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-wdn065-native4x.png",
+      "native_sha256": "dce965fa4f128bf498f6b5dbbf8b46aac3376b1ca83cc39b2f5d52dd5cfe891c",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0115-photo-8x.png",
+      "alpha_parent_sha256": "f606063431990bb15c655ce4cd368e6a0801a71d19efd924f2e089a90a6fad93",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        -0.027435302734375,
+        0.7345123291015625,
+        -0.4037322998046875
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-wdn065-8x.png",
+      "output_sha256": "af4459d24a2de8b5360a2186eb3b20e70508f8137334e3fe4f1718669ccdf75f",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.5459999999729916,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Four local conditions convert flat/faded source regions into peeled/deep/outlined planes, or blur them. Requires source geometry and restrained material reconstruction."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0121",
+      "representative": "map_d_stg01_0e.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0e.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0e.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "fc8094a3738235b5841745cb6fe18af8e46cdc337f04ab5451898dc1935b5254",
+      "source_rgba_sha256": "c6f69aa40762303a5c87f0cc1aced809189a9f48358c508a55c2e45a8f919f28",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0121-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-wdn065-input.png",
+      "input_sha256": "cd60464cecbf6fe4b6d4df2fd8d95010ef4e283b52f2e184ded440058c84d57e",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-wdn065-native4x.png",
+      "native_sha256": "0e83ac890dc5b53b6b5d541dade77336033c9c3972f9d73b64c6f3c97aec6f9a",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0121-photo-8x.png",
+      "alpha_parent_sha256": "0649876d8edf49a6cd2d8e53ed63256275851120db1fbcf09951f07fd42d9b75",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        0.628326416015625,
+        0.5764007568359375,
+        -0.8259963989257812
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-wdn065-8x.png",
+      "output_sha256": "c3eb4451c17e43276529f0f7f5f078bfef58e0b07346dbc64af33eef1f451e94",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.1720000000204891,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Four local conditions exaggerate small facade color transitions into cracks or ink contours; strong filtering merely blurs. Held for authored geometry."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0122",
+      "representative": "map_d_stg01_0f.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0f.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0f.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "496be9fb8a39d4ed1cab15fb754e8c01d27cac15639b5150e001206dcf526d00",
+      "source_rgba_sha256": "4e81c260f9a26912bb4de9797f15b6b7403ed32ec3b7df323012c09f734c44d2",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0122-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-wdn065-input.png",
+      "input_sha256": "85bfe93f8cb301128b86ea43842c6289170a44a2cb2a610f06a4ff34bc696d8d",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-wdn065-native4x.png",
+      "native_sha256": "e63cc4646e98a1defdfa83809fa901ebe47d185ac5f3418803267205886cd0f8",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0122-photo-8x.png",
+      "alpha_parent_sha256": "b7c5d7948c28393afd991ed61af64c35ee96fe7da9bdb7368eb5992b320a02de",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        1.0049896240234375,
+        1.0349197387695312,
+        -0.6610565185546875
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-wdn065-8x.png",
+      "output_sha256": "aebf8fd9a5e908275acda76405985cca5c9a656873eb9e98908f64faf7fc1dcd",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.34399999998277053,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Repeated window grid and small right-side graphic remain altered/ambiguous under all four local conditions; preserve geometry and graphic identity."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0115",
+      "representative": "map_d_stg01_0c.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0c.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0c.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "84568479e6421ff6f7d47cb195a202fd53a2c2085ecc53c177fdd44d7975be00",
+      "source_rgba_sha256": "ecaa6fa9976668a59937e4203eee4d8c15f10cd66bf103e118f17519339afc35",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0115-anime035",
+      "model": {
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "name": "RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-anime035-input.png",
+      "input_sha256": "0bc899b55f5c399cd5da9d38dc5bf9a909e805c6471c79f8f9d6ce2500d0f829",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-anime035-native4x.png",
+      "native_sha256": "eea5178178eecc6140147916f8b9a7feaea73efdf31594e32852ed7ecca6a9fb",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0115-photo-8x.png",
+      "alpha_parent_sha256": "f606063431990bb15c655ce4cd368e6a0801a71d19efd924f2e089a90a6fad93",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        -0.04743194580078125,
+        0.8867950439453125,
+        -1.8761367797851562
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0115-anime035-8x.png",
+      "output_sha256": "56a38acbc13e7c55eed557e520b2bebb37620463dc6bf995acda635735e984b4",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.21799999999348074,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Four local conditions convert flat/faded source regions into peeled/deep/outlined planes, or blur them. Requires source geometry and restrained material reconstruction."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0121",
+      "representative": "map_d_stg01_0e.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0e.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0e.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "fc8094a3738235b5841745cb6fe18af8e46cdc337f04ab5451898dc1935b5254",
+      "source_rgba_sha256": "c6f69aa40762303a5c87f0cc1aced809189a9f48358c508a55c2e45a8f919f28",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0121-anime035",
+      "model": {
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "name": "RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-anime035-input.png",
+      "input_sha256": "01593e081c6b2e8745767c8d8cb54905b6b50642135bf298444a5066748aa8ee",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-anime035-native4x.png",
+      "native_sha256": "a594ee92688eda8063bb109339c0838010b0af57dac1bbed83f2baf0cf550ca8",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0121-photo-8x.png",
+      "alpha_parent_sha256": "0649876d8edf49a6cd2d8e53ed63256275851120db1fbcf09951f07fd42d9b75",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        -0.1071319580078125,
+        -0.2129364013671875,
+        -2.6198348999023438
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0121-anime035-8x.png",
+      "output_sha256": "cbda4bb51798352d4bccfde2082c6af653411dedf5d379f5f4169b1d37147523",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.125,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Four local conditions exaggerate small facade color transitions into cracks or ink contours; strong filtering merely blurs. Held for authored geometry."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0122",
+      "representative": "map_d_stg01_0f.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0f.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0f.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "496be9fb8a39d4ed1cab15fb754e8c01d27cac15639b5150e001206dcf526d00",
+      "source_rgba_sha256": "4e81c260f9a26912bb4de9797f15b6b7403ed32ec3b7df323012c09f734c44d2",
+      "classification": "alpha_distant_architecture",
+      "id": "FM0122-anime035",
+      "model": {
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "name": "RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-anime035-input.png",
+      "input_sha256": "950ace30a3ba94e179e28ac2b4fcfd38207539ba015ddf8aa48320be5b746192",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-anime035-native4x.png",
+      "native_sha256": "247ce329059062467d118d6dc415599c87ed4c68683234d89d596a8e7bb2a3cd",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0122-photo-8x.png",
+      "alpha_parent_sha256": "b7c5d7948c28393afd991ed61af64c35ee96fe7da9bdb7368eb5992b320a02de",
+      "alpha_method": "byte-exact initial Photo alpha; no new alpha inference",
+      "weighted_mean_rgb_offset": [
+        -2.0693206787109375,
+        -1.5562362670898438,
+        -2.1363677978515625
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0122-anime035-8x.png",
+      "output_sha256": "808aff4339e056c7f5327788b6807268bf5b53d778225ec42a50f0f7b296803f",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_inference_passes": 1,
+      "seconds": 0.21899999998277053,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held",
+        "reason": "Repeated window grid and small right-side graphic remain altered/ambiguous under all four local conditions; preserve geometry and graphic identity."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0115",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\rework-FM0115.png",
+      "sha256": "da45ac2aff2a881a16532fe6af99c46fe46f2c97490ce3bed44955739bf6bd46",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0121",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\rework-FM0121.png",
+      "sha256": "07a30e763e71d574870871555894ae482b96bfb0720a0e5677d4ad7cbba0c30c",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0122",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\rework-FM0122.png",
+      "sha256": "d692ce91409490981223b0e73d07dd6751813aa2fe40918514913a61b31c7c59",
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ],
+  "actual_local_inference_passes": 6,
+  "runtime_verified": false,
+  "release_eligible": false
+}

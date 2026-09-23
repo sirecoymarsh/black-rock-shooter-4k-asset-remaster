@@ -1,0 +1,105 @@
+{
+  "schema": "brs-geometry007-source-audit/v1",
+  "previous_goal_turn_classification": "progress: SR005 completed135 source classifications,20 local originals,7 static candidates and13 holds with42 real local passes.",
+  "files": [
+    {
+      "group_id": "FM0495",
+      "representative": "map_d_stg06_05.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "b9ef726ab759c5a95c7b5fff9ab94ce8f28a716b27543912b40b3b1cef1c21ce",
+      "source_rgba_sha256": "8ae88b8ac036c865f25683d17d9ef74ee3703b505a9d86708603d5f9cf0b47d6",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_masonry",
+      "page": 10,
+      "source_visual_note": "Pale block wall with clearly staggered mortar rows; straight grout geometry protected.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": true
+    },
+    {
+      "group_id": "FM0496",
+      "representative": "map_d_stg06_05.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "e60517037c35fed0463d814659eb363be951c7afb278243fca3fa6ae6f4d94f3",
+      "source_rgba_sha256": "85157b5c903301cf848f515c1d72183d90382af3378620d0c88dd92246e55621",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_structured_material",
+      "page": 10,
+      "source_visual_note": "Wide gray stone cornice/bands above rectangular slab face; no arbitrary line warping.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": true
+    },
+    {
+      "group_id": "FM0533",
+      "representative": "map_e_stg00_03.bin/sc11/sc01/sc00/tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "c2bfa5e1a6f906bcbaa5e78c531598ce31b9d11e543543e86afe5dcca90bde82",
+      "source_rgba_sha256": "5f9070d4bb6f9358ea0e4aaf44e20c32cd44aaaadd2dbe15497bd5e51aa5cb00",
+      "size": [
+        32,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_pattern_material",
+      "page": 14,
+      "source_visual_note": "Salmon-colored vertical drape/column with white curled ornament at lower edge.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": true
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-source-coordinate.png",
+      "sha256": "7894c730c871ad81dfe0ca67d4bccffb5a6da518ef6c60651e633048339a804c",
+      "group_id": "FM0495",
+      "box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0496-source-coordinate.png",
+      "sha256": "ed38395518848fbba8a939bd69498eb6f474ae71deb9248da4b087992d3330c6",
+      "group_id": "FM0496",
+      "box": [
+        0,
+        0,
+        256,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-source-coordinate.png",
+      "sha256": "ba78ebf83bf96bcf47fa61d6066206b47ef43afd8629a9f5cac5ad5bc6d76401",
+      "group_id": "FM0533",
+      "box": [
+        0,
+        104,
+        32,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "catalog_before_sha256": "35cc0b103903511dcfd5b0787be872352dc18ca4efca039aee746c9ea9b613e5",
+  "geometry_contract_before_sha256": "397b15b5442fe9a3e026fd12d051de21f2a38dd655a8a854569ecc73670c1ea5",
+  "runtime_verified": false,
+  "release_eligible": false
+}

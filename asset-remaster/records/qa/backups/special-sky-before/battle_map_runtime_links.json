@@ -1,0 +1,795 @@
+{
+  "schema": "brs-battle-map-runtime-links/v1",
+  "iso_sha256": "525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a",
+  "decoded_count": 410,
+  "matched_asset_count": 30,
+  "format_counts": {
+    "(4, 48)": 380,
+    "(4, 32)": 1,
+    "(4, 0)": 10,
+    "(4, 16)": 7,
+    "(5, 48)": 9,
+    "(3, None)": 3
+  },
+  "matched_format_counts": {
+    "(4, 48)": 29,
+    "(5, 48)": 1
+  },
+  "bindings": [
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex022",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000d2f4e2d76adb5f9c",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png"
+          ],
+          "png_sha256": "ab0464083578b7198225f1e7759e48f543e4f5716155f7b8776e05521a10cc7d",
+          "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg01_02.vol/001_map_b_stg01_02.bin::tex037",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000d2f4e2d76adb5f9c",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png"
+          ],
+          "png_sha256": "ab0464083578b7198225f1e7759e48f543e4f5716155f7b8776e05521a10cc7d",
+          "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg01_03.vol/001_map_b_stg01_03.bin::tex018",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000d2f4e2d76adb5f9c",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png"
+          ],
+          "png_sha256": "ab0464083578b7198225f1e7759e48f543e4f5716155f7b8776e05521a10cc7d",
+          "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_01.vol/001_map_b_stg03_01.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "size": [
+        256,
+        128
+      ],
+      "matches": [
+        {
+          "key": "00000000137c474fdaf2e9c1",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000137c474fdaf2e9c1.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000137c474fdaf2e9c1.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000137c474fdaf2e9c1.png"
+          ],
+          "png_sha256": "db1d5d85d04a4cebeeb4c95d15fc85769eec67d5f2c9fee9cc96965759d15642",
+          "rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+          "size": [
+            256,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_01.vol/002_map_b_stg03_01_sky.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_01.vol/002_map_b_stg03_01_sky.bin::tex002",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_02.vol/001_map_b_stg03_02.bin::tex002",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "fed58ca2b9a1229c80efe13acbe1a27df40163eae3a5da206a9f6c9ec4924707",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000000006064127bf5a",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000000006064127bf5a.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000000006064127bf5a.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000000006064127bf5a.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000000006064127bf5a.png"
+          ],
+          "png_sha256": "8ecd78300ef7aa8bc30c8d46b1bb1bfa2929f939099dd85d98b7ed408748cd37",
+          "rgba_sha256": "fed58ca2b9a1229c80efe13acbe1a27df40163eae3a5da206a9f6c9ec4924707",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_02.vol/001_map_b_stg03_02.bin::tex004",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_02.vol/002_map_b_stg03_02_sky.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_02.vol/002_map_b_stg03_02_sky.bin::tex002",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/001_map_b_stg03_03.bin::tex000",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "3ca29d2e919725cc3e4f69e4dda22d028da85b470d86f9908a24cc10a366eef4",
+      "size": [
+        512,
+        128
+      ],
+      "matches": [
+        {
+          "key": "00000000c6204a767d9080fb",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c6204a767d9080fb.png"
+          ],
+          "png_sha256": "6a9ec9cdd7eba2551673f7f763ed85f8ddfc7b3b2ebd9399ef290d1e176dd657",
+          "rgba_sha256": "3ca29d2e919725cc3e4f69e4dda22d028da85b470d86f9908a24cc10a366eef4",
+          "size": [
+            512,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/001_map_b_stg03_03.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "8350bddc4d4b33acc9fc446ffaaf58cae113c6ca5122b9bc91f73b2d82aea25f",
+      "size": [
+        256,
+        256
+      ],
+      "matches": [
+        {
+          "key": "00000000c56fbbe565477b2e",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c56fbbe565477b2e.png"
+          ],
+          "png_sha256": "d1b8d968707637e9273f5136ef6413bd1949d19ee2ac5d3712b8439db3d10c4e",
+          "rgba_sha256": "8350bddc4d4b33acc9fc446ffaaf58cae113c6ca5122b9bc91f73b2d82aea25f",
+          "size": [
+            256,
+            256
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/001_map_b_stg03_03.bin::tex002",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "c38845641ab439765bc0cc13299694f28fb1507eadd6a760bb99016326df2028",
+      "size": [
+        128,
+        128
+      ],
+      "matches": [
+        {
+          "key": "00000000b2f1eaa9b6a1d168",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b2f1eaa9b6a1d168.png"
+          ],
+          "png_sha256": "4e4990387137bd34a854acab8e70b3b75c63b5c0c23171cde9ebc583389ce706",
+          "rgba_sha256": "c38845641ab439765bc0cc13299694f28fb1507eadd6a760bb99016326df2028",
+          "size": [
+            128,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/001_map_b_stg03_03.bin::tex003",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "458fdcd451a5fa5c361f3b83f75f6f3eaab5f40f4bb922f2b3b619ac3536d6ed",
+      "size": [
+        256,
+        256
+      ],
+      "matches": [
+        {
+          "key": "000000007a403b181aa0a676",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007a403b181aa0a676.png"
+          ],
+          "png_sha256": "fc0592cfb32113c95512affbfbfde81a28c195af326b408ea5b0c3033d317772",
+          "rgba_sha256": "458fdcd451a5fa5c361f3b83f75f6f3eaab5f40f4bb922f2b3b619ac3536d6ed",
+          "size": [
+            256,
+            256
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/001_map_b_stg03_03.bin::tex004",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b04933ca99e5144612c06025249028ed761b3b950b0a4b1deb38dedd1915c392",
+      "size": [
+        128,
+        128
+      ],
+      "matches": [
+        {
+          "key": "000000004c2b90c5a8e00bae",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000004c2b90c5a8e00bae.png"
+          ],
+          "png_sha256": "dd11fd35e95695b8075e03e705430d3e628fc902e1566b55de9450bc8992db2a",
+          "rgba_sha256": "b04933ca99e5144612c06025249028ed761b3b950b0a4b1deb38dedd1915c392",
+          "size": [
+            128,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg03_03.vol/002_map_b_stg03_03_sky.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000006e1ef8dfee017ed3",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S001-baseline\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png",
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+          ],
+          "png_sha256": "e560698ee118ea2144c3e01ebb865903997146912f28a8fdeaae446e831f91e5",
+          "rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex000",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "size": [
+        128,
+        128
+      ],
+      "matches": [
+        {
+          "key": "00000000f8bdedf3e571b0e4",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f8bdedf3e571b0e4.png"
+          ],
+          "png_sha256": "6dd6eec79a0d70ab9786a88d3bf0f49ba8142b69b79fc15610c728ba94797357",
+          "rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+          "size": [
+            128,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex001",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "671a8b97a333d55e3c5e76df6c2d89657bb45212886ab6c8aa8d500009860d79",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "0000000040b890b4fb5b6519",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000040b890b4fb5b6519.png"
+          ],
+          "png_sha256": "dfe32cee9d16b1bf2b495db4d529fc9e3b4e41d2c3e6a0928d8352fc25f7181e",
+          "rgba_sha256": "671a8b97a333d55e3c5e76df6c2d89657bb45212886ab6c8aa8d500009860d79",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex002",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "77b9eebb8cac6434a24b479b3682ce7de05af6e42921f71def06b4b149089012",
+      "size": [
+        128,
+        128
+      ],
+      "matches": [
+        {
+          "key": "00000000145015a217911c99",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000145015a217911c99.png"
+          ],
+          "png_sha256": "3d22e50207a734d9433b97f4ed1bc40f407fae6b256c7e7654fd28cb7e19bd87",
+          "rgba_sha256": "77b9eebb8cac6434a24b479b3682ce7de05af6e42921f71def06b4b149089012",
+          "size": [
+            128,
+            128
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex003",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "0000000020c358e29e208219",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000020c358e29e208219.png"
+          ],
+          "png_sha256": "480c7ebb8d40c3d4870e6eb867e2b3a8fb0458e3db08546fc172b8c262083929",
+          "rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex004",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "e7ba38cb0c54663de18c5f1f0812ae7b8737f2b0135b4a24ede75f68974d1fc7",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000965f2d2b2af3b236",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000965f2d2b2af3b236.png"
+          ],
+          "png_sha256": "5de3c03fd084698f4d1eb1e07840cbcf74f4b2646e93d40f045e931888d8b837",
+          "rgba_sha256": "e7ba38cb0c54663de18c5f1f0812ae7b8737f2b0135b4a24ede75f68974d1fc7",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex005",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000d2f4e2d76adb5f9c",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png"
+          ],
+          "png_sha256": "ab0464083578b7198225f1e7759e48f543e4f5716155f7b8776e05521a10cc7d",
+          "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex006",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "4e3dc9a753252b0f518db9c4b51eaec2c7d7e699a39fbbc1a341199c707a49b6",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000940ee5837078dc6b",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000940ee5837078dc6b.png"
+          ],
+          "png_sha256": "4a494d384a498ccf4b90a3205f0d0cc5722ac3fe727ae162a5972d1f4afb6ad4",
+          "rgba_sha256": "4e3dc9a753252b0f518db9c4b51eaec2c7d7e699a39fbbc1a341199c707a49b6",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex007",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000fd3ba779349d8284",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fd3ba779349d8284.png"
+          ],
+          "png_sha256": "004964260d0c7e79e650973f6183103c516e6c7a15265b9f6df32ffb27ed40e0",
+          "rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex008",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000be5e239ef028b417",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000be5e239ef028b417.png"
+          ],
+          "png_sha256": "5b1a11bea27e0e384ad958be9e358f8eeb5559c38cbf3e4d58b61f6ede2125d5",
+          "rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex009",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "000000005401f6ad8d1bf6c4",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000005401f6ad8d1bf6c4.png"
+          ],
+          "png_sha256": "c45cff92ab2a0539ba3a50af3288e298b118fd1af9c43d01bc0828317a2b60c8",
+          "rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex010",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000ef2793d3f6b9ef36",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ef2793d3f6b9ef36.png"
+          ],
+          "png_sha256": "d77810679c01764ded9791e0cb32d5f50b572f6c38235d8665c7f6ba2329cc1d",
+          "rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex011",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "8a5d80cec1287e40da9bc0ab2368cfd93935e82b2ad30aba42c16d168d43ed2b",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000d46615292d7e34e1",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d46615292d7e34e1.png"
+          ],
+          "png_sha256": "16bb6dbbf583c3b0ea9fdc3002f534742b46e4055f6e1bd0c9cf6a3a0fe4bc40",
+          "rgba_sha256": "8a5d80cec1287e40da9bc0ab2368cfd93935e82b2ad30aba42c16d168d43ed2b",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/001_map_b_stg04_01.bin::tex012",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "c886bd7a68783b0ecc80f45fc537333f5f9dc23a8a45f5378c3b13ed99964a23",
+      "size": [
+        64,
+        64
+      ],
+      "matches": [
+        {
+          "key": "00000000ddde1c7cdc8ee0a9",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ddde1c7cdc8ee0a9.png"
+          ],
+          "png_sha256": "2a7d234dc260fb072eeaaaa3b43d9e6e5477025a72d3990509dd411b8444da46",
+          "rgba_sha256": "c886bd7a68783b0ecc80f45fc537333f5f9dc23a8a45f5378c3b13ed99964a23",
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    },
+    {
+      "asset_id": "map_b_stg04_01.vol/002_map_b_stg04_01_sky.bin::tex000",
+      "logical_full_image_match": true,
+      "source_rgba_sha256": "60f9e0c35b07ea1f379c9e984a8308c577bfb18c907238eff585eb3139469b62",
+      "size": [
+        128,
+        64
+      ],
+      "matches": [
+        {
+          "key": "0000000000e30619dbe1e6e9",
+          "paths": [
+            "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000000e30619dbe1e6e9.png"
+          ],
+          "png_sha256": "912c9c2ae10f94646719b0010eb21b8057b17617e9a75829ce2cfadd7dcc4a50",
+          "rgba_sha256": "60f9e0c35b07ea1f379c9e984a8308c577bfb18c907238eff585eb3139469b62",
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "consumer_scene_uv": "Not established by pixel equality",
+      "replacement_runtime_verified": false
+    }
+  ],
+  "release_eligible": false,
+  "scope": "Observed full texture pixels compared to extracted source; no replacement or full stage coverage claim."
+}

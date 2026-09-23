@@ -1,0 +1,138 @@
+{
+  "schema": "brs-field-checker-design-review009/v1",
+  "parent_contract": "qa/checker_design_contract.json",
+  "parent_contract_sha256": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+  "previous_field_checker_review": "qa/field_checker_design_review008.json",
+  "selected": {
+    "FM0430": "FM0430-source-cells-v3",
+    "FM0444": "FM0444-source-cells-v3",
+    "FM0394": "FM0394-source-cells-v3"
+  },
+  "geometry_diagnostics": {
+    "FM0430": {
+      "patches": [
+        {
+          "patch": "middle",
+          "source_pixel_centers_tested": 104,
+          "checker_coefficient_RGB_mean": {
+            "source": 45.856660695639476,
+            "local_WDN": 44.486031361375375,
+            "final": 47.384359612618454
+          },
+          "output_to_source_coefficient_ratio": 1.0333146568852591,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "left",
+          "source_pixel_centers_tested": 49,
+          "checker_coefficient_RGB_mean": {
+            "source": 20.901751921048348,
+            "local_WDN": 17.682126627559217,
+            "final": 22.865923666853675
+          },
+          "output_to_source_coefficient_ratio": 1.093971632293051,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "upper-right",
+          "source_pixel_centers_tested": 157,
+          "checker_coefficient_RGB_mean": {
+            "source": 20.579144583257012,
+            "local_WDN": 18.807238351795746,
+            "final": 22.56539840931548
+          },
+          "output_to_source_coefficient_ratio": 1.096517803158566,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "lower-right",
+          "source_pixel_centers_tested": 22,
+          "checker_coefficient_RGB_mean": {
+            "source": -36.97911460100992,
+            "local_WDN": -31.427189071611483,
+            "final": -39.05176226178355
+          },
+          "output_to_source_coefficient_ratio": 1.0560491424182727,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": false,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    },
+    "FM0444": {
+      "patches": [
+        {
+          "patch": "middle",
+          "source_pixel_centers_tested": 108,
+          "checker_coefficient_RGB_mean": {
+            "source": 17.016584167044613,
+            "local_WDN": 8.758380319085642,
+            "final": 13.69502361815195
+          },
+          "output_to_source_coefficient_ratio": 0.8048045062225,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "left",
+          "source_pixel_centers_tested": 28,
+          "checker_coefficient_RGB_mean": {
+            "source": 11.851992518374722,
+            "local_WDN": 6.879501027131036,
+            "final": 9.66476368748002
+          },
+          "output_to_source_coefficient_ratio": 0.8154547577123649,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "upper-right",
+          "source_pixel_centers_tested": 79,
+          "checker_coefficient_RGB_mean": {
+            "source": 10.418024658049847,
+            "local_WDN": 5.472022382570506,
+            "final": 8.768581770191886
+          },
+          "output_to_source_coefficient_ratio": 0.8416741232625649,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "lower-right",
+          "source_pixel_centers_tested": 23,
+          "checker_coefficient_RGB_mean": {
+            "source": -16.76767018807144,
+            "local_WDN": -11.729942073154708,
+            "final": -13.078485480126977
+          },
+          "output_to_source_coefficient_ratio": 0.7799822714446664,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": false,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    },
+    "FM0394": {
+      "patches": [
+        {
+          "patch": "large",
+          "source_pixel_centers_tested": 4226,
+          "checker_coefficient_RGB_mean": {
+            "source": 41.3722385822649,
+            "local_WDN": 41.42012433530342,
+            "final": 41.3111004503461
+          },
+          "output_to_source_coefficient_ratio": 0.9985222425951831,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": true,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    }
+  },
+  "source_painting_policy": "Checker shape/phase is authored from source-intensity lattice evidence. RGB is interpolated inside original cells, using clipped local high-frequency material only. Treatment contours blend around retained source fragmentation; no new complete checker sheet is invented.",
+  "SVG_limit": "The SVG contains geometry guides with alternating diagnostic fills. Final colors and bright/dark phase come from each source RGBA, not the diagnostic SVG fills.",
+  "source_and_consumer_limit": "444 half-scale430 geometry was checked against444 source phase/contrast and every visible fragment. Shared appearance does not establish shared consumer semantics.",
+  "runtime_verified": false,
+  "release_eligible": false
+}

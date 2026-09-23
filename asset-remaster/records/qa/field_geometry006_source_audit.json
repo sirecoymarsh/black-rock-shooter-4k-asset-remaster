@@ -1,0 +1,764 @@
+{
+  "schema": "brs-source-broken-glass-audit/v1",
+  "previous_goal_turn_classification": "progress: FIELD-GEOMETRY-005 resolved the FM0113 support, made a source-constrained FM0029 glass trial and recorded material-aware direct authoring.",
+  "catalog_before_sha256": "a3b3043d650862d5760911ba45a2d3f3acf9081bb907dd060b85bce9a938a362",
+  "geometry_contract_before_sha256": "36d5f4fc7392f28b33322f0a0386366760184ccc5c8b923390c9d3a28cea87db",
+  "files": [
+    {
+      "group_id": "FM0029",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "dd883bea40b06bcab188c66267f8dcf9c07589499ce5d1d640fabcb283a66393",
+      "source_rgba_sha256": "b8647bd372b9b63727e763c183af69f3ac91bc36de71425ff46c385bce229611",
+      "size": [
+        128,
+        64
+      ],
+      "palette": [
+        {
+          "RGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pixels": 201
+        },
+        {
+          "RGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "pixels": 165
+        },
+        {
+          "RGBA": [
+            52,
+            36,
+            32,
+            255
+          ],
+          "pixels": 1965
+        },
+        {
+          "RGBA": [
+            67,
+            67,
+            67,
+            255
+          ],
+          "pixels": 355
+        },
+        {
+          "RGBA": [
+            97,
+            96,
+            96,
+            255
+          ],
+          "pixels": 525
+        },
+        {
+          "RGBA": [
+            114,
+            55,
+            41,
+            255
+          ],
+          "pixels": 1865
+        },
+        {
+          "RGBA": [
+            121,
+            55,
+            0,
+            255
+          ],
+          "pixels": 477
+        },
+        {
+          "RGBA": [
+            123,
+            123,
+            123,
+            255
+          ],
+          "pixels": 92
+        },
+        {
+          "RGBA": [
+            142,
+            99,
+            90,
+            255
+          ],
+          "pixels": 5
+        },
+        {
+          "RGBA": [
+            152,
+            152,
+            151,
+            255
+          ],
+          "pixels": 366
+        },
+        {
+          "RGBA": [
+            172,
+            147,
+            118,
+            255
+          ],
+          "pixels": 500
+        },
+        {
+          "RGBA": [
+            176,
+            110,
+            33,
+            255
+          ],
+          "pixels": 670
+        },
+        {
+          "RGBA": [
+            177,
+            176,
+            176,
+            255
+          ],
+          "pixels": 27
+        },
+        {
+          "RGBA": [
+            201,
+            201,
+            201,
+            255
+          ],
+          "pixels": 85
+        },
+        {
+          "RGBA": [
+            207,
+            143,
+            51,
+            255
+          ],
+          "pixels": 361
+        },
+        {
+          "RGBA": [
+            241,
+            239,
+            227,
+            255
+          ],
+          "pixels": 533
+        }
+      ],
+      "alpha_histogram": {
+        "0": 201,
+        "255": 7991
+      },
+      "alpha_topology": {
+        "1": {
+          "contours": 81,
+          "enclosed_holes": 80
+        },
+        "128": {
+          "contours": 81,
+          "enclosed_holes": 80
+        },
+        "255": {
+          "contours": 81,
+          "enclosed_holes": 80
+        }
+      },
+      "source_note": "Painted machinery/window/panel atlas, source alpha only in grille."
+    },
+    {
+      "group_id": "FM0358",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex031.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex031.ptm",
+      "source_ptm_sha256": "fe250848b1ea35689adc17c5d82707cb0c0e49adbcc25772583829f899625b5f",
+      "source_rgba_sha256": "e845d81460ef39c83eeffa3b6cd3b3d447b66fce8d05a691cdfba6210986694f",
+      "size": [
+        128,
+        64
+      ],
+      "palette": [
+        {
+          "RGBA": [
+            16,
+            16,
+            16,
+            255
+          ],
+          "pixels": 330
+        },
+        {
+          "RGBA": [
+            41,
+            41,
+            33,
+            255
+          ],
+          "pixels": 312
+        },
+        {
+          "RGBA": [
+            66,
+            57,
+            49,
+            255
+          ],
+          "pixels": 797
+        },
+        {
+          "RGBA": [
+            82,
+            74,
+            66,
+            255
+          ],
+          "pixels": 343
+        },
+        {
+          "RGBA": [
+            107,
+            99,
+            82,
+            255
+          ],
+          "pixels": 259
+        },
+        {
+          "RGBA": [
+            123,
+            115,
+            99,
+            255
+          ],
+          "pixels": 206
+        },
+        {
+          "RGBA": [
+            140,
+            132,
+            115,
+            255
+          ],
+          "pixels": 211
+        },
+        {
+          "RGBA": [
+            156,
+            148,
+            132,
+            255
+          ],
+          "pixels": 446
+        },
+        {
+          "RGBA": [
+            173,
+            173,
+            173,
+            255
+          ],
+          "pixels": 843
+        },
+        {
+          "RGBA": [
+            181,
+            165,
+            148,
+            255
+          ],
+          "pixels": 711
+        },
+        {
+          "RGBA": [
+            198,
+            189,
+            173,
+            255
+          ],
+          "pixels": 261
+        },
+        {
+          "RGBA": [
+            198,
+            198,
+            198,
+            255
+          ],
+          "pixels": 317
+        },
+        {
+          "RGBA": [
+            206,
+            206,
+            206,
+            0
+          ],
+          "pixels": 2604
+        },
+        {
+          "RGBA": [
+            214,
+            206,
+            189,
+            255
+          ],
+          "pixels": 188
+        },
+        {
+          "RGBA": [
+            231,
+            222,
+            206,
+            255
+          ],
+          "pixels": 204
+        },
+        {
+          "RGBA": [
+            247,
+            231,
+            214,
+            255
+          ],
+          "pixels": 160
+        }
+      ],
+      "alpha_histogram": {
+        "0": 2604,
+        "255": 5588
+      },
+      "alpha_topology": {
+        "1": {
+          "contours": 14,
+          "enclosed_holes": 13
+        },
+        "128": {
+          "contours": 14,
+          "enclosed_holes": 13
+        },
+        "255": {
+          "contours": 14,
+          "enclosed_holes": 13
+        }
+      },
+      "source_note": "Pale damaged window facade, broken glass alpha; square frames and intentional jagged glass must be distinguished."
+    },
+    {
+      "group_id": "FM0359",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex032.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex032.ptm",
+      "source_ptm_sha256": "4d20e9472e92d1d2d4d5d77e97292dc4131629e06d98dc002e4c8fd78ef2116d",
+      "source_rgba_sha256": "e04388f63650df0884ae9ddb0d6c804846b86c1831014bde370dfbf091617062",
+      "size": [
+        128,
+        64
+      ],
+      "palette": [
+        {
+          "RGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "pixels": 161
+        },
+        {
+          "RGBA": [
+            33,
+            33,
+            24,
+            255
+          ],
+          "pixels": 563
+        },
+        {
+          "RGBA": [
+            57,
+            57,
+            49,
+            255
+          ],
+          "pixels": 584
+        },
+        {
+          "RGBA": [
+            82,
+            74,
+            66,
+            255
+          ],
+          "pixels": 801
+        },
+        {
+          "RGBA": [
+            99,
+            90,
+            82,
+            255
+          ],
+          "pixels": 720
+        },
+        {
+          "RGBA": [
+            115,
+            107,
+            90,
+            255
+          ],
+          "pixels": 752
+        },
+        {
+          "RGBA": [
+            132,
+            123,
+            107,
+            255
+          ],
+          "pixels": 367
+        },
+        {
+          "RGBA": [
+            148,
+            140,
+            123,
+            255
+          ],
+          "pixels": 150
+        },
+        {
+          "RGBA": [
+            165,
+            148,
+            132,
+            255
+          ],
+          "pixels": 146
+        },
+        {
+          "RGBA": [
+            173,
+            173,
+            165,
+            255
+          ],
+          "pixels": 960
+        },
+        {
+          "RGBA": [
+            181,
+            173,
+            148,
+            255
+          ],
+          "pixels": 682
+        },
+        {
+          "RGBA": [
+            198,
+            198,
+            189,
+            255
+          ],
+          "pixels": 78
+        },
+        {
+          "RGBA": [
+            206,
+            189,
+            173,
+            255
+          ],
+          "pixels": 247
+        },
+        {
+          "RGBA": [
+            206,
+            206,
+            206,
+            0
+          ],
+          "pixels": 1673
+        },
+        {
+          "RGBA": [
+            222,
+            206,
+            189,
+            255
+          ],
+          "pixels": 59
+        },
+        {
+          "RGBA": [
+            231,
+            222,
+            206,
+            255
+          ],
+          "pixels": 249
+        }
+      ],
+      "alpha_histogram": {
+        "0": 1673,
+        "255": 6519
+      },
+      "alpha_topology": {
+        "1": {
+          "contours": 16,
+          "enclosed_holes": 15
+        },
+        "128": {
+          "contours": 16,
+          "enclosed_holes": 15
+        },
+        "255": {
+          "contours": 16,
+          "enclosed_holes": 15
+        }
+      },
+      "source_note": "Second damaged window facade, irregular glass and straight frame grid."
+    },
+    {
+      "group_id": "FM0364",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex037.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex037.ptm",
+      "source_ptm_sha256": "e4739f70d0d542c531482315a8ba4f3b23cbf5def2a44712e255c11773b9edb5",
+      "source_rgba_sha256": "43c184c592bc7463fa889d54f9b332591539103a370f41dc5afe65709806549e",
+      "size": [
+        128,
+        64
+      ],
+      "palette": [
+        {
+          "RGBA": [
+            16,
+            8,
+            8,
+            255
+          ],
+          "pixels": 348
+        },
+        {
+          "RGBA": [
+            24,
+            24,
+            16,
+            255
+          ],
+          "pixels": 893
+        },
+        {
+          "RGBA": [
+            41,
+            41,
+            33,
+            255
+          ],
+          "pixels": 409
+        },
+        {
+          "RGBA": [
+            49,
+            49,
+            41,
+            255
+          ],
+          "pixels": 378
+        },
+        {
+          "RGBA": [
+            66,
+            57,
+            49,
+            255
+          ],
+          "pixels": 529
+        },
+        {
+          "RGBA": [
+            74,
+            74,
+            57,
+            255
+          ],
+          "pixels": 759
+        },
+        {
+          "RGBA": [
+            82,
+            82,
+            66,
+            255
+          ],
+          "pixels": 1172
+        },
+        {
+          "RGBA": [
+            99,
+            99,
+            90,
+            255
+          ],
+          "pixels": 51
+        },
+        {
+          "RGBA": [
+            115,
+            115,
+            99,
+            255
+          ],
+          "pixels": 368
+        },
+        {
+          "RGBA": [
+            123,
+            123,
+            123,
+            255
+          ],
+          "pixels": 69
+        },
+        {
+          "RGBA": [
+            148,
+            140,
+            140,
+            255
+          ],
+          "pixels": 10
+        },
+        {
+          "RGBA": [
+            165,
+            165,
+            165,
+            255
+          ],
+          "pixels": 295
+        },
+        {
+          "RGBA": [
+            181,
+            173,
+            173,
+            255
+          ],
+          "pixels": 535
+        },
+        {
+          "RGBA": [
+            189,
+            181,
+            181,
+            255
+          ],
+          "pixels": 290
+        },
+        {
+          "RGBA": [
+            198,
+            198,
+            198,
+            255
+          ],
+          "pixels": 113
+        },
+        {
+          "RGBA": [
+            206,
+            206,
+            206,
+            0
+          ],
+          "pixels": 1973
+        }
+      ],
+      "alpha_histogram": {
+        "0": 1973,
+        "255": 6219
+      },
+      "alpha_topology": {
+        "1": {
+          "contours": 21,
+          "enclosed_holes": 20
+        },
+        "128": {
+          "contours": 21,
+          "enclosed_holes": 20
+        },
+        "255": {
+          "contours": 21,
+          "enclosed_holes": 20
+        }
+      },
+      "source_note": "Dark damaged facade with two window rows and jagged glass alpha."
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0029-source-dual-matte.png",
+      "sha256": "065261e3fbeac7beb182364fda5e881de834975fb5b5c8559b7ac7a62e3c7319",
+      "kind": "source_nearest8x_dual_matte",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0029-source-coordinates.png",
+      "sha256": "be19bed717fb9f80ddec73f6cd8d83cd532ffc30e93aa6835c9f1de501b7ebc6",
+      "kind": "source_coordinates",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0358-source-dual-matte.png",
+      "sha256": "7a12b766b85a7e4ae0cd4aec901657f4fc24baea4437bc306527a44a07feae1d",
+      "kind": "source_nearest8x_dual_matte",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0358-source-coordinates.png",
+      "sha256": "f9c0184dd02d988283ce9e6eaf65d15d775a6dc4f7c1ab4a7c4628d3c7a71639",
+      "kind": "source_coordinates",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0359-source-dual-matte.png",
+      "sha256": "2d3920710d30c174426aa4d5a3a2b2450a487615a587c7bc8c6bebb67ea202eb",
+      "kind": "source_nearest8x_dual_matte",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0359-source-coordinates.png",
+      "sha256": "502208c37dcff2050ef92324f64c2cbe8c460e85617b9f4ec099f5f04e875466",
+      "kind": "source_coordinates",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0364-source-dual-matte.png",
+      "sha256": "c57fa007b06084aef1286c762a3e5122e86406fb792fef98bd894c077cd84d5b",
+      "kind": "source_nearest8x_dual_matte",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry006\\FM0364-source-coordinates.png",
+      "sha256": "23449ffa3b15632598760e98135f17605a59b7370802b9d07fd9422e1759edab",
+      "kind": "source_coordinates",
+      "review_status": "pending"
+    }
+  ],
+  "new_inference_calls": 0,
+  "runtime_verified": false
+}

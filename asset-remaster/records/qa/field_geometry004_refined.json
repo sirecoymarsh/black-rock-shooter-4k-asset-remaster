@@ -1,0 +1,2003 @@
+{
+  "schema": "brs-source-repeat-reconstruction/v2",
+  "basis": "First fixed geometry trials make337 material too diffuse,346 flute faces too flat, and347 curves too soft. Keep source coordinates while correcting each distinct material defect.",
+  "parent_report_sha256": "607b4965da11e466bbf7fbf00e74f2d9575b0c3f88f3fb2228db5d76ec319b5d",
+  "files": [
+    {
+      "group_id": "FM0337",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "a6cf0b0d558a073c63a16d104bb2f9b76c32c32c8c9e4cef3349399c590fcdf0",
+      "source_rgba_sha256": "8c600b05864a8995e6567144110f6bf45737c4a6fad8ab9010bf34ef607d046c",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0337-wdn-8x.png",
+      "parent_sha256": "8d4ef2d78da02eea36c203bf0862b76905bc19fd3f7051a3031711d6bddccfa7",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-local-grain.svg",
+      "vector_sha256": "a7aa8cba61816225d1ed4dc8f1bd5f784f50b6fd6bb3b6fcbc9d4582bad55d45",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-local-grain-regions.png",
+      "region_classmap_sha256": "be28699cf14fdc0381012d1ebd7a41e6866d44015a8e2a8d8211b93a306837da",
+      "regions": [
+        {
+          "name": "continuous left bright face",
+          "source_box": [
+            0,
+            0,
+            6,
+            64
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "continuous left shadow face",
+          "source_box": [
+            6,
+            0,
+            9,
+            64
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "upper recess",
+          "source_box": [
+            9,
+            0,
+            128,
+            4
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            9,
+            4,
+            13,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            13,
+            4,
+            19,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            19,
+            4,
+            25,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            25,
+            4,
+            31,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            31,
+            4,
+            38,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            38,
+            4,
+            44,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            44,
+            4,
+            51,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            51,
+            4,
+            57,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            57,
+            4,
+            65,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            65,
+            4,
+            71,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            71,
+            4,
+            78,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            78,
+            4,
+            84,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            84,
+            4,
+            92,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            92,
+            4,
+            98,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            98,
+            4,
+            105,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            105,
+            4,
+            111,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "recess",
+          "source_box": [
+            111,
+            4,
+            118,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "bright upright",
+          "source_box": [
+            118,
+            4,
+            124,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "right recess",
+          "source_box": [
+            124,
+            4,
+            128,
+            46
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            0.5,
+            0
+          ]
+        },
+        {
+          "name": "lower horizontal face",
+          "source_box": [
+            9,
+            46,
+            128,
+            47
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "lower horizontal face",
+          "source_box": [
+            9,
+            47,
+            128,
+            50
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "lower horizontal face",
+          "source_box": [
+            9,
+            50,
+            128,
+            59
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "lower horizontal face",
+          "source_box": [
+            9,
+            59,
+            128,
+            62
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "lower horizontal face",
+          "source_box": [
+            9,
+            62,
+            128,
+            64
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        }
+      ],
+      "id": "FM0337-source-planes-refined-v2",
+      "previous": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-local-grain-8x.png",
+      "previous_sha256": "f8bd3e05d983d0daebb5bb212b6ed4337de66af0a5631dd6d97b8321df0699fc",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-refined-v2-8x.png",
+      "output_sha256": "3661849a86a70143c291d1d1ff1397729f129470f59397c4c0ada3ba200bb241",
+      "base_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-refined-v2-base.npz",
+      "base_planes_sha256": "8d9faa398681c82025a6303fe150aae78fc58f85c03e80d959b89222066a220a",
+      "recipe": {
+        "regions": [
+          {
+            "source_box": [
+              0,
+              0,
+              6,
+              64
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              6,
+              0,
+              9,
+              64
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              0,
+              128,
+              4
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              4,
+              13,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              13,
+              4,
+              19,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              19,
+              4,
+              25,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              25,
+              4,
+              31,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              31,
+              4,
+              38,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              38,
+              4,
+              44,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              44,
+              4,
+              51,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              51,
+              4,
+              57,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              57,
+              4,
+              65,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              65,
+              4,
+              71,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              71,
+              4,
+              78,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              78,
+              4,
+              84,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              84,
+              4,
+              92,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              92,
+              4,
+              98,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              98,
+              4,
+              105,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              105,
+              4,
+              111,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              111,
+              4,
+              118,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              118,
+              4,
+              124,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              124,
+              4,
+              128,
+              46
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              46,
+              128,
+              47
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              0
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              47,
+              128,
+              50
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              50,
+              128,
+              59
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              59,
+              128,
+              62
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          },
+          {
+            "source_box": [
+              9,
+              62,
+              128,
+              64
+            ],
+            "parent_interior_output_trim_xy": [
+              8,
+              4
+            ]
+          }
+        ],
+        "source_sigma": [
+          1.2,
+          0.8,
+          0
+        ],
+        "material_sigma_output": 12,
+        "material_gain": 0.75,
+        "material_RGB_bound": 10
+      },
+      "method": "Source-fixed structure with revised material/profile: spatial local interior grain for337, source periodic bevel shading for346, narrow beveled source curves for347. No new neural inference.",
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0346",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.ptm",
+      "source_ptm_sha256": "3f626f2336a32b2fe61ba752efdec41e146a8351e8e133a0872cd091d209b56f",
+      "source_rgba_sha256": "bc5b03ff297bd8c5ca1eb67991387245818171ed91a547c9a439b6e37eafdaad",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0346-wdn-8x.png",
+      "parent_sha256": "14f3b0f75b1cbc34285ce4343944ce01b15e0c0352c1dfa7fe445371fe17393b",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-local-grain.svg",
+      "vector_sha256": "c52653a98040807d89785dd03ad6727092d9b026163a0190c7ac6925640f5b70",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-local-grain-regions.png",
+      "region_classmap_sha256": "914034c9c8b6cb13cfa23eecb4079ac06f6e2fc2022a31fe94405b8b6309a1d8",
+      "regions": [
+        {
+          "name": "lintel profile",
+          "source_box": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            0,
+            16,
+            2,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "shaded flute face",
+          "source_box": [
+            2,
+            16,
+            6,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            6,
+            16,
+            8,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "shaded flute face",
+          "source_box": [
+            8,
+            16,
+            12,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            12,
+            16,
+            14,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "shaded flute face",
+          "source_box": [
+            14,
+            16,
+            18,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            18,
+            16,
+            20,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "shaded flute face",
+          "source_box": [
+            20,
+            16,
+            24,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            24,
+            16,
+            26,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "shaded flute face",
+          "source_box": [
+            26,
+            16,
+            30,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "bright flute face",
+          "source_box": [
+            30,
+            16,
+            32,
+            32
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        }
+      ],
+      "id": "FM0346-source-planes-refined-v2",
+      "previous": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-local-grain-8x.png",
+      "previous_sha256": "a52e63fae3732c3a0afaf88940718bc82da53c8057534cc309ff709bd5b778b1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-refined-v2-8x.png",
+      "output_sha256": "711174a531988aa1f69fbab94fed5ac772aaec23e77aedaf80dbf9436a8c7a7e",
+      "base_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-refined-v2-base.npz",
+      "base_planes_sha256": "f321a17cc036afbb8f746db91e8bed3b6d582f9c419d3008ce7969030b9397f0",
+      "recipe": {
+        "source_phase_rgb": [
+          [
+            [
+              132.0,
+              121.0,
+              107.0
+            ],
+            [
+              127.5,
+              119.0,
+              107.0
+            ],
+            [
+              107.0,
+              101.0,
+              90.0
+            ],
+            [
+              107.0,
+              101.0,
+              90.0
+            ],
+            [
+              107.0,
+              101.0,
+              90.0
+            ],
+            [
+              99.0,
+              89.0,
+              82.0
+            ]
+          ],
+          [
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              107.0,
+              101.0,
+              90.0
+            ],
+            [
+              115.0,
+              105.0,
+              99.0
+            ],
+            [
+              115.0,
+              105.0,
+              99.0
+            ],
+            [
+              107.0,
+              101.0,
+              90.0
+            ]
+          ],
+          [
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              123.0,
+              117.0,
+              107.0
+            ],
+            [
+              132.0,
+              121.0,
+              107.0
+            ],
+            [
+              132.0,
+              121.0,
+              107.0
+            ],
+            [
+              115.0,
+              105.0,
+              99.0
+            ]
+          ],
+          [
+            [
+              165.0,
+              156.0,
+              144.0
+            ],
+            [
+              165.0,
+              156.0,
+              144.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              132.0,
+              125.0,
+              115.0
+            ]
+          ],
+          [
+            [
+              173.0,
+              162.0,
+              148.0
+            ],
+            [
+              173.0,
+              162.0,
+              148.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ],
+            [
+              148.0,
+              138.0,
+              123.0
+            ],
+            [
+              148.0,
+              138.0,
+              123.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              173.0,
+              162.0,
+              148.0
+            ],
+            [
+              177.0,
+              166.0,
+              152.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              181.0,
+              170.0,
+              156.0
+            ],
+            [
+              181.0,
+              170.0,
+              156.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ]
+          ],
+          [
+            [
+              181.0,
+              170.0,
+              156.0
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              177.0,
+              166.0,
+              152.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              181.0,
+              170.0,
+              156.0
+            ],
+            [
+              148.0,
+              138.0,
+              123.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              177.0,
+              166.0,
+              152.0
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              181.0,
+              170.0,
+              156.5
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              148.0,
+              138.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              177.0,
+              166.0,
+              152.0
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ]
+          ],
+          [
+            [
+              185.0,
+              174.0,
+              160.5
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ],
+          [
+            [
+              185.0,
+              174.0,
+              160.5
+            ],
+            [
+              189.0,
+              178.0,
+              165.0
+            ],
+            [
+              148.0,
+              142.0,
+              132.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              156.0,
+              146.0,
+              140.0
+            ],
+            [
+              140.0,
+              130.0,
+              123.0
+            ]
+          ]
+        ],
+        "period_source": 6,
+        "lower_source_y": 16,
+        "interpolation": "cv2 cubic with periodic source phase, clamped vertical boundary",
+        "grain_sigma_output": 8,
+        "grain_gain": 0.65,
+        "grain_bound": 4
+      },
+      "method": "Source-fixed structure with revised material/profile: spatial local interior grain for337, source periodic bevel shading for346, narrow beveled source curves for347. No new neural inference.",
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0347",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex020.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex020.ptm",
+      "source_ptm_sha256": "38902aba1296fc5c7a7845767dd4d10f2dec56e9d666ff3b05b3327e13700792",
+      "source_rgba_sha256": "e34433de70d4e6131f8155a5536f94949d99ec39080c0a5840a864599be034bc",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0347-wdn-8x.png",
+      "parent_sha256": "4e3194db1dd2ea4b985751af09bd3fffa13652a8bce1610abf8a6c5368eaac11",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-local-grain.svg",
+      "vector_sha256": "8f1ae9f798ded0e3df1992bc751181ce5bf70e22e86bdc3d471052d24ecbdc47",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-local-grain-regions.png",
+      "region_classmap_sha256": "038c4853002f8b15e79e09edf438c6fc55d212ca0e3962a104f28b44b09187f6",
+      "regions": [
+        {
+          "name": "upper molding light",
+          "source_box": [
+            0,
+            0,
+            64,
+            1
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "upper molding face",
+          "source_box": [
+            0,
+            1,
+            64,
+            2
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "upper vertical divider",
+          "source_box": [
+            0,
+            2,
+            1,
+            15
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "upper vertical divider",
+          "source_box": [
+            31,
+            2,
+            32,
+            15
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "upper vertical divider",
+          "source_box": [
+            63,
+            2,
+            64,
+            15
+          ],
+          "mode": "vertical",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "upper panel",
+          "source_box": [
+            1,
+            2,
+            31,
+            15
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "upper panel",
+          "source_box": [
+            32,
+            2,
+            63,
+            15
+          ],
+          "mode": "surface",
+          "surface_sigma_source": [
+            1.0,
+            1.0,
+            0
+          ]
+        },
+        {
+          "name": "middle molding light",
+          "source_box": [
+            0,
+            15,
+            64,
+            16
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "middle molding shadow",
+          "source_box": [
+            0,
+            16,
+            64,
+            17
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "lower edge",
+          "source_box": [
+            0,
+            31,
+            64,
+            32
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        },
+        {
+          "name": "ornament background",
+          "source_box": [
+            0,
+            17,
+            64,
+            31
+          ],
+          "mode": "horizontal",
+          "surface_sigma_source": null
+        }
+      ],
+      "id": "FM0347-source-planes-refined-v2",
+      "previous": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-local-grain-8x.png",
+      "previous_sha256": "561dec3eba0874bbf3567498bdb708c394eeb65711aa31efbc3663e941450bca",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-refined-v2-8x.png",
+      "output_sha256": "9cb00ff54d86b70b1ae74155563e2cfa6061ec4022184edde4d50ebf555b55b1",
+      "base_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-refined-v2-base.npz",
+      "base_planes_sha256": "592e6996051e395e4fd275bf98c1e7d2d82d5d7cec30d4b02598e974510025e5",
+      "recipe": {
+        "curve_centers": [
+          {
+            "repeat": 0,
+            "direction": 1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              1.0,
+              2.6,
+              4.0,
+              5.1,
+              6.2,
+              7.25,
+              8.5,
+              9.75,
+              10.9,
+              12.0,
+              13.25,
+              14.2,
+              15.7
+            ]
+          },
+          {
+            "repeat": 0,
+            "direction": -1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              16.0,
+              14.4,
+              13.0,
+              11.9,
+              10.8,
+              9.75,
+              8.5,
+              7.25,
+              6.1,
+              5.0,
+              3.75,
+              2.8000000000000007,
+              1.3000000000000007
+            ]
+          },
+          {
+            "repeat": 1,
+            "direction": 1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              16.0,
+              17.6,
+              19.0,
+              20.1,
+              21.2,
+              22.25,
+              23.5,
+              24.75,
+              25.9,
+              27.0,
+              28.25,
+              29.2,
+              30.7
+            ]
+          },
+          {
+            "repeat": 1,
+            "direction": -1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              31.0,
+              29.4,
+              28.0,
+              26.9,
+              25.8,
+              24.75,
+              23.5,
+              22.25,
+              21.1,
+              20.0,
+              18.75,
+              17.8,
+              16.3
+            ]
+          },
+          {
+            "repeat": 2,
+            "direction": 1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              31.0,
+              32.6,
+              34.0,
+              35.1,
+              36.2,
+              37.25,
+              38.5,
+              39.75,
+              40.9,
+              42.0,
+              43.25,
+              44.2,
+              45.7
+            ]
+          },
+          {
+            "repeat": 2,
+            "direction": -1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              46.0,
+              44.4,
+              43.0,
+              41.9,
+              40.8,
+              39.75,
+              38.5,
+              37.25,
+              36.1,
+              35.0,
+              33.75,
+              32.8,
+              31.3
+            ]
+          },
+          {
+            "repeat": 3,
+            "direction": 1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              46.0,
+              47.6,
+              49.0,
+              50.1,
+              51.2,
+              52.25,
+              53.5,
+              54.75,
+              55.9,
+              57.0,
+              58.25,
+              59.2,
+              60.7
+            ]
+          },
+          {
+            "repeat": 3,
+            "direction": -1,
+            "source_y": [
+              17.0,
+              18.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0,
+              23.5,
+              25.0,
+              26.0,
+              27.0,
+              28.0,
+              29.0,
+              30.5
+            ],
+            "source_x": [
+              61.0,
+              59.4,
+              58.0,
+              56.9,
+              55.8,
+              54.75,
+              53.5,
+              52.25,
+              51.1,
+              50.0,
+              48.75,
+              47.8,
+              46.3
+            ]
+          }
+        ],
+        "curve_highlight_profile_rgb": [
+          [
+            33.0,
+            52.0,
+            41.0
+          ],
+          [
+            33.0,
+            52.0,
+            41.0
+          ],
+          [
+            41.0,
+            61.25,
+            47.0
+          ],
+          [
+            44.0,
+            68.0,
+            49.0
+          ],
+          [
+            49.0,
+            73.0,
+            49.0
+          ],
+          [
+            72.0,
+            95.0,
+            78.0
+          ],
+          [
+            57.0,
+            81.0,
+            57.0
+          ],
+          [
+            57.0,
+            82.0,
+            59.25
+          ],
+          [
+            74.0,
+            97.0,
+            82.0
+          ],
+          [
+            56.0,
+            80.0,
+            56.0
+          ],
+          [
+            50.0,
+            74.0,
+            50.0
+          ],
+          [
+            44.0,
+            68.0,
+            49.0
+          ],
+          [
+            41.0,
+            60.625,
+            49.0
+          ],
+          [
+            35.0,
+            54.0,
+            43.0
+          ]
+        ],
+        "stroke_outer_halfwidth_source": 1.05,
+        "stroke_edge_transition_source": 0.25,
+        "bevel_equation": "clip(.88+.12*signed/.8,.72,1)",
+        "grain_sigma_output": 5,
+        "grain_gain": 0.3,
+        "grain_bound": 2
+      },
+      "method": "Source-fixed structure with revised material/profile: spatial local interior grain for337, source periodic bevel shading for346, narrow beveled source curves for347. No new neural inference.",
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-whole-v2.png",
+      "sha256": "0493d70d946d23cde2251d16973a16ee19127b516f625d34905491654fec0a74",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-detail-v2.png",
+      "sha256": "921d17f354c8829c87df29e99d283db5de2f8df7bb0c980f66c612e23d74ebf3",
+      "source_box": [
+        40,
+        0,
+        72,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-whole-v2.png",
+      "sha256": "27856ba7b5af6a28fd5f7cd5d1d18a5d5959605920df3e04d616faa35274774d",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-whole-v2.png",
+      "sha256": "0eb5dd7879148277ca44070078975e3d0a0426223b89f777ca60754edf9e0284",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-detail-v2.png",
+      "sha256": "eb51e5cb3d74d64ccfa402527eb4ac59cb6334def3b50cbf6d376898e4676311",
+      "source_box": [
+        16,
+        0,
+        48,
+        32
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_neural_passes": 0,
+  "external_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

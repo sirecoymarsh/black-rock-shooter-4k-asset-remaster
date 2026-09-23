@@ -1,0 +1,163 @@
+{
+  "schema": "brs-geometry008-source-audit/v1",
+  "previous_goal_turn_classification": "progress: geometry007 source geometry/material repaired495/533 with6 derivatives, two holds resolved and source interpretation limitations recorded.",
+  "files": [
+    {
+      "group_id": "FM0394",
+      "representative": "map_d_stg05_03.bin/sc11/sc01/sc00/tex007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_03.bin\\sc11\\sc01\\sc00\\tex007.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_03.bin\\sc11\\sc01\\sc00\\tex007.ptm",
+      "source_ptm_sha256": "d6c1bde13c97dada54f1a057de6e4232892265b50f6066418f5df79125d2bfe5",
+      "source_rgba_sha256": "e599d4b1ee819ebdc52c41e84d9579582924cea5f33e0d09eb1173d054dca385",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "protected_checker",
+      "page": 2,
+      "source_visual_note": "Distorted bordered checker design on damaged ornamental surface; dedicated checker contract.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": false
+    },
+    {
+      "group_id": "FM0430",
+      "representative": "map_d_stg05_0c.bin/sc11/sc01/sc01/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_0c.bin\\sc11\\sc01\\sc01\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_0c.bin\\sc11\\sc01\\sc01\\tex000.ptm",
+      "source_ptm_sha256": "0d45a2da308f3a6e3285b229678a275b241cd1bb0a6fa4928433f13f75981dc4",
+      "source_rgba_sha256": "c8cdc2ef8ad4b0aebf7d177986e8508ebac37b002c9cc3b9136ec1f04d36841c",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "protected_checker",
+      "page": 4,
+      "source_visual_note": "Dark ornamental surface containing three checker islands and fine decorative border.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": false
+    },
+    {
+      "group_id": "FM0444",
+      "representative": "map_d_stg05_0e.bin/sc11/sc01/sc01/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_0e.bin\\sc11\\sc01\\sc01\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_0e.bin\\sc11\\sc01\\sc01\\tex002.ptm",
+      "source_ptm_sha256": "93489f63d7e05a791fbcc30e5842f630b786e317133e770d9f6f2a4f162fbcf4",
+      "source_rgba_sha256": "16ac6937697b9d52922a161d1259ad02d0c4be725eb54aa6f3e195919025fade",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "protected_checker",
+      "page": 6,
+      "source_visual_note": "Faded gray checker islands within decorative field; source design cannot be blurred away.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": false
+    },
+    {
+      "group_id": "FM0489",
+      "representative": "map_d_stg06_04.bin/sc11/sc01/sc00/tex012",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_04.bin\\sc11\\sc01\\sc00\\tex012.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_04.bin\\sc11\\sc01\\sc00\\tex012.ptm",
+      "source_ptm_sha256": "f90fd910750c2abd85210aaa89f239a239ed85f9b42c0a67cb7c2071268d218e",
+      "source_rgba_sha256": "343b2113e68ba955af58ce7250a67db64952d058cff10c88702b7bfdf27c1484",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 64,
+      "alpha_max": 255,
+      "classification": "protected_checker_flat",
+      "page": 9,
+      "source_visual_note": "Exact4x4 yellow/gray checker; nonuniform alpha64..255 is source data.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": false
+    },
+    {
+      "group_id": "FM0498",
+      "representative": "map_d_stg06_05.bin/sc11/sc01/sc00/tex006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "d537a1d4994e2e7713cc24a629b0a3be131497fb918825b630397a01b4d26c98",
+      "source_rgba_sha256": "39ceb8fa6a6bc2d8c6ea6dd473919b76e12d42da49c488ad60b6081f38b9abe0",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "protected_checker",
+      "page": 10,
+      "source_visual_note": "Four broad alternating dark/light textured quadrants; exact cross boundary protected.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": false
+    },
+    {
+      "group_id": "FM0496",
+      "representative": "map_d_stg06_05.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "e60517037c35fed0463d814659eb363be951c7afb278243fca3fa6ae6f4d94f3",
+      "source_rgba_sha256": "85157b5c903301cf848f515c1d72183d90382af3378620d0c88dd92246e55621",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_structured_material",
+      "page": 10,
+      "source_visual_note": "Wide gray stone cornice/bands above rectangular slab face; no arbitrary line warping.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr005": true
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0394-source.png",
+      "sha256": "242c484ae1d5e6a453fee46b4c63d6c8ea15fa153f0a5a21068ed023dda7ca99",
+      "group_id": "FM0394",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0430-source.png",
+      "sha256": "6aa49e100451371d342e88f8c83cdeface994e0654dcf04c4dbd502967ff1dac",
+      "group_id": "FM0430",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0444-source.png",
+      "sha256": "917a100c6807ba6764acea4d535b8d3e40b6bf293cd0ed51cc93302e936040de",
+      "group_id": "FM0444",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0489-source.png",
+      "sha256": "0d186ef086486439369d7dc3383243ae2dc99f67dc1e4b45864cd4d04018c2fe",
+      "group_id": "FM0489",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0498-source.png",
+      "sha256": "9094d033aa15a524ac68fc2227b436eeac0300b0ce257dca509e19090fde9ab3",
+      "group_id": "FM0498",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0496-source.png",
+      "sha256": "5c46ecc827be20da3a19526ee2baeb2b9b2e377b637776d1cffc850228777156",
+      "group_id": "FM0496",
+      "review_status": "pending"
+    }
+  ],
+  "catalog_before_sha256": "5fb2a3c487177f2557f7a10aeb7ef8aaecf64369d483aac267cedaa410bd014a",
+  "geometry_contract_before_sha256": "0bdc10e4f7fa6e893aceb31677d4b3475a557a54d1e8f9d0ae368109de3259f3",
+  "checker_contract_sha256": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+  "runtime_verified": false,
+  "release_eligible": false
+}

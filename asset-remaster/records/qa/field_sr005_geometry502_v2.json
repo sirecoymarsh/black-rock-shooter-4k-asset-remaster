@@ -1,0 +1,178 @@
+{
+  "schema": "brs-source-border-reconstruction/v1",
+  "id": "FM0502-source-fixed-border-v2",
+  "group_id": "FM0502",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex010.png",
+  "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+  "source_ptm_sha256": "d642b6876510c40a16b6c3b6ab0b01a76d2d8d829767a26592900347367cc11b",
+  "source_rgba_sha256": "69e209067d5431a28bb46576f339c93b3034bf3959131e144a460e7c4f8421ae",
+  "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-photo-8x.png",
+  "parent_sha256": "27f635a4d83b94807169f5ca7cb1f60898ae011f82d51b919cb2b78eb270095a",
+  "parent_report_sha256": "a7627307e2c889f80c623da88906b6bed2f6cccea80cc6b70a1f3d2c10ea9b05",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-source-fixed-border-v2-8x.png",
+  "output_sha256": "55a8c2219851878345caff623867635735f4abd8db854432332c316b588aeab2",
+  "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-fixed-border.svg",
+  "vector_sha256": "58dd3d4e6058a3896c87c3175e463cc60f4963bfd5026bcd7cf5c8a9ad49935f",
+  "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-fixed-border-mask.png",
+  "mask_sha256": "4c20d1074e0b1f4e0c4c87de0cb887891cc497ab898333e5e2e73fccd92cf186",
+  "rectangles_xywh_source": [
+    [
+      0,
+      0,
+      128,
+      5
+    ],
+    [
+      0,
+      30,
+      128,
+      2
+    ],
+    [
+      0,
+      5,
+      2,
+      25
+    ],
+    [
+      126,
+      5,
+      2,
+      25
+    ]
+  ],
+  "source_profile_sigma": 0.6,
+  "method": "Source texel-center median cross-section interpolated along fixed straight border planes, with bounded local high-frequency grain. No additional neural inference.",
+  "local_inference_passes": 0,
+  "external_calls": 0,
+  "output_size": [
+    1024,
+    256
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-whole.png",
+      "sha256": "50103f7c9af1c506c5e5b16f2125668d96fdfdc6e039ba9041b0ca99cb6397d1",
+      "source_box": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "review_status": "pending_final_review"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-native.png",
+      "sha256": "785d10b49a123bdf59cdbe4b6fd91d4ecc7cce54ef82632ba9b095fc8199dd4c",
+      "source_box": [
+        44,
+        0,
+        76,
+        32
+      ],
+      "review_status": "pending_final_review"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-corner.png",
+      "sha256": "9836392504b7ae5c80f7235bfa8373aa24ee12730109562656562ef92ff29422",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "pending_final_review"
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false,
+  "previous_geometry_report_sha256": "d1cc9903c8d7836a457a0a705e107bb286ae5d680dcaa8eaef141891b9eed211",
+  "source_profiles_rgb": {
+    "top": [
+      [
+        149.0,
+        149.0,
+        149.0
+      ],
+      [
+        91.0,
+        91.0,
+        91.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        170.0,
+        170.0,
+        170.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ]
+    ],
+    "bottom": [
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        91.0,
+        91.0,
+        91.0
+      ],
+      [
+        192.0,
+        192.0,
+        192.0
+      ]
+    ],
+    "left": [
+      [
+        170.0,
+        170.0,
+        170.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ]
+    ],
+    "right": [
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        158.0,
+        158.0,
+        158.0
+      ]
+    ]
+  },
+  "grain_sigma_output_px": 1.25,
+  "grain_gain": 0.25,
+  "grain_bound_RGB": 1
+}

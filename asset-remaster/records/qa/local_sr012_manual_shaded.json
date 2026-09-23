@@ -1,0 +1,49 @@
+{
+  "schema": "brs-sr012-manual-shaded/v1",
+  "files": [
+    {
+      "id": "BM110-codex-grid-and-fastener-v3",
+      "group_id": "BM110",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-grid-and-fastener-v2.png",
+      "parent_sha256": "c2dd81c8dfaf3795c9ddf342ce1b2a0a2f303d4b7d1624597f5d74e869312b9e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "manual_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1-render.png",
+      "manual_parent_sha256": "707565ff44a280b09ee7d6cacad4b97eb38b00daaf9d30adbe84948d39e62e6d",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1.svg",
+      "vector_sha256": "e86a5da5384f6112581b93a1ef9072a180a0d3c2fdd628fafc2209a2235188d5",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-center-metal-mask-v3.png",
+      "mask_sha256": "0b75c6576cf6e35bb0436e788f5f75c01067ade097737b6760b766b991c33d87",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-grid-and-fastener-v3.png",
+      "output_sha256": "5360f77687a5403f9cf677bd21903f62ce466e11cea9aae3e32d4040cd3742c0",
+      "output_size": [
+        512,
+        256
+      ],
+      "new_neural_passes": 0,
+      "method": "Source broad luminance applied only to manually drawn center metal; sharp authored holes, straight grid, external local frame and alpha unchanged",
+      "shading": {
+        "source_gaussian_sigma": 0.55,
+        "resample": "RGB bicubic8x",
+        "gain_formula": "clip(0.38+0.62*source_luma/95,0.65,1.4)",
+        "center_metal_pixels": 2152
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Codex-authored straight grid restores nine full horizontal slats, four vertical slats and the four source row-15 segments. Authored central cross and two holes replace the changed model center. Surrounding frame/rings retain local WDN material, and center broad shading comes from the source. Static candidate only; full geometry/UV/runtime remains unverified.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_shaded_BM110.png"
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

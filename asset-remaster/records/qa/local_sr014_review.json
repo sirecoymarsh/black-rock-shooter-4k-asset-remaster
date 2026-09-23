@@ -1,0 +1,560 @@
+{
+  "schema": "brs-local-sr-review/v14",
+  "batch": "LOCAL-SR-014",
+  "previous_goal_turn_classification": "progress: SR013 accepted two static redraw candidates with preserved catalog and provenance",
+  "checked_outputs": [
+    {
+      "id": "BM175-holes-0.72",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [
+        {
+          "source_components": 36,
+          "output_components": 50,
+          "saved_source_sample_class_mismatches": 4
+        },
+        {
+          "source_components": 35,
+          "output_components": 50,
+          "saved_source_sample_class_mismatches": 2
+        }
+      ],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM175-holes-0.82",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [
+        {
+          "source_components": 30,
+          "output_components": 37,
+          "saved_source_sample_class_mismatches": 8
+        },
+        {
+          "source_components": 32,
+          "output_components": 39,
+          "saved_source_sample_class_mismatches": 9
+        }
+      ],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM201-cells-0.6",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM201-cells-1.1",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM175-angular",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [
+        {
+          "source_components": 36,
+          "output_components": 36,
+          "saved_source_sample_class_mismatches": 0
+        },
+        {
+          "source_components": 35,
+          "output_components": 35,
+          "saved_source_sample_class_mismatches": 2
+        }
+      ],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM175-fine",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [
+        {
+          "source_components": 36,
+          "output_components": 36,
+          "saved_source_sample_class_mismatches": 0
+        },
+        {
+          "source_components": 35,
+          "output_components": 35,
+          "saved_source_sample_class_mismatches": 1
+        }
+      ],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM201-material",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [],
+      "decision": "rejected"
+    },
+    {
+      "id": "BM201-quiet",
+      "source_ptm_rgba_output_parent_mask_vector_hashes_verified": true,
+      "size8x_verified": true,
+      "alpha255_verified": true,
+      "outside_quantized_edit_mask_max_channel_delta": 0,
+      "mesh": [],
+      "decision": "rejected"
+    }
+  ],
+  "accepted_candidates": {},
+  "still_held": [
+    "BM175",
+    "BM201"
+  ],
+  "new_unique_originals": 0,
+  "new_actual_local_neural_passes": 0,
+  "external_generative_calls": 0,
+  "metadata_corrections": [
+    {
+      "id": "BM175-angular",
+      "panel": [
+        4,
+        2,
+        28,
+        13
+      ],
+      "field": "source_sample_class_mismatches",
+      "inherited_prior_value": 4,
+      "measured_value": 0
+    },
+    {
+      "id": "BM175-fine",
+      "panel": [
+        4,
+        2,
+        28,
+        13
+      ],
+      "field": "source_sample_class_mismatches",
+      "inherited_prior_value": 4,
+      "measured_value": 0
+    },
+    {
+      "id": "BM175-fine",
+      "panel": [
+        4,
+        34,
+        28,
+        45
+      ],
+      "field": "source_sample_class_mismatches",
+      "inherited_prior_value": 2,
+      "measured_value": 1
+    }
+  ],
+  "source_contrast_diagnostics": [
+    {
+      "id": "BM201-material",
+      "patch": "upper",
+      "source_stable_sample_cells": 33,
+      "sample_pairs": 44,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-material",
+      "patch": "right",
+      "source_stable_sample_cells": 65,
+      "sample_pairs": 107,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": [
+          {
+            "from": [
+              4,
+              0
+            ],
+            "to": [
+              5,
+              0
+            ],
+            "source_difference": 13.555555555555557,
+            "initial_local_difference": 13.740740740740762,
+            "reconstruction_difference": -22.592592592592595
+          },
+          {
+            "from": [
+              5,
+              0
+            ],
+            "to": [
+              6,
+              0
+            ],
+            "source_difference": -21.185185185185205,
+            "initial_local_difference": -23.962962962962976,
+            "reconstruction_difference": 12.703703703703695
+          }
+        ]
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-material",
+      "patch": "left",
+      "source_stable_sample_cells": 30,
+      "sample_pairs": 46,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-material",
+      "patch": "bottom",
+      "source_stable_sample_cells": 39,
+      "sample_pairs": 45,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-material",
+      "patch": "small",
+      "source_stable_sample_cells": 10,
+      "sample_pairs": 12,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-quiet",
+      "patch": "upper",
+      "source_stable_sample_cells": 33,
+      "sample_pairs": 44,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-quiet",
+      "patch": "right",
+      "source_stable_sample_cells": 65,
+      "sample_pairs": 107,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": [
+          {
+            "from": [
+              4,
+              0
+            ],
+            "to": [
+              5,
+              0
+            ],
+            "source_difference": 13.555555555555557,
+            "initial_local_difference": 13.740740740740762,
+            "reconstruction_difference": -23.0
+          },
+          {
+            "from": [
+              5,
+              0
+            ],
+            "to": [
+              6,
+              0
+            ],
+            "source_difference": -21.185185185185205,
+            "initial_local_difference": -23.962962962962976,
+            "reconstruction_difference": 13.1111111111111
+          }
+        ]
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-quiet",
+      "patch": "left",
+      "source_stable_sample_cells": 30,
+      "sample_pairs": 46,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-quiet",
+      "patch": "bottom",
+      "source_stable_sample_cells": 39,
+      "sample_pairs": 45,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    },
+    {
+      "id": "BM201-quiet",
+      "patch": "small",
+      "source_stable_sample_cells": 10,
+      "sample_pairs": 12,
+      "opposite_sign_vs_source": {
+        "initial_local": [],
+        "reconstruction": []
+      },
+      "interpretation": "3x3 source-positioned center means, limited to cells with >=25 assigned source samples and source adjacent difference >=10/255. Partial edges and damaged cells may not represent checker phase."
+    }
+  ],
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-BM175-compare1.png",
+      "sha256": "3e23f362ca5c37190ed5bb2971f546ee9a6cfc55f42747ad787a87e656bb9124",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-BM201-compare0.png",
+      "sha256": "444c771d4343aa63051eef91db4a80c82a8a4a0c03272201209bc52924cbc6cf",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-BM201-compare1.png",
+      "sha256": "5a8bb66b11df6dbd3e3d179cb17239c4b77652c5da0dac21aa59b96bba8b771e",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-BM201-compare2.png",
+      "sha256": "e06364d86709d6ed890c7c44fd0c90683bb5bb653a984ca726fddc12f1460716",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM175-compare0.png",
+      "sha256": "6fa607e977b1b1806f520b23d3910651ea6f88ea780404e4d4eabfbda9292e4e",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM175-compare1.png",
+      "sha256": "ca4b582283e065d19bd57e4b62e97914627d85fd49596d5beb4cddb07ea5e29a",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM201-compare0.png",
+      "sha256": "fc560c1f2b246662bf1215e1a4c52871e9e0da57aec4d6d5401e338c9d0b377f",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM201-compare1.png",
+      "sha256": "16ba80132dc2b3aac47fa2e9a3fca5a398b9ed2d5dc40bd776268870f4226201",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM201-compare2.png",
+      "sha256": "97e03479d29444a3eef47d42fdcb0c163b6555f24a7eafa0a53ff1a663e201b2",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM201-compare3.png",
+      "sha256": "b122e262a789802d8ca0c3def7dd8a1128a0d368f591750f3528ca6549d35d9a",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-v2-BM201-compare4.png",
+      "sha256": "6ba02edab6ef214f7c1aaa79cfcf98f95bebb68700890639cee6138b8f5fc982",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM175-p0.png",
+      "sha256": "f3c20e2348c49494d3845b1d6534333d1fa13840e0ec49a1b8068dd73046d96a",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM201-p0.png",
+      "sha256": "5aa9f691dcd5d1bdcaedb1201884dc3d99a45a81779257de000fe198ca6684d6",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM201-p1.png",
+      "sha256": "08e0fa55884b99347fe8285598bd0bdd1e9e169993d786ce3a016aedc35fd393",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM201-p2.png",
+      "sha256": "17e6705bd1de463b0b0e42b41069254ae669c0cf37bf40f6633171e2531c8374",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM201-p3.png",
+      "sha256": "f9b47bbdef38041996a6635a50083a42c986c3674b65b547ab34d6c11ee5fd24",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM201-p4.png",
+      "sha256": "6e50280039d09b05c3d89140857139f034a624a6532018c22b658e756ee9b2f4",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM209-p0.png",
+      "sha256": "944764c6c6382e83d6c0a40a6c1c0d2b8cff68a25c2ce8af4f1ae86cb2bdd3f0",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM209-p2.png",
+      "sha256": "f8685ec060eb94eb3be72e6d80c7e235939b85072a8f6119162cf6433fa5b881",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr014-source\\BM244-p3.png",
+      "sha256": "df0ad47b5eaef3835c4b0c003ad0b22f8e83e3c2b3725161423a1c78a8460afb",
+      "reviewer": "Codex internal",
+      "status": "directly_inspected"
+    }
+  ],
+  "comparison_pages_generated": 14,
+  "comparison_pages_inspected": 11,
+  "source_pages_generated": 15,
+  "source_pages_inspected": 9,
+  "processing_summary_unchanged": {
+    "battle_groups_total": 284,
+    "battle_groups_locally_processed": 256,
+    "battle_static_candidates": 241,
+    "battle_processed_without_accepted_candidate": 17,
+    "battle_groups_not_yet_processed": 26,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 257,
+    "source_table_entries": 416,
+    "source_decoded_entries": 413,
+    "source_format_unresolved": 3,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr013_review.json",
+    "new_unique_originals_latest_rework": 0,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 12,
+    "new_unique_originals_LOCAL_SR_005": 49,
+    "neural_passes_LOCAL_SR_005": 102,
+    "new_unique_originals_LOCAL_SR_006": 21,
+    "neural_passes_LOCAL_SR_006": 86,
+    "review_pack_exact_keys": 20,
+    "new_unique_originals_LOCAL_SR_007": 0,
+    "neural_passes_LOCAL_SR_007": 36,
+    "new_unique_originals_LOCAL_SR_008": 24,
+    "neural_passes_LOCAL_SR_008": 54,
+    "new_unique_originals_LOCAL_SR_009": 24,
+    "neural_passes_LOCAL_SR_009": 120,
+    "new_unique_originals_LOCAL_SR_010": 31,
+    "neural_passes_LOCAL_SR_010": 104,
+    "new_unique_originals_LOCAL_SR_011": 42,
+    "neural_passes_LOCAL_SR_011": 184,
+    "battle_groups_processed_any_method": 258,
+    "battle_geometry_only_groups_processed": 2,
+    "battle_groups_never_locally_inferred": 28,
+    "neural_passes_CHECKER_001": 2,
+    "counter_contract": "Locally processed counts mean actual neural inference. Processed-any-method also includes explicitly recorded deterministic geometry. Static candidate/held/unprocessed counts use all methods.",
+    "new_unique_originals_LOCAL_SR_012": 12,
+    "neural_passes_LOCAL_SR_012": 53,
+    "generative_calls_LOCAL_SR_012": 1,
+    "manual_reconstructed_groups_LOCAL_SR_012": 1,
+    "new_unique_originals_LOCAL_SR_013": 0,
+    "neural_passes_LOCAL_SR_013": 0,
+    "generative_calls_LOCAL_SR_013": 1,
+    "manual_reconstructed_groups_LOCAL_SR_013": 1
+  },
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "findings": [
+    "BM175 source pattern has repeating small diagonal dark groups; reconstructed count alone does not prove its physical material design.",
+    "V1 mesh changes 36/35 source dark groups into 50/50 high-resolution groups. V2 preserves 36/35 but looks like a slotted plate. Both rejected.",
+    "BM201 source already contains broad cracks. The initial audit must not treat all triangular damage as invented; actual new deformation and original damage must be distinguished.",
+    "BM201 isolated cell paint leaves artificial flatness; blending back local crack/rim bands produces visible overlap strips. Do not keep stacking local overlays.",
+    "BM201 source/candidate sample contrasts show remaining opposite signs near the top damaged rim, and are insufficient to prove exact checker phase.",
+    "BM209/BM244/BM226 inspected source/current audit images only; not reconstructed or completed this batch."
+  ],
+  "next_action": [
+    "Replace the overlapping floor repair with a single coherent source-derived surface for the entire patch, with grid and damage represented in the same coordinate system.",
+    "For BM175 obtain consumer/material reference if available before choosing between wire mesh and perforated/slotted plate; retain original dark groups as the objective positional evidence.",
+    "Continue remaining checker audit and full-game inventory/processing. Existing static candidates do not establish runtime or complete-game coverage."
+  ],
+  "scripts": {
+    "inspect_sr014_checkers.py": "aec066851316886fb2eba340d6e13239a9c3cf16f55dae5caf8a30a4eb70cf3d",
+    "reconstruct_sr014.py": "e3ff37641883aa5bdc7916bdb5b5ccdf6a6c207975730388ede35a23be6c96a5",
+    "refine_sr014.py": "9d5b362445d0b5bd446e08935af7da7ccb354c9b68d11e3e38d9abb30fa16beb",
+    "review_sr014.py": "d6bf6bc52cf42148e106b4342ce2013243d8d5c0fe1dc7fc53a84499110055b5"
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "protected_regions": [
+    {
+      "id": "UI-02",
+      "box": [
+        0,
+        0,
+        94,
+        48
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-02",
+      "box": [
+        94,
+        43,
+        99,
+        48
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-04",
+      "box": [
+        0,
+        0,
+        94,
+        48
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-04",
+      "box": [
+        94,
+        43,
+        99,
+        48
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-06",
+      "box": [
+        0,
+        10,
+        228,
+        35
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-06",
+      "box": [
+        0,
+        0,
+        15,
+        10
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-07",
+      "box": [
+        0,
+        80,
+        104,
+        185
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-07",
+      "box": [
+        104,
+        0,
+        128,
+        180
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-10",
+      "box": [
+        157,
+        0,
+        214,
+        29
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-10",
+      "box": [
+        157,
+        29,
+        164,
+        42
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-10",
+      "box": [
+        0,
+        0,
+        157,
+        96
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        56,
+        12,
+        88,
+        28
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        0,
+        28,
+        89,
+        56
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        95,
+        48,
+        105,
+        58
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        100,
+        12,
+        105,
+        20
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        106,
+        6,
+        111,
+        14
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-11",
+      "box": [
+        112,
+        12,
+        117,
+        20
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        56,
+        12,
+        88,
+        28
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        0,
+        28,
+        89,
+        56
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        95,
+        48,
+        105,
+        58
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        100,
+        12,
+        105,
+        20
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        106,
+        6,
+        111,
+        14
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-14",
+      "box": [
+        112,
+        12,
+        117,
+        20
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-17",
+      "box": [
+        0,
+        0,
+        128,
+        6
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        46,
+        294,
+        96,
+        296
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        46,
+        303,
+        96,
+        305
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        46,
+        296,
+        48,
+        303
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        87,
+        296,
+        96,
+        303
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        62,
+        322,
+        77,
+        338
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        46,
+        306,
+        62,
+        337
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        48,
+        339,
+        53,
+        352
+      ],
+      "rgba_equal": true
+    },
+    {
+      "id": "UI-22",
+      "box": [
+        108,
+        339,
+        126,
+        352
+      ],
+      "rgba_equal": true
+    }
+  ],
+  "count": 32,
+  "source_ink_coverage": [
+    {
+      "id": "UI-06",
+      "source_ink_box": [
+        16,
+        4,
+        78,
+        9
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-09",
+      "source_ink_box": [
+        36,
+        4,
+        37,
+        11
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-09",
+      "source_ink_box": [
+        90,
+        4,
+        91,
+        16
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-09",
+      "source_ink_box": [
+        90,
+        25,
+        91,
+        26
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-11",
+      "source_ink_box": [
+        100,
+        20,
+        105,
+        47
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-11",
+      "source_ink_box": [
+        106,
+        14,
+        111,
+        61
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-11",
+      "source_ink_box": [
+        112,
+        20,
+        117,
+        37
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-14",
+      "source_ink_box": [
+        100,
+        20,
+        105,
+        47
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-14",
+      "source_ink_box": [
+        106,
+        14,
+        111,
+        61
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-14",
+      "source_ink_box": [
+        112,
+        20,
+        117,
+        37
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-22",
+      "source_ink_box": [
+        49,
+        297,
+        87,
+        302
+      ],
+      "fully_cleared": true
+    },
+    {
+      "id": "UI-22",
+      "source_ink_box": [
+        53,
+        340,
+        107,
+        350
+      ],
+      "fully_cleared": true
+    }
+  ],
+  "status": "Exact RGBA equals native nearest expansion in specified ornament/icon regions; all measured old source ink extents cleared. Runtime acceptance remains pending."
+}

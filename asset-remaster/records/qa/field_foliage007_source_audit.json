@@ -1,0 +1,148 @@
+{
+  "schema": "brs-field-foliage007-source-audit/v1",
+  "previous_goal_turn_classification": "progress: foliage006 reviewed9 new originals and selected source-density weed290; tree314 still held with specified source-geometry next action",
+  "catalog_before_sha256": "9dc41b618e255ca100d2ccb010b625939dee065b3b19cd23daafb479b9ac41e1",
+  "geometry_contract_before_sha256": "c6110ae9e3797e3f15a0ce6157a7ba5d8fd84534036ad7d3a38825db5fa7f112",
+  "files": [
+    {
+      "group_id": "FM0314",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "f8b3b726ab1701df2f49bfbde1b91d54fc703d90b571ab79d90e12b467d22292",
+      "source_rgba_sha256": "2a4c36ca4bb42ea894cd09594b6ffd091f39c23a2c3da5c8f588fd65366e3aab"
+    },
+    {
+      "group_id": "FM0316",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "2f2eec8d3c3d0ea19a16328aa7929bc3ccf234b4e8584049219d0757090e287e",
+      "source_rgba_sha256": "66b0cb690e4f4cd0b38973d0b963303508d53d833a1d5770e71b89b339c716f3"
+    },
+    {
+      "group_id": "FM0317",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "550b61bf11b04b00f8287c61dac8c759fe79185127d124af2c9f1f7152008834",
+      "source_rgba_sha256": "23ab809579abfe5ed3e4a6b526f3f68a2557fd1284e29f65ff739daf365fa951"
+    },
+    {
+      "group_id": "FM0325",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "621fc0924ff3148339892830acffc7d213471b6a6bbff55de250231b076b7b75",
+      "source_rgba_sha256": "60759116fdd8e5adb6785e45b13c7655f7ba621c74fbd141d5f534c93f4bb8b9"
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-full.png",
+      "sha256": "5aff3576e09f94dd4fa4c6c88455e61cbd8f2fb946bcaabdbb815a9e0f4cbf9f",
+      "group_id": "FM0314",
+      "kind": "source-full",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-lower.png",
+      "sha256": "05cc45ba6ec885d8e11046bbe2ec5b91e79713127dc4414b8a65c8db4bc73be2",
+      "group_id": "FM0314",
+      "kind": "coordinate-lower",
+      "source_box": [
+        0,
+        64,
+        128,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-left.png",
+      "sha256": "d62268d868595a2ac256057cd06da2226125100c602db05e25c92aebe196e9a5",
+      "group_id": "FM0314",
+      "kind": "coordinate-left",
+      "source_box": [
+        0,
+        72,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-right.png",
+      "sha256": "ac55498e2c530b4c91c77bfc9e33a50e39506b58c25838e8385b8864bb5612de",
+      "group_id": "FM0314",
+      "kind": "coordinate-right",
+      "source_box": [
+        64,
+        72,
+        128,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-full.png",
+      "sha256": "b88ed2517be70565148ee46b28b79b130581f109e4a4ea4fbb0f2dfd9bd7204d",
+      "group_id": "FM0316",
+      "kind": "source-full",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-full.png",
+      "sha256": "1c8f50504b151c7ed5fcf51f70a159e92be3bc77777d076ece7a69bd512b6209",
+      "group_id": "FM0317",
+      "kind": "source-full",
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-full.png",
+      "sha256": "e0d1a1a9bbf0c82ca45eed67f05564d24ff395a7c4cb55b006a80e07233eee5d",
+      "group_id": "FM0325",
+      "kind": "source-full",
+      "review_status": "pending"
+    }
+  ],
+  "source_relationships": [
+    {
+      "base": "FM0314",
+      "other": "FM0316",
+      "common_opaque_source_pixels": 10036,
+      "equal_RGB_fraction_common_opaque": 0.0,
+      "whole_RGB_equal_fraction": 0.0,
+      "gray_affine_coefficients": [
+        0.7540789938336251,
+        83.2981986611849
+      ],
+      "gray_affine_residual_RMS": 12.333675979901132,
+      "limit": "Pixel/color relationship only; does not prove same in-game consumer or permit automatic geometry reuse."
+    },
+    {
+      "base": "FM0314",
+      "other": "FM0317",
+      "common_opaque_source_pixels": 9707,
+      "equal_RGB_fraction_common_opaque": 0.0,
+      "whole_RGB_equal_fraction": 0.0,
+      "gray_affine_coefficients": [
+        0.749784983881226,
+        83.5865738728142
+      ],
+      "gray_affine_residual_RMS": 12.480539475036759,
+      "limit": "Pixel/color relationship only; does not prove same in-game consumer or permit automatic geometry reuse."
+    },
+    {
+      "base": "FM0314",
+      "other": "FM0325",
+      "common_opaque_source_pixels": 8897,
+      "equal_RGB_fraction_common_opaque": 0.9997752051253231,
+      "whole_RGB_equal_fraction": 0.87841796875,
+      "gray_affine_coefficients": [
+        0.9997577825686027,
+        0.02595641835321398
+      ],
+      "gray_affine_residual_RMS": 0.6195868786928123,
+      "limit": "Pixel/color relationship only; does not prove same in-game consumer or permit automatic geometry reuse."
+    }
+  ],
+  "new_local_passes": 0,
+  "new_external_calls": 0
+}

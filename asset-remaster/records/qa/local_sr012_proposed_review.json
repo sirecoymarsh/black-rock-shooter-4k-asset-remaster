@@ -1,0 +1,55 @@
+{
+  "schema": "brs-sr012-proposed-review/v1",
+  "choices": {
+    "BM062": "photo",
+    "BM063": "photo",
+    "BM065": "wdn",
+    "BM074": "photo",
+    "BM079": "wdn",
+    "BM087": "wdn",
+    "BM101": "photo",
+    "BM110": "wdn",
+    "BM111": "wdn",
+    "BM115": "wdn",
+    "BM116": "photo",
+    "BM118": "photo"
+  },
+  "matte_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-01.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-02.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-03.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-04.png"
+  ],
+  "detail_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM065-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM074-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM079-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM087-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM110-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM115-detail.png"
+  ],
+  "review_status": "All model, alpha matte, detail, structural retry and manual comparison pages directly inspected. Two groups still need direct redraw. Runtime unverified.",
+  "runtime_verified": false,
+  "final_selected": {
+    "BM065": "BM065-wdn",
+    "BM079": "BM079-wdn",
+    "BM062": "BM062-photo",
+    "BM063": "BM063-photo",
+    "BM074": "BM074-photo",
+    "BM101": "BM101-photo",
+    "BM116": "BM116-photo",
+    "BM118": "BM118-photo",
+    "BM110": "BM110-codex-grid-and-fastener-v3",
+    "BM111": "BM111-wdn-source-bicubic-alpha"
+  },
+  "holds": {
+    "BM087": "All four local model conditions lose/merge original small windows; source-structure retries recover source marks but remain too soft. Direct facade redraw is required.",
+    "BM115": "Initial results add strong metallic sheen and granular edges; filtered and source-guided retries trade that for excessive softness. Direct source-faithful material redraw is required."
+  },
+  "superseded_matte_choices": {
+    "BM087": "held after detail review",
+    "BM110": "local WDN replaced by authored grid/fastener v3",
+    "BM115": "held after all retries",
+    "BM111": "initial WDN loses five faint source samples; replaced by source bicubic alpha"
+  }
+}

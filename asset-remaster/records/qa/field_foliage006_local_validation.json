@@ -1,0 +1,919 @@
+{
+  "schema": "brs-field-foliage006-local-validation/v1",
+  "previous_goal_turn": "progress: all18 base comparison pages inspected; quality defects changed next action to authored-matte ablation",
+  "this_goal_turn": "progress: tested authored RGB matte and two different installed local priors, verified26 local outputs; material failures persist and representative GPT repaint started",
+  "reports_sha256": {
+    "qa\\field_foliage006_local.json": "866b9fc1236b8b0769cd3aec96bf8ebbca160b671a54104374702a129cefd396",
+    "qa\\field_foliage006_matte.json": "c7129a8d44b8068beb784eb098a36dfaca5494dcaebf2f2bf8076e6e5e6e0e75",
+    "qa\\field_foliage006_priors.json": "99b03124f1ccd96caf220d1137cb62f392e601dc1804b32cd9a17f15cd197a52"
+  },
+  "actual_RGB_passes": 26,
+  "new_local_unique_originals": 9,
+  "alpha_neural_passes": 0,
+  "selected_local_outputs": [],
+  "alpha_checks": {
+    "FM0290": {
+      "source_topology": {
+        "foreground_8_components": 1,
+        "background_4_enclosed_holes": 90
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.011362229102167,
+      "junctions": 85,
+      "changed_pixels_from_unpatched_SDF": 170,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0301": {
+      "source_topology": {
+        "foreground_8_components": 1,
+        "background_4_enclosed_holes": 34
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.00630430168039,
+      "junctions": 12,
+      "changed_pixels_from_unpatched_SDF": 24,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0312": {
+      "source_topology": {
+        "foreground_8_components": 10,
+        "background_4_enclosed_holes": 113
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.0061545013655624,
+      "junctions": 83,
+      "changed_pixels_from_unpatched_SDF": 166,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0314": {
+      "source_topology": {
+        "foreground_8_components": 6,
+        "background_4_enclosed_holes": 22
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.000387062457506,
+      "junctions": 20,
+      "changed_pixels_from_unpatched_SDF": 40,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0316": {
+      "source_topology": {
+        "foreground_8_components": 8,
+        "background_4_enclosed_holes": 34
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.000639439927254,
+      "junctions": 27,
+      "changed_pixels_from_unpatched_SDF": 54,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0317": {
+      "source_topology": {
+        "foreground_8_components": 7,
+        "background_4_enclosed_holes": 30
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.000700197387635,
+      "junctions": 20,
+      "changed_pixels_from_unpatched_SDF": 40,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0318": {
+      "source_topology": {
+        "foreground_8_components": 10,
+        "background_4_enclosed_holes": 113
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.0061545013655624,
+      "junctions": 83,
+      "changed_pixels_from_unpatched_SDF": 166,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0320": {
+      "source_topology": {
+        "foreground_8_components": 3,
+        "background_4_enclosed_holes": 33
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.0021516114815128,
+      "junctions": 40,
+      "changed_pixels_from_unpatched_SDF": 80,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    },
+    "FM0325": {
+      "source_topology": {
+        "foreground_8_components": 5,
+        "background_4_enclosed_holes": 28
+      },
+      "all_integer_thresholds_covered": true,
+      "distinct_masks_tested": 23,
+      "source_centers_exact": true,
+      "mass_ratio": 1.0006362072222026,
+      "junctions": 21,
+      "changed_pixels_from_unpatched_SDF": 42,
+      "junction_changes_inside_source_nearest_foreground": true,
+      "alpha_reproduced_exactly": true
+    }
+  },
+  "checked_outputs": [
+    {
+      "id": "FM0290-wdn",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0290-wdn-8x.png",
+      "sha256": "9677641e39f57f2b5edc48d0d611149516a390ce0628dca7a0e327e167fbd1cf",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0301-wdn",
+      "group_id": "FM0301",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0301-wdn-8x.png",
+      "sha256": "117f58db91994bc9856b8568c170f61aa83de18b306c290530f72bb37fa04b45",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0312-wdn",
+      "group_id": "FM0312",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0312-wdn-8x.png",
+      "sha256": "f58d2e9a0200aa128dcfdd0a46847926dda93c0336014a3b0295137f34f8e3e4",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-wdn",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0314-wdn-8x.png",
+      "sha256": "8eccbbf397e661112bf916b466ff12e13fd07029fb5f3b7b86feb530d5e9314c",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0316-wdn",
+      "group_id": "FM0316",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0316-wdn-8x.png",
+      "sha256": "553d73ceecab1647bb8b2e6586ad297f8eb4bd50ffb95b7de810a0f4c61789be",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0317-wdn",
+      "group_id": "FM0317",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0317-wdn-8x.png",
+      "sha256": "02c45f4be287a7d247e70e9883cf95abfaa004506541c35e64342b259c7d5649",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0318-wdn",
+      "group_id": "FM0318",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0318-wdn-8x.png",
+      "sha256": "d8cc2091a6ccf08177490446131bc89a352ad066b710bb1c729736594bd8f759",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0320-wdn",
+      "group_id": "FM0320",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0320-wdn-8x.png",
+      "sha256": "70dee6c3d9f01d29ebf32e3973a40886c3c6dbda84521ac21493f01de20542ee",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0325-wdn",
+      "group_id": "FM0325",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0325-wdn-8x.png",
+      "sha256": "4863b7de3f03d77869d2d57717b4c6bc0ae1c9390c559b88326b69904f139e61",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0290-photo",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0290-photo-8x.png",
+      "sha256": "18e1e3327622a3055be486efc10bc36c9145e48aed29718cb475220201967e8d",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0301-photo",
+      "group_id": "FM0301",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0301-photo-8x.png",
+      "sha256": "a2b48c1cd4bd0b8e503b8af67a1d3f286180df0c264fecbe36de26644654157a",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0312-photo",
+      "group_id": "FM0312",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0312-photo-8x.png",
+      "sha256": "04e8bb50ae430d27b8466c23e5c2ffd645308f33bb0fc065f3861eaa51108d13",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-photo",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0314-photo-8x.png",
+      "sha256": "51622f1cdcfc1da7771bd12ea071ed895e3e907dcd3f68a1b80835ba2da89bc9",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0316-photo",
+      "group_id": "FM0316",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0316-photo-8x.png",
+      "sha256": "9e40e45657bc894957f52948c56202f0bd03eb99bf17aec96a2b9a9781205c34",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0317-photo",
+      "group_id": "FM0317",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0317-photo-8x.png",
+      "sha256": "670ca31508b26233966781e7e12d437f353e330aea09a87504d2137b786edcce",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0318-photo",
+      "group_id": "FM0318",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0318-photo-8x.png",
+      "sha256": "f6dbce053792d264cf65be449c987c3fdc7c2cf3cbc7ced7700bd112b1216fdf",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0320-photo",
+      "group_id": "FM0320",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0320-photo-8x.png",
+      "sha256": "e129c39d2690fb904de83e8f3097241b94317f00d098d3f3c8248e482a703766",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0325-photo",
+      "group_id": "FM0325",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0325-photo-8x.png",
+      "sha256": "f4c6daab71813b5ba8da896b56e70656635a1fac3a8a3d923ea444ef114950c1",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0290-wdn-matte",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-matte\\FM0290-wdn-matte-8x.png",
+      "sha256": "ff89dbc245dd1ec9ccd4984b4dbf93312ad7afd2fbe244562ed07d7cc6ff70e5",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-wdn-matte",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-matte\\FM0314-wdn-matte-8x.png",
+      "sha256": "efec3b9fbe0530fd269eaea564e0fc51f9ba092d3f26b8998e1d5f06a38f612f",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0290-photo-matte",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-matte\\FM0290-photo-matte-8x.png",
+      "sha256": "0018978e975dfbab6f03b62aaa3a75b3810b506905851efc0bcb88f9d1db2e25",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-photo-matte",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-matte\\FM0314-photo-matte-8x.png",
+      "sha256": "99e93cdad46854a869fb864370d22efe552a008673745213d0e32e3868be2bfd",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0290-swinir",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-priors\\FM0290-swinir-8x.png",
+      "sha256": "b5d1758a8e6672aa9d7216d635857c14dbbc568a6a8f065a954bc034032f75f7",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-swinir",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-priors\\FM0314-swinir-8x.png",
+      "sha256": "c29a3b85006f26bc47279fac32f822d1503122f47382a606eddcbb9c57d5cf2d",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0290-anime6b",
+      "group_id": "FM0290",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-priors\\FM0290-anime6b-8x.png",
+      "sha256": "b342672d0fb3be4907436fc671d7b4eb890e20d466446f078cb00ce42de391ce",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    },
+    {
+      "id": "FM0314-anime6b",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-priors\\FM0314-anime6b-8x.png",
+      "sha256": "763067ef463becd7f64e8a51334421f5ff6ee80f125e01380e9afbe114d6fce7",
+      "source_input_model_native_output_verified": true,
+      "saved_native_crop_resize_alpha_exactly_replayed": true,
+      "inference_repeated": false,
+      "decision": "not_selected_needs_rework",
+      "runtime_verified": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-local-whole.png",
+      "sha256": "18424958598dd894780f947c04478ce4d7b838748d2f497e76b7205670ec8c86",
+      "group_id": "FM0290",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-local-native.png",
+      "sha256": "b6f1a13eab635c732d2327b7ed693d22d960e2bbbc7fcdc62b52db86a3aa37b5",
+      "group_id": "FM0290",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0301-local-whole.png",
+      "sha256": "364582f1cb32464dc042ad9076b2c3cc89303f700f868705a4157116feecc9cf",
+      "group_id": "FM0301",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0301-local-native.png",
+      "sha256": "3239b5709afebd3c8d9691b717ce0c810cca1112629e92963dfdd2b9a821e9b9",
+      "group_id": "FM0301",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0312-local-whole.png",
+      "sha256": "db2a5075f70393aa91c6181173f0280e3f00bd4fd2afc386857bad0a3fbe43d7",
+      "group_id": "FM0312",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0312-local-native.png",
+      "sha256": "eae08193d169ae84c4052d0aff00950d5c7f1010765c4788f7acd75f3e21334c",
+      "group_id": "FM0312",
+      "source_box": [
+        72,
+        16,
+        112,
+        56
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-local-whole.png",
+      "sha256": "43c0a2cadb4de25f46f1675758ae2e751109c2212d6be13b253749a62410c31c",
+      "group_id": "FM0314",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-local-native.png",
+      "sha256": "34dcbc9044be6c368ce2b557805bcab5302a682f01300cbdcacf095260c79390",
+      "group_id": "FM0314",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0316-local-whole.png",
+      "sha256": "a213a8c5a1379f9c80d2b9eef530fd105d5200acef7655e1bcf3c8e5dfac20e7",
+      "group_id": "FM0316",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0316-local-native.png",
+      "sha256": "238c0ee304c2c06df1c500e2dbc70c2d9ca4814e5ab0b9b905aed6ca51b7dd08",
+      "group_id": "FM0316",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0317-local-whole.png",
+      "sha256": "5ba7802a21bd53f500235cb56d305d047a05adf9d490dc86f6dc9a3f33b558d9",
+      "group_id": "FM0317",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0317-local-native.png",
+      "sha256": "684b68a4702d635d39ab96fce983696d9d0526bd4e072587687d99da7d5f60b9",
+      "group_id": "FM0317",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0318-local-whole.png",
+      "sha256": "b86df1b42c82ff38350e265581eab10fc4251db729babee2f86e997f09ab0c83",
+      "group_id": "FM0318",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0318-local-native.png",
+      "sha256": "63d71bcbb65b143414eee53d5c02d151f970d8bf1a92e66b2e0cb4af7ac7e78e",
+      "group_id": "FM0318",
+      "source_box": [
+        72,
+        16,
+        112,
+        56
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0320-local-whole.png",
+      "sha256": "a82d3f8ec2cb4fab62249fa39632592624536d9cf96ce1e7ecfd5fd6e5dbb6b2",
+      "group_id": "FM0320",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0320-local-native.png",
+      "sha256": "a3067954072239cc1b9a6b08bcd51fbd7bf5bc127b93df285d19d102041c1041",
+      "group_id": "FM0320",
+      "source_box": [
+        20,
+        4,
+        60,
+        44
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0325-local-whole.png",
+      "sha256": "2fc9939bfecd5c38f83abb212ad805f09846f735f5b2e506b48f7063e65d99fc",
+      "group_id": "FM0325",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0325-local-native.png",
+      "sha256": "3670b3082a3a8309dbfca5f3923854d7d4c09258f3ef7d7d4b1a7ffaa1b1e9af",
+      "group_id": "FM0325",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-wdn-matte-whole.png",
+      "sha256": "90af33ecacbf463bb94cc2dc09625c7d5fbd067b2fffdf0ae76ec0a9fe6d7465",
+      "output_id": "FM0290-wdn-matte",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-wdn-matte-native.png",
+      "sha256": "ba07742dc86b966f3c2074f52c221ad03e10bc49a497bc1f7312b57aaf1d42f0",
+      "output_id": "FM0290-wdn-matte",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-wdn-matte-whole.png",
+      "sha256": "cc19dbb873c03dc25b0bc0f0e2abe1a6eb3aca78eea35549790593579852eb40",
+      "output_id": "FM0314-wdn-matte",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-wdn-matte-native.png",
+      "sha256": "d11e71c8a28d1bcf09bbed43a450da0a3f526c1744e6cd82b1eadcd6c97df6e3",
+      "output_id": "FM0314-wdn-matte",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-wdn-matte-trunks.png",
+      "sha256": "e70da5a38a6e319d96b3766cdb47a5b49fa6da7829c847c00266f2502d134c46",
+      "output_id": "FM0314-wdn-matte",
+      "source_box": [
+        28,
+        80,
+        68,
+        120
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-photo-matte-whole.png",
+      "sha256": "9a97cb25deed22ecd5484be19ca7059c6946c16722e5f13010c217e357b2bd8a",
+      "output_id": "FM0290-photo-matte",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-photo-matte-native.png",
+      "sha256": "bb0ee1fe9b7668b03c8f6c37fab13d107f00d82250587d15ab7d57f8c3ec30c9",
+      "output_id": "FM0290-photo-matte",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-photo-matte-whole.png",
+      "sha256": "5c5be12d6ca47989b92171a069c64b67b43e48818e338992bc154465d7eb67cc",
+      "output_id": "FM0314-photo-matte",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-photo-matte-native.png",
+      "sha256": "4a9412780dda24f0549f1668671babb74336fbb64dd8f0405dcb26c0f414e9a6",
+      "output_id": "FM0314-photo-matte",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-photo-matte-trunks.png",
+      "sha256": "9dc8a9716884093185d9479927af4607a5b900129fa13450fe6538b336d91380",
+      "output_id": "FM0314-photo-matte",
+      "source_box": [
+        28,
+        80,
+        68,
+        120
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-swinir-whole.png",
+      "sha256": "9028a30cb842f1d8d746b5c102eb6be41d3b4497a1a48c2758552566cc6f9439",
+      "output_id": "FM0290-swinir",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-swinir-native.png",
+      "sha256": "05db6431cc1c3746705e2c5fb5a6618adcdf19a00ee088a9d0588f56699802ae",
+      "output_id": "FM0290-swinir",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-swinir-whole.png",
+      "sha256": "f0ee69ea79e78a495ce06af92a101dbc697b155b74dd6a222fee210e0bcd651a",
+      "output_id": "FM0314-swinir",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-swinir-native.png",
+      "sha256": "2595a04a38b579c95de5de014213f553a5fc351bfc0dec6033dd0b29a43327a2",
+      "output_id": "FM0314-swinir",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-swinir-trunks.png",
+      "sha256": "3ad55ef7e36c621934eca07b7126f5a8a043949151776e0948530e8cb89937a2",
+      "output_id": "FM0314-swinir",
+      "source_box": [
+        28,
+        80,
+        68,
+        120
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-anime6b-whole.png",
+      "sha256": "667528a0e67a4dc4c10372fdefb906420b4660c0d081372f75fb01bffbcd5aef",
+      "output_id": "FM0290-anime6b",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-anime6b-native.png",
+      "sha256": "7018c329edbdf81c783a4bb305add208a7d374c6c7ef4b50c1481bd9aaf92e04",
+      "output_id": "FM0290-anime6b",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-anime6b-whole.png",
+      "sha256": "cde152dcde3a0c249bf9258868c38ef948137e7edcf83351bf1b23d3bea280e3",
+      "output_id": "FM0314-anime6b",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-anime6b-native.png",
+      "sha256": "574178d1e7ecb885e370dc540984bf2fb1cc314ce6d541482916148e9414db2f",
+      "output_id": "FM0314-anime6b",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-anime6b-trunks.png",
+      "sha256": "b1cc167933c989f233e38ce5503cf4f39b26184fcb2e76bb6c23fcf810b484e1",
+      "output_id": "FM0314-anime6b",
+      "source_box": [
+        28,
+        80,
+        68,
+        120
+      ],
+      "review_status": "not_inspected_after_whole_view_material_failure"
+    }
+  ],
+  "pages_directly_inspected": 26,
+  "pages_not_inspected_after_whole_failure": 12,
+  "matte_ablation_conclusion": "Changes some tip sharpness/edge colors but does not remove melted foliage or cracked-plane canopy interpretation. Hidden-RGB fill is not established as the sole cause.",
+  "alternative_prior_conclusion": "SwinIR adds obvious ringing/pixel-grid artifacts. Anime6B flattens plant/tree surfaces. Neither resolves the representative2 source material failures. Do not continue a blind local-prior or grain-strength sweep.",
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "catalog_before_sha256": "9bd21fb0c9f49430fe662f849b661fad55f84e58ed6647bdc1520c500a164ffa",
+  "geometry_contract_before_sha256": "bfb0772f39c28d3260ac51fd2fce690773db6e499710f6ab44b1eab86b15d7d3",
+  "limits": [
+    "Topology preservation and source-center alpha are mathematical checks only; source mass changes by at most1.14percent, and runtime alpha testing remains unverified.",
+    "All26 RGB outputs were produced by actual local inference. Postprocessing is neural4x then Lanczos2x, not native neural8x.",
+    "No local candidate is selected from these attempts. New unique9 originals are not yet reflected in final catalog; defer catalog change to complete batch review."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

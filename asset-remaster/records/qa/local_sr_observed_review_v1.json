@@ -1,0 +1,732 @@
+{
+  "schema": "brs-observed-review/v1",
+  "batch": "LOCAL-SR-006",
+  "selected": {
+    "BM131": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "b82908ba073cabea3c862dd0ce0aabe652dd1089bdc159bd3346fced471c984a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM131-wdn-rgba8x.png",
+      "output_sha256": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM134": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "fed58ca2b9a1229c80efe13acbe1a27df40163eae3a5da206a9f6c9ec4924707",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM134-wdn-rgba8x.png",
+      "output_sha256": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM150": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "c38845641ab439765bc0cc13299694f28fb1507eadd6a760bb99016326df2028",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM150-wdn-rgba8x.png",
+      "output_sha256": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM151": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "458fdcd451a5fa5c361f3b83f75f6f3eaab5f40f4bb922f2b3b619ac3536d6ed",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM151-wdn-rgba8x.png",
+      "output_sha256": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM152": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "b04933ca99e5144612c06025249028ed761b3b950b0a4b1deb38dedd1915c392",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM152-wdn-rgba8x.png",
+      "output_sha256": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM157": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "671a8b97a333d55e3c5e76df6c2d89657bb45212886ab6c8aa8d500009860d79",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM157-wdn-rgba8x.png",
+      "output_sha256": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM158": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "77b9eebb8cac6434a24b479b3682ce7de05af6e42921f71def06b4b149089012",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM158-wdn-rgba8x.png",
+      "output_sha256": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM160": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "e7ba38cb0c54663de18c5f1f0812ae7b8737f2b0135b4a24ede75f68974d1fc7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM160-wdn-rgba8x.png",
+      "output_sha256": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM161": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "4e3dc9a753252b0f518db9c4b51eaec2c7d7e699a39fbbc1a341199c707a49b6",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM161-wdn-rgba8x.png",
+      "output_sha256": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM168": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "60f9e0c35b07ea1f379c9e984a8308c577bfb18c907238eff585eb3139469b62",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM168-wdn-rgba8x.png",
+      "output_sha256": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM148": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "3ca29d2e919725cc3e4f69e4dda22d028da85b470d86f9908a24cc10a366eef4",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM148-photo-rgba8x.png",
+      "output_sha256": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM149": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "8350bddc4d4b33acc9fc446ffaaf58cae113c6ca5122b9bc91f73b2d82aea25f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM149-photo-rgba8x.png",
+      "output_sha256": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM166": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "8a5d80cec1287e40da9bc0ab2368cfd93935e82b2ad30aba42c16d168d43ed2b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM166-photo-rgba8x.png",
+      "output_sha256": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM167": {
+      "source_report": "qa/local_sr_observed_v1.json",
+      "source_rgba_sha256": "c886bd7a68783b0ecc80f45fc537333f5f9dc23a8a45f5378c3b13ed99964a23",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM167-photo-rgba8x.png",
+      "output_sha256": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+      "reason": "Selected after source/model comparisons; major structure retained. Source full-RGBA/key identity is verified separately; this is not final scene/UV/tile-wrap approval. Black and light matte comparisons reviewed; native blend mode/alpha testing remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  },
+  "checked_outputs": [
+    {
+      "group_id": "BM130",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "size": [
+        2048,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM131",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM131-wdn-rgba8x.png",
+      "sha256": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+      "size": [
+        1024,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM134",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM134-wdn-rgba8x.png",
+      "sha256": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM148",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM148-wdn-rgba8x.png",
+      "sha256": "04cf17771698f574b755c7925281848969b316f1565d74ba737e43ed87215cdb",
+      "size": [
+        4096,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM149",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM149-wdn-rgba8x.png",
+      "sha256": "c79fef5dcc89d578936ec1de81c1d13ce786d1888745e213f331a5776959c1b1",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM150",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM150-wdn-rgba8x.png",
+      "sha256": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM151",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM151-wdn-rgba8x.png",
+      "sha256": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM152",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM152-wdn-rgba8x.png",
+      "sha256": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM156",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM157",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM157-wdn-rgba8x.png",
+      "sha256": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM158",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM158-wdn-rgba8x.png",
+      "sha256": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM159",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM160",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM160-wdn-rgba8x.png",
+      "sha256": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM161",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM161-wdn-rgba8x.png",
+      "sha256": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM162",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM163",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM164",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM165",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM166",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM166-wdn-rgba8x.png",
+      "sha256": "7e9d57d4fe3c7135f0bc19f65f65617e6a2ec2e3afe00cf1ac493b4fe367fe57",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM167",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM167-wdn-rgba8x.png",
+      "sha256": "8ed093bba60ce32e962922f1bb1b229fbe3c6d0d90dcdf2f892d81d2e2b9cf12",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM168",
+      "model_id": "wdn",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM168-wdn-rgba8x.png",
+      "sha256": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+      "size": [
+        1024,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM130",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-photo-rgba8x.png",
+      "sha256": "cb52ae12f7826b8811288a639145ae48d343554288770d196b333c5a9121cb3b",
+      "size": [
+        2048,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM131",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM131-photo-rgba8x.png",
+      "sha256": "64666d1288d97ceebb5804751d566cb042157f50c7be7db578c2391308af89bd",
+      "size": [
+        1024,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM134",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM134-photo-rgba8x.png",
+      "sha256": "8524339449ce5d6d6dfa6cfb7cca173e92464fc71b56124a8e0ab562399abf16",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM148",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM148-photo-rgba8x.png",
+      "sha256": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+      "size": [
+        4096,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM149",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM149-photo-rgba8x.png",
+      "sha256": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM150",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM150-photo-rgba8x.png",
+      "sha256": "54ea1d855843c2fda27fee55e972e7eb320bc41ebec3958eea20c40fdb397c78",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM151",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM151-photo-rgba8x.png",
+      "sha256": "d4f366bd580f4e879e4df717749b7a81425dd4f0cf88d475109f07c35fde9c10",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM152",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM152-photo-rgba8x.png",
+      "sha256": "bd1e9d75dfb8952e183e857fb12eaa2cd6ee5e6fa2fe71f8335de64c53187e8a",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM156",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-photo-rgba8x.png",
+      "sha256": "27b4538c01c18c87b179c2fd03aec6b62002aa73482a5cd494eff579d49fba3b",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM157",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM157-photo-rgba8x.png",
+      "sha256": "e89775e1fcbf9e13ba861e7623ffef372269eef498c3f2da7bab4a3b79a3c28f",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM158",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM158-photo-rgba8x.png",
+      "sha256": "6266b0f3ecd25644cd460b7a4f8ca108c954ca6975d81d47408b1057a2210f12",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM159",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-photo-rgba8x.png",
+      "sha256": "291057aeb073997458557e68f971ca6a6ea25ef77262fbabab6a586a6e7952f5",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM160",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM160-photo-rgba8x.png",
+      "sha256": "91df1f099b897307feaf90ab130ef8697b4aaddd89099efe785d80a82844f250",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM161",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM161-photo-rgba8x.png",
+      "sha256": "fcf84731410342f8b0cadf467b37eb3ce26329b3de04a1c5a6d4778d3e6f59ca",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM162",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-photo-rgba8x.png",
+      "sha256": "89709e2b373b7300eb69ca5e1a06e048670fe77a26a481a846e3ba7506a68e14",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM163",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-photo-rgba8x.png",
+      "sha256": "c8b73803800325bc53e81346ca0fba167c81c32254157bc7bb29d308e249b2a9",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM164",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-photo-rgba8x.png",
+      "sha256": "e2043b5715ed04fe5da940c1c9048b0bf5bbee431abd1c47713804c1614b79f1",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM165",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-photo-rgba8x.png",
+      "sha256": "23e89bea6edfa8fdb724209b7a647c7536ef3fc6c8515a94a50ef83e84822eb1",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM166",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM166-photo-rgba8x.png",
+      "sha256": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM167",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM167-photo-rgba8x.png",
+      "sha256": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+      "size": [
+        512,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    },
+    {
+      "group_id": "BM168",
+      "model_id": "photo",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM168-photo-rgba8x.png",
+      "sha256": "7b0a4e7ea72f7bd625467641086d5764d7738626d8de50fa411f4a76367c46ac",
+      "size": [
+        1024,
+        512
+      ],
+      "source_and_model_sha_verified": true,
+      "empty_and_solid_support_verified": true,
+      "source_ge16_reduced_below8": 0
+    }
+  ],
+  "new_unique_originals": 21,
+  "new_neural_passes": 86,
+  "new_holds": {
+    "BM130": "Both models invent strongly segmented/zigzag cliff grooves; source macro structure needs a better controlled retry.",
+    "BM156": "Foliage has glossy hard patches and branches acquire planar edges; separate foliage/trunk detail strength before selection.",
+    "BM159": "Yellow mottled layer becomes too vivid and highly detailed; preserve local color/coverage before choosing a candidate.",
+    "BM162": "Foliage acquires bright rock-like highlights; reduce invented contrast.",
+    "BM163": "Leaf strips become glossy knotted tubes; local prefilter/material treatment needs revision.",
+    "BM164": "Scattered leaves become glossy blob shapes; source color and leaf silhouette need closer reconstruction.",
+    "BM165": "Gray leaf variant shows the same glossy blobby detail problem as BM164."
+  },
+  "processing_summary": {
+    "battle_groups_total": 283,
+    "battle_groups_locally_processed": 123,
+    "battle_static_candidates": 110,
+    "battle_processed_without_accepted_candidate": 13,
+    "battle_groups_not_yet_processed": 160,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 124,
+    "source_table_entries": 416,
+    "source_decoded_entries": 410,
+    "source_format_unresolved": 6,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr_observed_review_v1.json",
+    "new_unique_originals_latest_rework": 21,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 42,
+    "new_unique_originals_LOCAL_SR_005": 49,
+    "neural_passes_LOCAL_SR_005": 102,
+    "new_unique_originals_LOCAL_SR_006": 21,
+    "neural_passes_LOCAL_SR_006": 86,
+    "review_pack_exact_keys": 16
+  },
+  "qa_pack_report": "qa/local_sr_observed_review_pack_v1.json",
+  "runtime_verified": false,
+  "release_eligible": false
+}

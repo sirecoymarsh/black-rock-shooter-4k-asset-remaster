@@ -1,0 +1,693 @@
+{
+  "schema": "brs-field-sr004-rework/v1",
+  "basis": "Source blur/dither became extra cracks or overly deep ring/panel relief in initial comparisons; compare stronger WDN prefilter and a distinct local general model.",
+  "initial_inference_sha256": "e32dcd785232d343d70f85b2856e147fd3466993b592e0d2a003c63bb82c97c4",
+  "initial_native_crop_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-01.png",
+      "sha256": "057d1eb16a8ea4a4cb65f17de337784569681452f0d2d3e54a64a64039329c2e",
+      "group_ids": [
+        "FM0275",
+        "FM0276",
+        "FM0277"
+      ],
+      "source_boxes": {
+        "FM0275": [
+          40,
+          8,
+          72,
+          40
+        ],
+        "FM0276": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0277": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-02.png",
+      "sha256": "ccdde9114660cfef18e392ba4e534de4ce6b9e97017f63a0cf6cd8a99a78e649",
+      "group_ids": [
+        "FM0280",
+        "FM0282",
+        "FM0286"
+      ],
+      "source_boxes": {
+        "FM0280": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0282": [
+          0,
+          16,
+          32,
+          48
+        ],
+        "FM0286": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-03.png",
+      "sha256": "3b38ad8a97d59feb8a544427203edc532eb0e8a6a3ab876241a06da3be96d8cb",
+      "group_ids": [
+        "FM0297",
+        "FM0302",
+        "FM0303"
+      ],
+      "source_boxes": {
+        "FM0297": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0302": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0303": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-04.png",
+      "sha256": "39bad68058f579e5b86d057047698ee50b29d89ee6dc1832425db70c9c6658e0",
+      "group_ids": [
+        "FM0304",
+        "FM0305",
+        "FM0306"
+      ],
+      "source_boxes": {
+        "FM0304": [
+          24,
+          24,
+          56,
+          56
+        ],
+        "FM0305": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0306": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-05.png",
+      "sha256": "3af38b0bd1f018953b20128d291470a305c9156a4ee9797e138d6fb342e91f9d",
+      "group_ids": [
+        "FM0307",
+        "FM0313",
+        "FM0315"
+      ],
+      "source_boxes": {
+        "FM0307": [
+          16,
+          48,
+          48,
+          80
+        ],
+        "FM0313": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0315": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-06.png",
+      "sha256": "bbe33da41ba541718782353080f6720914a1ba3dc4bbd07b2ee682e68927de1a",
+      "group_ids": [
+        "FM0322",
+        "FM0328",
+        "FM0329"
+      ],
+      "source_boxes": {
+        "FM0322": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0328": [
+          64,
+          0,
+          96,
+          32
+        ],
+        "FM0329": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-07.png",
+      "sha256": "f52eb9b5dbfd6544ccbc2e825942ac20a5b879f3132f6d1657fe356843522db9",
+      "group_ids": [
+        "FM0330",
+        "FM0332",
+        "FM0333"
+      ],
+      "source_boxes": {
+        "FM0330": [
+          32,
+          32,
+          64,
+          64
+        ],
+        "FM0332": [
+          96,
+          16,
+          128,
+          48
+        ],
+        "FM0333": [
+          80,
+          32,
+          112,
+          64
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-08.png",
+      "sha256": "7c0f4716fff2cc4c3bea969429b11dee2a9470a6d4ca4d335e56eeedada722a7",
+      "group_ids": [
+        "FM0334",
+        "FM0336",
+        "FM0337"
+      ],
+      "source_boxes": {
+        "FM0334": [
+          16,
+          16,
+          48,
+          48
+        ],
+        "FM0336": [
+          48,
+          20,
+          80,
+          52
+        ],
+        "FM0337": [
+          40,
+          4,
+          72,
+          36
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-09.png",
+      "sha256": "c47dcfd7ce7642fd62a4dfc7ffa530f4096dceecf9740f58401b51a3203c850e",
+      "group_ids": [
+        "FM0338",
+        "FM0345",
+        "FM0346"
+      ],
+      "source_boxes": {
+        "FM0338": [
+          48,
+          16,
+          80,
+          48
+        ],
+        "FM0345": [
+          0,
+          16,
+          32,
+          48
+        ],
+        "FM0346": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\native-crop-10.png",
+      "sha256": "7ebf8b57248befec06ca2f4e62868770ffd230df6c0c9b180566b35f6b6a0ab5",
+      "group_ids": [
+        "FM0347",
+        "FM0356",
+        "FM0363"
+      ],
+      "source_boxes": {
+        "FM0347": [
+          16,
+          0,
+          48,
+          32
+        ],
+        "FM0356": [
+          40,
+          16,
+          72,
+          48
+        ],
+        "FM0363": [
+          16,
+          16,
+          48,
+          48
+        ]
+      },
+      "review_status": "pending"
+    }
+  ],
+  "files": [
+    {
+      "group_id": "FM0303",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "81fc434a03a201519b9bb1c75b8e518a7992db5d7d64c00c1f251a9c3c7c3303",
+      "source_rgba_sha256": "10a2da41a600cb25aac13162ae66b58d00d887451d5b776af53ec9b2ef55767a",
+      "classification": "opaque_natural",
+      "id": "FM0303-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-wdn065-input.png",
+      "input_sha256": "88d9812d266e45fb66960253a9c48177d9f922e83abffc1086e88d04963330a7",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-wdn065-native4x.png",
+      "native_sha256": "0015cd9e0f55ab3c5ea9d6f0a2069e020795327030e5030971251b417ec16fce",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-wdn065-8x.png",
+      "output_sha256": "c454ffbb0c1c7b849cea05c4f6f80dfa23518f2dbf2df5a8c9c585ceba850197",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 13.3955078125,
+        "rgb_p99_abs_error_0_255": 47.1299999999992,
+        "rgb_mean_shift_0_255": [
+          -3.854248046875,
+          -2.8173828125,
+          -2.854736328125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0305",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "02dd90d9352f5b08fa600352ab2c9aba18634e2e989de1765ee22f20ba574899",
+      "source_rgba_sha256": "87ddc0b648b6a1c24baf224e72d286e1968c3b54e60f2f41a2f2294cd030cc67",
+      "classification": "opaque_natural",
+      "id": "FM0305-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-wdn065-input.png",
+      "input_sha256": "579f4d1620caea597599e54090e5671f144c9eb089c687e0ffa9ec14c9e243bf",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-wdn065-native4x.png",
+      "native_sha256": "f33cdfea813deea2d330b74b2a7c42279fcbbf8b8a3fb9e2dc78c9158e48976a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-wdn065-8x.png",
+      "output_sha256": "4388e0a828d03874a932b922c06e4f803b83b43e1d9cc986604c1869d2020222",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 8.957682609558105,
+        "rgb_p99_abs_error_0_255": 33.0,
+        "rgb_mean_shift_0_255": [
+          -1.282958984375,
+          -0.34765625,
+          0.305908203125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0336",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "b52d49501f2e4041b3fef521d896ae15d4db6eb5f456a6abc47da2eaa627d310",
+      "source_rgba_sha256": "438d5fb57acb846b744c7728bb09d170dead5f7b2e0f375c9af137e822c10b2e",
+      "classification": "structured_panel",
+      "id": "FM0336-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-wdn065-input.png",
+      "input_sha256": "763d1dac272ffbf29f5bfe45de4e27f6e0e93acb7c3280ae2bdd1145a8d5f887",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-wdn065-native4x.png",
+      "native_sha256": "941c73e7dcd8da440401c4dd6e8dc7cd3209b311183c50af0a2d17bb8666ff03",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-wdn065-8x.png",
+      "output_sha256": "b4858b720335cff75619d37320ee6435436270b2155b9ba78c23165d65c8686a",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 5.145548343658447,
+        "rgb_p99_abs_error_0_255": 21.0,
+        "rgb_mean_shift_0_255": [
+          -1.814453125,
+          -0.8197021484375,
+          0.44873046875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0363",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.ptm",
+      "source_ptm_sha256": "8bff2e124965c704127da4bc2ed6d947a96fc594e71db47d34ecbbe389994d5c",
+      "source_rgba_sha256": "e176536cbbdc31e885187325c0fcaf67292937c1c157c7c69633ef4bd43d550b",
+      "classification": "opaque_natural",
+      "id": "FM0363-wdn065",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-wdn065-input.png",
+      "input_sha256": "274902dca08a9a40b3c5c5866d100839492b1979e18d08e15f187d77204e7f04",
+      "input_gaussian_sigma_source_px": 0.65,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-wdn065-native4x.png",
+      "native_sha256": "38395df743feb42e812dd248a203f8a2409d4762f06bbe0f73227140b49f28a3",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-wdn065-8x.png",
+      "output_sha256": "77674dd939569121e9233465ba075f4f18d941453917fac827f1abace69480a7",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 3.7626140117645264,
+        "rgb_p99_abs_error_0_255": 14.0,
+        "rgb_mean_shift_0_255": [
+          -1.422119140625,
+          -0.368408203125,
+          0.720458984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0303",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "81fc434a03a201519b9bb1c75b8e518a7992db5d7d64c00c1f251a9c3c7c3303",
+      "source_rgba_sha256": "10a2da41a600cb25aac13162ae66b58d00d887451d5b776af53ec9b2ef55767a",
+      "classification": "opaque_natural",
+      "id": "FM0303-general035",
+      "model": {
+        "name": "realesr-general-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-general035-input.png",
+      "input_sha256": "9ba395cbe1d52e83b20c01e6df948d37991ebbf1ac929327f7947727afab137a",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-general035-native4x.png",
+      "native_sha256": "d34b8ab6e55aa9bced67430cf67c33c65b8fa4369cb5c62cfb68158f07ba401e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0303-general035-8x.png",
+      "output_sha256": "6344f703c155ef44f6fc65bf44c714424b4beabf7f21548fd1871b7cb74d436d",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 11.820719718933105,
+        "rgb_p99_abs_error_0_255": 40.0,
+        "rgb_mean_shift_0_255": [
+          -6.684814453125,
+          -5.11083984375,
+          -2.83447265625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0305",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "02dd90d9352f5b08fa600352ab2c9aba18634e2e989de1765ee22f20ba574899",
+      "source_rgba_sha256": "87ddc0b648b6a1c24baf224e72d286e1968c3b54e60f2f41a2f2294cd030cc67",
+      "classification": "opaque_natural",
+      "id": "FM0305-general035",
+      "model": {
+        "name": "realesr-general-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-general035-input.png",
+      "input_sha256": "1da19a77c2e48d7493b4863c0fd563e19827e4f9c9980e7e3a712cb73cc9a6c7",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-general035-native4x.png",
+      "native_sha256": "d0b77132ca58defaf94eb289a3c18c77fd2c49533ea6e936761503779b1e03f0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0305-general035-8x.png",
+      "output_sha256": "b4ab665a5ca1199f9d93e438aa22e2797152c1e94492aa585595e2f3733b48a8",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 6.894612789154053,
+        "rgb_p99_abs_error_0_255": 26.0,
+        "rgb_mean_shift_0_255": [
+          -0.5810546875,
+          0.902587890625,
+          1.4599609375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0336",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "b52d49501f2e4041b3fef521d896ae15d4db6eb5f456a6abc47da2eaa627d310",
+      "source_rgba_sha256": "438d5fb57acb846b744c7728bb09d170dead5f7b2e0f375c9af137e822c10b2e",
+      "classification": "structured_panel",
+      "id": "FM0336-general035",
+      "model": {
+        "name": "realesr-general-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-general035-input.png",
+      "input_sha256": "559a84c10618ef811d09900dc00b4d0c85990480aaa7be80b95a35a1e430a20f",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-general035-native4x.png",
+      "native_sha256": "08b3d71f079e2ef69e8f78f2477ab66cab0c33bcc30d6ea8e8531d42e60a3280",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0336-general035-8x.png",
+      "output_sha256": "7e4ed8647c8aa6f6b4c076f4197b8fd01587d52fa51c0cb4fd354aa39ae9f2f5",
+      "output_size": [
+        1024,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 5.055135250091553,
+        "rgb_p99_abs_error_0_255": 19.0,
+        "rgb_mean_shift_0_255": [
+          -2.0054931640625,
+          -0.726806640625,
+          0.53271484375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0363",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.ptm",
+      "source_ptm_sha256": "8bff2e124965c704127da4bc2ed6d947a96fc594e71db47d34ecbbe389994d5c",
+      "source_rgba_sha256": "e176536cbbdc31e885187325c0fcaf67292937c1c157c7c69633ef4bd43d550b",
+      "classification": "opaque_natural",
+      "id": "FM0363-general035",
+      "model": {
+        "name": "realesr-general-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-general035-input.png",
+      "input_sha256": "3c05215b661d9f3e0fb0e142b6a22da4442212bc1c4a20ff4aaa5b0d8acd917c",
+      "input_gaussian_sigma_source_px": 0.35,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-general035-native4x.png",
+      "native_sha256": "ed9cd48bc55f0c2b5aa8eba71f2541082019035fb0d43d10b0bb97b24385df3e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0363-general035-8x.png",
+      "output_sha256": "cd4032717cb8092ab1918b4cbe9af4a7783281ce88c554247009057779380a4b",
+      "output_size": [
+        512,
+        512
+      ],
+      "actual_local_rgb_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 3.8203938007354736,
+        "rgb_p99_abs_error_0_255": 13.0,
+        "rgb_mean_shift_0_255": [
+          0.444580078125,
+          0.349853515625,
+          0.266845703125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\rework-FM0303.png",
+      "sha256": "7fa3f9d79b45a7b28f97180c69ce875faafcd140ddabc901379927eda092a80e",
+      "group_id": "FM0303",
+      "source_crop": [
+        16,
+        16,
+        48,
+        48
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\rework-FM0305.png",
+      "sha256": "5cd59228decb023d71281335d11f88a27d29c196ecea755b1c92d2bb34ad5268",
+      "group_id": "FM0305",
+      "source_crop": [
+        16,
+        16,
+        48,
+        48
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\rework-FM0336.png",
+      "sha256": "7dedad32bda6509e329a2780f69d97b4729d73a58a73dc7600775496175661d3",
+      "group_id": "FM0336",
+      "source_crop": [
+        48,
+        20,
+        80,
+        52
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr004\\rework-FM0363.png",
+      "sha256": "faefb5eaed40028bf1a0f85a8d69dc15b9b653c905e99d7a933583772e1c5f1b",
+      "group_id": "FM0363",
+      "source_crop": [
+        16,
+        16,
+        48,
+        48
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_unique_originals": 0,
+  "actual_local_rgb_passes": 8,
+  "external_calls": 0,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false
+}

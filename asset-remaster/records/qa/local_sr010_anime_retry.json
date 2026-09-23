@@ -1,0 +1,340 @@
+{
+  "schema": "brs-sr010-rework/v1",
+  "group_ids": [
+    "BM254",
+    "BM256"
+  ],
+  "files": [
+    {
+      "id": "BM254-anime0",
+      "group_id": "BM254",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_01.vol\\001_map_b_stg06_01.bin\\005.png",
+      "source_rgba_sha256": "a449cca165b175c581a44ca3d0ee55a104c34fecea16b6f0bd52851743a18a70",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "prefilter_sigma": 0.0,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime0-p0-input.png",
+          "input_sha256": "5f21bebe4e37b590227bcd7d309264e89f6f175f62560fb150eecfe423435473",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime0-p0-native4x.png",
+          "native_sha256": "4971d7b45163e038ed7fc8d05b7d19effa613a7dafd867c8c8524b18d13df67e",
+          "mean_color_offset_rgb": [
+            -7.123687744140625,
+            -6.868011474609375,
+            -7.3999176025390625
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Local filtered-source RGB inference, original per-panel RGB mean restored",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime0.png",
+      "output_sha256": "bcbad99a810b18380d694a767bf6ab809993f00246bc8126cd27c474dc55a2ab",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.35899999999674037,
+      "alpha": "Opaque255 exact",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Initial and Photo trials invent pronounced crack networks; sigma0.8 and source-guided variants blur or retain coarse source blocks. Anime6B adds hatching and dark outlines. All eight conditions remain held for another material-aware reconstruction.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM254.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM256.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM256-anime0",
+      "group_id": "BM256",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_01.vol\\001_map_b_stg06_01.bin\\007.png",
+      "source_rgba_sha256": "f4a53e23c8656838089c419465196c7eb16882885a60965734ced27206d14a44",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "prefilter_sigma": 0.0,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p0-input.png",
+          "input_sha256": "a30c91553e60332a9800b76fda1d599433817482a11ee7860de557096e998759",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p0-native4x.png",
+          "native_sha256": "30c5207e0f083f82689a1b18a4709eb06b50a4d2450233ac2e10645890ce0cc3",
+          "mean_color_offset_rgb": [
+            -4.26629638671875,
+            -4.0198974609375,
+            -4.351806640625
+          ]
+        },
+        {
+          "source_box": [
+            0,
+            32,
+            32,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p1-input.png",
+          "input_sha256": "ce9d64069f8e4698d637c1ce08adb719cb499ea21f34e85e8986e0282a4cc6a5",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p1-native4x.png",
+          "native_sha256": "ad769fd05fffe358ecf1b71caa2aa42e8ba81bf9d8c0dc3ceef7c45adb8c42b5",
+          "mean_color_offset_rgb": [
+            -9.3330078125,
+            -8.94781494140625,
+            -8.866943359375
+          ]
+        },
+        {
+          "source_box": [
+            32,
+            0,
+            64,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p2-input.png",
+          "input_sha256": "33fd172c484009f6849c51f60edae7479af8ba86400825a30fdea026ea9f74e3",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p2-native4x.png",
+          "native_sha256": "0a018616ac765a8dd7568081e1667739f267ea90c06fa03e51305cd4dac97ae2",
+          "mean_color_offset_rgb": [
+            -10.62896728515625,
+            -10.447021484375,
+            -10.6282958984375
+          ]
+        },
+        {
+          "source_box": [
+            32,
+            32,
+            64,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p3-input.png",
+          "input_sha256": "1b3c0487358e1a3d4d04e7bd7372eb6bd326666d0a3d48d0a97bcfea7d0af21a",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0-p3-native4x.png",
+          "native_sha256": "07328a34765374ca7f7fe6a2abdb0a713e8edb71be3d5676a4c234b9027e5499",
+          "mean_color_offset_rgb": [
+            -4.9572906494140625,
+            -4.84869384765625,
+            -5.31903076171875
+          ]
+        }
+      ],
+      "new_neural_passes": 4,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Local filtered-source RGB inference, original per-panel RGB mean restored",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime0.png",
+      "output_sha256": "6dfb94cbdd9a73538cd842e9f210c6aae5dcc277fe7f8a047ff709309f42b6fd",
+      "output_size": [
+        512,
+        1024
+      ],
+      "seconds": 0.3130000000237487,
+      "alpha": "Opaque255 exact",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Initial, filtered and Photo trials add excessive branching cracks around the column/panel regions. Guided output retains blockiness; Anime6B adds black outlined/hatching style. All eight conditions held; preserve column tracks and identify the upper motif before a new treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM254.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM256.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM254-anime04",
+      "group_id": "BM254",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_01.vol\\001_map_b_stg06_01.bin\\005.png",
+      "source_rgba_sha256": "a449cca165b175c581a44ca3d0ee55a104c34fecea16b6f0bd52851743a18a70",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "prefilter_sigma": 0.4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime04-p0-input.png",
+          "input_sha256": "847ac3ba75f920bd39df96b0ddb173caf855e743da391f0c11455f4679c4ff66",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime04-p0-native4x.png",
+          "native_sha256": "651fc606889f482b53d5fd3c81c5bd878fcfe4ee2ba61522592d67b24feb369c",
+          "mean_color_offset_rgb": [
+            -7.0997772216796875,
+            -6.843353271484375,
+            -7.366058349609375
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Local filtered-source RGB inference, original per-panel RGB mean restored",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM254-anime04.png",
+      "output_sha256": "72778d70272228050113085a9cb59e9b58101294a02a40c3508d9552bda426d9",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.1559999999590218,
+      "alpha": "Opaque255 exact",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Initial and Photo trials invent pronounced crack networks; sigma0.8 and source-guided variants blur or retain coarse source blocks. Anime6B adds hatching and dark outlines. All eight conditions remain held for another material-aware reconstruction.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM254.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM256.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM256-anime04",
+      "group_id": "BM256",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_01.vol\\001_map_b_stg06_01.bin\\007.png",
+      "source_rgba_sha256": "f4a53e23c8656838089c419465196c7eb16882885a60965734ced27206d14a44",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "prefilter_sigma": 0.4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p0-input.png",
+          "input_sha256": "e2b7d84feae80bec597ecf32db715cb709fd1ca7954f19b9914aead03bd20335",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p0-native4x.png",
+          "native_sha256": "62635bcc981e20bf2b524f25bb564de1050487a90ec771855b495e6326991b60",
+          "mean_color_offset_rgb": [
+            -3.8717041015625,
+            -3.6505126953125,
+            -3.96270751953125
+          ]
+        },
+        {
+          "source_box": [
+            0,
+            32,
+            32,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p1-input.png",
+          "input_sha256": "0973fee9940c28636ddee8f268daabb35b78609db69e0cb826eb76f649fb598d",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p1-native4x.png",
+          "native_sha256": "66e7bd5cc735881c1fa6989fff8d59c799c2d03eb6d7baf68e704c4d94368215",
+          "mean_color_offset_rgb": [
+            -8.8623046875,
+            -8.491073608398438,
+            -8.454986572265625
+          ]
+        },
+        {
+          "source_box": [
+            32,
+            0,
+            64,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p2-input.png",
+          "input_sha256": "8325b60c6f721fc4efe2da69d5ea23440a38bcfed4b01c22b7b02798c1750506",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p2-native4x.png",
+          "native_sha256": "0b11884b2572e170768731da576d3ff8041bf5cc32aae52158ab81fc72c5269b",
+          "mean_color_offset_rgb": [
+            -10.44366455078125,
+            -10.28497314453125,
+            -10.44024658203125
+          ]
+        },
+        {
+          "source_box": [
+            32,
+            32,
+            64,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p3-input.png",
+          "input_sha256": "dfe30cc7c37e06369fcdfd1eee800ffdd59d8f4e5b7162ca57ea6014dca70be7",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04-p3-native4x.png",
+          "native_sha256": "a65c08e01ad9078d93c0630e66a226da22b5cd8ffc472bf39be5c7e6f8e38424",
+          "mean_color_offset_rgb": [
+            -4.91522216796875,
+            -4.8225860595703125,
+            -5.271881103515625
+          ]
+        }
+      ],
+      "new_neural_passes": 4,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Local filtered-source RGB inference, original per-panel RGB mean restored",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr010-anime-retry\\BM256-anime04.png",
+      "output_sha256": "b7b2f954c0acee2e57082d964475d9c146906631d859d84f099c2df8423ac868",
+      "output_size": [
+        512,
+        1024
+      ],
+      "seconds": 0.3440000000409782,
+      "alpha": "Opaque255 exact",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Initial, filtered and Photo trials add excessive branching cracks around the column/panel regions. Guided output retains blockiness; Anime6B adds black outlined/hatching style. All eight conditions held; preserve column tracks and identify the upper motif before a new treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM254.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM256.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM254.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-anime-BM256.png"
+  ],
+  "new_neural_passes": 10
+}

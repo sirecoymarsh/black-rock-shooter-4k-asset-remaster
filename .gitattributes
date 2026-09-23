@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# Preserve checkpoint file hashes exactly
+/asset-remaster/** -text

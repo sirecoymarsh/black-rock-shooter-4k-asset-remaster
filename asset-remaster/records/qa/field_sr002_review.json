@@ -1,0 +1,955 @@
+{
+  "schema": "brs-field-review/v2",
+  "batch": "FIELD-SR-002 / GRID-003",
+  "previous_goal_turn_classification": "progress: field72 classified,28 neural originals/24 static candidates; SR015 six outputs reviewed and held.",
+  "source_pages_directly_inspected": 8,
+  "new_source_originals_classified": 72,
+  "total_field_novel_sources_classified": 144,
+  "new_neural_unique_originals": 40,
+  "actual_local_rgb_inference_passes": 84,
+  "external_generative_calls": 1,
+  "image_upload": true,
+  "external_tool": "built-in image_gen; model identifier not exposed",
+  "external_prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0160-v1\\prompt.txt",
+  "external_prompt_sha256": "bba2a30162a62c8bad5df6ad1b312bba883a2bc6927fa67d93d30f49fec02952",
+  "external_actual_size": [
+    1254,
+    1254
+  ],
+  "external_final_size": [
+    512,
+    512
+  ],
+  "external_final_resampling": "Lanczos downsample plus registered edges and source-tone correction; not native AI8x",
+  "checked_outputs": [
+    {
+      "id": "FM0125-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0126-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0127-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0128-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0129-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0130-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0132-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0133-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0135-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0136-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0137-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0139-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0142-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0143-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0144-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0146-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0147-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0148-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0149-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0150-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0151-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0152-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0153-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0154-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0156-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0160-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0161-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0163-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0167-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0168-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0178-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0188-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0189-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0190-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0253-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0257-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0258-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0259-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0265-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0270-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0125-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0126-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0127-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0128-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0129-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0130-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0132-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0133-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0135-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0136-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0137-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0139-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0142-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0143-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0144-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0146-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0147-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0148-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0149-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0150-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0151-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0152-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0153-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0154-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0156-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0160-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0161-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0163-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0167-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0168-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0178-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0188-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0189-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0190-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0253-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0257-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0258-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0259-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0265-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0270-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0160-wdn065",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0188-wdn065",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0160-anime035",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0188-anime035",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_and_Lanczos_reproduction_verified": true,
+      "opaque255": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0078-photo-connected-grid-v3",
+      "source_ptm_rgba_parent_svg_mask_output_hashes_verified": true,
+      "dark_components_source_output": [
+        16,
+        16
+      ],
+      "full_dark_class_mask_source_nearest_exact": true,
+      "dark_core_rgba_exact_output_pixels": 1024,
+      "outside_mask_rgba_exact": true,
+      "edit_pixels": 5184,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0160-gpt-raw",
+      "hashes_size_alpha_verified": true,
+      "decision": "superseded"
+    },
+    {
+      "id": "FM0160-gpt-tone065",
+      "hashes_size_alpha_verified": true,
+      "decision": "superseded"
+    },
+    {
+      "id": "FM0160-gpt-registered-tone065",
+      "source_ptm_rgba_generated_parent_map_underlay_output_hashes_verified": true,
+      "registration_reproduced_exact": true,
+      "opaque255_size8x_verified": true,
+      "edge_p95_source_px": [
+        0.3125,
+        0.0625
+      ],
+      "decision": "selected_static_candidate"
+    }
+  ],
+  "new_field_static_candidates": {
+    "FM0125": "FM0125-photo",
+    "FM0126": "FM0126-photo",
+    "FM0127": "FM0127-wdn",
+    "FM0128": "FM0128-wdn",
+    "FM0129": "FM0129-photo",
+    "FM0130": "FM0130-wdn",
+    "FM0133": "FM0133-photo",
+    "FM0135": "FM0135-photo",
+    "FM0136": "FM0136-photo",
+    "FM0139": "FM0139-wdn",
+    "FM0142": "FM0142-wdn",
+    "FM0143": "FM0143-wdn",
+    "FM0144": "FM0144-photo",
+    "FM0146": "FM0146-wdn",
+    "FM0147": "FM0147-wdn",
+    "FM0148": "FM0148-photo",
+    "FM0149": "FM0149-photo",
+    "FM0150": "FM0150-wdn",
+    "FM0151": "FM0151-wdn",
+    "FM0152": "FM0152-photo",
+    "FM0153": "FM0153-wdn",
+    "FM0154": "FM0154-photo",
+    "FM0156": "FM0156-wdn",
+    "FM0161": "FM0161-wdn",
+    "FM0163": "FM0163-photo",
+    "FM0168": "FM0168-photo",
+    "FM0178": "FM0178-wdn",
+    "FM0189": "FM0189-photo",
+    "FM0190": "FM0190-wdn",
+    "FM0253": "FM0253-wdn",
+    "FM0257": "FM0257-wdn",
+    "FM0258": "FM0258-wdn",
+    "FM0259": "FM0259-photo",
+    "FM0265": "FM0265-wdn",
+    "FM0270": "FM0270-wdn",
+    "FM0160": "FM0160-gpt-registered-tone065"
+  },
+  "resolved_prior_holds": {
+    "FM0078": "FM0078-photo-connected-grid-v3"
+  },
+  "new_holds": {
+    "FM0132": "Fixed sample has15 source dark troughs versus14 in both models; repeated board/slat detail is ambiguous and needs source-specific reconstruction. A profile count alone is not a physical plank count.",
+    "FM0137": "Yellow-region count remains7 but thresholded coverage IoU is .821596; original dither and edge coverage are not sufficiently resolved to certify the stripe shape. Preserve as hold for protected hazard repaint.",
+    "FM0167": "Fine diagonal/diamond patch looks smeared in WDN and becomes dense embossed mesh in Photo. Whole atlas withheld pending pattern reconstruction.",
+    "FM0188": "Faint source marks are emphasized as cracks in all four local trials; need restrained material reconstruction. Not every source mark is invented."
+  },
+  "comparison_pages_directly_inspected": 36,
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-01.png",
+      "sha256": "cd44ad23a134dbe87d057fda313f907ccf0cfb7dbbf6dd7516084a0ba4c96d39",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-02.png",
+      "sha256": "de18e32984b1ce18a552a6c93e8dcdd3ceab08a2144563e307f0d7d4c34f7e8d",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-03.png",
+      "sha256": "d5258de8731447332bd41337c8f3e7395525ad5cfa17074e60a90e26f7c64141",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-04.png",
+      "sha256": "153507d0a8e389aa67762ded7e73948bec13b645e9be4c82b774190f1d1f9987",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-05.png",
+      "sha256": "d3ab6c39884139aad9a622fc680b1f3d4891a93ea635682e0432da5995d01d03",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-06.png",
+      "sha256": "0c7b1e57b2d0796904c56a85324cd0b4412b7678dec11104f00a0d003db1f91e",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-07.png",
+      "sha256": "9f3e56bcc284f43a3dbc45518fd4666809d0503bac1b56b98581dd7573b76906",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-08.png",
+      "sha256": "a8c22246082e29ef13fa260ffa30c2dd4e6942b165425c463f04101cf2d4057f",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-09.png",
+      "sha256": "62b5bdcd3a4f79bbed8383e689c76f5bae6766db108bf8468aad610304e67ff3",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-10.png",
+      "sha256": "b2c0b17864800c9f145792818c1f65dd692d20e1a1c1d7bf44b4aabc2bc176df",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-11.png",
+      "sha256": "07c8aec8d2ec974213bc72c969b115e58360bc5e2296e7377d173f029c48c8e7",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-12.png",
+      "sha256": "af60a9f616c30cb42c5b65f6fe579c5a0fa475b65c7c461a7812cc4def09923a",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-13.png",
+      "sha256": "599abca09ab371d25f2d43fcf2d464d0557eadc4ccdc2e951aaa2c39aada0c1a",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-14.png",
+      "sha256": "18854ed31985772ff1d95fc952d426c3a160a29cda2bb2239ed462782ce5649f",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-15.png",
+      "sha256": "06a0c7c57e467c99ac132955314bf87b0632215328e54b522c76de1d3c19bdd0",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-16.png",
+      "sha256": "b360125704581a898d1e8c181fae7ab97e33307295346ad1b9387bd91ff01821",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-17.png",
+      "sha256": "ed3ed91b02ba57e275e3b0290dcfba6dcc7adb875390a2abc163ee346d9b15c7",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-18.png",
+      "sha256": "ebb431c9f26cc1135c4030b2ee815210290007f1d087f0cf40ce365107b89660",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-19.png",
+      "sha256": "4ebc7a199b2a941155811ebace5fd6b9ac4b824a51f1ded24730fe56d2dfe820",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\review-20.png",
+      "sha256": "cc5bf3f256ddefc8d0f15b0f5d69e3080b11247cd251aa6e02f1f8b0e3b74c6c",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0128.png",
+      "sha256": "f41d4affbadc272b7a5079b7205bfd9e31e8fd346a15d7eb22d2e5e9dc1f7106",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0129.png",
+      "sha256": "c098cb1eef8852f703ea3cc32d82a89d91edfebf4e0bd4b54da91522b609dd4d",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0132.png",
+      "sha256": "b352aaf24fbfc647ab0ebd20620b4c6c2813241db8d4a8621cfce5b6650466e4",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0142.png",
+      "sha256": "fa46bd4c1de41c79091153cd2e43a49422d20b1f8fcb78d46ca19586df229f22",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0147.png",
+      "sha256": "541337b939de76c8cc1d7f45550576f10c00ab8a8e7bf1d3a1433157e2a6b105",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0153.png",
+      "sha256": "ffcb06e39e8bf9ce3a9fb37b4e7ed529a54e8888426602ed2bdfa5b9148c1037",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0161.png",
+      "sha256": "e59b2c781a390619397b6f65d0208e72e8d55607c9fd167f323b2bef6e9c0c68",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0167.png",
+      "sha256": "ff3437790013c26b8ff15ada3313a21a8674a3596f82e9cdd1f55b486289019a",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0265.png",
+      "sha256": "d916500ba261d759241707bddab4f0bff8a1c3026f4d951bcf1717001cf3a8f5",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0160.png",
+      "sha256": "c27b4f07e4909270bf17112cbb39153b360cb2a42c25c7a97c7cc3923c3201a5",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\detail-FM0188.png",
+      "sha256": "b80a849a545a72730ba8474824902292c349ec252b5fd4c67b05ea8a64d8af23",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\rework-FM0160.png",
+      "sha256": "ef47e86903306b1db1811cb25aa6f3489097a7b85583944cccbe77e15e2a886f",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\rework-FM0188.png",
+      "sha256": "b9c0c9c9d360425bce9634916c4ec80a85e351e150d5eb91354df50d88a55592",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\grid-FM0078-v3.png",
+      "sha256": "1a7d3e10d17ebb199535583f2b20176d4b3658c1b8ca19c9608385f34c3451d1",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\FM0160-gpt-compare.png",
+      "sha256": "13c18a7889ff994cfa6cd4a1dbbda947011c835f086de09a1951f023d9da8f1d",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr002\\FM0160-gpt-registered.png",
+      "sha256": "084001fb434ccaff3c4d7c192427d83ddcb1c4551940132af9969bebedc5bff9",
+      "directly_inspected": true
+    }
+  ],
+  "geometry_audit": "qa/field_sr002_geometry_audit.json",
+  "geometry_audit_sha256": "8502e67a81abcdd34ce5a33a011928d555eb7e9d7b053bd332f25e5a9b506472",
+  "diagnostic_limits": [
+    "Dark troughs are sample extrema, not physical bar counts; fixed-sample and threshold-sensitivity results are both retained.",
+    "FM0147 common sigma.5 source-unit profiles have8 strong troughs for prominence10..18 in source and both models; raw low-threshold counts include dithering.",
+    "FM0161 source and outputs show alternating dark and bright rungs, but extrema vary by threshold. Full geometric equivalence not asserted.",
+    "FM0078 complete threshold95 dark mask and16 dark-cell colors are source-exact; bar gradients are an authored interpretation.",
+    "FM0160 source already contains faint lines. The issue was contrast amplification. Registered 60-row edge p95 .3125/.0625 source px is not full UV/runtime proof.",
+    "Only inspected source-visible partitions are known; native consumers, exclusion relationships and replacement keys are not established by image quality."
+  ],
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 144,
+    "field_neural_originals": 68,
+    "field_static_candidates": 61,
+    "field_holds": 7,
+    "field_groups_not_processed_in_field_context": 508,
+    "remaining_novel_unprocessed": 283,
+    "latest_review": "qa/field_sr002_review.json"
+  },
+  "unique_neural_originals_title_battle_novel_field": 325,
+  "unique_count_basis": "Title1 + battle256 + novel field68; battle geometry-only2 excluded; prior FM0078/GPT FM0160 not extra originals.",
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "previous24_field_candidates_preserved": true,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "remaining": [
+    "Battle43 unresolved groups:17 holds and26 unprocessed.",
+    "Novel field283 unprocessed and7 holds; classified144/351.",
+    "Remaining character/enemy/effect/cutscene source reachability, unsupported SC/PTMD structures, and protagonist exclusion matching.",
+    "Gameplay title/Orbit/LOCK ON/full regions/EX/true-ending runtime verification, replacement-key collection, installation/removal and final ZIP."
+  ],
+  "next_action": "Process previously classified alpha and protected atlas field lanes, then remaining source pages. Resolve hazard FM0137 and mesh FM0167 with source-defined geometry; reconstruct subtle FM0188 marks without intensification. No emulator launch without new screen-access evidence; fixed exe+ISO CLI only.",
+  "scripts": {
+    "prepare_field_sources02.py": "ed7c5b0b6824785fcf04e40e1500cf5c642e54aea09b47384e0c607222cc4653",
+    "field_sr002.py": "863fefce4dc295d1d8159f4028e7d0c7a87847390ce38c04b7dcc4ae938f33d4",
+    "redraw_field_grid003.py": "783595fdd82c6fba3c381fd00d603f3c423391f51409377635529942f45c71ca",
+    "inspect_field_sr002.py": "cb2a8efafc4803f168bb7e503d6a3cf8aaa45a59ebef444b6d04dbdab029f63e",
+    "rework_field_sr002.py": "5a9f045c977098539316c7ff7c86a7bfec4323a897769163c41573875cc6acd7",
+    "audit_field_sr002.py": "62917bc050d692ec2c476df964c1fd99c4232f00e4211b392d2e5181f1045f48",
+    "prepare_field160_gpt.py": "8201e0d39e32c767d5a04faf1573057128c10ff0ca67fe0a11b6c3659295bac8",
+    "align_field160_gpt.py": "9cb14d4625b1cb00c469dad0c7e82a0a74099dcd3ff003f275069a33877abaf7",
+    "finalize_field_sr002.py": "d2e192ce7864509686edf297f73b3762cbb6276d96a04c258fa971412e91bb91"
+  }
+}

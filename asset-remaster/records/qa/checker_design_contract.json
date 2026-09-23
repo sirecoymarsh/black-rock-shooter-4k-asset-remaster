@@ -1,0 +1,28 @@
+{
+  "basis": "User clarified that checkerboard is a core game design element.",
+  "protected_features": [
+    "cell count",
+    "cell positions and phase",
+    "cell boundaries",
+    "authored colors and shading",
+    "clipping geometry and alpha"
+  ],
+  "rules": [
+    "Do not replace checks with mesh, embossed holes or invented texture.",
+    "Do not accept blur as a checker reconstruction.",
+    "Separate protected design layers from neural material inference."
+  ],
+  "review_queue": [
+    "BM175",
+    "BM201",
+    "BM209",
+    "BM226",
+    "BM244"
+  ],
+  "completed_static_design_checks": [
+    "BM200",
+    "BM221",
+    "BM269"
+  ],
+  "completed_checks_runtime_verified": false
+}

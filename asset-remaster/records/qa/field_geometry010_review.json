@@ -1,0 +1,594 @@
+{
+  "schema": "brs-field-geometry010-final-review/v1",
+  "batch": "FIELD-GEOMETRY-010",
+  "previous_goal_turn_classification": "progress: geometry009 resolved3 checker holds,9 derivative outputs and source-design evidence verified.",
+  "this_goal_turn_classification": "progress: coupled facade corner reconstruction; invalid folding trial rejected, integrated correction verified and one hold resolved. Remaining198 field routes recorded for a bounded alpha-foliage batch.",
+  "selected": {
+    "FM0496": "FM0496-coupled-edges-v2"
+  },
+  "checked_outputs": [
+    {
+      "id": "FM0496-coupled-edges-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry010\\FM0496-coupled-edges-v1-8x.png",
+      "sha256": "63f6ab9d891518aae66d70ada66a9a3dfa24a680ef644e360541bd8c40587cf8",
+      "decision": "rejected_invalid_coordinate_fold",
+      "reason": "Coupled linear displacement still folded1376 raster-grid pixels; rejected even though a corner looked visually better.",
+      "source_parent_program_vector_mask_maps_output_hashes_verified": true,
+      "frozen_recipe_RGBA_reproduced": true,
+      "outside_mask_parent_RGBA_exact": true,
+      "coupling_diagnostics": {
+        "ridge": 0.03,
+        "source_plate_corners": [
+          [
+            145.0437037037037,
+            100.5
+          ],
+          [
+            190.60267857142858,
+            100.5
+          ],
+          [
+            182.79464285714286,
+            127
+          ],
+          [
+            153.3274074074074,
+            127
+          ]
+        ],
+        "right_edge_source_extension_to_y94_preserved": true,
+        "coupled_map_jacobian_min": -1.6516761779785156,
+        "nonpositive_jacobian_pixels": 1376,
+        "max_displacement_source_px": 1.3950010538101196,
+        "corner_semantics": "Left upper corner and each adjoining edge are mapped simultaneously. The right sloping feature continues above the top edge in the source and is not cut off to invent a closed undamaged trapezoid."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0496-coupled-edges-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry010\\FM0496-coupled-edges-v2-8x.png",
+      "sha256": "fbd2a1539c54c02135104caad06d64acbac84fa7f986419512b8650203979a44",
+      "decision": "static_candidate",
+      "reason": "Smooth integrated coupled correction removes the former corner pinch; zero raster-grid folds and all11 sampled edge-location RMS values improve while retaining material and source sloping continuation.",
+      "source_parent_program_vector_mask_maps_output_hashes_verified": true,
+      "frozen_recipe_RGBA_reproduced": true,
+      "outside_mask_parent_RGBA_exact": true,
+      "coupling_diagnostics": {
+        "ridge": 0.03,
+        "velocity_smoothing_native_px": 3,
+        "integration_squarings": 7,
+        "boundary_fade_native_px": 16,
+        "source_plate_corners": [
+          [
+            145.0437037037037,
+            100.5
+          ],
+          [
+            190.60267857142858,
+            100.5
+          ],
+          [
+            182.79464285714286,
+            127
+          ],
+          [
+            153.3274074074074,
+            127
+          ]
+        ],
+        "right_edge_source_extension_to_y94_preserved": true,
+        "coupled_map_jacobian_min": 0.3374824523925781,
+        "nonpositive_jacobian_pixels": 0,
+        "max_displacement_source_px": 1.3932292461395264,
+        "corner_semantics": "Left upper corner and each adjoining edge are mapped simultaneously. The right sloping feature continues above the top edge in the source and is not cut off to invent a closed undamaged trapezoid."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "geometry_diagnostics": {
+    "composed_map": {
+      "raster_grid_Jacobian_min": 0.3374824523925781,
+      "nonpositive_raster_grid_Jacobian_pixels": 0,
+      "coupled_coordinate_bounds_xy": [
+        0.0,
+        0.0,
+        2047.0,
+        1023.0
+      ],
+      "limit": "Finite-grid derivative check of the composed map; not a proof of every continuous subpixel point or in-game UV topology."
+    },
+    "line_checks": [
+      {
+        "name": "upper-left",
+        "samples": 46,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.11630434782608687,
+            "RMS_source_px": 0.12895904304316416,
+            "std_source_px": 0.05571116099451953,
+            "max_abs_source_px": 0.19999999999999996
+          },
+          "output": {
+            "mean_source_px": -0.00869565217391292,
+            "RMS_source_px": 0.05392224676005412,
+            "std_source_px": 0.05321648549953756,
+            "max_abs_source_px": 0.07500000000000018
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "upper-right",
+        "samples": 46,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.08858695652173902,
+            "RMS_source_px": 0.10548799643231604,
+            "std_source_px": 0.057271882503719444,
+            "max_abs_source_px": 0.17499999999999982
+          },
+          "output": {
+            "mean_source_px": 0.0021739130434783836,
+            "RMS_source_px": 0.0526473088622275,
+            "std_source_px": 0.052602407098099345,
+            "max_abs_source_px": 0.07500000000000018
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "recess",
+        "samples": 60,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": 0.08666666666666681,
+            "RMS_source_px": 0.10206207261596584,
+            "std_source_px": 0.05390320542932074,
+            "max_abs_source_px": 0.17500000000000004
+          },
+          "output": {
+            "mean_source_px": 0.005000000000000104,
+            "RMS_source_px": 0.05204164998665327,
+            "std_source_px": 0.0518009008930668,
+            "max_abs_source_px": 0.07500000000000018
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "lower-left",
+        "samples": 63,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": 9.868649107779169e-17,
+            "RMS_source_px": 0.9597556732736474,
+            "std_source_px": 0.9597556732736476,
+            "max_abs_source_px": 1.5
+          },
+          "output": {
+            "mean_source_px": 0.04722222222222232,
+            "RMS_source_px": 0.3800454233503199,
+            "std_source_px": 0.3771002327471025,
+            "max_abs_source_px": 1.5
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "plate-left",
+        "samples": 57,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.2991228070175438,
+            "RMS_source_px": 0.47814058712122687,
+            "std_source_px": 0.3730200629652201,
+            "max_abs_source_px": 1.075
+          },
+          "output": {
+            "mean_source_px": -0.008333333333333243,
+            "RMS_source_px": 0.2773029567540913,
+            "std_source_px": 0.27717771443627454,
+            "max_abs_source_px": 0.825
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "plate-right",
+        "samples": 70,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.07857142857142847,
+            "RMS_source_px": 0.3575212281409714,
+            "std_source_px": 0.34878067489996273,
+            "max_abs_source_px": 1.0250000000000004
+          },
+          "output": {
+            "mean_source_px": 0.05321428571428581,
+            "RMS_source_px": 0.19988836169936744,
+            "std_source_px": 0.19267484770663632,
+            "max_abs_source_px": 1.2750000000000004
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "plate-top",
+        "samples": 91,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": 0.09368131868131878,
+            "RMS_source_px": 0.35949636627181286,
+            "std_source_px": 0.3470755651047284,
+            "max_abs_source_px": 1.5
+          },
+          "output": {
+            "mean_source_px": 0.009340659340659451,
+            "RMS_source_px": 0.293238829265517,
+            "std_source_px": 0.29309002554179964,
+            "max_abs_source_px": 1.5
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "plate-bottom",
+        "samples": 58,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.589655172413793,
+            "RMS_source_px": 0.7718651838688966,
+            "std_source_px": 0.4980789492787519,
+            "max_abs_source_px": 1.5
+          },
+          "output": {
+            "mean_source_px": -0.1254310344827585,
+            "RMS_source_px": 0.3050755983189333,
+            "std_source_px": 0.27809742227902834,
+            "max_abs_source_px": 0.7000000000000002
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "lower-horizontal",
+        "samples": 120,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": 0.15312500000000012,
+            "RMS_source_px": 0.1871524556789643,
+            "std_source_px": 0.1076047212796291,
+            "max_abs_source_px": 0.5750000000000002
+          },
+          "output": {
+            "mean_source_px": 0.0081250000000001,
+            "RMS_source_px": 0.07688600869685804,
+            "std_source_px": 0.07645549495185633,
+            "max_abs_source_px": 0.42500000000000004
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "lower-thin",
+        "samples": 38,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": 0.42894736842105274,
+            "RMS_source_px": 0.4343779581497154,
+            "std_source_px": 0.06847164121714576,
+            "max_abs_source_px": 0.5750000000000002
+          },
+          "output": {
+            "mean_source_px": -0.001315789473684089,
+            "RMS_source_px": 0.05904948861136018,
+            "std_source_px": 0.05903482703730145,
+            "max_abs_source_px": 0.07500000000000018
+          }
+        },
+        "RMS_improved": true
+      },
+      {
+        "name": "lower-dark",
+        "samples": 38,
+        "exclude_endpoints_source_px": 3,
+        "offset_measurements": {
+          "parent": {
+            "mean_source_px": -0.02828947368421041,
+            "RMS_source_px": 0.07978177472924097,
+            "std_source_px": 0.07459783681594073,
+            "max_abs_source_px": 0.17499999999999982
+          },
+          "output": {
+            "mean_source_px": 0.01118421052631589,
+            "RMS_source_px": 0.05081571451928291,
+            "std_source_px": 0.049569650765446234,
+            "max_abs_source_px": 0.07500000000000018
+          }
+        },
+        "RMS_improved": true
+      }
+    ],
+    "measurement_limit": "Source-guide offset from local grayscale extrema, evaluated away from endpoints; grain and source ambiguity affect measured residual. Not a claim of perfectly straight every-pixel material boundaries or native high-resolution ground truth."
+  },
+  "new_local_neural_unique_originals": 0,
+  "new_geometry_only_unique_originals": 0,
+  "new_direct_GPT_only_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 0,
+  "source_reports_sha256": {
+    "qa/field_geometry010_facade496_v1.json": "6d57bd9cb703bcc4dc5a48a27a20414837652ce2a57399b3b9d0196057860ff6",
+    "qa/field_geometry010_facade496_v2.json": "9dc4c209350161d692538ae8373fb1001c2256c6198cb38415732a625ebeb194"
+  },
+  "source_and_comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-whole.png",
+      "sha256": "9d67545024b29cf465d66b1f956190863cea4c9fde66ea158082cfb003fdfdae",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-cornice.png",
+      "sha256": "7427851d8ad44f051abf0014f1626518113a90635b88f86717a275c49a519da8",
+      "source_box": [
+        44,
+        12,
+        84,
+        52
+      ],
+      "review_status": "not_inspected_after_coordinate_fold_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-recess.png",
+      "sha256": "857bd20ee38048da66421d21abb9e95d828ccfeca5d7b004c63227935d2935fd",
+      "source_box": [
+        98,
+        52,
+        138,
+        92
+      ],
+      "review_status": "not_inspected_after_coordinate_fold_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-plate-all.png",
+      "sha256": "126b93e7d1189631304bfba812d02f4c847822fdb8d9d559f31abf6450ef4486",
+      "source_box": [
+        136,
+        88,
+        204,
+        128
+      ],
+      "review_status": "not_inspected_after_coordinate_fold_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-left-plate.png",
+      "sha256": "7e7f0995892b810d213c71190db6da4b93d1216258328e137cb85f10c9674e6b",
+      "source_box": [
+        136,
+        88,
+        176,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-right-plate.png",
+      "sha256": "58e6c1c035d41f8d7934040b221817e31e4afa0548c703362000cda5f02ce411",
+      "source_box": [
+        168,
+        88,
+        208,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v1-right-joints.png",
+      "sha256": "726ff02402b9a887f425246ddb27262c219f5981b3e9b7194ae9e36c89873b22",
+      "source_box": [
+        216,
+        88,
+        256,
+        128
+      ],
+      "review_status": "not_inspected_after_coordinate_fold_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-whole.png",
+      "sha256": "de3c6de6714c090e1b3ed84a98e3a4785caea112071f3be997360d3040cc6651",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-cornice.png",
+      "sha256": "939f6e4863efd765446c3be69c15c866f4e1f843a9f531a722eb79e7f9b8b4b6",
+      "source_box": [
+        44,
+        12,
+        84,
+        52
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-recess.png",
+      "sha256": "980302e951402ab42434efc8cd15ecafa2ae86db3448fc1945f7d3596090e782",
+      "source_box": [
+        98,
+        52,
+        138,
+        92
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-plate-all.png",
+      "sha256": "f6da1d4d55de76e550e05554acf610da17682c3df2a5f37e9f47265c30685e4e",
+      "source_box": [
+        136,
+        88,
+        204,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-left-plate.png",
+      "sha256": "4541821f85d50750df526c6fe8eef007c3cd7becc81e72b2b110b71bd2f9d2d1",
+      "source_box": [
+        136,
+        88,
+        176,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-right-plate.png",
+      "sha256": "5aaebec7c214a0eb3efede8ab924042e9cef1d27affa8f67be4240aef201f1cb",
+      "source_box": [
+        168,
+        88,
+        208,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\FM0496-coupled-v2-right-joints.png",
+      "sha256": "f83a115cb9329072ef2589aa27a474f267dd7155e1b810c346c5241efa8f1b9e",
+      "source_box": [
+        216,
+        88,
+        256,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0496-source.png",
+      "sha256": "5c46ecc827be20da3a19526ee2baeb2b9b2e377b637776d1cffc850228777156",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_or_failure_reference": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0496-lower-source-coordinate.png",
+      "sha256": "1a82d5b733e86c30125766f97926691b42521f4e61cff1a62dadbd5ccf3566a0",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_or_failure_reference": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0496-v2-left-plate.png",
+      "sha256": "5a4fa7fb6b1c555ad35ec7dda201b7b6d5bd8f264114bb4e81b55d807888c8ee",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_or_failure_reference": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0496-v2-right-plate.png",
+      "sha256": "02bd0e51bbd7781bfc2c58e86a06ddb9dd43402ecd490174c1aa71e8a5e6ddb0",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_or_failure_reference": true
+    }
+  ],
+  "pages_directly_inspected": 14,
+  "catalog_before_sha256": "cc2f814fb2d872590dded3f373ea305f8025fb976cfb6992865e129da2621799",
+  "catalog_after_sha256": "9bd21fb0c9f49430fe662f849b661fad55f84e58ed6647bdc1520c500a164ffa",
+  "geometry_contract_before_sha256": "680cf8d4e0d1d4629d8a83cd3af223573f31cc57d5115697a5cd22e340c698c2",
+  "geometry_contract_after_sha256": "bfb0772f39c28d3260ac51fd2fce690773db6e499710f6ab44b1eab86b15d7d3",
+  "other575_field_groups_unchanged": true,
+  "previous107_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 149,
+    "field_static_candidates": 108,
+    "field_holds": 45,
+    "field_groups_not_processed_in_field_context": 423,
+    "remaining_novel_unprocessed": 198,
+    "latest_review": "qa/field_geometry010_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 153,
+    "counting_note": "Cumulative novel field processing:149 locally inferred +3 direct-GPT-only +1 deterministic-geometry-only =153 originals. Repeated inference, retries and geometry derivatives of already processed originals do not add unique originals. Static candidates and holds include all routes.",
+    "field_geometry_only_originals": 1
+  },
+  "unique_local_neural_originals_title_battle_novel_field": 406,
+  "processed_originals_title_battle_novel_field_all_routes": 412,
+  "all_routes_count_basis": {
+    "title": 1,
+    "battle": 258,
+    "novel_field": 153
+  },
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "pending_routing": {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\field_pending_routing010.json",
+    "sha256": "0731c12d213c9817a8a8ee4d08c6cdad9ccf33020918fb1e628abfd7218252af"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\건물_패널_모서리_수정.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry010\\건물_패널_모서리_수정.png",
+    "sha256": "0148af7b076ae3e00ad299ae10c845cab9790747f19d3bd677cbf40eb8464b01",
+    "review_status": "directly_inspected_by_Codex_internal",
+    "visual_check": "Whole facade, cornice/joint and lower-left plate corner inspected against original and local Photo. Material retained and previous separate-warp pinch absent; runtime remains pending."
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "The rejected v1 has finite reproducible data but1376 locally reversed coordinate samples. Its better-looking corner did not justify acceptance.",
+    "v2 composed finite-grid Jacobian minimum.33748, zero nonpositive pixels; maximum integrated movement1.39323source px. No formal continuous or runtime UV proof claimed.",
+    "All11 sampled guide RMS values improve; residuals include source/material roughness and reach.380source px on the lower-left rail. Geometry controls do not guarantee perfectly straight every-pixel grayscale thresholds.",
+    "Original Photo material is resampled; source RGB values are not claimed unchanged inside the affected region. Alpha255 and mask-exterior parent bytes are exact.",
+    "Field45 holds/198 novel unprocessed,43 battle issues, historical57field/241battle geometry-applicability checks and other source populations remain.",
+    "No new neural/GPT call, texture key, installation, emulator launch, gameplay proof or release ZIP. GUI unavailable, no successful Explorer claim."
+  ],
+  "next_action": "Run the9 source-classified alpha-foliage originals as a bounded local RGB comparison batch with explicit alpha preservation and dual-matte/thin-support checks. Continue all remaining architecture/mechanical/identity/FX populations; source pixels and GUI/runtime limitations do not narrow the original goal.",
+  "scripts": {
+    "rectify_field496_coupled010.py": "fed6432d00df2aac5fbae5a41d73603f16d48b3033db29ba2695c2414952aef1",
+    "rectify_field496_coupled010_v2.py": "11e6bd665fe4e2624427cc775823742a80bbe78ed720aee2e6b789bf55a18cea",
+    "finalize_field_geometry010.py": "08f1e0de42cf564b34597af7a3063b13c4f2f251f2dcc9e9f744b23d41831a64"
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "group_ids": [
+    "BM129",
+    "BM132",
+    "BM133",
+    "BM135",
+    "BM136",
+    "BM137",
+    "BM138",
+    "BM139",
+    "BM140",
+    "BM141",
+    "BM142",
+    "BM143",
+    "BM144",
+    "BM145",
+    "BM146",
+    "BM147",
+    "BM153",
+    "BM154",
+    "BM155",
+    "BM169",
+    "BM170",
+    "BM171",
+    "BM172",
+    "BM173",
+    "BM174",
+    "BM175",
+    "BM176",
+    "BM177",
+    "BM178",
+    "BM179",
+    "BM180",
+    "BM181",
+    "BM182",
+    "BM183",
+    "BM184",
+    "BM185",
+    "BM186",
+    "BM187",
+    "BM188",
+    "BM189",
+    "BM190",
+    "BM191",
+    "BM192",
+    "BM193",
+    "BM194",
+    "BM195",
+    "BM196",
+    "BM197",
+    "BM198",
+    "BM199"
+  ],
+  "source_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-01.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-02.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-03.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-04.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-05.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\battle-source-catalog\\stage03-04-pending-06.png"
+  ],
+  "visual_review": "Codex internal: all six source pages inspected",
+  "runtime_verified": false,
+  "classifications": [
+    {
+      "group_id": "BM129",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "d4ac4b5ec30ae999d7ecf867953c38f5456cb7098b56eca18684a6c21e4d374a"
+    },
+    {
+      "group_id": "BM132",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "ff1ed9753bd6e3ac341abec79682b9204b435f127f7fc8d5daa74874a0a6ee71"
+    },
+    {
+      "group_id": "BM133",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "f7724be9f9b408bfc64f7733de8edc1b63f8827539ee1bd30a5e174cb3094bfd"
+    },
+    {
+      "group_id": "BM135",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "676821ff73688234988b152555404c040261dc66b902b4148c7db303349175d6"
+    },
+    {
+      "group_id": "BM136",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "cacf41287bb9897860d589b6e8ed51e4ba67c52f3efe80cfa6168ec36317163d"
+    },
+    {
+      "group_id": "BM137",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "24d7865d287d0b1231771a6d23a5c995242555a98bcb2919efcc5478104681d0"
+    },
+    {
+      "group_id": "BM138",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "e3e7862c82d4d3f2edd7f03337a24fff417e1a4d47b52064f6d12ffd985b0fd3"
+    },
+    {
+      "group_id": "BM139",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "b5d2f4104d4f86efdecc7abef69c150ce41adbdd118757e3b17e122d76b893b9"
+    },
+    {
+      "group_id": "BM140",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "043f0b22075c2f7a83dd599cc08fd2e6af29f4fef261d5e4364c1df93a066038"
+    },
+    {
+      "group_id": "BM141",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "ce5c0466ca2785d517b9c166a9345be7c1bd5b1c653034eac5c504978b7eb9b8"
+    },
+    {
+      "group_id": "BM142",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "918dcd6e43e3bfe6418ec0a784d1da241534854a422fa84449e58f2d82f582b0"
+    },
+    {
+      "group_id": "BM143",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "bcc3b3d636cdc246991f9a7a8270615fc49483cf77880cfa0843014f85ee7340"
+    },
+    {
+      "group_id": "BM144",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "8287d8ce04140adf452e2d7129924b2c0b11aaf78238be9a57079c399674965f"
+    },
+    {
+      "group_id": "BM145",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "86db61eddb23e26cca3d838161bcbb3ae8ea387abb618a20081e0b837029ed04"
+    },
+    {
+      "group_id": "BM146",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "04e423f270f0c5c90ff57c00debb47508254d9ca07b95edebe7dd5e2a0223673"
+    },
+    {
+      "group_id": "BM147",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "9367146daf61eb4d5146c54a056bb197e09439f73664c9eca4b451527ba077ab"
+    },
+    {
+      "group_id": "BM153",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "3be5ff9fee278425da0d731ab990f577f55a6456ce7a643679b5ead876c5934b"
+    },
+    {
+      "group_id": "BM154",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "bfb1d2879ab58a5265313354c70b30dbb2467b03f7af5ef6f98285882311d4ec"
+    },
+    {
+      "group_id": "BM155",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "e38514bbf2b642ba39901d40f6b1cddc5a2df2ee05a451dc341718721a10eb59"
+    },
+    {
+      "group_id": "BM169",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "259bf428f1958ffd8134d7e2d606f41131ea60bd76d63b62128c0232f3b16688"
+    },
+    {
+      "group_id": "BM170",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "a67b6ddb96ad210c5fb2d90883c08f536f73e0b0e90f74d631e5a30ef3e19e7b"
+    },
+    {
+      "group_id": "BM171",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "9256c9188ac2751aa955ebc0ada291916def2f4cdb75eedcb22a87dc27fdfbd6"
+    },
+    {
+      "group_id": "BM172",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "712aec02dc2980f604dab03397dd320d9febd8c3b259d277a05d611f6279db2c"
+    },
+    {
+      "group_id": "BM173",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "16ee04e10de7bb65dc793ea32153c1eab5c5948bdbc9651287ced602d2e62994"
+    },
+    {
+      "group_id": "BM174",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "46b4411f06c52efabee5294c49d04958bdb9a093b84b9189b00d6d0603230caf"
+    },
+    {
+      "group_id": "BM175",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "0f0fc92458cd5d6a4ce765753d095291880f095c64fe66b2bdb4a94cec9f6c7c"
+    },
+    {
+      "group_id": "BM176",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "f572d1a64156d1e03ccad6b0b48c8646bac882317396614afa402f7a839a38e3"
+    },
+    {
+      "group_id": "BM177",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "9f5da7e0a67e3d3e29e46868a168e3bad9d8e4d0a7d37bcef20abbc111dd44cc"
+    },
+    {
+      "group_id": "BM178",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "f7fd3ad377038269a050b8d186414f252ebdf07fb488af16ac845b62f19ee71b"
+    },
+    {
+      "group_id": "BM179",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "33ae87dfd5647fad746772f3a26346cc2b4413de4dcd28345baada246d913159"
+    },
+    {
+      "group_id": "BM180",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "0bf66e3f14af2092c6f859b693742ea92b55d3d1d0e2a083cbfde1e8147314ed"
+    },
+    {
+      "group_id": "BM181",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "40b1b4f161348afe71c35e03987cfe0d0da75a825d95887c6b2a32192587314e"
+    },
+    {
+      "group_id": "BM182",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "951ee89090451995105c03ea8557ea43c5cd8bbae7effa3460993c23b3ba428d"
+    },
+    {
+      "group_id": "BM183",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "58e2720cba8a170402fb35b412268fdf1ecd175da081ca5265c3b0862c6ed83d"
+    },
+    {
+      "group_id": "BM184",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "c172101061aebfa3774d9501bc54dfbb0fe567160a6bed58078a241afc91cbf8"
+    },
+    {
+      "group_id": "BM185",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "fbfa028360d4a431baf13afc2e91c86537b1dbc984763a90c5db8f7ecf74d8bd"
+    },
+    {
+      "group_id": "BM186",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "e60e3a3c536ad3d03e96ea7adcbf0b1191a298c5bb09bca9119d2e780836e2b7"
+    },
+    {
+      "group_id": "BM187",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "3cfc3a750c627a87b3d338b66afb46652a01130c3c2e0d707d313962af511976"
+    },
+    {
+      "group_id": "BM188",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "2e47f7c7798d4c16c3ccef1a748eb957a7a75be4a8993cadc87747c9b19762b0"
+    },
+    {
+      "group_id": "BM189",
+      "classification": "lettered/emblem surface; reconstruction pending",
+      "reason": "Large dark sign-like glyphs must be identified and protected; generic SR could alter their strokes.",
+      "source_rgba_sha256": "6e5059b40a93473b755d6c53e73d8d8434882d275fffcd9d03e6593b442b5f1d"
+    },
+    {
+      "group_id": "BM190",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "38fcea59ebbb39e7322a736de3b3a2a3409b8b2c21d30fcba4cfb902074edd4f"
+    },
+    {
+      "group_id": "BM191",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "367eee36ca5737827753efd60258bdcfe73a8f42e88b7c1c27624143121de132"
+    },
+    {
+      "group_id": "BM192",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "ef21ef09651339e35231c3f05909b2ebd3290b2269f78d8f29d369d44c4301a0"
+    },
+    {
+      "group_id": "BM193",
+      "classification": "tiny flat strip/palette-like asset; consumer pending",
+      "reason": "8x8 flat bands should not acquire invented texture; determine actual use before treatment.",
+      "source_rgba_sha256": "709abaaed0d4d9ae8bd10744f224fed4ae71619bf80f5660b18e0809c5ad6e2c"
+    },
+    {
+      "group_id": "BM194",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Metal/stone/snow/water surface reviewed in source sheets; no legible wording identified. Panel details require comparison after inference.",
+      "source_rgba_sha256": "8d49316e11cdd1850f9c940fff77473ccf0489e293a0c8dd9044b8a784ea844a"
+    },
+    {
+      "group_id": "BM195",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "4713217752fe2dac3088ec91af1f6098833fd49249140e52c0fd53af8d8570e2"
+    },
+    {
+      "group_id": "BM196",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "991075d79fdde7e930987ba7b319cd39f0a5c7356e2e0c7fd8ce62a60f483e1f"
+    },
+    {
+      "group_id": "BM197",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "391fb1a67096c8509c8a2f464348c33a266b8df4822c1937dec8de89c24a0659"
+    },
+    {
+      "group_id": "BM198",
+      "classification": "alpha/atlas for separate treatment",
+      "reason": "Cutout silhouette, thin rods, split panels or soft opacity require alpha-aware inference and explicit region checks.",
+      "source_rgba_sha256": "3c4bd494b73bab827ef9dbdf36211e1bbfb2b947df7f9c066c8693e6d536818e"
+    },
+    {
+      "group_id": "BM199",
+      "classification": "soft dark effect; alpha/blend consumer pending",
+      "reason": "Soft low-contrast gradient must not gain material grain; investigate consumer and compare a restrained treatment.",
+      "source_rgba_sha256": "9865727510139528b5b7b94cc084d92865954930f558d97ec2bd8216515a02f9"
+    }
+  ],
+  "opaque_batch": "qa/local_sr008_inference.json",
+  "excluded_from_project": []
+}

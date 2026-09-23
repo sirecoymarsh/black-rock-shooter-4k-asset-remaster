@@ -1,0 +1,753 @@
+{
+  "schema": "brs-straight-field-windows/v1",
+  "files": [
+    {
+      "group_id": "FM0257",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.ptm",
+      "source_ptm_sha256": "c26423eb368a0ed72936afc69c7a728e3862c2f3f79397f9a4cfdae0a9f96711",
+      "source_rgba_sha256": "f1a001082b2855defbdf1d6b533bd0e3ec6349bdd1c8e68867c46d2657bf5783",
+      "classification": "architecture",
+      "source_visual_note": "Pale textured wall and two dark window panes.",
+      "size": [
+        64,
+        32
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+      "parent_sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+      "parent_id": "FM0257-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0257-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+        "sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0257-straight-windows-v1",
+      "method": "Source-coordinate rectangular panes/frame; source-smoothed frame colors; bounded local frame grain and clipped existing local glass material.",
+      "plan": {
+        "outer": [
+          23,
+          9,
+          40,
+          20
+        ],
+        "panes": [
+          [
+            24,
+            10,
+            31,
+            19
+          ],
+          [
+            32,
+            10,
+            39,
+            19
+          ]
+        ],
+        "glass_max_rgb": 64,
+        "frame_floor": 112,
+        "bevel_width": 1
+      },
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-frame-geometry-v1.svg",
+      "vector_sha256": "555df42a0fe6e037e7324dd7bb9456934ea7140416b8df4b28fca05b217d213e",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-frame-geometry-v1.png",
+      "render_sha256": "25a5f1a2197462159b41ae2b389b006bae2cc6ab1799257531227c6bd5f9d268",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-mask.png",
+      "mask_sha256": "e8696a8e4e5e94fb510076b534883a2c687f78b549d873937e9e2173762ed887",
+      "classes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-window-classes.png",
+      "classes_sha256": "483e5866a7d47834bea7c06dd55214f7a333ff69f3d5293819210528027b725d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-v1-8x.png",
+      "output_sha256": "c38a499c396b3648ea41e5899de592f736cff798c0e7cf1e8ef3b11dcad9c175",
+      "output_size": [
+        512,
+        256
+      ],
+      "rectangles": [
+        [
+          23,
+          9,
+          17,
+          1
+        ],
+        [
+          23,
+          10,
+          1,
+          1
+        ],
+        [
+          31,
+          10,
+          1,
+          1
+        ],
+        [
+          39,
+          10,
+          1,
+          1
+        ],
+        [
+          23,
+          11,
+          1,
+          1
+        ],
+        [
+          31,
+          11,
+          1,
+          1
+        ],
+        [
+          39,
+          11,
+          1,
+          1
+        ],
+        [
+          23,
+          12,
+          1,
+          1
+        ],
+        [
+          31,
+          12,
+          1,
+          1
+        ],
+        [
+          39,
+          12,
+          1,
+          1
+        ],
+        [
+          23,
+          13,
+          1,
+          1
+        ],
+        [
+          31,
+          13,
+          1,
+          1
+        ],
+        [
+          39,
+          13,
+          1,
+          1
+        ],
+        [
+          23,
+          14,
+          1,
+          1
+        ],
+        [
+          31,
+          14,
+          1,
+          1
+        ],
+        [
+          39,
+          14,
+          1,
+          1
+        ],
+        [
+          23,
+          15,
+          1,
+          1
+        ],
+        [
+          31,
+          15,
+          1,
+          1
+        ],
+        [
+          39,
+          15,
+          1,
+          1
+        ],
+        [
+          23,
+          16,
+          1,
+          1
+        ],
+        [
+          31,
+          16,
+          1,
+          1
+        ],
+        [
+          39,
+          16,
+          1,
+          1
+        ],
+        [
+          23,
+          17,
+          1,
+          1
+        ],
+        [
+          31,
+          17,
+          1,
+          1
+        ],
+        [
+          39,
+          17,
+          1,
+          1
+        ],
+        [
+          23,
+          18,
+          1,
+          1
+        ],
+        [
+          31,
+          18,
+          1,
+          1
+        ],
+        [
+          39,
+          18,
+          1,
+          1
+        ],
+        [
+          23,
+          19,
+          17,
+          1
+        ]
+      ],
+      "geometry_checks": {
+        "frame_mask_exact_to_plan": true,
+        "dark_class_threshold108_exact_to_pane_rectangles": true,
+        "separate_panes": 2,
+        "outside_mask_parent_rgba_exact": true,
+        "opaque255": true
+      },
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0258",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "f6e202868e06fcf10f6ff1d43a708db52e2c5822e410da7d0d3eef274ec974f4",
+      "source_rgba_sha256": "555e43dd565eda95fe4349d91d5964afcca66f2dc527c220ce239ad8449037ed",
+      "classification": "architecture",
+      "source_visual_note": "Pale weathered wall and four dark window panes.",
+      "size": [
+        64,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+      "parent_sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+      "parent_id": "FM0258-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0258-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+        "sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0258-straight-windows-v1",
+      "method": "Source-coordinate rectangular panes/frame; source-smoothed frame colors; bounded local frame grain and clipped existing local glass material.",
+      "plan": {
+        "outer": [
+          9,
+          18,
+          54,
+          31
+        ],
+        "panes": [
+          [
+            11,
+            19,
+            20,
+            30
+          ],
+          [
+            21,
+            19,
+            31,
+            30
+          ],
+          [
+            32,
+            19,
+            42,
+            30
+          ],
+          [
+            43,
+            19,
+            52,
+            30
+          ]
+        ],
+        "glass_max_rgb": 100,
+        "frame_floor": 116,
+        "bevel_width": 1
+      },
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-frame-geometry-v1.svg",
+      "vector_sha256": "9da02b7b3e5d60a28b73e8405f90be09af7b9467b77d476c463ee1563ee30d53",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-frame-geometry-v1.png",
+      "render_sha256": "ab250b48078a88b59067d0ccfd4479a8b8f527a8818743f16ab994ee3086e05e",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-mask.png",
+      "mask_sha256": "2217bfd65f69d3e8b9ce1a9a15c566f8cd4a92d9fd856884b0044dd271fd488a",
+      "classes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-window-classes.png",
+      "classes_sha256": "02b6de7c750eb34b88cc45861c5458c6e4315e831fddf012ccf7573a8302f977",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-v1-8x.png",
+      "output_sha256": "548d7468d8fce77dd3272bee17f4e2e10d2a402febeae8176d42c93ea4f70e27",
+      "output_size": [
+        512,
+        512
+      ],
+      "rectangles": [
+        [
+          9,
+          18,
+          45,
+          1
+        ],
+        [
+          9,
+          19,
+          2,
+          1
+        ],
+        [
+          20,
+          19,
+          1,
+          1
+        ],
+        [
+          31,
+          19,
+          1,
+          1
+        ],
+        [
+          42,
+          19,
+          1,
+          1
+        ],
+        [
+          52,
+          19,
+          2,
+          1
+        ],
+        [
+          9,
+          20,
+          2,
+          1
+        ],
+        [
+          20,
+          20,
+          1,
+          1
+        ],
+        [
+          31,
+          20,
+          1,
+          1
+        ],
+        [
+          42,
+          20,
+          1,
+          1
+        ],
+        [
+          52,
+          20,
+          2,
+          1
+        ],
+        [
+          9,
+          21,
+          2,
+          1
+        ],
+        [
+          20,
+          21,
+          1,
+          1
+        ],
+        [
+          31,
+          21,
+          1,
+          1
+        ],
+        [
+          42,
+          21,
+          1,
+          1
+        ],
+        [
+          52,
+          21,
+          2,
+          1
+        ],
+        [
+          9,
+          22,
+          2,
+          1
+        ],
+        [
+          20,
+          22,
+          1,
+          1
+        ],
+        [
+          31,
+          22,
+          1,
+          1
+        ],
+        [
+          42,
+          22,
+          1,
+          1
+        ],
+        [
+          52,
+          22,
+          2,
+          1
+        ],
+        [
+          9,
+          23,
+          2,
+          1
+        ],
+        [
+          20,
+          23,
+          1,
+          1
+        ],
+        [
+          31,
+          23,
+          1,
+          1
+        ],
+        [
+          42,
+          23,
+          1,
+          1
+        ],
+        [
+          52,
+          23,
+          2,
+          1
+        ],
+        [
+          9,
+          24,
+          2,
+          1
+        ],
+        [
+          20,
+          24,
+          1,
+          1
+        ],
+        [
+          31,
+          24,
+          1,
+          1
+        ],
+        [
+          42,
+          24,
+          1,
+          1
+        ],
+        [
+          52,
+          24,
+          2,
+          1
+        ],
+        [
+          9,
+          25,
+          2,
+          1
+        ],
+        [
+          20,
+          25,
+          1,
+          1
+        ],
+        [
+          31,
+          25,
+          1,
+          1
+        ],
+        [
+          42,
+          25,
+          1,
+          1
+        ],
+        [
+          52,
+          25,
+          2,
+          1
+        ],
+        [
+          9,
+          26,
+          2,
+          1
+        ],
+        [
+          20,
+          26,
+          1,
+          1
+        ],
+        [
+          31,
+          26,
+          1,
+          1
+        ],
+        [
+          42,
+          26,
+          1,
+          1
+        ],
+        [
+          52,
+          26,
+          2,
+          1
+        ],
+        [
+          9,
+          27,
+          2,
+          1
+        ],
+        [
+          20,
+          27,
+          1,
+          1
+        ],
+        [
+          31,
+          27,
+          1,
+          1
+        ],
+        [
+          42,
+          27,
+          1,
+          1
+        ],
+        [
+          52,
+          27,
+          2,
+          1
+        ],
+        [
+          9,
+          28,
+          2,
+          1
+        ],
+        [
+          20,
+          28,
+          1,
+          1
+        ],
+        [
+          31,
+          28,
+          1,
+          1
+        ],
+        [
+          42,
+          28,
+          1,
+          1
+        ],
+        [
+          52,
+          28,
+          2,
+          1
+        ],
+        [
+          9,
+          29,
+          2,
+          1
+        ],
+        [
+          20,
+          29,
+          1,
+          1
+        ],
+        [
+          31,
+          29,
+          1,
+          1
+        ],
+        [
+          42,
+          29,
+          1,
+          1
+        ],
+        [
+          52,
+          29,
+          2,
+          1
+        ],
+        [
+          9,
+          30,
+          45,
+          1
+        ]
+      ],
+      "geometry_checks": {
+        "frame_mask_exact_to_plan": true,
+        "dark_class_threshold108_exact_to_pane_rectangles": true,
+        "separate_panes": 4,
+        "outside_mask_parent_rgba_exact": true,
+        "opaque255": true
+      },
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0257-whole.png",
+      "sha256": "e42097dcf5d3818b947751e39ac83b0b8b84fa8acc2e19162732ed9fddffde56",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0257-windows.png",
+      "sha256": "e4c5609f4f48f8a453fb020b385724ad40aa8a8041d26cfdab6be005d0d3db48",
+      "source_box": [
+        21,
+        7,
+        42,
+        22
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0258-whole.png",
+      "sha256": "44513cd53c60b72b8f229dfa3c497f3e88de7e5bb878654e0210470ce221a844",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0258-windows.png",
+      "sha256": "ed2595f801f569e9fab191b9bc611671615a03325ac0afc2c6330077487d2a59",
+      "source_box": [
+        7,
+        16,
+        56,
+        33
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_neural_passes": 0,
+  "external_calls": 0,
+  "image_upload": false,
+  "limits": [
+    "Source anchors define axis-aligned openings; light/dark edge pixels in the low-resolution source include weathering and sampling, so source color byte identity is not claimed.",
+    "Source-smoothed frame lightness and clipped local glass prevent generated edge pixels from reintroducing curvature, but actual texture appearance still requires direct visual review.",
+    "Unknown consumer/UV/repeat behavior and runtime remain unverified."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

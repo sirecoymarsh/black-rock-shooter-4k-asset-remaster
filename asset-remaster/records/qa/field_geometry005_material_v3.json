@@ -1,0 +1,404 @@
+{
+  "schema": "brs-authored-material-refinement/v1",
+  "parent_report_sha256": "02ad062b5adcceaa6dcf6bdcc7b27fdbab0f04cd5120e4a544a34e15b1d773da",
+  "files": [
+    {
+      "id": "FM0113-authored-v3",
+      "group_id": "FM0113",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.ptm",
+      "source_ptm_sha256": "96a595559793146a06fcd51226c03835d4dc1945d1db2a00eb160ab246839e63",
+      "source_rgba_sha256": "cdc6e87bb899a92da7de3362bece2d2adf9538c9c36685bc02dff9851b9cd5b8",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-v2-8x.png",
+      "parent_sha256": "d2790d282caa5015f1722c6f15ed1e45c281c5632c99fd908380548d0a87ad79",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-v3-8x.png",
+      "output_sha256": "6c6d2a15e664f5ca725f0411a47c5a60eeacb3dae09782a3260ec42d78e2a9af",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0113-authored-v3-mask.png",
+      "mask_sha256": "ffdb332b9ca8e15ad9288bb847d3a2b03db0faa426f82a0a48f1e110f752dcc7",
+      "method": "Source-position grid dividers with fixed transverse metal bevels, reprojected generated pane material; concrete wall plane with source-mean color normalization. Lower authored wood support from v2 unchanged.",
+      "grid_target_x": [
+        0.0,
+        2.5,
+        4.5,
+        7.5,
+        10.5,
+        13.5,
+        15.5,
+        16.0
+      ],
+      "grid_generated_x": [
+        0.0,
+        3.85,
+        7.5,
+        11.15,
+        14.85,
+        18.5,
+        21.25,
+        21.45
+      ],
+      "grid_target_y": [
+        0.0,
+        1.5,
+        6.5,
+        12.5,
+        18.5,
+        24.5,
+        29.5,
+        30.0
+      ],
+      "grid_generated_y": [
+        0.0,
+        0.36,
+        6.38,
+        12.48,
+        18.72,
+        24.77,
+        30.28,
+        30.78
+      ],
+      "grid_RGB_gain": [
+        1.0334532462243533,
+        1.0682759571561302,
+        1.1169282651303982
+      ],
+      "fixed_seam_profile_RGB": [
+        [
+          87.0,
+          83.95499420166016,
+          80.04000091552734
+        ],
+        [
+          62.0,
+          59.82999801635742,
+          57.040000915527344
+        ],
+        [
+          60.0,
+          57.89999771118164,
+          55.20000076293945
+        ],
+        [
+          73.0,
+          70.44499969482422,
+          67.16000366210938
+        ]
+      ],
+      "seams": [
+        {
+          "axis": "vertical",
+          "center_source": 2.5,
+          "output_span": [
+            18,
+            22
+          ]
+        },
+        {
+          "axis": "vertical",
+          "center_source": 4.5,
+          "output_span": [
+            34,
+            38
+          ]
+        },
+        {
+          "axis": "vertical",
+          "center_source": 7.5,
+          "output_span": [
+            58,
+            62
+          ]
+        },
+        {
+          "axis": "vertical",
+          "center_source": 10.5,
+          "output_span": [
+            82,
+            86
+          ]
+        },
+        {
+          "axis": "vertical",
+          "center_source": 13.5,
+          "output_span": [
+            106,
+            110
+          ]
+        },
+        {
+          "axis": "vertical",
+          "center_source": 15.5,
+          "output_span": [
+            122,
+            126
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 1.5,
+          "output_span": [
+            10,
+            14
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 6.5,
+          "output_span": [
+            50,
+            54
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 12.5,
+          "output_span": [
+            98,
+            102
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 18.5,
+          "output_span": [
+            146,
+            150
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 24.5,
+          "output_span": [
+            194,
+            198
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "center_source": 29.5,
+          "output_span": [
+            234,
+            238
+          ]
+        }
+      ],
+      "wall_donor_box_in_32x64_coordinates": [
+        21.6,
+        0,
+        32,
+        30.78
+      ],
+      "wall_RGB_gain": [
+        0.8974974382042714,
+        0.9254027454286599,
+        0.9663614758431054
+      ],
+      "lower_support_RGBA_parent_exact": true,
+      "alpha_parent_exact": true,
+      "scope_limit": "Source line locations and rectilinear construction preserved; source fade/dither is interpreted. Wood/concrete material is art direction, not proven native metadata.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0029-authored-v3",
+      "group_id": "FM0029",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "dd883bea40b06bcab188c66267f8dcf9c07589499ce5d1d640fabcb283a66393",
+      "source_rgba_sha256": "b8647bd372b9b63727e763c183af69f3ac91bc36de71425ff46c385bce229611",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-authored-v2-8x.png",
+      "parent_sha256": "aa34f538c148341c27ee08acf0ef4575d88d9b6dd25129c5cd480c733701cd0f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-authored-v3-8x.png",
+      "output_sha256": "0c329267068272ad3595a29431899e9eb6974a80b96460477d8ef2c5538471b4",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry005\\FM0029-authored-v3-mask.png",
+      "mask_sha256": "0657c9a1b388b55a56d7c4880883c8f8b14a95f1506fba9b6ade3977441df055",
+      "method": "Angular GPT glass constrained to source pane mask, with source gray-palette mean matching to reduce overbright silver reflections.",
+      "pane_tone_records": [
+        {
+          "pane": "left-clipped",
+          "original_gray_mean_RGB": [
+            88.22413793103448,
+            87.75862068965517,
+            87.74137931034483
+          ],
+          "current_gray_mean_RGB": [
+            145.3194580078125,
+            146.0924530029297,
+            149.9588165283203
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.45,
+            0.4701377730976511,
+            0.47254949609436
+          ]
+        },
+        {
+          "pane": "small-left",
+          "original_gray_mean_RGB": [
+            78.2258064516129,
+            78.03225806451613,
+            78.03225806451613
+          ],
+          "current_gray_mean_RGB": [
+            137.54061889648438,
+            131.08303833007812,
+            131.300537109375
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.45,
+            0.45,
+            0.46356504611665594
+          ]
+        },
+        {
+          "pane": "large-left",
+          "original_gray_mean_RGB": [
+            88.42857142857143,
+            88.14285714285714,
+            88.08571428571429
+          ],
+          "current_gray_mean_RGB": [
+            137.50448608398438,
+            138.78221130371094,
+            142.6305389404297
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.45,
+            0.507314023326277,
+            0.5069641242181266
+          ]
+        },
+        {
+          "pane": "large-right",
+          "original_gray_mean_RGB": [
+            84.04109589041096,
+            83.78082191780823,
+            83.75342465753425
+          ],
+          "current_gray_mean_RGB": [
+            138.425537109375,
+            139.8732147216797,
+            143.68475341796875
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.45,
+            0.45999175096133565,
+            0.46338844894837494
+          ]
+        },
+        {
+          "pane": "narrow",
+          "original_gray_mean_RGB": [
+            89.16535433070867,
+            88.93700787401575,
+            88.83464566929133
+          ],
+          "current_gray_mean_RGB": [
+            131.9717254638672,
+            132.66046142578125,
+            135.41253662109375
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.4647311798655728,
+            0.5476593748175136,
+            0.5495914472878174
+          ]
+        },
+        {
+          "pane": "small-right",
+          "original_gray_mean_RGB": [
+            76.66666666666667,
+            76.51282051282051,
+            76.48717948717949
+          ],
+          "current_gray_mean_RGB": [
+            143.65884399414062,
+            146.67625427246094,
+            150.42132568359375
+          ],
+          "RGB_gain_from_dark_floor": [
+            0.45,
+            0.45,
+            0.45
+          ]
+        }
+      ],
+      "outside_mask_parent_rgba_exact": true,
+      "alpha_parent_exact": true,
+      "scope_limit": "Glass-only candidate, not whole atlas acceptance; intact frame geometry still requires repair.",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-whole-authored-v3.png",
+      "sha256": "aabdcb6532a29d2f0d2d87db65b987f915902b6af9a04ad3a6817e9bfef531dc",
+      "source_box": [
+        0,
+        0,
+        32,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-detail-authored-v3.png",
+      "sha256": "7385209f4569e91d00a6d68b5655d56db1d4b14d39aa6255f74fa03536b1adc1",
+      "source_box": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0113-upper-authored-v3.png",
+      "sha256": "57ffe161fa6eeea1c1037f148413fa7c104d0ddad109b2f2e6bb0dfd06db0e2d",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-whole-authored-v3.png",
+      "sha256": "2bfad6169ebc5cb267bfc211bd259c93d5a75dafa9f5e2ff5bac366bf073bef3",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-detail-authored-v3.png",
+      "sha256": "64a6f3170fe91d32fdf956231219f5c3a6021ec6abec0d81a2ac6f02f93a0d8a",
+      "source_box": [
+        26,
+        21,
+        64,
+        45
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry005\\FM0029-upper-authored-v3.png",
+      "sha256": "a95c101cd3b9d9bea7f3fcae6e96095fadebdbd1704e8e1cb9393906ce85a8c0",
+      "source_box": [
+        0,
+        21,
+        92,
+        45
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_inference_passes": 0,
+  "new_external_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

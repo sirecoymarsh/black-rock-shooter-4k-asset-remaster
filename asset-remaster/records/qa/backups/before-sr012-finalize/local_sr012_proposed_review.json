@@ -1,0 +1,33 @@
+{
+  "schema": "brs-sr012-proposed-review/v1",
+  "choices": {
+    "BM062": "photo",
+    "BM063": "photo",
+    "BM065": "wdn",
+    "BM074": "photo",
+    "BM079": "wdn",
+    "BM087": "wdn",
+    "BM101": "photo",
+    "BM110": "wdn",
+    "BM111": "wdn",
+    "BM115": "wdn",
+    "BM116": "photo",
+    "BM118": "photo"
+  },
+  "matte_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-01.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-02.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-03.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-04.png"
+  ],
+  "detail_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM065-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM074-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM079-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM087-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM110-detail.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM115-detail.png"
+  ],
+  "review_status": "pending direct review",
+  "runtime_verified": false
+}

@@ -1,0 +1,40 @@
+{
+  "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-review-pack\\PSP\\TEXTURES\\NPUH10126",
+  "keys": {
+    "00000000d2f4e2d76adb5f9c": "materials/BM023.png",
+    "0000000086ba34d7c28b381c": "title/title-metal-local-sr.png"
+  },
+  "battle_binding_evidence": [
+    {
+      "key": "00000000d2f4e2d76adb5f9c",
+      "group_id": "BM023",
+      "source_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png",
+      "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "replacement_sha256": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45"
+    },
+    {
+      "key": "00000000d2f4e2d76adb5f9c",
+      "group_id": "BM023",
+      "source_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png",
+      "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "replacement_sha256": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45"
+    },
+    {
+      "key": "00000000d2f4e2d76adb5f9c",
+      "group_id": "BM023",
+      "source_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png",
+      "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "replacement_sha256": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45"
+    },
+    {
+      "key": "00000000d2f4e2d76adb5f9c",
+      "group_id": "BM023",
+      "source_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d2f4e2d76adb5f9c.png",
+      "rgba_sha256": "019072b36d2f0b73e2789bd7eeacafec5350a5e3aeb1535d6bd7411f54ebdccc",
+      "replacement_sha256": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45"
+    }
+  ],
+  "runtime_verified": false,
+  "installed": false,
+  "release_eligible": false
+}

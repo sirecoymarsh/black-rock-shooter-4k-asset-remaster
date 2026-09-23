@@ -1,0 +1,1864 @@
+{
+  "schema": "brs-pending-field-routing010/v1",
+  "source_reports_sha256": {
+    "qa\\field_source_review01.json": "bfe35ae164c69580588137564266a98133ea07e65628d54be7bedf1dacbe0f08",
+    "qa\\field_source_review02.json": "d5093f7d1feac04546a7efc14071fae4e58576326d6306b3fe736f87d60a2d61",
+    "qa\\field_source_review03.json": "c52ecf1cbb6ef098fea3c518406e40ddb8fa5fb7cd50d51244ad31512c7e03af",
+    "qa\\field_source_review04.json": "0e9a3c0193ef9c2a0d9a5741f86bf06880d3b607e0ffd0c6b648559532b109a5"
+  },
+  "novel_unprocessed": 198,
+  "classification_counts": {
+    "illustration_identity_hold": 1,
+    "structured_material": 1,
+    "text_protected": 5,
+    "flat_geometry": 14,
+    "architecture": 10,
+    "thin_alpha": 1,
+    "atlas_partition_geometry": 3,
+    "fine_pattern_protected": 3,
+    "mixed_atlas_protected": 3,
+    "text_illustration_identity": 11,
+    "thin_alpha_lattice": 1,
+    "gradient_fx": 4,
+    "alpha_geometry": 3,
+    "alpha_natural": 1,
+    "alpha_water_fx": 4,
+    "alpha_ruin": 1,
+    "alpha_structure": 3,
+    "protected_lattice": 7,
+    "alpha_foliage_thin": 5,
+    "alpha_foliage": 9,
+    "protected_binary_mask": 2,
+    "alpha_landscape_fx": 2,
+    "alpha_landscape": 1,
+    "alpha_cloud": 2,
+    "mixed_atlas_identity": 2,
+    "alpha_architecture": 2,
+    "alpha_vehicle_atlas": 1,
+    "protected_graphic": 3,
+    "alpha_particles": 1,
+    "flat_gradient": 1,
+    "alpha_mechanical": 16,
+    "mechanical_atlas": 9,
+    "alpha_folded_structure": 7,
+    "protected_frame": 4,
+    "structured_panel": 3,
+    "protected_curved_frame": 1,
+    "nearopaque_structured": 2,
+    "alpha_ornament": 17,
+    "alpha_natural_faceted": 1,
+    "city_illustration": 4,
+    "alpha_city_illustration": 2,
+    "architecture_ornament": 5,
+    "protected_ornament": 2,
+    "protected_rails": 2,
+    "figurative_ornament": 1,
+    "structured_material_atlas": 2,
+    "nearopaque_mechanical": 2,
+    "structured_ornament": 1,
+    "alpha_sphere_illustration": 1,
+    "protected_chain": 1,
+    "text_instrument_atlas": 1,
+    "flat_geometry_atlas": 1,
+    "alpha_pattern": 1,
+    "furniture_atlas": 3,
+    "portrait_illustration": 1,
+    "furniture_material_atlas": 1
+  },
+  "groups": [
+    {
+      "group_id": "FM0002",
+      "classification": "illustration_identity_hold",
+      "source_visual_note": "Woman-face poster with lettering; character/protagonist relationship unresolved.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0025",
+      "classification": "structured_material",
+      "source_visual_note": "Horizontal slat count and straight frame.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0032",
+      "classification": "text_protected",
+      "source_visual_note": "Facade with faded sign and windows; protect lettering.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0033",
+      "classification": "flat_geometry",
+      "source_visual_note": "Flat pump/display blocks; avoid invented texture.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0034",
+      "classification": "text_protected",
+      "source_visual_note": "GAS STATION/24H sign; preserve source text.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0039",
+      "classification": "architecture",
+      "source_visual_note": "Vertical facade bays and windows.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0041",
+      "classification": "architecture",
+      "source_visual_note": "Facade windows of multiple sizes.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0042",
+      "classification": "architecture",
+      "source_visual_note": "Repeated window rows and door.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0043",
+      "classification": "architecture",
+      "source_visual_note": "Brick facade, window rows and garage doors.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0044",
+      "classification": "flat_geometry",
+      "source_visual_note": "Four paving cells; cross boundary.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0046",
+      "classification": "thin_alpha",
+      "source_visual_note": "Fence uprights and fine rails.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0050",
+      "classification": "flat_geometry",
+      "source_visual_note": "Four green-gray paving cells.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0051",
+      "classification": "atlas_partition_geometry",
+      "source_visual_note": "Road atlas with yellow stripe and paving grids; native UV not verified.",
+      "size": [
+        256,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0054",
+      "classification": "text_protected",
+      "source_visual_note": "STOP road letters and white bar.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0058",
+      "classification": "architecture",
+      "source_visual_note": "Ornate paired facade windows and lower openings.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0064",
+      "classification": "flat_geometry",
+      "source_visual_note": "Three vertical framed sections with crossbar.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0065",
+      "classification": "flat_geometry",
+      "source_visual_note": "Double entry door and paired handles.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0066",
+      "classification": "flat_geometry",
+      "source_visual_note": "Barred window; preserve bar count.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0067",
+      "classification": "flat_geometry",
+      "source_visual_note": "Four-pane window.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0068",
+      "classification": "flat_geometry",
+      "source_visual_note": "Four-pane window variant.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0069",
+      "classification": "flat_geometry",
+      "source_visual_note": "Paired tall window/door frames.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0070",
+      "classification": "flat_geometry",
+      "source_visual_note": "Wide short paired window.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0085",
+      "classification": "atlas_partition_geometry",
+      "source_visual_note": "Facade grid/braces beside road stripe; protect partitions.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0086",
+      "classification": "architecture",
+      "source_visual_note": "Arched-window facade; preserve tracery and count.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0089",
+      "classification": "text_protected",
+      "source_visual_note": "Vehicle atlas with lettering and checker stripe; protect both.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0090",
+      "classification": "text_protected",
+      "source_visual_note": "Vehicle atlas with stripes/windows and possible text.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0106",
+      "classification": "flat_geometry",
+      "source_visual_note": "Framed dark double doors and pale handles.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0114",
+      "classification": "atlas_partition_geometry",
+      "source_visual_note": "Road atlas with multiple markings and paving grids.",
+      "size": [
+        256,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0131",
+      "classification": "fine_pattern_protected",
+      "source_visual_note": "Fine green repeated/diagonal texture; structural versus dithering identity unresolved.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0134",
+      "classification": "mixed_atlas_protected",
+      "source_visual_note": "Many green panel islands including fine checker/mesh; partition and protect small pattern.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0138",
+      "classification": "mixed_atlas_protected",
+      "source_visual_note": "Vent, diamond plate and small labelled door; protect repeat and possible text.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0140",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "P.S.S lettering and emblem; protected graphic.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0141",
+      "classification": "mixed_atlas_protected",
+      "source_visual_note": "Mixed prop atlas includes screen, keyboard, paper text, map and fan; alpha and tiny semantic graphics.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0155",
+      "classification": "fine_pattern_protected",
+      "source_visual_note": "Dense fine diagonal/crosshatch pattern in frame; identity/count unresolved.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0158",
+      "classification": "thin_alpha_lattice",
+      "source_visual_note": "Thin square alpha net; protect intersections and count.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0159",
+      "classification": "gradient_fx",
+      "source_visual_note": "White glowing rectangle with alpha4..252; preserve gradient/support.",
+      "size": [
+        32,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0185",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Blue railing and posts with yellow top highlights; thin alpha.",
+      "size": [
+        64,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0187",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Red/beige facade or sign atlas; lettering/identity ambiguous at32px, hold semantic review.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0191",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "KANBAN poster with humanoid/alien silhouette; protected illustration/text and character identity.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0192",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Illustrated woman/silhouette poster plus cassette graphic; text/identity/protagonist association unresolved.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0194",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "HeavyMetal lettering over rectangular frame; alpha.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0197",
+      "classification": "fine_pattern_protected",
+      "source_visual_note": "Dense bright blue/pale rectangular grid; protect repeat geometry.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0205",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Blue rail and hanging shape; alpha silhouette.",
+      "size": [
+        32,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0208",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Red Cherry product label with readable and tiny print; protected typography/art.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0217",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "MSHOP NYC sign with blue guitar silhouette; text/logo protection.",
+      "size": [
+        128,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0236",
+      "classification": "gradient_fx",
+      "source_visual_note": "Soft white vertical glow alpha gradient.",
+      "size": [
+        16,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0237",
+      "classification": "gradient_fx",
+      "source_visual_note": "Horizontal gray stripe lookup/band texture; preserve original row values and consumer meaning.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0242",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Red/blue torn graphic with transparent gaps; semantic/alpha identity unresolved.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0243",
+      "classification": "gradient_fx",
+      "source_visual_note": "Grayscale vertical lighting ramp; preserve original consumer mapping.",
+      "size": [
+        16,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0273",
+      "classification": "alpha_natural",
+      "source_visual_note": "Purple icicle fringe; preserve thin tips and alpha.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0274",
+      "classification": "alpha_water_fx",
+      "source_visual_note": "Vertical pale waterfall/spray with stippled alpha edges.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0278",
+      "classification": "alpha_ruin",
+      "source_visual_note": "Small gray cutout ruin silhouette with narrow legs and broken top.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0281",
+      "classification": "alpha_structure",
+      "source_visual_note": "Tall pipe/support atlas with thin horizontal connectors.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0284",
+      "classification": "protected_lattice",
+      "source_visual_note": "Dense upper metal grid and lower diagonal diamond panel; alpha holes and repeat phase require explicit reconstruction.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0289",
+      "classification": "alpha_foliage_thin",
+      "source_visual_note": "Bare branching tree crown with many thin strands.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0290",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Tall green branching plants with thin stems.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0295",
+      "classification": "alpha_foliage_thin",
+      "source_visual_note": "Radial dark branch/foliage cluster.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0298",
+      "classification": "protected_binary_mask",
+      "source_visual_note": "16x8 binary white shape with symmetric cutouts; consumer/shader meaning unknown, no neural repaint.",
+      "size": [
+        16,
+        8
+      ]
+    },
+    {
+      "group_id": "FM0301",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Radial broad olive leaves.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0308",
+      "classification": "alpha_landscape_fx",
+      "source_visual_note": "Pale cloud/mountain strip with thin bright right-side branches or lightning; preserve alpha.",
+      "size": [
+        256,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0310",
+      "classification": "alpha_foliage_thin",
+      "source_visual_note": "Tall bare tree branch silhouette, tapering thin tips.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0311",
+      "classification": "alpha_foliage_thin",
+      "source_visual_note": "Second bare tree branch silhouette, curved trunk and thin tips.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0312",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Wide gray tree-canopy cluster.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0314",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Dark tree-line billboard with trunks and leafy canopy.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0316",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Pale tree-line billboard with visible trunks and foliage.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0317",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Related pale tree-line billboard; distinct source RGBA, not assumed duplicate.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0318",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Wide pale-gray foliage cluster.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0319",
+      "classification": "alpha_foliage_thin",
+      "source_visual_note": "Yellow-green tree-line with many thin trunks.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0320",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Round green canopy cluster.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0321",
+      "classification": "alpha_landscape",
+      "source_visual_note": "Distant green landscape and pale mountain strip.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0323",
+      "classification": "alpha_water_fx",
+      "source_visual_note": "Bright cellular water/caustic pattern with alpha7..242, no fully opaque boundary.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0324",
+      "classification": "alpha_cloud",
+      "source_visual_note": "Cloud/spray bank alpha12..247; gradient support must be retained.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0325",
+      "classification": "alpha_foliage",
+      "source_visual_note": "Dark tree cluster billboard with several trunks.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0326",
+      "classification": "alpha_water_fx",
+      "source_visual_note": "Pale vertical water/ice streaks alpha8..251.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0327",
+      "classification": "alpha_water_fx",
+      "source_visual_note": "Pale foam/spray band with strong upper-to-lower alpha gradient.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0331",
+      "classification": "mixed_atlas_identity",
+      "source_visual_note": "Mechanical body/wheels with tiny emblem-like marks; graphic identity unresolved.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0335",
+      "classification": "alpha_architecture",
+      "source_visual_note": "Detailed distant ruined city panorama; window grids, thin structures and possible signs need separate audit.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0342",
+      "classification": "protected_lattice",
+      "source_visual_note": "Tiny two horizontal dark rails and two gray uprights with alpha gaps; preserve exact layout.",
+      "size": [
+        32,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0344",
+      "classification": "alpha_vehicle_atlas",
+      "source_visual_note": "Rusty vehicle body strip and side-view car; silhouette and window cutouts require partition-aware work.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0348",
+      "classification": "alpha_structure",
+      "source_visual_note": "Tan blocks on green rail frame with rectangular alpha cutouts.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0349",
+      "classification": "protected_graphic",
+      "source_visual_note": "Small blue/gray/red abstract graphic or assembled part; semantic identity unresolved.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0350",
+      "classification": "mixed_atlas_identity",
+      "source_visual_note": "Two dark panels beside tiny light strips that may be markings/text; hold graphic interpretation.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0352",
+      "classification": "protected_lattice",
+      "source_visual_note": "Fine fence/grid with diagonal stair rail; many thin alpha intersections.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0353",
+      "classification": "protected_lattice",
+      "source_visual_note": "Stair rail/diagonal structure with thin alpha and a small door/control-like plate.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0354",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Black-clad character poster with blue/white/red design and cropped lettering; character/protagonist association must be checked, not assumed excluded.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0360",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "128x8 multicolor sign strip with tiny light lettering; preserve typography until semantic review.",
+      "size": [
+        128,
+        8
+      ]
+    },
+    {
+      "group_id": "FM0361",
+      "classification": "alpha_structure",
+      "source_visual_note": "64x8 dark pipe/rail strip with one pale upright.",
+      "size": [
+        64,
+        8
+      ]
+    },
+    {
+      "group_id": "FM0362",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Large illustrated girl poster with tan/orange background; identity and any lettering protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0365",
+      "classification": "alpha_particles",
+      "source_visual_note": "Brown scattered flecks/vertical dirt spray; sparse alpha support.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0366",
+      "classification": "flat_gradient",
+      "source_visual_note": "Thin pale cream/olive horizontal color strip; no invented material.",
+      "size": [
+        128,
+        8
+      ]
+    },
+    {
+      "group_id": "FM0387",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Dark stepped mechanical beam with thin connectors and alpha openings.",
+      "size": [
+        128,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0388",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Two long tapered angular metal fragments; silhouette and bright seams protected.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0389",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Complex dark machine atlas, rails, plates and small circular emblem-like part; graphic identity unresolved.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0390",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Folded angular dark sheet/beam with thin right border; intended diagonal facets.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0392",
+      "classification": "protected_frame",
+      "source_visual_note": "Large right triangular frame and two narrow strips; alpha/straight edges protected.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0393",
+      "classification": "structured_panel",
+      "source_visual_note": "Horizontal bands and fine diagonal lattice engraving; repeat/layout protected.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0395",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Outlined polygon plates and flat white rectangular mark; no invented text.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0397",
+      "classification": "protected_curved_frame",
+      "source_visual_note": "Rounded rectangular metal ring with open center; preserve intentional curved corners.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0398",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Long horizontal part and segmented angular cutout grille with thin connectors.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0399",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Dark elongated tapered handle/column, alpha max254; weak tip support must survive.",
+      "size": [
+        32,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0400",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Diagonal bent metal bracket on straight horizontal/vertical frame; preserve facets.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0401",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Two narrow upper rods and twisted pointed hanging sheet.",
+      "size": [
+        64,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0402",
+      "classification": "nearopaque_structured",
+      "source_visual_note": "Dark outlined polygon plates and white label-like rectangle; alpha239..255, graphic protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0403",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Vertical rail joined to knotted/tapered jagged fragment.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0404",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Folded diagonal bar turning down to a broad triangular base.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0405",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Forked angular folded dark structure with broad arms and notches.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0406",
+      "classification": "protected_frame",
+      "source_visual_note": "Disconnected top crossbar, paired diagonal plates and bottom zigzag ring; alpha counts protected.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0408",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Upper ribbed rectangular fixture and lower angular hexagonal frame.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0409",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Very long slender bent dark-purple rail with thin side strips.",
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "group_id": "FM0410",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Large curved segmented purple mechanical arc; do not straighten intentional curve.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0411",
+      "classification": "architecture",
+      "source_visual_note": "Pale ornate facade with paired arched dark windows; arches and joints protected.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0412",
+      "classification": "architecture",
+      "source_visual_note": "Pale facade with short left pair and tall right pair of rectangular windows.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0413",
+      "classification": "architecture",
+      "source_visual_note": "Pale facade with two groups of mullioned rectangular windows.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0414",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Suspended gray ornate tapered tower/finial with many thin cutouts.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0415",
+      "classification": "protected_frame",
+      "source_visual_note": "Tan upright with multiple X-braces, diagonal perspective beams and weak alpha max253.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0416",
+      "classification": "alpha_natural_faceted",
+      "source_visual_note": "Purple jagged rock/crystal ridge with bright planar edges; alpha silhouette protected.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0418",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Purple variant of ribbed fixture/angular frame; distinct RGBA, not assumed interchangeable.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0431",
+      "classification": "city_illustration",
+      "source_visual_note": "Dark aerial city/rubble texture with tiny distinct building/window graphics.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0432",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Long upright strip and separate bent zigzag tube; intended angular bends and thin links.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0433",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Dark tapering suspended architectural ornament with sharp tips and cutouts.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0434",
+      "classification": "alpha_city_illustration",
+      "source_visual_note": "Pale aerial ruined-city strip with a tall central tower; building shapes protected.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0435",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Separate ornate finials/chains, hanging links and radial mechanical shapes.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0436",
+      "classification": "architecture",
+      "source_visual_note": "Thin pale facade strip with several different rectangular window groups.",
+      "size": [
+        128,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0437",
+      "classification": "alpha_folded_structure",
+      "source_visual_note": "Thin green-black curved strip with bright jagged seams.",
+      "size": [
+        16,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0438",
+      "classification": "city_illustration",
+      "source_visual_note": "Dark aerial city/buildings; distinct source from431, window identity protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0439",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Gray hanging pointed ornament with weak stippled edge detail.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0440",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Dark complex symmetric hanging structure with narrow wires and curled lower point.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0441",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Thin vertical strip with many jagged projecting spikes.",
+      "size": [
+        32,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0442",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Several separated skinny rods/spines and two wing-like angular parts.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0443",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Tall high-detail green-black hanging filigree structure with fragile connectors.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0445",
+      "classification": "alpha_city_illustration",
+      "source_visual_note": "Faded green aerial ruined-city strip; thin skyscraper windows and building outline.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0446",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Tall pale stippled ornament with narrow lower point and many small alpha gaps.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0447",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Very dark red irregular body fragment with several sharp internal openings.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0448",
+      "classification": "city_illustration",
+      "source_visual_note": "Dense dark city/rubble tile with several upright skyscraper shapes.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0449",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Tall dark ornate tower with ringed body, sharp lower point and delicate hanging strands.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0450",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Bright gray tapered hanging finial, partially shaded top and fragile lower tip.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0451",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Faded pale vertical jagged spike strip, not an opaque material tile.",
+      "size": [
+        32,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0452",
+      "classification": "city_illustration",
+      "source_visual_note": "Faded green aerial city tile with rectangular building/window motifs.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0454",
+      "classification": "architecture_ornament",
+      "source_visual_note": "Gothic pointed facade with circular rose-window design and lower arch.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0455",
+      "classification": "architecture_ornament",
+      "source_visual_note": "Gothic paired tall lancet windows and dense carved masonry border.",
+      "size": [
+        32,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0457",
+      "classification": "architecture_ornament",
+      "source_visual_note": "Dense horizontal louver/step pattern beside tall carved recessed panel.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0458",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Narrow pointed gothic finial/pinnacle silhouette with internal engraved design.",
+      "size": [
+        16,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0459",
+      "classification": "protected_lattice",
+      "source_visual_note": "Multiple X-brace/grille strips and large curved rail; thin alpha intersections.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0460",
+      "classification": "protected_lattice",
+      "source_visual_note": "Three large diamond/X braces inside tall parallel uprights; alpha grid topology.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0462",
+      "classification": "protected_ornament",
+      "source_visual_note": "Symmetric multi-point star/cross carving and border; preserve motif topology.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0467",
+      "classification": "protected_rails",
+      "source_visual_note": "Four narrow vertical gray strips with transparent gaps and unequal shading.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0472",
+      "classification": "architecture_ornament",
+      "source_visual_note": "Carved tower with narrow upper slit and large rounded lower arch cutout.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0474",
+      "classification": "architecture_ornament",
+      "source_visual_note": "Carved stone wall and a pointed recessed window, dense trim on left.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0475",
+      "classification": "alpha_architecture",
+      "source_visual_note": "Partial ornate arch/window with right broken edge and narrow tower fragment.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0477",
+      "classification": "figurative_ornament",
+      "source_visual_note": "Gray sculpted head/bust relief in lower-right area; identity/form protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0481",
+      "classification": "structured_material_atlas",
+      "source_visual_note": "Stone slabs, narrow channels and distinct rectangular atlas partitions.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0482",
+      "classification": "nearopaque_mechanical",
+      "source_visual_note": "Tall silver/black plate-and-rod atlas, alpha1..255; preserve sharp outlined parts.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0483",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Tall segmented curved silver-black blade/rail with small hooked lower tip.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0487",
+      "classification": "protected_ornament",
+      "source_visual_note": "Small high-contrast geometric star/cross symbol; cannot treat as natural grain.",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0490",
+      "classification": "protected_graphic",
+      "source_visual_note": "Yellow/orange branching orthogonal lightning/circuit-like graphic; retain paths and angles.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0493",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Several separate curved angular machine pieces and ribbed rectangular strip.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0497",
+      "classification": "nearopaque_structured",
+      "source_visual_note": "Gray stone strip with a dark horizontal seam, alpha210..255; seam/alpha protected.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0500",
+      "classification": "structured_ornament",
+      "source_visual_note": "Green horizontal panel with pointed rounded inset and long rectangular inset.",
+      "size": [
+        128,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0501",
+      "classification": "nearopaque_mechanical",
+      "source_visual_note": "Large stone/metal outlined atlas with thin rails and rectangular sections, alpha254..255.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0503",
+      "classification": "alpha_sphere_illustration",
+      "source_visual_note": "Blue-white swirling sphere/planet with intricate original painted surface and circular alpha.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0508",
+      "classification": "protected_chain",
+      "source_visual_note": "Seven ring-like links on one narrow horizontal line; count and thin alpha protected.",
+      "size": [
+        128,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0509",
+      "classification": "structured_material_atlas",
+      "source_visual_note": "Tall silver cracked/faceted structure with long narrow straight/angled seams and blocks.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0510",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Large ornate silver panel fragment with broken edge and a separate curved rail corner.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0511",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Tall purple pointed ornamental column with small top crosspiece; intentional curves.",
+      "size": [
+        32,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0512",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Huge dark-purple jagged spiked body/arch fragments with many alpha gaps.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0513",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Curved spiked skeletal/mechanical fragment plus small ring-link array on right.",
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0514",
+      "classification": "structured_panel",
+      "source_visual_note": "Dark upper gradient and lower outlined polygon plates with horizontal seam rows.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0515",
+      "classification": "alpha_mechanical",
+      "source_visual_note": "Small curved pointed blade and separate straight pointed part; preserve distinct forms.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0516",
+      "classification": "protected_frame",
+      "source_visual_note": "Tall post with two projecting horizontal arms and thin tapered brackets.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0517",
+      "classification": "text_instrument_atlas",
+      "source_visual_note": "Detailed instrument/console atlas with tiny labels, dials, numerical marks and small icons; no semantic repaint.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0519",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Tall silver panel with long outlined angular channels and narrow parallel rails.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0520",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Large silver-gray panel atlas with rectangles, bevels and distinct narrow stripe regions.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0521",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Silver panel atlas with central X-shaped fixture and angular seams; straight forms protected.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0522",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Dark device/rail atlas with repeated horizontal lines and small circular details.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0523",
+      "classification": "protected_binary_mask",
+      "source_visual_note": "Small white rectangle with transparency; consumer meaning unknown, retain exact source.",
+      "size": [
+        32,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0524",
+      "classification": "alpha_cloud",
+      "source_visual_note": "Bright white cloud field with continuous alpha8..254; no binary alpha replacement.",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0526",
+      "classification": "flat_geometry_atlas",
+      "source_visual_note": "Cream sliding-door/panel with straight channels, small rivet dots and dark side strip.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0527",
+      "classification": "flat_geometry",
+      "source_visual_note": "Cream horizontal panel bands with thin straight highlight/shadow lines.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0528",
+      "classification": "flat_geometry",
+      "source_visual_note": "Cream inset rectangular panel with subtle border; flat design needs no invented grain.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0529",
+      "classification": "flat_geometry",
+      "source_visual_note": "Flat gray horizontal band with narrow cream top/bottom edges.",
+      "size": [
+        64,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0530",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Gray X-braced panel, right small inset and tan coarse side material; separate atlas regions.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0531",
+      "classification": "structured_panel",
+      "source_visual_note": "Pale gray strip with horizontal seam and rivet row; exact counts/diagonal lower lighting.",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0532",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Cream curled bracket, round clock face and separate straight trim strips; clock markings protected.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0534",
+      "classification": "alpha_pattern",
+      "source_visual_note": "Torn salmon pennant with diamond ornament and several pale decorative shapes; preserve design/tear.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0535",
+      "classification": "text_illustration_identity",
+      "source_visual_note": "Hanging noticeboard covered with small illustrated/text paper scraps; semantic typography protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0536",
+      "classification": "furniture_atlas",
+      "source_visual_note": "Brown carved furniture panels and four repeated silver handles; counts, relief and wood material protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0537",
+      "classification": "furniture_atlas",
+      "source_visual_note": "Carved dark furniture, two drawer handles and separate scrolling side pattern.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0538",
+      "classification": "furniture_atlas",
+      "source_visual_note": "Tall carved wooden door/panel and narrow scrollwork strip; intentional curved inset preserved.",
+      "size": [
+        128,
+        256
+      ]
+    },
+    {
+      "group_id": "FM0539",
+      "classification": "portrait_illustration",
+      "source_visual_note": "Painted older light-haired man portrait below decorative cream cornice; identity/style protected.",
+      "size": [
+        64,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0540",
+      "classification": "protected_graphic",
+      "source_visual_note": "Narrow colored stained-glass-like decoration with white floral islands; alpha/graphic protected.",
+      "size": [
+        128,
+        16
+      ]
+    },
+    {
+      "group_id": "FM0541",
+      "classification": "furniture_material_atlas",
+      "source_visual_note": "Two curved carved dark panel plates and pale fabric inset; partitions/ornaments protected.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0542",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Thin curled dark scroll bracket and partial left connector; preserve intentional arcs.",
+      "size": [
+        128,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0543",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Dark device panels, buttons, circular openings and striped vent sections.",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "group_id": "FM0544",
+      "classification": "alpha_ornament",
+      "source_visual_note": "Silver/white carved arch fragment with irregular broken top, thin supports and linework.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0545",
+      "classification": "mechanical_atlas",
+      "source_visual_note": "Dark purple console/panel atlas with cyan indicator; straight inset/stripe geometry.",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0552",
+      "classification": "protected_lattice",
+      "source_visual_note": "Two separate dark rectangular grilles with fine crossing alpha; inspect count/phase.",
+      "size": [
+        32,
+        64
+      ]
+    },
+    {
+      "group_id": "FM0561",
+      "classification": "protected_rails",
+      "source_visual_note": "Four narrow vertical blue-gray bars; exact spacing and alpha support.",
+      "size": [
+        64,
+        32
+      ]
+    },
+    {
+      "group_id": "FM0576",
+      "classification": "alpha_landscape_fx",
+      "source_visual_note": "Large pale blue-white horizon/cloud/ice band with separate thin lower strip; partition-aware alpha work.",
+      "size": [
+        512,
+        256
+      ]
+    }
+  ],
+  "next_bounded_batch": [
+    "FM0290",
+    "FM0301",
+    "FM0312",
+    "FM0314",
+    "FM0316",
+    "FM0317",
+    "FM0318",
+    "FM0320",
+    "FM0325"
+  ],
+  "next_method": "Local RGB comparison with separately source-preserved alpha; inspect thin stems, holes and faint support against both dark/light mattes. Do not infer alpha with the RGB model or treat illustration/sign identity as generic material."
+}

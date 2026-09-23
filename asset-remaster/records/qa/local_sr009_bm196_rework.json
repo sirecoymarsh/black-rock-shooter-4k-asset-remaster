@@ -1,0 +1,139 @@
+{
+  "schema": "brs-sr009-rework/v1",
+  "group_ids": [
+    "BM196"
+  ],
+  "files": [
+    {
+      "id": "BM196-filtered",
+      "group_id": "BM196",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\029.png",
+      "source_rgba_sha256": "991075d79fdde7e930987ba7b319cd39f0a5c7356e2e0c7fd8ce62a60f483e1f",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-wdn-rgba8x.png",
+      "alpha_parent_sha256": "2f53ded8dd546b6401960e3ed62fcd230eaa6aad9ab7e76208f271761fc3b0d5",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered.png",
+      "output_sha256": "d65bf52e9cac893ea901bb0c1121917f0a99edcfa3b3a7b024ad4df0ab1c7f6f",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "actual filtered source neural RGB4x with existing alpha",
+      "detail_weight": null,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Alternate result not selected. Final light-matte review rejected initial WDN because it invented branching cracks. Additional filtered-guided local rework suppresses the crack network and restores soft source density; both mattes were inspected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM196.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\BM196-rework-mattes.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered-input.png",
+      "input_sha256": "a754811bf515a7464a96b3455e528c20cc8b84608d6ee20ba44c2b9246125934",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered-native4x.png",
+      "native_sha256": "fd08aff2ab6439f06b7e965d4bb2d17363b65671b17b426e5b68156929bff3f4",
+      "seconds": 0.39000000001396984
+    },
+    {
+      "id": "BM196-guided",
+      "group_id": "BM196",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\029.png",
+      "source_rgba_sha256": "991075d79fdde7e930987ba7b319cd39f0a5c7356e2e0c7fd8ce62a60f483e1f",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.75,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-wdn-rgba8x.png",
+      "alpha_parent_sha256": "2f53ded8dd546b6401960e3ed62fcd230eaa6aad9ab7e76208f271761fc3b0d5",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-guided.png",
+      "output_sha256": "7ce0cabb1783be714b8c20dd4c1eaba14a17dc455ab4fe8b43ddd71260a818ea",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Alternate result not selected. Final light-matte review rejected initial WDN because it invented branching cracks. Additional filtered-guided local rework suppresses the crack network and restores soft source density; both mattes were inspected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM196.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\BM196-rework-mattes.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-wdn-rgba8x.png",
+      "parent_sha256": "2f53ded8dd546b6401960e3ed62fcd230eaa6aad9ab7e76208f271761fc3b0d5"
+    },
+    {
+      "id": "BM196-filtered-guided",
+      "group_id": "BM196",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\029.png",
+      "source_rgba_sha256": "991075d79fdde7e930987ba7b319cd39f0a5c7356e2e0c7fd8ce62a60f483e1f",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-wdn-rgba8x.png",
+      "alpha_parent_sha256": "2f53ded8dd546b6401960e3ed62fcd230eaa6aad9ab7e76208f271761fc3b0d5",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered-guided.png",
+      "output_sha256": "6adcb0326e37cdd32eb506d1e75272537dc406db192142cb0c9f99f04f30715d",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Final light-matte review rejected initial WDN because it invented branching cracks. Additional filtered-guided local rework suppresses the crack network and restores soft source density; both mattes were inspected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM196.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\BM196-rework-mattes.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered.png",
+      "parent_sha256": "d65bf52e9cac893ea901bb0c1121917f0a99edcfa3b3a7b024ad4df0ab1c7f6f"
+    }
+  ],
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM196.png"
+  ],
+  "new_neural_passes": 1
+}

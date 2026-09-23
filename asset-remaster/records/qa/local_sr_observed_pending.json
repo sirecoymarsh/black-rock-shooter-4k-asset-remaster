@@ -1,0 +1,27 @@
+{
+  "groups": [
+    "BM130",
+    "BM131",
+    "BM134",
+    "BM148",
+    "BM149",
+    "BM150",
+    "BM151",
+    "BM152",
+    "BM156",
+    "BM157",
+    "BM158",
+    "BM159",
+    "BM160",
+    "BM161",
+    "BM162",
+    "BM163",
+    "BM164",
+    "BM165",
+    "BM166",
+    "BM167",
+    "BM168"
+  ],
+  "count": 21,
+  "reason": "Full observed RGBA/key proof exists; replacement and runtime still pending."
+}

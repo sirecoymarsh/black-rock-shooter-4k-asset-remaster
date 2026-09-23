@@ -1,0 +1,1854 @@
+{
+  "schema": "brs-facade-geometry-trials/v1",
+  "previous_goal_turn_classification": "progress: FIELD-GEOMETRY-001 replaced two window candidates, revoked two geometrically defective candidates and verified six outputs.",
+  "catalog_before_sha256": "7ad3e23104963b837bcec614caf9eefc53e958bfef22f04a38afbd50c072cc9c",
+  "geometry_contract_before_sha256": "7153b8ac9a2ffa9d0df6f555e21f335e7d3ef5cc1d5208cdcd9bf002a4fa25fd",
+  "files": [
+    {
+      "group_id": "FM0189",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "3cf337434e733a455b9259afa32fc58f8cffab637bcf6618c113e7765b824f71",
+      "source_rgba_sha256": "66937534e6f349912a0b370a980cf93a5a962183015d073a6312f22d6fa42a70",
+      "classification": "architecture",
+      "source_visual_note": "Two pairs of bright framed windows and lower door/shutter.",
+      "size": [
+        64,
+        128
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0189-photo-8x.png",
+      "parent_sha256": "57b7f6b5fc5508f5629d4d532248dd7dd10e195bf2b74ae0adc72588fc57957a",
+      "parent_id": "FM0189-photo",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0189-photo",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0189-photo-8x.png",
+        "sha256": "57b7f6b5fc5508f5629d4d532248dd7dd10e195bf2b74ae0adc72588fc57957a",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0189-source-planes-local-material-v1",
+      "regions": [
+        {
+          "name": "left exterior molding",
+          "box": [
+            0,
+            0,
+            3,
+            128
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              255.0,
+              255.0,
+              255.0
+            ]
+          ]
+        },
+        {
+          "name": "right exterior pier",
+          "box": [
+            62,
+            0,
+            64,
+            128
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ]
+          ]
+        },
+        {
+          "name": "continuous horizontal molding 0",
+          "box": [
+            3,
+            0,
+            62,
+            9
+          ],
+          "kind": "horizontal",
+          "grain": 3,
+          "profile_sample_x": [
+            4,
+            60
+          ],
+          "profile_rgb": [
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              200.0,
+              202.0,
+              201.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "name": "continuous horizontal molding 1",
+          "box": [
+            3,
+            43,
+            62,
+            54
+          ],
+          "kind": "horizontal",
+          "grain": 3,
+          "profile_sample_x": [
+            4,
+            60
+          ],
+          "profile_rgb": [
+            [
+              255.0,
+              255.0,
+              255.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              200.0,
+              202.0,
+              201.0
+            ],
+            [
+              150.5,
+              156.0,
+              153.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "name": "continuous horizontal molding 2",
+          "box": [
+            3,
+            88,
+            62,
+            103
+          ],
+          "kind": "horizontal",
+          "grain": 3,
+          "profile_sample_x": [
+            4,
+            60
+          ],
+          "profile_rgb": [
+            [
+              255.0,
+              255.0,
+              255.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              200.0,
+              202.0,
+              201.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              200.0,
+              202.0,
+              201.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ]
+          ]
+        },
+        {
+          "name": "left frame 0",
+          "box": [
+            3,
+            9,
+            5,
+            43
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              255.0,
+              255.0,
+              255.0
+            ]
+          ]
+        },
+        {
+          "name": "central narrow frame 0",
+          "box": [
+            31,
+            9,
+            33,
+            43
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              255.0,
+              255.0,
+              255.0
+            ]
+          ]
+        },
+        {
+          "name": "right shaded edge 0",
+          "box": [
+            61,
+            9,
+            62,
+            43
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              92.0,
+              90.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "name": "left glass 0",
+          "box": [
+            5,
+            9,
+            31,
+            43
+          ],
+          "kind": "glass",
+          "glass_ceiling": 180,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right glass 0",
+          "box": [
+            33,
+            9,
+            61,
+            43
+          ],
+          "kind": "glass",
+          "glass_ceiling": 180,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "left frame 1",
+          "box": [
+            3,
+            54,
+            5,
+            88
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              255.0,
+              255.0,
+              255.0
+            ]
+          ]
+        },
+        {
+          "name": "central narrow frame 1",
+          "box": [
+            31,
+            54,
+            33,
+            88
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              255.0,
+              255.0,
+              255.0
+            ]
+          ]
+        },
+        {
+          "name": "right shaded edge 1",
+          "box": [
+            61,
+            54,
+            62,
+            88
+          ],
+          "kind": "vertical",
+          "grain": 2,
+          "profile_rgb": [
+            [
+              92.0,
+              90.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "name": "left glass 1",
+          "box": [
+            5,
+            54,
+            31,
+            88
+          ],
+          "kind": "glass",
+          "glass_ceiling": 180,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right glass 1",
+          "box": [
+            33,
+            54,
+            61,
+            88
+          ],
+          "kind": "glass",
+          "glass_ceiling": 180,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "lower left jamb",
+          "box": [
+            3,
+            103,
+            9,
+            128
+          ],
+          "kind": "surface",
+          "grain": 3,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "lower right jamb",
+          "box": [
+            56,
+            103,
+            62,
+            128
+          ],
+          "kind": "surface",
+          "grain": 3,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "lower left shutter",
+          "box": [
+            9,
+            103,
+            32,
+            128
+          ],
+          "kind": "shutter",
+          "grain": 2,
+          "row_profile_rgb": [
+            [
+              47.0,
+              47.0,
+              46.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              200.0,
+              202.0,
+              201.0
+            ],
+            [
+              177.0,
+              182.0,
+              179.0
+            ]
+          ],
+          "column_gain": [
+            [
+              0.48790472745895386,
+              0.4888143241405487,
+              0.4842105209827423
+            ],
+            [
+              0.6933382749557495,
+              0.6774795055389404,
+              0.6830826997756958
+            ],
+            [
+              0.7874953150749207,
+              0.7718120813369751,
+              0.7868421077728271
+            ],
+            [
+              0.7874953150749207,
+              0.7718120813369751,
+              0.7868421077728271
+            ],
+            [
+              0.8902121186256409,
+              0.8747203350067139,
+              0.8906015157699585
+            ],
+            [
+              1.0014886856079102,
+              0.9776286482810974,
+              0.9943608641624451
+            ],
+            [
+              1.0014886856079102,
+              0.9776286482810974,
+              0.9943608641624451
+            ],
+            [
+              1.0014886856079102,
+              0.9776286482810974,
+              0.9943608641624451
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              1.1042053699493408,
+              1.1148396730422974,
+              1.106766939163208
+            ],
+            [
+              0.8902121186256409,
+              0.8747203350067139,
+              0.8906015157699585
+            ]
+          ]
+        },
+        {
+          "name": "lower center seam",
+          "box": [
+            32,
+            103,
+            33,
+            128
+          ],
+          "kind": "horizontal",
+          "grain": 1,
+          "profile_rgb": [
+            [
+              37.0,
+              36.0,
+              36.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              47.0,
+              47.0,
+              46.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ]
+          ]
+        },
+        {
+          "name": "lower right shutter",
+          "box": [
+            33,
+            103,
+            56,
+            128
+          ],
+          "kind": "shutter",
+          "grain": 2,
+          "row_profile_rgb": [
+            [
+              37.0,
+              36.0,
+              36.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              47.0,
+              47.0,
+              46.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              142.0,
+              148.0,
+              145.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ]
+          ],
+          "column_gain": [
+            [
+              1.2633802890777588,
+              1.2581573724746704,
+              1.2631326913833618
+            ],
+            [
+              1.2633802890777588,
+              1.2581573724746704,
+              1.2631326913833618
+            ],
+            [
+              1.2633802890777588,
+              1.2581573724746704,
+              1.2631326913833618
+            ],
+            [
+              1.2633802890777588,
+              1.2581573724746704,
+              1.2631326913833618
+            ],
+            [
+              1.2633802890777588,
+              1.2581573724746704,
+              1.2631326913833618
+            ],
+            [
+              1.123004674911499,
+              1.1257197856903076,
+              1.1313276290893555
+            ],
+            [
+              1.123004674911499,
+              1.1257197856903076,
+              1.1313276290893555
+            ],
+            [
+              1.123004674911499,
+              1.1257197856903076,
+              1.1313276290893555
+            ],
+            [
+              1.123004674911499,
+              1.1257197856903076,
+              1.1313276290893555
+            ],
+            [
+              0.9934272170066833,
+              0.9932821393013,
+              0.9995224475860596
+            ],
+            [
+              0.9934272170066833,
+              0.9932821393013,
+              0.9995224475860596
+            ],
+            [
+              0.9934272170066833,
+              0.9932821393013,
+              0.9995224475860596
+            ],
+            [
+              0.9934272170066833,
+              0.9932821393013,
+              0.9995224475860596
+            ],
+            [
+              0.9934272170066833,
+              0.9932821393013,
+              0.9995224475860596
+            ],
+            [
+              0.874647855758667,
+              0.8718810081481934,
+              0.8677172660827637
+            ],
+            [
+              0.874647855758667,
+              0.8718810081481934,
+              0.8677172660827637
+            ],
+            [
+              0.874647855758667,
+              0.8718810081481934,
+              0.8677172660827637
+            ],
+            [
+              0.874647855758667,
+              0.8718810081481934,
+              0.8677172660827637
+            ],
+            [
+              0.874647855758667,
+              0.8718810081481934,
+              0.8677172660827637
+            ],
+            [
+              0.7450703978538513,
+              0.7504798173904419,
+              0.7359121441841125
+            ],
+            [
+              0.7450703978538513,
+              0.7504798173904419,
+              0.7359121441841125
+            ],
+            [
+              0.7450703978538513,
+              0.7504798173904419,
+              0.7359121441841125
+            ],
+            [
+              0.6154929399490356,
+              0.6290786862373352,
+              0.6150907278060913
+            ]
+          ]
+        }
+      ],
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-regions-v1.png",
+      "region_classmap_sha256": "3d69ecd0721716e91c2d8191b497f2f54e929095bc6b259b47def86e27617d3c",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-facade-planes-v1.svg",
+      "vector_sha256": "c66cbadddf9ab9d902801525bb37ce4539405b1b4fecb49780f17ae5aefaeba5",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-facade-planes-v1.png",
+      "render_sha256": "a2c8ab28c665b6e8595a30ffee7d4cae4844ce67b040cf1758494d9dfcb7d542",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-source-planes-local-material-v1-8x.png",
+      "output_sha256": "0f0dea9f6d1af86b41fee50e917f5803d3fc9cb74d247e8fef2b59fad463ecbb",
+      "method": "Source-anchored complete rectangle partition; source-profile vector molding and frames, bounded existing local high-frequency material, existing local glass interiors.",
+      "output_size": [
+        512,
+        1024
+      ],
+      "coverage_once_every_pixel": true,
+      "new_local_passes": 0,
+      "external_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0190",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "7af42fc74d326ac0afa68bb6c2f4c7342c221791955a91bcd4e288d927663a49",
+      "source_rgba_sha256": "aa706f8f05fb73dc031fd6497b3662c83c0461e4be8bcebc26ec8b6f3f5a510b",
+      "classification": "architecture",
+      "source_visual_note": "Two pairs of dark brick-framed windows and lower dark opening.",
+      "size": [
+        64,
+        128
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0190-wdn-8x.png",
+      "parent_sha256": "3ba72636bbdf97704d0f6d5d5f4caa30a8c294bdba0fb5c461fddcb15edca5e9",
+      "parent_id": "FM0190-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0190-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0190-wdn-8x.png",
+        "sha256": "3ba72636bbdf97704d0f6d5d5f4caa30a8c294bdba0fb5c461fddcb15edca5e9",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0190-source-planes-local-material-v1",
+      "regions": [
+        {
+          "name": "horizontal cornice 0",
+          "box": [
+            0,
+            0,
+            64,
+            12
+          ],
+          "kind": "horizontal",
+          "grain": 5,
+          "profile_sample_x": [
+            5,
+            59
+          ],
+          "profile_rgb": [
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              98.0,
+              96.0,
+              97.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              37.0,
+              36.0,
+              36.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ]
+          ]
+        },
+        {
+          "name": "horizontal cornice 1",
+          "box": [
+            0,
+            46,
+            64,
+            57
+          ],
+          "kind": "horizontal",
+          "grain": 5,
+          "profile_sample_x": [
+            5,
+            59
+          ],
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              47.0,
+              47.0,
+              46.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ]
+          ]
+        },
+        {
+          "name": "horizontal cornice 2",
+          "box": [
+            0,
+            91,
+            64,
+            103
+          ],
+          "kind": "horizontal",
+          "grain": 5,
+          "profile_sample_x": [
+            5,
+            59
+          ],
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              81.0,
+              79.0,
+              79.0
+            ],
+            [
+              129.0,
+              130.0,
+              128.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              47.0,
+              47.0,
+              46.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              104.0,
+              102.0,
+              103.0
+            ],
+            [
+              47.0,
+              47.0,
+              46.0
+            ]
+          ]
+        },
+        {
+          "name": "horizontal cornice 3",
+          "box": [
+            0,
+            124,
+            64,
+            128
+          ],
+          "kind": "horizontal",
+          "grain": 5,
+          "profile_sample_x": [
+            5,
+            59
+          ],
+          "profile_rgb": [
+            [
+              69.0,
+              68.0,
+              67.0
+            ],
+            [
+              57.0,
+              57.0,
+              56.0
+            ],
+            [
+              117.0,
+              114.0,
+              115.0
+            ],
+            [
+              92.0,
+              90.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "name": "left brick edge 0",
+          "box": [
+            0,
+            12,
+            4,
+            46
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "left light frame 0",
+          "box": [
+            4,
+            12,
+            5,
+            46
+          ],
+          "kind": "vertical",
+          "grain": 3,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ]
+          ]
+        },
+        {
+          "name": "central brick pier 0",
+          "box": [
+            29,
+            12,
+            36,
+            46
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "right light frame 0",
+          "box": [
+            36,
+            12,
+            37,
+            46
+          ],
+          "kind": "vertical",
+          "grain": 3,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ]
+          ]
+        },
+        {
+          "name": "right brick edge 0",
+          "box": [
+            61,
+            12,
+            64,
+            46
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "left upper glass 0",
+          "box": [
+            5,
+            12,
+            29,
+            29
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "left lower glass 0",
+          "box": [
+            5,
+            29,
+            29,
+            46
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right upper glass 0",
+          "box": [
+            37,
+            12,
+            61,
+            29
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right lower glass 0",
+          "box": [
+            37,
+            29,
+            61,
+            46
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "left brick edge 1",
+          "box": [
+            0,
+            57,
+            4,
+            91
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "left light frame 1",
+          "box": [
+            4,
+            57,
+            5,
+            91
+          ],
+          "kind": "vertical",
+          "grain": 3,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ]
+          ]
+        },
+        {
+          "name": "central brick pier 1",
+          "box": [
+            29,
+            57,
+            36,
+            91
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "right light frame 1",
+          "box": [
+            36,
+            57,
+            37,
+            91
+          ],
+          "kind": "vertical",
+          "grain": 3,
+          "profile_rgb": [
+            [
+              159.0,
+              164.0,
+              161.0
+            ]
+          ]
+        },
+        {
+          "name": "right brick edge 1",
+          "box": [
+            61,
+            57,
+            64,
+            91
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "left upper glass 1",
+          "box": [
+            5,
+            57,
+            29,
+            74
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "left lower glass 1",
+          "box": [
+            5,
+            74,
+            29,
+            91
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right upper glass 1",
+          "box": [
+            37,
+            57,
+            61,
+            74
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "right lower glass 1",
+          "box": [
+            37,
+            74,
+            61,
+            91
+          ],
+          "kind": "glass",
+          "glass_ceiling": 115,
+          "interior_edge_extension_output_px": 8
+        },
+        {
+          "name": "lower left pier",
+          "box": [
+            0,
+            103,
+            9,
+            124
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "lower right pier",
+          "box": [
+            56,
+            103,
+            64,
+            124
+          ],
+          "kind": "surface",
+          "grain": 5,
+          "source_surface_smoothing_sigma": 0.55
+        },
+        {
+          "name": "lower opening",
+          "box": [
+            9,
+            103,
+            56,
+            124
+          ],
+          "kind": "glass",
+          "glass_ceiling": 90,
+          "interior_edge_extension_output_px": 8
+        }
+      ],
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-regions-v1.png",
+      "region_classmap_sha256": "410d3905b4c627f5e1da6cbc9319fe27e085482fa6c851cb820c2f014235d765",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-facade-planes-v1.svg",
+      "vector_sha256": "1cff1dbfd05acc71d2ecb2b79191cd1867fbcecbb2d9aa1305916a19e8d5e572",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-facade-planes-v1.png",
+      "render_sha256": "ea728aafe6db9bad45f6f7f78741dcfac90203f3e281b01d26476cc95ddf9257",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-source-planes-local-material-v1-8x.png",
+      "output_sha256": "26e23f5c6a6add7bd1b7f9cd8f8fbf71039d43f49c3e982bddebb10fd4e12554",
+      "method": "Source-anchored complete rectangle partition; source-profile vector molding and frames, bounded existing local high-frequency material, existing local glass interiors.",
+      "output_size": [
+        512,
+        1024
+      ],
+      "coverage_once_every_pixel": true,
+      "new_local_passes": 0,
+      "external_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v1.png",
+      "sha256": "10c1292b5b7d1ea03bad178d5e545318f446b9e55674b81eaf8b0e96d0d03aad",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v1.png",
+      "sha256": "707b20d35bf5066ee72181104deaa7fed2e6b48c6d5a475dde58906aa3fa91d6",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v1.png",
+      "sha256": "d07c7230353ec2b6bee826778d0c664fe86b29488cf068014661458ad54f4d65",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v1.png",
+      "sha256": "30ead22d9efe2f0f76b06075f9ef3f3562d91016cf3ce25f73fc3bce21319401",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v1.png",
+      "sha256": "fec14412126b5abbd2fd11bb7a78a0c2c3e2e8ecad3598cdc7103eca910b2e33",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v1.png",
+      "sha256": "30f0fe31fc6ce975c3934610e796dd431eca706a02d850b2a6da36eed086a976",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_neural_unique_originals": 0,
+  "new_local_passes": 0,
+  "external_calls": 0,
+  "limits": [
+    "Source grain/dither is separated from authored structure; source RGB byte identity is not claimed.",
+    "Local glass edge extension by1source pixel is material extrapolation, not recovery of detail.",
+    "Brick pier material is source-smoothed color plus bounded existing local grain to avoid generated deep mortar absent from source.",
+    "Window glass horizontal change at source y29/74 is retained as a split material rectangle, not claimed to be additional physical panes.",
+    "Consumer UV/repeat, observed replacement keys and actual game appearance remain unverified."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

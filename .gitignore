@@ -9,7 +9,7 @@
 *.sav
 *.ppst
 
-# Game-derived texture dumps and generated replacements stay local
+# Original working dumps stay local; selected generated assets are archived in asset-remaster/
 /workspace/
 /qa/screenshots/
 /release/
@@ -19,3 +19,10 @@ __pycache__/
 *.pyc
 *.tmp
 *.bak
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key

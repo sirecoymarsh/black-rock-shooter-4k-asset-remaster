@@ -1,0 +1,41 @@
+{
+  "exe": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\runtime\\qa-ppsspp-1.20.4\\PPSSPPWindows64.exe",
+  "iso": "P:\\AI\\Codex\\work_archive\\2026-07-25\\new-chat-2\\work\\release_build\\runtime_fix_iso_20260823_test_v2\\BRS_Korean_v1.0.iso",
+  "variant": "candidate",
+  "pack_verification": {
+    "pack": "observed-review-pack-v2",
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-review-pack-v2\\PSP\\TEXTURES\\NPUH10126",
+    "report": "local_sr_observed_review_pack_v2.json",
+    "keys": 20,
+    "pngs": 20,
+    "ini_sha256": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "image_sha256": {
+      "materials/BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+      "title/title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8",
+      "materials/BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+      "materials/BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+      "materials/BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+      "materials/BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+      "materials/BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+      "materials/BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+      "materials/BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+      "materials/BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+      "materials/BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+      "materials/BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+      "materials/BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+      "materials/BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+      "materials/BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+      "materials/BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+      "materials/BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+      "materials/BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+      "materials/BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+      "materials/BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e"
+    },
+    "verified": true
+  },
+  "verify_only": true,
+  "emulator_started": false,
+  "routing_changed": false,
+  "verified_script_sha256": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c",
+  "prior_script_backup": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\Start-Title-QA.before-sr008.ps1"
+}

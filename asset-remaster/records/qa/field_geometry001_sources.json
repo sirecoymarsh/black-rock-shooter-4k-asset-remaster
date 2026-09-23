@@ -1,0 +1,263 @@
+{
+  "schema": "brs-field-geometry-source-audit/v1",
+  "previous_goal_turn_classification": "progress: FIELD-SR-00327 originals,102local passes,12 static candidates,15 holds; straight-line geometry contract recorded.",
+  "catalog_sha256_before": "c5b496ad23a6f471e5a800823dba0837c5d2fc18ffba69165dedd7eef2d965e2",
+  "geometry_contract_sha256_before": "077c76c37ba61bd70c0dc09f5a9881e08257e02d3b20460495220ec4036a05c0",
+  "files": [
+    {
+      "group_id": "FM0029",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_02.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "dd883bea40b06bcab188c66267f8dcf9c07589499ce5d1d640fabcb283a66393",
+      "source_rgba_sha256": "b8647bd372b9b63727e763c183af69f3ac91bc36de71425ff46c385bce229611",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Vehicle mechanical atlas, panel partitions and alpha.",
+      "size": [
+        128,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0029-wdn-8x.png",
+      "parent_sha256": "03beab1bf4d39ad2fd01c704968ae5d1166a7eccbdc2e38bf10b0ad4b6bace8b",
+      "parent_id": "FM0029-wdn",
+      "catalog_status_before": "held",
+      "candidate_before": null
+    },
+    {
+      "group_id": "FM0113",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_06.bin\\sc11\\sc01\\sc00\\tex042.ptm",
+      "source_ptm_sha256": "96a595559793146a06fcd51226c03835d4dc1945d1db2a00eb160ab246839e63",
+      "source_rgba_sha256": "cdc6e87bb899a92da7de3362bece2d2adf9538c9c36685bc02dff9851b9cd5b8",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Building panel and lower X-brace cutout.",
+      "size": [
+        32,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0113-wdn-8x.png",
+      "parent_sha256": "2979f1056fa9cbdaed9575decacdbd45b93e78571bef216b190c5fac0df901d4",
+      "parent_id": "FM0113-wdn",
+      "catalog_status_before": "held",
+      "candidate_before": null
+    },
+    {
+      "group_id": "FM0037",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "ce164e38bcee553d800fa16c18c580ad1836fea9b60771dc1a0c743d58c2a7d9",
+      "source_rgba_sha256": "a53ac60f12057dda6e9af9c34de3334f55175ea78206be935bf5be35f83967fd",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Building corner; window structure and silhouette.",
+      "size": [
+        64,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0037-photo-8x.png",
+      "parent_sha256": "0effd875576a9f8192a6f77c99d2e5ecce76bbc3ef423bb40b80b25a2599a50f",
+      "parent_id": "FM0037-photo",
+      "catalog_status_before": "held",
+      "candidate_before": null
+    },
+    {
+      "group_id": "FM0038",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "1a87bb9d9a4f2fcd85b98720c3f4bb92d1f39160ccaab800b29eb6781b13e477",
+      "source_rgba_sha256": "9f3547f87d74bf5421397fa36d8c030a35b17977dde2febc86334efc49e6a6b7",
+      "classification": "alpha_geometry",
+      "source_visual_note": "Facade row and roof silhouettes.",
+      "size": [
+        128,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0038-photo-8x.png",
+      "parent_sha256": "b66cf0b205af4adfbc6892ab0ccdd8a6fd0eca8518a16b29be8b96b9a808bac0",
+      "parent_id": "FM0038-photo",
+      "catalog_status_before": "held",
+      "candidate_before": null
+    },
+    {
+      "group_id": "FM0189",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "3cf337434e733a455b9259afa32fc58f8cffab637bcf6618c113e7765b824f71",
+      "source_rgba_sha256": "66937534e6f349912a0b370a980cf93a5a962183015d073a6312f22d6fa42a70",
+      "classification": "architecture",
+      "source_visual_note": "Two pairs of bright framed windows and lower door/shutter.",
+      "size": [
+        64,
+        128
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0189-photo-8x.png",
+      "parent_sha256": "57b7f6b5fc5508f5629d4d532248dd7dd10e195bf2b74ae0adc72588fc57957a",
+      "parent_id": "FM0189-photo",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0189-photo",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0189-photo-8x.png",
+        "sha256": "57b7f6b5fc5508f5629d4d532248dd7dd10e195bf2b74ae0adc72588fc57957a",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      }
+    },
+    {
+      "group_id": "FM0190",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "7af42fc74d326ac0afa68bb6c2f4c7342c221791955a91bcd4e288d927663a49",
+      "source_rgba_sha256": "aa706f8f05fb73dc031fd6497b3662c83c0461e4be8bcebc26ec8b6f3f5a510b",
+      "classification": "architecture",
+      "source_visual_note": "Two pairs of dark brick-framed windows and lower dark opening.",
+      "size": [
+        64,
+        128
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0190-wdn-8x.png",
+      "parent_sha256": "3ba72636bbdf97704d0f6d5d5f4caa30a8c294bdba0fb5c461fddcb15edca5e9",
+      "parent_id": "FM0190-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0190-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0190-wdn-8x.png",
+        "sha256": "3ba72636bbdf97704d0f6d5d5f4caa30a8c294bdba0fb5c461fddcb15edca5e9",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      }
+    },
+    {
+      "group_id": "FM0257",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.ptm",
+      "source_ptm_sha256": "c26423eb368a0ed72936afc69c7a728e3862c2f3f79397f9a4cfdae0a9f96711",
+      "source_rgba_sha256": "f1a001082b2855defbdf1d6b533bd0e3ec6349bdd1c8e68867c46d2657bf5783",
+      "classification": "architecture",
+      "source_visual_note": "Pale textured wall and two dark window panes.",
+      "size": [
+        64,
+        32
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+      "parent_sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+      "parent_id": "FM0257-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0257-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+        "sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      }
+    },
+    {
+      "group_id": "FM0258",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "f6e202868e06fcf10f6ff1d43a708db52e2c5822e410da7d0d3eef274ec974f4",
+      "source_rgba_sha256": "555e43dd565eda95fe4349d91d5964afcca66f2dc527c220ce239ad8449037ed",
+      "classification": "architecture",
+      "source_visual_note": "Pale weathered wall and four dark window panes.",
+      "size": [
+        64,
+        64
+      ],
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+      "parent_sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+      "parent_id": "FM0258-wdn",
+      "catalog_status_before": "static_candidate",
+      "candidate_before": {
+        "id": "FM0258-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+        "sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      }
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0029",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0029.png",
+      "sha256": "09a91695a3c3bf0d801a1eda114969f8682eaae3bd0f8915634f00bdf0713b60",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0029",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\source-coordinates-FM0029.png",
+      "sha256": "38d4db0e7ebbb357a079dbd9d326f5fa147d3184af09a7220cccb1c41ccc828b",
+      "source_box": [
+        30,
+        0,
+        57,
+        23
+      ],
+      "review_status": "pending",
+      "diagnostic": "Coordinate overlay only, not a game asset."
+    },
+    {
+      "group_id": "FM0113",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0113.png",
+      "sha256": "2d5b00c1b3a8df50a47adf69316f941f402d8a288c90b777aeea739868e23c92",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0113",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\source-coordinates-FM0113.png",
+      "sha256": "44389cfcecf6a3f797c32c272cbdbcddea7cea12eebffd6fd52aebcbf41e0889",
+      "source_box": [
+        0,
+        0,
+        18,
+        32
+      ],
+      "review_status": "pending",
+      "diagnostic": "Coordinate overlay only, not a game asset."
+    },
+    {
+      "group_id": "FM0037",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0037.png",
+      "sha256": "eb3971ab06d53f3031bdbaa76758a3028c37e0e86440a33a9f16385086fb5dff",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0038",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0038.png",
+      "sha256": "e08c5e2014a22699d1f8955d05c7026dcd1296410747c6ea17173460846895e1",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0189.png",
+      "sha256": "547ee4d91dbe9dd25a145477510c24cb5a2aebadf2c9816bca4e00e783222f87",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0190.png",
+      "sha256": "131ea760559a2f54f19c96e3345f8700b7c6b24b4dc9d465e4f56c08d5df7331",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0257.png",
+      "sha256": "e8d7e648a90c0679f5f778edb03eaf738dbcc2770940157be9de45aa68a7d508",
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0258.png",
+      "sha256": "9a904e3661d94156db606aaf671c33ef81f7770bad0126268e72bfc5c1e1e63c",
+      "review_status": "pending"
+    }
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

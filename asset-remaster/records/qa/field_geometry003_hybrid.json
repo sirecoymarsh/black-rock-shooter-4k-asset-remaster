@@ -1,0 +1,243 @@
+{
+  "schema": "brs-constrained-masonry-material/v1",
+  "previous_goal_turn_classification": "progress: FIELD-GEOMETRY-002 verified9 derivatives and resolvedFM0189;FM0190 remains held with a rejected whole GPT repaint.",
+  "files": [
+    {
+      "id": "FM0190-fixed-geometry-gpt-masonry45",
+      "group_id": "FM0190",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "7af42fc74d326ac0afa68bb6c2f4c7342c221791955a91bcd4e288d927663a49",
+      "source_rgba_sha256": "aa706f8f05fb73dc031fd6497b3662c83c0461e4be8bcebc26ec8b6f3f5a510b",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-source-bevels-v4-8x.png",
+      "parent_sha256": "c165db7f801587d1378f68aba189be0e22aa6ac7c8db6968bee16cc576fc2d4c",
+      "generated_material": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\FM0190-gpt-material-trial-8x.png",
+      "generated_material_sha256": "fe0c1b1e53dda503609b41c6b4436d980829e3d506681eb3f241dc64a8341140",
+      "generated_report": "qa/field_geometry002_gpt190.json",
+      "generated_report_sha256": "2764c2164ec24eacdaa91e85fab016d228682da9b6b96bab9b3b1e2409941155",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry003\\FM0190-masonry-interior-mask.png",
+      "mask_sha256": "dcb34cdacdaf19006694f796b8d2c4228bf0d50c15db53e8a4313362e3596afa",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry003\\FM0190-fixed-geometry-gpt-masonry45-8x.png",
+      "output_sha256": "13c9c4232f8777a2a1fb7aca889585f9099355f7f85b30ba255b0f09cff00804",
+      "masonry_rectangles": [
+        [
+          0,
+          0,
+          64,
+          12
+        ],
+        [
+          0,
+          46,
+          64,
+          57
+        ],
+        [
+          0,
+          91,
+          64,
+          103
+        ],
+        [
+          0,
+          124,
+          64,
+          128
+        ]
+      ],
+      "protected_corner_rectangles": [
+        [
+          28,
+          46,
+          29,
+          47
+        ],
+        [
+          60,
+          46,
+          61,
+          47
+        ],
+        [
+          28,
+          91,
+          29,
+          92
+        ],
+        [
+          60,
+          91,
+          61,
+          92
+        ]
+      ],
+      "grain_sigma_output": 6,
+      "grain_strength": 0.45,
+      "grain_RGB_bound": 8,
+      "outside_mask_parent_rgba_exact": true,
+      "new_local_passes": 0,
+      "new_external_calls": 0,
+      "method": "Existing GPT masonry high-frequency material only, clipped inside existing source-fixed cornice planes. Glass, brick piers and dark corner strips unchanged fromv4.",
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-fixed-geometry-gpt-masonry75",
+      "group_id": "FM0190",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "7af42fc74d326ac0afa68bb6c2f4c7342c221791955a91bcd4e288d927663a49",
+      "source_rgba_sha256": "aa706f8f05fb73dc031fd6497b3662c83c0461e4be8bcebc26ec8b6f3f5a510b",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-source-bevels-v4-8x.png",
+      "parent_sha256": "c165db7f801587d1378f68aba189be0e22aa6ac7c8db6968bee16cc576fc2d4c",
+      "generated_material": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\FM0190-gpt-material-trial-8x.png",
+      "generated_material_sha256": "fe0c1b1e53dda503609b41c6b4436d980829e3d506681eb3f241dc64a8341140",
+      "generated_report": "qa/field_geometry002_gpt190.json",
+      "generated_report_sha256": "2764c2164ec24eacdaa91e85fab016d228682da9b6b96bab9b3b1e2409941155",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry003\\FM0190-masonry-interior-mask.png",
+      "mask_sha256": "dcb34cdacdaf19006694f796b8d2c4228bf0d50c15db53e8a4313362e3596afa",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry003\\FM0190-fixed-geometry-gpt-masonry75-8x.png",
+      "output_sha256": "337dfcc508c79eeb5fe7f5c2e63e4b2026a47fe13e549aeac82c038f48449024",
+      "masonry_rectangles": [
+        [
+          0,
+          0,
+          64,
+          12
+        ],
+        [
+          0,
+          46,
+          64,
+          57
+        ],
+        [
+          0,
+          91,
+          64,
+          103
+        ],
+        [
+          0,
+          124,
+          64,
+          128
+        ]
+      ],
+      "protected_corner_rectangles": [
+        [
+          28,
+          46,
+          29,
+          47
+        ],
+        [
+          60,
+          46,
+          61,
+          47
+        ],
+        [
+          28,
+          91,
+          29,
+          92
+        ],
+        [
+          60,
+          91,
+          61,
+          92
+        ]
+      ],
+      "grain_sigma_output": 6,
+      "grain_strength": 0.75,
+      "grain_RGB_bound": 12,
+      "outside_mask_parent_rgba_exact": true,
+      "new_local_passes": 0,
+      "new_external_calls": 0,
+      "method": "Existing GPT masonry high-frequency material only, clipped inside existing source-fixed cornice planes. Glass, brick piers and dark corner strips unchanged fromv4.",
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-whole-masonry45.png",
+      "sha256": "e28601a4028046aa219b7a19800e89e97dd2656eb9952fa3550a5dd6c1219c6f",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-joint-masonry45.png",
+      "sha256": "5016b9dbf9b42c36519dbc0759df434917433ea875955ecec4f663308bf70651",
+      "source_box": [
+        23,
+        40,
+        40,
+        59
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-lower-masonry45.png",
+      "sha256": "8a8103467983123e3ab9f0ad11a65b3b2bfedbbc23c2d61a2e5defc5e7f6f6bd",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-whole-masonry75.png",
+      "sha256": "5611bcfe1e733c734f1b522fcd7436ff4f57891e62624af9e067165979dd113b",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-joint-masonry75.png",
+      "sha256": "35b179f4e37e6d6e64701512b3c67af728d8b17a0e90c1b74c5d80121bc11abe",
+      "source_box": [
+        23,
+        40,
+        40,
+        59
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry003\\FM0190-lower-masonry75.png",
+      "sha256": "7d3484e3913a9e8202ca41f19c7dadb15bf00ef865e6a71c787a32c4a16fb69d",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_passes": 0,
+  "new_external_calls": 0,
+  "limits": [
+    "Uses an already externally generated image; it is not an all-local result or a new AI call.",
+    "High-frequency subtraction does not establish that every grain feature is faithful; final visual quality remains a separate gate.",
+    "Geometry and source corner shading are inherited fromv4; no new consumer/UV/runtime proof."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

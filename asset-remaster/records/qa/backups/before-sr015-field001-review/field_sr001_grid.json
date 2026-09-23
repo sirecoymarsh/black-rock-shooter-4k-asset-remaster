@@ -1,0 +1,362 @@
+{
+  "schema": "brs-source-grid-redraw/v1",
+  "id": "FM0078-photo-source-grid",
+  "group_id": "FM0078",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_04.bin\\sc11\\sc01\\sc00\\tex029.png",
+  "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_04.bin\\sc11\\sc01\\sc00\\tex029.ptm",
+  "source_ptm_sha256": "9e62741f3816b550922b806b1ea1abaabe3d4dccffbd574bff90890a0280e785",
+  "source_rgba_sha256": "47c1d6d37f7f1a72d8e83373867ff568658570d91273a8f7c2379daeb385eab5",
+  "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-photo-8x.png",
+  "parent_sha256": "2b6d9fe9a1a59fe4f21e6c4aafc76883b19f0a971ac32007bdba2d730da528f8",
+  "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-source-layout.svg",
+  "vector_sha256": "c3e1b0c3c9df2ff600186a96a88c51325b15671c7d7a991ba860c4c891f6a0d7",
+  "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-render.png",
+  "render_sha256": "9ec72c7dfc8b4c7b3f3b941b405c543ff32a77af242b568e482758f3c4da4075",
+  "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-mask.png",
+  "mask_sha256": "e421ccd6861f0f924118fa62944049193f1da1193c683a19e784b64f58d2b9fa",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-photo-source-grid-8x.png",
+  "output_sha256": "cd6a858d7293fd74d1814fcd3a76881357b73640d986d13ac4298534c0ad0428",
+  "output_size": [
+    512,
+    512
+  ],
+  "source_box": [
+    40,
+    45,
+    50,
+    56
+  ],
+  "authored_cells": [
+    {
+      "column": 0,
+      "row": 0,
+      "source_center": [
+        42,
+        47
+      ],
+      "source_rgba": [
+        66,
+        65,
+        70,
+        255
+      ],
+      "rect": [
+        41.75,
+        46.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 1,
+      "row": 0,
+      "source_center": [
+        44,
+        47
+      ],
+      "source_rgba": [
+        66,
+        65,
+        70,
+        255
+      ],
+      "rect": [
+        43.75,
+        46.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 2,
+      "row": 0,
+      "source_center": [
+        46,
+        47
+      ],
+      "source_rgba": [
+        66,
+        65,
+        70,
+        255
+      ],
+      "rect": [
+        45.75,
+        46.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 3,
+      "row": 0,
+      "source_center": [
+        48,
+        47
+      ],
+      "source_rgba": [
+        66,
+        65,
+        70,
+        255
+      ],
+      "rect": [
+        47.75,
+        46.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 0,
+      "row": 1,
+      "source_center": [
+        42,
+        49
+      ],
+      "source_rgba": [
+        66,
+        65,
+        70,
+        255
+      ],
+      "rect": [
+        41.75,
+        48.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 1,
+      "row": 1,
+      "source_center": [
+        44,
+        49
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        43.75,
+        48.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 2,
+      "row": 1,
+      "source_center": [
+        46,
+        49
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        45.75,
+        48.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 3,
+      "row": 1,
+      "source_center": [
+        48,
+        49
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        47.75,
+        48.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 0,
+      "row": 2,
+      "source_center": [
+        42,
+        51
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        41.75,
+        50.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 1,
+      "row": 2,
+      "source_center": [
+        44,
+        51
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        43.75,
+        50.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 2,
+      "row": 2,
+      "source_center": [
+        46,
+        51
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        45.75,
+        50.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 3,
+      "row": 2,
+      "source_center": [
+        48,
+        51
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        47.75,
+        50.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 0,
+      "row": 3,
+      "source_center": [
+        42,
+        53
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        41.75,
+        52.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 1,
+      "row": 3,
+      "source_center": [
+        44,
+        53
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        43.75,
+        52.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 2,
+      "row": 3,
+      "source_center": [
+        46,
+        53
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        45.75,
+        52.7,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "column": 3,
+      "row": 3,
+      "source_center": [
+        48,
+        53
+      ],
+      "source_rgba": [
+        81,
+        81,
+        86,
+        255
+      ],
+      "rect": [
+        47.75,
+        52.7,
+        1.15,
+        1.2
+      ]
+    }
+  ],
+  "source_grid_rows": 4,
+  "source_grid_columns": 4,
+  "new_local_neural_passes": 0,
+  "new_external_generative_calls": 0,
+  "outside_mask_rgba_exact": true,
+  "method": "Codex-authored SVG geometry from 16 source dark-cell centers; local Photo parent outside rectangular grille. New bevel geometry is interpretation, not recovered true HD.",
+  "comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\grid-FM0078.png",
+  "comparison_sha256": "639d23283b31dcb961a204e643cca28502d80f0a3537740479f969d949b78978",
+  "visual_review": "pending",
+  "runtime_verified": false,
+  "release_eligible": false
+}

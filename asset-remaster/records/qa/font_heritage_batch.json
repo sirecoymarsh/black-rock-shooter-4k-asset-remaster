@@ -1,0 +1,22 @@
+{
+  "schema": "brs-font-heritage-batch/v1",
+  "translator_model": "Codex internal",
+  "font_repertoire": 919,
+  "observed_cache_count": 522,
+  "observed_korean_repertoire": 415,
+  "ui_candidates": 27,
+  "ui_observed_assets": 19,
+  "ui_exact_keys": 17,
+  "total_exact_keys": 539,
+  "runtime_status": "unverified; not installed",
+  "code_sha256": {
+    "font_heritage.py": "7e8ded13f6e40011b0b45b045d442198d9173ecf94b45cfe5aa4c19f3257eed0",
+    "build_ui_v4.py": "3a933cd13f406d44734bfb9b5deac811f6b6ef98833ec0d546a6aa3ebe6760e6",
+    "build_fonts_v4.py": "7b90afb91d4efc64f4f993c4e49cc714e9e9407b2a9bfffb0c1f4e18074334d5",
+    "ui_geometry_v3.py": "e9c5fd2cb20bece02d4d5cea65a257850ba35c2402cdf628cb5fc9a5bbd0595f",
+    "preview_heritage.py": "29bc178855097f9b3f68260e6bcab8bfb9da13387dcd33be76c57e9da0d03e35"
+  },
+  "upstream_font_metadata": "https://raw.githubusercontent.com/google/fonts/main/ofl/orbit/METADATA.pb",
+  "rejected_design_reference": "Gugi comparison only; not built",
+  "user_direction": "Inherit original game design where possible"
+}

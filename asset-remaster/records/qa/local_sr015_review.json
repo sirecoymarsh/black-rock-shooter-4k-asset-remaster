@@ -1,0 +1,233 @@
+{
+  "schema": "brs-local-sr-review/v15",
+  "batch": "LOCAL-SR-015",
+  "checked_outputs": [
+    {
+      "id": "BM201-gpt-raw",
+      "decision": "held",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": null
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "decision": "held",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": null
+    },
+    {
+      "id": "BM201-small-source-crack-1.0",
+      "decision": "rejected",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": 0
+    },
+    {
+      "id": "BM201-small-source-crack-0.7",
+      "decision": "rejected",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": 0
+    },
+    {
+      "id": "BM201-small-source-texture-v2",
+      "decision": "rejected",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": 0
+    },
+    {
+      "id": "BM201-small-source-texture-v3",
+      "decision": "rejected",
+      "source_ptm_rgba_and_output_parent_mask_hashes_verified": true,
+      "size8x_alpha255_verified": true,
+      "outside_mask_max_rgba_difference": 0
+    }
+  ],
+  "new_actual_local_neural_passes": 0,
+  "external_generative_calls": 1,
+  "external_tool": "built-in image_gen; model identifier not exposed",
+  "image_upload": true,
+  "new_unique_originals": 0,
+  "derived_outputs": 6,
+  "accepted_candidates": {},
+  "held": [
+    "BM201"
+  ],
+  "source_adjacent_contrast": [
+    {
+      "id": "BM201-gpt-raw",
+      "patch": "upper",
+      "strong_adjacent_pairs": 44,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-raw",
+      "patch": "right",
+      "strong_adjacent_pairs": 107,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-raw",
+      "patch": "left",
+      "strong_adjacent_pairs": 46,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-raw",
+      "patch": "bottom",
+      "strong_adjacent_pairs": 45,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-raw",
+      "patch": "small",
+      "strong_adjacent_pairs": 12,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "patch": "upper",
+      "strong_adjacent_pairs": 44,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "patch": "right",
+      "strong_adjacent_pairs": 107,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "patch": "left",
+      "strong_adjacent_pairs": 46,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "patch": "bottom",
+      "strong_adjacent_pairs": 45,
+      "sign_reversals": 0
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "patch": "small",
+      "strong_adjacent_pairs": 12,
+      "sign_reversals": 0
+    }
+  ],
+  "contrast_limit": "3x3 source-coordinate center averages from cells with >=25 source samples; difference >=10. Not all-cell geometry, exact HD detail, or native UV proof.",
+  "edge_samples": 207,
+  "edge_audit_path": "qa/local_sr015_edge_audit.json",
+  "edge_audit_sha256": "dacb46467747777b512297d38a76c70bc201b44dd6418250189b2d9b4919aaf0",
+  "edge_fit_applied": false,
+  "metadata_correction": "v3 rim-exclusion claim removed; same-cell sampling and luminance filtering do not prove semantic rim exclusion.",
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-0.png",
+      "sha256": "167d5b924d77282d8f4a114ded42bb963f37392962f6a10a133eb3db2d1eb456",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-1.png",
+      "sha256": "739e90b706961f667a9ba0ba01aa8ab305c4b63588e936ee0f3480d51d71a4f6",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-2.png",
+      "sha256": "16aa9b73762776a3c74c76a3a7197e8d919c5dca1c23ee8bf1f4e63be772a294",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-3.png",
+      "sha256": "2195c6a8a44c71f52e56bd7dd80633b8dcd5abf954b4bcfd880f58c2129b4015",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-4.png",
+      "sha256": "6188719cc4e4e5952b1bd7a553e9da8f4f1f3f337a8e6284e503e2a43f8ef903",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-5.png",
+      "sha256": "e691482c985a3d69f918d712518a7132edb0b64137804223da58588bcc90ab69",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-repair-0.png",
+      "sha256": "667d4d54da3427e334c650021e44ac60d391a2ac58c7c031c5c2f34d44f01159",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-repair-1.png",
+      "sha256": "5acad39c1994ce45e6006d255e12badd09c94182aeef29b3a57874c5e8d70f10",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-texture-0.png",
+      "sha256": "36182b2fd18ac162e080608400730d7f63a75910ba9c0bf0d2ddedb569212c60",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-texture-v3.png",
+      "sha256": "af4dad3969703acc765c06454221bed94d5172c9dc3f72531984108cd3d81f8f",
+      "directly_inspected": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-small-coordinates.png",
+      "sha256": "15a93384831d2fb97e0de1f501acbd4ec3ffb297bcf5d509e395d4693acba4c0",
+      "directly_inspected": true
+    }
+  ],
+  "comparison_pages_inspected": 10,
+  "coordinate_pages_inspected": 1,
+  "uninspected_comparison_pages": [
+    "outputs/sr015-BM201-small-texture-1.png"
+  ],
+  "prompt_file": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\prompt.txt",
+  "prompt_sha256": "acd1156ea00e4115698229549575a7ad919c390e0aec2c00e45ec7b8a7f570a3",
+  "generated_actual_size": [
+    1254,
+    1254
+  ],
+  "final_canvas_size": [
+    2048,
+    2048
+  ],
+  "final_resize": "Lanczos; not native AI8x",
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "next_step": "Keep BM201 held; reassess coherent material/damage reconstruction rather than stacking additional narrow inpaint overlays. Continue independent full-game source scope."
+}

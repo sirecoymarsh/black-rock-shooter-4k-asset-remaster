@@ -1,0 +1,294 @@
+{
+  "schema": "brs-field-foliage008-material/v1",
+  "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\foliage_material008_v1_frozen.py",
+  "program_sha256": "d2702479e67f0aae6b9ab821f1f05ee8b6ad9b8b44aa90711364acc24a7d5fff",
+  "source_preparation_sha256": "3b616774f6eb4f6ca0fe8c92b98d17d40f10fbdacc575e4ae5d0e8879c09fa5e",
+  "GPT_raw_report_sha256": "738be380060d8d443e3bf8d2964ee81e3a648bfc5ac843f8481bf14ce7847534",
+  "files": [
+    {
+      "group_id": "FM0301",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.ptm",
+      "source_ptm_sha256": "712e7e556cca6731cfa7bf0c3c361435f290ecdd29d7251b7b8b840b1c3b5915",
+      "source_rgba_sha256": "cbf5a31844c147d815c04c70eb24a3c8cea915aec31704617b47324ba8fdabee",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_nonzero_alpha": 1986,
+      "source_alpha_mean": 123.64013671875,
+      "GPT_preparation": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\provenance.json",
+      "id": "FM0301-source-palette-density-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0301-source-palette-density-v1-8x.png",
+      "output_sha256": "0ba7968bb369115eba604fa8ecd2fe6c2871f4c3f6389d4ab0502995ea195265",
+      "GPT_donor": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\generated-raw.png",
+      "GPT_donor_sha256": "bf7f5b1a1ca5a19242546ab8cd59442aaced4c6b3ac4bf46f7e6fba401ef21e6",
+      "local_comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0301-photo-8x.png",
+      "local_comparison_sha256": "a2b48c1cd4bd0b8e503b8af67a1d3f286180df0c264fecbe36de26644654157a",
+      "diagnostics": {
+        "source_base_sigma_source_pixels": 1.5,
+        "donor_detail_sigma_output_pixels": 12,
+        "detail_gain": 1.0,
+        "donor_opaque_RGB_extension_threshold": 128,
+        "alpha_donor_threshold": 128,
+        "alpha_AA_width_output_pixels": 1.0,
+        "alpha_contour_offset_output_pixels": -0.15069891512393951,
+        "source_alpha_mean": 123.64013671875,
+        "output_alpha_mean": 123.64006423950195,
+        "alpha_mass_ratio": 0.9999994137886776,
+        "alpha_policy": "Generated fine-leaf contour, constant signed-distance offset fitted to original total alpha. Fine topology is repainted, not source-exact."
+      },
+      "source_luma_std": 25.794330566616658,
+      "source312_luma_std": 33.26721694914251,
+      "review_status": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0312",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "0e750b9bff29a7bf902d51f0c58a42b022485134316d832c32d83a05a01f42f3",
+      "source_rgba_sha256": "1f1d29b53cbf5deee68e05205f8935ba7a9dcd6df32197c7af87d64ee4cb0f0f",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_nonzero_alpha": 4322,
+      "source_alpha_mean": 134.534912109375,
+      "GPT_preparation": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0312-foliage008-v1\\provenance.json",
+      "id": "FM0312-source-palette-density-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0312-source-palette-density-v1-8x.png",
+      "output_sha256": "450a2bacea8236c90dd76cb4b3637b18b79cd0549c7f9974cf64ba0596890da0",
+      "GPT_donor": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0312-foliage008-v1\\generated-raw.png",
+      "GPT_donor_sha256": "caf5555db39b361f224fdd547e5b768dca1066c708ae798d9c438675156dc50a",
+      "local_comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0312-photo-8x.png",
+      "local_comparison_sha256": "04e8bb50ae430d27b8466c23e5c2ffd645308f33bb0fc065f3861eaa51108d13",
+      "diagnostics": {
+        "source_base_sigma_source_pixels": 1.5,
+        "donor_detail_sigma_output_pixels": 12,
+        "detail_gain": 0.85,
+        "donor_opaque_RGB_extension_threshold": 128,
+        "alpha_donor_threshold": 128,
+        "alpha_AA_width_output_pixels": 1.0,
+        "alpha_contour_offset_output_pixels": 0.20787350833415985,
+        "source_alpha_mean": 134.534912109375,
+        "output_alpha_mean": 134.53491401672363,
+        "alpha_mass_ratio": 1.0000000141773506,
+        "alpha_policy": "Generated fine-leaf contour, constant signed-distance offset fitted to original total alpha. Fine topology is repainted, not source-exact."
+      },
+      "source_luma_std": 33.26721694914251,
+      "source312_luma_std": 33.26721694914251,
+      "review_status": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0318",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "cedc2c2ce9e8dfb7eca356cc7e64e50b6522480614e7fa3b39c22d6f51afbb7b",
+      "source_rgba_sha256": "4931281d35164ecc82cff59b033b81d1f8b030fcdef9a1d862dbe1fa2d2e732a",
+      "source_size": [
+        128,
+        64
+      ],
+      "source_nonzero_alpha": 4322,
+      "source_alpha_mean": 134.534912109375,
+      "id": "FM0318-source-palette-density-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0318-source-palette-density-v1-8x.png",
+      "output_sha256": "b487b9688e457cc4e362de7acf8f0b3a26dcbd0d10176e2f95fb84d17911c6c8",
+      "GPT_donor": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0312-foliage008-v1\\generated-raw.png",
+      "GPT_donor_sha256": "caf5555db39b361f224fdd547e5b768dca1066c708ae798d9c438675156dc50a",
+      "local_comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0318-photo-8x.png",
+      "local_comparison_sha256": "f6dbce053792d264cf65be449c987c3fdc7c2cf3cbc7ced7700bd112b1216fdf",
+      "diagnostics": {
+        "source_base_sigma_source_pixels": 1.5,
+        "donor_detail_sigma_output_pixels": 12,
+        "detail_gain": 0.6260880873330066,
+        "donor_opaque_RGB_extension_threshold": 128,
+        "alpha_donor_threshold": 128,
+        "alpha_AA_width_output_pixels": 1.0,
+        "alpha_contour_offset_output_pixels": 0.20787350833415985,
+        "source_alpha_mean": 134.534912109375,
+        "output_alpha_mean": 134.53491401672363,
+        "alpha_mass_ratio": 1.0000000141773506,
+        "alpha_policy": "Generated fine-leaf contour, constant signed-distance offset fitted to original total alpha. Fine topology is repainted, not source-exact."
+      },
+      "source_luma_std": 24.5037743889186,
+      "source312_luma_std": 33.26721694914251,
+      "review_status": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0320",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.ptm",
+      "source_ptm_sha256": "3bb02d96884ab4b0fab8e10f57dbf9df6edfba4c7a11a1de4ac6e9a046a2148d",
+      "source_rgba_sha256": "c1603b3d401380e26457d3e22cc6ac5899dfe53aea43e2477a2cf6e9b84a3a16",
+      "source_size": [
+        64,
+        64
+      ],
+      "source_nonzero_alpha": 2091,
+      "source_alpha_mean": 130.177001953125,
+      "GPT_preparation": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0320-foliage008-v1\\provenance.json",
+      "id": "FM0320-source-palette-density-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0320-source-palette-density-v1-8x.png",
+      "output_sha256": "3fcaac9cba04c3322eb6bb065f218c06313933e8cff647c639d438ab98b6ac4a",
+      "GPT_donor": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0320-foliage008-v1\\generated-raw.png",
+      "GPT_donor_sha256": "f3bde2661adac6cab7a7027c949c6cb11f4a1cfae4d279750b4e385a3916c5ab",
+      "local_comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0320-photo-8x.png",
+      "local_comparison_sha256": "e129c39d2690fb904de83e8f3097241b94317f00d098d3f3c8248e482a703766",
+      "diagnostics": {
+        "source_base_sigma_source_pixels": 1.5,
+        "donor_detail_sigma_output_pixels": 12,
+        "detail_gain": 0.85,
+        "donor_opaque_RGB_extension_threshold": 128,
+        "alpha_donor_threshold": 128,
+        "alpha_AA_width_output_pixels": 1.0,
+        "alpha_contour_offset_output_pixels": 0.3258810490369797,
+        "source_alpha_mean": 130.177001953125,
+        "output_alpha_mean": 130.177001953125,
+        "alpha_mass_ratio": 1.0,
+        "alpha_policy": "Generated fine-leaf contour, constant signed-distance offset fitted to original total alpha. Fine topology is repainted, not source-exact."
+      },
+      "source_luma_std": 24.134208016022736,
+      "source312_luma_std": 33.26721694914251,
+      "review_status": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-whole.png",
+      "sha256": "ce33319d695c99e72354d1742ea25218705b556a198cfb74c19f81c4ec1cffd7",
+      "group_id": "FM0301",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-detail.png",
+      "sha256": "45ea477694a575d4ffbe755176c7b08df09fd33933e09f61de81846cb1ea1578",
+      "group_id": "FM0301",
+      "source_box": [
+        12,
+        8,
+        44,
+        40
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-edge.png",
+      "sha256": "9340ba3c54542c39285de42270903c7ff489539e0ec4fdb5da78b0a465ce3fd1",
+      "group_id": "FM0301",
+      "source_box": [
+        0,
+        0,
+        40,
+        30
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-whole.png",
+      "sha256": "a213c97906f6659cf46a2948bf53fbaf3ee784880580de1138aec8cb45bd45b7",
+      "group_id": "FM0312",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-detail.png",
+      "sha256": "83a67e7268cf34b5743d8a0471373779dcbdfa08cf6b0800718adf7906332117",
+      "group_id": "FM0312",
+      "source_box": [
+        12,
+        12,
+        44,
+        44
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-edge.png",
+      "sha256": "fc0d2939eb94df88815323590e2bf8683a3e141b558a0af4fe8b25974d718dbe",
+      "group_id": "FM0312",
+      "source_box": [
+        75,
+        0,
+        120,
+        30
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-whole.png",
+      "sha256": "e34a24ee885f7d45d39b61d6a7e513613eb9785a08a069490c54ae0c6025765b",
+      "group_id": "FM0318",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-detail.png",
+      "sha256": "da78ab908b64130b4ce335bd54704dd68f004f4050048e3d51a6d61fe9fa13a6",
+      "group_id": "FM0318",
+      "source_box": [
+        12,
+        12,
+        44,
+        44
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-edge.png",
+      "sha256": "eda632763a014b8c80f78789ece4c8ced59bf30c6cd1cb24a2938c255528d2d7",
+      "group_id": "FM0318",
+      "source_box": [
+        75,
+        0,
+        120,
+        30
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-whole.png",
+      "sha256": "c3335a4a85f222a7522533142d038eb93b973faeeee8f099bfbd7f53dde2a232",
+      "group_id": "FM0320",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-detail.png",
+      "sha256": "3cfd00eedbaf074d1422eefcff3356e319dab655bda9fc6df7c3a97062c30e2c",
+      "group_id": "FM0320",
+      "source_box": [
+        12,
+        8,
+        44,
+        40
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-edge.png",
+      "sha256": "e74e03215990ec52305d6fee80caaf73105f8484202585ff2ad055a00db7fa8e",
+      "group_id": "FM0320",
+      "source_box": [
+        0,
+        0,
+        40,
+        30
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_passes": 0,
+  "new_external_calls": 0,
+  "new_unique_originals": 0,
+  "runtime_verified": false
+}

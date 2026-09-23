@@ -1,0 +1,69 @@
+{
+  "schema": "brs-field-foliage006-tree-adaptation/v1",
+  "group_id": "FM0314",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.png",
+  "source_rgba_sha256": "2a4c36ca4bb42ea894cd09594b6ffd091f39c23a2c3da5c8f588fd65366e3aab",
+  "raw": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0314-foliage-v1\\generated-raw.png",
+  "raw_sha256": "f8a77326e150b0f565ad20ecc1260c14d345bd6f3f33b5fc93c2b377245c9dd1",
+  "source_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0314-source-alpha8x.png",
+  "source_alpha_sha256": "74668b1e66a72b5845e16c6e46ed65d297dba3d2d5fe520daf4dd5334b5bcdee",
+  "ground_source_rows": [
+    125,
+    128
+  ],
+  "ground_method": "Nearest8 source RGBA rows125..127 restored exactly. Source bottom edge stays opaque and at its original UV boundary. Other pixels are unchanged from the declared variant.",
+  "files": [
+    {
+      "id": "FM0314-GPT-drawn-alpha-ground-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-authored\\FM0314-GPT-drawn-alpha-ground-v1-8x.png",
+      "output_sha256": "6d063e9f8a9fc9bb9c6e05f7b4dc0bbae1bf0a764088bbdf011ec961ce373272",
+      "alpha_policy": "drawn-alpha",
+      "alpha_mass_ratio": 0.9983828987703093,
+      "source_scale_alpha_IoU": 0.9745920062542753,
+      "ground_source_RGBA_exact": true,
+      "review_status": "pending"
+    },
+    {
+      "id": "FM0314-GPT-source-alpha-ground-v1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-authored\\FM0314-GPT-source-alpha-ground-v1-8x.png",
+      "output_sha256": "705a0a1817b9c71c693766708d02314efba8e4a4f5700c403a76fc32316f16ba",
+      "alpha_policy": "source-alpha",
+      "alpha_mass_ratio": 1.000387062457506,
+      "source_scale_alpha_IoU": 1.0,
+      "ground_source_RGBA_exact": true,
+      "review_status": "pending"
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-alpha-ground-whole.png",
+      "sha256": "10b2b6e62d12ba473ca900b6869a98d0ba051862d662223e0448533d6ef87443",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-alpha-ground-canopy.png",
+      "sha256": "9d8f8e64daa01770796de829179c4d3a41dd239fc51a049f4e10e9fefe96a4db",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-alpha-ground-ground.png",
+      "sha256": "be1a4f0431338e7f55fd0ec72c6284158fffeb425666e55130640e3aab669733",
+      "source_box": [
+        32,
+        96,
+        72,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

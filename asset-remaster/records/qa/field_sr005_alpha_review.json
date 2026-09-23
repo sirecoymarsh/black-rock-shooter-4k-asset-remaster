@@ -1,0 +1,36 @@
+{
+  "schema": "brs-nearopaque-matte-review/v1",
+  "inference_report_sha256": "a7627307e2c889f80c623da88906b6bed2f6cccea80cc6b70a1f3d2c10ea9b05",
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0480-dual-matte.png",
+      "sha256": "e27a9b93a860ef589f040cf9faf021a52a02a7f916a53b81393d08a375e605bf",
+      "group_id": "FM0480",
+      "review_status": "pending_final_review",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0494-dual-matte.png",
+      "sha256": "f294b247f23060a0476e3f17d55a01a4c85538610462dc5168a33d4573c31889",
+      "group_id": "FM0494",
+      "review_status": "pending_final_review",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0506-dual-matte.png",
+      "sha256": "0f2aa4edeed9f7a2442e25217e01d50f97e7e1e6dc623eb77479fad82e0c0370",
+      "group_id": "FM0506",
+      "review_status": "pending_final_review",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ]
+    }
+  ]
+}

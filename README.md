@@ -1,5 +1,5 @@
 
-# BLACK★ROCK SHOOTER THE GAME HD Retexture
+# BLACK★ROCK SHOOTER THE GAME — 4K 애셋 리마스터
 
 `NPUH10126`용 PPSSPP 고해상도 텍스처 교체 팩을 제작하는 독립 작업 공간입니다.
 
@@ -19,3 +19,18 @@
 - 기존 한국어 패치용 HD UI 27장은 기준 자료이며 전체 리텍스처의 완료를 의미하지 않습니다.
 
 진행 상황은 `PROGRESS.md`, 기존 작업 위치는 `references/KNOWN_PATHS.md`를 확인합니다.
+
+## 수집 기반
+
+현재 검색 목록은 `workspace/inventory/index.html`, 집계는 `qa/evidence/inventory_summary.json`에 있습니다. 실제 수집 범위와 다음 실행 단계는 `PROGRESS.md`, 수집 도구 사용법은 `docs/RUNTIME_INVENTORY.md`를 확인합니다. 전체 게임의 수집·HD 제작·런타임 검증은 진행 중이며 아직 배포 팩이 없습니다.
+
+
+## 4K 애셋 리마스터 — 저장된 개발 체크포인트
+
+사용자 요청으로 작업을 일시정지했습니다. [재개 안내](asset-remaster/RESUME.md)와 [파일·해시 목록](asset-remaster/snapshot-manifest.json)을 기준으로 이어갑니다.
+
+- 확인된 전투·고유 필드635종 중 정적검수후보354종(55.75%), 한번이상처리420종(66.14%). 전체게임완료율이 아닙니다.
+- 최신 식물 보정4종은 **미검수** 상태로 따로 보존했습니다.
+- UI/폰트팩 및관측팩은미설치·실게임검증전입니다.
+- `4K 애셋 리마스터`는 프로젝트명이며 현재모든PNG가4096픽셀이라는뜻은아닙니다. 실제크기는매니페스트에표시합니다.
+- 원본ISO/무가공추출/모델/에뮬레이터/세이브는Git에서제외하고기존로컬작업공간에보존합니다.

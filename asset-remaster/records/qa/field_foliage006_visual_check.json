@@ -1,0 +1,337 @@
+{
+  "schema": "brs-field-foliage006-interim-visual-check/v1",
+  "recorded_at_utc": "2026-09-23T12:26:11.526054+00:00",
+  "local_report": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\field_foliage006_local.json",
+  "local_report_sha256": "866b9fc1236b8b0769cd3aec96bf8ebbca160b671a54104374702a129cefd396",
+  "actual_local_RGB_passes_so_far": 18,
+  "new_local_unique_originals_in_raw_report": 9,
+  "selected_outputs": [],
+  "catalog_finalized": false,
+  "inspection": [
+    {
+      "group_id": "FM0290",
+      "decision": "needs_rework",
+      "finding": "Both local models soften thin leaves/tips into rounded waxy or melted blobs; no selection."
+    },
+    {
+      "group_id": "FM0301",
+      "decision": "needs_rework",
+      "finding": "Broad radial leaf identity remains, but waxy surfaces and weak leaf structure require another treatment; no selection."
+    },
+    {
+      "group_id": "FM0312",
+      "decision": "needs_rework",
+      "finding": "WDN flattens canopy material; Photo adds conspicuous pale granular structures. Source foliage character is not reliably restored; no selection."
+    },
+    {
+      "group_id": "FM0314",
+      "decision": "needs_rework",
+      "finding": "Both models reinterpret pale canopy areas as flat cracked planes; whole-image trunks also flatten. Reject these material interpretations."
+    },
+    {
+      "group_id": "FM0316",
+      "decision": "needs_rework",
+      "finding": "Canopy detail is more plausible than the dark variant, but pale patches and block-like trunks need source comparison and an alternative preprocessing trial before selection."
+    },
+    {
+      "group_id": "FM0317",
+      "decision": "needs_rework",
+      "finding": "Similar to FM0316: canopy grain alone does not establish acceptable tree structure; broad flattened trunk regions remain. No selection."
+    },
+    {
+      "group_id": "FM0318",
+      "decision": "needs_rework",
+      "finding": "WDN resembles a soft continuous mottled surface; Photo introduces coarse pale speckling. Neither demonstrates convincing source-faithful foliage."
+    },
+    {
+      "group_id": "FM0320",
+      "decision": "needs_rework",
+      "finding": "WDN has fuzzy compact-mass appearance; Photo has stone-like granular/cracked detail. Neither selected."
+    },
+    {
+      "group_id": "FM0325",
+      "decision": "needs_rework",
+      "finding": "Pale canopy becomes cracked flat planes in both models, with block-like trunks. Reject these material interpretations."
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-local-whole.png",
+      "sha256": "18424958598dd894780f947c04478ce4d7b838748d2f497e76b7205670ec8c86",
+      "group_id": "FM0290",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-local-native.png",
+      "sha256": "b6f1a13eab635c732d2327b7ed693d22d960e2bbbc7fcdc62b52db86a3aa37b5",
+      "group_id": "FM0290",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0301-local-whole.png",
+      "sha256": "364582f1cb32464dc042ad9076b2c3cc89303f700f868705a4157116feecc9cf",
+      "group_id": "FM0301",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0301-local-native.png",
+      "sha256": "3239b5709afebd3c8d9691b717ce0c810cca1112629e92963dfdd2b9a821e9b9",
+      "group_id": "FM0301",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0312-local-whole.png",
+      "sha256": "db2a5075f70393aa91c6181173f0280e3f00bd4fd2afc386857bad0a3fbe43d7",
+      "group_id": "FM0312",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0312-local-native.png",
+      "sha256": "eae08193d169ae84c4052d0aff00950d5c7f1010765c4788f7acd75f3e21334c",
+      "group_id": "FM0312",
+      "source_box": [
+        72,
+        16,
+        112,
+        56
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-local-whole.png",
+      "sha256": "43c0a2cadb4de25f46f1675758ae2e751109c2212d6be13b253749a62410c31c",
+      "group_id": "FM0314",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "prior_continuation"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-local-native.png",
+      "sha256": "34dcbc9044be6c368ce2b557805bcab5302a682f01300cbdcacf095260c79390",
+      "group_id": "FM0314",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0316-local-whole.png",
+      "sha256": "a213a8c5a1379f9c80d2b9eef530fd105d5200acef7655e1bcf3c8e5dfac20e7",
+      "group_id": "FM0316",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0316-local-native.png",
+      "sha256": "238c0ee304c2c06df1c500e2dbc70c2d9ca4814e5ab0b9b905aed6ca51b7dd08",
+      "group_id": "FM0316",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0317-local-whole.png",
+      "sha256": "5ba7802a21bd53f500235cb56d305d047a05adf9d490dc86f6dc9a3f33b558d9",
+      "group_id": "FM0317",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0317-local-native.png",
+      "sha256": "684b68a4702d635d39ab96fce983696d9d0526bd4e072587687d99da7d5f60b9",
+      "group_id": "FM0317",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0318-local-whole.png",
+      "sha256": "b86df1b42c82ff38350e265581eab10fc4251db729babee2f86e997f09ab0c83",
+      "group_id": "FM0318",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0318-local-native.png",
+      "sha256": "63d71bcbb65b143414eee53d5c02d151f970d8bf1a92e66b2e0cb4af7ac7e78e",
+      "group_id": "FM0318",
+      "source_box": [
+        72,
+        16,
+        112,
+        56
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0320-local-whole.png",
+      "sha256": "a82d3f8ec2cb4fab62249fa39632592624536d9cf96ce1e7ecfd5fd6e5dbb6b2",
+      "group_id": "FM0320",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0320-local-native.png",
+      "sha256": "a3067954072239cc1b9a6b08bcd51fbd7bf5bc127b93df285d19d102041c1041",
+      "group_id": "FM0320",
+      "source_box": [
+        20,
+        4,
+        60,
+        44
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0325-local-whole.png",
+      "sha256": "2fc9939bfecd5c38f83abb212ad805f09846f735f5b2e506b48f7063e65d99fc",
+      "group_id": "FM0325",
+      "source_box": null,
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0325-local-native.png",
+      "sha256": "3670b3082a3a8309dbfca5f3923854d7d4c09258f3ef7d7d4b1a7ffaa1b1e9af",
+      "group_id": "FM0325",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "mattes": [
+        "#18222c",
+        "#dedede"
+      ],
+      "review_status": "directly_visually_inspected",
+      "inspection_turn": "current"
+    }
+  ],
+  "validation": "All 18 saved input/alpha/native-full/native/output hashes and all 18 comparison-page hashes match the raw inference record. Alpha topology checks are recorded in the raw report; not independently replayed in this status turn. Geometry checks do not establish material quality or runtime behavior.",
+  "changed_hypothesis": "Nearest-opaque RGB fill before inference removes alpha/background separation from the model input. This may contribute to continuous-surface interpretations. This is an untested hypothesis, not an established cause.",
+  "next_executable_step": "Compare representative FM0290 and FM0314 using original authored source RGB/matte instead of nearest-opaque hidden-RGB fill, with the same WDN/Photo models. Keep source alpha protected separately, inspect leaf tips, canopy and trunks on both mattes. If material identity remains poor, change local prior or use an explicit source-guided repaint; do not repeat grain-strength tuning.",
+  "confirmed_catalog_counts_unchanged": {
+    "battle_unique": 284,
+    "novel_field_unique": 351,
+    "battle_candidates": 241,
+    "field_candidates": 108,
+    "battle_any_method": 258,
+    "field_any_method": 153,
+    "candidate_fraction_known_battle_and_novel_field": 0.5496062992125984,
+    "processed_fraction_known_battle_and_novel_field": 0.647244094488189,
+    "scope": "Known battle and novel field textures only; excludes title and unresolved whole-game populations. Nine unfinished foliage sources are not added to the finalized catalog yet."
+  },
+  "runtime_verified": false,
+  "installed": false,
+  "release_eligible": false
+}

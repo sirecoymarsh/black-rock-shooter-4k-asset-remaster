@@ -1,0 +1,426 @@
+{
+  "schema": "brs-material-rework/v2",
+  "device": "NVIDIA GeForce RTX 5080",
+  "files": [
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\001.png",
+      "source_rgba_sha256": "1d3fbea91844b6e3fbdfd96b88f6cb3c1c428bfded938ab31d6bb7c029687e16",
+      "denoise_strength": 0.25,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.25,
+        0.75
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        6.9916229248046875,
+        2.2035980224609375,
+        -2.8137054443359375
+      ],
+      "color_offset_clipped_fraction": 0.0002797444661458333,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.25-neural4x.png",
+      "native_unadjusted_sha256": "0df15fbfe974c0347c6e505af0138077a550c5c65bf6bea920345a30c0995d23",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.25-mean-color-8x.png",
+      "output_sha256": "b1f6599c1b00f12794bbe3095ac98feb72f61ba248afa4d41e6317248fd71ea6",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 11.221110343933105,
+        "rgb_p99_abs_error_0_255": 37.0,
+        "rgb_mean_shift_0_255": [
+          0.000244140625,
+          -0.20947265625,
+          -0.19482421875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.34299999999348074,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Warmer color is closer to source, but excessive fine surface relief remains comparatively strong.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\017.png",
+      "source_rgba_sha256": "a6763982f2ff4f202d420caa4655c8bb6b615c21b74c0607218cf8d19ce9dd73",
+      "denoise_strength": 0.25,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.25,
+        0.75
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        -0.16961669921875,
+        -2.307647705078125,
+        -3.3554534912109375
+      ],
+      "color_offset_clipped_fraction": 2.7974446614583332e-05,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.25-neural4x.png",
+      "native_unadjusted_sha256": "02a9e561879d53a92da8186df77f1aebfb1af668a654b5034cc702cc3174f4d0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.25-mean-color-8x.png",
+      "output_sha256": "03fee735e59e02f8de0e63e335b04ef9a3ac52682dd64748d8aac5e2e59ed0e4",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 9.606587409973145,
+        "rgb_p99_abs_error_0_255": 36.0,
+        "rgb_mean_shift_0_255": [
+          0.156982421875,
+          0.30126953125,
+          0.35186767578125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.5,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Warmer color is closer to source, but excessive fine surface relief remains comparatively strong.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\001.png",
+      "source_rgba_sha256": "1d3fbea91844b6e3fbdfd96b88f6cb3c1c428bfded938ab31d6bb7c029687e16",
+      "denoise_strength": 0.5,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.5,
+        0.5
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        8.76531982421875,
+        3.8841094970703125,
+        -1.384429931640625
+      ],
+      "color_offset_clipped_fraction": 6.103515625e-05,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.5-neural4x.png",
+      "native_unadjusted_sha256": "a00c20c33f58304808cb81357564bb70dc6e982a8e09d468821e05f6c4b48e2f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.5-mean-color-8x.png",
+      "output_sha256": "e94879453ffa37735efaeaba6d707114713fd398199ec3b51a2c053b3736acee",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 10.943115234375,
+        "rgb_p99_abs_error_0_255": 36.0,
+        "rgb_mean_shift_0_255": [
+          0.223876953125,
+          0.107177734375,
+          0.375732421875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.1559999999590218,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Best balance among reviewed variants: reduced fine relief with major light/dark shapes retained. Inferred detail remains; game-scale review is required.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\017.png",
+      "source_rgba_sha256": "a6763982f2ff4f202d420caa4655c8bb6b615c21b74c0607218cf8d19ce9dd73",
+      "denoise_strength": 0.5,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.5,
+        0.5
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        0.1878662109375,
+        -2.066497802734375,
+        -3.144012451171875
+      ],
+      "color_offset_clipped_fraction": 0.0005887349446614584,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.5-neural4x.png",
+      "native_unadjusted_sha256": "acdf87575704cfee2ed285552ccf89e4891a1448b79076196c6d806f27f99d2e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.5-mean-color-8x.png",
+      "output_sha256": "c9e33e9f5b8f757db1d08c652c1e10861bcee807e6cf9e022250809586269b76",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 8.963398933410645,
+        "rgb_p99_abs_error_0_255": 33.0,
+        "rgb_mean_shift_0_255": [
+          -0.1951904296875,
+          0.060791015625,
+          0.13958740234375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.5310000000172295,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Best balance among reviewed variants: reduced fine relief with major light/dark shapes retained. Inferred detail remains; game-scale review is required.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\001.png",
+      "source_rgba_sha256": "1d3fbea91844b6e3fbdfd96b88f6cb3c1c428bfded938ab31d6bb7c029687e16",
+      "denoise_strength": 0.75,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.75,
+        0.25
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        10.508819580078125,
+        5.57122802734375,
+        0.0257568359375
+      ],
+      "color_offset_clipped_fraction": 0.0,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.75-neural4x.png",
+      "native_unadjusted_sha256": "6f18632a00f0879691d08520ad2dfe583cc1280c6cee6fa43f654368874a7e1f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\001-dn0.75-mean-color-8x.png",
+      "output_sha256": "515c79d94dc6410f48614208a960b15fba3470fddfb59c63be742e2829b3eb60",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 10.759440422058105,
+        "rgb_p99_abs_error_0_255": 37.0,
+        "rgb_mean_shift_0_255": [
+          0.47998046875,
+          0.419921875,
+          -0.029296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.15600000001722947,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Stronger denoising softens fine structures and merges small material variations more than the middle setting.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\017.png",
+      "source_rgba_sha256": "a6763982f2ff4f202d420caa4655c8bb6b615c21b74c0607218cf8d19ce9dd73",
+      "denoise_strength": 0.75,
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+        }
+      ],
+      "model_weights": [
+        0.75,
+        0.25
+      ],
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "mean_color_offset_rgb": [
+        0.316986083984375,
+        -2.098419189453125,
+        -3.450347900390625
+      ],
+      "color_offset_clipped_fraction": 0.0004564921061197917,
+      "native_unadjusted": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.75-neural4x.png",
+      "native_unadjusted_sha256": "e016b2df695fd5aee35b715426bb086b23182f58fffcd30c8562548f106cd6fa",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-rework-v2\\017-dn0.75-mean-color-8x.png",
+      "output_sha256": "9347dec23249505ba2cba9ba534fa8b83fec34a6fe5d52427b893b584ccef853",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 8.607157707214355,
+        "rgb_p99_abs_error_0_255": 31.0,
+        "rgb_mean_shift_0_255": [
+          -0.3260498046875,
+          0.0987548828125,
+          0.44940185546875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 0.5470000000204891,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Stronger denoising softens fine structures and merges small material variations more than the middle setting.",
+        "scope": "Static source and model comparison sheets only; no UV, repetition, mip or runtime acceptance."
+      },
+      "tiling_verified": false,
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "reason": "Prior WDN had over-inferred fine relief/fibers and cooler color. Compare intermediate denoise plus explicit source mean RGB correction.",
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "review_complete": true,
+  "selected_denoise_strength": 0.5,
+  "verification": {
+    "outputs_checked": 6,
+    "records": [
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+        "dn": 0.25,
+        "sha256": "b1f6599c1b00f12794bbe3095ac98feb72f61ba248afa4d41e6317248fd71ea6"
+      },
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+        "dn": 0.25,
+        "sha256": "03fee735e59e02f8de0e63e335b04ef9a3ac52682dd64748d8aac5e2e59ed0e4"
+      },
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+        "dn": 0.5,
+        "sha256": "e94879453ffa37735efaeaba6d707114713fd398199ec3b51a2c053b3736acee"
+      },
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+        "dn": 0.5,
+        "sha256": "c9e33e9f5b8f757db1d08c652c1e10861bcee807e6cf9e022250809586269b76"
+      },
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+        "dn": 0.75,
+        "sha256": "515c79d94dc6410f48614208a960b15fba3470fddfb59c63be742e2829b3eb60"
+      },
+      {
+        "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+        "dn": 0.75,
+        "sha256": "9347dec23249505ba2cba9ba534fa8b83fec34a6fe5d52427b893b584ccef853"
+      }
+    ]
+  }
+}

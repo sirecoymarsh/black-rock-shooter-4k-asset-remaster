@@ -1,0 +1,706 @@
+{
+  "schema": "brs-field-geometry009-final-review/v1",
+  "batch": "FIELD-GEOMETRY-009",
+  "previous_goal_turn_classification": "progress: geometry008 five new originals/two checker candidates; final recipes and review records completed.",
+  "this_goal_turn_classification": "progress: source checker fits corrected,9 geometry/material derivatives checked and3 held checker originals become static candidates.",
+  "selected": {
+    "FM0430": "FM0430-source-cells-v3",
+    "FM0444": "FM0444-source-cells-v3",
+    "FM0394": "FM0394-source-cells-v3"
+  },
+  "checked_outputs": [
+    {
+      "id": "FM0394-source-cells-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0394-source-cells-v1-8x.png",
+      "sha256": "ba1a5566e657d50050e845e7e358c9ea86117d47a9e167494078cda10159184b",
+      "decision": "not_selected",
+      "reason": "First reconstruction:394 material too soft;430/444 small-grid orientation initialization wrong.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0430-source-cells-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0430-source-cells-v1-8x.png",
+      "sha256": "1783e141c66ed663cf4a7ab109705b36f6214c42ac82f10ebf10ad4991adecf9",
+      "decision": "not_selected",
+      "reason": "First reconstruction:394 material too soft;430/444 small-grid orientation initialization wrong.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0444-source-cells-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0444-source-cells-v1-8x.png",
+      "sha256": "8e2c7d7b72d06890ba93bcef660d6fa875f6f78d387dd4c9029816496c9e984c",
+      "decision": "not_selected",
+      "reason": "First reconstruction:394 material too soft;430/444 small-grid orientation initialization wrong.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0394-source-cells-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0394-source-cells-v2-8x.png",
+      "sha256": "028ef2ff04db371671a63b584a245a1bf49d5d9a351397a177bb088d92fb1a50",
+      "decision": "not_selected",
+      "reason": "Intermediate geometry:394 retained a tiny nonorthogonal fit term;430/444 upper-right treatment omitted surviving checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0430-source-cells-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0430-source-cells-v2-8x.png",
+      "sha256": "06a1924bad63759a43e5336dd133388405d94a2ddbb5ef3cd4f78f96148e87ff",
+      "decision": "not_selected",
+      "reason": "Intermediate geometry:394 retained a tiny nonorthogonal fit term;430/444 upper-right treatment omitted surviving checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0444-source-cells-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0444-source-cells-v2-8x.png",
+      "sha256": "76046d3ab56e3b268f4264a9ba9018b5bae43a38f17f2fff6cb5ca295a936a70",
+      "decision": "not_selected",
+      "reason": "Intermediate geometry:394 retained a tiny nonorthogonal fit term;430/444 upper-right treatment omitted surviving checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0430-source-cells-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0430-source-cells-v3-8x.png",
+      "sha256": "3c2cac06a06102e5ec889b72852424d402dc6a667aaf213f434bcbc7c5f7b27b",
+      "decision": "static_candidate",
+      "reason": "Source geometry/phase restored with original patch colors and restrained local grain; final treatment includes upper-right checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0444-source-cells-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0444-source-cells-v3-8x.png",
+      "sha256": "8275469559f4fed563e533e713607c463d479a425cab2dcf0632d13f05ebd020",
+      "decision": "static_candidate",
+      "reason": "Source geometry/phase restored with original patch colors and restrained local grain; final treatment includes upper-right checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0394-source-cells-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry009\\FM0394-source-cells-v3-8x.png",
+      "sha256": "3f5e379805a13617703b0284bdcf6b2a6c7ae507ccfd2c434a185b8032084543",
+      "decision": "static_candidate",
+      "reason": "Source geometry/phase restored with original patch colors and restrained local grain; final treatment includes upper-right checker fragments.",
+      "source_parent_vector_mask_maps_program_output_hashes_verified": true,
+      "RGBA_recipe_reproduced": true,
+      "outside_treatment_parent_RGBA_exact": true,
+      "alpha_source_nearest8x_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "geometry_diagnostics": {
+    "FM0430": {
+      "patches": [
+        {
+          "patch": "middle",
+          "source_pixel_centers_tested": 104,
+          "checker_coefficient_RGB_mean": {
+            "source": 45.856660695639476,
+            "local_WDN": 44.486031361375375,
+            "final": 47.384359612618454
+          },
+          "output_to_source_coefficient_ratio": 1.0333146568852591,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "left",
+          "source_pixel_centers_tested": 49,
+          "checker_coefficient_RGB_mean": {
+            "source": 20.901751921048348,
+            "local_WDN": 17.682126627559217,
+            "final": 22.865923666853675
+          },
+          "output_to_source_coefficient_ratio": 1.093971632293051,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "upper-right",
+          "source_pixel_centers_tested": 157,
+          "checker_coefficient_RGB_mean": {
+            "source": 20.579144583257012,
+            "local_WDN": 18.807238351795746,
+            "final": 22.56539840931548
+          },
+          "output_to_source_coefficient_ratio": 1.096517803158566,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "lower-right",
+          "source_pixel_centers_tested": 22,
+          "checker_coefficient_RGB_mean": {
+            "source": -36.97911460100992,
+            "local_WDN": -31.427189071611483,
+            "final": -39.05176226178355
+          },
+          "output_to_source_coefficient_ratio": 1.0560491424182727,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": false,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    },
+    "FM0444": {
+      "patches": [
+        {
+          "patch": "middle",
+          "source_pixel_centers_tested": 108,
+          "checker_coefficient_RGB_mean": {
+            "source": 17.016584167044613,
+            "local_WDN": 8.758380319085642,
+            "final": 13.69502361815195
+          },
+          "output_to_source_coefficient_ratio": 0.8048045062225,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "left",
+          "source_pixel_centers_tested": 28,
+          "checker_coefficient_RGB_mean": {
+            "source": 11.851992518374722,
+            "local_WDN": 6.879501027131036,
+            "final": 9.66476368748002
+          },
+          "output_to_source_coefficient_ratio": 0.8154547577123649,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "upper-right",
+          "source_pixel_centers_tested": 79,
+          "checker_coefficient_RGB_mean": {
+            "source": 10.418024658049847,
+            "local_WDN": 5.472022382570506,
+            "final": 8.768581770191886
+          },
+          "output_to_source_coefficient_ratio": 0.8416741232625649,
+          "phase_polarity_preserved": true
+        },
+        {
+          "patch": "lower-right",
+          "source_pixel_centers_tested": 23,
+          "checker_coefficient_RGB_mean": {
+            "source": -16.76767018807144,
+            "local_WDN": -11.729942073154708,
+            "final": -13.078485480126977
+          },
+          "output_to_source_coefficient_ratio": 0.7799822714446664,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": false,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    },
+    "FM0394": {
+      "patches": [
+        {
+          "patch": "large",
+          "source_pixel_centers_tested": 4226,
+          "checker_coefficient_RGB_mean": {
+            "source": 41.3722385822649,
+            "local_WDN": 41.42012433530342,
+            "final": 41.3111004503461
+          },
+          "output_to_source_coefficient_ratio": 0.9985222425951831,
+          "phase_polarity_preserved": true
+        }
+      ],
+      "straight_affine_cell_edges": true,
+      "all_cell_axes_exact_horizontal_vertical": true,
+      "limit": "Source-center checker coefficients support phase/contrast on measured interiors. They do not certify exact fragment-cell counts, every damaged edge or high-resolution ground truth. Source remapping keeps cell-level tone; faint444 retains70-90% source contrast instead of approximately half under WDN."
+    }
+  },
+  "new_local_neural_unique_originals": 0,
+  "new_geometry_only_unique_originals": 0,
+  "new_direct_GPT_only_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 0,
+  "source_reports_sha256": {
+    "qa\\field_geometry009_reconstruction_v1.json": "69e410d164c3b4727feadbfd984c13ef4fb69627c51b73e246d872d1447ecda0",
+    "qa\\field_geometry009_reconstruction_v2.json": "5a3fe88c5ab42db8f9fd8cf2c313dfcf661b09b9766e21bbd5ef9bb6a9d6f8cd",
+    "qa\\field_geometry009_reconstruction_v3.json": "d92d26d0eb148d5c92cb977c074dd748835c8f2dbc2458e24bdc89ac15060d05",
+    "qa\\field_geometry009_checker394_v3.json": "40219a308e212fc62d1d6844cd8f02a69ce64ab7525534cdf52c1b03bb1e1063",
+    "qa\\field_geometry009_lattice_audit.json": "e46eb439282e170cc16b8862465521302a253dcea53d204525a2ea70ae97c2d7",
+    "qa\\field_geometry009_lattice_audit_v2.json": "252131650b6242f29d637555862339726d6d6174e7ae50d9e13b82dcfdc76666"
+  },
+  "source_and_comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v1-whole.png",
+      "sha256": "8821ca1046c8319ba1616dc8814a7f7d80866088b09cc2c3c8e27f575f497bd8",
+      "group_id": "FM0394",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v1-checker.png",
+      "sha256": "bf2aa649de2a29cca3142932b4a33b666fc171eeb56a422338d8970ba6e682a9",
+      "group_id": "FM0394",
+      "source_box": [
+        38,
+        35,
+        78,
+        75
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v1-whole.png",
+      "sha256": "30a44f3ffe60be783e30f61669102730b2c6f5cdf66495be5dec1d5df38f820c",
+      "group_id": "FM0430",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v1-middle.png",
+      "sha256": "060bf7480ffeb54bb1efa7ccd44c88204cad60c6be72a70e6d67b9fd29d2ae63",
+      "group_id": "FM0430",
+      "source_box": [
+        48,
+        63,
+        76,
+        107
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v1-upper.png",
+      "sha256": "1ab2e15dcb21fdacaf879f06a3f35d4ed8b71041bb56943d8898e72451824247",
+      "group_id": "FM0430",
+      "source_box": [
+        96,
+        8,
+        128,
+        40
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v1-whole.png",
+      "sha256": "00ad4efb02ba9c1a5631122bfc6046e23576ee07d53ac194b9c77e3418cf3945",
+      "group_id": "FM0444",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v1-middle.png",
+      "sha256": "502d466f9e09b0ba50e97a96f3fdf2095bb328472062f9e2681fb764f11c9efd",
+      "group_id": "FM0444",
+      "source_box": [
+        24,
+        31,
+        40,
+        55
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v2-whole.png",
+      "sha256": "2a50f1c7978dffc3b231047f00ae44958025792b2519555545ad27a21bfd7ec8",
+      "group_id": "FM0394",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v2-checker.png",
+      "sha256": "7aee7a222e3cce83ce67f0efe59605a24f9735d81929330e7c9d4c11b04ef728",
+      "group_id": "FM0394",
+      "source_box": [
+        38,
+        35,
+        78,
+        75
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v2-whole.png",
+      "sha256": "e94391775727b6f53ee32c5c4a84e177ca6736ddcc3473080a8bdd12fdd85bb5",
+      "group_id": "FM0430",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v2-middle.png",
+      "sha256": "9151b17b0357eb9c037e0d6d22ac3e8e4e0877fcaea6a605cf3ed5ab1ad6b511",
+      "group_id": "FM0430",
+      "source_box": [
+        48,
+        63,
+        76,
+        107
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v2-upper.png",
+      "sha256": "f7ef36fdd21c9b7e34c71bec210d958a369e3abaf3bd5eb75b0187b8504ca6cf",
+      "group_id": "FM0430",
+      "source_box": [
+        96,
+        8,
+        128,
+        40
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v2-whole.png",
+      "sha256": "e4a4a894dcd5d86ea8da560790833083b58f2813cd74a99c5ea89e5cdb727a39",
+      "group_id": "FM0444",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v2-middle.png",
+      "sha256": "99d1eee89aea5c7166a065e84d106d7cc00106da07f836a47799577709826df7",
+      "group_id": "FM0444",
+      "source_box": [
+        24,
+        31,
+        40,
+        55
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v3-whole.png",
+      "sha256": "4f2eb6a917dc631ca08b29ffc70aee72dc893889e7fa4a0a8ea6660b1f9cd1f2",
+      "group_id": "FM0430",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v3-middle.png",
+      "sha256": "b3f8c021cb6980bbdd992e72dd4995596b3ad33370964cc27fd1d35f59a2f07e",
+      "group_id": "FM0430",
+      "source_box": [
+        48,
+        63,
+        76,
+        107
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v3-upper.png",
+      "sha256": "22794adbe12ca41171e03d6e84d46c029715daba8f06e2cc4cc370940d5dea30",
+      "group_id": "FM0430",
+      "source_box": [
+        96,
+        8,
+        128,
+        40
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v3-left.png",
+      "sha256": "1888d46a234649e8c162d8a12c14121dfd71aec67b84d1abffbed2a219d7fe30",
+      "group_id": "FM0430",
+      "source_box": [
+        14,
+        36,
+        34,
+        68
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-source-cells-v3-lower.png",
+      "sha256": "fcca9559e7c5b4d530eb3c9470e35a8fa12975df2ccd4e3d4e3b57f222e3b8aa",
+      "group_id": "FM0430",
+      "source_box": [
+        90,
+        110,
+        108,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v3-whole.png",
+      "sha256": "b255144664d79a0f62191a0939abe2c6a97fb49fe58b880b90999ed016936012",
+      "group_id": "FM0444",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v3-middle.png",
+      "sha256": "27f0c5b28747267536642540ccae3e9f87bfc8b8faee42c5f79620dacd10234d",
+      "group_id": "FM0444",
+      "source_box": [
+        24,
+        31,
+        40,
+        55
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v3-upper.png",
+      "sha256": "1d744a791ad831fb89e21ab19a77ae8fe02c1138224105ab87890408d6d33af2",
+      "group_id": "FM0444",
+      "source_box": [
+        48,
+        4,
+        64,
+        20
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v3-left.png",
+      "sha256": "f51306b5959a7445e1f30649416a2e671b82448d25de3b22fc4fdd3c679aafc9",
+      "group_id": "FM0444",
+      "source_box": [
+        7,
+        18,
+        17,
+        34
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0444-source-cells-v3-lower.png",
+      "sha256": "71a9604fbb88a6b3e499e6ec468b85556cec8c4bd77f8c764f8e8e6e241fcf09",
+      "group_id": "FM0444",
+      "source_box": [
+        45,
+        55,
+        54,
+        64
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_reconstruction_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v3-whole.png",
+      "sha256": "01543e40513b88370c700b1bc2c8f184b385d43068ac1c18db646c68acf4a12a",
+      "group_id": "FM0394",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_checker394_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-source-cells-v3-checker.png",
+      "sha256": "da7d24b153fa4f9c82c040ae6010e64aae9bc8b6516414d90e08f40dbc8838b1",
+      "group_id": "FM0394",
+      "source_box": [
+        38,
+        35,
+        78,
+        75
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry009_checker394_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-lattice-audit.png",
+      "sha256": "0332eb7110ff53f365ea7a9c0bac2fb63d5407a440b7d122a66c50c6173987ea",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-lattice-audit.png",
+      "sha256": "87c04a1b752c308668465391800a2e9d220bd844b4a809332a493eb042849bc4",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-lattice-audit-v2.png",
+      "sha256": "0332eb7110ff53f365ea7a9c0bac2fb63d5407a440b7d122a66c50c6173987ea",
+      "review_status": "not_reopened_identical_to_inspected_v1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-lattice-audit-v2.png",
+      "sha256": "64645ffe87dadd597b02e7e858cfa2895916fbdfdbd18461e04036670e6991f1",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0394-geometry009-coordinates.png",
+      "sha256": "44901c331dcbe27c26506fd65716f453c7e5620f3753cdd8aa9abf440843574b",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\FM0430-geometry009-coordinates.png",
+      "sha256": "59087a0a45d269670942f10251b14036239fea2e92c793f429453a67a5e65581",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0430-source.png",
+      "sha256": "6aa49e100451371d342e88f8c83cdeface994e0654dcf04c4dbd502967ff1dac",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_page": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0444-source.png",
+      "sha256": "917a100c6807ba6764acea4d535b8d3e40b6bf293cd0ed51cc93302e936040de",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_page": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry008\\FM0394-source.png",
+      "sha256": "242c484ae1d5e6a453fee46b4c63d6c8ea15fa153f0a5a21068ed023dda7ca99",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "reused_source_page": true
+    }
+  ],
+  "pages_directly_inspected": 34,
+  "catalog_before_sha256": "d20de871c8ffdbdeb30651bbebdf7e2c816d9a363707108cf193432e78e71546",
+  "catalog_after_sha256": "cc2f814fb2d872590dded3f373ea305f8025fb976cfb6992865e129da2621799",
+  "geometry_contract_before_sha256": "2bc73d62030a820bf871de233023f6d86e6775dc73bfa462a590c3be980e3c1c",
+  "geometry_contract_after_sha256": "680cf8d4e0d1d4629d8a83cd3af223573f31cc57d5115697a5cd22e340c698c2",
+  "field_checker_design_review_sha256": "ae4f4e57a2894d7ec582a4788e99c12ac27e4f121847f88102486816121539d9",
+  "other573_field_groups_unchanged": true,
+  "previous104_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 149,
+    "field_static_candidates": 107,
+    "field_holds": 46,
+    "field_groups_not_processed_in_field_context": 423,
+    "remaining_novel_unprocessed": 198,
+    "latest_review": "qa/field_geometry009_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 153,
+    "counting_note": "Cumulative novel field processing:149 locally inferred +3 direct-GPT-only +1 deterministic-geometry-only =153 originals. Repeated inference, retries and geometry derivatives of already processed originals do not add unique originals. Static candidates and holds include all routes.",
+    "field_geometry_only_originals": 1
+  },
+  "unique_local_neural_originals_title_battle_novel_field": 406,
+  "processed_originals_title_battle_novel_field_all_routes": 412,
+  "all_routes_count_basis": {
+    "title": 1,
+    "battle": 258,
+    "novel_field": 153
+  },
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\장식_체크_3종_복원_비교.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry009\\장식_체크_3종_복원_비교.png",
+    "sha256": "3ca890d208b83ce535b32deae9bf33fe70795630f321ec7c31a6971c382b0418",
+    "review_status": "directly_inspected_by_Codex_internal",
+    "visual_check": "All three rows checked: original, earlier local WDN and final source-owned checker geometry. Contrast distinctions retained; whole-game installation/runtime still pending."
+  },
+  "source_interpretation_corrections": [
+    "First430/444 grid used fragment silhouette angle as internal grid angle. Source peak centers and second fit show near-axis-aligned checker; first orientation discarded.",
+    "Initial upper-right treatment failed to cover intact left/up checker fragments; v3 expands treatment over source-supported fragments.",
+    "Large394 initial near-orthogonal affine fit had tiny nonzero cross terms. Final sets cross terms exactly zero for horizontal/vertical lines and90-degree cell corners."
+  ],
+  "tips_consulted": [
+    "references/tips/general/whole-canvas-rendering-preserved-cross-tile-effects.md",
+    "references/tips/general/equal-raw-bytes-can-have-different-consumer-semantics.md"
+  ],
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "Source geometry is a bounded affine reconstruction from low-resolution evidence, not native high-resolution ground truth. Do not claim exact original fragment-cell counts from the treatment polygon.",
+    "Source RGB is independently remapped within each cell; chip/dirt tone remains an interpretation at subpixel edges. Materials use previously generated local detail, with no new neural inference this turn.",
+    "444 source-scale core checker contrast ratios are approximately.78-.84; better retained than prior WDN, but not exact source contrast.",
+    "Historical57 field/241 battle candidates need geometry-applicability checks;46 field holds/198 novel unprocessed,43 battle issues and other game populations remain.",
+    "No new runtime key, installation, emulator launch, gameplay proof or release ZIP. GUI remains unavailable; no successful Explorer claim."
+  ],
+  "next_action": "Resolve496 coupled plate corner and adjoining edges; continue masonry456/465/466/473 and machinery29/391/396/407, perspective37/38 and remaining198 field originals, battle and other game populations.",
+  "scripts": {
+    "fit_checker_geometry009.py": "9bba73709b5243d5f85bb66c1dd2466607fee861691c81d7ebc1d05b403251e5",
+    "fit_checker_geometry009_v2.py": "470d707ab846a85cfd0d35cee564b46f0dbc6e1be60264559d9ef726f66f5269",
+    "rebuild_checker_geometry009.py": "4945b868e3d0972e004c12dd177ef0dcd312485b79d04d5c163fb781c6ed57e3",
+    "rebuild_checker_geometry009_v2.py": "017f127d15609743285db6919f05d42bc3aa70b99de518ba5a123bf1bdcc335f",
+    "rebuild_checker_geometry009_v3.py": "1898a91733bb611905e057610201306fcd64d675a8bb74900bc3dd1fedb5affb",
+    "rebuild_checker394_geometry009_v3.py": "9b5ecb97e6ff648ee9f5fdeef582362d967fa6b9293b11535c59e26532243285",
+    "finalize_field_geometry009.py": "98cd202c24f599196c4c30afa3060772b93570a1e4ae7249754daae04603f26a"
+  }
+}

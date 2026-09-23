@@ -1,0 +1,1255 @@
+{
+  "schema": "brs-source-repeat-refinement/v3",
+  "parent_report_sha256": "f37540c70a1776c51d85c9b7ec2e78b55ec30dd7f971dba24c9ba44afdfdb609",
+  "files": [
+    {
+      "group_id": "FM0346",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.ptm",
+      "source_ptm_sha256": "3f626f2336a32b2fe61ba752efdec41e146a8351e8e133a0872cd091d209b56f",
+      "source_rgba_sha256": "bc5b03ff297bd8c5ca1eb67991387245818171ed91a547c9a439b6e37eafdaad",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr004\\FM0346-wdn-8x.png",
+      "parent_sha256": "14f3b0f75b1cbc34285ce4343944ce01b15e0c0352c1dfa7fe445371fe17393b",
+      "id": "FM0346-source-faces-bevel-v3",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-faces-bevel-v3-8x.png",
+      "output_sha256": "2cb47162d1cb3dda8ba776b97c90587d44ba086d109e00e8c03544d70c5283d7",
+      "base_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-faces-bevel-v3-base.npz",
+      "base_planes_sha256": "a3e0a381ec15de956658725159f18fb483161fdc84f289c4650e9ee4fa4074a9",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-faces-bevel-v3-classes.png",
+      "region_classmap_sha256": "274b32c0c09eeeac129360392213c839006cddb70254ca05f091f374bac490eb",
+      "source_phase_rgb": [
+        [
+          [
+            132.0,
+            121.0,
+            107.0
+          ],
+          [
+            127.5,
+            119.0,
+            107.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            99.0,
+            89.0,
+            82.0
+          ]
+        ],
+        [
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            115.0,
+            105.0,
+            99.0
+          ],
+          [
+            115.0,
+            105.0,
+            99.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ]
+        ],
+        [
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            123.0,
+            117.0,
+            107.0
+          ],
+          [
+            132.0,
+            121.0,
+            107.0
+          ],
+          [
+            132.0,
+            121.0,
+            107.0
+          ],
+          [
+            115.0,
+            105.0,
+            99.0
+          ]
+        ],
+        [
+          [
+            165.0,
+            156.0,
+            144.0
+          ],
+          [
+            165.0,
+            156.0,
+            144.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            132.0,
+            125.0,
+            115.0
+          ]
+        ],
+        [
+          [
+            173.0,
+            162.0,
+            148.0
+          ],
+          [
+            173.0,
+            162.0,
+            148.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            148.0,
+            138.0,
+            123.0
+          ],
+          [
+            148.0,
+            138.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            173.0,
+            162.0,
+            148.0
+          ],
+          [
+            177.0,
+            166.0,
+            152.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            181.0,
+            170.0,
+            156.0
+          ],
+          [
+            181.0,
+            170.0,
+            156.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ]
+        ],
+        [
+          [
+            181.0,
+            170.0,
+            156.0
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            177.0,
+            166.0,
+            152.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            181.0,
+            170.0,
+            156.0
+          ],
+          [
+            148.0,
+            138.0,
+            123.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            177.0,
+            166.0,
+            152.0
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            181.0,
+            170.0,
+            156.5
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            148.0,
+            138.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            177.0,
+            166.0,
+            152.0
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ]
+        ],
+        [
+          [
+            185.0,
+            174.0,
+            160.5
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ],
+        [
+          [
+            185.0,
+            174.0,
+            160.5
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ]
+      ],
+      "source_profiles_rgb": {
+        "bright": [
+          [
+            129.75,
+            120.0,
+            107.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            165.0,
+            156.0,
+            144.0
+          ],
+          [
+            173.0,
+            162.0,
+            148.0
+          ],
+          [
+            175.0,
+            164.0,
+            150.0
+          ],
+          [
+            181.0,
+            170.0,
+            156.0
+          ],
+          [
+            189.0,
+            178.0,
+            165.0
+          ],
+          [
+            185.0,
+            174.0,
+            160.5
+          ],
+          [
+            183.0,
+            172.0,
+            158.5
+          ],
+          [
+            185.0,
+            174.0,
+            160.5
+          ],
+          [
+            183.0,
+            172.0,
+            158.5
+          ],
+          [
+            185.0,
+            174.0,
+            160.75
+          ],
+          [
+            183.0,
+            172.0,
+            158.5
+          ],
+          [
+            187.0,
+            176.0,
+            162.75
+          ],
+          [
+            187.0,
+            176.0,
+            162.75
+          ]
+        ],
+        "shaded": [
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            112.33333587646484,
+            103.66666412353516,
+            96.0
+          ],
+          [
+            129.0,
+            119.66666412353516,
+            107.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            145.3333282470703,
+            135.3333282470703,
+            123.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            150.6666717529297,
+            143.3333282470703,
+            134.6666717529297
+          ],
+          [
+            150.6666717529297,
+            143.3333282470703,
+            134.6666717529297
+          ],
+          [
+            153.3333282470703,
+            144.6666717529297,
+            137.3333282470703
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            153.3333282470703,
+            143.3333282470703,
+            134.3333282470703
+          ],
+          [
+            153.3333282470703,
+            144.6666717529297,
+            137.3333282470703
+          ],
+          [
+            150.6666717529297,
+            143.3333282470703,
+            134.6666717529297
+          ],
+          [
+            153.3333282470703,
+            144.6666717529297,
+            137.3333282470703
+          ],
+          [
+            156.0,
+            146.0,
+            140.0
+          ],
+          [
+            153.3333282470703,
+            144.6666717529297,
+            137.3333282470703
+          ]
+        ],
+        "shadow": [
+          [
+            99.0,
+            89.0,
+            82.0
+          ],
+          [
+            107.0,
+            101.0,
+            90.0
+          ],
+          [
+            115.0,
+            105.0,
+            99.0
+          ],
+          [
+            132.0,
+            125.0,
+            115.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            148.0,
+            138.0,
+            123.0
+          ],
+          [
+            148.0,
+            142.0,
+            132.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ],
+          [
+            140.0,
+            130.0,
+            123.0
+          ]
+        ]
+      },
+      "phase_regions": {
+        "bright": [
+          0,
+          2
+        ],
+        "shaded": [
+          2,
+          5
+        ],
+        "shadow": [
+          5,
+          6
+        ]
+      },
+      "period_source": 6,
+      "lower_source_y": 16,
+      "profile_smoothing_sigma_source_y": 0.5,
+      "grain_sigma_output": 2,
+      "grain_gain": 0.4,
+      "grain_bound": 2,
+      "method": "Source6-pixel repeat divided into2-pixel bright face,3-pixel shaded face and1-pixel darker bevel, original vertical illumination, bounded local WDN grain. No black gaps or new neural inference.",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-whole-v3.png",
+      "sha256": "c26b2d4f81e1c1b06a8ed063ced6737c0f1b66800c674f4806c3ea44f92c2136",
+      "review_status": "pending"
+    }
+  ],
+  "FM0347_curve_diagnostics": {
+    "samples": [
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 3.332666666666667,
+        "source_highlight_centroid_x": 3.1923076923076916,
+        "difference_source_px": 0.14035897435897526,
+        "weight": 17.333333333333314
+      },
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 5.653197674418604,
+        "source_highlight_centroid_x": 5.5,
+        "difference_source_px": 0.1531976744186041,
+        "weight": 15.000000000000007
+      },
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 7.689567093847712,
+        "source_highlight_centroid_x": 8.886554621848738,
+        "difference_source_px": -1.196987528001026,
+        "weight": 79.33333333333334
+      },
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 10.30654240593935,
+        "source_highlight_centroid_x": 10.18141592920354,
+        "difference_source_px": 0.1251264767358098,
+        "weight": 75.33333333333333
+      },
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 12.636333413926499,
+        "source_highlight_centroid_x": 12.5,
+        "difference_source_px": 0.1363334139264989,
+        "weight": 36.0
+      },
+      {
+        "repeat": 0,
+        "direction": 1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 14.690599165718618,
+        "source_highlight_centroid_x": 14.458904109589039,
+        "difference_source_px": 0.2316950561295794,
+        "weight": 24.333333333333343
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 13.667333333333335,
+        "source_highlight_centroid_x": 14.863636363636365,
+        "difference_source_px": -1.1963030303030298,
+        "weight": 14.666666666666657
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 11.346802325581395,
+        "source_highlight_centroid_x": 12.76923076923077,
+        "difference_source_px": -1.422428443649375,
+        "weight": 17.333333333333343
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 9.31043290615229,
+        "source_highlight_centroid_x": 9.201680672268907,
+        "difference_source_px": 0.10875223388338284,
+        "weight": 79.33333333333334
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 6.693457594060652,
+        "source_highlight_centroid_x": 7.818584070796461,
+        "difference_source_px": -1.125126476735809,
+        "weight": 75.33333333333333
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 4.363666586073501,
+        "source_highlight_centroid_x": 5.5,
+        "difference_source_px": -1.136333413926499,
+        "weight": 36.0
+      },
+      {
+        "repeat": 0,
+        "direction": -1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 2.309400834281381,
+        "source_highlight_centroid_x": 3.1728971962616823,
+        "difference_source_px": -0.8634963619803013,
+        "weight": 35.66666666666668
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 18.332666666666665,
+        "source_highlight_centroid_x": 18.863636363636367,
+        "difference_source_px": -0.5309696969697022,
+        "weight": 14.666666666666657
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 20.653197674418607,
+        "source_highlight_centroid_x": 20.5,
+        "difference_source_px": 0.15319767441860677,
+        "weight": 31.000000000000007
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 22.689567093847714,
+        "source_highlight_centroid_x": 23.73837209302326,
+        "difference_source_px": -1.0488049991755446,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 25.306542405939346,
+        "source_highlight_centroid_x": 25.116,
+        "difference_source_px": 0.1905424059393468,
+        "weight": 83.33333333333333
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 27.636333413926497,
+        "source_highlight_centroid_x": 27.5,
+        "difference_source_px": 0.13633341392649712,
+        "weight": 36.0
+      },
+      {
+        "repeat": 1,
+        "direction": 1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 29.69059916571862,
+        "source_highlight_centroid_x": 30.250000000000004,
+        "difference_source_px": -0.5594008342813837,
+        "weight": 9.333333333333343
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 28.667333333333335,
+        "source_highlight_centroid_x": 29.5,
+        "difference_source_px": -0.8326666666666647,
+        "weight": 19.999999999999993
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 26.346802325581393,
+        "source_highlight_centroid_x": 27.5,
+        "difference_source_px": -1.1531976744186068,
+        "weight": 36.0
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 24.310432906152286,
+        "source_highlight_centroid_x": 24.261627906976745,
+        "difference_source_px": 0.04880499917554104,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 21.693457594060654,
+        "source_highlight_centroid_x": 22.98,
+        "difference_source_px": -1.2865424059393469,
+        "weight": 83.33333333333333
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 19.363666586073503,
+        "source_highlight_centroid_x": 20.32608695652174,
+        "difference_source_px": -0.9624203704482355,
+        "weight": 30.666666666666664
+      },
+      {
+        "repeat": 1,
+        "direction": -1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 17.30940083428138,
+        "source_highlight_centroid_x": 17.75,
+        "difference_source_px": -0.4405991657186199,
+        "weight": 9.333333333333343
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 33.332666666666675,
+        "source_highlight_centroid_x": 33.5,
+        "difference_source_px": -0.16733333333332467,
+        "weight": 19.999999999999993
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 35.65319767441861,
+        "source_highlight_centroid_x": 35.55102040816327,
+        "difference_source_px": 0.10217726625533885,
+        "weight": 32.66666666666667
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 37.68956709384771,
+        "source_highlight_centroid_x": 38.73837209302326,
+        "difference_source_px": -1.0488049991755517,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 40.30654240593935,
+        "source_highlight_centroid_x": 40.14963503649635,
+        "difference_source_px": 0.15690736944299744,
+        "weight": 91.33333333333333
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 42.636333413926494,
+        "source_highlight_centroid_x": 42.689189189189186,
+        "difference_source_px": -0.05285577526269236,
+        "weight": 37.0
+      },
+      {
+        "repeat": 2,
+        "direction": 1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 44.69059916571862,
+        "source_highlight_centroid_x": 44.90384615384615,
+        "difference_source_px": -0.21324698812752985,
+        "weight": 17.333333333333343
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 43.667333333333325,
+        "source_highlight_centroid_x": 44.50000000000001,
+        "difference_source_px": -0.8326666666666824,
+        "weight": 19.999999999999993
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 41.34680232558139,
+        "source_highlight_centroid_x": 42.54201680672269,
+        "difference_source_px": -1.1952144811412992,
+        "weight": 39.66666666666667
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 39.31043290615229,
+        "source_highlight_centroid_x": 39.26162790697675,
+        "difference_source_px": 0.048804999175544594,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 36.69345759406065,
+        "source_highlight_centroid_x": 37.884,
+        "difference_source_px": -1.1905424059393468,
+        "weight": 83.33333333333333
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 34.363666586073506,
+        "source_highlight_centroid_x": 35.673913043478265,
+        "difference_source_px": -1.3102464574047588,
+        "weight": 30.666666666666664
+      },
+      {
+        "repeat": 2,
+        "direction": -1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 32.30940083428138,
+        "source_highlight_centroid_x": 32.75,
+        "difference_source_px": -0.44059916571862345,
+        "weight": 9.333333333333343
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 48.332666666666675,
+        "source_highlight_centroid_x": 48.5,
+        "difference_source_px": -0.16733333333332467,
+        "weight": 19.999999999999993
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 50.65319767441861,
+        "source_highlight_centroid_x": 50.5,
+        "difference_source_px": 0.15319767441860677,
+        "weight": 38.00000000000001
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 52.68956709384771,
+        "source_highlight_centroid_x": 53.73837209302325,
+        "difference_source_px": -1.0488049991755446,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 55.30654240593935,
+        "source_highlight_centroid_x": 54.97445255474453,
+        "difference_source_px": 0.3320898511948158,
+        "weight": 91.33333333333333
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 57.636333413926494,
+        "source_highlight_centroid_x": 57.5,
+        "difference_source_px": 0.13633341392649356,
+        "weight": 36.0
+      },
+      {
+        "repeat": 3,
+        "direction": 1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 59.69059916571862,
+        "source_highlight_centroid_x": 59.82432432432432,
+        "difference_source_px": -0.13372515860569933,
+        "weight": 24.66666666666667
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 18,
+        "predicted_x_at_pixel_center": 58.667333333333325,
+        "source_highlight_centroid_x": 59.625,
+        "difference_source_px": -0.9576666666666753,
+        "weight": 21.33333333333332
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 20,
+        "predicted_x_at_pixel_center": 56.34680232558139,
+        "source_highlight_centroid_x": 57.5,
+        "difference_source_px": -1.1531976744186068,
+        "weight": 38.00000000000001
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 22,
+        "predicted_x_at_pixel_center": 54.31043290615229,
+        "source_highlight_centroid_x": 54.26162790697674,
+        "difference_source_px": 0.0488049991755517,
+        "weight": 114.66666666666666
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 25,
+        "predicted_x_at_pixel_center": 51.69345759406065,
+        "source_highlight_centroid_x": 52.90268456375839,
+        "difference_source_px": -1.2092269696977382,
+        "weight": 99.33333333333333
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 27,
+        "predicted_x_at_pixel_center": 49.363666586073506,
+        "source_highlight_centroid_x": 50.5,
+        "difference_source_px": -1.1363334139264936,
+        "weight": 36.0
+      },
+      {
+        "repeat": 3,
+        "direction": -1,
+        "source_y": 29,
+        "predicted_x_at_pixel_center": 47.30940083428138,
+        "source_highlight_centroid_x": 48.09615384615385,
+        "difference_source_px": -0.7867530118724702,
+        "weight": 17.333333333333343
+      }
+    ],
+    "absolute_error_median_source_px": 0.4857844313441628,
+    "absolute_error_p95_source_px": 1.2594820032547838,
+    "limit": "Weighted highlight centers at six rows per curve, not exact source geometry or runtime proof. Aliased shading and crossing support affect centroids."
+  },
+  "new_neural_passes": 0,
+  "external_calls": 0
+}

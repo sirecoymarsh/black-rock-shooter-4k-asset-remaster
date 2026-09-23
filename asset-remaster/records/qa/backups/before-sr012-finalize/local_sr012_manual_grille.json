@@ -1,0 +1,104 @@
+{
+  "schema": "brs-sr012-manual-grille/v1",
+  "files": [
+    {
+      "id": "BM110-codex-vector-v1",
+      "group_id": "BM110",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1.png",
+      "output_sha256": "90a572c7fc659503a27c0849e6451ecabcca9bcf81c0cc8b3804d4c2d1406fe5",
+      "output_size": [
+        512,
+        256
+      ],
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1.svg",
+      "vector_sha256": "e86a5da5384f6112581b93a1ef9072a180a0d3c2fdd628fafc2209a2235188d5",
+      "raw_render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1-render.png",
+      "raw_render_sha256": "707565ff44a280b09ee7d6cacad4b97eb38b00daaf9d30adbe84948d39e62e6d",
+      "method": "Codex internal authored SVG from measured original coordinates and sampled palette; rendered 8x; source bilinear alpha applied separately",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "alpha_method": "exact source bilinear8x",
+      "horizontal_slat_source_rows": [
+        8,
+        10,
+        12,
+        14,
+        17,
+        19,
+        21,
+        23,
+        25
+      ],
+      "vertical_slat_source_columns": [
+        9,
+        15,
+        21,
+        27
+      ],
+      "interrupted_source_row15_segments": [
+        [
+          11,
+          15,
+          14,
+          16
+        ],
+        [
+          17,
+          15,
+          20,
+          16
+        ],
+        [
+          23,
+          15,
+          26,
+          16
+        ],
+        [
+          29,
+          15,
+          32,
+          16
+        ]
+      ],
+      "circular_center_source_xy": [
+        48,
+        16
+      ],
+      "circular_redraw_note": "Explicit source-informed manual interpretation; true lost HD detail is unknown.",
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "gpt_attempt": {
+    "method": "built-in image_gen reference edit",
+    "source_reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+    "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-gpt-redraw-rejected.png",
+    "output_sha256": "332bc1245d937c3f7499654529d799813ec08cb7bb59c194160a61074a2ff87b",
+    "output_size": [
+      1774,
+      887
+    ],
+    "image_upload": true,
+    "decision": "rejected",
+    "reason": "Grille slat count/spacing and vertical divisions differ; oversized cardinal supports and redesigned circular center; object placement does not match original atlas.",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "downsample_alpha128_iou": 0.8425655976676385,
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_BM110.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 1,
+  "runtime_verified": false,
+  "release_eligible": false
+}

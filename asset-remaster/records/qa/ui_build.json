@@ -1,0 +1,2994 @@
+{
+  "schema": "brs-hd-ui/v2",
+  "translator_model": "Codex internal",
+  "translation_change": "none; inherited Korean wording unchanged",
+  "wording_source_sha256": "28e718ca4078d52937c7839c16520c5ac53934947a757e2078eed76683d2d7ba",
+  "scale": 8,
+  "font": "C:\\Windows\\Fonts\\NotoSansKR-VF.ttf",
+  "font_sha256": "018174e8cdd366aff67c8d366c7dc806a7babbe7f2819fc23b00d59f7b8353d0",
+  "asset_count": 27,
+  "mapped_asset_count": 19,
+  "exact_binding_count": 17,
+  "broad_wildcards": 0,
+  "runtime_status": "unverified",
+  "records": [
+    {
+      "id": "UI-00",
+      "source_relative": "MENU/IF_MISSION_FAILED/000_PTMD.ptm",
+      "source_ptmd_sha256": "eef6c1fa0540162c9672992922216f6f3c08076175b9b145e40511967fbe65b4",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-00_8x.png",
+      "candidate_sha256": "abd50bfa8ca2252fdf8198fcbadec4d0e06ba42d628404d91e3fbe5698d006c9",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        72
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 실패",
+            "box": [
+              1,
+              0,
+              127,
+              25
+            ],
+            "size_px": 184,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "임무 재도전",
+            "box": [
+              1,
+              25,
+              127,
+              40
+            ],
+            "size_px": 104,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스테이지 선택",
+            "box": [
+              1,
+              40,
+              127,
+              55
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "불러오기",
+            "box": [
+              65,
+              56,
+              127,
+              71
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              127,
+              56
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              65,
+              56,
+              127,
+              71
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 8042
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-01",
+      "source_relative": "MENU/IF_REC_INFO/005_PTMD.ptm",
+      "source_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-01_8x.png",
+      "candidate_sha256": "9e36421e0de2c4937c3b9d62604f5fb44a54e5ec0fb0f71a10b79031480c9243",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        96
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "1 샌프란",
+            "box": [
+              4,
+              59,
+              128,
+              65
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "2 뉴욕",
+            "box": [
+              4,
+              65,
+              128,
+              71
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "3 모스크바",
+            "box": [
+              4,
+              71,
+              128,
+              77
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "4 후지",
+            "box": [
+              4,
+              77,
+              128,
+              83
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "5 도쿄",
+            "box": [
+              4,
+              83,
+              128,
+              89
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "6 달",
+            "box": [
+              4,
+              89,
+              79,
+              95
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              4,
+              59,
+              128,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              65,
+              128,
+              71
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              71,
+              128,
+              77
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              77,
+              128,
+              83
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              83,
+              128,
+              89
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              89,
+              79,
+              95
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4170
+      },
+      "bindings": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "replacement": "ui/000000000d6c3d6677f95023.png",
+          "output_rgba_sha256": "ca47acfece4e990639aa4eaa8cab31a921a8594cbd24e5563610480a4e69ec5a",
+          "source_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-02",
+      "source_relative": "MENU/IF_REC_INFO/007_PTMD.ptm",
+      "source_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-02_8x.png",
+      "candidate_sha256": "3aab5eec9d05e044fd12816e9bcb44b78c1dbcf39c1b69f430b3c1c399401165",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "미확인",
+            "box": [
+              92,
+              1,
+              111,
+              47
+            ],
+            "size_px": 72,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              91,
+              0,
+              128,
+              48
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1776
+      },
+      "bindings": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "replacement": "ui/0000000052e1c9281baca172.png",
+          "output_rgba_sha256": "9ada6969f0cc638924e2d92d79d42b8d4cfc57cf57cd556554a5cac68f667688",
+          "source_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-03",
+      "source_relative": "MENU/MENU_LIBRARY/005_PTMD.ptm",
+      "source_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-03_8x.png",
+      "candidate_sha256": "9e36421e0de2c4937c3b9d62604f5fb44a54e5ec0fb0f71a10b79031480c9243",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        96
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "1 샌프란",
+            "box": [
+              4,
+              59,
+              128,
+              65
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "2 뉴욕",
+            "box": [
+              4,
+              65,
+              128,
+              71
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "3 모스크바",
+            "box": [
+              4,
+              71,
+              128,
+              77
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "4 후지",
+            "box": [
+              4,
+              77,
+              128,
+              83
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "5 도쿄",
+            "box": [
+              4,
+              83,
+              128,
+              89
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "6 달",
+            "box": [
+              4,
+              89,
+              79,
+              95
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              4,
+              59,
+              128,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              65,
+              128,
+              71
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              71,
+              128,
+              77
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              77,
+              128,
+              83
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              83,
+              128,
+              89
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              4,
+              89,
+              79,
+              95
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4170
+      },
+      "bindings": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "replacement": "ui/000000000d6c3d6677f95023.png",
+          "output_rgba_sha256": "ca47acfece4e990639aa4eaa8cab31a921a8594cbd24e5563610480a4e69ec5a",
+          "source_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-04",
+      "source_relative": "MENU/MENU_LIBRARY/007_PTMD.ptm",
+      "source_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-04_8x.png",
+      "candidate_sha256": "3aab5eec9d05e044fd12816e9bcb44b78c1dbcf39c1b69f430b3c1c399401165",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "미확인",
+            "box": [
+              92,
+              1,
+              111,
+              47
+            ],
+            "size_px": 72,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              91,
+              0,
+              128,
+              48
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1776
+      },
+      "bindings": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "replacement": "ui/0000000052e1c9281baca172.png",
+          "output_rgba_sha256": "9ada6969f0cc638924e2d92d79d42b8d4cfc57cf57cd556554a5cac68f667688",
+          "source_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-05",
+      "source_relative": "MENU/IF_STAGE_SELECT/014_PTMD.ptm",
+      "source_ptmd_sha256": "497c218abae49c4b8e760b2937994137ad1c80a7aca6465563e210427d718559",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-05_8x.png",
+      "candidate_sha256": "bcd133aebc4e5eb991c94a6bd9aa4ccc97acc28dfff12a294e9adf4eaf65326e",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "스테이지",
+            "box": [
+              2,
+              0,
+              126,
+              10
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "저장",
+            "box": [
+              2,
+              11,
+              62,
+              21
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "헌트",
+            "box": [
+              66,
+              11,
+              126,
+              21
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "로드",
+            "box": [
+              2,
+              22,
+              62,
+              32
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "추가",
+            "box": [
+              66,
+              22,
+              126,
+              32
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "메뉴",
+            "box": [
+              2,
+              32,
+              62,
+              42
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스토리",
+            "box": [
+              66,
+              32,
+              126,
+              42
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              128,
+              43
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 5504
+      },
+      "bindings": [
+        {
+          "key": "000000007659bb4033bec8ea",
+          "replacement": "ui/000000007659bb4033bec8ea.png",
+          "output_rgba_sha256": "28f804726a36032b9f377d3250b417b58a9a2bdfd465378b1dd7b69b208eeded",
+          "source_rgba_sha256": "13a883fbbfc5c58ccfece6dea20c7bd4a32af20c8488ee6c50f505c42c9d1e90",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-06",
+      "source_relative": "MENU/IF_STAGE_SELECT/018_PTMD.ptm",
+      "source_ptmd_sha256": "4cbbda960b5edc8ca556d81de2fcdf3ab465fcc88e8a31b2e094d2218091b963",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-06_8x.png",
+      "candidate_sha256": "44f67baacabeb71207ec15540dc78934740598d5b79fbed4af754e048a129b43",
+      "source_size": [
+        256,
+        128
+      ],
+      "logical_size": [
+        256,
+        72
+      ],
+      "output_size": [
+        2048,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 목록",
+            "box": [
+              5,
+              0,
+              102,
+              13
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "나가기",
+            "box": [
+              210,
+              51,
+              255,
+              70
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              103,
+              14
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              210,
+              49,
+              256,
+              72
+            ],
+            "rgba": [
+              10,
+              7,
+              5,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2500
+      },
+      "bindings": [
+        {
+          "key": "0000000011f56fa381c8d890",
+          "replacement": "ui/0000000011f56fa381c8d890.png",
+          "output_rgba_sha256": "23fe59386f0c64e72ace91ee3e77953be0fd1cc565ea6c2f84747249835bf19d",
+          "source_rgba_sha256": "fb72cd57af2c3d14c262ca617ebd9c9e766613229d359e2e7bd16665362fbdfb",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-07",
+      "source_relative": "MENU/IF_STAGE_SELECT/021_PTMD.ptm",
+      "source_ptmd_sha256": "186a00266d0644d7c02cd76b52827e69133c8e759537dbdce258d83eb48a4f90",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-07_8x.png",
+      "candidate_sha256": "30d46279cf15337c3213908d95927c820a57a73f735b1d0a71a6314fc7f1d3a9",
+      "source_size": [
+        128,
+        256
+      ],
+      "logical_size": [
+        128,
+        192
+      ],
+      "output_size": [
+        1024,
+        2048
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 정보",
+            "box": [
+              63,
+              57,
+              105,
+              67
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스테이지",
+            "box": [
+              63,
+              67,
+              105,
+              78
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "조건",
+            "box": [
+              68,
+              174,
+              94,
+              191
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "이전",
+            "box": [
+              95,
+              174,
+              127,
+              183
+            ],
+            "size_px": 56,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "다음",
+            "box": [
+              95,
+              183,
+              127,
+              192
+            ],
+            "size_px": 56,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              62,
+              57,
+              106,
+              79
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              68,
+              174,
+              128,
+              192
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2048
+      },
+      "bindings": [
+        {
+          "key": "00000000b609b2b43d4a0f88",
+          "replacement": "ui/00000000b609b2b43d4a0f88.png",
+          "output_rgba_sha256": "a3c3a4ab047bc0d52606541e0651e61799320c681c80b039d8c76ac2b03d2d7d",
+          "source_rgba_sha256": "70cbf05b7c4fdc637cc512b982b37078949430b5d1bd034ad8c923026ddbc89d",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-08",
+      "source_relative": "MENU/IF_STAGE_SELECT/023_PTMD.ptm",
+      "source_ptmd_sha256": "634b3d77a4160394d08131bc47e8c50de0a08be9660f55cf298ce552073becb8",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-08_8x.png",
+      "candidate_sha256": "c5ad0b58b748949213ae4fd91bc60444d4eac187587ac7b6a221a6d36aea41b1",
+      "source_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        256,
+        232
+      ],
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "발신",
+            "box": [
+              1,
+              60,
+              50,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "포보스",
+            "box": [
+              1,
+              67,
+              50,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              60,
+              101,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "매리언",
+            "box": [
+              52,
+              67,
+              101,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              60,
+              153,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "로스콜",
+            "box": [
+              103,
+              67,
+              153,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              60,
+              204,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "BRS",
+            "box": [
+              155,
+              67,
+              204,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              206,
+              60,
+              255,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "나나",
+            "box": [
+              206,
+              67,
+              255,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              1,
+              137,
+              50,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              137,
+              101,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              137,
+              153,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "미확인",
+            "box": [
+              103,
+              144,
+              153,
+              153
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              137,
+              204,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "샤오민",
+            "box": [
+              155,
+              144,
+              204,
+              153
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              206,
+              137,
+              255,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              1,
+              215,
+              50,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              215,
+              101,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              215,
+              153,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              215,
+              204,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "???",
+            "box": [
+              155,
+              222,
+              204,
+              231
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              60,
+              51,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              60,
+              102,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              60,
+              154,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              60,
+              205,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              205,
+              60,
+              256,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              0,
+              137,
+              51,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              137,
+              102,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              137,
+              154,
+              154
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              137,
+              205,
+              154
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              205,
+              137,
+              256,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              0,
+              215,
+              51,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              215,
+              102,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              215,
+              154,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              215,
+              205,
+              232
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 9426
+      },
+      "bindings": [
+        {
+          "key": "000000006b38aa9e9adf1a85",
+          "replacement": "ui/000000006b38aa9e9adf1a85.png",
+          "output_rgba_sha256": "0ae9a7f7c947c281ea9a8349262e4068a72745dd0af0b8f0a590d8ef87ef85c0",
+          "source_rgba_sha256": "e9ebabaf53958f6054cb1f9a8df4a906b649126d2a7bba97ec068020a5389f10",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-09",
+      "source_relative": "MENU/MENU_CUSTOM/006_PTMD.ptm",
+      "source_ptmd_sha256": "3c30f2c0429761385c0c4630ac254cd64b84a641befbb9092754ddb45fedd753",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-09_8x.png",
+      "candidate_sha256": "a91fca300cb4f955d2dd9bb55f38a589398e6581cd0311a1a98f508737c8c54a",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "커스터마이즈",
+            "box": [
+              1,
+              0,
+              127,
+              26
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              128,
+              31
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              49,
+              29,
+              128,
+              64
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 6575
+      },
+      "bindings": [
+        {
+          "key": "000000009d9a963a64c43cc4",
+          "replacement": "ui/000000009d9a963a64c43cc4.png",
+          "output_rgba_sha256": "490dedac22d12b04a03a0da3ac2f672a000690211d68bc96c436b6d3a714ccd8",
+          "source_rgba_sha256": "8d4f9bcb2d716a76bfa03829a9718071021f17a891bb993fe8009e8f75654aeb",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-10",
+      "source_relative": "MENU/MENU_CUSTOM/007_PTMD.ptm",
+      "source_ptmd_sha256": "6e25c81213c6079f4f3fd1e1b5ef5bfef1deecc5b021399dc287896879c05e32",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-10_8x.png",
+      "candidate_sha256": "c321748996ccb3c2f71488a6b981db0da89a9021dcb272f9ebc32a5ba0f62dbd",
+      "source_size": [
+        256,
+        128
+      ],
+      "logical_size": [
+        256,
+        96
+      ],
+      "output_size": [
+        2048,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "켬",
+            "box": [
+              184,
+              3,
+              218,
+              14
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "끔",
+            "box": [
+              221,
+              12,
+              255,
+              24
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "무기 스킬",
+            "box": [
+              158,
+              29,
+              255,
+              40
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "패시브 스킬",
+            "box": [
+              158,
+              40,
+              255,
+              52
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              181,
+              3,
+              256,
+              26
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              157,
+              29,
+              256,
+              53
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4101
+      },
+      "bindings": [
+        {
+          "key": "00000000c981c3ccf93215a8",
+          "replacement": "ui/00000000c981c3ccf93215a8.png",
+          "output_rgba_sha256": "ccd9713c1ba4ae17a3a5102d25f785fac33649e9f238a600ca7ee085d9fb4c1c",
+          "source_rgba_sha256": "fb3e03057e1cc2bae77715419b321193a7770f009cb3e7162b3362e203a1afa0",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-11",
+      "source_relative": "MENU/MENU_CUSTOM/009_PTMD.ptm",
+      "source_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-11_8x.png",
+      "candidate_sha256": "dda0a280b4fb301f065229a4630104861efe2491c738818e0692d0f625465e0f",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "공격",
+            "box": [
+              1,
+              0,
+              80,
+              14
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "블레이드",
+            "box": [
+              1,
+              13,
+              80,
+              28
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "기타",
+            "box": [
+              97,
+              23,
+              127,
+              39
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "아이템",
+            "box": [
+              96,
+              42,
+              127,
+              62
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              83,
+              29
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              96,
+              18,
+              128,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 3879
+      },
+      "bindings": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "replacement": "ui/0000000011b0765a71a523ed.png",
+          "output_rgba_sha256": "9543df9f73956deeede5e8369b0a36868166cc63054e0549cc5afc5d5b6e43cf",
+          "source_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-12",
+      "source_relative": "MENU/MENU_GALLERY/009_PTMD.ptm",
+      "source_ptmd_sha256": "b5c4418e13ea14ab955d610b433c1466423de532c007a4f7f9c1cb71e5ba4ab4",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-12_8x.png",
+      "candidate_sha256": "4a24a3a4b025deec5284d4b917f93d5712c1f66538faf11f6ca4eb0f346bab8d",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        80
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "아트 감상",
+            "box": [
+              1,
+              31,
+              72,
+              41
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음악 감상",
+            "box": [
+              1,
+              41,
+              72,
+              51
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "영상 감상",
+            "box": [
+              1,
+              51,
+              72,
+              61
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음악",
+            "box": [
+              78,
+              40,
+              127,
+              58
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "비어 있음",
+            "box": [
+              1,
+              63,
+              66,
+              79
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "전체",
+            "box": [
+              67,
+              63,
+              95,
+              79
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              31,
+              104,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              73,
+              31,
+              128,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              0,
+              63,
+              96,
+              80
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 5792
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-13",
+      "source_relative": "MENU/MENU_GALLERY/010_PTMD.ptm",
+      "source_ptmd_sha256": "1ba7763306a6c335fbd5329e4252cb624ac5ccdabd4019492bb42b5b7bfbe8f0",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-13_8x.png",
+      "candidate_sha256": "94a1040c2d949026a8a34d09266fa520ff14a04547ac0c59ff29aa03f2881314",
+      "source_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        80
+      ],
+      "output_size": [
+        512,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "갤러리",
+            "box": [
+              1,
+              34,
+              63,
+              78
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              31,
+              0,
+              64,
+              32
+            ],
+            "rgba": [
+              20,
+              20,
+              20,
+              0
+            ]
+          },
+          {
+            "box": [
+              0,
+              31,
+              64,
+              80
+            ],
+            "rgba": [
+              20,
+              20,
+              20,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4159
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-14",
+      "source_relative": "MENU/MENU_ITEM/005_PTMD.ptm",
+      "source_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-14_8x.png",
+      "candidate_sha256": "dda0a280b4fb301f065229a4630104861efe2491c738818e0692d0f625465e0f",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "공격",
+            "box": [
+              1,
+              0,
+              80,
+              14
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "블레이드",
+            "box": [
+              1,
+              13,
+              80,
+              28
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "기타",
+            "box": [
+              97,
+              23,
+              127,
+              39
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "아이템",
+            "box": [
+              96,
+              42,
+              127,
+              62
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              83,
+              29
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              96,
+              18,
+              128,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 3879
+      },
+      "bindings": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "replacement": "ui/0000000011b0765a71a523ed.png",
+          "output_rgba_sha256": "9543df9f73956deeede5e8369b0a36868166cc63054e0549cc5afc5d5b6e43cf",
+          "source_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-15",
+      "source_relative": "MENU/MENU_ITEM/006_PTMD.ptm",
+      "source_ptmd_sha256": "5d30b711d3eebf23274a8a96a63ff3fe3aa1047bfe2f431af4472ba70be6e447",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-15_8x.png",
+      "candidate_sha256": "8b5941167accb6630bb0dc766776b265c15e45f9fe108f7f8db1c35940367767",
+      "source_size": [
+        128,
+        256
+      ],
+      "logical_size": [
+        128,
+        144
+      ],
+      "output_size": [
+        1024,
+        2048
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "아이템",
+            "box": [
+              2,
+              109,
+              67,
+              140
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              100,
+              68,
+              144
+            ],
+            "rgba": [
+              17,
+              17,
+              17,
+              0
+            ]
+          },
+          {
+            "box": [
+              104,
+              100,
+              128,
+              144
+            ],
+            "rgba": [
+              17,
+              17,
+              17,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4048
+      },
+      "bindings": [
+        {
+          "key": "0000000084bb9de3ca720b5f",
+          "replacement": "ui/0000000084bb9de3ca720b5f.png",
+          "output_rgba_sha256": "f28c28f9308205a9a5a8de17dd87d83080f8e1e1326a0903ce234baa93702cf0",
+          "source_rgba_sha256": "e9c218af4a030a8705ff08fc2492a507540c5a23fc0d56568d000bedb40bc3cd",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-16",
+      "source_relative": "MENU/MENU_OPTION/005_PTMD.ptm",
+      "source_ptmd_sha256": "bb3a786093f4c5c51710b380bc35e0634167beba4f0db08128ac21cbf7086808",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-16_8x.png",
+      "candidate_sha256": "2d3a31ce2079cb7268fe3cd9fbe7fb6614bab2e1d7220551c89edb5d18642344",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        64
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "데이터 설치",
+            "box": [
+              1,
+              5,
+              112,
+              18
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음성 음량",
+            "box": [
+              120,
+              5,
+              236,
+              18
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "BGM 음량",
+            "box": [
+              1,
+              18,
+              104,
+              31
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음소거",
+            "box": [
+              105,
+              18,
+              170,
+              31
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "끔",
+            "box": [
+              174,
+              18,
+              215,
+              31
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "효과음",
+            "box": [
+              1,
+              31,
+              130,
+              45
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "켬",
+            "box": [
+              174,
+              31,
+              215,
+              45
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "자동 넘김",
+            "box": [
+              1,
+              45,
+              130,
+              62
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              4,
+              256,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 15360
+      },
+      "bindings": [
+        {
+          "key": "0000000061b9cd9108a0507a",
+          "replacement": "ui/0000000061b9cd9108a0507a.png",
+          "output_rgba_sha256": "4575a98cc64e600bc95fb783276759b58dc7fcd28205d584b4730a65b3068380",
+          "source_rgba_sha256": "86aa9161406e574431368d11deb9ec225a468bc40dc8c71745e800ec2d400c1a",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-17",
+      "source_relative": "MENU/MENU_OPTION/006_PTMD.ptm",
+      "source_ptmd_sha256": "8713121fda69e5a79fe97f5eb7b9c56c4f1ed3fc3d5620e1cd4e3b878d4b3ad1",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-17_8x.png",
+      "candidate_sha256": "37871f5ced962de366319ff69f034a0c87446d28b151fe5a4eaeafaf6603f4f2",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        24
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "최소",
+            "box": [
+              1,
+              9,
+              49,
+              23
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "최대",
+            "box": [
+              77,
+              9,
+              127,
+              23
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              9,
+              128,
+              24
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1920
+      },
+      "bindings": [
+        {
+          "key": "0000000004fb7415bdbbc91c",
+          "replacement": "ui/0000000004fb7415bdbbc91c.png",
+          "output_rgba_sha256": "770953ec5fc5fe8c881544c51347a73feec565e7329169b7470db13bb691ec3a",
+          "source_rgba_sha256": "b37b2b3695ce34fed70cda9fada5e1c8041e18d6ef5dcea47315b4e0fcd1ec8c",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-18",
+      "source_relative": "MENU/MENU_OPTION/007_PTMD.ptm",
+      "source_ptmd_sha256": "d4d200491298cc3403619872917103365c2938b705512c4c029d99fdc69b548c",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-18_8x.png",
+      "candidate_sha256": "f088914d05ce6f986486a075520c1a7781514fde0cae5d98b8620f5f5a462253",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "설정",
+            "box": [
+              48,
+              3,
+              127,
+              42
+            ],
+            "size_px": 192,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              42,
+              0,
+              128,
+              48
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4128
+      },
+      "bindings": [
+        {
+          "key": "0000000035517ce10c8ed4a1",
+          "replacement": "ui/0000000035517ce10c8ed4a1.png",
+          "output_rgba_sha256": "aed60420a5e3e1916e175440d71adb87570f863e17d1eef71d1d83d372739643",
+          "source_rgba_sha256": "7b458f888c5ba5ca0ae26689eb4a4e3f164399adeba18a3aad225fb900c80cbe",
+          "padding_preserved": true
+        },
+        {
+          "key": "0000000035517ce18b0d810e",
+          "replacement": "ui/0000000035517ce18b0d810e.png",
+          "output_rgba_sha256": "d0c734a5cb87390b8775e31d3e51842d7ac0ddee0b50afca99c516181eddf08b",
+          "source_rgba_sha256": "1989817df5f5c76099148e5afe35cdd472ac4f201769049254c16d563db790c7",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-19",
+      "source_relative": "SYSTEM/if_btlsys/003_PTMD.ptm",
+      "source_ptmd_sha256": "37e2c3c1ff686d80725f6c655b77515974c91421d548afcc6b3dd6ecdaf06222",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-19_8x.png",
+      "candidate_sha256": "c1b743af636d38836dc632527db7b02918668f7b456cfa23c1da76afd5139f80",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        48
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "피해 랭크",
+            "box": [
+              154,
+              34,
+              232,
+              47
+            ],
+            "size_px": 80,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              153,
+              34,
+              233,
+              48
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1120
+      },
+      "bindings": [
+        {
+          "key": "00000000a10bede75312961c",
+          "replacement": "ui/00000000a10bede75312961c.png",
+          "output_rgba_sha256": "b5920bbd17d8980bfc1ff3ba165b80a25e7765f664bb8d6b12a9d3d339b30c2d",
+          "source_rgba_sha256": "3b627b41e528f59287a4860d03204e15ed66dabf6fd16e1cae6c6e762f30f47a",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-20",
+      "source_relative": "SYSTEM/if_btlsys/004_PTMD.ptm",
+      "source_ptmd_sha256": "d492b10dfb2a380138b081b4e855a78cc4ef0008f72be397f0d20abfe372b56c",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-20_8x.png",
+      "candidate_sha256": "29cec71b20be8a62704f68402a8958dd8069c7e0a4fabeccc3a3c21a1c5eadce",
+      "source_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        120
+      ],
+      "output_size": [
+        512,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "정보",
+            "box": [
+              49,
+              43,
+              62,
+              112
+            ],
+            "size_px": 64,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "적",
+            "box": [
+              3,
+              113,
+              64,
+              120
+            ],
+            "size_px": 56,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              49,
+              43,
+              62,
+              112
+            ],
+            "rgba": [
+              10,
+              7,
+              5,
+              0
+            ]
+          },
+          {
+            "box": [
+              3,
+              113,
+              64,
+              120
+            ],
+            "rgba": [
+              10,
+              7,
+              5,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1324
+      },
+      "bindings": [
+        {
+          "key": "00000000519412d5791323ee",
+          "replacement": "ui/00000000519412d5791323ee.png",
+          "output_rgba_sha256": "04975665efce013f850b8dd1d3980922a7815cd5e8cce87329fed0bc703dd375",
+          "source_rgba_sha256": "d4b767e13e953f090db35b2a20e2988fbc3b3d74e114bc6c3f64087338c963a1",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-21",
+      "source_relative": "SYSTEM/if_btlsys/005_PTMD.ptm",
+      "source_ptmd_sha256": "e5e7275620bf14f31cd2a0bb65f7bc43f34d5402ffe125d46843b5b691a74137",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-21_8x.png",
+      "candidate_sha256": "4b00c9237c85e324932adc1984bae7cd646501f3bd8cf7938f35e9ad0305aa25",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        48
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "과열",
+            "box": [
+              6,
+              3,
+              124,
+              21
+            ],
+            "size_px": 128,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "블레이드 모드 준비",
+            "box": [
+              6,
+              24,
+              250,
+              46
+            ],
+            "size_px": 136,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "rgba": [
+              0,
+              51,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 12288
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-22",
+      "source_relative": "SYSTEM/if_btlsys/010_PTMD.ptm",
+      "source_ptmd_sha256": "d8650bbd1daaec707fe8811af1c1e295f3e4441c113304e4049bb5dbfa4bb2b6",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-22_8x.png",
+      "candidate_sha256": "bb64d6806c74c97378f1e33f85c07cd83e116c65355c98a6d992c05475caceec",
+      "source_size": [
+        128,
+        512
+      ],
+      "logical_size": [
+        128,
+        360
+      ],
+      "output_size": [
+        1024,
+        4096
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "조준 고정",
+            "box": [
+              43,
+              288,
+              100,
+              306
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "사격",
+            "box": [
+              53,
+              333,
+              123,
+              357
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              43,
+              286,
+              101,
+              308
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "box": [
+              50,
+              324,
+              127,
+              360
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4048
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-23",
+      "source_relative": "SYSTEM/if_fldsys/015_PTMD.ptm",
+      "source_ptmd_sha256": "89d533e33970f8497cf7fc3a4a349ed4d25ec5ab53d67cdf91b01e67e7ff9508",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-23_8x.png",
+      "candidate_sha256": "ad3275f450a0d7583d42bd28ad49084a6c23afc1a98741405e82eac10f14756e",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        104
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 결과",
+            "box": [
+              99,
+              2,
+              127,
+              102
+            ],
+            "size_px": 104,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              99,
+              1,
+              128,
+              104
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2987
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-24",
+      "source_relative": "SYSTEM/if_fldsys/017_PTMD.ptm",
+      "source_ptmd_sha256": "ef696d6a9f6c0f66ccfa8dee8d0b34fe4f6d88b5321e79c262d285f74061c320",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-24_8x.png",
+      "candidate_sha256": "a5a906e94cbe360acd42b979f9a0c9dde31f02fb026379f1572e649f0c639b8c",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        24
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "일시정지",
+            "box": [
+              1,
+              1,
+              72,
+              16
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "기록",
+            "box": [
+              75,
+              1,
+              127,
+              16
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "완료",
+            "box": [
+              1,
+              17,
+              127,
+              23
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              128,
+              24
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 3072
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-25",
+      "source_relative": "SYSTEM/if_fldsys/018_PTMD.ptm",
+      "source_ptmd_sha256": "3c45df97a0559b9ff14efae258ec2a4d9d9d44792b38abbafe427b9ac9335ae1",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-25_8x.png",
+      "candidate_sha256": "a2e7ea233a1fb71b7db8a9168fd4dd7c75d4297bc2e5147ec9c3463a6029a6ee",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        32
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 시작",
+            "box": [
+              1,
+              1,
+              104,
+              16
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "시간",
+            "box": [
+              85,
+              17,
+              107,
+              29
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              128,
+              32
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 4096
+      },
+      "bindings": [
+        {
+          "key": "0000000088ec82fa11c211d4",
+          "replacement": "ui/0000000088ec82fa11c211d4.png",
+          "output_rgba_sha256": "16b859b840c6bd69ca486619b25b9133bc43f3cec787dd2809b0ece6470a6921",
+          "source_rgba_sha256": "37b26299aecfbae5eddee7b0400d77e3ed7b2dba06d6db4e5daaa36993bf1cdc",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-26",
+      "source_relative": "SYSTEM/if_fldsys/021_PTMD.ptm",
+      "source_ptmd_sha256": "169307458040a9f583070ac698704d159873f3d72a784d1a6229ceb81f843c14",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates\\UI-26_8x.png",
+      "candidate_sha256": "61e0e815998e2cba12be68b2b0da5826f1feddfdecf1d16de16be3ac0b137152",
+      "source_size": [
+        256,
+        32
+      ],
+      "logical_size": [
+        256,
+        32
+      ],
+      "output_size": [
+        2048,
+        256
+      ],
+      "method": "Frozen existing Korean wording rerasterized from Noto Sans KR Bold; original geometry, ornament, portrait pixels and alpha preserved outside declared text regions",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 완료",
+            "box": [
+              3,
+              8,
+              247,
+              31
+            ],
+            "size_px": 176,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              8,
+              256,
+              32
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 6144
+      },
+      "bindings": [],
+      "runtime_verified": false
+    }
+  ]
+}

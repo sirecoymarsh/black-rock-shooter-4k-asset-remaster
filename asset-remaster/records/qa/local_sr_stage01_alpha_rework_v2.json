@@ -1,0 +1,398 @@
+{
+  "schema": "brs-alpha-rework/v2",
+  "files": [
+    {
+      "group_id": "BM007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\006.png",
+      "source_rgba_sha256": "a313b31d22f7ce677e50e7a31598fcc664c54f680f80af9635e90b6440567eb5",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM007-general-wdn-rgba8x.png",
+      "parent_sha256": "133e6d20590a57f737ab1811917a9b1cf5ec46b366e185fcb19e01a9a97fee2a",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.35,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM007-neural0.35-coverage-8x.png",
+      "output_sha256": "7f03651495878e914c7f8800d315428172069435aff5070ad58c0e06b5d34dbf",
+      "metrics": {
+        "alpha_mass_ratio": 0.9998624812460172,
+        "source_pixels_ge16_reduced_below8": 3,
+        "alpha_source_mae": 2.71343994140625
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\006.png",
+      "source_rgba_sha256": "a313b31d22f7ce677e50e7a31598fcc664c54f680f80af9635e90b6440567eb5",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM007-general-wdn-rgba8x.png",
+      "parent_sha256": "133e6d20590a57f737ab1811917a9b1cf5ec46b366e185fcb19e01a9a97fee2a",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.5,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM007-neural0.5-coverage-8x.png",
+      "output_sha256": "134097f40cde24f875f3d6295e563ad447b9648360f304025d12ba17aba9c3eb",
+      "metrics": {
+        "alpha_mass_ratio": 1.0001412820950268,
+        "source_pixels_ge16_reduced_below8": 6,
+        "alpha_source_mae": 2.533721923828125
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_advanced_by_faint_line_check",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\006.png",
+      "source_rgba_sha256": "a313b31d22f7ce677e50e7a31598fcc664c54f680f80af9635e90b6440567eb5",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM007-general-wdn-rgba8x.png",
+      "parent_sha256": "133e6d20590a57f737ab1811917a9b1cf5ec46b366e185fcb19e01a9a97fee2a",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.65,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM007-neural0.65-coverage-8x.png",
+      "output_sha256": "f64b6f52f5f6dea30a5813e365dd0e33b0486843ec8673820b32ef1e7b347132",
+      "metrics": {
+        "alpha_mass_ratio": 0.9998785538483925,
+        "source_pixels_ge16_reduced_below8": 11,
+        "alpha_source_mae": 2.390228271484375
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM055",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\040.png",
+      "source_rgba_sha256": "f156b10111be570e24a6ca69ba49e1d7b5ff66cffc0103bd1c700a5c67723937",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM055-general-wdn-rgba8x.png",
+      "parent_sha256": "1474b8c8223fe1df03ca9cf7078e1fd8cca187a4429e435ca970390698329b50",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.35,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM055-neural0.35-coverage-8x.png",
+      "output_sha256": "b13176acaf1d1271a7fff2a93f2421182614987ab6d7738f6c36c9a6003ca128",
+      "metrics": {
+        "alpha_mass_ratio": 1.000046845797425,
+        "source_pixels_ge16_reduced_below8": 1,
+        "alpha_source_mae": 2.14593505859375
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM055",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\040.png",
+      "source_rgba_sha256": "f156b10111be570e24a6ca69ba49e1d7b5ff66cffc0103bd1c700a5c67723937",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM055-general-wdn-rgba8x.png",
+      "parent_sha256": "1474b8c8223fe1df03ca9cf7078e1fd8cca187a4429e435ca970390698329b50",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.5,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM055-neural0.5-coverage-8x.png",
+      "output_sha256": "4e1d243aaf5663341c6d52e22ff03c9d5b44fc8b5305457adabd595af60fe745",
+      "metrics": {
+        "alpha_mass_ratio": 1.0000060838697955,
+        "source_pixels_ge16_reduced_below8": 2,
+        "alpha_source_mae": 1.9996337890625
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_advanced_by_faint_line_check",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM055",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\040.png",
+      "source_rgba_sha256": "f156b10111be570e24a6ca69ba49e1d7b5ff66cffc0103bd1c700a5c67723937",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM055-general-wdn-rgba8x.png",
+      "parent_sha256": "1474b8c8223fe1df03ca9cf7078e1fd8cca187a4429e435ca970390698329b50",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.65,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM055-neural0.65-coverage-8x.png",
+      "output_sha256": "f0173c2693797fe295b8b03f17a19e2b29735ddd5a94b3ab47edd0aa1a3fe308",
+      "metrics": {
+        "alpha_mass_ratio": 1.0001155935261137,
+        "source_pixels_ge16_reduced_below8": 2,
+        "alpha_source_mae": 1.87939453125
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM058",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\020.png",
+      "source_rgba_sha256": "c50101b6d1d7c0d0f10fc6cc39150a0fed0d7f185dc1e93f0119fc9c321a698c",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM058-general-wdn-rgba8x.png",
+      "parent_sha256": "99fab78c31df3fa20996fabbbca7e5cdef5d0492b6fb7b13590416f6abb98c42",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.35,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM058-neural0.35-coverage-8x.png",
+      "output_sha256": "25403c550c5a159b0fe8fc37bef82f79878ac035a4faeec8a3bb85fe5397ca14",
+      "metrics": {
+        "alpha_mass_ratio": 1.0000527027307007,
+        "source_pixels_ge16_reduced_below8": 0,
+        "alpha_source_mae": 2.4813079833984375
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM058",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\020.png",
+      "source_rgba_sha256": "c50101b6d1d7c0d0f10fc6cc39150a0fed0d7f185dc1e93f0119fc9c321a698c",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM058-general-wdn-rgba8x.png",
+      "parent_sha256": "99fab78c31df3fa20996fabbbca7e5cdef5d0492b6fb7b13590416f6abb98c42",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.5,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM058-neural0.5-coverage-8x.png",
+      "output_sha256": "44a45dc6e2aeed0c21f0871a7897b2e5d44918cc556e645a90a6a7bd47082249",
+      "metrics": {
+        "alpha_mass_ratio": 1.0002961453196868,
+        "source_pixels_ge16_reduced_below8": 3,
+        "alpha_source_mae": 2.31622314453125
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_advanced_by_faint_line_check",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM058",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\020.png",
+      "source_rgba_sha256": "c50101b6d1d7c0d0f10fc6cc39150a0fed0d7f185dc1e93f0119fc9c321a698c",
+      "parent_neural_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM058-general-wdn-rgba8x.png",
+      "parent_sha256": "99fab78c31df3fa20996fabbbca7e5cdef5d0492b6fb7b13590416f6abb98c42",
+      "method": "Mix neural alpha with positive bilinear source coverage, then restore source mean opacity; same constant visible RGB.",
+      "neural_weight": 0.65,
+      "postprocessing_only": true,
+      "new_neural_inference": false,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM058-neural0.65-coverage-8x.png",
+      "output_sha256": "58791e56e08df05fada231c5ddd13cb94f50af43ca1acb1a733d23c42ba87084",
+      "metrics": {
+        "alpha_mass_ratio": 0.9999197589055098,
+        "source_pixels_ge16_reduced_below8": 6,
+        "alpha_source_mae": 2.1820068359375
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "35% neural alpha with positive source coverage restores weak branches and source mean opacity; residual threshold losses are recorded, not declared zero.",
+        "evidence": "outputs/local_sr_alpha_rework_cracks.png; 0.5 weight screened by retention metrics, not depicted in this sheet"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": "anime6B",
+      "model_path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "device": "NVIDIA GeForce RTX 5080",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM027-anime6B-rgb4x.png",
+      "native_sha256": "f64ea615125f9a04e256f1f76021aa1c3dfe46e95cdc63eb914f0cdde792ee9c",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM027-general-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b4717461cf975f305481d583dac3e0ad6ed2f3f55b15844d525563e4f22e4c45",
+      "alpha_unchanged_from_general_trial": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM027-anime6B-rgba8x.png",
+      "output_sha256": "626ccfb6ac70ba4f2a22b4ea497a21f57ded5a668cef7684fc4aae71cff39aab",
+      "metrics": {
+        "rgb_mae_0_255": 6.303426265716553,
+        "rgb_p99_abs_error_0_255": 28.0,
+        "rgb_mean_shift_0_255": [
+          5.6173095703125,
+          4.79541015625,
+          3.613037109375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "local_inference": true,
+      "new_neural_inference": true,
+      "image_upload": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_rework_required",
+        "reason": "Changing RGB model alone did not correct cloud facets or glossy foliage; further alpha/RGB joint reconstruction required.",
+        "evidence": "outputs/local_sr_alpha_rework_soft.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": "anime6B",
+      "model_path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "device": "NVIDIA GeForce RTX 5080",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM057-anime6B-rgb4x.png",
+      "native_sha256": "1dfea47cfe5a635c426af9904d000e0705f50d8739e328d88e8fdf6aba92463b",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM057-general-wdn-rgba8x.png",
+      "alpha_parent_sha256": "038da36e2f60ebbb980ac9c91adacc98e26baa835f12749566a55ba5766acfe6",
+      "alpha_unchanged_from_general_trial": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM057-anime6B-rgba8x.png",
+      "output_sha256": "6419478aaacea2940c5f5e32a78fcc78e396c620c1d31d41dc3ddb9e2b3504c6",
+      "metrics": {
+        "rgb_mae_0_255": 22.52425193786621,
+        "rgb_p99_abs_error_0_255": 114.0,
+        "rgb_mean_shift_0_255": [
+          8.446533203125,
+          4.0771484375,
+          -5.432861328125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "local_inference": true,
+      "new_neural_inference": true,
+      "image_upload": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_rework_required",
+        "reason": "Changing RGB model alone did not correct cloud facets or glossy foliage; further alpha/RGB joint reconstruction required.",
+        "evidence": "outputs/local_sr_alpha_rework_soft.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": "photo",
+      "model_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+      "model_sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+      "device": "NVIDIA GeForce RTX 5080",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM027-photo-rgb4x.png",
+      "native_sha256": "e661b621b7e3d0b0b93157d2f175ba98a08c036ed324f7c6d3decea6b2f7c0bd",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM027-general-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b4717461cf975f305481d583dac3e0ad6ed2f3f55b15844d525563e4f22e4c45",
+      "alpha_unchanged_from_general_trial": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM027-photo-rgba8x.png",
+      "output_sha256": "b5e777ca53e3e4eec7ae20e5b8605d629413a5d6f715ee6e59d3d038ca589868",
+      "metrics": {
+        "rgb_mae_0_255": 5.915079593658447,
+        "rgb_p99_abs_error_0_255": 23.0,
+        "rgb_mean_shift_0_255": [
+          6.0186767578125,
+          4.7872314453125,
+          4.9644775390625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "local_inference": true,
+      "new_neural_inference": true,
+      "image_upload": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_rework_required",
+        "reason": "Changing RGB model alone did not correct cloud facets or glossy foliage; further alpha/RGB joint reconstruction required.",
+        "evidence": "outputs/local_sr_alpha_rework_soft.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": "photo",
+      "model_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+      "model_sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+      "device": "NVIDIA GeForce RTX 5080",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM057-photo-rgb4x.png",
+      "native_sha256": "6e4fc8d61c31c81b5b805136da8441f87e4e50b4685296a069873ad2a778518e",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM057-general-wdn-rgba8x.png",
+      "alpha_parent_sha256": "038da36e2f60ebbb980ac9c91adacc98e26baa835f12749566a55ba5766acfe6",
+      "alpha_unchanged_from_general_trial": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-rework-v2\\BM057-photo-rgba8x.png",
+      "output_sha256": "585ca2bba702e32962194351d43fbfe1d8f3b7f546fba5c22087d3d43568ee20",
+      "metrics": {
+        "rgb_mae_0_255": 21.30086326599121,
+        "rgb_p99_abs_error_0_255": 117.0,
+        "rgb_mean_shift_0_255": [
+          6.89794921875,
+          4.30615234375,
+          -6.440673828125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "local_inference": true,
+      "new_neural_inference": true,
+      "image_upload": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_rework_required",
+        "reason": "Changing RGB model alone did not correct cloud facets or glossy foliage; further alpha/RGB joint reconstruction required.",
+        "evidence": "outputs/local_sr_alpha_rework_soft.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "reason": "Sparse cracks lost faint branches; cloud RGB became faceted and tree foliage overly glossy.",
+  "runtime_verified": false,
+  "release_eligible": false
+}

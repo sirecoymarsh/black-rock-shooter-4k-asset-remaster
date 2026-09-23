@@ -1,0 +1,148 @@
+{
+  "schema": "brs-field-foliage006-weed-shape/v1",
+  "id": "FM0290-GPT-source-density-shape-v3",
+  "group_id": "FM0290",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+  "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+  "parents": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\generated-raw.png",
+      "sha256": "618e94c0749ba51a9abd71b7eea9b1b9063abb49965f2a24ef510b807d2314ee"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v2\\generated-raw.png",
+      "sha256": "aeb32795a47c2ae5229959de297205bbae9028d7f17d332fc0d181329b453268"
+    }
+  ],
+  "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-authored\\foliage006_weed_shape_frozen.py",
+  "program_sha256": "d5d3fccab76070eaa840bb7da378da1c15f3d409ee02fac4c39277ecb8016c25",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-authored\\FM0290-GPT-source-density-shape-v3-8x.png",
+  "output_sha256": "d8bc9cdd7dd7094f8999d3c43304ae9dd9bc3fa73d9f33ec3a9f187ca1eb8177",
+  "output_size": [
+    512,
+    512
+  ],
+  "diagnostics": {
+    "mix": 0.26122865080833435,
+    "source_alpha_mean": 124.200439453125,
+    "output_alpha_mean": 124.20035171508789,
+    "alpha_mass_ratio": 0.99999929357708,
+    "RGB_rule": "Linear mix of draft RGB after nearest opaque color extension into each draft transparent pixels. No source RGB generated or inferred again.",
+    "alpha_rule": "Interpolate signed distances of two GPT draft masks, one output-pixel antialias; solve mix for source total alpha mass. This is a new authored contour, NOT exact source alpha or source topology.",
+    "source_scale_IoU_at128": 0.866327474560592,
+    "source_scale_disagreements_at128": 289
+  },
+  "tip_landmarks": [
+    {
+      "name": "left",
+      "source_box": [
+        2,
+        5,
+        10,
+        22
+      ],
+      "source": {
+        "top_y": 7,
+        "top_two_rows_x_mean": 6.0
+      },
+      "output": {
+        "top_y": 7,
+        "top_two_rows_x_mean": 6.0
+      },
+      "top_y_shift_source_px": 0,
+      "top_x_shift_source_px": 0.0
+    },
+    {
+      "name": "highest",
+      "source_box": [
+        17,
+        0,
+        25,
+        15
+      ],
+      "source": {
+        "top_y": 1,
+        "top_two_rows_x_mean": 20.5
+      },
+      "output": {
+        "top_y": 1,
+        "top_two_rows_x_mean": 20.6
+      },
+      "top_y_shift_source_px": 0,
+      "top_x_shift_source_px": 0.10000000000000142
+    },
+    {
+      "name": "middle-right",
+      "source_box": [
+        32,
+        3,
+        43,
+        20
+      ],
+      "source": {
+        "top_y": 4,
+        "top_two_rows_x_mean": 34.666666666666664
+      },
+      "output": {
+        "top_y": 4,
+        "top_two_rows_x_mean": 34.666666666666664
+      },
+      "top_y_shift_source_px": 0,
+      "top_x_shift_source_px": 0.0
+    },
+    {
+      "name": "far-right",
+      "source_box": [
+        57,
+        14,
+        64,
+        34
+      ],
+      "source": {
+        "top_y": 15,
+        "top_two_rows_x_mean": 60.0
+      },
+      "output": {
+        "top_y": 15,
+        "top_two_rows_x_mean": 60.0
+      },
+      "top_y_shift_source_px": 0,
+      "top_x_shift_source_px": 0.0
+    }
+  ],
+  "method": "Two actual GPT re-paintings with locally authored signed-distance contour interpolation to restore source total coverage; RGB colors interpolated from those paintings. No new neural pass. Fine leaf contours are repainted, not source pixel-exact.",
+  "new_local_passes": 0,
+  "new_external_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-shape-v3-whole.png",
+      "sha256": "47f7a4f00155e987abad8bdd745e9d89d5db162c1a7e9195fcf117152a15d6c4",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-shape-v3-tips.png",
+      "sha256": "d5c5aac3176fd264896ace99aff542223a0a9167c419d20959934e61f32a78bd",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-shape-v3-lower.png",
+      "sha256": "6441417da002fe34b139772e2f6806655944176d4df09a303fb720c01bc57264",
+      "source_box": [
+        12,
+        32,
+        52,
+        64
+      ],
+      "review_status": "pending"
+    }
+  ]
+}

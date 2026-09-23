@@ -1,0 +1,1065 @@
+{
+  "schema": "brs-ui-iso-audit/v1",
+  "iso_sha256": "525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a",
+  "assets": [
+    {
+      "relative": "MENU/IF_MISSION_FAILED/000_PTMD.ptm",
+      "width": 128,
+      "height": 72,
+      "padded_width": 128,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "b155d3429f11098c1a6fe622432747f3a41b33b601c48bc4ccde67869c028f22",
+      "index": 0,
+      "replacement": "ui/00_menu_if_mission_failed_000_ptmd_8x.png",
+      "replacement_sha256": "03bd186cdb56881cfaa8b04ec3c12736d087c3e64e421fb5effce31a6415ca80",
+      "runtime_hashes": [],
+      "cache_low": "7824eb9f",
+      "cache_low_original_matches": [
+        "MENU/IF_MISSION_FAILED/000_PTMD.ptm"
+      ],
+      "clut_only_hash": "000000007824eb9f00000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-00",
+      "iso_ptmd_sha256": "eef6c1fa0540162c9672992922216f6f3c08076175b9b145e40511967fbe65b4",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "5b031d341a06ab5d2c052b255c438852d3f40d2a58167a49d70824964b0ba181",
+      "logical_size": [
+        128,
+        72
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_MISSION_FAILED\\000_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "MENU/IF_REC_INFO/005_PTMD.ptm",
+      "width": 128,
+      "height": 96,
+      "padded_width": 128,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "765208c21d96abf49efdc06e2decca524b836f8f65659eb306473842bf6c182b",
+      "index": 1,
+      "replacement": "ui/01_menu_if_rec_info_005_ptmd_8x.png",
+      "replacement_sha256": "9e36421e0de2c4937c3b9d62604f5fb44a54e5ec0fb0f71a10b79031480c9243",
+      "runtime_hashes": [
+        "09dadd700d6c3d66a7349541"
+      ],
+      "cache_low": "0d6c3d66",
+      "cache_low_original_matches": [
+        "MENU/IF_REC_INFO/005_PTMD.ptm",
+        "MENU/MENU_LIBRARY/005_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-01",
+      "iso_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "a299b246061878f0fc56e30ebd0ef0d87a5048d76b269f3d63ab0cd35645a633",
+      "logical_size": [
+        128,
+        96
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_REC_INFO\\005_PTMD.ptm",
+      "matches": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000d6c3d6677f95023.png",
+          "full_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/IF_REC_INFO/007_PTMD.ptm",
+      "width": 128,
+      "height": 48,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "c7b20ed643cd81c6ad48a81e6010cde26cdf019654e13ed26e42f606ddd314a6",
+      "index": 2,
+      "replacement": "ui/02_menu_if_rec_info_007_ptmd_8x.png",
+      "replacement_sha256": "3aab5eec9d05e044fd12816e9bcb44b78c1dbcf39c1b69f430b3c1c399401165",
+      "runtime_hashes": [
+        "09db19b052e1c9283f2b8b59"
+      ],
+      "cache_low": "52e1c928",
+      "cache_low_original_matches": [
+        "MENU/IF_REC_INFO/007_PTMD.ptm",
+        "MENU/MENU_LIBRARY/007_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-02",
+      "iso_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "d08c9d66474e5d7e4270a880c03964e66a0ea7adfe8bb6533e1c3435c76acee2",
+      "logical_size": [
+        128,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_REC_INFO\\007_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000052e1c9281baca172.png",
+          "full_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_LIBRARY/005_PTMD.ptm",
+      "width": 128,
+      "height": 96,
+      "padded_width": 128,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "765208c21d96abf49efdc06e2decca524b836f8f65659eb306473842bf6c182b",
+      "index": 3,
+      "replacement": "ui/03_menu_menu_library_005_ptmd_8x.png",
+      "replacement_sha256": "9e36421e0de2c4937c3b9d62604f5fb44a54e5ec0fb0f71a10b79031480c9243",
+      "runtime_hashes": [
+        "09dadd700d6c3d66a7349541"
+      ],
+      "cache_low": "0d6c3d66",
+      "cache_low_original_matches": [
+        "MENU/IF_REC_INFO/005_PTMD.ptm",
+        "MENU/MENU_LIBRARY/005_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-03",
+      "iso_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "a299b246061878f0fc56e30ebd0ef0d87a5048d76b269f3d63ab0cd35645a633",
+      "logical_size": [
+        128,
+        96
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_LIBRARY\\005_PTMD.ptm",
+      "matches": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000d6c3d6677f95023.png",
+          "full_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_LIBRARY/007_PTMD.ptm",
+      "width": 128,
+      "height": 48,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "c7b20ed643cd81c6ad48a81e6010cde26cdf019654e13ed26e42f606ddd314a6",
+      "index": 4,
+      "replacement": "ui/04_menu_menu_library_007_ptmd_8x.png",
+      "replacement_sha256": "3aab5eec9d05e044fd12816e9bcb44b78c1dbcf39c1b69f430b3c1c399401165",
+      "runtime_hashes": [
+        "09db19b052e1c9283f2b8b59"
+      ],
+      "cache_low": "52e1c928",
+      "cache_low_original_matches": [
+        "MENU/IF_REC_INFO/007_PTMD.ptm",
+        "MENU/MENU_LIBRARY/007_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-04",
+      "iso_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "d08c9d66474e5d7e4270a880c03964e66a0ea7adfe8bb6533e1c3435c76acee2",
+      "logical_size": [
+        128,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_LIBRARY\\007_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000052e1c9281baca172.png",
+          "full_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/IF_STAGE_SELECT/014_PTMD.ptm",
+      "width": 128,
+      "height": 48,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "0f8c12b63e175260dfdd66d291af6b6c80676d771033ab23d96f3ff8f571c278",
+      "index": 5,
+      "replacement": "ui/05_menu_if_stage_select_014_ptmd_8x.png",
+      "replacement_sha256": "bcd133aebc4e5eb991c94a6bd9aa4ccc97acc28dfff12a294e9adf4eaf65326e",
+      "runtime_hashes": [
+        "0934b0307659bb40f46fce8a",
+        "0934b0407659bb40f46fce8a"
+      ],
+      "cache_low": "7659bb40",
+      "cache_low_original_matches": [
+        "MENU/IF_STAGE_SELECT/014_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-05",
+      "iso_ptmd_sha256": "497c218abae49c4b8e760b2937994137ad1c80a7aca6465563e210427d718559",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "b81a2eb5fc2e51edfd98e90d732df2c1e35a5889d03bc4d0676c9cbd0f3fe211",
+      "logical_size": [
+        128,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_STAGE_SELECT\\014_PTMD.ptm",
+      "matches": [
+        {
+          "key": "000000007659bb4033bec8ea",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007659bb4033bec8ea.png",
+          "full_rgba_sha256": "13a883fbbfc5c58ccfece6dea20c7bd4a32af20c8488ee6c50f505c42c9d1e90",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/IF_STAGE_SELECT/018_PTMD.ptm",
+      "width": 256,
+      "height": 72,
+      "padded_width": 256,
+      "padded_height": 128,
+      "mode": 5,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "c4a18cfbafea7ed60b98e6a20b28a9040e4f165a2f2fb6276c4b712caa8af5a2",
+      "index": 6,
+      "replacement": "ui/06_menu_if_stage_select_018_ptmd_8x.png",
+      "replacement_sha256": "def71d4d7f762545a278fb9d1cd5028702a18984a2455e859c3c0b798c17b76e",
+      "runtime_hashes": [
+        "0935e4f011f56fa34c999e01",
+        "0935e50011f56fa34c999e01"
+      ],
+      "cache_low": "11f56fa3",
+      "cache_low_original_matches": [
+        "MENU/IF_STAGE_SELECT/018_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-06",
+      "iso_ptmd_sha256": "4cbbda960b5edc8ca556d81de2fcdf3ab465fcc88e8a31b2e094d2218091b963",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "f649639d5722f186178bb4349f7e4f02823a56c79d0c64cb8e07cc1ec9833037",
+      "logical_size": [
+        256,
+        72
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_STAGE_SELECT\\018_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000011f56fa381c8d890",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011f56fa381c8d890.png",
+          "full_rgba_sha256": "fb72cd57af2c3d14c262ca617ebd9c9e766613229d359e2e7bd16665362fbdfb",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/IF_STAGE_SELECT/021_PTMD.ptm",
+      "width": 128,
+      "height": 192,
+      "padded_width": 128,
+      "padded_height": 256,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "ff081c2eb74f13b0a83edd53ccfb68456fb0749bd22eee3a6508fa186cdf93c3",
+      "index": 7,
+      "replacement": "ui/07_menu_if_stage_select_021_ptmd_8x.png",
+      "replacement_sha256": "30d46279cf15337c3213908d95927c820a57a73f735b1d0a71a6314fc7f1d3a9",
+      "runtime_hashes": [
+        "093696a0b609b2b42fb97c47",
+        "093696b0b609b2b42fb97c47"
+      ],
+      "cache_low": "b609b2b4",
+      "cache_low_original_matches": [
+        "MENU/IF_STAGE_SELECT/021_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-07",
+      "iso_ptmd_sha256": "186a00266d0644d7c02cd76b52827e69133c8e759537dbdce258d83eb48a4f90",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "63879df3e23e4b5c8b0a456fdaed2ed77733c1ef3586801bb4c54000cb59ed20",
+      "logical_size": [
+        128,
+        192
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_STAGE_SELECT\\021_PTMD.ptm",
+      "matches": [
+        {
+          "key": "00000000b609b2b43d4a0f88",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b609b2b43d4a0f88.png",
+          "full_rgba_sha256": "70cbf05b7c4fdc637cc512b982b37078949430b5d1bd034ad8c923026ddbc89d",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/IF_STAGE_SELECT/023_PTMD.ptm",
+      "width": 256,
+      "height": 232,
+      "padded_width": 256,
+      "padded_height": 256,
+      "mode": 5,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "1065c2b192bb3d3f105bdf5e52b3cbc8b6daf7b36e5be40fe8ca7581e0d9330b",
+      "index": 8,
+      "replacement": "ui/08_menu_if_stage_select_023_ptmd_8x.png",
+      "replacement_sha256": "66fc3f6d232f93ceb7c36dec7f0727fb5a2e86d7f495a55b7820788bb11b0058",
+      "runtime_hashes": [
+        "0936f6e06b38aa9e05db0bf2",
+        "0936f6f06b38aa9e05db0bf2"
+      ],
+      "cache_low": "6b38aa9e",
+      "cache_low_original_matches": [
+        "MENU/IF_STAGE_SELECT/023_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-08",
+      "iso_ptmd_sha256": "634b3d77a4160394d08131bc47e8c50de0a08be9660f55cf298ce552073becb8",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": false,
+      "logical_rgba_sha256": "19e8acdb903570e0e80f8090c9ec0441dac633b6b54a72010ac035fddb2b60ae",
+      "logical_size": [
+        256,
+        232
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\IF_STAGE_SELECT\\023_PTMD.ptm",
+      "matches": [
+        {
+          "key": "000000006b38aa9e9adf1a85",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006b38aa9e9adf1a85.png",
+          "full_rgba_sha256": "e9ebabaf53958f6054cb1f9a8df4a906b649126d2a7bba97ec068020a5389f10",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_CUSTOM/006_PTMD.ptm",
+      "width": 128,
+      "height": 64,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 5,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "a3a38abc1d7b211285228ab393afec1563219bd6957af66a8577e25e2e33d6ad",
+      "index": 9,
+      "replacement": "ui/09_menu_menu_custom_006_ptmd_8x.png",
+      "replacement_sha256": "0c41caa340b70f251b73cf9023fe2c6c18916b90495f1d2671d4613b94ae6dcf",
+      "runtime_hashes": [
+        "09df46c09d9a963a2f8d7543"
+      ],
+      "cache_low": "9d9a963a",
+      "cache_low_original_matches": [
+        "MENU/MENU_CUSTOM/006_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-09",
+      "iso_ptmd_sha256": "3c30f2c0429761385c0c4630ac254cd64b84a641befbb9092754ddb45fedd753",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "8d4f9bcb2d716a76bfa03829a9718071021f17a891bb993fe8009e8f75654aeb",
+      "logical_size": [
+        128,
+        64
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_CUSTOM\\006_PTMD.ptm",
+      "matches": [
+        {
+          "key": "000000009d9a963a64c43cc4",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009d9a963a64c43cc4.png",
+          "full_rgba_sha256": "8d4f9bcb2d716a76bfa03829a9718071021f17a891bb993fe8009e8f75654aeb",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_CUSTOM/007_PTMD.ptm",
+      "width": 256,
+      "height": 96,
+      "padded_width": 256,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "d4fc3fc6fad0c731bec39013e8948c2dfa5b83814666af9c3ecdcc9afd0f6b76",
+      "index": 10,
+      "replacement": "ui/10_menu_menu_custom_007_ptmd_8x.png",
+      "replacement_sha256": "c321748996ccb3c2f71488a6b981db0da89a9021dcb272f9ebc32a5ba0f62dbd",
+      "runtime_hashes": [
+        "09df68d0c981c3ccf59abf0d"
+      ],
+      "cache_low": "c981c3cc",
+      "cache_low_original_matches": [
+        "MENU/MENU_CUSTOM/007_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-10",
+      "iso_ptmd_sha256": "6e25c81213c6079f4f3fd1e1b5ef5bfef1deecc5b021399dc287896879c05e32",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "624d14154b1cf6774b00f4dbcc7423399947fbb1e826737c0196444188236972",
+      "logical_size": [
+        256,
+        96
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_CUSTOM\\007_PTMD.ptm",
+      "matches": [
+        {
+          "key": "00000000c981c3ccf93215a8",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c981c3ccf93215a8.png",
+          "full_rgba_sha256": "fb3e03057e1cc2bae77715419b321193a7770f009cb3e7162b3362e203a1afa0",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_CUSTOM/009_PTMD.ptm",
+      "width": 128,
+      "height": 64,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "b1be085ce5d0bec443e9254b109528b95a3b1112adfd3f367c14643071a7b852",
+      "index": 11,
+      "replacement": "ui/11_menu_menu_custom_009_ptmd_8x.png",
+      "replacement_sha256": "dda0a280b4fb301f065229a4630104861efe2491c738818e0692d0f625465e0f",
+      "runtime_hashes": [
+        "09dd0d7011b0765a941ae3f9",
+        "09dfbc1011b0765a941ae3f9"
+      ],
+      "cache_low": "11b0765a",
+      "cache_low_original_matches": [
+        "MENU/MENU_CUSTOM/009_PTMD.ptm",
+        "MENU/MENU_ITEM/005_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-11",
+      "iso_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+      "logical_size": [
+        128,
+        64
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_CUSTOM\\009_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011b0765a71a523ed.png",
+          "full_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_GALLERY/009_PTMD.ptm",
+      "width": 128,
+      "height": 80,
+      "padded_width": 128,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "785aad6e8419f1a5770b901597a0a4c94ec01c3822b3712deeef0f8e3063e097",
+      "index": 12,
+      "replacement": "ui/12_menu_menu_gallery_009_ptmd_8x.png",
+      "replacement_sha256": "4a24a3a4b025deec5284d4b917f93d5712c1f66538faf11f6ca4eb0f346bab8d",
+      "runtime_hashes": [],
+      "cache_low": "8670d6c0",
+      "cache_low_original_matches": [
+        "MENU/MENU_GALLERY/009_PTMD.ptm"
+      ],
+      "clut_only_hash": "000000008670d6c000000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-12",
+      "iso_ptmd_sha256": "b5c4418e13ea14ab955d610b433c1466423de532c007a4f7f9c1cb71e5ba4ab4",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "ff2b96703ac401a67e14ce095ddc13b4e2559a96332b8f6a73ecda5f6e26e839",
+      "logical_size": [
+        128,
+        80
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_GALLERY\\009_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "MENU/MENU_GALLERY/010_PTMD.ptm",
+      "width": 64,
+      "height": 80,
+      "padded_width": 64,
+      "padded_height": 128,
+      "mode": 5,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "4faf1bd730f4a0c620edd2ae4fc30f0649bc8e71d78c61dff6e4c46e144dbc48",
+      "index": 13,
+      "replacement": "ui/13_menu_menu_gallery_010_ptmd_8x.png",
+      "replacement_sha256": "1baa3629e8aad7af958e8c18b8c1baf136950bb6eb61f55090d2e2803d319d3d",
+      "runtime_hashes": [],
+      "cache_low": "a74f0056",
+      "cache_low_original_matches": [
+        "MENU/MENU_GALLERY/010_PTMD.ptm"
+      ],
+      "clut_only_hash": "00000000a74f005600000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-13",
+      "iso_ptmd_sha256": "1ba7763306a6c335fbd5329e4252cb624ac5ccdabd4019492bb42b5b7bfbe8f0",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "32574ba0373f38c92645cbdd6d23ee240355054397179a0f554db341ebb07ab1",
+      "logical_size": [
+        64,
+        80
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_GALLERY\\010_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "MENU/MENU_ITEM/005_PTMD.ptm",
+      "width": 128,
+      "height": 64,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "b1be085ce5d0bec443e9254b109528b95a3b1112adfd3f367c14643071a7b852",
+      "index": 14,
+      "replacement": "ui/14_menu_menu_item_005_ptmd_8x.png",
+      "replacement_sha256": "dda0a280b4fb301f065229a4630104861efe2491c738818e0692d0f625465e0f",
+      "runtime_hashes": [
+        "09dd0d7011b0765a941ae3f9",
+        "09dfbc1011b0765a941ae3f9"
+      ],
+      "cache_low": "11b0765a",
+      "cache_low_original_matches": [
+        "MENU/MENU_CUSTOM/009_PTMD.ptm",
+        "MENU/MENU_ITEM/005_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-14",
+      "iso_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+      "logical_size": [
+        128,
+        64
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_ITEM\\005_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011b0765a71a523ed.png",
+          "full_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_ITEM/006_PTMD.ptm",
+      "width": 128,
+      "height": 144,
+      "padded_width": 128,
+      "padded_height": 256,
+      "mode": 5,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "599061582892c9c7c4d7eca11be04af53cbb17696941afa9820d42dd5b4e9f0b",
+      "index": 15,
+      "replacement": "ui/15_menu_menu_item_006_ptmd_8x.png",
+      "replacement_sha256": "3896c410729bf728980d21868abe2cc25fdbc97ea5d8a8b174ff7e28c91c324a",
+      "runtime_hashes": [
+        "09dd1da084bb9de3577412fe"
+      ],
+      "cache_low": "84bb9de3",
+      "cache_low_original_matches": [
+        "MENU/MENU_ITEM/006_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-15",
+      "iso_ptmd_sha256": "5d30b711d3eebf23274a8a96a63ff3fe3aa1047bfe2f431af4472ba70be6e447",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "053fd7c38a721a8ecd2d2d0b6ddb00456aed4fb49e5eba50f469591d90aa0902",
+      "logical_size": [
+        128,
+        144
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_ITEM\\006_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000084bb9de3ca720b5f",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000084bb9de3ca720b5f.png",
+          "full_rgba_sha256": "e9c218af4a030a8705ff08fc2492a507540c5a23fc0d56568d000bedb40bc3cd",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_OPTION/005_PTMD.ptm",
+      "width": 256,
+      "height": 64,
+      "padded_width": 256,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "9bc47d5eac27a044e427ee56b68aa88efef9d3a2b68d40b7b7ac9d05ef79b488",
+      "index": 16,
+      "replacement": "ui/16_menu_menu_option_005_ptmd_8x.png",
+      "replacement_sha256": "2d3a31ce2079cb7268fe3cd9fbe7fb6614bab2e1d7220551c89edb5d18642344",
+      "runtime_hashes": [
+        "09da38f061b9cd91538a6aef"
+      ],
+      "cache_low": "61b9cd91",
+      "cache_low_original_matches": [
+        "MENU/MENU_OPTION/005_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-16",
+      "iso_ptmd_sha256": "bb3a786093f4c5c51710b380bc35e0634167beba4f0db08128ac21cbf7086808",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "86aa9161406e574431368d11deb9ec225a468bc40dc8c71745e800ec2d400c1a",
+      "logical_size": [
+        256,
+        64
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_OPTION\\005_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000061b9cd9108a0507a",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000061b9cd9108a0507a.png",
+          "full_rgba_sha256": "86aa9161406e574431368d11deb9ec225a468bc40dc8c71745e800ec2d400c1a",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_OPTION/006_PTMD.ptm",
+      "width": 128,
+      "height": 24,
+      "padded_width": 128,
+      "padded_height": 32,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "4a1cb267d72727bf0b9f17baf2ed6413bfebf69ec525d1a55d768e70681660cd",
+      "index": 17,
+      "replacement": "ui/17_menu_menu_option_006_ptmd_8x.png",
+      "replacement_sha256": "37871f5ced962de366319ff69f034a0c87446d28b151fe5a4eaeafaf6603f4f2",
+      "runtime_hashes": [
+        "09da592004fb7415a713b209"
+      ],
+      "cache_low": "04fb7415",
+      "cache_low_original_matches": [
+        "MENU/MENU_OPTION/006_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-17",
+      "iso_ptmd_sha256": "8713121fda69e5a79fe97f5eb7b9c56c4f1ed3fc3d5620e1cd4e3b878d4b3ad1",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "1a63fb0dc58ea064c639bf90cc3985368bfaa6234d6c8ce8dcda57285a551eb8",
+      "logical_size": [
+        128,
+        24
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_OPTION\\006_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000004fb7415bdbbc91c",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000004fb7415bdbbc91c.png",
+          "full_rgba_sha256": "b37b2b3695ce34fed70cda9fada5e1c8041e18d6ef5dcea47315b4e0fcd1ec8c",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "MENU/MENU_OPTION/007_PTMD.ptm",
+      "width": 128,
+      "height": 48,
+      "padded_width": 128,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "9f02e3c2ca8f404012a9f5ee9e203dd6758033a4ac33da223c20773373bdeda2",
+      "index": 18,
+      "replacement": "ui/18_menu_menu_option_007_ptmd_8x.png",
+      "replacement_sha256": "f088914d05ce6f986486a075520c1a7781514fde0cae5d98b8620f5f5a462253",
+      "runtime_hashes": [
+        "09da5f5035517ce131b6e257",
+        "09da5f5035517ce1483aafb3",
+        "09da5f5035517ce14903a687",
+        "09da5f5035517ce14903cd01"
+      ],
+      "cache_low": "35517ce1",
+      "cache_low_original_matches": [
+        "MENU/MENU_OPTION/007_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-18",
+      "iso_ptmd_sha256": "d4d200491298cc3403619872917103365c2938b705512c4c029d99fdc69b548c",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "b3097ee1a501999b9071d63fc3b071e09b1cb79af1ac46b388374051a2912be9",
+      "logical_size": [
+        128,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\MENU\\MENU_OPTION\\007_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000035517ce10c8ed4a1",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000035517ce10c8ed4a1.png",
+          "full_rgba_sha256": "7b458f888c5ba5ca0ae26689eb4a4e3f164399adeba18a3aad225fb900c80cbe",
+          "logical_match": true
+        },
+        {
+          "key": "0000000035517ce18b0d810e",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000035517ce18b0d810e.png",
+          "full_rgba_sha256": "1989817df5f5c76099148e5afe35cdd472ac4f201769049254c16d563db790c7",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "SYSTEM/if_btlsys/003_PTMD.ptm",
+      "width": 256,
+      "height": 48,
+      "padded_width": 256,
+      "padded_height": 64,
+      "mode": 4,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "5ec3d86edb0c3971930bc4b2a08b4f4309204b29490a2952f0de56131b44803c",
+      "index": 19,
+      "replacement": "ui/19_system_if_btlsys_003_ptmd_8x.png",
+      "replacement_sha256": "c1b743af636d38836dc632527db7b02918668f7b456cfa23c1da76afd5139f80",
+      "runtime_hashes": [
+        "095be9c0a10bede72062fbb0",
+        "095be9c0a10bede76152b72a"
+      ],
+      "cache_low": "a10bede7",
+      "cache_low_original_matches": [
+        "SYSTEM/if_btlsys/003_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-19",
+      "iso_ptmd_sha256": "37e2c3c1ff686d80725f6c655b77515974c91421d548afcc6b3dd6ecdaf06222",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "d99b4ab662d2a2e2a44dbc90969e3910b612b14ea762e4536cc414d7ec0cc3cd",
+      "logical_size": [
+        256,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_btlsys\\003_PTMD.ptm",
+      "matches": [
+        {
+          "key": "00000000a10bede75312961c",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000a10bede75312961c.png",
+          "full_rgba_sha256": "3b627b41e528f59287a4860d03204e15ed66dabf6fd16e1cae6c6e762f30f47a",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "SYSTEM/if_btlsys/004_PTMD.ptm",
+      "width": 64,
+      "height": 120,
+      "padded_width": 64,
+      "padded_height": 128,
+      "mode": 5,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "8a555f991666028d953e6770da6eb610c8ed21a19c23cd097eb0c665be1ec5f3",
+      "index": 20,
+      "replacement": "ui/20_system_if_btlsys_004_ptmd_8x.png",
+      "replacement_sha256": "9612d0116c509ef6d0354445c537fa4abdad134924c03654f48f28a235ab8719",
+      "runtime_hashes": [
+        "095c0210519412d542f790aa"
+      ],
+      "cache_low": "519412d5",
+      "cache_low_original_matches": [
+        "SYSTEM/if_btlsys/004_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-20",
+      "iso_ptmd_sha256": "d492b10dfb2a380138b081b4e855a78cc4ef0008f72be397f0d20abfe372b56c",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "33b9541b5f39b8e8ec184a4dd3fe175149247b07ae88e9b789909153b08e3a23",
+      "logical_size": [
+        64,
+        120
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_btlsys\\004_PTMD.ptm",
+      "matches": [
+        {
+          "key": "00000000519412d5791323ee",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-152906-preview-60de48\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000519412d5791323ee.png",
+          "full_rgba_sha256": "d4b767e13e953f090db35b2a20e2988fbc3b3d74e114bc6c3f64087338c963a1",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "SYSTEM/if_btlsys/005_PTMD.ptm",
+      "width": 256,
+      "height": 48,
+      "padded_width": 256,
+      "padded_height": 64,
+      "mode": 5,
+      "palette_code": 48,
+      "patched_ptmd_sha256": "6e934cfbb87e755be9ad858738e273885d383af00eaebb29403657629c4c4096",
+      "index": 21,
+      "replacement": "ui/21_system_if_btlsys_005_ptmd_8x.png",
+      "replacement_sha256": "a992936a4ca8f432765af6dcd33214b6eab50da56a067f801a37609f6517a210",
+      "runtime_hashes": [],
+      "cache_low": "fc37f5f9",
+      "cache_low_original_matches": [
+        "SYSTEM/if_btlsys/005_PTMD.ptm"
+      ],
+      "clut_only_hash": "00000000fc37f5f900000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-21",
+      "iso_ptmd_sha256": "e5e7275620bf14f31cd2a0bb65f7bc43f34d5402ffe125d46843b5b691a74137",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "075e20c977695a49913db2c9cff055d5e22ebba0b64f257c5959e8839610de59",
+      "logical_size": [
+        256,
+        48
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_btlsys\\005_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "SYSTEM/if_btlsys/010_PTMD.ptm",
+      "width": 128,
+      "height": 360,
+      "padded_width": 128,
+      "padded_height": 512,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "f0ce4613ee61df999338c3061223f2112ff7f5c32c861c4a6b2246b3f32f0c04",
+      "index": 22,
+      "replacement": "ui/22_system_if_btlsys_010_ptmd_8x.png",
+      "replacement_sha256": "833a6656f7b8aeaaaf675387b255a7c2c0fc96445ec3f80383da4a52a53e2c06",
+      "runtime_hashes": [],
+      "cache_low": "9881822f",
+      "cache_low_original_matches": [
+        "SYSTEM/if_btlsys/010_PTMD.ptm"
+      ],
+      "clut_only_hash": "000000009881822f00000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-22",
+      "iso_ptmd_sha256": "d8650bbd1daaec707fe8811af1c1e295f3e4441c113304e4049bb5dbfa4bb2b6",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "12350787f59ffc19d5ab6970917dd698d05002ba06ac62c34d934f0a0e29f573",
+      "logical_size": [
+        128,
+        360
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_btlsys\\010_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "SYSTEM/if_fldsys/015_PTMD.ptm",
+      "width": 128,
+      "height": 104,
+      "padded_width": 128,
+      "padded_height": 128,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "9c6ed0fca8bc2836531062980cacd7c2edfc41bc9ed1103833b5724c501eb3e9",
+      "index": 23,
+      "replacement": "ui/23_system_if_fldsys_015_ptmd_8x.png",
+      "replacement_sha256": "25a294fb2afe3d7cfdac47e65d7a3693f557a830b777f53b3640cfb46ed833ad",
+      "runtime_hashes": [],
+      "cache_low": "dedaefdb",
+      "cache_low_original_matches": [
+        "SYSTEM/if_fldsys/015_PTMD.ptm"
+      ],
+      "clut_only_hash": "00000000dedaefdb00000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-23",
+      "iso_ptmd_sha256": "89d533e33970f8497cf7fc3a4a349ed4d25ec5ab53d67cdf91b01e67e7ff9508",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "1aea5752a58db6ab4a53ee286210705a9fb4a56c8947307fade5853674309efe",
+      "logical_size": [
+        128,
+        104
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_fldsys\\015_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "SYSTEM/if_fldsys/017_PTMD.ptm",
+      "width": 128,
+      "height": 24,
+      "padded_width": 128,
+      "padded_height": 32,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "947fa7d7f21697cfaf1c78d878a177756ce72bdeab292653f176b513e0a047f8",
+      "index": 24,
+      "replacement": "ui/24_system_if_fldsys_017_ptmd_8x.png",
+      "replacement_sha256": "a5a906e94cbe360acd42b979f9a0c9dde31f02fb026379f1572e649f0c639b8c",
+      "runtime_hashes": [],
+      "cache_low": "717a72bf",
+      "cache_low_original_matches": [
+        "SYSTEM/if_fldsys/017_PTMD.ptm"
+      ],
+      "clut_only_hash": "00000000717a72bf00000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-24",
+      "iso_ptmd_sha256": "ef696d6a9f6c0f66ccfa8dee8d0b34fe4f6d88b5321e79c262d285f74061c320",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "f0d0d450a7745efad1915c3a3e6a24b30c5fa6273fa63355653b79f449967372",
+      "logical_size": [
+        128,
+        24
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_fldsys\\017_PTMD.ptm",
+      "matches": []
+    },
+    {
+      "relative": "SYSTEM/if_fldsys/018_PTMD.ptm",
+      "width": 128,
+      "height": 32,
+      "padded_width": 128,
+      "padded_height": 32,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "eb0b6cbb7292f4ed880c3b91be29f2bbfc47843cab248b648e10b168566cf000",
+      "index": 25,
+      "replacement": "ui/25_system_if_fldsys_018_ptmd_8x.png",
+      "replacement_sha256": "a2e7ea233a1fb71b7db8a9168fd4dd7c75d4297bc2e5147ec9c3463a6029a6ee",
+      "runtime_hashes": [
+        "095b58e088ec82fa88606a85"
+      ],
+      "cache_low": "88ec82fa",
+      "cache_low_original_matches": [
+        "SYSTEM/if_fldsys/018_PTMD.ptm"
+      ],
+      "clut_only_hash": null,
+      "mapping_mode": "runtime_exact_and_address_wildcard",
+      "hash_ready": true,
+      "id": "UI-25",
+      "iso_ptmd_sha256": "3c45df97a0559b9ff14efae258ec2a4d9d9d44792b38abbafe427b9ac9335ae1",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "37b26299aecfbae5eddee7b0400d77e3ed7b2dba06d6db4e5daaa36993bf1cdc",
+      "logical_size": [
+        128,
+        32
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_fldsys\\018_PTMD.ptm",
+      "matches": [
+        {
+          "key": "0000000088ec82fa11c211d4",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000088ec82fa11c211d4.png",
+          "full_rgba_sha256": "37b26299aecfbae5eddee7b0400d77e3ed7b2dba06d6db4e5daaa36993bf1cdc",
+          "logical_match": true
+        }
+      ]
+    },
+    {
+      "relative": "SYSTEM/if_fldsys/021_PTMD.ptm",
+      "width": 256,
+      "height": 32,
+      "padded_width": 256,
+      "padded_height": 32,
+      "mode": 4,
+      "palette_code": 32,
+      "patched_ptmd_sha256": "493a8fc0093a4732325ab742aba5b5c65ee6b48c783b3bf37b90b1e8db57a143",
+      "index": 26,
+      "replacement": "ui/26_system_if_fldsys_021_ptmd_8x.png",
+      "replacement_sha256": "61e0e815998e2cba12be68b2b0da5826f1feddfdecf1d16de16be3ac0b137152",
+      "runtime_hashes": [],
+      "cache_low": "14245bc0",
+      "cache_low_original_matches": [
+        "SYSTEM/if_fldsys/021_PTMD.ptm"
+      ],
+      "clut_only_hash": "0000000014245bc000000000",
+      "mapping_mode": "clut_dimension_unique_wildcard",
+      "hash_ready": true,
+      "id": "UI-26",
+      "iso_ptmd_sha256": "169307458040a9f583070ac698704d159873f3d72a784d1a6229ceb81f843c14",
+      "matches_old_korean_ptmd": false,
+      "matches_original_english_ptmd": true,
+      "logical_rgba_sha256": "3894e916ab1284bd621d2563c23306d5a8fb181997afee88624c408b9dd9de7b",
+      "logical_size": [
+        256,
+        32
+      ],
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui\\SYSTEM\\if_fldsys\\021_PTMD.ptm",
+      "matches": []
+    }
+  ],
+  "unmatched_dumps": [],
+  "mapping_rule": "Current xxh64 observations only, decoded full logical source pixel identity, preserve dump padding separately; no quick hash migration or palette-only wildcard."
+}

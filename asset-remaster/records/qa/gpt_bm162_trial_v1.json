@@ -1,0 +1,36 @@
+{
+  "schema": "brs-gpt-texture-trial/v1",
+  "group_id": "BM162",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+  "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+  "edit_target": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+  "generated_original": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-26050dba-7f1a-4ce4-8249-6366ec147188.png",
+  "project_copy": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM162-v1\\generated-original.png",
+  "output_sha256": "4b203c1ff115606d588bd6ea1a1ea0363b6228172dea9fc051ff9e4dece4a020",
+  "size": [
+    1254,
+    1254
+  ],
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "image_model": "Built-in image_gen; actual model identifier not exposed",
+  "local_model_inference": false,
+  "image_upload": true,
+  "prompt": "Use case: precise-object-edit. Asset: a single game foliage texture, a static comparison candidate for a faithful PSP texture remaster. Image 1 is the edit target: a local super-resolution attempt of the original. Image 2 is the immutable 64x64 original and is authoritative for layout, colors, coverage and silhouette. Repair the overly glossy, rock-like, shredded detail in image 1 into restrained matte gray-green foliage detail. Keep the SAME square canvas, orthographic flat texture view, cluster arrangement, empty spaces, exact overall occupied position and outer silhouette of image 2. Do not invent a tree trunk, plant pot, background scene, lighting direction or additional clusters. Preserve the desaturated gray-green palette and low contrast from image 2; no white specular glints, plastic/wax shine, stones, snow, flowers or text. This is an image restoration attempt, not a new bush design. Output one square RGBA PNG at 1024x1024 with a genuinely transparent background, no margins, border, labels or comparison panels. Use alpha to preserve all source gaps. No shadows outside the existing foliage. Fine leaf texture should read naturally without changing the original broad forms.\n",
+  "alpha_mass_ratio": 1.2924074673360262,
+  "threshold128_iou": 0.7710684399443624,
+  "nonzero_alpha_outside_source_bilinear_support": 33356,
+  "not_opaque_in_source_solid_support": 463876,
+  "source_scale_rgb_mae_visible": 11.783357951747908,
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "status": "rejected",
+    "reason": "Generated foliage fills source gaps, repeats leaf motifs and changes coverage. Alpha mass is about 29.24% higher; 1254-square output also misses the requested 1024-square canvas. Do not adopt or force-fit by copying only source alpha.",
+    "evidence": "outputs/gpt_bm162_compare_v1.png"
+  },
+  "adopted": false,
+  "runtime_verified": false,
+  "release_eligible": false
+}

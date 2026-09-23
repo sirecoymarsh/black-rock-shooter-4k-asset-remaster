@@ -1,0 +1,470 @@
+{
+  "schema": "brs-checker-fidelity/v1",
+  "review_status": "pending visual review",
+  "revoked_candidate": {
+    "source_report": "qa/local_sr011_bm221_rework.json",
+    "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-bm221-rework\\BM221-filtered-guided.png",
+    "output_sha256": "e847883725ed96020f17c7a3eb4338f275abcd2ffb3765a79ef85c7c4d085e2d",
+    "reason": "8x detail inspection rejected both initial models: pink-green checks became an embossed mesh. Filtered-guided retry restores source color checks and reduces invented depth. Softer edges are an explicit tradeoff; both final mattes inspected.",
+    "status": "static_candidate_for_consumer_and_game_review",
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "design_contract": {
+    "basis": "User clarified that checkerboard is a core game design element.",
+    "protected_features": [
+      "cell count",
+      "cell positions and phase",
+      "cell boundaries",
+      "authored colors and shading",
+      "clipping geometry and alpha"
+    ],
+    "rules": [
+      "Do not replace checks with mesh, embossed holes or invented texture.",
+      "Do not accept blur as a checker reconstruction.",
+      "Separate protected design layers from neural material inference."
+    ],
+    "review_queue": [
+      "BM175",
+      "BM200",
+      "BM201",
+      "BM209",
+      "BM221",
+      "BM226",
+      "BM244",
+      "BM269"
+    ]
+  },
+  "files": [
+    {
+      "id": "BM200-cell-preserved",
+      "group_id": "BM200",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\000.png",
+      "source_rgba_sha256": "42da832373cb306c9dcf3f4a53cb0bb0ccb1023ee4466d489c737af054d65df6",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM200-cell-preserved8x.png",
+      "output_sha256": "d0a7f6ca03a39cdd19e19a8b33a9957becac08754f99bb280827080ee32f80e1",
+      "output_size": [
+        256,
+        256
+      ],
+      "method": "Exact cell geometry with independent bilinear shading inside each cell; no neural inference or newly invented texture",
+      "new_neural_passes": 0,
+      "cell_pitch_source": 16,
+      "cells": [
+        {
+          "source_box": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "output_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "output_box": [
+            128,
+            0,
+            256,
+            128
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "output_box": [
+            0,
+            128,
+            128,
+            256
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "output_box": [
+            128,
+            128,
+            256,
+            256
+          ],
+          "parity": 0
+        }
+      ],
+      "checker_class_mask_exact_to_source_nearest8x": true,
+      "alpha_exact_to_source_nearest8x": true,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM269-cell-preserved",
+      "group_id": "BM269",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\012.png",
+      "source_rgba_sha256": "05927878562ee64c8becf6dd46f6f5f131fd8296edb535bffe2c1368cf8d619a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM269-cell-preserved8x.png",
+      "output_sha256": "411eff06a1f021a96f008fc15730ceb0d2177cf49faead77061abf49af9ebfea",
+      "output_size": [
+        256,
+        256
+      ],
+      "method": "Exact cell geometry with independent bilinear shading inside each cell; no neural inference or newly invented texture",
+      "new_neural_passes": 0,
+      "cell_pitch_source": 8,
+      "cells": [
+        {
+          "source_box": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "output_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "output_box": [
+            64,
+            0,
+            128,
+            64
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            16,
+            0,
+            24,
+            8
+          ],
+          "output_box": [
+            128,
+            0,
+            192,
+            64
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            24,
+            0,
+            32,
+            8
+          ],
+          "output_box": [
+            192,
+            0,
+            256,
+            64
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            0,
+            8,
+            8,
+            16
+          ],
+          "output_box": [
+            0,
+            64,
+            64,
+            128
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "output_box": [
+            64,
+            64,
+            128,
+            128
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            16,
+            8,
+            24,
+            16
+          ],
+          "output_box": [
+            128,
+            64,
+            192,
+            128
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            24,
+            8,
+            32,
+            16
+          ],
+          "output_box": [
+            192,
+            64,
+            256,
+            128
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            0,
+            16,
+            8,
+            24
+          ],
+          "output_box": [
+            0,
+            128,
+            64,
+            192
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            8,
+            16,
+            16,
+            24
+          ],
+          "output_box": [
+            64,
+            128,
+            128,
+            192
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            16,
+            16,
+            24,
+            24
+          ],
+          "output_box": [
+            128,
+            128,
+            192,
+            192
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            24,
+            16,
+            32,
+            24
+          ],
+          "output_box": [
+            192,
+            128,
+            256,
+            192
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            0,
+            24,
+            8,
+            32
+          ],
+          "output_box": [
+            0,
+            192,
+            64,
+            256
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            8,
+            24,
+            16,
+            32
+          ],
+          "output_box": [
+            64,
+            192,
+            128,
+            256
+          ],
+          "parity": 0
+        },
+        {
+          "source_box": [
+            16,
+            24,
+            24,
+            32
+          ],
+          "output_box": [
+            128,
+            192,
+            192,
+            256
+          ],
+          "parity": 1
+        },
+        {
+          "source_box": [
+            24,
+            24,
+            32,
+            32
+          ],
+          "output_box": [
+            192,
+            192,
+            256,
+            256
+          ],
+          "parity": 0
+        }
+      ],
+      "checker_class_mask_exact_to_source_nearest8x": true,
+      "alpha_exact_to_source_nearest8x": true,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM221-wdn-protected",
+      "group_id": "BM221",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_03.vol\\001_map_b_stg05_03.bin\\001.png",
+      "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-rgb-input.png",
+      "input_sha256": "f5445c36d415a50c7408a980131138added6770722cc55df5d8dc60be1300a93",
+      "cleanplate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-checker-removed-input.png",
+      "cleanplate_sha256": "118c38926ea718cad4d1770e132ceaa973dec64f4eafe00e2892da715afa4d0a",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-protected-checker-mask.png",
+      "mask_sha256": "00ca60cd924f146284908f2f94fccd125121b30031181aba7b503733b0bc276f",
+      "protected_source_pixels": 614,
+      "protected_output_pixels": 39296,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-wdn-native4x.png",
+      "native_sha256": "f3bddd831a0f1f3a0046b5b7d936125b6e41e5fc17c466686becb84a180aefc3",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-wdn-protected8x.png",
+      "output_sha256": "f995ef76c246b635991b64ee071bf29c7d63217303aef61f1c962dcf68d8ae85",
+      "output_size": [
+        256,
+        2048
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x for frame; nearest8x only for exact protected checker layer",
+      "method": "Local neural inference on checker-removed material; protected checker pixels restored byte-exactly; source bilinear alpha with protected core alpha255",
+      "protected_rgba_exact_to_source_nearest8x": true,
+      "seconds": 0.48399999999674037,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM221-photo-protected",
+      "group_id": "BM221",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_03.vol\\001_map_b_stg05_03.bin\\001.png",
+      "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-rgb-input.png",
+      "input_sha256": "f5445c36d415a50c7408a980131138added6770722cc55df5d8dc60be1300a93",
+      "cleanplate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-checker-removed-input.png",
+      "cleanplate_sha256": "118c38926ea718cad4d1770e132ceaa973dec64f4eafe00e2892da715afa4d0a",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-protected-checker-mask.png",
+      "mask_sha256": "00ca60cd924f146284908f2f94fccd125121b30031181aba7b503733b0bc276f",
+      "protected_source_pixels": 614,
+      "protected_output_pixels": 39296,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-photo-native4x.png",
+      "native_sha256": "9d65350b728f52becb72bd33d5ddfc7e909fb4d045c925c6b5c8e65b37895918",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-photo-protected8x.png",
+      "output_sha256": "be65607e63528ad81e284a7aabb926c242925fa7fcde85b1dbd611021cc0bf8a",
+      "output_size": [
+        256,
+        2048
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x for frame; nearest8x only for exact protected checker layer",
+      "method": "Local neural inference on checker-removed material; protected checker pixels restored byte-exactly; source bilinear alpha with protected core alpha255",
+      "protected_rgba_exact_to_source_nearest8x": true,
+      "seconds": 0.26600000000325963,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false,
+  "local_image_upload": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_fidelity_BM200.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_fidelity_BM269.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_fidelity_BM221.png"
+  ],
+  "new_neural_passes": 2
+}

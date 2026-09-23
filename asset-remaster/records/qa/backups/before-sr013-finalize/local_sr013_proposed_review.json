@@ -1,0 +1,19 @@
+{
+  "selected": {
+    "BM087": [
+      "qa/local_sr013_facades_v2.json",
+      "BM087-bands"
+    ],
+    "BM115": [
+      "qa/local_sr013_rubble_tone.json",
+      "BM115-tone-0.80"
+    ]
+  },
+  "matte_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM087_mattes.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM115_mattes.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM115_connector.png"
+  ],
+  "review_status": "pending final matte review",
+  "runtime_verified": false
+}

@@ -1,0 +1,41 @@
+{
+  "scene": "Battle results; 리페어 200 / 리페어 500",
+  "baseline": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-Q001-font-baseline\\captures\\font-baseline-window.png",
+  "preview": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-Q002-font-preview\\captures\\font-preview-window.png",
+  "baseline_sha256": "aae3422d1adb32511e1100e942d612db42c2af504453f4b9be69f5c8c09cf7d7",
+  "preview_sha256": "2c959c4386c3b1b9aff30b4e4f2e82b75a0fa5f274c806bc68f96c7179633fa7",
+  "roi_metrics": {
+    "korean_row1": {
+      "changed_pixels": 4283,
+      "mean_abs_error": 16.959042827657377,
+      "max_abs_error": 149
+    },
+    "korean_row2": {
+      "changed_pixels": 4205,
+      "mean_abs_error": 17.303341073271415,
+      "max_abs_error": 154
+    },
+    "digits_row1": {
+      "changed_pixels": 1903,
+      "mean_abs_error": 11.374593892137751,
+      "max_abs_error": 76
+    },
+    "digits_row2": {
+      "changed_pixels": 1872,
+      "mean_abs_error": 11.189408706952566,
+      "max_abs_error": 72
+    },
+    "plus_icons": {
+      "changed_pixels": 0,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0
+    },
+    "counts": {
+      "changed_pixels": 0,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0
+    }
+  },
+  "visual_review": "Korean is rerasterized and visible in original slots; digits and item icons remain original. Readable on both item rows. This scene is not full repertoire or transition coverage.",
+  "gpu_download": "CPU stepping output download failed; CPU resumed; GE frame dump separately captured. No claim of byte-identical GPU replacement yet."
+}

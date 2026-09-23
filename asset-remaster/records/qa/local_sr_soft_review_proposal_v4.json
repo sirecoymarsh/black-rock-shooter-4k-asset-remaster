@@ -1,0 +1,35 @@
+{
+  "proposed": {
+    "BM027": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-rgba8x.png",
+    "BM039": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM039-linear-mask-rgb-neural-8x.png",
+    "BM057": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-selected-foliage-photo-bark-wdn-8x.png"
+  },
+  "tree_parent": {
+    "group_id": "BM057",
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+    "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+    "parent_neural": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-rgba8x.png",
+    "parent_neural_sha256": "d2969c7d62b644fd8d9cc2f8ec9671bee74472e8b91715583a664019420b7919",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-photo-detail0.6-8x.png",
+    "output_sha256": "b51a9516e5a006f61d7f4fcdbb99a4bd0639e0a363d7334b5d57674d08431c55",
+    "method": "Alpha-weighted local color base plus reduced neural high-frequency RGB detail in foliage x<48; bark and entire alpha exact to parent.",
+    "detail_weight": 0.6,
+    "new_neural_inference": false,
+    "postprocessing_only": true,
+    "visual_review": "pending",
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "tree_bark_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM057-general-wdn-rgba8x.png",
+  "tree_bark_parent_sha256": "038da36e2f60ebbb980ac9c91adacc98e26baa835f12749566a55ba5766acfe6",
+  "tree_composite_sha256": "8907f3d08fa0f3ce8061003a8bfb7d6ff8eab434c97616fc205da17cebe0980f",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "status": "static_candidates_only",
+    "evidence": [
+      "outputs/local_sr_soft_matte_review_v4.png",
+      "outputs/local_sr_BM039_rework_v4.png"
+    ],
+    "runtime_verified": false
+  }
+}

@@ -1,0 +1,1292 @@
+{
+  "schema": "brs-observed-rework/v2",
+  "group_ids": [
+    "BM130",
+    "BM156",
+    "BM159",
+    "BM162",
+    "BM163",
+    "BM164",
+    "BM165"
+  ],
+  "device": "NVIDIA GeForce RTX 5080",
+  "files": [
+    {
+      "id": "BM130-prefilter075",
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075.png",
+      "output_sha256": "6ea4b429d3b67d3997d16cfcab769a5ae4a98a6757a54a239ea59144888321d9",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Prefiltered neural retry reduces invented zigzag grooves; source-guided color retains the cliff bands. Softer fine detail remains a game-review limitation.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            256,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part0-input.png",
+          "input_sha256": "147b3923e36aac60a964bdfcf32f091db72c2efd5acf721e2080681cd5e99bcc",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part0-native4x.png",
+          "native_sha256": "f5fdac49f3763cde8355d21b2e250418e62a7d6ecaf74328ebfc16b3efce1853",
+          "mean_rgb_offset": [
+            1.3114547729492188,
+            1.0866165161132812,
+            0.42792510986328125
+          ]
+        },
+        {
+          "source_box": [
+            0,
+            32,
+            256,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part1-input.png",
+          "input_sha256": "a09d04d4d5b0b2a8ecfef9b2f7aff04e51ea883a986cf61cf1b7e0b188cc4f8b",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part1-native4x.png",
+          "native_sha256": "f3728d9397bae9b6e8ef6b1dd5e31e8c9859930e3fd7a581412b421835f4af63",
+          "mean_rgb_offset": [
+            1.2173385620117188,
+            1.0624008178710938,
+            0.38408660888671875
+          ]
+        },
+        {
+          "source_box": [
+            0,
+            64,
+            256,
+            96
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part2-input.png",
+          "input_sha256": "aedde264f30c6e3ce1cbfa1f86d5508c3ce06dc35a0bb647b1699b1c5bc0d31d",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part2-native4x.png",
+          "native_sha256": "02fddec2fc06f13160222a31f8c5074e255f8b35eaa3b42b8fd65396d8435a97",
+          "mean_rgb_offset": [
+            1.3909378051757812,
+            1.1306381225585938,
+            0.48471832275390625
+          ]
+        },
+        {
+          "source_box": [
+            0,
+            96,
+            256,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part3-input.png",
+          "input_sha256": "474055cd8a60ad506da83ad848ba5f676df159041a39ccead0a2ce4e9a0729bc",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-part3-native4x.png",
+          "native_sha256": "1591ff09230f5d13ca10d419b0874a1a39eb3e8817fa4df582ce24baf964c7df",
+          "mean_rgb_offset": [
+            1.3151016235351562,
+            1.074462890625,
+            0.5560226440429688
+          ]
+        }
+      ],
+      "new_neural_passes": 4,
+      "seconds": 0.6410000000032596,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3"
+    },
+    {
+      "id": "BM130-guided055",
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-guided055.png",
+      "output_sha256": "39e09fecff8c9417dc89c12a82a4741b631920e1ef1e8c7b391022f61f13c009",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Prefiltered neural retry reduces invented zigzag grooves; source-guided color retains the cliff bands. Softer fine detail remains a game-review limitation.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          256,
+          32
+        ],
+        [
+          0,
+          32,
+          256,
+          64
+        ],
+        [
+          0,
+          64,
+          256,
+          96
+        ],
+        [
+          0,
+          96,
+          256,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM130-guided080",
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-guided080.png",
+      "output_sha256": "2043d5123dd3f5ff565c03539d9c920ba14eb201ca580125103435b6e8d2ee9d",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Prefiltered neural retry reduces invented zigzag grooves; source-guided color retains the cliff bands. Softer fine detail remains a game-review limitation.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          256,
+          32
+        ],
+        [
+          0,
+          32,
+          256,
+          64
+        ],
+        [
+          0,
+          64,
+          256,
+          96
+        ],
+        [
+          0,
+          96,
+          256,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM130-prefilter075-guided065",
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075-guided065.png",
+      "output_sha256": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Prefiltered neural retry reduces invented zigzag grooves; source-guided color retains the cliff bands. Softer fine detail remains a game-review limitation.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM130.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr007_matte_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM130-prefilter075.png",
+      "parent_sha256": "6ea4b429d3b67d3997d16cfcab769a5ae4a98a6757a54a239ea59144888321d9",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          256,
+          32
+        ],
+        [
+          0,
+          32,
+          256,
+          64
+        ],
+        [
+          0,
+          64,
+          256,
+          96
+        ],
+        [
+          0,
+          96,
+          256,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM156-prefilter075",
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-prefilter075.png",
+      "output_sha256": "b18766162c65473d0c6f49c8e370d50aa03da4d3c0c8b8fa3a207071204f512d",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Tree crown retains flat/glossy planes or becomes too blurred; trunk and branch appearance still need a different treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-prefilter075-part0-input.png",
+          "input_sha256": "a3d5def55ea5e4c18b9deca7bc008d367310494bbfbae6655e725b11df1b098e",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-prefilter075-part0-native4x.png",
+          "native_sha256": "2f816e3515ce76beaa07404f4732838ae2e6eb71a96df1622222c16c1f1b4f65",
+          "mean_rgb_offset": [
+            1.2213935852050781,
+            1.3185272216796875,
+            0.09794235229492188
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.18699999997625127,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e"
+    },
+    {
+      "id": "BM156-guided055",
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-guided055.png",
+      "output_sha256": "95260ecf7d36244b1352f204fbd36df6d0852fe60e5869ea7157a958cf398fe6",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Tree crown retains flat/glossy planes or becomes too blurred; trunk and branch appearance still need a different treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM156-guided080",
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-guided080.png",
+      "output_sha256": "8b6472ab5f148de8a7b1fbda49464173dc14e443e61d785e4c3c1cd5d7ccefdf",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Tree crown retains flat/glossy planes or becomes too blurred; trunk and branch appearance still need a different treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM156-prefilter075-guided065",
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-prefilter075-guided065.png",
+      "output_sha256": "24b59a117e55556c2ffd40eca230a20fc01159d94dbcfbdf02a13d29bc775e53",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Tree crown retains flat/glossy planes or becomes too blurred; trunk and branch appearance still need a different treatment.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM156-prefilter075.png",
+      "parent_sha256": "b18766162c65473d0c6f49c8e370d50aa03da4d3c0c8b8fa3a207071204f512d",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM159-prefilter075",
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-prefilter075.png",
+      "output_sha256": "a9ec47943522d582a256c6bde57fd249d814add115ca195f99f2ef1d74f23a5b",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces the overly busy yellow microtexture; broad patches and prior alpha are retained.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-prefilter075-part0-input.png",
+          "input_sha256": "8f299c155beed32d0b80613c2664672f634d142fce0f106a619067c7a1d34b6a",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-prefilter075-part0-native4x.png",
+          "native_sha256": "3fa33cb75bef52b53597efccb6a31b25eaee8c252accd39e0400239afb301537",
+          "mean_rgb_offset": [
+            -1.2903900146484375,
+            -1.4186859130859375,
+            -2.743621826171875
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.0470000000204891,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939"
+    },
+    {
+      "id": "BM159-guided055",
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-guided055.png",
+      "output_sha256": "aa9a89a9a35a83b497cd6bfd2c10bfaba58084169f834f26a864330250a3b83d",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces the overly busy yellow microtexture; broad patches and prior alpha are retained.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM159-guided080",
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-guided080.png",
+      "output_sha256": "00fcc7407238e1ea9762ec8b8a4cdda562eccf63490ae2565fc1a075c8928e53",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces the overly busy yellow microtexture; broad patches and prior alpha are retained.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM159-prefilter075-guided065",
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-prefilter075-guided065.png",
+      "output_sha256": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Filtered inference with source-guided color reduces the overly busy yellow microtexture; broad patches and prior alpha are retained.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM159.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr007_matte_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM159-prefilter075.png",
+      "parent_sha256": "a9ec47943522d582a256c6bde57fd249d814add115ca195f99f2ef1d74f23a5b",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM162-prefilter075",
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-prefilter075.png",
+      "output_sha256": "4a37fee286316de3a847310679b924616fefb3676b8d9c628313ae69eb93a146",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All local retries remain rock-like/glossy or lose too much foliage detail. GPT alternative also changes coverage and is rejected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-prefilter075-part0-input.png",
+          "input_sha256": "0199aa46390d90ba70891c90d4398f098932b16175042b4d040adcff16043e81",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-prefilter075-part0-native4x.png",
+          "native_sha256": "c63f1f7810b968221ba7ab5cb07dc51610074fbc214ac03738d43a58ec94fa28",
+          "mean_rgb_offset": [
+            1.4377288818359375,
+            0.9240570068359375,
+            -0.410430908203125
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.06300000002374873,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9"
+    },
+    {
+      "id": "BM162-guided055",
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-guided055.png",
+      "output_sha256": "84ee20b9f4c9825e1b2e51a462d7181a1dcc1fd828d5e047c2cd217cfdb67b0a",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All local retries remain rock-like/glossy or lose too much foliage detail. GPT alternative also changes coverage and is rejected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM162-guided080",
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-guided080.png",
+      "output_sha256": "3051bfd1dbc555cbb62111315189c4e8f47585e27814ccf3ef86906767204da8",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All local retries remain rock-like/glossy or lose too much foliage detail. GPT alternative also changes coverage and is rejected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM162-prefilter075-guided065",
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-prefilter075-guided065.png",
+      "output_sha256": "714c4fc77972511be3af42a242fee3ccff557c465c14dd36ba376a3a8f440d3a",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All local retries remain rock-like/glossy or lose too much foliage detail. GPT alternative also changes coverage and is rejected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM162-prefilter075.png",
+      "parent_sha256": "4a37fee286316de3a847310679b924616fefb3676b8d9c628313ae69eb93a146",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM163-prefilter075",
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-prefilter075.png",
+      "output_sha256": "ed42470d7a8aff37e71d4494ca0d8d9fc7cbfcb51b6654b08b28e3cef8e72c68",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Leaf strips still read as knotted tubes; filtering and source guidance do not recover credible leaf structure.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-prefilter075-part0-input.png",
+          "input_sha256": "7d5c22037e07ae0af10bda0db3f803c72d12b699e17838f806bee3649a808c80",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-prefilter075-part0-native4x.png",
+          "native_sha256": "404c51e891bc9f801dfc95d7b4263f9f5ecdc7f33e34bbd1456d146c0053dd51",
+          "mean_rgb_offset": [
+            3.568817138671875,
+            3.2354278564453125,
+            1.899261474609375
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.0470000000204891,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396"
+    },
+    {
+      "id": "BM163-guided055",
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-guided055.png",
+      "output_sha256": "609c9be0d17deb37c84cf70b80138b986f0da7e705917d25aa8f776137b8f24e",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Leaf strips still read as knotted tubes; filtering and source guidance do not recover credible leaf structure.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM163-guided080",
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-guided080.png",
+      "output_sha256": "311cfb0afd05b6731fbdbeed93b1c473b6fd775bb8bf19629d100b6fb3f97ae7",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Leaf strips still read as knotted tubes; filtering and source guidance do not recover credible leaf structure.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM163-prefilter075-guided065",
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-prefilter075-guided065.png",
+      "output_sha256": "8908554aa216877888071b4018ca9bd3ab9431fa63a88cf29b3f12de0372d9f0",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "Leaf strips still read as knotted tubes; filtering and source guidance do not recover credible leaf structure.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM163-prefilter075.png",
+      "parent_sha256": "ed42470d7a8aff37e71d4494ca0d8d9fc7cbfcb51b6654b08b28e3cef8e72c68",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM164-prefilter075",
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-prefilter075.png",
+      "output_sha256": "be58850dd2ba010b306cee908b21b1c528de02ab91e91b753657754e179d91f7",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces glossy folded blobs while retaining the scattered green clusters; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-prefilter075-part0-input.png",
+          "input_sha256": "78f4b6172823d618efa3e8c11e7a106aeb3714ceb9ee463c0832d1ef7966d2bf",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-prefilter075-part0-native4x.png",
+          "native_sha256": "32511cca7e796648a8ede49f8c8a68f311990471f931ef838d9cce65c5e5802a",
+          "mean_rgb_offset": [
+            -0.008636474609375,
+            0.839813232421875,
+            0.195404052734375
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.046999999962281436,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124"
+    },
+    {
+      "id": "BM164-guided055",
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-guided055.png",
+      "output_sha256": "5877a2e0ae0946314da88bdb908243580b4d55f284f5412c9eb92fb5fb866228",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces glossy folded blobs while retaining the scattered green clusters; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM164-guided080",
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-guided080.png",
+      "output_sha256": "03d76fd5eea07a8335fe40dda32d56707c59a73bbd52c0d5906e6260a33578b5",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Filtered inference with source-guided color reduces glossy folded blobs while retaining the scattered green clusters; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM164-prefilter075-guided065",
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-prefilter075-guided065.png",
+      "output_sha256": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Filtered inference with source-guided color reduces glossy folded blobs while retaining the scattered green clusters; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM164.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr007_matte_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM164-prefilter075.png",
+      "parent_sha256": "be58850dd2ba010b306cee908b21b1c528de02ab91e91b753657754e179d91f7",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM165-prefilter075",
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-prefilter075.png",
+      "output_sha256": "bed390e8925c16203e9b8b1214be71c99819d39a6856f7b8d940f4b962b7c8d1",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Same treatment reduces stone-like highlights in the gray variant; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Premultiplied source RGB prefilter sigma0.75 then actual WDN4x, Lanczos2x, earlier alpha exact.",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "native_neural_scale": 4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-prefilter075-part0-input.png",
+          "input_sha256": "be1cac1e6f97cd92965a26fc53ba88ba0273a327391c804afbb5e4afdeebc4c5",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-prefilter075-part0-native4x.png",
+          "native_sha256": "cb668aef46af4de442a7bb6922bb98b53d7ba4bd44be1fdefed96e088cb66c70",
+          "mean_rgb_offset": [
+            0.6956329345703125,
+            0.9326324462890625,
+            -0.0623321533203125
+          ]
+        }
+      ],
+      "new_neural_passes": 1,
+      "seconds": 0.062000000034458935,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359"
+    },
+    {
+      "id": "BM165-guided055",
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-guided055.png",
+      "output_sha256": "6a9cd3f95018b5637b2384f5550dbac5f306ad994e4a971d4b59f281c770b412",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Same treatment reduces stone-like highlights in the gray variant; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "detail_weight": 0.55,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM165-guided080",
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-guided080.png",
+      "output_sha256": "130fb5b652a750819226fffdc1d41e325f93c53e71f904b77fdaecd361625c9c",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: residual-only alternatives retain invented detail; un-guided filtered alternatives are softer. Same treatment reduces stone-like highlights in the gray variant; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "detail_weight": 0.8,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    },
+    {
+      "id": "BM165-prefilter075-guided065",
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-prefilter075-guided065.png",
+      "output_sha256": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Same treatment reduces stone-like highlights in the gray variant; selected only for game review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM165.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr007_matte_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "method": "Source premultiplied sigma0.5 RGB guide at8x plus weighted alpha-normalized neural high-frequency residual (sigma6 output pixels); clamp each channel to source visible range. Original source split boxes isolated. All alpha byte-identical to previous WDN candidate.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-rework-v2\\BM165-prefilter075.png",
+      "parent_sha256": "bed390e8925c16203e9b8b1214be71c99819d39a6856f7b8d940f4b962b7c8d1",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "detail_weight": 0.65,
+      "source_boxes": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ],
+      "new_neural_passes": 0
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false,
+  "image_upload": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM130.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM156.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM159.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM162.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM163.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM164.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_observed_rework_BM165.png"
+  ],
+  "new_neural_passes": 10
+}

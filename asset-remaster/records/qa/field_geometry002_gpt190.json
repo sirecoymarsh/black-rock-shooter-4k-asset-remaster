@@ -1,0 +1,200 @@
+{
+  "schema": "brs-facade-gpt-trial/v1",
+  "group_id": "FM0190",
+  "external_generative_calls": 1,
+  "tool": "built-in image_gen",
+  "model_identifier": "not exposed by tool",
+  "requested_size": [
+    512,
+    1024
+  ],
+  "actual_generated_size": [
+    887,
+    1774
+  ],
+  "raw": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\generated-raw.png",
+  "raw_sha256": "262a89da4b94908d4071e6ef200070a8f292585878c9f626aaaecb8efeea8daa",
+  "generated_store_original": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-c2d7b84f-6611-41e2-a9b7-fd76eda891cf.png",
+  "resized_output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\FM0190-gpt-material-trial-8x.png",
+  "resized_output_sha256": "fe0c1b1e53dda503609b41c6b4436d980829e3d506681eb3f241dc64a8341140",
+  "resized_size": [
+    512,
+    1024
+  ],
+  "resampling": "Lanczos from actual generated dimensions; not native8x model output",
+  "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\prompt.txt",
+  "prompt_sha256": "e1827839ce2d84121494dbe85f8e39087f1ac90b0f93168b9db31d544c92acf1",
+  "references": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "sha256": "cd86a83457ced234610ce78695314b0dd7a0ea492a64842aa02fe5923631dce8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-source-bevels-v4-8x.png",
+      "sha256": "c165db7f801587d1378f68aba189be0e22aa6ac7c8db6968bee16cc576fc2d4c"
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-gpt.png",
+      "sha256": "a83393f588110e198fd8cea97cfa5e6a7f1d1d7f570720a84c298a23ca28b00a",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-gpt.png",
+      "sha256": "cd7810173434feab2aa7c478c7e68525335045223005c752de66279a4cd20cbc",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-gpt.png",
+      "sha256": "3243fde16a03f05b65dfa6dcc677384ccf484743abcb6b463be51d1b148ef4a0",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "sample_boundary_diagnostics": [
+    {
+      "source_x_span": [
+        8,
+        24
+      ],
+      "source_y_boundary": 12,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        -0.1875,
+        -0.0625,
+        -0.0625,
+        -0.0625
+      ],
+      "p95_absolute_offset_source_px": 0.1875
+    },
+    {
+      "source_x_span": [
+        8,
+        24
+      ],
+      "source_y_boundary": 46,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        0.1875,
+        0.1875,
+        0.3125,
+        0.3125
+      ],
+      "p95_absolute_offset_source_px": 0.3125
+    },
+    {
+      "source_x_span": [
+        8,
+        24
+      ],
+      "source_y_boundary": 57,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        -0.4375,
+        -0.4375,
+        0.1875,
+        0.1875
+      ],
+      "p95_absolute_offset_source_px": 0.4375
+    },
+    {
+      "source_x_span": [
+        8,
+        24
+      ],
+      "source_y_boundary": 91,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        0.1875,
+        0.1875,
+        0.1875,
+        0.1875
+      ],
+      "p95_absolute_offset_source_px": 0.1875
+    },
+    {
+      "source_x_span": [
+        40,
+        56
+      ],
+      "source_y_boundary": 12,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        -0.1875,
+        -0.0625,
+        -0.0625,
+        -0.0625
+      ],
+      "p95_absolute_offset_source_px": 0.1875
+    },
+    {
+      "source_x_span": [
+        40,
+        56
+      ],
+      "source_y_boundary": 46,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        0.1875,
+        0.1875,
+        0.3125,
+        0.3125
+      ],
+      "p95_absolute_offset_source_px": 0.3125
+    },
+    {
+      "source_x_span": [
+        40,
+        56
+      ],
+      "source_y_boundary": 57,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        -0.4375,
+        -0.4375,
+        0.1875,
+        0.1875
+      ],
+      "p95_absolute_offset_source_px": 0.4375
+    },
+    {
+      "source_x_span": [
+        40,
+        56
+      ],
+      "source_y_boundary": 91,
+      "search_radius_output": 10,
+      "signed_offset_source_px_percentiles": [
+        0.1875,
+        0.1875,
+        0.1875,
+        0.1875
+      ],
+      "p95_absolute_offset_source_px": 0.1875
+    }
+  ],
+  "decision": "held",
+  "reason": "Whole output has visually excessive pebbled/embossed material in glass and masonry, and source-fixed planes are not guaranteed by generation. Keep only as a possible masonry material reference for a separately constrained follow-up.",
+  "source_correction": "Dark pixels at source right window corners and side-face bevels do exist; do not classify all dark corner marks as generated inventions or erase them by default. Their geometry/shading interpretation still needs to yield a coherent joint.",
+  "new_local_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

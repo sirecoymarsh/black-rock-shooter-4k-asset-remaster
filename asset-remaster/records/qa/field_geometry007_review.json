@@ -1,0 +1,857 @@
+{
+  "schema": "brs-source-geometry007-final-review/v1",
+  "batch": "FIELD-GEOMETRY-007",
+  "previous_goal_turn_classification": "progress: SR005 completed135 source classifications,20 local originals,7 static candidates and13 holds with42 real local passes.",
+  "this_goal_turn_classification": "progress: source audits3, six geometry/material derivatives reviewed, source joint interpretation corrected and two former holds become static candidates; FM0496 remains held.",
+  "selected": {
+    "FM0495": "FM0495-authored-v3",
+    "FM0533": "FM0533-source-fit-v3"
+  },
+  "audited_only": [
+    "FM0496"
+  ],
+  "checked_outputs": [
+    {
+      "id": "FM0495-authored-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-authored-v1-8x.png",
+      "sha256": "15725f3ab9010636bb216981ae3c2ce6da0951103c0b1b7e6469217e5a1b3e02",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "decision": "rejected_invalid",
+      "nonfinite_frozen_RGB_values": 2880,
+      "reason": "Invalid material data from an empty narrow-border source ROI, plus wrong source joint anchors and flat broad grout. Never eligible."
+    },
+    {
+      "id": "FM0533-authored-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-authored-v1-8x.png",
+      "sha256": "7711738593cedaf3a0e3d336f1f4d132c0b9e7e57aafa93390c24dd549d7f35e",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "material_background_and_composite_RGBA_reproduced": true,
+      "upper_parent_RGBA_exact_until_source_y104": true,
+      "decision": "not_selected",
+      "reason": "Estimated opacity contour turned the ornament into thick lumps and bulging junctions."
+    },
+    {
+      "id": "FM0495-authored-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-authored-v2-8x.png",
+      "sha256": "b556737b47ab6336440892f85104ddda2ae25fe72e728f1810cd5e8397bcec94",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "geometry_and_material_recipe_RGBA_reproduced": true,
+      "source_rectangles_full_coverage_once": true,
+      "decision": "not_selected",
+      "reason": "Finite color data, but some manually placed vertical joints were several source pixels off and bottom-row seam layout was wrong. v3 uses source trough evidence; counters/axis alignment alone did not establish correctness."
+    },
+    {
+      "id": "FM0533-authored-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-authored-v2-8x.png",
+      "sha256": "8be14bc0517d1fa658ec4af8de7d82d593c7803b1255c176e5725070e130c4bc",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "material_background_and_composite_RGBA_reproduced": true,
+      "upper_parent_RGBA_exact_until_source_y104": true,
+      "decision": "not_selected",
+      "reason": "Four smooth manual curves were too thin and lost source white coverage; width1.25 was rejected after source comparison."
+    },
+    {
+      "id": "FM0495-authored-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-authored-v3-8x.png",
+      "sha256": "3e11542ba827965206f4bfa2673c917ce127912b2322f03e92e43876c64816d6",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "geometry_and_material_recipe_RGBA_reproduced": true,
+      "source_rectangles_full_coverage_once": true,
+      "decision": "static_candidate",
+      "reason": "Source-aligned straight courses/segments with worn local stone inside source regions."
+    },
+    {
+      "id": "FM0533-source-fit-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-source-fit-v3-8x.png",
+      "sha256": "676a2bb0bf6897dab4050f2e002c681202c9756728223aaca6db20839b47a963",
+      "source_parent_vector_render_frozen_output_hashes_verified": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "material_background_and_composite_RGBA_reproduced": true,
+      "upper_parent_RGBA_exact_until_source_y104": true,
+      "decision": "static_candidate",
+      "reason": "Four smooth source-fitted scrolls preserve the paired ornament and source-fixed horizontal borders; pixel-footprint limits are recorded."
+    }
+  ],
+  "geometry_diagnostics": {
+    "FM0495": {
+      "horizontal_courses": 7,
+      "vertical_segments": 18,
+      "source_brick_material_regions": 26,
+      "anchors": [
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              19.5,
+              3.5
+            ],
+            [
+              19.5,
+              11.75
+            ]
+          ],
+          "source_local_trough_center": 19.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 19.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              32.5,
+              3.5
+            ],
+            [
+              32.5,
+              11.75
+            ]
+          ],
+          "source_local_trough_center": 32.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 32.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              60.0,
+              3.5
+            ],
+            [
+              60.0,
+              11.75
+            ]
+          ],
+          "source_local_trough_center": 59.5,
+          "source_anchor_error_px": 0.5,
+          "output_local_trough_center": 60.0625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              3.5,
+              11.75
+            ],
+            [
+              3.5,
+              20.75
+            ]
+          ],
+          "source_local_trough_center": 3.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 3.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              56.0,
+              11.75
+            ],
+            [
+              56.0,
+              20.75
+            ]
+          ],
+          "source_local_trough_center": 56.5,
+          "source_anchor_error_px": 0.5,
+          "output_local_trough_center": 55.9375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              16.5,
+              20.75
+            ],
+            [
+              16.5,
+              30.5
+            ]
+          ],
+          "source_local_trough_center": 16.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 16.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              43.5,
+              20.75
+            ],
+            [
+              43.5,
+              30.5
+            ]
+          ],
+          "source_local_trough_center": 43.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 43.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              1.5,
+              30.5
+            ],
+            [
+              1.5,
+              40.5
+            ]
+          ],
+          "source_local_trough_center": 1.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 1.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              28.5,
+              30.5
+            ],
+            [
+              28.5,
+              40.5
+            ]
+          ],
+          "source_local_trough_center": 28.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 28.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              55.5,
+              30.5
+            ],
+            [
+              55.5,
+              40.5
+            ]
+          ],
+          "source_local_trough_center": 55.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 55.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              15.5,
+              40.5
+            ],
+            [
+              15.5,
+              49.5
+            ]
+          ],
+          "source_local_trough_center": 15.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 15.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              41.5,
+              40.5
+            ],
+            [
+              41.5,
+              49.5
+            ]
+          ],
+          "source_local_trough_center": 41.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 41.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              3.5,
+              49.5
+            ],
+            [
+              3.5,
+              58.5
+            ]
+          ],
+          "source_local_trough_center": 3.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 3.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              26.5,
+              49.5
+            ],
+            [
+              26.5,
+              58.5
+            ]
+          ],
+          "source_local_trough_center": 26.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 26.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              51.5,
+              49.5
+            ],
+            [
+              51.5,
+              58.5
+            ]
+          ],
+          "source_local_trough_center": 51.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 51.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              20.5,
+              58.5
+            ],
+            [
+              20.5,
+              64
+            ]
+          ],
+          "source_local_trough_center": 20.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 20.5625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              39.5,
+              58.5
+            ],
+            [
+              39.5,
+              64
+            ]
+          ],
+          "source_local_trough_center": 39.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 39.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "vertical",
+          "source_segment": [
+            [
+              60.0,
+              58.5
+            ],
+            [
+              60.0,
+              64
+            ]
+          ],
+          "source_local_trough_center": 59.5,
+          "source_anchor_error_px": 0.5,
+          "output_local_trough_center": 60.0625,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              3.5
+            ],
+            [
+              64,
+              3.5
+            ]
+          ],
+          "source_local_trough_center": 3.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 3.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              11.75
+            ],
+            [
+              64,
+              11.75
+            ]
+          ],
+          "source_local_trough_center": 11.5,
+          "source_anchor_error_px": 0.25,
+          "output_local_trough_center": 11.6875,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              20.75
+            ],
+            [
+              64,
+              20.75
+            ]
+          ],
+          "source_local_trough_center": 20.5,
+          "source_anchor_error_px": 0.25,
+          "output_local_trough_center": 20.8125,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              30.5
+            ],
+            [
+              64,
+              30.5
+            ]
+          ],
+          "source_local_trough_center": 30.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 30.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              40.5
+            ],
+            [
+              64,
+              40.5
+            ]
+          ],
+          "source_local_trough_center": 40.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 40.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              49.5
+            ],
+            [
+              64,
+              49.5
+            ]
+          ],
+          "source_local_trough_center": 49.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 49.4375,
+          "output_anchor_error_source_px": 0.0625
+        },
+        {
+          "axis": "horizontal",
+          "source_segment": [
+            [
+              0,
+              58.5
+            ],
+            [
+              64,
+              58.5
+            ]
+          ],
+          "source_local_trough_center": 58.5,
+          "source_anchor_error_px": 0.0,
+          "output_local_trough_center": 58.4375,
+          "output_anchor_error_source_px": 0.0625
+        }
+      ],
+      "source_anchor_max_error_px": 0.5,
+      "output_anchor_max_error_source_px": 0.0625,
+      "weak_sloped_interior_line_row12_20": "Preserved as local material; not counted as a new authored structural joint.",
+      "damage_windows_source": [
+        [
+          26,
+          34,
+          31,
+          40
+        ],
+        [
+          13,
+          45,
+          18,
+          50
+        ]
+      ],
+      "limit": "Observed seam segments and fixed decoded texture anchors; not a count of physical blocks or a proof of UV/tile behavior."
+    },
+    "FM0533": {
+      "manual_curve_count": 4,
+      "source_fitted_width": 1.967692,
+      "curve_offsets_source_px": [
+        [
+          -0.017467626643263335,
+          0.06024391388477584
+        ],
+        [
+          0.1252187112393176,
+          -0.4767888073846772
+        ],
+        [
+          -0.07721409970725147,
+          0.062291748457567395
+        ],
+        [
+          -0.2812804282517034,
+          -0.33051673756468675
+        ]
+      ],
+      "straight_bars": [
+        [
+          0,
+          109,
+          32,
+          1
+        ],
+        [
+          0,
+          124,
+          32,
+          1
+        ]
+      ],
+      "upper104_source_rows_parent_RGBA_exact": true,
+      "source_scale_metrics": {
+        "localPhoto": {
+          "source_white_class_count": 259,
+          "output_white_class_count": 203,
+          "white_class_IoU": 0.7837837837837838,
+          "RGB_MAE_ornament_native_source_scale": 9.981770833333334
+        },
+        "v2_manual_thin": {
+          "source_white_class_count": 259,
+          "output_white_class_count": 150,
+          "white_class_IoU": 0.5433962264150943,
+          "RGB_MAE_ornament_native_source_scale": 15.39453125
+        },
+        "v3_source_fit": {
+          "source_white_class_count": 259,
+          "output_white_class_count": 225,
+          "white_class_IoU": 0.7102473498233216,
+          "RGB_MAE_ornament_native_source_scale": 11.80078125
+        }
+      },
+      "interpretation_correction": "The original broad claim that localPhoto has too much total white is not supported: this diagnostic counts203 Photo vs259 source-class pixels. v2 was too thin. v3 is a smooth vector redraw with225; its .710 classIoU is below Photo .784, so it is not more pixel-exact reconstruction. Static selection is for controlled smooth curves with the same paired-scroll concept, and retains this measured limitation.",
+      "limit": "The near-white RGB class is a diagnostic affected by source palette/antialiasing, not native alpha or proof of exact original high-resolution ornament."
+    }
+  },
+  "new_local_neural_unique_originals": 0,
+  "new_direct_GPT_only_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 0,
+  "source_reports_sha256": {
+    "qa\\field_geometry007_source_audit.json": "ec3578effdbfee1801c448fa9d66a77767ccf2bc4942b91872a5845789e63e20",
+    "qa\\field_geometry007_authored_v1.json": "7be8de148e0772cf64ebb28d6e8da17fee19457244d2989ab7952ffede1224a8",
+    "qa\\field_geometry007_authored_v2.json": "d4e1e104f55d47dccc6b2f0da328a821bf17b28b3e5c76893a8df0ab4d4f097a",
+    "qa\\field_geometry007_authored_v3.json": "21d0da891b9273a32ef061ebb398e0d82e5769c5fafc0913a64c2d76706668e4",
+    "qa\\field_geometry007_ornament533_v3.json": "b87ab9069a6c679d6f64ca836e6af7edb0d45d4efa3e5be9d6ed3e35296d80f3"
+  },
+  "source_and_comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-source-coordinate.png",
+      "sha256": "7894c730c871ad81dfe0ca67d4bccffb5a6da518ef6c60651e633048339a804c",
+      "group_id": "FM0495",
+      "box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0496-source-coordinate.png",
+      "sha256": "ed38395518848fbba8a939bd69498eb6f474ae71deb9248da4b087992d3330c6",
+      "group_id": "FM0496",
+      "box": [
+        0,
+        0,
+        256,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-source-coordinate.png",
+      "sha256": "ba78ebf83bf96bcf47fa61d6066206b47ef43afd8629a9f5cac5ad5bc6d76401",
+      "group_id": "FM0533",
+      "box": [
+        0,
+        104,
+        32,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v1-whole.png",
+      "sha256": "5b39fc278051fd59de527f2d83bd740511e039aade57a00f3a675818c994ddae",
+      "group_id": "FM0495",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v1-native.png",
+      "sha256": "a80624bc9013d80ec4ac18325c2ad03ebbfe6caf476fc250f73f431dc3f47b34",
+      "group_id": "FM0495",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v1-whole.png",
+      "sha256": "ff6fcdd48b5241e3baf2735d00f703588b7a796322ff7cf6dc16f72ecb4ba5d6",
+      "group_id": "FM0533",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v1-native.png",
+      "sha256": "9867aac23efa21bd655382d165c31edbc70c08e2df46ca4c269fd172536d7f84",
+      "group_id": "FM0533",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v1.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v2-whole.png",
+      "sha256": "fa661628dde5d5e3c9e85b05ea34acad3880150573d490de3a8bd0e8cf13cc79",
+      "group_id": "FM0495",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v2-native.png",
+      "sha256": "e2eec167bb080ac55e9db7afc06b0b1e655454d0cd5794885cc989a427553932",
+      "group_id": "FM0495",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v2-whole.png",
+      "sha256": "63bd3bf48caacf9ccea8c702fadd8c50cee96a86d1e3e879e0759d64e9aa7132",
+      "group_id": "FM0533",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v2-native.png",
+      "sha256": "26d233650dbd2f8ce07026581cfb0c9a30a2aa6617047bb4858684e462a4957c",
+      "group_id": "FM0533",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v3-whole.png",
+      "sha256": "c4c15c5feed34de50133ebe1d2242aea5af89b4860e467e667da80f19f80a4b4",
+      "group_id": "FM0495",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v3-native.png",
+      "sha256": "311ea80b31ae33bfe0638acccf740bb3139a9358e765d36b49137d820ecd62a7",
+      "group_id": "FM0495",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_authored_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v3-whole.png",
+      "sha256": "bf8a9873b0c7b88ac238baaf569c9a174feb839ee85189d3c5835947573bd095",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_ornament533_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v3-native.png",
+      "sha256": "0dc6f83bc81ba8b236aae6c721a721f52653cdeac4ba3c06be76383c9d6eb7f2",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_geometry007_ornament533_v3.json"
+    }
+  ],
+  "pages_directly_inspected": 15,
+  "catalog_before_sha256": "35cc0b103903511dcfd5b0787be872352dc18ca4efca039aee746c9ea9b613e5",
+  "catalog_after_sha256": "5fb2a3c487177f2557f7a10aeb7ef8aaecf64369d483aac267cedaa410bd014a",
+  "geometry_contract_before_sha256": "397b15b5442fe9a3e026fd12d051de21f2a38dd655a8a854569ecc73670c1ea5",
+  "geometry_contract_after_sha256": "0bdc10e4f7fa6e893aceb31677d4b3475a557a54d1e8f9d0ae368109de3259f3",
+  "other574_field_groups_unchanged": true,
+  "previous100_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 145,
+    "field_static_candidates": 102,
+    "field_holds": 46,
+    "field_groups_not_processed_in_field_context": 428,
+    "remaining_novel_unprocessed": 203,
+    "latest_review": "qa/field_geometry007_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 148,
+    "counting_note": "Cumulative local-inferred novel field originals145 plus direct-GPT-only3 equals148 processed. Repeated local calls and geometry derivatives do not add unique originals. FIELD-GEOMETRY-007 adds0 local/GPT calls and resolves2 existing holds."
+  },
+  "unique_local_neural_originals_title_battle_novel_field": 402,
+  "unique_processed_originals_including_direct_GPT_only_title_battle_novel_field": 405,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\벽돌_줄눈과_장식_곡선_수정.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\벽돌_줄눈과_장식_곡선_수정.png",
+    "sha256": "a41c43a25fc4515d712d2472ba379f4c84e9a2df199f32f7c96a1640d2667dbb"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "FM0495 v1 contained nonfinite frozen RGB from an empty source ROI and is rejected, not claimed as a valid render. All other5 derivatives have finite data and verified source/material compositing recipes.",
+    "Masonry source trough checks cover7 course lines/18 authored seam segments; the faint sloped interior line is retained as material. This is not a physical brick/UV count.",
+    "FM0533 v3 is a clean vector interpretation of the same paired-scroll design; its near-white-class IoU .710 is lower than localPhoto .784. It cannot be called exact source reconstruction. Manual thin v2 is rejected.",
+    "FM0496 only audited; source bands, block seams and lower sloped panel still require reconstruction.",
+    "No new local model call, external generation, PPSSPP key, installation, emulator launch, gameplay verification or release ZIP.",
+    "Historical57 field/241 battle geometry-applicability review,46 current field holds,203 novel unprocessed,43 battle unresolved and other game-source populations remain."
+  ],
+  "next_action": "Reconstruct FM0496 source cornice/band/plate geometry; repair structured masonry456/465/466/473 without guessing seam positions; finish motifs525 and atlas29, perspective facades37/38. Continue all remaining target populations and eventual real-game verification.",
+  "scripts": {
+    "audit_field_geometry007.py": "db05dfb3f701053b396c66b052abea5f82194066b95cbfa9d80fe3e3597de393",
+    "author_field_geometry007.py": "cc319c0d44855a30a9673d2cbc11f2a68f6c7aed45a0ce54fa55af5e8a3de5ab",
+    "author_field_geometry007_v2.py": "5753d8a9e0a529f5bcce9ca5222e2e1e7b7d47e5e5bf51351bf8c4f7ab240863",
+    "author_field495_v3.py": "e7b9e6f31f1504a887a16b532a2ee2f53ba0d710060be285fd15b37321bb275e",
+    "fit_field533_curves.py": "c98e3a803784cc894c6660f50ef58fac03bbd67d46308d25feb06da27b6b223b",
+    "finalize_field_geometry007.py": "78f5026429b0410a25daa1f0c63c06de5f8623b2253f5ae4dd8e3d2953d72731"
+  },
+  "counting_note_cleanup": {
+    "previous_catalog_sha256": "19cafee314532ce91266d5cc2560d93af4a439241b2afb30e349217d0e758e96",
+    "reason": "Replace stale SR005 new-batch phrasing with cumulative counts and the current geometry batch actual0 calls."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "brs-sr012-smoke-alpha/v1",
+  "files": [
+    {
+      "id": "BM111-wdn-source-bicubic-alpha",
+      "group_id": "BM111",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\026.png",
+      "source_rgba_sha256": "ceeba4524ad2bb07f0169f8b509725a167f19062412d054a7f7afd8c346687f7",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM111-wdn-rgba8x.png",
+      "parent_sha256": "56ad47e8041f7a08ec63a011a61b67fdad652629311e741f61275b16b7405126",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-smoke-alpha\\BM111-wdn-source-bicubic-alpha.png",
+      "output_sha256": "250aeeb0ed20ee04f475e725ae1e7d2714730303823756ce496f79391243272a",
+      "output_size": [
+        512,
+        1024
+      ],
+      "new_neural_passes": 0,
+      "alpha_kernel": "bicubic",
+      "method": "Local WDN RGB retained byte-exact; source alpha resized with named kernel and constrained to source-bilinear zero/255 support",
+      "alpha_metrics": {
+        "source_ge16_reduced_below8": 0,
+        "source_threshold128_iou": 0.8804700162074555,
+        "mass_ratio": 1.0015576142741143,
+        "outside_source_bilinear_support": 0
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "WDN RGB with source bicubic alpha retains faint peripheral particles lost in the original WDN/Photo trials. The tested weak-alpha loss count is zero, while threshold128 IoU remains below one; no all-particle geometry claim.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM111-wdn-source-lanczos-alpha",
+      "group_id": "BM111",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\026.png",
+      "source_rgba_sha256": "ceeba4524ad2bb07f0169f8b509725a167f19062412d054a7f7afd8c346687f7",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM111-wdn-rgba8x.png",
+      "parent_sha256": "56ad47e8041f7a08ec63a011a61b67fdad652629311e741f61275b16b7405126",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-smoke-alpha\\BM111-wdn-source-lanczos-alpha.png",
+      "output_sha256": "a6a6473a81f74f2ac019c0dfd3355b69f9d1d50e3ac6906fd752b207b516f6ab",
+      "output_size": [
+        512,
+        1024
+      ],
+      "new_neural_passes": 0,
+      "alpha_kernel": "lanczos",
+      "method": "Local WDN RGB retained byte-exact; source alpha resized with named kernel and constrained to source-bilinear zero/255 support",
+      "alpha_metrics": {
+        "source_ge16_reduced_below8": 5,
+        "source_threshold128_iou": 0.8932078559738135,
+        "mass_ratio": 1.0032353505796887,
+        "outside_source_bilinear_support": 0
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. WDN RGB with source bicubic alpha retains faint peripheral particles lost in the original WDN/Photo trials. The tested weak-alpha loss count is zero, while threshold128 IoU remains below one; no all-particle geometry claim.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_smoke_alpha.png"
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

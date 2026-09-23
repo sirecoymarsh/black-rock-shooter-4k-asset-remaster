@@ -1,0 +1,211 @@
+{
+  "schema": "brs-linear-foliage-rework/v4",
+  "files": [
+    {
+      "group_id": "BM039",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\017.png",
+      "source_rgba_sha256": "65a2891ba3302052da64df9a100911c8d5bc33faa92404b94ee747a05b54d737",
+      "parent_neural": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-alpha-v1\\BM039-general-wdn-rgba8x.png",
+      "parent_neural_sha256": "1b399f44250d33eaa8e0dee1ec5e39c24c9369f007bdc24a88cfe6a4dbd0c1a3",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM039-linear-mask-rgb-neural-8x.png",
+      "output_sha256": "4fa3c2985686da2011446382e205fb7d862900b8c51abbf1cd98af57073e6328",
+      "fits": [
+        {
+          "component": 1,
+          "source_pixels": 393,
+          "y_range": [
+            1,
+            31
+          ],
+          "left_x_of_y": [
+            0.9617352614015574,
+            1.5789024842417505
+          ],
+          "right_x_of_y": [
+            0.9432703003337044,
+            14.9743418613274
+          ],
+          "edge_max_source_pixel_residual": [
+            0.9118279569892529,
+            0.7652206154987056
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [],
+          "reference_band_width": 12.729548229548236
+        },
+        {
+          "component": 2,
+          "source_pixels": 386,
+          "y_range": [
+            1,
+            31
+          ],
+          "left_x_of_y": [
+            0.937486095661847,
+            19.800222469410453
+          ],
+          "right_x_of_y": [
+            0.9463848720800891,
+            32.52450871338523
+          ],
+          "edge_max_source_pixel_residual": [
+            0.7935483870967772,
+            1.0209862810530268
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [],
+          "reference_band_width": 12.729548229548236
+        },
+        {
+          "component": 3,
+          "source_pixels": 254,
+          "y_range": [
+            1,
+            27
+          ],
+          "left_x_of_y": [
+            0.9675213675213667,
+            37.22393162393163
+          ],
+          "right_x_of_y": [
+            0.967032967032969,
+            49.8241758241758
+          ],
+          "edge_max_source_pixel_residual": [
+            1.0256410256410078,
+            0.725274725274744
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [],
+          "reference_band_width": 12.729548229548236
+        },
+        {
+          "component": 4,
+          "source_pixels": 31,
+          "y_range": [
+            1,
+            8
+          ],
+          "left_x_of_y": [
+            0.9999999999999976,
+            55.07142857142857
+          ],
+          "right_x_of_y": [
+            0.9999999999999976,
+            67.8009768009768
+          ],
+          "edge_max_source_pixel_residual": [
+            0.5714285714285623,
+            null
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [
+            1
+          ],
+          "reference_band_width": 12.729548229548236
+        },
+        {
+          "component": 5,
+          "source_pixels": 227,
+          "y_range": [
+            5,
+            31
+          ],
+          "left_x_of_y": [
+            0.9249999999999997,
+            -14.070833333333328
+          ],
+          "right_x_of_y": [
+            0.9935042735042736,
+            -4.729230769230766
+          ],
+          "edge_max_source_pixel_residual": [
+            0.7833333333333368,
+            1.2974358974358928
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [],
+          "reference_band_width": 12.729548229548236
+        },
+        {
+          "component": 6,
+          "source_pixels": 44,
+          "y_range": [
+            22,
+            31
+          ],
+          "left_x_of_y": [
+            0.9333333333333346,
+            -32.57399267399272
+          ],
+          "right_x_of_y": [
+            0.9333333333333346,
+            -19.844444444444488
+          ],
+          "edge_max_source_pixel_residual": [
+            null,
+            0.6222222222222165
+          ],
+          "clipped_edge_inferred_from_visible_edge_and_other_bands": [
+            0
+          ],
+          "reference_band_width": 12.729548229548236
+        }
+      ],
+      "method": "Source connected stripes; fit separate straight left/right edges from unclipped observations, supersample geometry 32x and downsample to 8x; reuse actual local-neural RGB.",
+      "alpha_mass_ratio": 0.999267179595606,
+      "source_scale_mask_iou": 0.9597069597069597,
+      "new_neural_inference": false,
+      "postprocessing_only": true,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Straight source-fitted stripe edges remove waviness; source-scale mask IoU 0.9597, largest measured edge residual 1.2975 source pixels; runtime and repeat boundary still pending.",
+        "evidence": "outputs/local_sr_BM039_rework_v4.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "parent_neural": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-rgba8x.png",
+      "parent_neural_sha256": "d2969c7d62b644fd8d9cc2f8ec9671bee74472e8b91715583a664019420b7919",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-photo-detail0.35-8x.png",
+      "output_sha256": "80032424d0606c94259e52ce4d6739ad0924523f4a7f81b0dea82e7bd012d63f",
+      "method": "Alpha-weighted local color base plus reduced neural high-frequency RGB detail in foliage x<48; bark and entire alpha exact to parent.",
+      "detail_weight": 0.35,
+      "new_neural_inference": false,
+      "postprocessing_only": true,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "35% residual detail is too soft for the selected candidate.",
+        "evidence": "outputs/local_sr_BM057_rework_v4.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "parent_neural": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-rgba8x.png",
+      "parent_neural_sha256": "d2969c7d62b644fd8d9cc2f8ec9671bee74472e8b91715583a664019420b7919",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-photo-detail0.6-8x.png",
+      "output_sha256": "b51a9516e5a006f61d7f4fcdbb99a4bd0639e0a363d7334b5d57674d08431c55",
+      "method": "Alpha-weighted local color base plus reduced neural high-frequency RGB detail in foliage x<48; bark and entire alpha exact to parent.",
+      "detail_weight": 0.6,
+      "new_neural_inference": false,
+      "postprocessing_only": true,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_parent_only",
+        "reason": "60% residual detail retains more leaf texture; use with earlier WDN bark.",
+        "evidence": "outputs/local_sr_BM057_rework_v4.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "new_originals": 0,
+  "new_neural_inference_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

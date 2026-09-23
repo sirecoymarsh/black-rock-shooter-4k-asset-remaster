@@ -1,0 +1,1485 @@
+{
+  "schema": "brs-local-sr-review/v9",
+  "batch": "LOCAL-SR-009",
+  "selected": {
+    "BM136": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "cacf41287bb9897860d589b6e8ed51e4ba67c52f3efe80cfa6168ec36317163d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM136-wdn-rgba8x.png",
+      "output_sha256": "8cbf11d868038e436ee4c5174487a3eaa770e59e48a3660433550c1c7d8d7354",
+      "reason": "WDN retains large cutouts and rods in the panoramic source. Two enlarged crops were inspected; surface cracks are inferred and not original HD evidence.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM137": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "24d7865d287d0b1231771a6d23a5c995242555a98bcb2919efcc5478104681d0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM137-wdn-rgba8x.png",
+      "output_sha256": "c72321d567afb0b48e700d6bac6d226aaef24d1b6c55f493a7a2a987dd496605",
+      "reason": "WDN is less heavily outlined than Photo; three source regions were processed separately. This partition is not proof of native UV consumers.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM140": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "043f0b22075c2f7a83dd599cc08fd2e6af29f4fef261d5e4364c1df93a066038",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM140-wdn-rgba8x.png",
+      "output_sha256": "17f33cbe9439d656ce1ad55509ccb237ae1bf6e65877c1941eaa9a828713df8f",
+      "reason": "WDN retains thin rods and narrow cutouts in the two separately processed source rows.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM141": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "ce5c0466ca2785d517b9c166a9345be7c1bd5b1c653034eac5c504978b7eb9b8",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM141-wdn-rgba8x.png",
+      "output_sha256": "b139ef91e2043d41e6846b70da38ee0b4d4d1357a85a4e8a68ce7b33dff3de7a",
+      "reason": "WDN retains continuous thin rods on dark and light mattes; row partition is not native UV proof.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM142": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "918dcd6e43e3bfe6418ec0a784d1da241534854a422fa84449e58f2d82f582b0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM142-wdn-rgba8x.png",
+      "output_sha256": "13a115aa893fff4846c856ce9e66311ed46f937a8971b6b4576681dc08bc26f0",
+      "reason": "WDN retains major folded metal shapes and cutouts; two source halves were isolated during processing.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM143": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "bcc3b3d636cdc246991f9a7a8270615fc49483cf77880cfa0843014f85ee7340",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM143-wdn-rgba8x.png",
+      "output_sha256": "683205b770b3bffd2da0cce6db6ff4c8375ba77e0b86e8880d0ed8c23c8e905a",
+      "reason": "WDN retains the small panel form more closely than Photo, which rounds and simplifies it.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM153": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "3be5ff9fee278425da0d731ab990f577f55a6456ce7a643679b5ead876c5934b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM153-wdn-rgba8x.png",
+      "output_sha256": "ae7a7f35fa0d70cda8cfb4846ae21980198070edb9a4fe1cd8e5095dad1598a2",
+      "reason": "WDN retains the snow-covered architectural piece without the stronger crack interpretation in Photo.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM154": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "bfb1d2879ab58a5265313354c70b30dbb2467b03f7af5ef6f98285882311d4ec",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM154-wdn-rgba8x.png",
+      "output_sha256": "7440a61a930e52f3765142ada674d8708f9b4f2205f1ee171fe90021670d97b6",
+      "reason": "WDN retains the snow mass, broken opening and underlying structure on both mattes.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM155": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "e38514bbf2b642ba39901d40f6b1cddc5a2df2ee05a451dc341718721a10eb59",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM155-wdn-rgba8x.png",
+      "output_sha256": "0becc065c1ce74a460fa80960706ed254aaf902f29e958cc992bd51402ddb2b2",
+      "reason": "WDN retains the pointed architectural silhouette and middle collar on both mattes.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM183": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "58e2720cba8a170402fb35b412268fdf1ecd175da081ca5265c3b0862c6ed83d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM183-wdn-rgba8x.png",
+      "output_sha256": "a9eaed9bf5ec35161a2bea2ca92245ae3a2c74c0e1e2d27e143154cba8bee0de",
+      "reason": "WDN retains the curved frame and straight window bars on both mattes.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM199": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "9865727510139528b5b7b94cc084d92865954930f558d97ec2bd8216515a02f9",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM199-wdn-rgba8x.png",
+      "output_sha256": "1be450cc66acb41e0cf59215c7ee10238faf4ed68f96f7544b30221e716da65a",
+      "reason": "WDN retains the dark soft gradient without the stronger grain in Photo.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM132": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "ff1ed9753bd6e3ac341abec79682b9204b435f127f7fc8d5daa74874a0a6ee71",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM132-photo-rgba8x.png",
+      "output_sha256": "35615d85c7012761651a6cf40f4acf7c582f3ec6867b455606f48d2bd0dcb805",
+      "reason": "Photo retains broad snow ridges with less gritty texture than WDN.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM135": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "676821ff73688234988b152555404c040261dc66b902b4148c7db303349175d6",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM135-photo-rgba8x.png",
+      "output_sha256": "188fc66782a8af0fcfa018ee3de9c463d6f12ccc09b400961554aee5a3ae483a",
+      "reason": "Photo retains spires and cutouts, with calmer snow texture; inferred planes remain subject to game review.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM138": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "e3e7862c82d4d3f2edd7f03337a24fff417e1a4d47b52064f6d12ffd985b0fd3",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM138-photo-rgba8x.png",
+      "output_sha256": "6f31ae6021a3d7ddfca7941c52666c78bab6f4101226092bf75c984fee470574",
+      "reason": "Photo reduces exaggerated ground scratches while retaining rods and gaps.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM171": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "9256c9188ac2751aa955ebc0ada291916def2f4cdb75eedcb22a87dc27fdfbd6",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM171-photo-rgba8x.png",
+      "output_sha256": "6cb99a2e78fc17649da9379bff20682ca340fcf48ce2c1f5a2521fdac300f027",
+      "reason": "Photo smooths the gold mesh while retaining visible lattice intersections and gaps on both mattes.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM197": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "391fb1a67096c8509c8a2f464348c33a266b8df4822c1937dec8de89c24a0659",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM197-photo-rgba8x.png",
+      "output_sha256": "944c1c1500592ba13f2b276ae625bc3b7af094924bef22488054f98f069ab5f5",
+      "reason": "Photo retains soft cloud density with fewer gritty holes than WDN.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM198": {
+      "source_report": "qa/local_sr009_inference.json",
+      "source_rgba_sha256": "3c4bd494b73bab827ef9dbdf36211e1bbfb2b947df7f9c066c8693e6d536818e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM198-photo-rgba8x.png",
+      "output_sha256": "efd041a58fbf6cd02f2875951cd6462c3f6486dfd2085b2abecc25f8144d6a5d",
+      "reason": "Photo retains a soft low-contrast wash; WDN adds stronger grain.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM139": {
+      "source_report": "qa/local_sr009_rework.json",
+      "source_rgba_sha256": "b5d2f4104d4f86efdecc7abef69c150ce41adbdd118757e3b17e122d76b893b9",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM139-filtered-guided.png",
+      "output_sha256": "b50d11e70612db6e999104da75ad9f2047a50234701c11da60c0c6d6cf11369c",
+      "reason": "Filtered-guided rework restores coarse source color islands and suppresses artificial grooves/grain. Initial WDN and Photo were not selected.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM146": {
+      "source_report": "qa/local_sr009_rework.json",
+      "source_rgba_sha256": "04e423f270f0c5c90ff57c00debb47508254d9ca07b95edebe7dd5e2a0223673",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM146-filtered-guided.png",
+      "output_sha256": "1b9f879e92ca6163cf14d2327f36162db36ec6dd2c9a0267e458c322c105c9c2",
+      "reason": "Filtered-guided rework reduces invented central seams and gloss while retaining the diamond grid and cutouts; softer than initial output.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM172": {
+      "source_report": "qa/local_sr009_rework.json",
+      "source_rgba_sha256": "712aec02dc2980f604dab03397dd320d9febd8c3b259d277a05d611f6279db2c",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM172-filtered-guided.png",
+      "output_sha256": "60aa16d14d1ed21eb8ac16c149176920c09d346e3ae139f33c2770c31ff0fdd5",
+      "reason": "Filtered-guided rework removes much of the invented raised/folded metal appearance and retains holes and narrow strips.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM195": {
+      "source_report": "qa/local_sr009_rework.json",
+      "source_rgba_sha256": "4713217752fe2dac3088ec91af1f6098833fd49249140e52c0fd53af8d8570e2",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM195-filtered-guided.png",
+      "output_sha256": "0bf5851ed7f96691d952c2c13d5a824e2e72dcdf1e9cd432911a42ebe33737e2",
+      "reason": "Filtered-guided rework suppresses leaf-like texture invented by the initial models and restores diffuse source patches.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM196": {
+      "source_report": "qa/local_sr009_bm196_rework.json",
+      "source_rgba_sha256": "991075d79fdde7e930987ba7b319cd39f0a5c7356e2e0c7fd8ce62a60f483e1f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered-guided.png",
+      "output_sha256": "6adcb0326e37cdd32eb506d1e75272537dc406db192142cb0c9f99f04f30715d",
+      "reason": "Final light-matte review rejected initial WDN because it invented branching cracks. Additional filtered-guided local rework suppresses the crack network and restores soft source density; both mattes were inspected.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  },
+  "new_holds": {
+    "BM145": "All tested conditions round/emboss the black-yellow paint graphic and alter the small central dark chip. Flat graphic reconstruction is still needed; semantic role remains unknown.",
+    "BM147": "Tiny black-white emblems change or acquire invented strokes. Identify and protect emblem regions before accepting a remaster."
+  },
+  "checked_outputs": [
+    {
+      "group_id": "BM132",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM132-wdn-rgba8x.png",
+      "output_sha256": "c53887138e3e5154ca5161bd4eb9cc0f16083b0b2abaef107bbbfe8acb0c87bd",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000526584504623,
+        "source_threshold128_iou": 0.9974771365499843,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM135",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM135-wdn-rgba8x.png",
+      "output_sha256": "8693fa6f3cdc6a35f0afa36c77b2b2fe237a37a2243eaa2b22098ced278713c5",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000262570468175,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM136",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM136-wdn-rgba8x.png",
+      "output_sha256": "8cbf11d868038e436ee4c5174487a3eaa770e59e48a3660433550c1c7d8d7354",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.999814882884898,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM137",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM137-wdn-rgba8x.png",
+      "output_sha256": "c72321d567afb0b48e700d6bac6d226aaef24d1b6c55f493a7a2a987dd496605",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000616944252904,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 6
+    },
+    {
+      "group_id": "BM138",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM138-wdn-rgba8x.png",
+      "output_sha256": "a7b5297cc3c08998bde471a0937c99cbef11ee6fe8b07e1d61fbff137257d548",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0005770016791127,
+        "source_threshold128_iou": 0.9607250755287009,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM139",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM139-wdn-rgba8x.png",
+      "output_sha256": "d702dd4038ba293fc1149c3b60f5618f34cf6d4929b9d4114a708f71d6034569",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000081143865617,
+        "source_threshold128_iou": 0.98828125,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM140",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM140-wdn-rgba8x.png",
+      "output_sha256": "17f33cbe9439d656ce1ad55509ccb237ae1bf6e65877c1941eaa9a828713df8f",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0002344319637255,
+        "source_threshold128_iou": 0.9585461099429258,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM141",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM141-wdn-rgba8x.png",
+      "output_sha256": "b139ef91e2043d41e6846b70da38ee0b4d4d1357a85a4e8a68ce7b33dff3de7a",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999270451777676,
+        "source_threshold128_iou": 0.9657085224407463,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM142",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM142-wdn-rgba8x.png",
+      "output_sha256": "13a115aa893fff4846c856ce9e66311ed46f937a8971b6b4576681dc08bc26f0",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000644695638072,
+        "source_threshold128_iou": 0.9705625182162635,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM143",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM143-wdn-rgba8x.png",
+      "output_sha256": "683205b770b3bffd2da0cce6db6ff4c8375ba77e0b86e8880d0ed8c23c8e905a",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000867517885071,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM145",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM145-wdn-rgba8x.png",
+      "output_sha256": "f5c8b9845f6748fe6aacb1913373a71ffc7a94006edf58be20d981f8a99279fd",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0005698529411764,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM146",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM146-wdn-rgba8x.png",
+      "output_sha256": "e86b4f8098d2ae62c478abcfd2ff610dd707c45a1ad6a9b204c8c420a5df8e83",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9995748254337706,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM147",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM147-wdn-rgba8x.png",
+      "output_sha256": "5c66ba93eb934e803fa9bc195b6fe7f1c86dd66b6308e6939b9fa010fa3ffc64",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999769449041254,
+        "source_threshold128_iou": 0.9999693232713663,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM153",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM153-wdn-rgba8x.png",
+      "output_sha256": "ae7a7f35fa0d70cda8cfb4846ae21980198070edb9a4fe1cd8e5095dad1598a2",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0002351783466716,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM154",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM154-wdn-rgba8x.png",
+      "output_sha256": "7440a61a930e52f3765142ada674d8708f9b4f2205f1ee171fe90021670d97b6",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000583412113349,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM155",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM155-wdn-rgba8x.png",
+      "output_sha256": "0becc065c1ce74a460fa80960706ed254aaf902f29e958cc992bd51402ddb2b2",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9997085017476436,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM171",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM171-wdn-rgba8x.png",
+      "output_sha256": "8822d6220848727525a4f8fbb368a459040e656f1169e953e9549ce2e778efbb",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9984970151113742,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM172",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM172-wdn-rgba8x.png",
+      "output_sha256": "6db3037a2e4fbf4bd4760def56a3f4d1fd6cff5f08c18179437cb1e510492c18",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0002730860909979,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM183",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM183-wdn-rgba8x.png",
+      "output_sha256": "a9eaed9bf5ec35161a2bea2ca92245ae3a2c74c0e1e2d27e143154cba8bee0de",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9996238887652434,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM195",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM195-wdn-rgba8x.png",
+      "output_sha256": "e499e4c62d6a0fd39110ad08cc013132be36fe4da88b3c1ea49051862ed37af7",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.999958686263777,
+        "source_threshold128_iou": 0.8089430894308943,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM196",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-wdn-rgba8x.png",
+      "output_sha256": "2f53ded8dd546b6401960e3ed62fcd230eaa6aad9ab7e76208f271761fc3b0d5",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000073768711068,
+        "source_threshold128_iou": 0.9702776691435275,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM197",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM197-wdn-rgba8x.png",
+      "output_sha256": "075b73c4bdc97785a2d8065a561c390d4dc6513ed999ed0bbbeaa1dfae7a2e5b",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0001578742537112,
+        "source_threshold128_iou": 0.9865794907088782,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM198",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM198-wdn-rgba8x.png",
+      "output_sha256": "10ddcab4927f09543c765617f1e926a0e564c21796c314e86cfc2b3ef958f169",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9995514752583049,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM199",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM199-wdn-rgba8x.png",
+      "output_sha256": "1be450cc66acb41e0cf59215c7ee10238faf4ed68f96f7544b30221e716da65a",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM132",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM132-photo-rgba8x.png",
+      "output_sha256": "35615d85c7012761651a6cf40f4acf7c582f3ec6867b455606f48d2bd0dcb805",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999437440581858,
+        "source_threshold128_iou": 0.9974771365499843,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM135",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM135-photo-rgba8x.png",
+      "output_sha256": "188fc66782a8af0fcfa018ee3de9c463d6f12ccc09b400961554aee5a3ae483a",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999152547930991,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM136",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM136-photo-rgba8x.png",
+      "output_sha256": "184f5d88b5df3131ef36c8031c63264ca0e9cc8b28d5f15c3f48fae1d3a02cb3",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999372532324491,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM137",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM137-photo-rgba8x.png",
+      "output_sha256": "b81d1d2fbcad4008fe36962388dfa3cd48de281cfeec38456756c32783755fcb",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999312940911261,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 6
+    },
+    {
+      "group_id": "BM138",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM138-photo-rgba8x.png",
+      "output_sha256": "6f31ae6021a3d7ddfca7941c52666c78bab6f4101226092bf75c984fee470574",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9997637504971058,
+        "source_threshold128_iou": 0.9620526088831393,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM139",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM139-photo-rgba8x.png",
+      "output_sha256": "4e1cc2fe6f8e00b3727d6c8d96b49f361ec6fc148a2a6dd6c7391c8de76fe89b",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.000221186521647,
+        "source_threshold128_iou": 0.9872813990461049,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM140",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM140-photo-rgba8x.png",
+      "output_sha256": "087b8f604e2fa145fe006670941660cf1f8aae722f7940b8d3fa4eee1aee2000",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000865136581025,
+        "source_threshold128_iou": 0.9603246167718665,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM141",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM141-photo-rgba8x.png",
+      "output_sha256": "ee5f92899b6b9bcffcdb696ea219731d6cb4ee022a05c7fbee10d5e25d2815cf",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9995726675249802,
+        "source_threshold128_iou": 0.9672434066857046,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM142",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM142-photo-rgba8x.png",
+      "output_sha256": "11e1177efb951e3dbc2087a57e2dafb9266c232e4c8e0458227e3bc830c46a64",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9996897448823837,
+        "source_threshold128_iou": 0.9702797202797203,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 4
+    },
+    {
+      "group_id": "BM143",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM143-photo-rgba8x.png",
+      "output_sha256": "40e62d22c17c2dc0d7f7f09e5f182966a481b5771b4b2af48e87b16e4b54d94e",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0013382954404684,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM145",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM145-photo-rgba8x.png",
+      "output_sha256": "c8dc0dcd766cfe447b3a40b0c073c34b8fadcf265346ce4cee4999595e7db6e8",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999157475490196,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM146",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM146-photo-rgba8x.png",
+      "output_sha256": "f338f2d3f63f529827ba82bb86462fa0834b1ab9225bfc53b195fcf900aeaf59",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9996195690506419,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM147",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM147-photo-rgba8x.png",
+      "output_sha256": "d04123811f1d512d23d81780acc982f3f97ed4bcb932150ceabe0fd513696b14",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999809576940769,
+        "source_threshold128_iou": 0.9999386484247983,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM153",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM153-photo-rgba8x.png",
+      "output_sha256": "3763ca3d3f491b85c58f1c6b9d16f8e9af43fe583fd49954d55fd176262e8432",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9997323414630285,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM154",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM154-photo-rgba8x.png",
+      "output_sha256": "e0cf9ef19efa70bb09a1f62fb91807a7b545bb248918092ef366e20cf6e613f9",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0001262680230238,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM155",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM155-photo-rgba8x.png",
+      "output_sha256": "cc58349ebd248407fc0a7913a0396fdeea45698007c362d1fb73296d89196391",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9994232500096631,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM171",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM171-photo-rgba8x.png",
+      "output_sha256": "6cb99a2e78fc17649da9379bff20682ca340fcf48ce2c1f5a2521fdac300f027",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.999320832669111,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM172",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM172-photo-rgba8x.png",
+      "output_sha256": "da013ae01c230f3d4a15e63b57ac0b4b74d0ba7fee6013229a841e649b3c5fd6",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000432064992832,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM183",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM183-photo-rgba8x.png",
+      "output_sha256": "87c76ad08570c77ef955b4cdacd79b1f24fc4023c36f914306652c45222f819b",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9996391417789274,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM195",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM195-photo-rgba8x.png",
+      "output_sha256": "32c135dab6374f883d0f7e3c96d4a5f63dc011a6fdbcddbdf0b2924cdc686a7c",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000027542490815,
+        "source_threshold128_iou": 0.75,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM196",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM196-photo-rgba8x.png",
+      "output_sha256": "514634c2080ef751718eb07b0433f38642a6d6980d8b60901b1b9926c4c982be",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0000013359496571,
+        "source_threshold128_iou": 0.9608981804103756,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM197",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM197-photo-rgba8x.png",
+      "output_sha256": "944c1c1500592ba13f2b276ae625bc3b7af094924bef22488054f98f069ab5f5",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9999251541626171,
+        "source_threshold128_iou": 0.9841706813489333,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM198",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM198-photo-rgba8x.png",
+      "output_sha256": "efd041a58fbf6cd02f2875951cd6462c3f6486dfd2085b2abecc25f8144d6a5d",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 0.9998259773621713,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 2
+    },
+    {
+      "group_id": "BM199",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0304-alpha-v1\\BM199-photo-rgba8x.png",
+      "output_sha256": "ca1c56a84b06d5c6a24a07cc7e1689193892096a300c472f051d356410409620",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_solid_support_verified": true,
+        "mass_ratio": 1.0,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM139",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM139-filtered.png",
+      "output_sha256": "370c5372fb649dd2dfa0c7a86062951b19d7e32e770db13c5d93bee0813b7ca7",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM139",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM139-guided.png",
+      "output_sha256": "1144b37b7edde6eb6ab4e17b43fc7e90e52803ab8eb6b3bb0150a4363ec47728",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM139",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM139-filtered-guided.png",
+      "output_sha256": "b50d11e70612db6e999104da75ad9f2047a50234701c11da60c0c6d6cf11369c",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM145",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM145-filtered.png",
+      "output_sha256": "c652130fbf600daa39990802dd52317c08d081f61fc9cdf7ff28bf56c7378bf9",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM145",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM145-guided.png",
+      "output_sha256": "01b224e8a9bbce479f331a50d4314aba1e0f19fd65b9b49adde6c6aef9c4543d",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM145",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM145-filtered-guided.png",
+      "output_sha256": "77406beb457529218ffcfe088f2449c1b3fe1c56e5066f9244ad54129b7d096d",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM146",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM146-filtered.png",
+      "output_sha256": "024d0e52af1535821d53bdd59c985d298f5f61baa453a267543046a33feb1a47",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM146",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM146-guided.png",
+      "output_sha256": "87f3dd5434d2cebfa2fb5a2fc0a1e2ee8aa295f5f00fd34db4cd39db919e099e",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM146",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM146-filtered-guided.png",
+      "output_sha256": "1b9f879e92ca6163cf14d2327f36162db36ec6dd2c9a0267e458c322c105c9c2",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM172",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM172-filtered.png",
+      "output_sha256": "29c0845e9e20cc61c02377f81a5f62c347e88ef59623afb0a499915ce59b9dc9",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM172",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM172-guided.png",
+      "output_sha256": "4911ed194bd8e176cd5aaeeea62ebf3892d7538f48de7c994b51c061d6ca8271",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM172",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM172-filtered-guided.png",
+      "output_sha256": "60aa16d14d1ed21eb8ac16c149176920c09d346e3ae139f33c2770c31ff0fdd5",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM195",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM195-filtered.png",
+      "output_sha256": "f4d4f6da0ab7c4977231b54f43b798e1ea6b8cf5c1eb26a7e8d19af75c0ebcf3",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM195",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM195-guided.png",
+      "output_sha256": "dc137fa1f42764822ec71eaf99901d4ddb14592b817eee49611f372224904cb0",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM195",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-rework\\BM195-filtered-guided.png",
+      "output_sha256": "0bf5851ed7f96691d952c2c13d5a824e2e72dcdf1e9cd432911a42ebe33737e2",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM196",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered.png",
+      "output_sha256": "d65bf52e9cac893ea901bb0c1121917f0a99edcfa3b3a7b024ad4df0ab1c7f6f",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 1
+    },
+    {
+      "group_id": "BM196",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-guided.png",
+      "output_sha256": "7ce0cabb1783be714b8c20dd4c1eaba14a17dc455ab4fe8b43ddd71260a818ea",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    },
+    {
+      "group_id": "BM196",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr009-bm196-rework\\BM196-filtered-guided.png",
+      "output_sha256": "6adcb0326e37cdd32eb506d1e75272537dc406db192142cb0c9f99f04f30715d",
+      "source_ptm_and_rgba_verified": true,
+      "model_input_native_parent_hashes_verified": true,
+      "size_8x_verified": true,
+      "alpha_checks": {
+        "alpha_exact_to_initial_wdn_parent": true,
+        "original_source_alpha_byte_exact": false
+      },
+      "new_neural_passes": 0
+    }
+  ],
+  "new_unique_originals": 24,
+  "new_actual_local_neural_passes": 120,
+  "prior_candidates_preserved": 137,
+  "processing_summary": {
+    "battle_groups_total": 284,
+    "battle_groups_locally_processed": 171,
+    "battle_static_candidates": 159,
+    "battle_processed_without_accepted_candidate": 12,
+    "battle_groups_not_yet_processed": 113,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 172,
+    "source_table_entries": 416,
+    "source_decoded_entries": 413,
+    "source_format_unresolved": 3,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr009_review.json",
+    "new_unique_originals_latest_rework": 24,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 66,
+    "new_unique_originals_LOCAL_SR_005": 49,
+    "neural_passes_LOCAL_SR_005": 102,
+    "new_unique_originals_LOCAL_SR_006": 21,
+    "neural_passes_LOCAL_SR_006": 86,
+    "review_pack_exact_keys": 20,
+    "new_unique_originals_LOCAL_SR_007": 0,
+    "neural_passes_LOCAL_SR_007": 36,
+    "new_unique_originals_LOCAL_SR_008": 24,
+    "neural_passes_LOCAL_SR_008": 54,
+    "new_unique_originals_LOCAL_SR_009": 24,
+    "neural_passes_LOCAL_SR_009": 120
+  },
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\BM136-detail.png",
+      "sha256": "dd4bb986667d20545fa0e834a85739a18683a26a8464ed46d7101db808aae516",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\BM196-rework-mattes.png",
+      "sha256": "aa0f8e1f44f73834c4698da3104b39a46b74ca864855687f2eaca2d36c67d071",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-01.png",
+      "sha256": "f12e1191b4a14694b5c39f8d33d3db87a1de10e1f8931dc4320091729cf91b32",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-02.png",
+      "sha256": "12d6f10a300619e2312a4087bb794a3eb4548b948f18abe5866ff2ff5bde249b",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-03.png",
+      "sha256": "d9b542f1520f9bf10251ea227c611b50577a9e3b044095f47816f4a537c6d38f",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-04.png",
+      "sha256": "aedf019c0e5f748439211037fe7631bb547b0cf87aea56050e955c3819172f47",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-05.png",
+      "sha256": "1dfc7450a846cdff431591ce25ec25447c24d45efbaf10b79920e5efdee4636e",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-06.png",
+      "sha256": "cb9ec223ea995ec469014b659e5631bcda734a3af6bb7b4a95d4aabd75650c47",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-07.png",
+      "sha256": "3a20e99f63ce734d00d65587386a23f3c6c2c2e81d663d1720bf57ec49484bf4",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-mattes\\matte-08.png",
+      "sha256": "cfadd1cba514ef06ef7d0391e538d9ef89db2c54356a3d6ace86b717a1483afd",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-01.png",
+      "sha256": "ac615ee9e22b282afe023a83499c3db130b75ac6c4d17a4542ada4d6ee1eb54d",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-02.png",
+      "sha256": "5760d35856ec94d902b15443089cd8d87144941abb6198a9bcfc513ae7735e72",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-03.png",
+      "sha256": "1a9d360582d7f726d83528f4d4c1a989c5af540285613c4e0c360ae35426260d",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-04.png",
+      "sha256": "07a7e902b0eb2c5b86ea07ab00a49a2e517492df531341de31bcfe1c07ba8804",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-05.png",
+      "sha256": "78a91070a9d320759039a3d825228f28d775fe4d3ea32f2ca1194fed6d8627ed",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-06.png",
+      "sha256": "0b7f532fa36d060beed74463eb20210be418415976285cc608d6b53887c6f21c",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-07.png",
+      "sha256": "195b840bdf617c22d96e3efc3fb4c22b9ce11296b4855a7686ae39467955e7a2",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009-review\\review-08.png",
+      "sha256": "393ff53ab94a9ffcfa243d2c7eff96d4ec0b91db83dc9b83d7468b7d041f68a3",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM139.png",
+      "sha256": "fdb3df9ce7942084c8d45a928d781753ef1ea6d863c5672b8fc1d88dca39ce07",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM145.png",
+      "sha256": "2e6aca84c6ba55f287a57494f91e852dcd8ce749b21d3815e8bde4f7722d6845",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM146.png",
+      "sha256": "aef377f01e68758537d6a6b35e9f3c525c00fa12384ad85e94e459f495348a39",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM172.png",
+      "sha256": "2e8a413df26b0ae557628be5d200afc60566c69e071d4b291408638bb49e19d4",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM195.png",
+      "sha256": "4ced1364450222d0a4334007613b2057fc09cb5e8987ee64e2bab7cc2cebc543",
+      "reviewed_by": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr009_rework_BM196.png",
+      "sha256": "2a598857c7210d1c0ebdffd2ead6724f033ada261d7c270fbec47f51b1cfd82d",
+      "reviewed_by": "Codex internal"
+    }
+  ],
+  "source_BM189_review": {
+    "image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\BM189_source_inspection.png",
+    "sha256": "b462cacddb4e3f64ab7888cb81a31bda13b83264f0a518fb8f29e0aed32c2ec0",
+    "review": "Left-side stacked dark markings and right pointed emblem-like outline are visible. No reliable text reading or semantic role established. Protect/identify before remastering. Contrast-adjusted view is diagnostic only."
+  },
+  "new_sources_observed_keys": 0,
+  "pack_unchanged_keys": 20,
+  "pack_file_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "local_inference": true,
+  "image_upload_this_batch": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "limitations": [
+    "Bilinear zero/solid alpha support and one downsample threshold test are not proof of all geometry or native blending.",
+    "Panel partition is based on visible source separation, not verified native material/UV consumption.",
+    "Rework alpha is exact to the initial neural/bilinear trial, not the original source bytes.",
+    "Full game includes assets beyond this battle-map denominator."
+  ],
+  "scripts": {
+    "batch_sr009_alpha.py": "22c658c1c0a6d9c632ff08e685dbcfc5336efa54c0ca2641f2aaaae0cb4d58bc",
+    "rework_sr009.py": "1dacfb1aebebedd010294d14778c3c2d92f01e2fcb9c785941185e0d20a88e7c",
+    "rework_sr009_bm196.py": "31a37cdbb29042759ee0f26147efadc5ad7ecdfa7552c5e1e8c5ad13442060e9",
+    "review_sr009_bm196.py": "355e9e6ee5a6d9be74c5a12fb62d7530e727910c00c8a477cbbd383da3bae0ac",
+    "finalize_sr009.py": "b98a7f17befa60dd29d67a9e23421901ecb0b862030fd1929d7f0826ae43590d"
+  }
+}

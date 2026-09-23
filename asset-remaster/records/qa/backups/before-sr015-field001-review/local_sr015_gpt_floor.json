@@ -1,0 +1,87 @@
+{
+  "schema": "brs-sr015-gpt-floor/v1",
+  "files": [
+    {
+      "id": "BM201-gpt-raw",
+      "group_id": "BM201",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\generated-original.png",
+      "generated_sha256": "0a724f2b3a00fd3aeb29895c2e2139b938fc3a6ac3ad12f8490fe31ea1370d5a",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-raw-8x.png",
+      "output_sha256": "84c978f0f5bebe289dcb3210d26d5c397d506071bf3dbd4e586add30a8ce6ab0",
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "External full-atlas repaint resized to source8x, with optional low-frequency source tone correction",
+      "tone_strength": 0.0,
+      "tone_sigma_source_px": 12,
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM201-gpt-tone",
+      "group_id": "BM201",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\generated-original.png",
+      "generated_sha256": "0a724f2b3a00fd3aeb29895c2e2139b938fc3a6ac3ad12f8490fe31ea1370d5a",
+      "generated_size": [
+        1254,
+        1254
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-tone-8x.png",
+      "output_sha256": "9ab98f402bf8c905047e8bac1aa99999477f28702ae37ba60401035df490d499",
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "External full-atlas repaint resized to source8x, with optional low-frequency source tone correction",
+      "tone_strength": 0.7,
+      "tone_sigma_source_px": 12,
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "raw_generated": {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\generated-original.png",
+    "sha256": "0a724f2b3a00fd3aeb29895c2e2139b938fc3a6ac3ad12f8490fe31ea1370d5a",
+    "size": [
+      1254,
+      1254
+    ],
+    "requested_size": [
+      2048,
+      2048
+    ],
+    "direct_use_accepted": false
+  },
+  "prompt_file": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\prompt.txt",
+  "prompt_sha256": "acd1156ea00e4115698229549575a7ad919c390e0aec2c00e45ec7b8a7f570a3",
+  "reference_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+  "tool": "built-in image_gen; model identifier not exposed",
+  "new_neural_passes": 0,
+  "new_generative_calls": 1,
+  "image_upload": true,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-0.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-1.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-2.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-3.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-4.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-initial-5.png"
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

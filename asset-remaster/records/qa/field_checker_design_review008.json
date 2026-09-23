@@ -1,0 +1,136 @@
+{
+  "schema": "brs-field-checker-design-review008/v1",
+  "parent_contract": "qa/checker_design_contract.json",
+  "parent_contract_sha256": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+  "protected_parent_unchanged": true,
+  "accepted_static": {
+    "FM0498": "2x2 source cell locations/phase preserved through isolated local inference; WDN material chosen. Native4x + per-cell Lanczos2x, with RGB mean recenter.",
+    "FM0489": "4x4 source rectangular cells, exact gold255/209/105/255; original red cells alpha64 retained with per-cell bilinear gradients. Deterministic geometry, not AI."
+  },
+  "held": {
+    "FM0394": "Both local models bevel flat checker cells and warp corner/border geometry. Rebuild the source checker separately from surrounding damage.",
+    "FM0430": "WDN rounds checker cells; Photo introduces net-like connections and overinterprets the surface. Four source checker patches, including the clipped lower-right patch, need protected reconstruction.",
+    "FM0444": "Both models partly replace faint checker patches with mesh/scratches. Preserve the original four visible patches and their faded colors."
+  },
+  "source_interpretation_corrections": [
+    "FM0430 has four visible checker patches including the clipped lower-right patch, rather than three. FM0444 also has four visible patches; similarity does not prove shared consumers.",
+    "FM0489 source cells are gold and translucent dark red. The earlier gray visual label depended on display matte."
+  ],
+  "material_cell_mean_diagnostics": [
+    {
+      "id": "FM0498-wdn-cell0",
+      "source_mean_RGB": [
+        15.919677734375,
+        15.781005859375,
+        15.97412109375
+      ],
+      "output_mean_RGB": [
+        15.45004653930664,
+        16.008769989013672,
+        15.902576446533203
+      ],
+      "max_mean_error_RGB": 0.4696311950683594
+    },
+    {
+      "id": "FM0498-wdn-cell1",
+      "source_mean_RGB": [
+        136.690673828125,
+        137.4013671875,
+        137.141357421875
+      ],
+      "output_mean_RGB": [
+        137.16829299926758,
+        137.15302658081055,
+        137.18420028686523
+      ],
+      "max_mean_error_RGB": 0.4776191711425781
+    },
+    {
+      "id": "FM0498-wdn-cell2",
+      "source_mean_RGB": [
+        140.417724609375,
+        141.138427734375,
+        140.8505859375
+      ],
+      "output_mean_RGB": [
+        140.24198150634766,
+        140.94221115112305,
+        140.9808235168457
+      ],
+      "max_mean_error_RGB": 0.19621658325195312
+    },
+    {
+      "id": "FM0498-wdn-cell3",
+      "source_mean_RGB": [
+        10.650634765625,
+        10.55908203125,
+        10.683349609375
+      ],
+      "output_mean_RGB": [
+        10.267086029052734,
+        10.304828643798828,
+        10.988365173339844
+      ],
+      "max_mean_error_RGB": 0.3835487365722656
+    },
+    {
+      "id": "FM0498-photo-cell0",
+      "source_mean_RGB": [
+        15.919677734375,
+        15.781005859375,
+        15.97412109375
+      ],
+      "output_mean_RGB": [
+        15.556926727294922,
+        15.695514678955078,
+        16.22962188720703
+      ],
+      "max_mean_error_RGB": 0.3627510070800781
+    },
+    {
+      "id": "FM0498-photo-cell1",
+      "source_mean_RGB": [
+        136.690673828125,
+        137.4013671875,
+        137.141357421875
+      ],
+      "output_mean_RGB": [
+        136.55380630493164,
+        137.06698608398438,
+        137.19514846801758
+      ],
+      "max_mean_error_RGB": 0.334381103515625
+    },
+    {
+      "id": "FM0498-photo-cell2",
+      "source_mean_RGB": [
+        140.417724609375,
+        141.138427734375,
+        140.8505859375
+      ],
+      "output_mean_RGB": [
+        140.41355514526367,
+        141.46241760253906,
+        141.25592041015625
+      ],
+      "max_mean_error_RGB": 0.40533447265625
+    },
+    {
+      "id": "FM0498-photo-cell3",
+      "source_mean_RGB": [
+        10.650634765625,
+        10.55908203125,
+        10.683349609375
+      ],
+      "output_mean_RGB": [
+        10.615730285644531,
+        10.716796875,
+        10.807788848876953
+      ],
+      "max_mean_error_RGB": 0.15771484375
+    }
+  ],
+  "limits": "Geometry/alpha and material comparison are offline checks, not evidence of exact high-resolution ground truth, game UV consumers or runtime alpha-test behavior.",
+  "runtime_verified": false,
+  "release_eligible": false
+}

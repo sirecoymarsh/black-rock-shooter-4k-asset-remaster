@@ -1,0 +1,1073 @@
+[
+  {
+    "size": [
+      512,
+      512
+    ],
+    "clut_dimension": "00000909",
+    "count": 3083,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000000090900276591.png"
+  },
+  {
+    "size": [
+      128,
+      512
+    ],
+    "clut_dimension": "6eec7516",
+    "count": 2078,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006eec751600193086.png"
+  },
+  {
+    "size": [
+      256,
+      128
+    ],
+    "clut_dimension": "851096bf",
+    "count": 154,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000851096bf001bc2ad.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "851096b0",
+    "count": 61,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000851096b0039c94ca.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "39efbaa2",
+    "count": 44,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000039efbaa20701fde1.png"
+  },
+  {
+    "size": [
+      256,
+      32
+    ],
+    "clut_dimension": "3ea83e42",
+    "count": 9,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000003ea83e424566e9e2.png"
+  },
+  {
+    "size": [
+      128,
+      32
+    ],
+    "clut_dimension": "fc1b1524",
+    "count": 5,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fc1b1524315845eb.png"
+  },
+  {
+    "size": [
+      128,
+      256
+    ],
+    "clut_dimension": "84251cef",
+    "count": 2,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000084251cefd22a6bb1.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "00000606",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000000006064127bf5a.png"
+  },
+  {
+    "size": [
+      64,
+      256
+    ],
+    "clut_dimension": "00fbaaca",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000000fbaacab9e9a9c5.png"
+  },
+  {
+    "size": [
+      128,
+      32
+    ],
+    "clut_dimension": "04fb7415",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000004fb7415bdbbc91c.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "0975fbdd",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000975fbdd90a83fcd.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "0f94f1b9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000f94f1b995659b8c.png"
+  },
+  {
+    "size": [
+      512,
+      512
+    ],
+    "clut_dimension": "11599ec7",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011599ec7cea771b2.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "11b0765a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011b0765a71a523ed.png"
+  },
+  {
+    "size": [
+      256,
+      128
+    ],
+    "clut_dimension": "11f56fa3",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000011f56fa381c8d890.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "132baf18",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000132baf18e71fb73a.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "13e8c8e6",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000013e8c8e6d61ebcb1.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "16165318",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000161653185e5c3b0e.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "16390ee3",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000016390ee390543bc9.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "16dde025",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000016dde02599bde6e9.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "1833bfe4",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000001833bfe4776872bf.png"
+  },
+  {
+    "size": [
+      64,
+      32
+    ],
+    "clut_dimension": "18a8c497",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000018a8c49784815fd3.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "1dad46d6",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000001dad46d6c164f725.png"
+  },
+  {
+    "size": [
+      32,
+      64
+    ],
+    "clut_dimension": "1dda41d8",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000001dda41d81c651a4c.png"
+  },
+  {
+    "size": [
+      32,
+      128
+    ],
+    "clut_dimension": "1ee1eabb",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000001ee1eabb59a18747.png"
+  },
+  {
+    "size": [
+      512,
+      256
+    ],
+    "clut_dimension": "26c5f917",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000026c5f917dafc7a9f.png"
+  },
+  {
+    "size": [
+      64,
+      16
+    ],
+    "clut_dimension": "2705ab61",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000002705ab6154ae8df4.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "296cad08",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000296cad0888af48e3.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "2e709a7d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000002e709a7d41cf1516.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "2fb96a8d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000002fb96a8dd130c1e3.png"
+  },
+  {
+    "size": [
+      512,
+      64
+    ],
+    "clut_dimension": "344e279e",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000344e279e2a165f57.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "35517ce1",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000035517ce10c8ed4a1.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "3624bdd0",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000003624bdd0a5b7ae2c.png"
+  },
+  {
+    "size": [
+      128,
+      32
+    ],
+    "clut_dimension": "37b702c6",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000037b702c6a8d1e51a.png"
+  },
+  {
+    "size": [
+      128,
+      512
+    ],
+    "clut_dimension": "37da161b",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000037da161b5d108fef.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "3c450108",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000003c45010880caf50b.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "495bb60c",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000495bb60cfeea7fd9.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "4afedd76",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000004afedd76b05baf8b.png"
+  },
+  {
+    "size": [
+      256,
+      128
+    ],
+    "clut_dimension": "4e7e7c27",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000004e7e7c27c45d1779.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "4fc35870",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000004fc358705bfdbe7a.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "50028f16",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000050028f16a5d421ac.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "53d2d8e4",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000053d2d8e4bcdbab63.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "59c8fb7a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000059c8fb7a44046836.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "5e11a248",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000005e11a248e39ef565.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "617b63f3",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000617b63f3a0c12dc6.png"
+  },
+  {
+    "size": [
+      256,
+      64
+    ],
+    "clut_dimension": "61b9cd91",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000061b9cd9108a0507a.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "62e4efbb",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000062e4efbb15db5590.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "637c76eb",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000637c76eb1437b366.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "64f6d70a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000064f6d70a29341ca3.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "6b38aa9e",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006b38aa9e9adf1a85.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "6e1ef8df",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006e1ef8dfee017ed3.png"
+  },
+  {
+    "size": [
+      256,
+      512
+    ],
+    "clut_dimension": "6fb0d3ea",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000006fb0d3eaaf16373c.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "7659bb40",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007659bb4033bec8ea.png"
+  },
+  {
+    "size": [
+      64,
+      16
+    ],
+    "clut_dimension": "76aecf3c",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000076aecf3c694f7041.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "79937d08",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000079937d08d57fac3e.png"
+  },
+  {
+    "size": [
+      128,
+      8
+    ],
+    "clut_dimension": "7994b89f",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007994b89fa54fb1aa.png"
+  },
+  {
+    "size": [
+      32,
+      128
+    ],
+    "clut_dimension": "7ad35fe0",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007ad35fe06e89a7ad.png"
+  },
+  {
+    "size": [
+      256,
+      128
+    ],
+    "clut_dimension": "7bea3553",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007bea3553084d8dd5.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "7f2eca33",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000007f2eca33793a87a1.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "80db3056",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000080db3056afa7c226.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "82f1e50e",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000082f1e50ebe1863d5.png"
+  },
+  {
+    "size": [
+      128,
+      256
+    ],
+    "clut_dimension": "84bb9de3",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000084bb9de3ca720b5f.png"
+  },
+  {
+    "size": [
+      512,
+      512
+    ],
+    "clut_dimension": "86ba34d7",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000086ba34d7c28b381c.png"
+  },
+  {
+    "size": [
+      16,
+      64
+    ],
+    "clut_dimension": "8708b827",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000008708b8279c41f248.png"
+  },
+  {
+    "size": [
+      128,
+      32
+    ],
+    "clut_dimension": "88ec82fa",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000088ec82fa11c211d4.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "8a48e9c1",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000008a48e9c10729a541.png"
+  },
+  {
+    "size": [
+      256,
+      32
+    ],
+    "clut_dimension": "8b1a751e",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000008b1a751e3f9452ca.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "8d44a79c",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000008d44a79cea363d85.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "916f2cae",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000916f2caea39b2d35.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "922534ed",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000922534ed33fdeac1.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "92fed71c",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000092fed71cccf42aae.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "944fcf3d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000944fcf3de2c42270.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "95b36332",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000095b36332eee12d48.png"
+  },
+  {
+    "size": [
+      256,
+      512
+    ],
+    "clut_dimension": "9798e21a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009798e21a4f02de2d.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "9a016528",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009a0165283b22cae8.png"
+  },
+  {
+    "size": [
+      64,
+      32
+    ],
+    "clut_dimension": "9b85a29d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009b85a29d1107d703.png"
+  },
+  {
+    "size": [
+      256,
+      4
+    ],
+    "clut_dimension": "9c3edae9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009c3edae9ca6a6a87.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "9d9a963a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009d9a963a64c43cc4.png"
+  },
+  {
+    "size": [
+      32,
+      256
+    ],
+    "clut_dimension": "9f961883",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009f961883ae3141ae.png"
+  },
+  {
+    "size": [
+      32,
+      256
+    ],
+    "clut_dimension": "a10be3ea",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000a10be3ea417e08cb.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "a4c0ede9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000a4c0ede91d87713e.png"
+  },
+  {
+    "size": [
+      64,
+      32
+    ],
+    "clut_dimension": "ab9c085d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ab9c085d94c8f162.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "ae6e7d96",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ae6e7d96ed50f274.png"
+  },
+  {
+    "size": [
+      128,
+      64
+    ],
+    "clut_dimension": "b1e5ca21",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b1e5ca21eb33dae6.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "b5c034b3",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b5c034b316222202.png"
+  },
+  {
+    "size": [
+      128,
+      256
+    ],
+    "clut_dimension": "b609b2b4",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b609b2b43d4a0f88.png"
+  },
+  {
+    "size": [
+      64,
+      256
+    ],
+    "clut_dimension": "b6522406",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b6522406e0007889.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "bbff96dd",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000bbff96dd837d04e4.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "bc3698ab",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000bc3698abf8fdfe8e.png"
+  },
+  {
+    "size": [
+      128,
+      32
+    ],
+    "clut_dimension": "bd0c2510",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000bd0c2510b1d2d469.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "c1d96921",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c1d969211c307ab4.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "c262a299",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c262a29925afbddd.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "c66e8126",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c66e8126e56be00a.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "c6d16e30",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c6d16e304abf272b.png"
+  },
+  {
+    "size": [
+      32,
+      16
+    ],
+    "clut_dimension": "c8c17b1a",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c8c17b1a92b29c0f.png"
+  },
+  {
+    "size": [
+      256,
+      128
+    ],
+    "clut_dimension": "c981c3cc",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000c981c3ccf93215a8.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "cc240922",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000cc240922c164f725.png"
+  },
+  {
+    "size": [
+      512,
+      128
+    ],
+    "clut_dimension": "ce5f55cd",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ce5f55cd0399dae9.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "d3c1ce87",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d3c1ce87ee00185f.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "d7adb9c9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d7adb9c914b5d7cb.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "d7ebe8af",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000d7ebe8afc164f725.png"
+  },
+  {
+    "size": [
+      16,
+      32
+    ],
+    "clut_dimension": "df6931a8",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000df6931a80e5eeeff.png"
+  },
+  {
+    "size": [
+      32,
+      32
+    ],
+    "clut_dimension": "e036e380",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e036e3802caa8d5c.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "e606e9b9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e606e9b92da58bf4.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "e65a9da5",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e65a9da55855440f.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "e67b2c10",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e67b2c10cd4acc61.png"
+  },
+  {
+    "size": [
+      64,
+      64
+    ],
+    "clut_dimension": "e944dee4",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e944dee4e06c8505.png"
+  },
+  {
+    "size": [
+      64,
+      8
+    ],
+    "clut_dimension": "ed3a637d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000ed3a637d2020a75e.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "f2073090",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f20730909896421a.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "f481da04",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f481da04f15953e5.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "f48bb9f9",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f48bb9f953f56d97.png"
+  },
+  {
+    "size": [
+      64,
+      32
+    ],
+    "clut_dimension": "f4cb479b",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f4cb479b24c07556.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "clut_dimension": "f9961e20",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000f9961e203f8d5a7e.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "fa26170d",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fa26170d623b77d0.png"
+  },
+  {
+    "size": [
+      128,
+      16
+    ],
+    "clut_dimension": "fba85b2b",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fba85b2b5a8838a6.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "fc35e36e",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fc35e36ea04d5a9f.png"
+  },
+  {
+    "size": [
+      64,
+      128
+    ],
+    "clut_dimension": "fed687ce",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fed687ce141af89d.png"
+  },
+  {
+    "size": [
+      128,
+      128
+    ],
+    "clut_dimension": "fee3e7c2",
+    "count": 1,
+    "example": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fee3e7c2414a7408.png"
+  }
+]

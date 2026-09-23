@@ -1,0 +1,1595 @@
+{
+  "schema": "brs-field-sr-review/v5",
+  "batch": "FIELD-SR-005",
+  "previous_goal_turn_classification": "progress: geometry006 added3 direct-GPT-only field candidates and advanced atlas29; whole29 still held.",
+  "this_goal_turn_classification": "progress: remaining135 novel sources classified,20 new local originals/42 actual RGB calls reviewed,7 static candidates and13 holds, source border502 corrected.",
+  "new_neural_unique_originals": 20,
+  "actual_local_rgb_inference_passes": 42,
+  "actual_alpha_passes": 0,
+  "external_generative_calls": 0,
+  "image_upload": false,
+  "native_neural_scale": 4,
+  "final_scale": 8,
+  "post_scale": "Lanczos2x",
+  "checked_outputs": [
+    {
+      "id": "FM0391-wdn",
+      "group_id": "FM0391",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0391-wdn-8x.png",
+      "sha256": "cc732efe7e376a65aa4a76e0f12752ab24b3d16b4ae1f4f9408baf1b8d55a1a8",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Faceted plate atlas, not free folded material. Long diagonal edges and acute tips remain subtly bowed/rounded. Source segment anchors and small holes/seams need protected reconstruction.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0396-wdn",
+      "group_id": "FM0396",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0396-wdn-8x.png",
+      "sha256": "92ad85e5ececfa8f81dae0b33f20dc87d6734b05311dfbc87637e4036d022a6b",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Angular metal/plate atlas. Native crops show softened corners and curved bevel paths; reconstruct intended straight segments while preserving source intentional arcs.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0407-wdn",
+      "group_id": "FM0407",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0407-wdn-8x.png",
+      "sha256": "0df7592008110136f47b3310a8ce663eff4fa7119625b8986cf1e52a93a4b771",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Panel facets and stepped inset seams need source-anchored construction. A sharper Photo edge alone does not establish corner/segment fidelity.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0424-wdn",
+      "group_id": "FM0424",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0424-wdn-8x.png",
+      "sha256": "8382ecde3adf83c8ba19b48f50b3deb365d7340436e1b9e21c27fad047d1d2fc",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "Photo retains the coarse irregular pitted stone/masonry surface and broad dark patch arrangement with less fine scratching than WDN. No precise rigid joint grid established in this crop; chipped edges remain intentionally irregular.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0456-wdn",
+      "group_id": "FM0456",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0456-wdn-8x.png",
+      "sha256": "7649404b447809b4d5cdcb4a83bae3b0d3c39e8e9bc1077788acef0dc5fcf41d",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Weathered masonry: Photo clarifies blocks but source joint paths and chipped boundaries need separation; WDN makes stronger granular cracks. No source-defined joint geometry accepted yet.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0465-wdn",
+      "group_id": "FM0465",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0465-wdn-8x.png",
+      "sha256": "d84e0d327e548bf85d9b473741183222f5ae7349df769d8a71b6568efc06e7d4",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Photo invents/emphasizes thin continuous mortar strokes while WDN obscures them. Separate original block joints from dirt and fractures before direct geometry treatment.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0466-wdn",
+      "group_id": "FM0466",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0466-wdn-8x.png",
+      "sha256": "c5d2e01d1c1d5a158b8f93a5525157e81378c3a7566c52c4c450b0445c4962ec",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Low-contrast masonry cues are present; prior natural-only routing was too broad. Photo turns faint transitions into dark long joints/cracks; WDN retains grain but does not establish joint geometry.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0473-wdn",
+      "group_id": "FM0473",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0473-wdn-8x.png",
+      "sha256": "26227ef2b4111a3d0af17d51ae3561afdfc5dc08ee9f1945c13901f0d8d135a4",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Source shows brick courses behind broad diagonal fracture/vein-like features, not only a random veined material. Models impose differing block-joint and crack detail; preserve both source layout and broken parts.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0476-wdn",
+      "group_id": "FM0476",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0476-wdn-8x.png",
+      "sha256": "0ffeb194581604512c0ee6f0d14e7565474b6561761952205e71eb86e68829d5",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Mixed masonry/edge and coarse aggregate atlas, not one homogeneous striated material. Upper courses/edge require source boundaries; lower aggregate textures differ strongly between priors.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0480-wdn",
+      "group_id": "FM0480",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0480-wdn-8x.png",
+      "sha256": "f30af439dddf6db1de804e40a429739f8aeafaab76af45f5fb5c19ce064de9e0",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "WDN keeps a finer cracked mineral surface than Photo, which widens and deepens fissures. Original nearopaque alpha is resized separately; no neural alpha inference.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0486-wdn",
+      "group_id": "FM0486",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0486-wdn-8x.png",
+      "sha256": "d06b97b8b8823d06059a62862da909e260f6945112eb5a31cb8115172264c46f",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "WDN retains finer original crack-network appearance than Photo with less exaggerated rough relief. Similar appearance to480/506 does not establish shared consumer or equivalence.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0494-wdn",
+      "group_id": "FM0494",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0494-wdn-8x.png",
+      "sha256": "ea49ad723dd08781f8f62d9953c1fe15b747fbb3cac6c61a85dc6edbd456b1da",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "WDN preserves softer pale veins and granular gray base; Photo hardens veins into white strokes. Nearopaque source alpha is independent of RGB inference.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0495-wdn",
+      "group_id": "FM0495",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0495-wdn-8x.png",
+      "sha256": "bc9d8ba932d45ae6a51e383468b6983b964531b2da3bea04b8fd9da59f822a89",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Regular block masonry. Mortar paths still bow and intersections shift at native scale; source joint anchors/straight segments must be authored before acceptance.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0496-wdn",
+      "group_id": "FM0496",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0496-wdn-8x.png",
+      "sha256": "2645561f19bc3b44500a522351fefd44c43661e92e2c6d95bd03bbd13bd989b9",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Long cornice bands and slab joints need source fixed cross-sections/anchors. Both local priors round the band edges and introduce uneven surface profiles.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0499-wdn",
+      "group_id": "FM0499",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0499-wdn-8x.png",
+      "sha256": "7da477640a3e7d67616b7eb1a35e23d9b82e59feac0215d9673e986d3a4e01cd",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "WDN preserves soft mottled/cloud-like gray color shapes without adding strong new cracks or a rigid material identity. Photo makes several shape boundaries harder.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0502-wdn",
+      "group_id": "FM0502",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-wdn-8x.png",
+      "sha256": "2340939063e3d1af10e13e93617ea25b92d1b5a70b512b903df8dd5d4a2a5e7e",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "Fixed source strip/corner regions and median source color cross-sections keep border lines straight; interpolation removes v1 flat step bands. Local Photo interior remains unchanged, including weathered patch. Source surface interpretation remains visual, not native material metadata.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0506-wdn",
+      "group_id": "FM0506",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0506-wdn-8x.png",
+      "sha256": "30c5384efc363cda252394095588e144375ae91eebdd67294961c869d64b70ae",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "WDN preserves finer gray crack appearance with less deep black separation than Photo. Original nearopaque alpha is resized separately; not assumed equivalent to480/486.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0518-wdn",
+      "group_id": "FM0518",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0518-wdn-8x.png",
+      "sha256": "de9cdeb9ac051799f8652a616656881f07530f27ffc6dd9d674867dc03816a53",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Grayscale shading/region atlas needs consumer-aware ramp treatment. Local models smooth some contours but add strong material-like surfaces and line detail; preserve source region boundaries and tonal function.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0525-wdn",
+      "group_id": "FM0525",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-wdn-8x.png",
+      "sha256": "17ff309957d6ed3698e1dc3463af4e60acfdec51c1e88795a70211d87af7ce91",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Repeating carpet/ornamental motifs and narrow border markings change between priors. Anime retry flattens surface and redraws motif interiors; no model output accepted. Direct motif reconstruction required.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0533-wdn",
+      "group_id": "FM0533",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-wdn-8x.png",
+      "sha256": "77643f0d1d998571b357bde8321657245f7a04be50e5b540bd78ed3ec9f9c327",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Salmon drapery/panel shading is usable only as a future donor. Both Photo and Anime thicken the original white curled ornament; WDN blurs it. Needs source-defined thin scroll curves/border without imposing symmetry.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0391-photo",
+      "group_id": "FM0391",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0391-photo-8x.png",
+      "sha256": "2cb3a20e76d1b765df8a55bb937a1d0953408494f0c8cd41712bffd6b558f46e",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Faceted plate atlas, not free folded material. Long diagonal edges and acute tips remain subtly bowed/rounded. Source segment anchors and small holes/seams need protected reconstruction.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0396-photo",
+      "group_id": "FM0396",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0396-photo-8x.png",
+      "sha256": "c186679894ccee260478daf3880becbe459826d0db6b8b1e1ff23b4f5e1c441a",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Angular metal/plate atlas. Native crops show softened corners and curved bevel paths; reconstruct intended straight segments while preserving source intentional arcs.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0407-photo",
+      "group_id": "FM0407",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0407-photo-8x.png",
+      "sha256": "f92fe3ec6401307d2e7970ce86f2222cb3f4c3cb850ad42cadbded5f7ac0e7c8",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Panel facets and stepped inset seams need source-anchored construction. A sharper Photo edge alone does not establish corner/segment fidelity.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0424-photo",
+      "group_id": "FM0424",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0424-photo-8x.png",
+      "sha256": "3274d69cff9b2d90cf17ff3a9aaac6a7ec629e4144ea7dcc01b5c69d960e22d7",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "static_candidate",
+      "reason": "Photo retains the coarse irregular pitted stone/masonry surface and broad dark patch arrangement with less fine scratching than WDN. No precise rigid joint grid established in this crop; chipped edges remain intentionally irregular.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0456-photo",
+      "group_id": "FM0456",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0456-photo-8x.png",
+      "sha256": "fe9148bee33bd9995e0417e5d61cce6ea3b7caf5381f9c1e9a2f4f5ef11dd66f",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Weathered masonry: Photo clarifies blocks but source joint paths and chipped boundaries need separation; WDN makes stronger granular cracks. No source-defined joint geometry accepted yet.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0465-photo",
+      "group_id": "FM0465",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0465-photo-8x.png",
+      "sha256": "6230fcb8cfb5ea6249ba5eb194ff33eaa4991c482e8d2834e58fe009660340c0",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Photo invents/emphasizes thin continuous mortar strokes while WDN obscures them. Separate original block joints from dirt and fractures before direct geometry treatment.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0466-photo",
+      "group_id": "FM0466",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0466-photo-8x.png",
+      "sha256": "27b7df17068a8d686ff0c66680bc028d33877f95f3716a67451e1dcfedd789e3",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Low-contrast masonry cues are present; prior natural-only routing was too broad. Photo turns faint transitions into dark long joints/cracks; WDN retains grain but does not establish joint geometry.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0473-photo",
+      "group_id": "FM0473",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0473-photo-8x.png",
+      "sha256": "d0fd75cbd0ff36b6ec29369773e018c30f6384f5723f208a8034af0a427b3f7f",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Source shows brick courses behind broad diagonal fracture/vein-like features, not only a random veined material. Models impose differing block-joint and crack detail; preserve both source layout and broken parts.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0476-photo",
+      "group_id": "FM0476",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0476-photo-8x.png",
+      "sha256": "86e07bacd7b2fba371a4c70e5181830abfbcd364ab0b88a6a649ba4a97ba4cef",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Mixed masonry/edge and coarse aggregate atlas, not one homogeneous striated material. Upper courses/edge require source boundaries; lower aggregate textures differ strongly between priors.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0480-photo",
+      "group_id": "FM0480",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0480-photo-8x.png",
+      "sha256": "a7a75e34d56996bfe60e416bdbc4cad277fcc84b0f2de9dc072f487100322c92",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "WDN keeps a finer cracked mineral surface than Photo, which widens and deepens fissures. Original nearopaque alpha is resized separately; no neural alpha inference.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0486-photo",
+      "group_id": "FM0486",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0486-photo-8x.png",
+      "sha256": "5b65a96f57150e8bd17fd51a0c3ea97b9b92d54d5a6359bcedd2c7f3cc561099",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "WDN retains finer original crack-network appearance than Photo with less exaggerated rough relief. Similar appearance to480/506 does not establish shared consumer or equivalence.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0494-photo",
+      "group_id": "FM0494",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0494-photo-8x.png",
+      "sha256": "955b8ce88d69d219c83fed3fd315b4176d042a16418ed24c0d4e665b6a950489",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "WDN preserves softer pale veins and granular gray base; Photo hardens veins into white strokes. Nearopaque source alpha is independent of RGB inference.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0495-photo",
+      "group_id": "FM0495",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0495-photo-8x.png",
+      "sha256": "d829a00b35e9d1356d02f2c68af140d83f5827cfa506e1fee9510759564cade0",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Regular block masonry. Mortar paths still bow and intersections shift at native scale; source joint anchors/straight segments must be authored before acceptance.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0496-photo",
+      "group_id": "FM0496",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0496-photo-8x.png",
+      "sha256": "5a545226433d78c3e665d659dc128bb5dbc1f64caef8286f2e9e43262591eb35",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Long cornice bands and slab joints need source fixed cross-sections/anchors. Both local priors round the band edges and introduce uneven surface profiles.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0499-photo",
+      "group_id": "FM0499",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0499-photo-8x.png",
+      "sha256": "746793000b54a026325e751bd888551a6e2d22bd724b98ca1f330b468bb3230c",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "WDN preserves soft mottled/cloud-like gray color shapes without adding strong new cracks or a rigid material identity. Photo makes several shape boundaries harder.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0502-photo",
+      "group_id": "FM0502",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-photo-8x.png",
+      "sha256": "27f635a4d83b94807169f5ca7cb1f60898ae011f82d51b919cb2b78eb270095a",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "Fixed source strip/corner regions and median source color cross-sections keep border lines straight; interpolation removes v1 flat step bands. Local Photo interior remains unchanged, including weathered patch. Source surface interpretation remains visual, not native material metadata.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0506-photo",
+      "group_id": "FM0506",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0506-photo-8x.png",
+      "sha256": "79c02c4910d42b3d0dbd814270e0ac47cc46cc06e346e551643b79a54b20875f",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "not_selected",
+      "reason": "WDN preserves finer gray crack appearance with less deep black separation than Photo. Original nearopaque alpha is resized separately; not assumed equivalent to480/486.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0518-photo",
+      "group_id": "FM0518",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0518-photo-8x.png",
+      "sha256": "9522922c117d86df23393b5139e96101644b892ba1b6b578843f35511d095354",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Grayscale shading/region atlas needs consumer-aware ramp treatment. Local models smooth some contours but add strong material-like surfaces and line detail; preserve source region boundaries and tonal function.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0525-photo",
+      "group_id": "FM0525",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-photo-8x.png",
+      "sha256": "28fe97c5187526ee5f6868d43a04e2cbc487b37707a42c481c2cfc94f5667c57",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Repeating carpet/ornamental motifs and narrow border markings change between priors. Anime retry flattens surface and redraws motif interiors; no model output accepted. Direct motif reconstruction required.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0533-photo",
+      "group_id": "FM0533",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-photo-8x.png",
+      "sha256": "abe12d73f8be40972b348c4aedfeb879148fcec472d3a77aa889fa0153c13ae5",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Salmon drapery/panel shading is usable only as a future donor. Both Photo and Anime thicken the original white curled ornament; WDN blurs it. Needs source-defined thin scroll curves/border without imposing symmetry.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0525-anime025",
+      "group_id": "FM0525",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-anime025-8x.png",
+      "sha256": "f052ea34aee84fd9dfa6ff61dc027b0e9228c18aba826991a3ef5f1fedc23b0b",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Repeating carpet/ornamental motifs and narrow border markings change between priors. Anime retry flattens surface and redraws motif interiors; no model output accepted. Direct motif reconstruction required.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0533-anime025",
+      "group_id": "FM0533",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-anime025-8x.png",
+      "sha256": "31fe093bad8f74c3535fcaacf03b2a4102b7a512578d87284764cf487f68cb02",
+      "source_model_input_native_output_hashes_verified": true,
+      "saved_input_prefilter_and_native_postprocess_exact": true,
+      "inference_repeated_for_validation": false,
+      "alpha_recipe_verified": true,
+      "decision": "held",
+      "reason": "Salmon drapery/panel shading is usable only as a future donor. Both Photo and Anime thicken the original white curled ornament; WDN blurs it. Needs source-defined thin scroll curves/border without imposing symmetry.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0502-source-fixed-border",
+      "group_id": "FM0502",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-source-fixed-border-8x.png",
+      "sha256": "ea744898f939d6b6c82816bd16b980844b94918b8f8e703174df8f38ba0829ec",
+      "source_parent_vector_mask_output_hashes_verified": true,
+      "rgba_reproduced_from_source_recipe": true,
+      "outside_mask_parent_RGBA_exact": true,
+      "alpha_parent_exact": true,
+      "decision": "not_selected",
+      "reason": "v1 straight strips were visible flat shade blocks; v2 interpolates the source transverse section.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0502-source-fixed-border-v2",
+      "group_id": "FM0502",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0502-source-fixed-border-v2-8x.png",
+      "sha256": "55a8c2219851878345caff623867635735f4abd8db854432332c316b588aeab2",
+      "source_parent_vector_mask_output_hashes_verified": true,
+      "rgba_reproduced_from_source_recipe": true,
+      "outside_mask_parent_RGBA_exact": true,
+      "alpha_parent_exact": true,
+      "decision": "static_candidate",
+      "reason": "Fixed source strip/corner regions and median source color cross-sections keep border lines straight; interpolation removes v1 flat step bands. Local Photo interior remains unchanged, including weathered patch. Source surface interpretation remains visual, not native material metadata.",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "new_static_candidates": {
+    "FM0424": "FM0424-photo",
+    "FM0480": "FM0480-wdn",
+    "FM0486": "FM0486-wdn",
+    "FM0494": "FM0494-wdn",
+    "FM0499": "FM0499-wdn",
+    "FM0506": "FM0506-wdn",
+    "FM0502": "FM0502-source-fixed-border-v2"
+  },
+  "new_holds": {
+    "FM0391": "Faceted plate atlas, not free folded material. Long diagonal edges and acute tips remain subtly bowed/rounded. Source segment anchors and small holes/seams need protected reconstruction.",
+    "FM0396": "Angular metal/plate atlas. Native crops show softened corners and curved bevel paths; reconstruct intended straight segments while preserving source intentional arcs.",
+    "FM0407": "Panel facets and stepped inset seams need source-anchored construction. A sharper Photo edge alone does not establish corner/segment fidelity.",
+    "FM0456": "Weathered masonry: Photo clarifies blocks but source joint paths and chipped boundaries need separation; WDN makes stronger granular cracks. No source-defined joint geometry accepted yet.",
+    "FM0465": "Photo invents/emphasizes thin continuous mortar strokes while WDN obscures them. Separate original block joints from dirt and fractures before direct geometry treatment.",
+    "FM0466": "Low-contrast masonry cues are present; prior natural-only routing was too broad. Photo turns faint transitions into dark long joints/cracks; WDN retains grain but does not establish joint geometry.",
+    "FM0473": "Source shows brick courses behind broad diagonal fracture/vein-like features, not only a random veined material. Models impose differing block-joint and crack detail; preserve both source layout and broken parts.",
+    "FM0476": "Mixed masonry/edge and coarse aggregate atlas, not one homogeneous striated material. Upper courses/edge require source boundaries; lower aggregate textures differ strongly between priors.",
+    "FM0495": "Regular block masonry. Mortar paths still bow and intersections shift at native scale; source joint anchors/straight segments must be authored before acceptance.",
+    "FM0496": "Long cornice bands and slab joints need source fixed cross-sections/anchors. Both local priors round the band edges and introduce uneven surface profiles.",
+    "FM0518": "Grayscale shading/region atlas needs consumer-aware ramp treatment. Local models smooth some contours but add strong material-like surfaces and line detail; preserve source region boundaries and tonal function.",
+    "FM0525": "Repeating carpet/ornamental motifs and narrow border markings change between priors. Anime retry flattens surface and redraws motif interiors; no model output accepted. Direct motif reconstruction required.",
+    "FM0533": "Salmon drapery/panel shading is usable only as a future donor. Both Photo and Anime thicken the original white curled ornament; WDN blurs it. Needs source-defined thin scroll curves/border without imposing symmetry."
+  },
+  "selection_reasons": {
+    "FM0424": "Photo retains the coarse irregular pitted stone/masonry surface and broad dark patch arrangement with less fine scratching than WDN. No precise rigid joint grid established in this crop; chipped edges remain intentionally irregular.",
+    "FM0480": "WDN keeps a finer cracked mineral surface than Photo, which widens and deepens fissures. Original nearopaque alpha is resized separately; no neural alpha inference.",
+    "FM0486": "WDN retains finer original crack-network appearance than Photo with less exaggerated rough relief. Similar appearance to480/506 does not establish shared consumer or equivalence.",
+    "FM0494": "WDN preserves softer pale veins and granular gray base; Photo hardens veins into white strokes. Nearopaque source alpha is independent of RGB inference.",
+    "FM0499": "WDN preserves soft mottled/cloud-like gray color shapes without adding strong new cracks or a rigid material identity. Photo makes several shape boundaries harder.",
+    "FM0502": "Fixed source strip/corner regions and median source color cross-sections keep border lines straight; interpolation removes v1 flat step bands. Local Photo interior remains unchanged, including weathered patch. Source surface interpretation remains visual, not native material metadata.",
+    "FM0506": "WDN preserves finer gray crack appearance with less deep black separation than Photo. Original nearopaque alpha is resized separately; not assumed equivalent to480/486."
+  },
+  "source_routing_corrections": {
+    "FM0391": "Source routing should be protected faceted mechanical atlas rather than generic folded material.",
+    "FM0396": "Source routing should be protected angular plate/mechanical atlas rather than generic folded material.",
+    "FM0466": "Low-contrast masonry lines visible on close review; revise natural-only routing to structured weathered masonry.",
+    "FM0473": "Brick courses and large diagonal damaged features coexist; do not route as only irregular natural veins.",
+    "FM0476": "Upper masonry and lower coarse aggregate are separate regions; original natural-striation routing is insufficient.",
+    "FM0518": "Treat broad grayscale fields as protected shading/region atlas with unknown consumer, not generic material grain."
+  },
+  "alpha_diagnostics": {
+    "FM0480": {
+      "source_extrema": [
+        225,
+        255
+      ],
+      "output_extrema": [
+        225,
+        255
+      ],
+      "source_alpha_mean": 253.44677734375,
+      "output_alpha_mean": 253.44801330566406,
+      "mean_ratio": 1.0000048766132559,
+      "exact_recipe": "Source alpha BILINEAR8x; RGB neural only",
+      "game_alpha_behavior_verified": false
+    },
+    "FM0494": {
+      "source_extrema": [
+        239,
+        255
+      ],
+      "output_extrema": [
+        239,
+        255
+      ],
+      "source_alpha_mean": 253.768798828125,
+      "output_alpha_mean": 253.77000427246094,
+      "mean_ratio": 1.0000047501676388,
+      "exact_recipe": "Source alpha BILINEAR8x; RGB neural only",
+      "game_alpha_behavior_verified": false
+    },
+    "FM0506": {
+      "source_extrema": [
+        225,
+        255
+      ],
+      "output_extrema": [
+        225,
+        255
+      ],
+      "source_alpha_mean": 253.2666015625,
+      "output_alpha_mean": 253.26840209960938,
+      "mean_ratio": 1.0000071092560103,
+      "exact_recipe": "Source alpha BILINEAR8x; RGB neural only",
+      "game_alpha_behavior_verified": false
+    }
+  },
+  "geometry_diagnostics": {
+    "rectangles_xywh_source": [
+      [
+        0,
+        0,
+        128,
+        5
+      ],
+      [
+        0,
+        30,
+        128,
+        2
+      ],
+      [
+        0,
+        5,
+        2,
+        25
+      ],
+      [
+        126,
+        5,
+        2,
+        25
+      ]
+    ],
+    "protected_pixels": 63744,
+    "cross_section_spreads": {
+      "top_RGB_max_spread_along_x": 2,
+      "bottom_RGB_max_spread_along_x": 2,
+      "left_RGB_max_spread_along_y": 2,
+      "right_RGB_max_spread_along_y": 2
+    },
+    "limit": "Fixed decoded-image border section; no proof of native UV seams or full consumer geometry."
+  },
+  "source_and_comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-01.png",
+      "sha256": "065584999d250d1480255ebc9eed59b2e5d961ef8f6fca8ac5ab940fa0bd106b",
+      "group_ids": [
+        "FM0365",
+        "FM0366",
+        "FM0387",
+        "FM0388",
+        "FM0389",
+        "FM0390",
+        "FM0391",
+        "FM0392",
+        "FM0393"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-02.png",
+      "sha256": "8700516357aaa9b39eee553c435d74b58ce5d16691c164d7abbdf11fa011e186",
+      "group_ids": [
+        "FM0394",
+        "FM0395",
+        "FM0396",
+        "FM0397",
+        "FM0398",
+        "FM0399",
+        "FM0400",
+        "FM0401",
+        "FM0402"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-03.png",
+      "sha256": "6525cb82b69e1ea106289c61c3e89077c36158dd685c59ad45234cf5539c9ce0",
+      "group_ids": [
+        "FM0403",
+        "FM0404",
+        "FM0405",
+        "FM0406",
+        "FM0407",
+        "FM0408",
+        "FM0409",
+        "FM0410",
+        "FM0411"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-04.png",
+      "sha256": "a20f421b2b9b82b4e2eba0b93f0b60ede681cb0cc81182b09e48f1a71e0a3eb9",
+      "group_ids": [
+        "FM0412",
+        "FM0413",
+        "FM0414",
+        "FM0415",
+        "FM0416",
+        "FM0418",
+        "FM0424",
+        "FM0430",
+        "FM0431"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-05.png",
+      "sha256": "91772106b9ad2aa673e587b0e5ee77e0171ed823b2913a4edaab5a4673d78c7b",
+      "group_ids": [
+        "FM0432",
+        "FM0433",
+        "FM0434",
+        "FM0435",
+        "FM0436",
+        "FM0437",
+        "FM0438",
+        "FM0439",
+        "FM0440"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-06.png",
+      "sha256": "d89bac8f23e125f1bcd67714c1d402c9ba288a9d9a06ad960732419fe0e6c2ad",
+      "group_ids": [
+        "FM0441",
+        "FM0442",
+        "FM0443",
+        "FM0444",
+        "FM0445",
+        "FM0446",
+        "FM0447",
+        "FM0448",
+        "FM0449"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-07.png",
+      "sha256": "3aa3158388a5eedfaad1d85317659960ec2705847c9490e3cca43517ebfcd39b",
+      "group_ids": [
+        "FM0450",
+        "FM0451",
+        "FM0452",
+        "FM0454",
+        "FM0455",
+        "FM0456",
+        "FM0457",
+        "FM0458",
+        "FM0459"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-08.png",
+      "sha256": "62335143d5f762236f9ccf5fdcdd89b1ec763e16dfd2e8f68f4b213d33d6db98",
+      "group_ids": [
+        "FM0460",
+        "FM0462",
+        "FM0465",
+        "FM0466",
+        "FM0467",
+        "FM0472",
+        "FM0473",
+        "FM0474",
+        "FM0475"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-09.png",
+      "sha256": "6b79c60f1979e969de65e87bcb6aa735bc087cc8e5e269c25a74549d47b319dc",
+      "group_ids": [
+        "FM0476",
+        "FM0477",
+        "FM0480",
+        "FM0481",
+        "FM0482",
+        "FM0483",
+        "FM0486",
+        "FM0487",
+        "FM0489"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-10.png",
+      "sha256": "80108c8b5de531443b3c56017ae3cadfbce83701347540f7006f4d122097b2e9",
+      "group_ids": [
+        "FM0490",
+        "FM0493",
+        "FM0494",
+        "FM0495",
+        "FM0496",
+        "FM0497",
+        "FM0498",
+        "FM0499",
+        "FM0500"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-11.png",
+      "sha256": "ade989c2b4bb072a509aa631df60e46cb7b00993f099383f9f9052fb845c7eec",
+      "group_ids": [
+        "FM0501",
+        "FM0502",
+        "FM0503",
+        "FM0506",
+        "FM0508",
+        "FM0509",
+        "FM0510",
+        "FM0511",
+        "FM0512"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-12.png",
+      "sha256": "a3827df0dd1cc651342b1dbd55c25df1302ac120cf7ba4ed034fc5cefda63209",
+      "group_ids": [
+        "FM0513",
+        "FM0514",
+        "FM0515",
+        "FM0516",
+        "FM0517",
+        "FM0518",
+        "FM0519",
+        "FM0520",
+        "FM0521"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-13.png",
+      "sha256": "7a641eb635e4ac7ef7aca06fb61937cb34211faeeb80467f79c7c1dc190c9c83",
+      "group_ids": [
+        "FM0522",
+        "FM0523",
+        "FM0524",
+        "FM0525",
+        "FM0526",
+        "FM0527",
+        "FM0528",
+        "FM0529",
+        "FM0530"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-14.png",
+      "sha256": "f1c0050e3546b1b3c7a847e086c08d83c20050da9da9ca7a10019223e58c2a14",
+      "group_ids": [
+        "FM0531",
+        "FM0532",
+        "FM0533",
+        "FM0534",
+        "FM0535",
+        "FM0536",
+        "FM0537",
+        "FM0538",
+        "FM0539"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review04\\source-15.png",
+      "sha256": "e608445e03db738db47c5bab4541b3cee9cfda1ed5d441923a69e175af4cb2fe",
+      "group_ids": [
+        "FM0540",
+        "FM0541",
+        "FM0542",
+        "FM0543",
+        "FM0544",
+        "FM0545",
+        "FM0552",
+        "FM0561",
+        "FM0576"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_source_review04.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-01.png",
+      "sha256": "62033a45b88dcaf1d3779156af60dd7cdece9e45f8a1628ea2fef48e81bcb468",
+      "group_ids": [
+        "FM0391",
+        "FM0396"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-02.png",
+      "sha256": "23301f4f36140d413a0cb2a1ced1f0ec17305c94a9d817e9d71d46de0cb66a60",
+      "group_ids": [
+        "FM0407",
+        "FM0424"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-03.png",
+      "sha256": "227ee8a7aa16d09e5c5d9078b4ca577ae1670860f5525b58a0144b9e698e44af",
+      "group_ids": [
+        "FM0456",
+        "FM0465"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-04.png",
+      "sha256": "c01f0bfd532a00a78bb77ed18b1ae00bd7adf8366102fb23dc0074bfc6b0cce2",
+      "group_ids": [
+        "FM0466",
+        "FM0473"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-05.png",
+      "sha256": "fb0acd1afaa0c989fdf49d91a53d1356dc26f4879ae39bfda05de348a572e998",
+      "group_ids": [
+        "FM0476",
+        "FM0480"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-06.png",
+      "sha256": "092989a567fbfdc26579d2217bbbb14fd04f6fd0bc54773d1a84867d93d3c51b",
+      "group_ids": [
+        "FM0486",
+        "FM0494"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-07.png",
+      "sha256": "d1835b783fa1a3887f3e85b753c3287f27f429a82ae2ad6dbf52231aa9f1a830",
+      "group_ids": [
+        "FM0495",
+        "FM0496"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-08.png",
+      "sha256": "8309d3c25692febbb674eb6bbc7bccb6b7d229b5a899c0894445bc94992f4fc1",
+      "group_ids": [
+        "FM0499",
+        "FM0502"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-09.png",
+      "sha256": "90f519c52bf0946db23a8ce8d585085a5e6b4b9b3f9d22dbc15f79359a48931a",
+      "group_ids": [
+        "FM0506",
+        "FM0518"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\review-10.png",
+      "sha256": "8e41f9add488b85a549d9312829345c8605ac7fd065687d963b3c7a5c224c3cd",
+      "group_ids": [
+        "FM0525",
+        "FM0533"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_inference.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-01.png",
+      "sha256": "b38dd54a2faf4f990154c5b121a32974ae36ff1671850ba69914e1b2d4d98ed2",
+      "group_ids": [
+        "FM0391",
+        "FM0396"
+      ],
+      "source_boxes": {
+        "FM0391": [
+          12,
+          42,
+          52,
+          82
+        ],
+        "FM0396": [
+          12,
+          20,
+          52,
+          60
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-02.png",
+      "sha256": "be7d17654f504b721f4ab21d99199bc529c41a8c18430e90e4466cd6b2d22ee5",
+      "group_ids": [
+        "FM0407",
+        "FM0424"
+      ],
+      "source_boxes": {
+        "FM0407": [
+          50,
+          16,
+          90,
+          56
+        ],
+        "FM0424": [
+          16,
+          0,
+          48,
+          32
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-03.png",
+      "sha256": "d7712a3a0e30ab23b12990520f29351244f26eb3b0f52fa8cda664fed2b354f2",
+      "group_ids": [
+        "FM0456",
+        "FM0465"
+      ],
+      "source_boxes": {
+        "FM0456": [
+          12,
+          12,
+          52,
+          52
+        ],
+        "FM0465": [
+          12,
+          12,
+          52,
+          52
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-04.png",
+      "sha256": "a9ef33bef002b37aff9f0b7bb2f95809036023400b83d3558eb237d3db1a8cd1",
+      "group_ids": [
+        "FM0466",
+        "FM0473"
+      ],
+      "source_boxes": {
+        "FM0466": [
+          12,
+          12,
+          52,
+          52
+        ],
+        "FM0473": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-05.png",
+      "sha256": "e7983a2acabfb3140e9a7bb28021f286eab1178bd098c3e1324ad92b1184733b",
+      "group_ids": [
+        "FM0476",
+        "FM0480"
+      ],
+      "source_boxes": {
+        "FM0476": [
+          44,
+          40,
+          84,
+          80
+        ],
+        "FM0480": [
+          12,
+          12,
+          52,
+          52
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-06.png",
+      "sha256": "0d13144a74bcbd1d3638b4aa77a712c2a4e7bd180cc068eaf550c4f781b8e953",
+      "group_ids": [
+        "FM0486",
+        "FM0494"
+      ],
+      "source_boxes": {
+        "FM0486": [
+          12,
+          12,
+          52,
+          52
+        ],
+        "FM0494": [
+          12,
+          12,
+          52,
+          52
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-07.png",
+      "sha256": "1b9d9dbb548406efda5be39e4535d026f66dd60c0e5e7aacb73cc62e81916d60",
+      "group_ids": [
+        "FM0495",
+        "FM0496"
+      ],
+      "source_boxes": {
+        "FM0495": [
+          12,
+          12,
+          52,
+          52
+        ],
+        "FM0496": [
+          44,
+          12,
+          84,
+          52
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-08.png",
+      "sha256": "ecb5f3b7e05b041e3f6c64ee1beacfb2f0d59cf168b27c9298bb916bebc33c28",
+      "group_ids": [
+        "FM0499",
+        "FM0502"
+      ],
+      "source_boxes": {
+        "FM0499": [
+          44,
+          44,
+          84,
+          84
+        ],
+        "FM0502": [
+          44,
+          0,
+          76,
+          32
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-09.png",
+      "sha256": "dd34632bfe4c7a9bbb1ee5c571c57cf21a015c50c1ba014f98ad134f600e71f5",
+      "group_ids": [
+        "FM0506",
+        "FM0518"
+      ],
+      "source_boxes": {
+        "FM0506": [
+          12,
+          12,
+          52,
+          52
+        ],
+        "FM0518": [
+          8,
+          72,
+          48,
+          112
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\native-10.png",
+      "sha256": "89cac892611034dcdb05a75f7a26510b9eec8eebaf0a975a128c2245f90d621f",
+      "group_ids": [
+        "FM0525",
+        "FM0533"
+      ],
+      "source_boxes": {
+        "FM0525": [
+          40,
+          40,
+          80,
+          80
+        ],
+        "FM0533": [
+          0,
+          96,
+          32,
+          128
+        ]
+      },
+      "output_display_scale": 1,
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_native_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0525-pattern-rework.png",
+      "sha256": "d1f633df54eb0a7f97f4311b7ec110baa54903609ae4728d0d3279aeb7ec6392",
+      "group_id": "FM0525",
+      "source_box": [
+        40,
+        40,
+        80,
+        80
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_rework.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0533-pattern-rework.png",
+      "sha256": "d90b19943e0ed2ba98096bbcfb51b92a51ecb86527891c3dd8e848a4130ebd27",
+      "group_id": "FM0533",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_rework.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-whole.png",
+      "sha256": "e006ba80de191deb22c753905b656b472e67bc2f44151c4f040a6221f5a51da0",
+      "source_box": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-native.png",
+      "sha256": "1f615c777ba221df47638d7b9215ad01d15ff30c008f45eaa51a79056eccb05f",
+      "source_box": [
+        44,
+        0,
+        76,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-corner.png",
+      "sha256": "4f9e289f4017ace33f25ef1a1efdab21240b4c7fd07ce20c3761a521545a0c6f",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-whole.png",
+      "sha256": "50103f7c9af1c506c5e5b16f2125668d96fdfdc6e039ba9041b0ca99cb6397d1",
+      "source_box": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-native.png",
+      "sha256": "785d10b49a123bdf59cdbe4b6fd91d4ecc7cce54ef82632ba9b095fc8199dd4c",
+      "source_box": [
+        44,
+        0,
+        76,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0502-fixed-v2-corner.png",
+      "sha256": "9836392504b7ae5c80f7235bfa8373aa24ee12730109562656562ef92ff29422",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "evidence_report": "field_sr005_geometry502_v2.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0480-dual-matte.png",
+      "sha256": "e27a9b93a860ef589f040cf9faf021a52a02a7f916a53b81393d08a375e605bf",
+      "group_id": "FM0480",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ],
+      "evidence_report": "field_sr005_alpha_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0494-dual-matte.png",
+      "sha256": "f294b247f23060a0476e3f17d55a01a4c85538610462dc5168a33d4573c31889",
+      "group_id": "FM0494",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ],
+      "evidence_report": "field_sr005_alpha_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0506-dual-matte.png",
+      "sha256": "0f2aa4edeed9f7a2442e25217e01d50f97e7e1e6dc623eb77479fad82e0c0370",
+      "group_id": "FM0506",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "mattes": [
+        "#202830",
+        "#dedede"
+      ],
+      "evidence_report": "field_sr005_alpha_review.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0533-source-coordinate.png",
+      "sha256": "ead86a039831fa45d0526ba0b44ea998850413f065a02a70bca207ef863e4bc7",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "kind": "source_coordinate_plate"
+    }
+  ],
+  "source_pages_directly_inspected": 15,
+  "additional_source_coordinate_pages": 1,
+  "comparison_pages_directly_inspected": 31,
+  "source_reports_sha256": {
+    "qa\\field_source_review04.json": "0e9a3c0193ef9c2a0d9a5741f86bf06880d3b607e0ffd0c6b648559532b109a5",
+    "qa\\field_sr005_inference.json": "a7627307e2c889f80c623da88906b6bed2f6cccea80cc6b70a1f3d2c10ea9b05",
+    "qa\\field_sr005_native_review.json": "a998f530662c0f44f824315205b019ad25d34dd7e9e46bb7c76234233cfb4518",
+    "qa\\field_sr005_rework.json": "392a4ba7b569ee12cf16e562fdfe15d134dd6e694d1cf11036ec4dbbef844698",
+    "qa\\field_sr005_geometry502.json": "d1cc9903c8d7836a457a0a705e107bb286ae5d680dcaa8eaef141891b9eed211",
+    "qa\\field_sr005_geometry502_v2.json": "e8d3955a058729b6c10ab6328127ed15ba44b3a70ce5591e9b81ace7a28731b3",
+    "qa\\field_sr005_alpha_review.json": "c5219602a557af78017768b8d5b21ac6918457eb87d56dfaacff0614c011b974"
+  },
+  "catalog_before_sha256": "6a2cb08d73b7a5dd0e66ee949fc7355a8661d28064cbc970aa7be4ff10025c74",
+  "catalog_after_sha256": "35cc0b103903511dcfd5b0787be872352dc18ca4efca039aee746c9ea9b613e5",
+  "geometry_contract_before_sha256": "090074abd7083c10d39cce82f685b4082e87d72cbc5a79d99105c27c4018c975",
+  "geometry_contract_after_sha256": "397b15b5442fe9a3e026fd12d051de21f2a38dd655a8a854569ecc73670c1ea5",
+  "other556_field_groups_unchanged": true,
+  "previous93_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 145,
+    "field_static_candidates": 100,
+    "field_holds": 48,
+    "field_groups_not_processed_in_field_context": 428,
+    "remaining_novel_unprocessed": 203,
+    "latest_review": "qa/field_sr005_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 148,
+    "counting_note": "Legacy field_neural_originals counts145 originals with actual local inference; direct-GPT-only3 are separate. All processed novel148=145+3. New batch20 originals and42 real RGB calls; retries/geometry derivatives do not add unique originals."
+  },
+  "unique_local_neural_originals_title_battle_novel_field": 402,
+  "unique_processed_originals_including_direct_GPT_only_title_battle_novel_field": 405,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\재질과_직선_검수_비교.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\재질과_직선_검수_비교.png",
+    "sha256": "3cf72e226814584840598c63e66919ff0436b17a29c28d9417556ee93f17aee0"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "351 source classifications complete only the decoded novel field routing population;225 battle-pixel-equivalent field groups, undecoded assets, consumers and other game populations remain separate.",
+    "Some initial appearance labels were too broad; final routing corrections are explicit here, while source-linked inference reports remain immutable.",
+    "42 actual local RGB calls:40 WDN/Photo plus2 anime6B pattern retries. Both pattern retries rejected. No external generation this batch.",
+    "All saved input/native postprocessing and2 geometry recipes reproduce exactly; CUDA inference was not unnecessarily repeated.",
+    "Alpha on3 nearopaque textures matches source bilinear8x exactly; it is not byte-exact source texels or game alpha-test evidence.",
+    "Static candidates only. Historical57 field/241 battle geometry-applicability checks,48 current field holds,203 novel unprocessed and43 battle unresolved remain.",
+    "No installation, new observed PPSSPP keys, emulator launch, actual-game verification or final release ZIP."
+  ],
+  "next_action": "Prioritize source-defined masonry joints456/465/466/473/495 and straight cornice496, thin ornament533 and motifs525; finish atlas29 and perspective facades37/38. Continue remaining203 novel field and43 battle plus other game populations. Keep direct-GPT glass policy and material-vs-geometry separation. Runtime only when GUI recovery is evidenced, never Computer Use launch.",
+  "scripts": {
+    "prepare_field_sources04.py": "fd4cf65cc88d9068773997e072cd2d06675bb6216767045e4e02458223467018",
+    "classify_field_sources04.py": "0b7c7e7b9bd92b0042d917daa1ebe7f6dc9015e33c60c09858c58560c54da699",
+    "field_sr005.py": "05aaebf85d4d4d506a8cbd793ea7330056fd00e6542a04775e46d22cb2932f25",
+    "inspect_field_sr005.py": "747edfb93ddba71355e48609170a536846b67c7ac9378a6adc799bcfe76b6c16",
+    "rework_field_sr005.py": "3d4096e5636425d2311f3d126680b30e58c3dfc4a8b80cec56e0a48c0f61e222",
+    "protect_field502.py": "4622ab4101b542ec1c8d177027f7a1d6bd6d566666761055d1b739967a491f29",
+    "refine_field502.py": "d9fcd1d03164489629480b3bd303e858d95b0c9b69993c4f300331285dfa965c",
+    "inspect_field_sr005_alpha.py": "954b5ea49e65a7280c7b4bcc1ae02e4585341f9f03d4314b6601fec2182e849f",
+    "finalize_field_sr005.py": "7dd0c069685038dbaf73421a38966611bb3e83ac632d693a2a2abb1da9dcaace"
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "schema": "brs-field-review/v1",
+  "batch": "FIELD-SR-001",
+  "source_pages_directly_inspected": 8,
+  "source_originals_classified": 72,
+  "new_neural_unique_originals": 28,
+  "actual_local_rgb_inference_passes": 56,
+  "external_generative_calls": 0,
+  "image_upload": false,
+  "local_outputs": 56,
+  "direct_svg_or_protected_source_outputs": 2,
+  "checked_outputs": [
+    {
+      "id": "FM0036-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0040-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0048-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0049-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0052-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0053-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0055-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0056-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0057-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0061-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0062-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0063-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0071-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0072-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0073-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0074-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0075-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0076-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0077-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0078-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0079-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0080-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0081-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0083-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0084-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0117-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0118-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0119-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0036-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0040-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0048-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0049-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0052-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0053-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0055-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0056-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0057-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0061-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0062-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0063-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0071-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0072-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0073-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0074-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0075-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0076-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0077-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0078-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0079-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0080-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0081-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0083-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0084-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "selected_static_candidate"
+    },
+    {
+      "id": "FM0117-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    },
+    {
+      "id": "FM0118-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "not_selected"
+    },
+    {
+      "id": "FM0119-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "native4x_final8x_verified": true,
+      "opaque255_verified": true,
+      "post_resize_exact": true,
+      "decision": "held"
+    }
+  ],
+  "grid_checks": [
+    {
+      "id": "FM0078-photo-source-grid",
+      "hashes_verified": true,
+      "outside_mask_exact": true,
+      "protected_source_nearest_exact": false,
+      "decision": "rejected"
+    },
+    {
+      "id": "FM0078-photo-protected-source-lattice",
+      "hashes_verified": true,
+      "outside_mask_exact": true,
+      "protected_source_nearest_exact": true,
+      "decision": "fallback_only_not_HD_candidate"
+    }
+  ],
+  "selected_static_candidates": {
+    "FM0036": "FM0036-photo",
+    "FM0040": "FM0040-wdn",
+    "FM0048": "FM0048-wdn",
+    "FM0049": "FM0049-wdn",
+    "FM0052": "FM0052-wdn",
+    "FM0053": "FM0053-photo",
+    "FM0056": "FM0056-wdn",
+    "FM0057": "FM0057-wdn",
+    "FM0061": "FM0061-wdn",
+    "FM0062": "FM0062-wdn",
+    "FM0063": "FM0063-photo",
+    "FM0071": "FM0071-photo",
+    "FM0072": "FM0072-photo",
+    "FM0073": "FM0073-photo",
+    "FM0074": "FM0074-photo",
+    "FM0075": "FM0075-photo",
+    "FM0076": "FM0076-photo",
+    "FM0077": "FM0077-photo",
+    "FM0079": "FM0079-photo",
+    "FM0080": "FM0080-photo",
+    "FM0081": "FM0081-photo",
+    "FM0083": "FM0083-wdn",
+    "FM0084": "FM0084-photo",
+    "FM0118": "FM0118-wdn"
+  },
+  "held": {
+    "FM0055": "Both infer brick seams not securely recoverable from the original; source row/cell geometry unresolved.",
+    "FM0078": "Both erase horizontal lattice bars. Manual v1 adds button-like bevels; exact-source fallback v2 preserves all pixels but is not a completed HD redraw.",
+    "FM0117": "Both invent or strengthen crack networks and streaks across pale stone.",
+    "FM0119": "Source has a fine diagonal/repeated dark pattern. WDN turns it into granular material; Photo erases it. Consumer/material identity needs review."
+  },
+  "comparison_pages_directly_inspected": 14,
+  "native8x_detail_pages_directly_inspected": 7,
+  "manual_grid_pages_directly_inspected": 2,
+  "geometry_diagnostics": [
+    {
+      "source": {
+        "interior_dark_troughs": 12,
+        "positions_source_units": [
+          5.5,
+          10.5,
+          15.5,
+          20.5,
+          25.5,
+          30.5,
+          35.5,
+          40.5,
+          45.5,
+          50.5,
+          55.5,
+          60.5
+        ]
+      },
+      "photo": {
+        "interior_dark_troughs": 12,
+        "positions_source_units": [
+          5.0625,
+          9.9375,
+          14.9375,
+          19.9375,
+          24.9375,
+          29.9375,
+          34.9375,
+          39.9375,
+          44.9375,
+          49.9375,
+          55.0625,
+          60.9375
+        ]
+      },
+      "group_id": "FM0072",
+      "sampling": {
+        "axis": "x",
+        "perpendicular_band": [
+          46,
+          51
+        ],
+        "extent": 64,
+        "prominence_0_255": 20,
+        "minimum_distance_source_px": 3
+      },
+      "count_match": true
+    },
+    {
+      "source": {
+        "interior_dark_troughs": 9,
+        "positions_source_units": [
+          3.5,
+          9.5,
+          15.5,
+          21.5,
+          27.5,
+          33.5,
+          39.5,
+          44.5,
+          50.5
+        ]
+      },
+      "photo": {
+        "interior_dark_troughs": 9,
+        "positions_source_units": [
+          3.4375,
+          9.3125,
+          15.1875,
+          21.1875,
+          26.9375,
+          32.8125,
+          38.5625,
+          44.5625,
+          50.5625
+        ]
+      },
+      "group_id": "FM0084",
+      "sampling": {
+        "axis": "y",
+        "perpendicular_band": [
+          15,
+          49
+        ],
+        "extent": 53,
+        "prominence_0_255": 20,
+        "minimum_distance_source_px": 3
+      },
+      "count_match": true
+    }
+  ],
+  "geometry_diagnostic_limits": "Sampled line count only. Does not prove every edge, material interpretation, native UV, consumer exclusion, or runtime layout.",
+  "processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 72,
+    "field_neural_originals": 28,
+    "field_static_candidates": 24,
+    "field_holds": 4,
+    "field_groups_not_processed_in_field_context": 548,
+    "remaining_novel_unprocessed": 323
+  },
+  "prior_battle_summary_unchanged": {
+    "battle_groups_total": 284,
+    "battle_groups_locally_processed": 256,
+    "battle_static_candidates": 241,
+    "battle_processed_without_accepted_candidate": 17,
+    "battle_groups_not_yet_processed": 26,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 257,
+    "source_table_entries": 416,
+    "source_decoded_entries": 413,
+    "source_format_unresolved": 3,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr013_review.json",
+    "new_unique_originals_latest_rework": 0,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 12,
+    "new_unique_originals_LOCAL_SR_005": 49,
+    "neural_passes_LOCAL_SR_005": 102,
+    "new_unique_originals_LOCAL_SR_006": 21,
+    "neural_passes_LOCAL_SR_006": 86,
+    "review_pack_exact_keys": 20,
+    "new_unique_originals_LOCAL_SR_007": 0,
+    "neural_passes_LOCAL_SR_007": 36,
+    "new_unique_originals_LOCAL_SR_008": 24,
+    "neural_passes_LOCAL_SR_008": 54,
+    "new_unique_originals_LOCAL_SR_009": 24,
+    "neural_passes_LOCAL_SR_009": 120,
+    "new_unique_originals_LOCAL_SR_010": 31,
+    "neural_passes_LOCAL_SR_010": 104,
+    "new_unique_originals_LOCAL_SR_011": 42,
+    "neural_passes_LOCAL_SR_011": 184,
+    "battle_groups_processed_any_method": 258,
+    "battle_geometry_only_groups_processed": 2,
+    "battle_groups_never_locally_inferred": 28,
+    "neural_passes_CHECKER_001": 2,
+    "counter_contract": "Locally processed counts mean actual neural inference. Processed-any-method also includes explicitly recorded deterministic geometry. Static candidate/held/unprocessed counts use all methods.",
+    "new_unique_originals_LOCAL_SR_012": 12,
+    "neural_passes_LOCAL_SR_012": 53,
+    "generative_calls_LOCAL_SR_012": 1,
+    "manual_reconstructed_groups_LOCAL_SR_012": 1,
+    "new_unique_originals_LOCAL_SR_013": 0,
+    "neural_passes_LOCAL_SR_013": 0,
+    "generative_calls_LOCAL_SR_013": 1,
+    "manual_reconstructed_groups_LOCAL_SR_013": 1
+  },
+  "unique_neural_originals_title_battle_novel_field": 285,
+  "unique_count_basis": "Title1 + battle256 + new field28; geometry-only battle2 are excluded from neural count. Not whole-game coverage.",
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "remaining": [
+    "Finish FM0055/0078/0117/0119 and remaining novel field323; classify further source pages.",
+    "Battle holds17 and not-processed26 remain, as do enemy/effects/cutscene lanes and decoder gaps.",
+    "Native consumer/UV and PPSSPP key mapping; installed runtime title/Orbit/LOCK ON/full regions and final packaging remain."
+  ],
+  "next_action": "Reconstruct FM0078 connected lattice using source-positioned bars with coherent surrounding frame (not separate button bevels); source-exact v2 is fallback only. Continue further field source classification.",
+  "resolved_holds": {
+    "FM0078": {
+      "review": "qa/field_sr002_review.json",
+      "candidate": "FM0078-photo-connected-grid-v3",
+      "scope": "static geometry repair only; runtime false"
+    }
+  }
+}

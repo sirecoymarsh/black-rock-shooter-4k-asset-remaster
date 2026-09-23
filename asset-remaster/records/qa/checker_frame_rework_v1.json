@@ -1,0 +1,70 @@
+{
+  "schema": "brs-checker-frame-rework/v1",
+  "files": [
+    {
+      "id": "BM221-wdn-guided-0.35",
+      "group_id": "BM221",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_03.vol\\001_map_b_stg05_03.bin\\001.png",
+      "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-wdn-protected8x.png",
+      "parent_sha256": "f995ef76c246b635991b64ee071bf29c7d63217303aef61f1c962dcf68d8ae85",
+      "cleanplate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-checker-removed-input.png",
+      "cleanplate_sha256": "118c38926ea718cad4d1770e132ceaa973dec64f4eafe00e2892da715afa4d0a",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-protected-checker-mask.png",
+      "mask_sha256": "00ca60cd924f146284908f2f94fccd125121b30031181aba7b503733b0bc276f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-wdn-guided-0.35-protected8x.png",
+      "output_sha256": "77de5016cd62319257ecfc66bf1efc7b2baec4605c44b7211cbd4ae21ee0120c",
+      "output_size": [
+        256,
+        2048
+      ],
+      "detail_weight": 0.35,
+      "method": "Source-cleanplate color guide with weighted parent high-frequency residual on frame, followed by exact protected checker restoration",
+      "new_neural_passes": 0,
+      "protected_rgba_exact_to_source_nearest8x": true,
+      "alpha_exact_to_parent": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Alternate not selected. Exact authored checker layer is sharp; 0.60 frame residual retains clearer frame edges than 0.35 while reducing speculative depth relative to unguided frame."
+      }
+    },
+    {
+      "id": "BM221-wdn-guided-0.60",
+      "group_id": "BM221",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_03.vol\\001_map_b_stg05_03.bin\\001.png",
+      "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-frame-wdn-protected8x.png",
+      "parent_sha256": "f995ef76c246b635991b64ee071bf29c7d63217303aef61f1c962dcf68d8ae85",
+      "cleanplate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-checker-removed-input.png",
+      "cleanplate_sha256": "118c38926ea718cad4d1770e132ceaa973dec64f4eafe00e2892da715afa4d0a",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-protected-checker-mask.png",
+      "mask_sha256": "00ca60cd924f146284908f2f94fccd125121b30031181aba7b503733b0bc276f",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\checker-fidelity-v1\\BM221-wdn-guided-0.60-protected8x.png",
+      "output_sha256": "080a61856441c24de757911ee6f1fb620d2feb79135a32bbefe74e5e19096764",
+      "output_size": [
+        256,
+        2048
+      ],
+      "detail_weight": 0.6,
+      "method": "Source-cleanplate color guide with weighted parent high-frequency residual on frame, followed by exact protected checker restoration",
+      "new_neural_passes": 0,
+      "protected_rgba_exact_to_source_nearest8x": true,
+      "alpha_exact_to_parent": true,
+      "runtime_verified": false,
+      "release_eligible": false,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Exact authored checker layer is sharp; 0.60 frame residual retains clearer frame edges than 0.35 while reducing speculative depth relative to unguided frame."
+      }
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_fidelity_BM221_frame_rework.png"
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false
+}

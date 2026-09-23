@@ -1,0 +1,386 @@
+{
+  "schema": "brs-sr013-rubble/v1",
+  "files": [
+    {
+      "id": "BM115-planes",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "alpha_parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-planes.svg",
+      "vector_sha256": "4c1330f6b208d50b891cf9272a4331ae5706d122f1177d4f56de684a97478ff6",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-planes-render.png",
+      "render_sha256": "33cbc0ab0a4849d11e3806645c0581091cf8a21df17badc557cf932799f7e8bd",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-planes-8x.png",
+      "output_sha256": "dbe8d6226aa24464bd6738e813217ee307ae70a577d1f605e4557b558546db80",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Codex-directed fifteen source-color plane contours, bounded polygon simplification and quadratic corner strokes, composited over source color guide; only alpha is retained from local WDN",
+      "palette": [
+        {
+          "rgb": [
+            10,
+            13,
+            42
+          ],
+          "source_pixels": 4080,
+          "contours": 209,
+          "vertices": 1967
+        },
+        {
+          "rgb": [
+            20,
+            23,
+            64
+          ],
+          "source_pixels": 217,
+          "contours": 159,
+          "vertices": 694
+        },
+        {
+          "rgb": [
+            26,
+            28,
+            76
+          ],
+          "source_pixels": 268,
+          "contours": 203,
+          "vertices": 884
+        },
+        {
+          "rgb": [
+            28,
+            29,
+            130
+          ],
+          "source_pixels": 736,
+          "contours": 144,
+          "vertices": 1133
+        },
+        {
+          "rgb": [
+            37,
+            37,
+            138
+          ],
+          "source_pixels": 50,
+          "contours": 39,
+          "vertices": 172
+        },
+        {
+          "rgb": [
+            50,
+            55,
+            80
+          ],
+          "source_pixels": 1143,
+          "contours": 233,
+          "vertices": 1847
+        },
+        {
+          "rgb": [
+            68,
+            69,
+            179
+          ],
+          "source_pixels": 109,
+          "contours": 42,
+          "vertices": 235
+        },
+        {
+          "rgb": [
+            75,
+            78,
+            98
+          ],
+          "source_pixels": 70,
+          "contours": 49,
+          "vertices": 216
+        },
+        {
+          "rgb": [
+            86,
+            90,
+            104
+          ],
+          "source_pixels": 595,
+          "contours": 153,
+          "vertices": 1080
+        },
+        {
+          "rgb": [
+            97,
+            101,
+            93
+          ],
+          "source_pixels": 32,
+          "contours": 28,
+          "vertices": 114
+        },
+        {
+          "rgb": [
+            131,
+            135,
+            116
+          ],
+          "source_pixels": 336,
+          "contours": 83,
+          "vertices": 587
+        },
+        {
+          "rgb": [
+            137,
+            140,
+            123
+          ],
+          "source_pixels": 16,
+          "contours": 12,
+          "vertices": 48
+        },
+        {
+          "rgb": [
+            142,
+            145,
+            172
+          ],
+          "source_pixels": 51,
+          "contours": 23,
+          "vertices": 130
+        },
+        {
+          "rgb": [
+            180,
+            183,
+            142
+          ],
+          "source_pixels": 308,
+          "contours": 43,
+          "vertices": 317
+        },
+        {
+          "rgb": [
+            242,
+            246,
+            197
+          ],
+          "source_pixels": 20,
+          "contours": 11,
+          "vertices": 54
+        }
+      ],
+      "contour_epsilon_source_px": 0.15,
+      "corner_rounding_source_px": 0.1,
+      "source_guide_mix": 0.15,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Rejected: palette tracing enlarges quantization speckles into diamond/maze motifs and flat material.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM115-painted",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "alpha_parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-painted.svg",
+      "vector_sha256": "e2127243abc4721b3dac696d2f0c33e0abbb491f1893e3d69299cccc018ceba9",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-painted-render.png",
+      "render_sha256": "f88ab2d6a8c7472818f4a9c340f667407714a8bddbc8d8c2065c44ee7df5b2e7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-rubble\\BM115-painted-8x.png",
+      "output_sha256": "7da14870eab1241a27ce04279c73df29b3a799e3c3c42749e923d20e6a103626",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Codex-directed fifteen source-color plane contours, bounded polygon simplification and quadratic corner strokes, composited over source color guide; only alpha is retained from local WDN",
+      "palette": [
+        {
+          "rgb": [
+            10,
+            13,
+            42
+          ],
+          "source_pixels": 4080,
+          "contours": 209,
+          "vertices": 1702
+        },
+        {
+          "rgb": [
+            20,
+            23,
+            64
+          ],
+          "source_pixels": 217,
+          "contours": 159,
+          "vertices": 656
+        },
+        {
+          "rgb": [
+            26,
+            28,
+            76
+          ],
+          "source_pixels": 268,
+          "contours": 203,
+          "vertices": 828
+        },
+        {
+          "rgb": [
+            28,
+            29,
+            130
+          ],
+          "source_pixels": 736,
+          "contours": 144,
+          "vertices": 965
+        },
+        {
+          "rgb": [
+            37,
+            37,
+            138
+          ],
+          "source_pixels": 50,
+          "contours": 39,
+          "vertices": 160
+        },
+        {
+          "rgb": [
+            50,
+            55,
+            80
+          ],
+          "source_pixels": 1143,
+          "contours": 233,
+          "vertices": 1556
+        },
+        {
+          "rgb": [
+            68,
+            69,
+            179
+          ],
+          "source_pixels": 109,
+          "contours": 42,
+          "vertices": 212
+        },
+        {
+          "rgb": [
+            75,
+            78,
+            98
+          ],
+          "source_pixels": 70,
+          "contours": 49,
+          "vertices": 208
+        },
+        {
+          "rgb": [
+            86,
+            90,
+            104
+          ],
+          "source_pixels": 595,
+          "contours": 153,
+          "vertices": 899
+        },
+        {
+          "rgb": [
+            97,
+            101,
+            93
+          ],
+          "source_pixels": 32,
+          "contours": 28,
+          "vertices": 112
+        },
+        {
+          "rgb": [
+            131,
+            135,
+            116
+          ],
+          "source_pixels": 336,
+          "contours": 83,
+          "vertices": 488
+        },
+        {
+          "rgb": [
+            137,
+            140,
+            123
+          ],
+          "source_pixels": 16,
+          "contours": 12,
+          "vertices": 48
+        },
+        {
+          "rgb": [
+            142,
+            145,
+            172
+          ],
+          "source_pixels": 51,
+          "contours": 23,
+          "vertices": 107
+        },
+        {
+          "rgb": [
+            180,
+            183,
+            142
+          ],
+          "source_pixels": 308,
+          "contours": 43,
+          "vertices": 271
+        },
+        {
+          "rgb": [
+            242,
+            246,
+            197
+          ],
+          "source_pixels": 20,
+          "contours": 11,
+          "vertices": 47
+        }
+      ],
+      "contour_epsilon_source_px": 0.32,
+      "corner_rounding_source_px": 0.22,
+      "source_guide_mix": 0.3,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Rejected: tracing source quantization still produces maze-like decorative marks.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_whole.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_left.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_middle.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_right.png"
+  ],
+  "new_neural_passes": 0,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "authorship": "Codex internal material treatment and tracing parameters; boundaries derived computationally from source palette, not hand-painted freeform artwork."
+}

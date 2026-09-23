@@ -1,0 +1,3175 @@
+{
+  "schema": "brs-field-alpha-audit/v1",
+  "batch": "FIELD-SR-003",
+  "checked_outputs": [
+    {
+      "id": "FM0029-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000590661430384,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9754638671875,
+          "16": 0.9754638671875,
+          "32": 0.9754638671875,
+          "64": 0.9765367224734205,
+          "128": 1.0,
+          "192": 0.9784757852584157,
+          "240": 0.9698410712051058
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          11
+        ]
+      }
+    },
+    {
+      "id": "FM0037-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9999417321548963,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9410178631614425,
+          "16": 0.9413351314902225,
+          "32": 0.9824067558057706,
+          "64": 0.9996419620479771,
+          "128": 1.0,
+          "192": 0.9992836676217765,
+          "240": 0.9373209169054442
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0038-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000297472291417,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9736842105263158,
+          "16": 0.9736842105263158,
+          "32": 0.9935381964388282,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9731175025292672
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0045-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0004935168997668,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8474074074074074,
+          "16": 0.8474074074074074,
+          "32": 0.942339373970346,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.7604895104895105
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0047-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.7786790266512167,
+          "16": 0.7786790266512167,
+          "32": 0.8853754940711462,
+          "64": 0.9781659388646288,
+          "128": 1.0,
+          "192": 0.9910714285714286,
+          "240": 0.6964285714285714
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          3,
+          2
+        ],
+        "16": [
+          3,
+          2
+        ],
+        "32": [
+          3,
+          2
+        ],
+        "64": [
+          3,
+          3
+        ],
+        "128": [
+          3,
+          3
+        ],
+        "192": [
+          3,
+          3
+        ],
+        "240": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "FM0059-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.9799275160301087,
+          "16": 0.9799275160301087,
+          "32": 0.9909782915139554,
+          "64": 0.9994313335228888,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9792318634423898
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0060-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6799485861182519,
+          "16": 0.687012987012987,
+          "32": 0.7600574712643678,
+          "64": 0.8657937806873978,
+          "128": 1.0,
+          "192": 0.8582230623818525,
+          "240": 0.499054820415879
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          4,
+          1
+        ],
+        "16": [
+          4,
+          1
+        ],
+        "32": [
+          4,
+          1
+        ],
+        "64": [
+          4,
+          4
+        ],
+        "128": [
+          4,
+          4
+        ],
+        "192": [
+          4,
+          6
+        ],
+        "240": [
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "id": "FM0087-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0010708714620575,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6206764027671022,
+          "16": 0.723764705882353,
+          "32": 0.7643636363636364,
+          "64": 0.7727873183619551,
+          "128": 0.5,
+          "192": 0.047619047619047616,
+          "240": 0.0
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          47,
+          17
+        ],
+        "16": [
+          47,
+          46
+        ],
+        "32": [
+          122,
+          92
+        ],
+        "64": [
+          150,
+          126
+        ],
+        "128": [
+          140,
+          85
+        ],
+        "192": [
+          73,
+          3
+        ],
+        "240": [
+          44,
+          0
+        ]
+      }
+    },
+    {
+      "id": "FM0113-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9994288885587905,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8839285714285714,
+          "16": 0.8870967741935484,
+          "32": 0.9440559440559441,
+          "64": 0.9939759036144579,
+          "128": 1.0,
+          "192": 0.9952861952861953,
+          "240": 0.8565656565656565
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0115-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000858342929342,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.977515547759528,
+          "16": 0.9795461808884628,
+          "32": 0.9915884826916855,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9781402936378466
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0116-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.000130318058394,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9726137091607944,
+          "16": 0.9729253444408843,
+          "32": 0.9895714518494378,
+          "64": 0.9996707818930041,
+          "128": 1.0,
+          "192": 0.9998353367363741,
+          "240": 0.9718425819199736
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0120-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.000894677473262,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9128630705394191,
+          "16": 0.9128630705394191,
+          "32": 0.9452201933404941,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 0.9988636363636364,
+          "240": 0.8863636363636364
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0121-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001474279470826,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9405099150141643,
+          "16": 0.9405099150141643,
+          "32": 0.9857482185273159,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9367469879518072
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0122-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.00009047262973,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9636024265048997,
+          "16": 0.9637523335407592,
+          "32": 0.9908829174664108,
+          "64": 0.999838605551969,
+          "128": 1.0,
+          "192": 0.9996771589991928,
+          "240": 0.9631961259079903
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0123-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6969102501226091,
+          "16": 0.6969102501226091,
+          "32": 0.9150032195750161,
+          "64": 0.9957953749124037,
+          "128": 1.0,
+          "192": 0.9978888106966924,
+          "240": 0.5700211118930331
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          2
+        ],
+        "16": [
+          2,
+          2
+        ],
+        "32": [
+          2,
+          2
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "FM0124-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9996915573661898,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9823008849557522,
+          "16": 0.9823008849557522,
+          "32": 0.9833887043189369,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9819819819819819
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0145-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9999770466416736,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9806654676258992,
+          "16": 0.9817375088418752,
+          "32": 0.9966055225536915,
+          "64": 0.999803536345776,
+          "128": 1.0,
+          "192": 0.999410493220672,
+          "240": 0.9798257679963319
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0157-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.8663337250293772,
+          "16": 0.8682872928176796,
+          "32": 0.903176883780332,
+          "64": 0.9401744910677191,
+          "128": 0.9975315172352993,
+          "192": 0.9852408307556341,
+          "240": 0.7312417145382236
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          80,
+          55
+        ],
+        "16": [
+          80,
+          56
+        ],
+        "32": [
+          23,
+          13
+        ],
+        "64": [
+          23,
+          17
+        ],
+        "128": [
+          23,
+          23
+        ],
+        "192": [
+          23,
+          20
+        ],
+        "240": [
+          23,
+          36
+        ]
+      }
+    },
+    {
+      "id": "FM0164-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9998634495452451,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8996252676659529,
+          "16": 0.8998661311914324,
+          "32": 0.985052754982415,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.8800952097590004
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0254-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001561364661582,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8609892064998221,
+          "16": 0.8626262626262626,
+          "32": 0.9594237377742533,
+          "64": 0.9962942629700796,
+          "128": 1.0,
+          "192": 0.9976580796252927,
+          "240": 0.8399228543876567
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "id": "FM0255-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001638708174119,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.919755778456171,
+          "16": 0.9205587079877783,
+          "32": 0.975937066173068,
+          "64": 0.9971631205673759,
+          "128": 1.0,
+          "192": 0.9991702228544334,
+          "240": 0.9097913703176861
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          3,
+          2
+        ],
+        "16": [
+          3,
+          2
+        ],
+        "32": [
+          3,
+          2
+        ],
+        "64": [
+          3,
+          3
+        ],
+        "128": [
+          3,
+          3
+        ],
+        "192": [
+          3,
+          3
+        ],
+        "240": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "FM0256-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.000217748965585,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.950595238095238,
+          "16": 0.9509348576872693,
+          "32": 0.9828902018709995,
+          "64": 0.998624312156078,
+          "128": 1.0,
+          "192": 0.9996242955541641,
+          "240": 0.9466499686912961
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0260-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001734717666544,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9759082512315271,
+          "16": 0.976058506543495,
+          "32": 0.9871535347243849,
+          "64": 0.9994482106258868,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9757078633961669
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0263-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.8712356712648145,
+          "16": 0.8715319955298576,
+          "32": 0.9320827270837664,
+          "64": 0.9900645802285146,
+          "128": 1.0,
+          "192": 0.9964319562914645,
+          "240": 0.8430060768244411
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          10
+        ],
+        "240": [
+          1,
+          51
+        ]
+      }
+    },
+    {
+      "id": "FM0264-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.9651276670164393,
+          "16": 0.9653640275688347,
+          "32": 0.9826217015063566,
+          "64": 0.9987331692485883,
+          "128": 1.0,
+          "192": 0.9997825535461893,
+          "240": 0.9608596383140652
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          17
+        ]
+      }
+    },
+    {
+      "id": "FM0268-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000024099312301,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 1.0,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9997535124476213
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0272-wdn",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 1.0,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 1.0
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0029-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000878745942126,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9754638671875,
+          "16": 0.9754638671875,
+          "32": 0.9754638671875,
+          "64": 0.9777315551205188,
+          "128": 1.0,
+          "192": 0.9784757852584157,
+          "240": 0.9698410712051058
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          11
+        ]
+      }
+    },
+    {
+      "id": "FM0037-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9997224870428114,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9410178631614425,
+          "16": 0.9416526138279933,
+          "32": 0.9869211735595617,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 0.9992836676217765,
+          "240": 0.9373209169054442
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0038-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001012061133168,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9736842105263158,
+          "16": 0.9736842105263158,
+          "32": 0.9928253694934711,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9731175025292672
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0045-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9996449934869053,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8474074074074074,
+          "16": 0.8474074074074074,
+          "32": 0.942339373970346,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.7604895104895105
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0047-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.7786790266512167,
+          "16": 0.7786790266512167,
+          "32": 0.8853754940711462,
+          "64": 0.9781659388646288,
+          "128": 1.0,
+          "192": 0.9910714285714286,
+          "240": 0.6964285714285714
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          3,
+          2
+        ],
+        "16": [
+          3,
+          2
+        ],
+        "32": [
+          3,
+          2
+        ],
+        "64": [
+          3,
+          3
+        ],
+        "128": [
+          3,
+          3
+        ],
+        "192": [
+          3,
+          3
+        ],
+        "240": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "FM0059-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.9799275160301087,
+          "16": 0.9799275160301087,
+          "32": 0.9909782915139554,
+          "64": 0.9994313335228888,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9792318634423898
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0060-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6799485861182519,
+          "16": 0.687012987012987,
+          "32": 0.7600574712643678,
+          "64": 0.8657937806873978,
+          "128": 1.0,
+          "192": 0.8582230623818525,
+          "240": 0.499054820415879
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          4,
+          1
+        ],
+        "16": [
+          4,
+          1
+        ],
+        "32": [
+          4,
+          1
+        ],
+        "64": [
+          4,
+          4
+        ],
+        "128": [
+          4,
+          4
+        ],
+        "192": [
+          4,
+          6
+        ],
+        "240": [
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "id": "FM0087-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0010708714620575,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6206764027671022,
+          "16": 0.723764705882353,
+          "32": 0.7643636363636364,
+          "64": 0.7727873183619551,
+          "128": 0.5,
+          "192": 0.047619047619047616,
+          "240": 0.0
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          47,
+          17
+        ],
+        "16": [
+          47,
+          46
+        ],
+        "32": [
+          122,
+          92
+        ],
+        "64": [
+          150,
+          126
+        ],
+        "128": [
+          140,
+          85
+        ],
+        "192": [
+          73,
+          3
+        ],
+        "240": [
+          44,
+          0
+        ]
+      }
+    },
+    {
+      "id": "FM0113-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9997861787812768,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8839285714285714,
+          "16": 0.8886894075403949,
+          "32": 0.9440559440559441,
+          "64": 0.9946416610850636,
+          "128": 1.0,
+          "192": 0.9986531986531987,
+          "240": 0.8565656565656565
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0115-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000063473594984,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.977515547759528,
+          "16": 0.9792332268370607,
+          "32": 0.9919093851132686,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9773246329526917
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0116-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000836634670334,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9726137091607944,
+          "16": 0.9727695018420631,
+          "32": 0.9897327249022164,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 0.9998353367363741,
+          "240": 0.9718425819199736
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0120-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0002586759135472,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9128630705394191,
+          "16": 0.9128630705394191,
+          "32": 0.9799554565701559,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.8863636363636364
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0121-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0001142437396646,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9405099150141643,
+          "16": 0.9405099150141643,
+          "32": 0.9880952380952381,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9367469879518072
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0122-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000425608096346,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9636024265048997,
+          "16": 0.9639022872257663,
+          "32": 0.9912,
+          "64": 0.999838605551969,
+          "128": 1.0,
+          "192": 0.9996771589991928,
+          "240": 0.9631961259079903
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0123-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.6969102501226091,
+          "16": 0.6969102501226091,
+          "32": 0.9150032195750161,
+          "64": 0.9957953749124037,
+          "128": 1.0,
+          "192": 0.9978888106966924,
+          "240": 0.5700211118930331
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          2
+        ],
+        "16": [
+          2,
+          2
+        ],
+        "32": [
+          2,
+          2
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "FM0124-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9998789862932785,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9823008849557522,
+          "16": 0.9823008849557522,
+          "32": 0.9833887043189369,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9819819819819819
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0145-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9999559997084574,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9806654676258992,
+          "16": 0.9821164361531038,
+          "32": 0.9968658178256611,
+          "64": 0.999803536345776,
+          "128": 1.0,
+          "192": 0.9997379969869653,
+          "240": 0.9798257679963319
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          2,
+          1
+        ],
+        "16": [
+          2,
+          1
+        ],
+        "32": [
+          2,
+          1
+        ],
+        "64": [
+          2,
+          2
+        ],
+        "128": [
+          2,
+          2
+        ],
+        "192": [
+          2,
+          2
+        ],
+        "240": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "FM0157-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.8663337250293772,
+          "16": 0.8682872928176796,
+          "32": 0.903176883780332,
+          "64": 0.9401744910677191,
+          "128": 0.9975315172352993,
+          "192": 0.9852408307556341,
+          "240": 0.7312417145382236
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          80,
+          55
+        ],
+        "16": [
+          80,
+          56
+        ],
+        "32": [
+          23,
+          13
+        ],
+        "64": [
+          23,
+          17
+        ],
+        "128": [
+          23,
+          23
+        ],
+        "192": [
+          23,
+          20
+        ],
+        "240": [
+          23,
+          36
+        ]
+      }
+    },
+    {
+      "id": "FM0164-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0002485983980025,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8996252676659529,
+          "16": 0.8998661311914324,
+          "32": 0.9821741671537113,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.8800952097590004
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0254-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 0.9997234585734004,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.8609892064998221,
+          "16": 0.8625237642585551,
+          "32": 0.963882618510158,
+          "64": 0.9964310226492793,
+          "128": 1.0,
+          "192": 0.9976580796252927,
+          "240": 0.8404738944758231
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          3
+        ],
+        "240": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "id": "FM0255-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000019829233258,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.919755778456171,
+          "16": 0.9207596594629993,
+          "32": 0.9775202780996524,
+          "64": 0.9972810024825629,
+          "128": 1.0,
+          "192": 0.9992887624466572,
+          "240": 0.9097913703176861
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          3,
+          2
+        ],
+        "16": [
+          3,
+          2
+        ],
+        "32": [
+          3,
+          2
+        ],
+        "64": [
+          3,
+          3
+        ],
+        "128": [
+          3,
+          3
+        ],
+        "192": [
+          3,
+          3
+        ],
+        "240": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "FM0256-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.000216636278807,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.950595238095238,
+          "16": 0.9508216241962372,
+          "32": 0.9818025328906922,
+          "64": 0.9991241241241241,
+          "128": 1.0,
+          "192": 0.9997495303694427,
+          "240": 0.9466499686912961
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0260-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000962346646995,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": false,
+        "threshold_ious": {
+          "8": 0.9759082512315271,
+          "16": 0.9764343473238352,
+          "32": 0.9867693983967624,
+          "64": 0.9994482106258868,
+          "128": 1.0,
+          "192": 0.9999211294266109,
+          "240": 0.9753923811026106
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0263-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.8712356712648145,
+          "16": 0.8715319955298576,
+          "32": 0.9320827270837664,
+          "64": 0.9900645802285146,
+          "128": 1.0,
+          "192": 0.9964319562914645,
+          "240": 0.8430060768244411
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          10
+        ],
+        "240": [
+          1,
+          51
+        ]
+      }
+    },
+    {
+      "id": "FM0264-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 0.9651276670164393,
+          "16": 0.9653640275688347,
+          "32": 0.9826217015063566,
+          "64": 0.9987331692485883,
+          "128": 1.0,
+          "192": 0.9997825535461893,
+          "240": 0.9608596383140652
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          17
+        ]
+      }
+    },
+    {
+      "id": "FM0268-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0000024099312301,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 1.0,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.9997535124476213
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "FM0272-photo",
+      "source_ptm_rgba_model_input_native_output_hashes_verified": true,
+      "inputs_reproduced_exact": true,
+      "native4x_final8x_verified": true,
+      "whole_output_postprocessing_reproduced_exact": true,
+      "panel_partition_exact": true,
+      "source_bilinear_alpha_reproduced_exact": true,
+      "zero255_support_verified": true,
+      "alpha_metrics": {
+        "mass_ratio": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "source_ge8_reduced_below4": 0,
+        "source_bilinear_byte_exact": true,
+        "threshold_ious": {
+          "8": 1.0,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 1.0
+        }
+      },
+      "source_and_reduced_output_components": {
+        "8": [
+          1,
+          1
+        ],
+        "16": [
+          1,
+          1
+        ],
+        "32": [
+          1,
+          1
+        ],
+        "64": [
+          1,
+          1
+        ],
+        "128": [
+          1,
+          1
+        ],
+        "192": [
+          1,
+          1
+        ],
+        "240": [
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "actual_rgb_passes": 58,
+  "actual_alpha_passes": 38,
+  "actual_local_inference_passes": 96,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "detail_pages": [
+    {
+      "group_id": "FM0029",
+      "source_box": [
+        28,
+        0,
+        56,
+        28
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0029.png",
+      "sha256": "b706a9b96dd0a635e0f979e39b20133c097eec8c70fcb869ae4bc40cbbe68a47",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0087",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0087.png",
+      "sha256": "5be9ba6c5c6a6d838966274ef1b8f735bf13b879bceeda08b6c5e1134ffe7ab4",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0113",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0113.png",
+      "sha256": "41b24a70ea1f465e5cd333e34a1651c88474c4f492a3f3618e8a1a9cf2b2a703",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0123",
+      "source_box": [
+        0,
+        0,
+        32,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0123.png",
+      "sha256": "fa99125f8520d1f3d0c1f2dddebbb7bf5f87dcea4a847416c5f075c867fd5d4c",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0145",
+      "source_box": [
+        44,
+        0,
+        78,
+        54
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0145.png",
+      "sha256": "4d16369632d9b37d8835a124e3afee393f687cf7c71038f8d8d3feca6effbf9d",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0157",
+      "source_box": [
+        8,
+        0,
+        56,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0157.png",
+      "sha256": "a29d979051260ab1b8cb684461d6d1952d008eb80651f9ca8691acdf3f3d5799",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0164",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0164.png",
+      "sha256": "01f2d4863f0d0e4dd1726d2a438eb268fe94f28a72088e04c4a3130c3a6a81c9",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0254",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0254.png",
+      "sha256": "af27329690f9b7c98203c1f36f2e1571a6b4169cabaedaff325a0de907bf8447",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0255",
+      "source_box": [
+        64,
+        0,
+        128,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0255.png",
+      "sha256": "7211967cca06d5a0b6ffdb5f81961f4d83c7b97ac1f02f54de0e7628c0a3f5ae",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0263",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0263.png",
+      "sha256": "5977d7dbba28de0df430b9d575501860036b0c79ced269aade3a72e7325f7a8d",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0264",
+      "source_box": [
+        128,
+        0,
+        192,
+        64
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0264.png",
+      "sha256": "0a96393bdecff679014e6664206b30ea6ded0d09f468c4e4b1e58ffa637bbb85",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0272",
+      "source_box": [
+        240,
+        8,
+        304,
+        72
+      ],
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\detail-FM0272.png",
+      "sha256": "012c150a088befd160769245023da288a68cfe9d97b2c5f5bef4b24efaac3033",
+      "display": "native output8x and source nearest8x; two mattes",
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ],
+  "limits": [
+    "Alpha component counts at thresholds are diagnostics, not proof of topology, UV consumers or correct runtime alpha test.",
+    "Source-bilinear-alpha-only lanes do not claim neural silhouette reconstruction.",
+    "All output reproduction checks verify saved-native postprocessing, not rerun determinism or true recovered high-resolution detail."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

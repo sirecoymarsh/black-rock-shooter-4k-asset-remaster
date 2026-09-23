@@ -1,0 +1,214 @@
+{
+  "schema": "brs-soft-review/v4",
+  "reviewer": "Codex internal",
+  "selected": {
+    "BM027": {
+      "source_report": "qa/local_sr_soft_review_v4.json",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-rgba8x.png",
+      "output_sha256": "b70201c6fc22931c1e572d6bdeab9d56824aacc6e9a1c307af64997370480329",
+      "reason": "Premultiplied RGBA prefilter + local photo Real-ESRGAN RGB/alpha inference; source opacity restored. Cloud facets reduced. Dark/light matte and 2x display reviewed.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM039": {
+      "source_report": "qa/local_sr_soft_review_v4.json",
+      "source_rgba_sha256": "65a2891ba3302052da64df9a100911c8d5bc33faa92404b94ee747a05b54d737",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM039-linear-mask-rgb-neural-8x.png",
+      "output_sha256": "4fa3c2985686da2011446382e205fb7d862900b8c51abbf1cd98af57073e6328",
+      "reason": "Source stripe geometry fitted independently per edge and antialiased; actual neural RGB reused. No new neural inference in geometric postprocessing.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM057": {
+      "source_report": "qa/local_sr_soft_review_v4.json",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-selected-foliage-photo-bark-wdn-8x.png",
+      "output_sha256": "8907f3d08fa0f3ce8061003a8bfb7d6ff8eab434c97616fc205da17cebe0980f",
+      "reason": "Local photo foliage inference with 60% residual RGB detail; original separate bark atlas region uses prior WDN result. Alpha and atlas split preserved to their recorded parents.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  },
+  "checked_outputs": [
+    {
+      "group_id": "BM027",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-rgba8x.png",
+      "sha256": "bf37b84ffaf147d638385ee1b1baaa091bf4ad0bdc6680bf40f3c716735320e2",
+      "size": [
+        1024,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM027",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-rgba8x.png",
+      "sha256": "2c3321e975f8de924dc99298223d4e17423e721437807daefc0568e5f69efd44",
+      "size": [
+        1024,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-rgba8x.png",
+      "sha256": "877a8948725f428972f2cd9ae9557af10a77a2838214c68a28e145f36dd6a1f6",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-rgba8x.png",
+      "sha256": "a03f68971f2ec96101c49c3095bf2a2b25269140d30bfb65d06265d16c489337",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM027",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-rgba8x.png",
+      "sha256": "1b1da24e0ab1c4351f6a5bce6ce223e6ba0796fbc7c3c30e0473e7fe26dd08f3",
+      "size": [
+        1024,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM027",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-rgba8x.png",
+      "sha256": "b70201c6fc22931c1e572d6bdeab9d56824aacc6e9a1c307af64997370480329",
+      "size": [
+        1024,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-rgba8x.png",
+      "sha256": "d2969c7d62b644fd8d9cc2f8ec9671bee74472e8b91715583a664019420b7919",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-rgba8x.png",
+      "sha256": "bb0447c8ffa90b08c11a2ff73310790eb17d489c7f8110a7dbbcbeb99e044a79",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM039",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM039-linear-mask-rgb-neural-8x.png",
+      "sha256": "4fa3c2985686da2011446382e205fb7d862900b8c51abbf1cd98af57073e6328",
+      "size": [
+        512,
+        256
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": "Straight-edge source fit; alpha silhouette intentionally reconstructed. Source-scale IoU and residuals separately recorded."
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-photo-detail0.35-8x.png",
+      "sha256": "80032424d0606c94259e52ce4d6739ad0924523f4a7f81b0dea82e7bd012d63f",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-photo-detail0.6-8x.png",
+      "sha256": "b51a9516e5a006f61d7f4fcdbb99a4bd0639e0a363d7334b5d57674d08431c55",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_nonzero_outside_source_bilinear_support": 0,
+      "geometry_exception": null
+    },
+    {
+      "group_id": "BM057",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\linear-foliage-v4\\BM057-selected-foliage-photo-bark-wdn-8x.png",
+      "sha256": "8907f3d08fa0f3ce8061003a8bfb7d6ff8eab434c97616fc205da17cebe0980f",
+      "size": [
+        512,
+        512
+      ],
+      "exact_parent_regions": {
+        "leaf": [
+          0,
+          0,
+          384,
+          512
+        ],
+        "bark": [
+          384,
+          0,
+          512,
+          512
+        ]
+      }
+    }
+  ],
+  "new_neural_inference_passes": 24,
+  "new_unique_originals": 0,
+  "processing_summary": {
+    "battle_groups_total": 283,
+    "battle_groups_locally_processed": 53,
+    "battle_static_candidates": 50,
+    "battle_processed_without_accepted_candidate": 3,
+    "battle_groups_not_yet_processed": 230,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 54,
+    "source_table_entries": 416,
+    "source_decoded_entries": 410,
+    "source_format_unresolved": 6,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr_soft_review_v4.json",
+    "new_unique_originals_latest_rework": 0,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 12
+  },
+  "remaining_processed_holds": [
+    "BM019",
+    "BM036",
+    "BM056"
+  ],
+  "limitations": [
+    "No runtime, UV, moving-alpha or tile-wrap acceptance.",
+    "BM039 alpha geometry is reconstructed, not source-pixel-identical; per-edge fits, clipped-edge extrapolations and mask IoU are in local_sr_linear_foliage_v4.json.",
+    "Source-scale consistency does not establish recovered true detail.",
+    "No user installation or final ZIP."
+  ]
+}

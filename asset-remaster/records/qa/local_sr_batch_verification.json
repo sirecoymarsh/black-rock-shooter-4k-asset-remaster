@@ -1,0 +1,102 @@
+{
+  "schema": "brs-local-sr-batch-verification/v1",
+  "date": "2026-09-22T23:05:46.999291+00:00",
+  "old_ui_ptmd_regression_count": 439,
+  "old_ui_rgba_and_roundtrip_pass": true,
+  "output_files_verified": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v1\\title-logical-8x.png",
+      "sha256": "ff618b09f87e874e8e10be9d82eb104aef0d22bbc64c9c3885b6b8cb0b0b0b54"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn0.0-active-8x.png",
+      "sha256": "c0b7fc5e8b176a8a135a4ad5cfd095122ef431d7bef8e2e0877fd6d8a31803fa"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn0.5-active-8x.png",
+      "sha256": "246e293fa824f76bd9f14cc8c5bdcdfa6ad2515bf2ce1961bdd47e17d40e7d01"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn1.0-active-8x.png",
+      "sha256": "2142b16cac97fff970bf290d4e960b6eb07cd1ec55039ecbbac7e76cf4b54c17"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\photo-x4plus-active-8x.png",
+      "sha256": "c1ccd99a5a0b6bbd84b695a21f7bc20f346911a544172cef4f82f2dce5a03717"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\anime6B-exposure-active-8x.png",
+      "sha256": "10cbfc99ca22a9f0f8434667c128464b7d6b50e66afe74fb5ba731bc741437d3"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\001-general-wdn-8x.png",
+      "sha256": "c930d3cd82427d109edb1e562be6a7242039132432970f574078531a7ae9165b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\002-general-wdn-8x.png",
+      "sha256": "c50654e50c318751cb8a78cf5a4c6cd916ba23a0e49ed4f0bd0b9a9818cda7db"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\008-general-wdn-8x.png",
+      "sha256": "0a566f86e7bd5d3ef8f2e224587fc00c18b5ff8afc4cdcfd1369c1329587effa"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\009-general-wdn-8x.png",
+      "sha256": "8fea34109c72e3d8d10c5e91de5347880da8ff6869120e195355a1fe69e0bdb3"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\017-general-wdn-8x.png",
+      "sha256": "68fa0acfa740d7a3a91ebf467f1e720afee67d2f94eb2fcd0fee79e917ef4ab4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\018-general-wdn-8x.png",
+      "sha256": "96fd92c15286f38bf980170d41454af312b7bc1629d9a7e6950a5ac7f7bb0d97"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\001-anime6B-8x.png",
+      "sha256": "27f661a3d04dd29614de194ebdb41dc12eec6b555934e3ff0d3ce25c87e83e2e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\002-anime6B-8x.png",
+      "sha256": "eb2421352f4d3d2ba0be181433aed244450647f44dd2447a0e39eb69c05ea3a4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\008-anime6B-8x.png",
+      "sha256": "c67a2c6b7cbf4176f31d33e6aacf9dc125e9be5f48786647873250755102932e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\009-anime6B-8x.png",
+      "sha256": "cda19e10e68fd377e4554352e265f5995951745ef4e7ca1fb02c96339d02adf8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\017-anime6B-8x.png",
+      "sha256": "b9b55d4751ba88caadaa4ae0fdbfd770f5c2724fa69fee0bf653e9f36e4020ce"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\018-anime6B-8x.png",
+      "sha256": "c05452d1b33be9cd4dbe9728f18b285350493525b89fb67c90d5ff7fd005f0ec"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-review-pack\\PSP\\TEXTURES\\NPUH10126\\title\\title-metal-local-sr.png",
+      "sha256": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+    }
+  ],
+  "unique_originals_processed_locally": 7,
+  "title_neural_variants": 6,
+  "battle_material_neural_variants": 12,
+  "maps": {
+    "battle_map_root_files": 24,
+    "stcm_containers": 44,
+    "table_bound_textures": 416,
+    "decoded": 410,
+    "failures": 6
+  },
+  "map_pixel_links": 30,
+  "matched_palette_formats": {
+    "(4, 48)": 29,
+    "(5, 48)": 1
+  },
+  "installed": false,
+  "runtime_verified": false,
+  "full_goal_complete": false
+}

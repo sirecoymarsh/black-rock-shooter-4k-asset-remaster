@@ -1,0 +1,37 @@
+{
+  "group_id": "FM0290",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+  "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+  "reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\source-nearest8x.png",
+  "reference_sha256": "1057cdab0eab1fd5114f2ac949b105b341258b5d1dba0c2420cf031a3db19b17",
+  "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\prompt.txt",
+  "prompt_sha256": "4a9cf7bd68f13a2d515857cd73729cac449170e9ac1d2aadeb8098681bdade70",
+  "tool": "built-in image_gen",
+  "model_id": "not exposed",
+  "status": "raw_generated_pending_review",
+  "raw_generated_image_preserved": true,
+  "source_protected_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0290-source-alpha8x.png",
+  "source_protected_alpha_sha256": "7d2c07f031181a83957d32bb42fe37589c0789bb97b439007ea5302766610110",
+  "generated_store_path": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-ff144a04-4994-4098-895d-ec6a4f854247.png",
+  "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\generated-raw.png",
+  "raw_sha256": "618e94c0749ba51a9abd71b7eea9b1b9063abb49965f2a24ef510b807d2314ee",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_alpha_diagnostics": {
+    "extrema": [
+      0,
+      255
+    ],
+    "unique_values": 256,
+    "source_scale_IoU_at128": 0.8426692644909888,
+    "mass_ratio": 0.8423601809037342,
+    "source_center_mask_disagreements": 323,
+    "source_nonzero_pixels": 1995
+  },
+  "high_chroma_edge_diagnostics": {
+    "opaque_green_pixels": 0,
+    "opaque_cyan_pixels": 0
+  }
+}

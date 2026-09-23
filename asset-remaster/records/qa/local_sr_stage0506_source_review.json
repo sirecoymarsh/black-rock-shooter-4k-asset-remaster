@@ -1,0 +1,744 @@
+{
+  "schema": "brs-source-review/v1",
+  "group_ids": [
+    "BM200",
+    "BM201",
+    "BM202",
+    "BM203",
+    "BM204",
+    "BM205",
+    "BM206",
+    "BM207",
+    "BM208",
+    "BM209",
+    "BM210",
+    "BM211",
+    "BM212",
+    "BM213",
+    "BM214",
+    "BM215",
+    "BM216",
+    "BM217",
+    "BM218",
+    "BM219",
+    "BM220",
+    "BM221",
+    "BM222",
+    "BM223",
+    "BM224",
+    "BM225",
+    "BM226",
+    "BM227",
+    "BM228",
+    "BM229",
+    "BM230",
+    "BM231",
+    "BM232",
+    "BM233",
+    "BM234",
+    "BM235",
+    "BM236",
+    "BM237",
+    "BM238",
+    "BM239",
+    "BM240",
+    "BM241",
+    "BM242",
+    "BM243",
+    "BM244",
+    "BM245",
+    "BM246",
+    "BM247",
+    "BM248",
+    "BM249",
+    "BM250",
+    "BM251",
+    "BM252",
+    "BM253",
+    "BM254",
+    "BM255",
+    "BM256",
+    "BM257",
+    "BM258",
+    "BM259",
+    "BM260",
+    "BM261",
+    "BM262",
+    "BM263",
+    "BM264",
+    "BM265",
+    "BM266",
+    "BM267",
+    "BM268",
+    "BM269",
+    "BM270",
+    "BM271",
+    "BM272",
+    "BM273",
+    "BM274",
+    "BM275",
+    "BM276",
+    "BM277",
+    "BM278",
+    "BM279",
+    "BM280",
+    "BM281",
+    "BM282",
+    "BM283"
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-01.png",
+      "sha256": "87b40b037bb215ddded275b8873efe8ac7fc0d8881bc786d2ba5a13ea500e3a1",
+      "groups": [
+        "BM200",
+        "BM201",
+        "BM202",
+        "BM203",
+        "BM204",
+        "BM205",
+        "BM206",
+        "BM207",
+        "BM208"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-02.png",
+      "sha256": "61bff2ca43a5c70bdd1098b4157935ab2681bb289a9c5c859eafa5d3f667c632",
+      "groups": [
+        "BM209",
+        "BM210",
+        "BM211",
+        "BM212",
+        "BM213",
+        "BM214",
+        "BM215",
+        "BM216",
+        "BM217"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-03.png",
+      "sha256": "eb9ed20975c0c36236916086769b5e0b1a7a3f63f8789c4c52a46bb93c0481cb",
+      "groups": [
+        "BM218",
+        "BM219",
+        "BM220",
+        "BM221",
+        "BM222",
+        "BM223",
+        "BM224",
+        "BM225",
+        "BM226"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-04.png",
+      "sha256": "a5887bf56be174536706593d14edd8feb4a0bb13e4afdf7feb2fa98f4e72607a",
+      "groups": [
+        "BM227",
+        "BM228",
+        "BM229",
+        "BM230",
+        "BM231",
+        "BM232",
+        "BM233",
+        "BM234",
+        "BM235"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-05.png",
+      "sha256": "baf6b04747060e19a4967a9c08c92190d21472a3db9bbbe4c9617abb40c5ae4a",
+      "groups": [
+        "BM236",
+        "BM237",
+        "BM238",
+        "BM239",
+        "BM240",
+        "BM241",
+        "BM242",
+        "BM243",
+        "BM244"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-06.png",
+      "sha256": "ac7db37881b70b39e27f8efef9ac9b0a4a6593af979449eaf312761a6aadff5d",
+      "groups": [
+        "BM245",
+        "BM246",
+        "BM247",
+        "BM248",
+        "BM249",
+        "BM250",
+        "BM251",
+        "BM252",
+        "BM253"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-07.png",
+      "sha256": "4fc9dd29d9e11822849a7d5538e99f62afdedcaa6d71230d2f2427bc332424f4",
+      "groups": [
+        "BM254",
+        "BM255",
+        "BM256",
+        "BM257",
+        "BM258",
+        "BM259",
+        "BM260",
+        "BM261",
+        "BM262"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-08.png",
+      "sha256": "75b4df166bff8ebb5ccd967d824f520dbc7dd75fb28637a521d81316c257bbba",
+      "groups": [
+        "BM263",
+        "BM264",
+        "BM265",
+        "BM266",
+        "BM267",
+        "BM268",
+        "BM269",
+        "BM270",
+        "BM271"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-09.png",
+      "sha256": "3b94eb26c4d1e665f39121b3f508c41fdd136b6c2075080e9f165fb024cccadb",
+      "groups": [
+        "BM272",
+        "BM273",
+        "BM274",
+        "BM275",
+        "BM276",
+        "BM277",
+        "BM278",
+        "BM279",
+        "BM280"
+      ]
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr010-sources\\source-10.png",
+      "sha256": "fabdf19d7a9a26011176c70ff12e850f1f80614b82788020d8078436ae158f0b",
+      "groups": [
+        "BM281",
+        "BM282",
+        "BM283"
+      ]
+    }
+  ],
+  "visual_review": "Codex internal: source-01..10 all directly inspected",
+  "excluded_from_project": [],
+  "classifications": [
+    {
+      "group_id": "BM200",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Four flat dark checker quadrants; protect sharp geometry, inspect repeat/consumer before treatment.",
+      "source_rgba_sha256": "42da832373cb306c9dcf3f4a53cb0bb0ccb1023ee4466d489c737af054d65df6"
+    },
+    {
+      "group_id": "BM201",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Dark broken floor with exposed checker patches; inspect square geometry and large cracks.",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58"
+    },
+    {
+      "group_id": "BM202",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Small wall panel with luminous rectangle and lower mechanical details.",
+      "source_rgba_sha256": "f637aaab6bf9795ecd026dd86ee23b1183e1ba0f229939834ddd62f3a3ad9d87"
+    },
+    {
+      "group_id": "BM203",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Opaque dark corner and narrow vertical panel over flat gray backing.",
+      "source_rgba_sha256": "cc5553a891dff92a4ad42b00f8ec23d4781327236be6982cbd7324a70bbd1e51"
+    },
+    {
+      "group_id": "BM204",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Broken bracket cutout with thin stem and curled ends.",
+      "source_rgba_sha256": "757ba5ed0d4ce80b9925478a1775ef515ea6b3e391c5d3cff52a89fef3dbedf6"
+    },
+    {
+      "group_id": "BM205",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Broken frame cutout with narrow crossbar and detached-looking corner.",
+      "source_rgba_sha256": "e905ac03e2618a3e63475828f5859f9f7eff7e6eae70e4ee707a4d8c541e6346"
+    },
+    {
+      "group_id": "BM206",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Paired angled beams and separate bottom fragments; alpha cutouts.",
+      "source_rgba_sha256": "1b070f2920a9bc2717abdf1420e5799c8c53f2483e745993f852b0b7edc9755a"
+    },
+    {
+      "group_id": "BM207",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Right-angle frame with very thin connecting strut.",
+      "source_rgba_sha256": "0d4f280fe3490c39ed6eae01d8395d009fc9a3cee24542ed2c19773aa6022d87"
+    },
+    {
+      "group_id": "BM208",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Long decorative column cutout with two broad nodes.",
+      "source_rgba_sha256": "701d411e664853e2678f3968a52b58fa60121aabae1b160b599708edb462cf31"
+    },
+    {
+      "group_id": "BM209",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Checker patches and a horizontal checker strip surrounded by dark cracked material.",
+      "source_rgba_sha256": "66353eadee90d1e446b441d5aba8e58f1a53eea3d554f1b7590574ca0b449c22"
+    },
+    {
+      "group_id": "BM210",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Very low-contrast rectangular vertical panel bands.",
+      "source_rgba_sha256": "48a91817c17a98e62f483a8505bfff60ac60cd78148c9777a79039267c0971c4"
+    },
+    {
+      "group_id": "BM211",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Repeated dark stone blocks and crossbands.",
+      "source_rgba_sha256": "2a6a75b4384181f6b17799e6722faabb09c5972e7fc22f1787952b4c6d46030b"
+    },
+    {
+      "group_id": "BM212",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Broken angular metal panels over dark backing.",
+      "source_rgba_sha256": "b9ab04fb5b91abafcad4afc647110932cb735c0b85ef198eddc3436b5239affd"
+    },
+    {
+      "group_id": "BM213",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Diagonal overlapping metal plates.",
+      "source_rgba_sha256": "dead851e4aca0c0e0b7c9b5145efb0c186a449ab7e561b3cbc16e2a645063e6f"
+    },
+    {
+      "group_id": "BM214",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Two narrow chains with oval links; preserve holes and link topology.",
+      "source_rgba_sha256": "72ccd4c439e7ca763e89acc211fa271853ec386ae6e2f3af862138fa9850dae0"
+    },
+    {
+      "group_id": "BM215",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Horizontal broken angular strip over opaque black backing.",
+      "source_rgba_sha256": "ac257787a55c4b459cda5af8e60a5c16dc5e4d0828554858329750690e3fd6a5"
+    },
+    {
+      "group_id": "BM216",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Broken narrow frame with holes and long tapered stem.",
+      "source_rgba_sha256": "a671689a1597e948b72aaeb0d8c3b8d17bdcb7a42c35ecceca4bbd53c4d26c63"
+    },
+    {
+      "group_id": "BM217",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Paired bent strips with narrow interior gap.",
+      "source_rgba_sha256": "53e13a202058187f6616882edd1cc5b4c032689319165a1da4f12a8d4d92471a"
+    },
+    {
+      "group_id": "BM218",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Mechanical broken-panel atlas with thin horizontal grille and small white corner.",
+      "source_rgba_sha256": "15a10ba77e058727ac40e884d6b25fa3d153bd65c2b027417c7e0bc704fe0fed"
+    },
+    {
+      "group_id": "BM219",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Narrow architectural frame and broken lower node.",
+      "source_rgba_sha256": "cc4d15916a83b24861bff3e8cb6eb168415664811cb0db0993dba9dc078ff709"
+    },
+    {
+      "group_id": "BM220",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Repeated spiked structures above a separate curled strip; alpha-aware split treatment.",
+      "source_rgba_sha256": "c08fdd183aa68dbb1a1aba267bfafaf150b542af8396c74ac3a9fb330a4be0f7"
+    },
+    {
+      "group_id": "BM221",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Long narrow ornate cutout; small lattice requires protection.",
+      "source_rgba_sha256": "c0cd5e5c5cd231254bfa611d0bea3a67d65a06689839f76eb9b940cc08097f09"
+    },
+    {
+      "group_id": "BM222",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Tall irregular column cutout.",
+      "source_rgba_sha256": "f64cdb1b5ef3b641791cfd3cc0a6bbdbd3ee5beaa3f84a4939a463ff90fb7514"
+    },
+    {
+      "group_id": "BM223",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Double-node column with panel divisions.",
+      "source_rgba_sha256": "c9f9c4908ff45d14692950989956a545922916c007b9b8cde81ab330443af772"
+    },
+    {
+      "group_id": "BM224",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Faint diagonal chain with maximum alpha115; weak links must survive.",
+      "source_rgba_sha256": "c38adbffa7d5b21b7d92963b0999efa13a606f6c7e47db139af7e600dfafb4d4"
+    },
+    {
+      "group_id": "BM225",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Thin arch/column cutout with empty lower area.",
+      "source_rgba_sha256": "539b076211879f73ce8b1e8b25830095292c542258fa48d5c055d4780a55f433"
+    },
+    {
+      "group_id": "BM226",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Tall opaque atlas with mechanical strips and checker-floor section; native UV consumers unverified.",
+      "source_rgba_sha256": "1c3883e5dd4a8b71c44dfedf52341fcade6a8c982147b6673f077cdee2953989"
+    },
+    {
+      "group_id": "BM227",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Dark cracked panel with central opening-like shape.",
+      "source_rgba_sha256": "8bc4e7982a207df8a69ecca0fd2b1a1fbcc0ab30882ce0412623af589b4db210"
+    },
+    {
+      "group_id": "BM228",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Multiple purple architectural strips and cutouts.",
+      "source_rgba_sha256": "8da2133617b8bbdc00b2d00c6423b24b8b32fb256a21b7024c0c3e0bbbb27615"
+    },
+    {
+      "group_id": "BM229",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Nearly flat pale surface; no texture invention, consumer pending.",
+      "source_rgba_sha256": "f94150d75e8a031ef0db9f37e60aeecea09920292f98d6aa2959e62d4e656bb7"
+    },
+    {
+      "group_id": "BM230",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Horizontal chain with oval links.",
+      "source_rgba_sha256": "646314f6ae334dfa389d8a804fa369e83626401f21a9822424c0c0e92fa5fd8a"
+    },
+    {
+      "group_id": "BM231",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "8x8 white swatch; consumer pending, no need to invent texture.",
+      "source_rgba_sha256": "3d6876a0146de8576eb2395a858de1213d1b92c65b779df3a331cfd5a4584546"
+    },
+    {
+      "group_id": "BM232",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Two adjacent wall/window blocks; high-contrast broken shapes on right need comparison, not semantic guesses.",
+      "source_rgba_sha256": "757355864f64b4186b73d00c708413b330a1dd2e427d0cb59493bb8cd5118124"
+    },
+    {
+      "group_id": "BM233",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Pale rust-speckled wall.",
+      "source_rgba_sha256": "f82e935d42efb5fb356eaf602d0c38660de040ececbd21de5e5864d83dc7f0c8"
+    },
+    {
+      "group_id": "BM234",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Fine repeated window frame with diagonal braces; cutouts and lines need alpha review.",
+      "source_rgba_sha256": "5a81ac05888ad2cfebf0480c3e3cdf30e7ca43b9bf8c0f4760afcecb8b127312"
+    },
+    {
+      "group_id": "BM235",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Small hanging broken structure with thin stems.",
+      "source_rgba_sha256": "316ac70466c011a40a40ea88891923c2b4728ac183a646a6e2cdf106b992af61"
+    },
+    {
+      "group_id": "BM236",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Muted green horizontal background above rubble; avoid invented horizon bands.",
+      "source_rgba_sha256": "30e65753b25b64b5d87f2200768298d28257768bfbd1b06260c9eb3a3d916e7f"
+    },
+    {
+      "group_id": "BM237",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Pale cracked slab.",
+      "source_rgba_sha256": "6566f021d953e11a97ffb99b038978c43ff4f2d3d8b07168ba9bb85e30a244dd"
+    },
+    {
+      "group_id": "BM238",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Two rows of broken window panes; preserve straight dividers and pane remnants.",
+      "source_rgba_sha256": "737785a55f0b93d080086834facd2ff3af0b8cac0d12f70d29083acdd8cdaf33"
+    },
+    {
+      "group_id": "BM239",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Broken wall/window atlas with small high-contrast forms.",
+      "source_rgba_sha256": "da503d816831f52a024554b0b62c298bf801d1ba2b0727a39b1f7e299443a4ff"
+    },
+    {
+      "group_id": "BM240",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Brown rubble and scattered debris.",
+      "source_rgba_sha256": "a98cd92063c8d1d1efd84d7a9671957db376125214f7a1f4c6c159cb11e3e75b"
+    },
+    {
+      "group_id": "BM241",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Thin pale outlines on black geometric panel.",
+      "source_rgba_sha256": "e4f9d941f23060965a366e27ba81aa7710a5ead4d1f79217e8b01cda25775548"
+    },
+    {
+      "group_id": "BM242",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Angular cutout frames.",
+      "source_rgba_sha256": "62609886c116167f254488f017a54f9bfc21f273f4aa9e903cffb91e4782a1a5"
+    },
+    {
+      "group_id": "BM243",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Opaque angular metal fragments and separate narrow post on dark backing.",
+      "source_rgba_sha256": "6c2ee72603d98d45766aa789c7dd1e732adf4ae198ab7d1752437f11017512fb"
+    },
+    {
+      "group_id": "BM244",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Dark floor with checker patches and large cracks.",
+      "source_rgba_sha256": "5f6cbdcff6cc3a4565460b4f7ce485f34c3aabf02363b426b0378051fe9131d0"
+    },
+    {
+      "group_id": "BM245",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Partly opaque rubble/building surface, alpha minimum225.",
+      "source_rgba_sha256": "91dcb6327e33455dd8098a9c113838f64342d0e8b6cc4a6b1e3bbab5d9d5fa55"
+    },
+    {
+      "group_id": "BM246",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Narrow tapered debris cutout.",
+      "source_rgba_sha256": "77dcb69d56c76ae48141b55974ff6c16b36408007eca70cf6e3c2a114c852271"
+    },
+    {
+      "group_id": "BM247",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "City skyline cutout with many small windows and thin roofs.",
+      "source_rgba_sha256": "d5223f7c3a8ac496a4331e3ab0b0602d387bdf5f92b6127634da65205986b232"
+    },
+    {
+      "group_id": "BM248",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Small debris cutouts and narrow dangling pieces.",
+      "source_rgba_sha256": "872727059c76db2bfb01a515edfc9727810781e11f484ccc8efe12c9c6be483c"
+    },
+    {
+      "group_id": "BM249",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Intricate silver mechanical fragment cutouts.",
+      "source_rgba_sha256": "a6ba36b22742573ca8161a20663a3774aa31f3dbcca9ae49ea36768c13ae64d5"
+    },
+    {
+      "group_id": "BM250",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Large silver mechanical/platform fragment atlas with alpha.",
+      "source_rgba_sha256": "a2358028ea70a7e8a90cb92db4e27aa57cb5e13fb16b4abc718e9e2fe12ef564"
+    },
+    {
+      "group_id": "BM251",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Gray clustered rock cracks.",
+      "source_rgba_sha256": "1358b7243e2e59a43e39808559bc584ddfc9a7b35b0903b2b7c07ad4ad4a48bb"
+    },
+    {
+      "group_id": "BM252",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Dithered circular effect with soft bright center and holes; density must be preserved.",
+      "source_rgba_sha256": "49d1caa59596861f650bf3645a6977915e4c4cc418ff4d6d03370db7a2c2c447"
+    },
+    {
+      "group_id": "BM253",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Directional light cracks across gray rock.",
+      "source_rgba_sha256": "24dbcc720332f0b05fb97188a92db76b9d1f31d13a92dd3f2bdf9615233e3ae5"
+    },
+    {
+      "group_id": "BM254",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Pale vertical surface streaks.",
+      "source_rgba_sha256": "a449cca165b175c581a44ca3d0ee55a104c34fecea16b6f0bd52851743a18a70"
+    },
+    {
+      "group_id": "BM255",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Tiny grayscale rough material; avoid faceting or artificial mesh.",
+      "source_rgba_sha256": "87eb6f9e6049aee166bc35efe8de85178a825fc9ff5b7c462009adb01b8823af"
+    },
+    {
+      "group_id": "BM256",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Four visually separated column/panel regions; processing partitions are not proof of native UVs.",
+      "source_rgba_sha256": "f4a53e23c8656838089c419465196c7eb16882885a60965734ced27206d14a44"
+    },
+    {
+      "group_id": "BM257",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Thin pale frame with broken upper shapes.",
+      "source_rgba_sha256": "e4e75481b8467e297cba6c9277a696d780d1dd17965b343fa6b6a84bd9a01d93"
+    },
+    {
+      "group_id": "BM258",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Two chains with oval links.",
+      "source_rgba_sha256": "7140c23f4e5b2722bfc503c5f7a741e540d1d8d57daa77371a3d6d6fb27080fe"
+    },
+    {
+      "group_id": "BM259",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Sparse bright star-like points over opaque dark field; preserve points and density.",
+      "source_rgba_sha256": "8f0d2992e4c6ef1b1c048da1c9e32a322b11bf3eb4b33412920e67e9d579532e"
+    },
+    {
+      "group_id": "BM260",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Three large chain links in horizontal strip.",
+      "source_rgba_sha256": "c2fd0082cc8233e36aa68ae069dd33dca0f0cf335b41c75fc1f0dbb0918ff8a2"
+    },
+    {
+      "group_id": "BM261",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Two floating platform cutouts with semiopaque alpha.",
+      "source_rgba_sha256": "67bb2b91a7202780765d746c240c60e2e102126d192c704b3921701fe52450e8"
+    },
+    {
+      "group_id": "BM262",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Scattered small rock cutouts.",
+      "source_rgba_sha256": "5cc42abfe13fb4c2d8fa337cd3f697abb0239a3d723d893c7df621f98856d84d"
+    },
+    {
+      "group_id": "BM263",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Broken arch fragments with fine internal holes.",
+      "source_rgba_sha256": "a6ee3e8479359987f97b455d0a9ba402f8d987185177f7a4c3d8ccb6d47b3bbf"
+    },
+    {
+      "group_id": "BM264",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Tiny gray texture with near-opaque alpha minimum230.",
+      "source_rgba_sha256": "13d12c0d1447d59893fb6f003861b7b0b051123269c205b1f1f7356a48691875"
+    },
+    {
+      "group_id": "BM265",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Silver ornamental framework and central upright cutout.",
+      "source_rgba_sha256": "e7352439f2639b7e75143e4b5e00168bf16ea7094fcfdc43e09db7f4fdc2f28b"
+    },
+    {
+      "group_id": "BM266",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Silver mechanical strip/panel atlas with alpha.",
+      "source_rgba_sha256": "1927ebe2ec846a3b74b4bf909a0f692356190e49f58cf379ba712a92fc0d42a4"
+    },
+    {
+      "group_id": "BM267",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Silver-edged geometric panel atlas on dark backing.",
+      "source_rgba_sha256": "7db318f2fb135ba4d45b47787ecbaff53fe52429dac09bac9c1b81710df781ec"
+    },
+    {
+      "group_id": "BM268",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Gold vertical material grain.",
+      "source_rgba_sha256": "279b8d7a906050ead5c894135bdf9fe1367d6c2c7dd16ede14559e1e69bcccdb"
+    },
+    {
+      "group_id": "BM269",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Red/yellow checker surface with constant alpha204; protect square geometry and shading.",
+      "source_rgba_sha256": "05927878562ee64c8becf6dd46f6f5f131fd8296edb535bffe2c1368cf8d619a"
+    },
+    {
+      "group_id": "BM270",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Orange/yellow crossed luminous streaks and holes.",
+      "source_rgba_sha256": "8e41b0ebe9d3a815fa5d260ae771005afefc5fd533be1a053e5a28d91bb20590"
+    },
+    {
+      "group_id": "BM271",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Bright diagonal angular lines with soft outer glow.",
+      "source_rgba_sha256": "56717eec139505a427307ac445f8d09cdfd8790baa132d2f0262951e611c3833"
+    },
+    {
+      "group_id": "BM272",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Orange angular luminous shape with glow; treat geometry separately.",
+      "source_rgba_sha256": "9bcd72c880cee510eddf93b092fb0ae1af1eb478fb24cfb19b8e3bac0e338d94"
+    },
+    {
+      "group_id": "BM273",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Flat yellow/orange thin paths with hard cutouts.",
+      "source_rgba_sha256": "cf8747f69dd020c119b2a361d64db346195b0c392e2845a35ab667269778e263"
+    },
+    {
+      "group_id": "BM274",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Flat angular yellow/orange emblem-like path; meaning unverified.",
+      "source_rgba_sha256": "60320209968ff918f4d6464673e07e893472865be5c97c1dc1a7f706409af678"
+    },
+    {
+      "group_id": "BM275",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Luminous chains and narrow lower paths.",
+      "source_rgba_sha256": "5c81c4768379926a2a9c6026fdfb9d22d91efadd7f6586d336f576daff2d5ff9"
+    },
+    {
+      "group_id": "BM276",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Tiny soft gray near-opaque texture, alpha minimum214.",
+      "source_rgba_sha256": "48f752ecfce16777905156d37203f4370f5149ceace72d6ac52933b248be167c"
+    },
+    {
+      "group_id": "BM277",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Blue mottled sphere with circular alpha edge.",
+      "source_rgba_sha256": "e3740138aed1f3f3d4ce20c19edb9def63fb25115e7cdf9da460704b5a5d1019"
+    },
+    {
+      "group_id": "BM278",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Purple detached fragments with alpha.",
+      "source_rgba_sha256": "3c3b2ec7181bf5ce1d043caa99d0b3322486bc8f396394347fae36beda3f7997"
+    },
+    {
+      "group_id": "BM279",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Dark and pale rocky materials occupy separate left/right halves.",
+      "source_rgba_sha256": "3a34dce776abe53673986333815f51e33c505a836c449be14ba3baa6a4011f8f"
+    },
+    {
+      "group_id": "BM280",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Thin angular purple frame strip with many gaps.",
+      "source_rgba_sha256": "d70529c1ef2d49199d0d73e840960f92e7817f8ad4380422564ec9e1250e206f"
+    },
+    {
+      "group_id": "BM281",
+      "classification": "opaque material for local SR comparison",
+      "reason": "Pale vertical fractured slab.",
+      "source_rgba_sha256": "433f4e3cd71ee67fc845a8001f3f501720706d264d3d476107a80b0af6f97e10"
+    },
+    {
+      "group_id": "BM282",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Pale broken diagonal wall and very thin horizontal rods.",
+      "source_rgba_sha256": "85f1bc8daae96144fe27fdcb33d7278464933cebfb42ce0d4521c069aaf35c24"
+    },
+    {
+      "group_id": "BM283",
+      "classification": "separate alpha, geometry, or flat-source treatment pending",
+      "reason": "Small horizontal architectural finial with semitransparent edge.",
+      "source_rgba_sha256": "891f5a7f3b7abbd79ab9d6c64eb04b3179ece121dac7203f9c8dbdfccae08bf1"
+    }
+  ],
+  "opaque_batch": "qa/local_sr010_inference.json"
+}

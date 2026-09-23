@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "observations": 4646,
+  "pixel_assets": 3967,
+  "current_crosswalk_rows": 19,
+  "unique_ids_and_links": "passed",
+  "pixel_equivalence_links": "passed",
+  "baseline_png_checksums": "passed during inventory generation",
+  "dump_png_decode_and_verify": "passed during inventory generation",
+  "iso_and_initial_config_identities": "passed during inventory generation",
+  "protected_source_hash_recheck": "passed",
+  "new_session_mute_configuration": "passed",
+  "new_session_mute_runtime": "not_rerun",
+  "replacement_off_dump_on": "passed",
+  "release_eligible_assets": 0,
+  "baseline_assets_without_legacy_candidate": [
+    "ui/12_menu_menu_gallery_009_ptmd_8x.png",
+    "ui/13_menu_menu_gallery_010_ptmd_8x.png",
+    "ui/22_system_if_btlsys_010_ptmd_8x.png"
+  ],
+  "runtime_frame_capture": "failed; no screenshots",
+  "powershell_launcher_syntax": "passed",
+  "node_helper_syntax": "passed"
+}

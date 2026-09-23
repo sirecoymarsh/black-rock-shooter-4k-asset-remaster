@@ -1,0 +1,397 @@
+{
+  "schema": "brs-local-material-trial/v1",
+  "iso_sha256": "525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a",
+  "device": "NVIDIA GeForce RTX 5080",
+  "files": [
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\001.png",
+      "source_rgba_sha256": "1d3fbea91844b6e3fbdfd96b88f6cb3c1c428bfded938ab31d6bb7c029687e16",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\001-general-wdn-8x.png",
+      "output_sha256": "c930d3cd82427d109edb1e562be6a7242039132432970f574078531a7ae9165b",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 11.949543952941895,
+        "rgb_p99_abs_error_0_255": 38.0,
+        "rgb_mean_shift_0_255": [
+          -5.894287109375,
+          -1.128662109375,
+          3.43603515625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.39100000000325963,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "rework required: too much inferred fine relief/fibrous grain and cooler color; compare intermediate denoise or less generative restoration before adoption",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\002.png",
+      "source_rgba_sha256": "4555305f36fd0c02898247afdabf966eda09470e86e0b66609351e3d91c79131",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\002-general-wdn-8x.png",
+      "output_sha256": "c50654e50c318751cb8a78cf5a4c6cd916ba23a0e49ed4f0bd0b9a9818cda7db",
+      "output_size": [
+        2048,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 4.40399169921875,
+        "rgb_p99_abs_error_0_255": 17.0,
+        "rgb_mean_shift_0_255": [
+          -1.12677001953125,
+          -1.0794677734375,
+          0.5501708984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.625,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "provisional game/tiling review candidate; inspect inferred fine texture and source marks",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\008.png",
+      "source_rgba_sha256": "9cdfa0423c60f41e48b4395d64dbf6044f9ba178899b661318ae0e94e358a24f",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\008-general-wdn-8x.png",
+      "output_sha256": "0a566f86e7bd5d3ef8f2e224587fc00c18b5ff8afc4cdcfd1369c1329587effa",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 7.709879398345947,
+        "rgb_p99_abs_error_0_255": 29.0,
+        "rgb_mean_shift_0_255": [
+          -1.724853515625,
+          -1.74853515625,
+          -1.5654296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.15600000001722947,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "provisional game/tiling review candidate; inspect inferred fine texture and source marks",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex009",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\009.png",
+      "source_rgba_sha256": "ea023d4a98bd47fce79e799571cb4b7c31536c3176c075a36e17e04b7897289b",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\009-general-wdn-8x.png",
+      "output_sha256": "8fea34109c72e3d8d10c5e91de5347880da8ff6869120e195355a1fe69e0bdb3",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 6.345540523529053,
+        "rgb_p99_abs_error_0_255": 25.0,
+        "rgb_mean_shift_0_255": [
+          -1.325927734375,
+          -1.285400390625,
+          -1.29296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.1720000000204891,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "provisional game/tiling review candidate; inspect inferred fine texture and source marks",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\017.png",
+      "source_rgba_sha256": "a6763982f2ff4f202d420caa4655c8bb6b615c21b74c0607218cf8d19ce9dd73",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\017-general-wdn-8x.png",
+      "output_sha256": "68fa0acfa740d7a3a91ebf467f1e720afee67d2f94eb2fcd0fee79e917ef4ab4",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 10.606059074401855,
+        "rgb_p99_abs_error_0_255": 40.0,
+        "rgb_mean_shift_0_255": [
+          0.3270263671875,
+          2.485107421875,
+          3.57366943359375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.48399999999674037,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "rework required: too much inferred fine relief/fibrous grain and cooler color; compare intermediate denoise or less generative restoration before adoption",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex018",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\018.png",
+      "source_rgba_sha256": "a26f05fd2fa2bac27c8d255b9c34a2114add825558ddb771ee2dd8ea69c6ce1e",
+      "model": "general-wdn",
+      "model_sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\018-general-wdn-8x.png",
+      "output_sha256": "96fd92c15286f38bf980170d41454af312b7bc1629d9a7e6950a5ac7f7bb0d97",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 5.514139652252197,
+        "rgb_p99_abs_error_0_255": 25.0,
+        "rgb_mean_shift_0_255": [
+          -1.49932861328125,
+          -0.656005859375,
+          -0.1619873046875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.6099999999860302,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "hold: text/damage ambiguity in source marks; not approved as generic texture",
+      "release_eligible": false,
+      "unresolved": "Native box [45,54,85,82): dark marks may be damage or lettering; no semantic interpretation accepted."
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\001.png",
+      "source_rgba_sha256": "1d3fbea91844b6e3fbdfd96b88f6cb3c1c428bfded938ab31d6bb7c029687e16",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\001-anime6B-8x.png",
+      "output_sha256": "27f661a3d04dd29614de194ebdb41dc12eec6b555934e3ff0d3ce25c87e83e2e",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 23.65852928161621,
+        "rgb_p99_abs_error_0_255": 74.0,
+        "rgb_mean_shift_0_255": [
+          5.588134765625,
+          -0.495361328125,
+          0.29541015625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.14000000001396984,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "not selected: over-smoothing or cartoon-like surface/edge simplification",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\002.png",
+      "source_rgba_sha256": "4555305f36fd0c02898247afdabf966eda09470e86e0b66609351e3d91c79131",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\002-anime6B-8x.png",
+      "output_sha256": "eb2421352f4d3d2ba0be181433aed244450647f44dd2447a0e39eb69c05ea3a4",
+      "output_size": [
+        2048,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 6.889404296875,
+        "rgb_p99_abs_error_0_255": 41.0,
+        "rgb_mean_shift_0_255": [
+          0.42724609375,
+          -0.891357421875,
+          -0.48583984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.2029999999795109,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "not selected: over-smoothing or cartoon-like surface/edge simplification",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\008.png",
+      "source_rgba_sha256": "9cdfa0423c60f41e48b4395d64dbf6044f9ba178899b661318ae0e94e358a24f",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\008-anime6B-8x.png",
+      "output_sha256": "c67a2c6b7cbf4176f31d33e6aacf9dc125e9be5f48786647873250755102932e",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 10.462890625,
+        "rgb_p99_abs_error_0_255": 39.0,
+        "rgb_mean_shift_0_255": [
+          1.668701171875,
+          3.575439453125,
+          1.27880859375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.14100000000325963,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "not selected: over-smoothing or cartoon-like surface/edge simplification",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex009",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\009.png",
+      "source_rgba_sha256": "ea023d4a98bd47fce79e799571cb4b7c31536c3176c075a36e17e04b7897289b",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\009-anime6B-8x.png",
+      "output_sha256": "cda19e10e68fd377e4554352e265f5995951745ef4e7ca1fb02c96339d02adf8",
+      "output_size": [
+        512,
+        512
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 7.798583984375,
+        "rgb_p99_abs_error_0_255": 31.0,
+        "rgb_mean_shift_0_255": [
+          0.81689453125,
+          2.381591796875,
+          0.97900390625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.125,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "not selected: over-smoothing or cartoon-like surface/edge simplification",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\017.png",
+      "source_rgba_sha256": "a6763982f2ff4f202d420caa4655c8bb6b615c21b74c0607218cf8d19ce9dd73",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\017-anime6B-8x.png",
+      "output_sha256": "b9b55d4751ba88caadaa4ae0fdbfd770f5c2724fa69fee0bf653e9f36e4020ce",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 17.41457176208496,
+        "rgb_p99_abs_error_0_255": 58.0,
+        "rgb_mean_shift_0_255": [
+          9.13720703125,
+          8.276611328125,
+          8.22454833984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.5780000000377186,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "not selected: over-smoothing or cartoon-like surface/edge simplification",
+      "release_eligible": false
+    },
+    {
+      "asset_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex018",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\018.png",
+      "source_rgba_sha256": "a26f05fd2fa2bac27c8d255b9c34a2114add825558ddb771ee2dd8ea69c6ce1e",
+      "model": "anime6B",
+      "model_sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "native_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\battle-material-trial-v1\\018-anime6B-8x.png",
+      "output_sha256": "c05452d1b33be9cd4dbe9728f18b285350493525b89fb67c90d5ff7fd005f0ec",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "metrics": {
+        "rgb_mae_0_255": 7.958882808685303,
+        "rgb_p99_abs_error_0_255": 33.0,
+        "rgb_mean_shift_0_255": [
+          -0.528564453125,
+          0.3328857421875,
+          1.19000244140625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.5779999999795109,
+      "alpha": "Opaque255 preserved",
+      "edge_context": "Full image inference, no periodic assumption",
+      "uv_tiling_verified": false,
+      "runtime_verified": false,
+      "visual_review": "hold: text/damage ambiguity in source marks; not approved as generic texture",
+      "release_eligible": false,
+      "unresolved": "Native box [45,54,85,82): dark marks may be damage or lettering; no semantic interpretation accepted."
+    }
+  ],
+  "scope": "Six opaque material comparisons: five without identified lettering; tex018 dark markings are text/damage ambiguous and unapproved. STOP lettering and alpha assets remain pending in full scope.",
+  "runtime_verified": false,
+  "release_eligible": false,
+  "independent_review": "Read-only comparison: 002/008/009 WDN are static candidates; 001/017 need texture/color rework; 018 meaning unresolved."
+}

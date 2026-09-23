@@ -1,0 +1,34 @@
+{
+  "selected": {
+    "BM087": [
+      "qa/local_sr013_facades_v2.json",
+      "BM087-bands"
+    ],
+    "BM115": [
+      "qa/local_sr013_rubble_edge.json",
+      "BM115-tone080-edge2"
+    ]
+  },
+  "matte_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM087_mattes.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM115_mattes.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_final_BM115_connector.png"
+  ],
+  "review_status": "Facade mattes inspected; rubble initial matte softness corrected with edge2 and directly compared on light/dark mattes.",
+  "runtime_verified": false,
+  "superseded_selected": {
+    "BM087": [
+      "qa/local_sr013_facades_v2.json",
+      "BM087-bands"
+    ],
+    "BM115": [
+      "qa/local_sr013_rubble_tone.json",
+      "BM115-tone-0.80"
+    ]
+  },
+  "final_rubble_matte_pages": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_connector.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_middle.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_whole.png"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "schema": "brs-sr012-structure/v1",
+  "files": [
+    {
+      "id": "BM087-structure-0.15",
+      "group_id": "BM087",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\002_map_b_stg02_02_sky.bin\\002.png",
+      "source_rgba_sha256": "629e564f5ec16bd78f484d34fb26951ebcfd8d1016547af99b1997131951608a",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "alpha_parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        }
+      ],
+      "detail_weight": 0.15,
+      "facade_mask_source_y": {
+        "full_to": 60,
+        "zero_from": 76
+      },
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-structure\\BM087-structure-0.15.png",
+      "output_sha256": "2283eb349f7aec123669480ed6f6edc3c4ba6d60a74adae699b821decc0d915b",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "new_neural_passes": 0,
+      "method": "Independent per-panel bicubic source color guide plus attenuated alpha-normalized neural high-frequency residual; existing alpha unchanged",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. All four local model conditions lose/merge original small windows; source-structure retries recover source marks but remain too soft. Direct facade redraw is required.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM087-structure-0.35",
+      "group_id": "BM087",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\002_map_b_stg02_02_sky.bin\\002.png",
+      "source_rgba_sha256": "629e564f5ec16bd78f484d34fb26951ebcfd8d1016547af99b1997131951608a",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "alpha_parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        }
+      ],
+      "detail_weight": 0.35,
+      "facade_mask_source_y": {
+        "full_to": 60,
+        "zero_from": 76
+      },
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-structure\\BM087-structure-0.35.png",
+      "output_sha256": "9ee7820d9f0d568e46b5ff0a27edd5f34a3321d42bbd4ca42884b6a572cad84f",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "new_neural_passes": 0,
+      "method": "Independent per-panel bicubic source color guide plus attenuated alpha-normalized neural high-frequency residual; existing alpha unchanged",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. All four local model conditions lose/merge original small windows; source-structure retries recover source marks but remain too soft. Direct facade redraw is required.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM110-structure-0.15",
+      "group_id": "BM110",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        },
+        {
+          "source_box": [
+            32,
+            0,
+            64,
+            32
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        }
+      ],
+      "detail_weight": 0.15,
+      "facade_mask_source_y": null,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-structure\\BM110-structure-0.15.png",
+      "output_sha256": "33235fe19418abe3f8fbba201be48f42db64f79d9f71205b50dd68ff3f8a3d3c",
+      "output_size": [
+        512,
+        256
+      ],
+      "new_neural_passes": 0,
+      "method": "Independent per-panel bicubic source color guide plus attenuated alpha-normalized neural high-frequency residual; existing alpha unchanged",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. Codex-authored straight grid restores nine full horizontal slats, four vertical slats and the four source row-15 segments. Authored central cross and two holes replace the changed model center. Surrounding frame/rings retain local WDN material, and center broad shading comes from the source. Static candidate only; full geometry/UV/runtime remains unverified.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM110-structure-0.35",
+      "group_id": "BM110",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        },
+        {
+          "source_box": [
+            32,
+            0,
+            64,
+            32
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        }
+      ],
+      "detail_weight": 0.35,
+      "facade_mask_source_y": null,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-structure\\BM110-structure-0.35.png",
+      "output_sha256": "11fb40699c26249850e01a01e765fff10308c574697a3f58d9b49da67ef19099",
+      "output_size": [
+        512,
+        256
+      ],
+      "new_neural_passes": 0,
+      "method": "Independent per-panel bicubic source color guide plus attenuated alpha-normalized neural high-frequency residual; existing alpha unchanged",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. Codex-authored straight grid restores nine full horizontal slats, four vertical slats and the four source row-15 segments. Authored central cross and two holes replace the changed model center. Surrounding frame/rings retain local WDN material, and center broad shading comes from the source. Static candidate only; full geometry/UV/runtime remains unverified.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM115-structure-0.65",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+      "alpha_parent_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            256,
+            64
+          ],
+          "residual_sigma_output_px": 4.0,
+          "guide": "nearest visible RGB fill; independent bicubic8x source guide"
+        }
+      ],
+      "detail_weight": 0.65,
+      "facade_mask_source_y": null,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-structure\\BM115-structure-0.65.png",
+      "output_sha256": "30830235e433331be1b4f9ce0367b7b5958add18d4d010829b8cbe8fa259e1e0",
+      "output_size": [
+        2048,
+        512
+      ],
+      "new_neural_passes": 0,
+      "method": "Independent per-panel bicubic source color guide plus attenuated alpha-normalized neural high-frequency residual; existing alpha unchanged",
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected. Initial results add strong metallic sheen and granular edges; filtered and source-guided retries trade that for excessive softness. Direct source-faithful material redraw is required.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM087.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM110.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM115.png"
+  ],
+  "new_neural_passes": 0,
+  "local_postprocessing": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false
+}

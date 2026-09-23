@@ -1,0 +1,95 @@
+{
+  "pages": [
+    {
+      "group_id": "FM0055",
+      "box_source": [
+        0,
+        27,
+        64,
+        64
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0055.png",
+      "sha256": "36f1a735e58e1331acd0a46d28552448f68ff846bcf4dd082608d23312af5389",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0071",
+      "box_source": [
+        0,
+        35,
+        64,
+        60
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0071.png",
+      "sha256": "301c1c88c25e0ab1eaa0e24ea430678ead749daccc253be2f4ea8da0b46ad76d",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0072",
+      "box_source": [
+        0,
+        42,
+        64,
+        61
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0072.png",
+      "sha256": "4b3d3b4fc3f7b6ae9a1e478ca449841c8af82d2f21ef927c41a62022022f851d",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0078",
+      "box_source": [
+        35,
+        44,
+        53,
+        57
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0078.png",
+      "sha256": "1bb1b7e1668b1054f13542dee242ce9e1bc88aecfa67941b7e47e8f945107876",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0084",
+      "box_source": [
+        5,
+        0,
+        59,
+        53
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0084.png",
+      "sha256": "9fda300447a39722ae6d62038acce79b70c4e87f0e45ca85ca905617dd37142d",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0117",
+      "box_source": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0117.png",
+      "sha256": "c1817acdfd82a7d60efde7373645aa0e9731678f6c310b9e3e9c75a5dfa30449",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0119",
+      "box_source": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "scale": 8,
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\detail-FM0119.png",
+      "sha256": "cf005fa9476910ec92b753c877446f7951b9570a30dcdd3c6da8edabbf5be1ae",
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ]
+}

@@ -1,0 +1,2023 @@
+{
+  "schema": "brs-field-foliage007-final-review/v1",
+  "batch": "FIELD-FOLIAGE-007",
+  "previous_goal_turn_classification": "progress: nine foliage originals compared via actual local inference and GPT redraw; one weed candidate selected, tree material donor identified but geometry held",
+  "this_goal_turn_classification": "progress: original tree material regions inspected, seven reconstructions replayed; four existing holds resolved into static candidates",
+  "new_local_neural_unique_originals": 0,
+  "actual_local_RGB_passes": 0,
+  "actual_alpha_neural_passes": 0,
+  "external_generative_calls": 0,
+  "new_direct_GPT_only_unique_originals": 0,
+  "new_geometry_only_unique_originals": 0,
+  "method": "Original-coordinate canopy and material-class-gated trunk reconstruction; existing local Photo parent and previously generated GPT leaf/bark material reused with native-scale affine grain. Own source palette and alpha; no new neural/GPT inference.",
+  "checked_outputs": [
+    {
+      "id": "FM0314-source-material-v1",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0314-source-material-v1-8x.png",
+      "sha256": "a5311e5e9fd617b5f660d412a9c3192a9923bb8a46f68470b09ce08350aeb9bd",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 1.001886914216663,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v1_frozen.py",
+      "program_sha256": "fca935cd9596fa764c346c90342e25797796ada2896ae0ccc4c8992cffb40d42",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "decision": "not_selected",
+      "reason": "Narrow material strip, missing central right arm and material caps; not selected."
+    },
+    {
+      "id": "FM0314-source-material-v2",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0314-source-material-v2-8x.png",
+      "sha256": "9100faccb281e76ece02d4735f200a897923985521298226a083e53028fc9773",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 1.001886914216663,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v2_frozen.py",
+      "program_sha256": "7e7093cb7079a813971c7dab30ac2e151851bb976d7a828208b477508cac6aee",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "decision": "not_selected",
+      "reason": "Per-segment donor stretching produced obvious striped/chevron bands and seams; not selected."
+    },
+    {
+      "id": "FM0314-source-material-v3",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0314-source-material-v3-8x.png",
+      "sha256": "0b91efd9b36d4635e6cb368ab302a82861027cd140ba973098bd2923ead66288",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 1.001886914216663,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v3_frozen.py",
+      "program_sha256": "8da280bcc9a728346e78bef101afc23efbe83485002171ec6ca5c825eb330fb5",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "decision": "not_selected",
+      "reason": "Affine native-scale bark and weighted junctions fix bands; superseded byv4 to avoid undefined transparent donor RGB and support each source palette."
+    },
+    {
+      "id": "FM0314-source-material-v4",
+      "group_id": "FM0314",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0314-source-material-v4-8x.png",
+      "sha256": "eef9c4e9a4d3b728c531eb665d294f451cb3888800990ef5a71e840a5ac7e53c",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 0.9994262566525215,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v4_frozen.py",
+      "program_sha256": "c80c147fae81ae43ed8a5bc9372198ce48b42216b673b7dfea0f7cc63786a1df",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "source_scale_alpha_IoU_at128": 0.999302719394362,
+      "source_scale_alpha_mask_disagreements": 7,
+      "source_topology": {
+        "foreground_8_components": 6,
+        "background_4_enclosed_holes": 22
+      },
+      "output_topology_by_threshold": {
+        "1": {
+          "foreground_8_components": 25,
+          "background_4_enclosed_holes": 29
+        },
+        "64": {
+          "foreground_8_components": 25,
+          "background_4_enclosed_holes": 31
+        },
+        "128": {
+          "foreground_8_components": 26,
+          "background_4_enclosed_holes": 32
+        },
+        "192": {
+          "foreground_8_components": 31,
+          "background_4_enclosed_holes": 35
+        },
+        "254": {
+          "foreground_8_components": 30,
+          "background_4_enclosed_holes": 32
+        },
+        "255": {
+          "foreground_8_components": 30,
+          "background_4_enclosed_holes": 32
+        }
+      },
+      "alpha128_components_without_source_center": {
+        "count": 13,
+        "max_output_pixels": 3,
+        "total_output_pixels": 29
+      },
+      "diagnostics": {
+        "canopy_bottom": [
+          [
+            0,
+            87
+          ],
+          [
+            8,
+            96
+          ],
+          [
+            18,
+            103
+          ],
+          [
+            26,
+            89
+          ],
+          [
+            35,
+            84
+          ],
+          [
+            45,
+            85
+          ],
+          [
+            55,
+            84
+          ],
+          [
+            65,
+            88
+          ],
+          [
+            76,
+            83
+          ],
+          [
+            87,
+            81
+          ],
+          [
+            97,
+            85
+          ],
+          [
+            110,
+            90
+          ],
+          [
+            128,
+            86
+          ]
+        ],
+        "tracks": [
+          {
+            "name": "central_trunk",
+            "nodes": [
+              [
+                52.5,
+                82,
+                4.0
+              ],
+              [
+                53.6,
+                94,
+                4.3
+              ],
+              [
+                55.1,
+                105,
+                4.8
+              ],
+              [
+                55.7,
+                116,
+                5.2
+              ],
+              [
+                58,
+                124.5,
+                5.0
+              ]
+            ]
+          },
+          {
+            "name": "central_right_arm",
+            "nodes": [
+              [
+                68.0,
+                78.0,
+                2.8
+              ],
+              [
+                63.2,
+                86.0,
+                3.4
+              ],
+              [
+                59.2,
+                94.0,
+                4.0
+              ],
+              [
+                55.3,
+                102.0,
+                4.7
+              ]
+            ]
+          },
+          {
+            "name": "fork_stem",
+            "nodes": [
+              [
+                85,
+                88,
+                1.0
+              ],
+              [
+                83,
+                95,
+                2.0
+              ],
+              [
+                80.8,
+                103,
+                2.0
+              ],
+              [
+                79.2,
+                114,
+                1.9
+              ],
+              [
+                78.7,
+                124.5,
+                1.9
+              ]
+            ]
+          },
+          {
+            "name": "fork_right_arm",
+            "nodes": [
+              [
+                95,
+                94,
+                0.8
+              ],
+              [
+                91,
+                97,
+                1.1
+              ],
+              [
+                87.3,
+                101,
+                1.35
+              ],
+              [
+                82,
+                105,
+                1.4
+              ],
+              [
+                80,
+                109,
+                1.4
+              ]
+            ]
+          },
+          {
+            "name": "right_trunk",
+            "nodes": [
+              [
+                104.1,
+                87,
+                1.6
+              ],
+              [
+                102.3,
+                96,
+                2.4
+              ],
+              [
+                101.3,
+                106,
+                3.0
+              ],
+              [
+                101,
+                117,
+                3.4
+              ],
+              [
+                101,
+                124.5,
+                3.0
+              ]
+            ]
+          },
+          {
+            "name": "far_right_trunk",
+            "nodes": [
+              [
+                126.2,
+                97,
+                1.0
+              ],
+              [
+                124.4,
+                106,
+                1.5
+              ],
+              [
+                124,
+                116,
+                1.6
+              ],
+              [
+                124,
+                124.5,
+                1.4
+              ]
+            ]
+          }
+        ],
+        "bark_box_in_GPT_raw": [
+          516,
+          865,
+          564,
+          1185
+        ],
+        "leaf_bank_box_in_GPT_raw": [
+          430,
+          500,
+          680,
+          750
+        ],
+        "donor_valid_alpha_threshold": 240,
+        "source_material_probe_xy": {
+          "background": [
+            40,
+            100
+          ],
+          "low_wood": [
+            51,
+            100
+          ],
+          "light_wood": [
+            79,
+            116
+          ]
+        },
+        "source_material_contrast": 1.0,
+        "source_RGB_filter_sigma": 0.45,
+        "source_wood_luma_threshold": 44.833333333333336,
+        "source_wood_mask_sigma": 0.45,
+        "wood_envelope_beyond_authored_halfwidth_source_px": 3,
+        "background_grain_clip": 3,
+        "canopy_composited_after_wood": true,
+        "bark_mapping": "Affine coordinates at donor/source resolution ratio, reflect extension; simultaneous weighted junction blend, no per-segment stretch or last-writer overwrite.",
+        "wood_shading_normalized_filter_sigma_output": 6,
+        "leaf_grain_sigma_output": 12,
+        "leaf_grain_gain": 0.85,
+        "leaf_grain_clip": 30.0,
+        "bark_grain_sigma_raw": 8,
+        "bark_grain_gain": 0.8,
+        "bark_grain_clip": 24.0,
+        "leaf_edge_variation_max_output_pixels": 1.5,
+        "source_center_alpha_exact": true,
+        "alpha_mass_ratio": 0.9994262566525215
+      },
+      "decision": "static_candidate",
+      "reason": "Source palettes/clipping reviewed individually on dark/light mattes. Leaves read as leaves, bark follows source-controlled trunk regions, previous stretched grain bands are absent. Fine-edge alpha differences are recorded and remain unverified in game."
+    },
+    {
+      "id": "FM0316-source-material-v4",
+      "group_id": "FM0316",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0316-source-material-v4-8x.png",
+      "sha256": "571bf7d80c2e4e40fb5ee6fd40c292b135e6ce33145a250e29f9016d25d96402",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 0.9996349904212023,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v4_frozen.py",
+      "program_sha256": "c80c147fae81ae43ed8a5bc9372198ce48b42216b673b7dfea0f7cc63786a1df",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "source_scale_alpha_IoU_at128": 0.9990098118642542,
+      "source_scale_alpha_mask_disagreements": 11,
+      "source_topology": {
+        "foreground_8_components": 8,
+        "background_4_enclosed_holes": 34
+      },
+      "output_topology_by_threshold": {
+        "1": {
+          "foreground_8_components": 27,
+          "background_4_enclosed_holes": 34
+        },
+        "64": {
+          "foreground_8_components": 29,
+          "background_4_enclosed_holes": 38
+        },
+        "128": {
+          "foreground_8_components": 28,
+          "background_4_enclosed_holes": 43
+        },
+        "192": {
+          "foreground_8_components": 32,
+          "background_4_enclosed_holes": 44
+        },
+        "254": {
+          "foreground_8_components": 37,
+          "background_4_enclosed_holes": 38
+        },
+        "255": {
+          "foreground_8_components": 37,
+          "background_4_enclosed_holes": 38
+        }
+      },
+      "alpha128_components_without_source_center": {
+        "count": 14,
+        "max_output_pixels": 6,
+        "total_output_pixels": 32
+      },
+      "diagnostics": {
+        "canopy_bottom": [
+          [
+            0,
+            87
+          ],
+          [
+            8,
+            96
+          ],
+          [
+            18,
+            103
+          ],
+          [
+            26,
+            89
+          ],
+          [
+            35,
+            84
+          ],
+          [
+            45,
+            85
+          ],
+          [
+            55,
+            84
+          ],
+          [
+            65,
+            88
+          ],
+          [
+            76,
+            83
+          ],
+          [
+            87,
+            81
+          ],
+          [
+            97,
+            85
+          ],
+          [
+            110,
+            90
+          ],
+          [
+            128,
+            86
+          ]
+        ],
+        "tracks": [
+          {
+            "name": "central_trunk",
+            "nodes": [
+              [
+                52.5,
+                82,
+                4.0
+              ],
+              [
+                53.6,
+                94,
+                4.3
+              ],
+              [
+                55.1,
+                105,
+                4.8
+              ],
+              [
+                55.7,
+                116,
+                5.2
+              ],
+              [
+                58,
+                124.5,
+                5.0
+              ]
+            ]
+          },
+          {
+            "name": "central_right_arm",
+            "nodes": [
+              [
+                68.0,
+                78.0,
+                2.8
+              ],
+              [
+                63.2,
+                86.0,
+                3.4
+              ],
+              [
+                59.2,
+                94.0,
+                4.0
+              ],
+              [
+                55.3,
+                102.0,
+                4.7
+              ]
+            ]
+          },
+          {
+            "name": "fork_stem",
+            "nodes": [
+              [
+                85,
+                88,
+                1.0
+              ],
+              [
+                83,
+                95,
+                2.0
+              ],
+              [
+                80.8,
+                103,
+                2.0
+              ],
+              [
+                79.2,
+                114,
+                1.9
+              ],
+              [
+                78.7,
+                124.5,
+                1.9
+              ]
+            ]
+          },
+          {
+            "name": "fork_right_arm",
+            "nodes": [
+              [
+                95,
+                94,
+                0.8
+              ],
+              [
+                91,
+                97,
+                1.1
+              ],
+              [
+                87.3,
+                101,
+                1.35
+              ],
+              [
+                82,
+                105,
+                1.4
+              ],
+              [
+                80,
+                109,
+                1.4
+              ]
+            ]
+          },
+          {
+            "name": "right_trunk",
+            "nodes": [
+              [
+                104.1,
+                87,
+                1.6
+              ],
+              [
+                102.3,
+                96,
+                2.4
+              ],
+              [
+                101.3,
+                106,
+                3.0
+              ],
+              [
+                101,
+                117,
+                3.4
+              ],
+              [
+                101,
+                124.5,
+                3.0
+              ]
+            ]
+          },
+          {
+            "name": "far_right_trunk",
+            "nodes": [
+              [
+                126.2,
+                97,
+                1.0
+              ],
+              [
+                124.4,
+                106,
+                1.5
+              ],
+              [
+                124,
+                116,
+                1.6
+              ],
+              [
+                124,
+                124.5,
+                1.4
+              ]
+            ]
+          }
+        ],
+        "bark_box_in_GPT_raw": [
+          516,
+          865,
+          564,
+          1185
+        ],
+        "leaf_bank_box_in_GPT_raw": [
+          430,
+          500,
+          680,
+          750
+        ],
+        "donor_valid_alpha_threshold": 240,
+        "source_material_probe_xy": {
+          "background": [
+            40,
+            100
+          ],
+          "low_wood": [
+            51,
+            100
+          ],
+          "light_wood": [
+            79,
+            116
+          ]
+        },
+        "source_material_contrast": 0.8039215686274511,
+        "source_RGB_filter_sigma": 0.45,
+        "source_wood_luma_threshold": 113.66666666666666,
+        "source_wood_mask_sigma": 0.45,
+        "wood_envelope_beyond_authored_halfwidth_source_px": 3,
+        "background_grain_clip": 3,
+        "canopy_composited_after_wood": true,
+        "bark_mapping": "Affine coordinates at donor/source resolution ratio, reflect extension; simultaneous weighted junction blend, no per-segment stretch or last-writer overwrite.",
+        "wood_shading_normalized_filter_sigma_output": 6,
+        "leaf_grain_sigma_output": 12,
+        "leaf_grain_gain": 0.6833333333333335,
+        "leaf_grain_clip": 24.117647058823533,
+        "bark_grain_sigma_raw": 8,
+        "bark_grain_gain": 0.6431372549019609,
+        "bark_grain_clip": 19.294117647058826,
+        "leaf_edge_variation_max_output_pixels": 1.5,
+        "source_center_alpha_exact": true,
+        "alpha_mass_ratio": 0.9996349904212023
+      },
+      "decision": "static_candidate",
+      "reason": "Source palettes/clipping reviewed individually on dark/light mattes. Leaves read as leaves, bark follows source-controlled trunk regions, previous stretched grain bands are absent. Fine-edge alpha differences are recorded and remain unverified in game."
+    },
+    {
+      "id": "FM0317-source-material-v4",
+      "group_id": "FM0317",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0317-source-material-v4-8x.png",
+      "sha256": "ec9d02f924fcbeccd2c78f5e4dee89602f3b67506efcb294b2be814c2c48d6d1",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 0.9999956003202514,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v4_frozen.py",
+      "program_sha256": "c80c147fae81ae43ed8a5bc9372198ce48b42216b673b7dfea0f7cc63786a1df",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "source_scale_alpha_IoU_at128": 0.9989732005339357,
+      "source_scale_alpha_mask_disagreements": 10,
+      "source_topology": {
+        "foreground_8_components": 7,
+        "background_4_enclosed_holes": 30
+      },
+      "output_topology_by_threshold": {
+        "1": {
+          "foreground_8_components": 23,
+          "background_4_enclosed_holes": 32
+        },
+        "64": {
+          "foreground_8_components": 24,
+          "background_4_enclosed_holes": 35
+        },
+        "128": {
+          "foreground_8_components": 24,
+          "background_4_enclosed_holes": 40
+        },
+        "192": {
+          "foreground_8_components": 32,
+          "background_4_enclosed_holes": 39
+        },
+        "254": {
+          "foreground_8_components": 32,
+          "background_4_enclosed_holes": 33
+        },
+        "255": {
+          "foreground_8_components": 32,
+          "background_4_enclosed_holes": 32
+        }
+      },
+      "alpha128_components_without_source_center": {
+        "count": 11,
+        "max_output_pixels": 6,
+        "total_output_pixels": 27
+      },
+      "diagnostics": {
+        "canopy_bottom": [
+          [
+            0,
+            87
+          ],
+          [
+            8,
+            96
+          ],
+          [
+            18,
+            103
+          ],
+          [
+            26,
+            89
+          ],
+          [
+            35,
+            84
+          ],
+          [
+            45,
+            85
+          ],
+          [
+            55,
+            84
+          ],
+          [
+            65,
+            88
+          ],
+          [
+            76,
+            83
+          ],
+          [
+            87,
+            81
+          ],
+          [
+            97,
+            85
+          ],
+          [
+            110,
+            90
+          ],
+          [
+            128,
+            86
+          ]
+        ],
+        "tracks": [
+          {
+            "name": "central_trunk",
+            "nodes": [
+              [
+                52.5,
+                82,
+                4.0
+              ],
+              [
+                53.6,
+                94,
+                4.3
+              ],
+              [
+                55.1,
+                105,
+                4.8
+              ],
+              [
+                55.7,
+                116,
+                5.2
+              ],
+              [
+                58,
+                124.5,
+                5.0
+              ]
+            ]
+          },
+          {
+            "name": "central_right_arm",
+            "nodes": [
+              [
+                68.0,
+                78.0,
+                2.8
+              ],
+              [
+                63.2,
+                86.0,
+                3.4
+              ],
+              [
+                59.2,
+                94.0,
+                4.0
+              ],
+              [
+                55.3,
+                102.0,
+                4.7
+              ]
+            ]
+          },
+          {
+            "name": "fork_stem",
+            "nodes": [
+              [
+                85,
+                88,
+                1.0
+              ],
+              [
+                83,
+                95,
+                2.0
+              ],
+              [
+                80.8,
+                103,
+                2.0
+              ],
+              [
+                79.2,
+                114,
+                1.9
+              ],
+              [
+                78.7,
+                124.5,
+                1.9
+              ]
+            ]
+          },
+          {
+            "name": "fork_right_arm",
+            "nodes": [
+              [
+                95,
+                94,
+                0.8
+              ],
+              [
+                91,
+                97,
+                1.1
+              ],
+              [
+                87.3,
+                101,
+                1.35
+              ],
+              [
+                82,
+                105,
+                1.4
+              ],
+              [
+                80,
+                109,
+                1.4
+              ]
+            ]
+          },
+          {
+            "name": "right_trunk",
+            "nodes": [
+              [
+                104.1,
+                87,
+                1.6
+              ],
+              [
+                102.3,
+                96,
+                2.4
+              ],
+              [
+                101.3,
+                106,
+                3.0
+              ],
+              [
+                101,
+                117,
+                3.4
+              ],
+              [
+                101,
+                124.5,
+                3.0
+              ]
+            ]
+          },
+          {
+            "name": "far_right_trunk",
+            "nodes": [
+              [
+                126.2,
+                97,
+                1.0
+              ],
+              [
+                124.4,
+                106,
+                1.5
+              ],
+              [
+                124,
+                116,
+                1.6
+              ],
+              [
+                124,
+                124.5,
+                1.4
+              ]
+            ]
+          }
+        ],
+        "bark_box_in_GPT_raw": [
+          516,
+          865,
+          564,
+          1185
+        ],
+        "leaf_bank_box_in_GPT_raw": [
+          430,
+          500,
+          680,
+          750
+        ],
+        "donor_valid_alpha_threshold": 240,
+        "source_material_probe_xy": {
+          "background": [
+            40,
+            100
+          ],
+          "low_wood": [
+            51,
+            100
+          ],
+          "light_wood": [
+            79,
+            116
+          ]
+        },
+        "source_material_contrast": 0.8039215686274511,
+        "source_RGB_filter_sigma": 0.45,
+        "source_wood_luma_threshold": 113.66666666666666,
+        "source_wood_mask_sigma": 0.45,
+        "wood_envelope_beyond_authored_halfwidth_source_px": 3,
+        "background_grain_clip": 3,
+        "canopy_composited_after_wood": true,
+        "bark_mapping": "Affine coordinates at donor/source resolution ratio, reflect extension; simultaneous weighted junction blend, no per-segment stretch or last-writer overwrite.",
+        "wood_shading_normalized_filter_sigma_output": 6,
+        "leaf_grain_sigma_output": 12,
+        "leaf_grain_gain": 0.6833333333333335,
+        "leaf_grain_clip": 24.117647058823533,
+        "bark_grain_sigma_raw": 8,
+        "bark_grain_gain": 0.6431372549019609,
+        "bark_grain_clip": 19.294117647058826,
+        "leaf_edge_variation_max_output_pixels": 1.5,
+        "source_center_alpha_exact": true,
+        "alpha_mass_ratio": 0.9999956003202514
+      },
+      "decision": "static_candidate",
+      "reason": "Source palettes/clipping reviewed individually on dark/light mattes. Leaves read as leaves, bark follows source-controlled trunk regions, previous stretched grain bands are absent. Fine-edge alpha differences are recorded and remain unverified in game."
+    },
+    {
+      "id": "FM0325-source-material-v4",
+      "group_id": "FM0325",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\FM0325-source-material-v4-8x.png",
+      "sha256": "9047b1b590836cad54bebc287086fdf3fa06dbc52753bd9b4b049763a0653718",
+      "RGBA_recipe_reproduced": true,
+      "source_center_alpha_exact": true,
+      "outside_float_mask_RGB_exact_parent": true,
+      "below_canopy_alpha_exact_parent": true,
+      "bottom_source_rows125_to127_RGBA_exact_parent": true,
+      "lower_left_source_box_0_108_28_128_RGBA_exact_parent": true,
+      "alpha_mass_ratio": 0.9992546656180031,
+      "program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage007\\tree_material007_v4_frozen.py",
+      "program_sha256": "c80c147fae81ae43ed8a5bc9372198ce48b42216b673b7dfea0f7cc63786a1df",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "source_scale_alpha_IoU_at128": 0.9990972918756269,
+      "source_scale_alpha_mask_disagreements": 9,
+      "source_topology": {
+        "foreground_8_components": 5,
+        "background_4_enclosed_holes": 28
+      },
+      "output_topology_by_threshold": {
+        "1": {
+          "foreground_8_components": 23,
+          "background_4_enclosed_holes": 34
+        },
+        "64": {
+          "foreground_8_components": 25,
+          "background_4_enclosed_holes": 37
+        },
+        "128": {
+          "foreground_8_components": 25,
+          "background_4_enclosed_holes": 33
+        },
+        "192": {
+          "foreground_8_components": 32,
+          "background_4_enclosed_holes": 40
+        },
+        "254": {
+          "foreground_8_components": 34,
+          "background_4_enclosed_holes": 36
+        },
+        "255": {
+          "foreground_8_components": 35,
+          "background_4_enclosed_holes": 36
+        }
+      },
+      "alpha128_components_without_source_center": {
+        "count": 14,
+        "max_output_pixels": 3,
+        "total_output_pixels": 28
+      },
+      "diagnostics": {
+        "canopy_bottom": [
+          [
+            0,
+            87
+          ],
+          [
+            8,
+            96
+          ],
+          [
+            18,
+            103
+          ],
+          [
+            26,
+            89
+          ],
+          [
+            35,
+            84
+          ],
+          [
+            45,
+            85
+          ],
+          [
+            55,
+            84
+          ],
+          [
+            65,
+            88
+          ],
+          [
+            76,
+            83
+          ],
+          [
+            87,
+            81
+          ],
+          [
+            97,
+            85
+          ],
+          [
+            110,
+            90
+          ],
+          [
+            128,
+            86
+          ]
+        ],
+        "tracks": [
+          {
+            "name": "central_trunk",
+            "nodes": [
+              [
+                52.5,
+                82,
+                4.0
+              ],
+              [
+                53.6,
+                94,
+                4.3
+              ],
+              [
+                55.1,
+                105,
+                4.8
+              ],
+              [
+                55.7,
+                116,
+                5.2
+              ],
+              [
+                58,
+                124.5,
+                5.0
+              ]
+            ]
+          },
+          {
+            "name": "central_right_arm",
+            "nodes": [
+              [
+                68.0,
+                78.0,
+                2.8
+              ],
+              [
+                63.2,
+                86.0,
+                3.4
+              ],
+              [
+                59.2,
+                94.0,
+                4.0
+              ],
+              [
+                55.3,
+                102.0,
+                4.7
+              ]
+            ]
+          },
+          {
+            "name": "fork_stem",
+            "nodes": [
+              [
+                85,
+                88,
+                1.0
+              ],
+              [
+                83,
+                95,
+                2.0
+              ],
+              [
+                80.8,
+                103,
+                2.0
+              ],
+              [
+                79.2,
+                114,
+                1.9
+              ],
+              [
+                78.7,
+                124.5,
+                1.9
+              ]
+            ]
+          },
+          {
+            "name": "fork_right_arm",
+            "nodes": [
+              [
+                95,
+                94,
+                0.8
+              ],
+              [
+                91,
+                97,
+                1.1
+              ],
+              [
+                87.3,
+                101,
+                1.35
+              ],
+              [
+                82,
+                105,
+                1.4
+              ],
+              [
+                80,
+                109,
+                1.4
+              ]
+            ]
+          },
+          {
+            "name": "right_trunk",
+            "nodes": [
+              [
+                104.1,
+                87,
+                1.6
+              ],
+              [
+                102.3,
+                96,
+                2.4
+              ],
+              [
+                101.3,
+                106,
+                3.0
+              ],
+              [
+                101,
+                117,
+                3.4
+              ],
+              [
+                101,
+                124.5,
+                3.0
+              ]
+            ]
+          },
+          {
+            "name": "far_right_trunk",
+            "nodes": [
+              [
+                126.2,
+                97,
+                1.0
+              ],
+              [
+                124.4,
+                106,
+                1.5
+              ],
+              [
+                124,
+                116,
+                1.6
+              ],
+              [
+                124,
+                124.5,
+                1.4
+              ]
+            ]
+          }
+        ],
+        "bark_box_in_GPT_raw": [
+          516,
+          865,
+          564,
+          1185
+        ],
+        "leaf_bank_box_in_GPT_raw": [
+          430,
+          500,
+          680,
+          750
+        ],
+        "donor_valid_alpha_threshold": 240,
+        "source_material_probe_xy": {
+          "background": [
+            40,
+            100
+          ],
+          "low_wood": [
+            51,
+            100
+          ],
+          "light_wood": [
+            79,
+            116
+          ]
+        },
+        "source_material_contrast": 1.0,
+        "source_RGB_filter_sigma": 0.45,
+        "source_wood_luma_threshold": 44.833333333333336,
+        "source_wood_mask_sigma": 0.45,
+        "wood_envelope_beyond_authored_halfwidth_source_px": 3,
+        "background_grain_clip": 3,
+        "canopy_composited_after_wood": true,
+        "bark_mapping": "Affine coordinates at donor/source resolution ratio, reflect extension; simultaneous weighted junction blend, no per-segment stretch or last-writer overwrite.",
+        "wood_shading_normalized_filter_sigma_output": 6,
+        "leaf_grain_sigma_output": 12,
+        "leaf_grain_gain": 0.85,
+        "leaf_grain_clip": 30.0,
+        "bark_grain_sigma_raw": 8,
+        "bark_grain_gain": 0.8,
+        "bark_grain_clip": 24.0,
+        "leaf_edge_variation_max_output_pixels": 1.5,
+        "source_center_alpha_exact": true,
+        "alpha_mass_ratio": 0.9992546656180031
+      },
+      "decision": "static_candidate",
+      "reason": "Source palettes/clipping reviewed individually on dark/light mattes. Leaves read as leaves, bark follows source-controlled trunk regions, previous stretched grain bands are absent. Fine-edge alpha differences are recorded and remain unverified in game."
+    }
+  ],
+  "resolved_holds": {
+    "FM0314": "FM0314-source-material-v4",
+    "FM0316": "FM0316-source-material-v4",
+    "FM0317": "FM0317-source-material-v4",
+    "FM0325": "FM0325-source-material-v4"
+  },
+  "new_holds": {},
+  "source_reports_sha256": {
+    "qa\\field_foliage007_source_audit.json": "9ed02d84ed54b720a02ada0d88f3c89dfbcf2fb17c1484f6814740f0c3d023f2",
+    "qa\\field_foliage007_tree314_v1.json": "0767bd49fe993108bbe2343d0afce372f83140c569980f31c2107b9f09775939",
+    "qa\\field_foliage007_tree314_v2.json": "4630e55574acc380c851e2f5cd3caa4edf780033224fcb4032a9a1618650fcb6",
+    "qa\\field_foliage007_tree314_v3.json": "309875a06ec8cebcd8c71038766cc2a658737b3c6fb6c9648c19c9b639e4ff61",
+    "qa\\field_foliage007_trees_v4.json": "87572e9fda244eb91ef09a888f077802b6a52ab10f828814471cca51e22a5d30"
+  },
+  "validation": {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\field_foliage007_validation.json",
+    "sha256": "992afa462bf03b7d161ec9895ac8d49d6b2adcab5a20c20418acd893cbf26735"
+  },
+  "GPT_provenance": {
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0314-foliage-v1\\provenance.json",
+    "sha256": "d12482822ce1518dc338eed889e9639b03aa90ae946c2bbac9bbaf034b724882",
+    "call_performed_in_batch": "FIELD-FOLIAGE-006",
+    "new_call_in_this_batch": false
+  },
+  "source_and_comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-full.png",
+      "sha256": "5aff3576e09f94dd4fa4c6c88455e61cbd8f2fb946bcaabdbb815a9e0f4cbf9f",
+      "group_id": "FM0314",
+      "kind": "source-full",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-lower.png",
+      "sha256": "05cc45ba6ec885d8e11046bbe2ec5b91e79713127dc4414b8a65c8db4bc73be2",
+      "group_id": "FM0314",
+      "kind": "coordinate-lower",
+      "source_box": [
+        0,
+        64,
+        128,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-left.png",
+      "sha256": "d62268d868595a2ac256057cd06da2226125100c602db05e25c92aebe196e9a5",
+      "group_id": "FM0314",
+      "kind": "coordinate-left",
+      "source_box": [
+        0,
+        72,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-coordinate-right.png",
+      "sha256": "ac55498e2c530b4c91c77bfc9e33a50e39506b58c25838e8385b8864bb5612de",
+      "group_id": "FM0314",
+      "kind": "coordinate-right",
+      "source_box": [
+        64,
+        72,
+        128,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-full.png",
+      "sha256": "b88ed2517be70565148ee46b28b79b130581f109e4a4ea4fbb0f2dfd9bd7204d",
+      "group_id": "FM0316",
+      "kind": "source-full",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-full.png",
+      "sha256": "1c8f50504b151c7ed5fcf51f70a159e92be3bc77777d076ece7a69bd512b6209",
+      "group_id": "FM0317",
+      "kind": "source-full",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-full.png",
+      "sha256": "e0d1a1a9bbf0c82ca45eed67f05564d24ff395a7c4cb55b006a80e07233eee5d",
+      "group_id": "FM0325",
+      "kind": "source-full",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-guide.png",
+      "sha256": "8ccb64b0d98c3d166970988d0e9ae73988329aee2dd6bbb9e92fdcd4bf8e9fd3",
+      "kind": "source-coordinate-geometry-guide",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-whole.png",
+      "sha256": "353fa352b5ba10bd9cd13ec7132c59bffd7cc46644636839803553e03f72c794",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-canopy.png",
+      "sha256": "55faeaf1208c3211cead0226e5052d6fe86f37451ad52a29daf5759b90aa7d92",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-main-trunk.png",
+      "sha256": "c2425505f4550c0d52f2d2de5e57a12d0187e2f42ab3ff67b339496569f51923",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-fork-right.png",
+      "sha256": "3d27c480641fc09e67510b41a0b20321be9cd3bcea2fb26183057a46aee6208e",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v1-lower-left.png",
+      "sha256": "e66f6de8aa44f7b0f1488bc84002f2d39da022bed493fc1689b79d32e7b58f27",
+      "source_box": [
+        0,
+        92,
+        48,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-guide.png",
+      "sha256": "c368d84223209186b2ae136acc5c1eda6eec1dea3230f511e9e0e74ea645ebe3",
+      "kind": "source-coordinate-geometry-guide",
+      "review_status": "not_inspected_after_v2_material_band_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-whole.png",
+      "sha256": "a46ddacfbc13e33896cd2968a2c899a15cdf42b8ed3b267e1b6fd9b1c90d5572",
+      "source_box": null,
+      "review_status": "not_inspected_after_v2_material_band_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-canopy.png",
+      "sha256": "96cbea2a6f52579596e781150fb743b32ba881146dbfe0a670403ea49fe1ca9a",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "not_inspected_after_v2_material_band_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-main-trunk.png",
+      "sha256": "0674c26e4bd35b0111d3ff4458f1dba1856a0d203ab4d9dd07bf6e5f0d9431e7",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-fork-right.png",
+      "sha256": "9483fbf1dbcb384d3802273aa6f34a1ffe523ba0cb92d7153be88cc61dcfb574",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v2-lower-left.png",
+      "sha256": "084ab6feeea58b9ba86672d011127446626f33710a16353524004b99b372f054",
+      "source_box": [
+        0,
+        92,
+        48,
+        128
+      ],
+      "review_status": "not_inspected_after_v2_material_band_failure"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-guide.png",
+      "sha256": "c368d84223209186b2ae136acc5c1eda6eec1dea3230f511e9e0e74ea645ebe3",
+      "kind": "source-coordinate-geometry-guide",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-whole.png",
+      "sha256": "602f61dc938de157aa1a71b56ba5a680e7d240e3f02edd61e80e349b6fc52453",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-canopy.png",
+      "sha256": "96cbea2a6f52579596e781150fb743b32ba881146dbfe0a670403ea49fe1ca9a",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-main-trunk.png",
+      "sha256": "fc1a5009a360e9eca95894d8dc74e6ccfa9dbdad9866770006c9149d4c8556a6",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-fork-right.png",
+      "sha256": "7808a35c86c3145596f8c39148bff25cc91fb102c9e753f9cd198310b88e2222",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v3-lower-left.png",
+      "sha256": "e8ee281d8a1c6713b27cf27f6ab452ec69dea52ca4134ad0d04588f2e5bd437e",
+      "source_box": [
+        0,
+        92,
+        48,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v4-whole.png",
+      "sha256": "1f90745cec46a188874d15a5a69a907a962cd1390cb41210ba36871f786e52f5",
+      "group_id": "FM0314",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v4-canopy.png",
+      "sha256": "7c316d97c2c818ea6621627a09798b7d36148cb6f8949b9fbc1082c94a1ce05f",
+      "group_id": "FM0314",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v4-main-trunk.png",
+      "sha256": "690689d0d7ee73d2f7fff9c05a3ecc861bcc9f619ca1bb83369c768cd9a64ea7",
+      "group_id": "FM0314",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v4-fork-right.png",
+      "sha256": "6bd855b192ded6e6ba531a256ef085cbac27ba3b094480b83ef69a3231320ba3",
+      "group_id": "FM0314",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0314-source-material-v4-left-edge.png",
+      "sha256": "913bee9a5ec781d7f943dc367cec46a4c7b51c7cd6fe6db6e89b422147f66fef",
+      "group_id": "FM0314",
+      "source_box": [
+        0,
+        28,
+        40,
+        76
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-material-v4-whole.png",
+      "sha256": "3f9698d1bb69fbcae9255db6d59904ec7c744c94c47fff256c86d98ac174e611",
+      "group_id": "FM0316",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-material-v4-canopy.png",
+      "sha256": "681dae045572327a9dddeba857cf5b719b5d6daa499c02dbb46cb727b791a1d8",
+      "group_id": "FM0316",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-material-v4-main-trunk.png",
+      "sha256": "8136ea4fc9107ece0d71e99b642dd37e33b1db3ddd77a4458f266ac0951a075c",
+      "group_id": "FM0316",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-material-v4-fork-right.png",
+      "sha256": "8c23a706ba4c05eb3d71ae882a53bbf18ec489a62d1a87f4885d6514c989c8ab",
+      "group_id": "FM0316",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0316-source-material-v4-left-edge.png",
+      "sha256": "ded08a09460f9f67e3ca6ff701a40ceb2bf6ddd7eff7094c5be9fa330a719e0a",
+      "group_id": "FM0316",
+      "source_box": [
+        0,
+        28,
+        40,
+        76
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-material-v4-whole.png",
+      "sha256": "535aaab757093409708799144968e4b2f89c4b01676d79bc54ddfcb14874e358",
+      "group_id": "FM0317",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-material-v4-canopy.png",
+      "sha256": "1943e2d8ca6874bcdc66eefe91f8498aa14141120c7a7f2fc9ad104b52edbc28",
+      "group_id": "FM0317",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-material-v4-main-trunk.png",
+      "sha256": "e34629b9f9e18d136d8a53b58eeeb42567cd5c9a6ed4e6564f53bc02e10117bc",
+      "group_id": "FM0317",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-material-v4-fork-right.png",
+      "sha256": "2eec36778a402e49d5f90e7f5cc8a5cf5cf889c4fe499a16b97051773d5d5a98",
+      "group_id": "FM0317",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0317-source-material-v4-left-edge.png",
+      "sha256": "82bc4857d3f1d55b786d927c32d0c82f06d129130c3dba499c33137e56dfbe3d",
+      "group_id": "FM0317",
+      "source_box": [
+        0,
+        28,
+        40,
+        76
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-material-v4-whole.png",
+      "sha256": "9e2f3df361555f3de823856794fd824f6686bd4d2103917669f6237bfdc60658",
+      "group_id": "FM0325",
+      "source_box": null,
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-material-v4-canopy.png",
+      "sha256": "00d327cf13afdb50bff7054c44b4d53731a41ee27d9bec0de0e54e3e1c14918a",
+      "group_id": "FM0325",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-material-v4-main-trunk.png",
+      "sha256": "e3e667153dbdda26e7e2afbd234bf6331a24eca56d03dcad7f8b59c61138fd33",
+      "group_id": "FM0325",
+      "source_box": [
+        38,
+        80,
+        70,
+        128
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-material-v4-fork-right.png",
+      "sha256": "36935da15b40d000dc7e2c895cafd92881010a26f8f1d1094ec17a506f5263d6",
+      "group_id": "FM0325",
+      "source_box": [
+        72,
+        86,
+        112,
+        126
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\FM0325-source-material-v4-left-edge.png",
+      "sha256": "054c4fe06ca9051fa8fba5cc80afe83b186d1718bb848a4357e2675f198b7d05",
+      "group_id": "FM0325",
+      "source_box": [
+        0,
+        28,
+        40,
+        76
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ],
+  "pages_total": 45,
+  "pages_directly_inspected": 41,
+  "material_donor_crop_pages_directly_inspected": 2,
+  "source_wood_classes": [
+    {
+      "base": "FM0314",
+      "other": "FM0316",
+      "comparison_region": "source rows82..124, columns45..127, jointly opaque",
+      "compared_pixels": 3569,
+      "classification_disagreements": 19,
+      "limit": "Same decoded material classification in these source regions supports reusing directional controls; not evidence of shared consumer or identical alpha."
+    },
+    {
+      "base": "FM0314",
+      "other": "FM0317",
+      "comparison_region": "source rows82..124, columns45..127, jointly opaque",
+      "compared_pixels": 3568,
+      "classification_disagreements": 19,
+      "limit": "Same decoded material classification in these source regions supports reusing directional controls; not evidence of shared consumer or identical alpha."
+    },
+    {
+      "base": "FM0314",
+      "other": "FM0325",
+      "comparison_region": "source rows82..124, columns45..127, jointly opaque",
+      "compared_pixels": 2967,
+      "classification_disagreements": 0,
+      "limit": "Same decoded material classification in these source regions supports reusing directional controls; not evidence of shared consumer or identical alpha."
+    }
+  ],
+  "source_wood_class_limit_correction": "316/317 differ in19 jointly opaque lower-source classes each;325 differs in0. Controls are reused only after own-source review, and each output uses its own source RGB, material gate and alpha. This does not establish shared consumers.",
+  "catalog_before_sha256": "9dc41b618e255ca100d2ccb010b625939dee065b3b19cd23daafb479b9ac41e1",
+  "catalog_after_sha256": "33fd13552dd296e7f67f80e50d2e1659fc0709fb7f08e0afd5463b7eb2fdab0b",
+  "geometry_contract_before_sha256": "c6110ae9e3797e3f15a0ce6157a7ba5d8fd84534036ad7d3a38825db5fa7f112",
+  "geometry_contract_after_sha256": "afe59843e9cec5f9a31cce93aeead394a6c44e1c82ade9547fce266b12bba841",
+  "other572_field_groups_unchanged": true,
+  "previous109_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 158,
+    "field_static_candidates": 113,
+    "field_holds": 49,
+    "field_groups_not_processed_in_field_context": 414,
+    "remaining_novel_unprocessed": 189,
+    "latest_review": "qa/field_foliage007_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 162,
+    "counting_note": "158 locally inferred originals +3 direct-GPT-only +1 geometry-only =162 processed novel field originals. Four existing tree holds become candidates using existing materials; no new originals or inference calls. Static candidate113, held49, novel unprocessed189.",
+    "field_geometry_only_originals": 1
+  },
+  "unique_local_neural_originals_title_battle_novel_field": 415,
+  "processed_originals_title_battle_novel_field_all_routes": 421,
+  "all_routes_count_basis": {
+    "title": 1,
+    "battle": 258,
+    "novel_field": 162
+  },
+  "known_battle_plus_novel_field_progress": {
+    "denominator": 635,
+    "static_candidates": 354,
+    "static_candidate_percent": 55.748031496062985,
+    "processed_at_least_once": 420,
+    "processed_percent": 66.14173228346458,
+    "is_entire_game_completion_percent": false
+  },
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "scripts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\audit_tree_geometry007.py",
+      "sha256": "f40e9d106c2d06149f55c14730b712fd8cd35890974611bbd1f1071b90584646"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\tree_material007.py",
+      "sha256": "c80c147fae81ae43ed8a5bc9372198ce48b42216b673b7dfea0f7cc63786a1df"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\build_tree_material007.py",
+      "sha256": "20c211a75f3141deccff95e42eb131aa553067ccd64001f6a62c68f5ed9819fe"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\build_tree_material007_v2.py",
+      "sha256": "31a62bf5528a4fd57560fe976a8779dced2abe11266e737059526c768b57e42e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\build_tree_material007_v3.py",
+      "sha256": "873c0897adaafec28eba6bee46b11c90a4f72a942a6e70797df87e7c6eaae087"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\build_tree_material007_v4.py",
+      "sha256": "0318639e4bf037d935191c9dc5bf740f634c07cbcbf4bbacfe3cf02dde44b3bf"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\validate_tree_material007.py",
+      "sha256": "672c8a110b7e78b689b644cea91538bf808b8ffe5e1907ba2c01206e0613b6c1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\tools\\finalize_field_foliage007.py",
+      "sha256": "c716651fd5b727f52b1371af61411286675cf91db55b4cd78eddf5da457ee810"
+    }
+  ],
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\나무_잎과_껍질_재질_수정.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage007\\나무_잎과_껍질_재질_수정.png",
+    "sha256": "9e2f3df361555f3de823856794fd824f6686bd4d2103917669f6237bfdc60658",
+    "review_status": "directly_inspected_exact_copy_of_FM0325_v4_whole"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "Leaf/bark material is reused from one previously generated GPT image. This batch performs no new local neural/GPT inference and is not described as purely local neural upscaling.",
+    "All seven historical/final reconstructions reproduce their saved RGBA exactly using hash-bound frozen programs. The current helper isv4; old builders import its module name and must not be rerun as historical recipes. Replay the frozen helper identified by each attempt report.",
+    "V4 source-center alpha is exact at8x phase4; total alpha mass differs by at most0.075percent. BOX source-scale masks disagree at7/11/10/9 pixels. This does not mean full-resolution alpha or topology is exact.",
+    "Fine canopy edge variation changes foreground components/holes. At alpha128 components lacking an opaque source-center sample are11..14 per image, at most6 output pixels each. Components containing source samples can also split. These are accepted as static fine-edge differences after visual review; game alpha testing remains unverified.",
+    "Each source palette, clipping mask and lower backdrop is used independently. Six material axes orient grain; they do not prove a total tree count, shared consumer or every RGB edge being geometrically exact.",
+    "Bark placement changes color/shading inside source-controlled regions; original-source filtering and material blending do not constitute high-resolution ground truth.",
+    "Lower-left source rectangle0,108..28,128 and bottom source rows125..127 remain exactly the local parent. Below-canopy alpha is exact parent; no claim that all lower background RGB outside these controls is original-pixel-identical.",
+    "41 of45 source/comparison pages directly inspected; four redundantv2 pages skipped after trunk detail revealed material bands. Two material-bank crop pages inspected separately.",
+    "Remaining field49 holds and189 novel unprocessed; battle43 unresolved; historical geometry applicability, character/enemy/UI/effect/cutscene and unsupported source populations remain.635 is only the currently classified battle plus novel-field population.",
+    "No new texture key, emulator launch, installation, game verification or release ZIP. Native GUI unavailable; Explorer opening not claimed."
+  ],
+  "next_action": "Continue remaining foliage holdsFM0301,FM0312,FM0318,FM0320 with own-source material interpretation, then architectural/mechanical holds and189 unprocessed novel field originals. Preserve source geometry and use local-first plus inspected direct repair as appropriate; continue battle43 and other whole-game scope."
+}

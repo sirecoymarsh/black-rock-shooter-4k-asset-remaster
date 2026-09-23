@@ -1,0 +1,245 @@
+{
+  "schema": "brs-road-paint-rework/v2",
+  "files": [
+    {
+      "group_id": "BM003",
+      "source_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\002.png",
+      "source_rgba_sha256": "4555305f36fd0c02898247afdabf966eda09470e86e0b66609351e3d91c79131",
+      "pixel_equivalent_members": [
+        "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex002"
+      ],
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x for neural background. Source paint mask and colors reconstructed exactly at 8x.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM003-paint-mask.png",
+      "paint_pixels": 752,
+      "clean_plate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM003-paint-removed.png",
+      "clean_plate_method": "Nearest non-paint original RGB. All non-paint source pixels unchanged before inference.",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM003-asphalt-neural4x.png",
+      "native_sha256": "99cebfdda6984ee61cda0655e0537e79b0d052612bc140a625141d68b5448dda",
+      "mean_color_offset_rgb": [
+        1.1233444213867188,
+        0.8999595642089844,
+        -0.9632339477539062
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM003-paint-aware-8x.png",
+      "output_sha256": "0955fe76006277518fdba904b88a5236919e15646f13a69e58f84ad0c5fd1117",
+      "output_size": [
+        2048,
+        512
+      ],
+      "paint_geometry_and_color_exact": true,
+      "local_inference": true,
+      "image_upload": false,
+      "metrics": {
+        "rgb_mae_0_255": 4.268941402435303,
+        "rgb_p99_abs_error_0_255": 14.0,
+        "rgb_mean_shift_0_255": [
+          -0.08905029296875,
+          0.1107177734375,
+          -0.020751953125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.875,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Raised highlight removed; flat source paint width, location and RGB restored exactly. Neural asphalt remains.",
+        "evidence": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_road_paint_rework.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM004",
+      "source_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\003.png",
+      "source_rgba_sha256": "b755ff2da9de677989c38ef18b49566cff9d6b56e13f82cd645dfa5f1052885e",
+      "pixel_equivalent_members": [
+        "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex003"
+      ],
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x for neural background. Source paint mask and colors reconstructed exactly at 8x.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM004-paint-mask.png",
+      "paint_pixels": 278,
+      "clean_plate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM004-paint-removed.png",
+      "clean_plate_method": "Nearest non-paint original RGB. All non-paint source pixels unchanged before inference.",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM004-asphalt-neural4x.png",
+      "native_sha256": "558ebc64c21abaf3e1490a04485b14530bb956b2eaaec75fb85b9b0bb62830a8",
+      "mean_color_offset_rgb": [
+        1.09912109375,
+        1.2395172119140625,
+        -0.7782135009765625
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM004-paint-aware-8x.png",
+      "output_sha256": "ed3b806aa7ce29a336e4b45610966b7bfcc499c4344cbd9e7e706e64e49439cd",
+      "output_size": [
+        512,
+        512
+      ],
+      "paint_geometry_and_color_exact": true,
+      "local_inference": true,
+      "image_upload": false,
+      "metrics": {
+        "rgb_mae_0_255": 4.736002445220947,
+        "rgb_p99_abs_error_0_255": 15.0,
+        "rgb_mean_shift_0_255": [
+          -0.037841796875,
+          -0.15966796875,
+          -0.173583984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.1720000000204891,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Raised highlight removed; flat source paint width, location and RGB restored exactly. Neural asphalt remains.",
+        "evidence": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_road_paint_rework.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM005",
+      "source_id": "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\004.png",
+      "source_rgba_sha256": "114671d8842c35601039465ac5b50e4cf183d72cdd57ef6a28d853c4cd0da554",
+      "pixel_equivalent_members": [
+        "map_b_stg01_01.vol/001_map_b_stg01_01.bin::tex004"
+      ],
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x for neural background. Source paint mask and colors reconstructed exactly at 8x.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM005-paint-mask.png",
+      "paint_pixels": 64,
+      "clean_plate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM005-paint-removed.png",
+      "clean_plate_method": "Nearest non-paint original RGB. All non-paint source pixels unchanged before inference.",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM005-asphalt-neural4x.png",
+      "native_sha256": "57299e810e26b1732f7a98af8381a9f2a4e523e50a175949141e427a0898b64a",
+      "mean_color_offset_rgb": [
+        2.47186279296875,
+        2.42889404296875,
+        0.86834716796875
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM005-paint-aware-8x.png",
+      "output_sha256": "23f24ce78177e9728c50760a82bb973605a735d8bff48c40037c55e0af4c0a09",
+      "output_size": [
+        256,
+        256
+      ],
+      "paint_geometry_and_color_exact": true,
+      "local_inference": true,
+      "image_upload": false,
+      "metrics": {
+        "rgb_mae_0_255": 5.07421875,
+        "rgb_p99_abs_error_0_255": 23.0,
+        "rgb_mean_shift_0_255": [
+          -0.56640625,
+          -0.5712890625,
+          -0.0107421875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.061999999976251274,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Raised highlight removed; flat source paint width, location and RGB restored exactly. Neural asphalt remains.",
+        "evidence": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_road_paint_rework.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM028",
+      "source_id": "map_b_stg01_02.vol/001_map_b_stg01_02.bin::tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\000.png",
+      "source_rgba_sha256": "4b070bb795189ed52b70adc16d8cd7eafdd40cea0a865040364b39934f862ff0",
+      "pixel_equivalent_members": [
+        "map_b_stg01_02.vol/001_map_b_stg01_02.bin::tex000",
+        "map_b_stg01_03.vol/001_map_b_stg01_03.bin::tex001"
+      ],
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x for neural background. Source paint mask and colors reconstructed exactly at 8x.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM028-paint-mask.png",
+      "paint_pixels": 752,
+      "clean_plate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM028-paint-removed.png",
+      "clean_plate_method": "Nearest non-paint original RGB. All non-paint source pixels unchanged before inference.",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM028-asphalt-neural4x.png",
+      "native_sha256": "db744c0f3649069642d4c9d0783f428ba883fc603a5e4a82e3cd76c53c015231",
+      "mean_color_offset_rgb": [
+        1.1268997192382812,
+        0.646240234375,
+        -0.9404449462890625
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-road-paint-v2\\BM028-paint-aware-8x.png",
+      "output_sha256": "ead6d5e29fbdb63a109557a5376e8ef4da8036bcbe556051641618c1a5f11738",
+      "output_size": [
+        2048,
+        512
+      ],
+      "paint_geometry_and_color_exact": true,
+      "local_inference": true,
+      "image_upload": false,
+      "metrics": {
+        "rgb_mae_0_255": 4.2220458984375,
+        "rgb_p99_abs_error_0_255": 13.0,
+        "rgb_mean_shift_0_255": [
+          -0.093994140625,
+          0.362548828125,
+          -0.0330810546875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.6400000000139698,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Raised highlight removed; flat source paint width, location and RGB restored exactly. Neural asphalt remains.",
+        "evidence": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_road_paint_rework.png"
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_road_paint_rework.png",
+  "runtime_verified": false,
+  "release_eligible": false
+}

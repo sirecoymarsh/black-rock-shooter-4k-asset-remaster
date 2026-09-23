@@ -1,0 +1,272 @@
+{
+  "schema": "brs-sr008-grid-rework/v1",
+  "files": [
+    {
+      "id": "BM175-wdn-filter05",
+      "group_id": "BM175",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\007.png",
+      "source_rgba_sha256": "0f0fc92458cd5d6a4ce765753d095291880f095c64fe66b2bdb4a94cec9f6c7c",
+      "prefilter_sigma": 0.5,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-wdn-filter05-input.png",
+      "input_sha256": "90b2f90a8c3cd74ebf344a504e80cee03204932721eb5ba51a23a4eabc2f3440",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-wdn-filter05-native4x.png",
+      "native_sha256": "a17064e3bb0ed1184dfe8b4ba92eea97f938f9770d1bfaafd296d27a9344c03b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-wdn-filter05-8x.png",
+      "output_sha256": "7bc9c4dabec3722582815e4d613ea6d439c60839a80c27735c2bcf6f274a3ef2",
+      "output_size": [
+        256,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        4.523712158203125,
+        4.82769775390625,
+        3.672515869140625
+      ],
+      "seconds": 0.26600000000325963,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All five tested conditions fail: WDN turns the checker mesh into coarse chevrons; photo removes the mesh. Consumer/mesh reconstruction still required.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM187-wdn-filter05",
+      "group_id": "BM187",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\020.png",
+      "source_rgba_sha256": "3cfc3a750c627a87b3d338b66afb46652a01130c3c2e0d707d313962af511976",
+      "prefilter_sigma": 0.5,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-wdn-filter05-input.png",
+      "input_sha256": "8c470e572fec5209e9f2e851a9a5a1335fc9438da7946b5e9f9115b194728504",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-wdn-filter05-native4x.png",
+      "native_sha256": "a4b0789073a805ef5aa6cbd4902a490bd94c8651b6fb56cbd7ece5196f4b56f4",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-wdn-filter05-8x.png",
+      "output_sha256": "c451b295edd7aeb52f14a51c6a24d2e6db5a892295419c1f56d4089dc81fe3d2",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        1.792144775390625,
+        2.92681884765625,
+        2.6444854736328125
+      ],
+      "seconds": 0.5320000000065193,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "WDN with input sigma0.5 reduces exaggerated grille edges while keeping the vent rows and cross; static candidate only.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM175-photo",
+      "group_id": "BM175",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\007.png",
+      "source_rgba_sha256": "0f0fc92458cd5d6a4ce765753d095291880f095c64fe66b2bdb4a94cec9f6c7c",
+      "prefilter_sigma": 0.0,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-input.png",
+      "input_sha256": "cdaac3cf242b1c5eb1657f515c18567651e8d392fb9c68a5cf73f46c912fe5c8",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-native4x.png",
+      "native_sha256": "bc018b756be99beac1aee91a2acb5f6cd26926b776c44f30aeb43e85d45a9b34",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-8x.png",
+      "output_sha256": "6fe5281a014d152a6c8bbfc05ab3fde51d3e52a6d23d306e884c1c9f17f3cd6f",
+      "output_size": [
+        256,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        6.286712646484375,
+        6.6484375,
+        6.40338134765625
+      ],
+      "seconds": 0.125,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All five tested conditions fail: WDN turns the checker mesh into coarse chevrons; photo removes the mesh. Consumer/mesh reconstruction still required.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM187-photo",
+      "group_id": "BM187",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\020.png",
+      "source_rgba_sha256": "3cfc3a750c627a87b3d338b66afb46652a01130c3c2e0d707d313962af511976",
+      "prefilter_sigma": 0.0,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-input.png",
+      "input_sha256": "c5751e6d9b76a6fc844a33e854635d4904e4dc8990a01b750a9a7908660370f5",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-native4x.png",
+      "native_sha256": "2122fb07e7740aea1b7d57ee233b32ec74c3287f1e2160a4c610e0a0b6d061ba",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-8x.png",
+      "output_sha256": "2f1118225ccdcd457424dc1b35746b60cf384f97783d6d1b08abd27f60a2a21a",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        0.270477294921875,
+        0.4419708251953125,
+        0.08576202392578125
+      ],
+      "seconds": 0.5310000000172295,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Alternate condition not selected after source comparison. WDN with input sigma0.5 reduces exaggerated grille edges while keeping the vent rows and cross; static candidate only.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM175-photo-filter05",
+      "group_id": "BM175",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\007.png",
+      "source_rgba_sha256": "0f0fc92458cd5d6a4ce765753d095291880f095c64fe66b2bdb4a94cec9f6c7c",
+      "prefilter_sigma": 0.5,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-filter05-input.png",
+      "input_sha256": "90b2f90a8c3cd74ebf344a504e80cee03204932721eb5ba51a23a4eabc2f3440",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-filter05-native4x.png",
+      "native_sha256": "ba3ec36de1a033a607a1e08686c0c20b7a7aa430d5374c47297c2d7f8e1fe805",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM175-photo-filter05-8x.png",
+      "output_sha256": "23e8c99a55a4def0fa6300eed58d4b45f1973b562425646c30df8339221f8306",
+      "output_size": [
+        256,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        5.6983642578125,
+        6.0355224609375,
+        5.7745361328125
+      ],
+      "seconds": 0.10999999998603016,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "held_rework_required",
+        "reason": "All five tested conditions fail: WDN turns the checker mesh into coarse chevrons; photo removes the mesh. Consumer/mesh reconstruction still required.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM187-photo-filter05",
+      "group_id": "BM187",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_02.vol\\001_map_b_stg04_02.bin\\020.png",
+      "source_rgba_sha256": "3cfc3a750c627a87b3d338b66afb46652a01130c3c2e0d707d313962af511976",
+      "prefilter_sigma": 0.5,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-filter05-input.png",
+      "input_sha256": "8c470e572fec5209e9f2e851a9a5a1335fc9438da7946b5e9f9115b194728504",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-filter05-native4x.png",
+      "native_sha256": "58c13a6263c4b81b33312d0144f3ccaf874acf8a0021fe261aff8075728441ae",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr008-grid-rework\\BM187-photo-filter05-8x.png",
+      "output_sha256": "f55770e31ad513d9bfae60c3e52c6515e54ff01b6c436a4a804f4e8ddedbddbe",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "mean_rgb_offset": [
+        1.4491806030273438,
+        1.4680938720703125,
+        0.9769439697265625
+      ],
+      "seconds": 0.5310000000172295,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Alternate condition not selected after source comparison. WDN with input sigma0.5 reduces exaggerated grille edges while keeping the vent rows and cross; static candidate only.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM175.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr008_grid_BM187.png"
+  ],
+  "actual_new_neural_passes": 6
+}

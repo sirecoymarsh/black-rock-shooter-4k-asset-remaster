@@ -1,0 +1,1424 @@
+{
+  "schema": "brs-field-rectilinear-reconstruction/v2",
+  "basis": "v1 retained all source color pixels and looked blocky; v2 separates structural planes from incidental source shading.",
+  "files": [
+    {
+      "group_id": "FM0045",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex012.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_03.bin\\sc11\\sc01\\sc00\\tex012.ptm",
+      "source_ptm_sha256": "42ed77c4bda1abeb4665b98be75df76fc59c4684f44cab9302071ed97e9f7ab1",
+      "source_rgba_sha256": "f57733184720e0114750b02d98a4df6cd0c098bfb93099036a9dae7ddfdde5e4",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0045-wdn-8x.png",
+      "parent_sha256": "56d56117e6f7edfc04cd0bca47340c84bf995e24fe2b38b133a51c71f9f7b5b3",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0045-edit-mask.png",
+      "mask_sha256": "f19e1d8eb9a3e5be118fd10d537b1ac5a9e6fbb7eae5b5ccd49eb51ebf768a44",
+      "source_edit_rule": "complete32x32 mechanical atlas",
+      "id": "FM0045-planar-geometry-local-material-v2",
+      "method": "Authored rectangular planes and linear face shading at measured source coordinates; bounded existing local high-frequency material inside; exact source alpha in protected region.",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0045-planar-geometry-v2.svg",
+      "vector_sha256": "0f8ebf6208636a299e26ef2e5702a1993b13c99417c1f56de68683abcf53d704",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0045-planar-geometry-v2.png",
+      "render_sha256": "05f7b1a2d700ba55a254121c3717e4c50265928612d7d2178f123a8c99182e0e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0045-planar-geometry-local-material-v2-8x.png",
+      "output_sha256": "2c0a7cfc55c078e31ace2e2113deac2b3d49f2c337a7e318b1c823b5b8024332",
+      "regions": [
+        {
+          "name": "left narrow brown face",
+          "box_xywh": [
+            4,
+            0,
+            1,
+            32
+          ],
+          "left_rgb": [
+            66,
+            39,
+            12
+          ],
+          "right_rgb": [
+            72,
+            42,
+            13
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "left dark face",
+          "box_xywh": [
+            5,
+            0,
+            1,
+            32
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            43,
+            24,
+            9
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "left gray plane",
+          "box_xywh": [
+            6,
+            0,
+            3,
+            32
+          ],
+          "left_rgb": [
+            150,
+            150,
+            144
+          ],
+          "right_rgb": [
+            169,
+            169,
+            162
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "left bright edge",
+          "box_xywh": [
+            9,
+            0,
+            1,
+            32
+          ],
+          "left_rgb": [
+            210,
+            210,
+            209
+          ],
+          "right_rgb": [
+            219,
+            219,
+            218
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "crossbar upper face",
+          "box_xywh": [
+            0,
+            14,
+            10,
+            1
+          ],
+          "left_rgb": [
+            121,
+            107,
+            81
+          ],
+          "right_rgb": [
+            215,
+            215,
+            214
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "crossbar front face",
+          "box_xywh": [
+            0,
+            15,
+            10,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            160,
+            160,
+            154
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "crossbar lower face",
+          "box_xywh": [
+            0,
+            16,
+            10,
+            1
+          ],
+          "left_rgb": [
+            66,
+            39,
+            12
+          ],
+          "right_rgb": [
+            149,
+            93,
+            35
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "frame",
+          "box_xywh": [
+            11,
+            0,
+            9,
+            16
+          ],
+          "left_rgb": [
+            182,
+            183,
+            179
+          ],
+          "right_rgb": [
+            201,
+            201,
+            195
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown face",
+          "box_xywh": [
+            12,
+            1,
+            4,
+            15
+          ],
+          "left_rgb": [
+            82,
+            49,
+            16
+          ],
+          "right_rgb": [
+            105,
+            68,
+            26
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "gray face",
+          "box_xywh": [
+            17,
+            1,
+            2,
+            15
+          ],
+          "left_rgb": [
+            153,
+            153,
+            147
+          ],
+          "right_rgb": [
+            172,
+            172,
+            166
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "frame",
+          "box_xywh": [
+            11,
+            16,
+            14,
+            16
+          ],
+          "left_rgb": [
+            182,
+            183,
+            179
+          ],
+          "right_rgb": [
+            201,
+            201,
+            195
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown face",
+          "box_xywh": [
+            12,
+            17,
+            4,
+            15
+          ],
+          "left_rgb": [
+            82,
+            49,
+            16
+          ],
+          "right_rgb": [
+            105,
+            68,
+            26
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "gray face",
+          "box_xywh": [
+            17,
+            17,
+            2,
+            15
+          ],
+          "left_rgb": [
+            153,
+            153,
+            147
+          ],
+          "right_rgb": [
+            172,
+            172,
+            166
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "beige face",
+          "box_xywh": [
+            20,
+            17,
+            4,
+            15
+          ],
+          "left_rgb": [
+            112,
+            100,
+            75
+          ],
+          "right_rgb": [
+            134,
+            119,
+            89
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            11,
+            3,
+            9,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            12,
+            3,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            17,
+            3,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            11,
+            12,
+            9,
+            2
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            12,
+            12,
+            4,
+            2
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            17,
+            12,
+            2,
+            2
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            11,
+            15,
+            9,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            12,
+            15,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            17,
+            15,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            11,
+            29,
+            14,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            12,
+            29,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            17,
+            29,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            11,
+            31,
+            14,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            12,
+            31,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            17,
+            31,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "black horizontal band",
+          "box_xywh": [
+            11,
+            19,
+            14,
+            2
+          ],
+          "left_rgb": [
+            0,
+            0,
+            0
+          ],
+          "right_rgb": [
+            0,
+            0,
+            0
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown band lower highlight",
+          "box_xywh": [
+            12,
+            21,
+            4,
+            1
+          ],
+          "left_rgb": [
+            122,
+            76,
+            28
+          ],
+          "right_rgb": [
+            131,
+            81,
+            29
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "beige band lower highlight",
+          "box_xywh": [
+            20,
+            21,
+            4,
+            1
+          ],
+          "left_rgb": [
+            141,
+            124,
+            93
+          ],
+          "right_rgb": [
+            150,
+            132,
+            98
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        }
+      ],
+      "black_rail_source_box": [
+        11,
+        19,
+        25,
+        21
+      ],
+      "outside_mask_rgba_exact_to_parent": true,
+      "source_nearest_alpha_exact_in_mask": true,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_static_candidate",
+        "reason": "Authored planar v2 fixes structural rectangles, four square black-rail corners and exact source alpha; v1 pixel-color mosaic rejected as too blocky."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0120",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0d.bin\\sc11\\sc01\\sc00\\tex015.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_0d.bin\\sc11\\sc01\\sc00\\tex015.ptm",
+      "source_ptm_sha256": "a5201f6fe471852aaae842784e88136b32305492227fe3e190377c70a9667ed3",
+      "source_rgba_sha256": "cde4a4bd71f34d071acfa7261385772579d64f4a0b136e0762a4fe8c4c9e92e7",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0120-photo-8x.png",
+      "parent_sha256": "27bd7c8fc1e94742c442334ae17469e78fbe679818ff1bbe4ca19381af4d947c",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0120-edit-mask.png",
+      "mask_sha256": "64b1164cccbc65c5daccf3d7aab9e6d0b7a104479a20f238715c60f048c13ef6",
+      "source_edit_rule": "x<16 or y>=20; organic upper-right wall remains parent",
+      "id": "FM0120-planar-geometry-local-material-v2",
+      "method": "Authored rectangular planes and linear face shading at measured source coordinates; bounded existing local high-frequency material inside; exact source alpha in protected region.",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0120-planar-geometry-v2.svg",
+      "vector_sha256": "c6d4d2807ad84883c451a73315b6f9335a1ba312b9b746282894d0fb5a41b833",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0120-planar-geometry-v2.png",
+      "render_sha256": "738ca16f7b58bc35242a6b5b97a2ec5deb07257458bc53ba736d5d7b34810d39",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rectilinear\\FM0120-planar-geometry-local-material-v2-8x.png",
+      "output_sha256": "bdae4dd2dc0b7aefcfbc21829220daae515c5b542ef1e0881ace85db0c7b7b84",
+      "regions": [
+        {
+          "name": "frame",
+          "box_xywh": [
+            1,
+            0,
+            9,
+            16
+          ],
+          "left_rgb": [
+            182,
+            183,
+            179
+          ],
+          "right_rgb": [
+            201,
+            201,
+            195
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown face",
+          "box_xywh": [
+            2,
+            1,
+            4,
+            15
+          ],
+          "left_rgb": [
+            82,
+            49,
+            16
+          ],
+          "right_rgb": [
+            105,
+            68,
+            26
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "gray face",
+          "box_xywh": [
+            7,
+            1,
+            2,
+            15
+          ],
+          "left_rgb": [
+            153,
+            153,
+            147
+          ],
+          "right_rgb": [
+            172,
+            172,
+            166
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "frame",
+          "box_xywh": [
+            1,
+            16,
+            14,
+            16
+          ],
+          "left_rgb": [
+            182,
+            183,
+            179
+          ],
+          "right_rgb": [
+            201,
+            201,
+            195
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown face",
+          "box_xywh": [
+            2,
+            17,
+            4,
+            15
+          ],
+          "left_rgb": [
+            82,
+            49,
+            16
+          ],
+          "right_rgb": [
+            105,
+            68,
+            26
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "gray face",
+          "box_xywh": [
+            7,
+            17,
+            2,
+            15
+          ],
+          "left_rgb": [
+            153,
+            153,
+            147
+          ],
+          "right_rgb": [
+            172,
+            172,
+            166
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "beige face",
+          "box_xywh": [
+            10,
+            17,
+            4,
+            15
+          ],
+          "left_rgb": [
+            112,
+            100,
+            75
+          ],
+          "right_rgb": [
+            134,
+            119,
+            89
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            1,
+            3,
+            9,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            7,
+            3,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            1,
+            12,
+            9,
+            2
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            2,
+            12,
+            4,
+            2
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            7,
+            12,
+            2,
+            2
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            1,
+            15,
+            9,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            2,
+            15,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            7,
+            15,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            1,
+            29,
+            14,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            2,
+            29,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            7,
+            29,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail face",
+          "box_xywh": [
+            1,
+            31,
+            14,
+            1
+          ],
+          "left_rgb": [
+            87,
+            78,
+            67
+          ],
+          "right_rgb": [
+            77,
+            69,
+            58
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail dark brown",
+          "box_xywh": [
+            2,
+            31,
+            4,
+            1
+          ],
+          "left_rgb": [
+            34,
+            18,
+            6
+          ],
+          "right_rgb": [
+            42,
+            23,
+            8
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "cross rail gray",
+          "box_xywh": [
+            7,
+            31,
+            2,
+            1
+          ],
+          "left_rgb": [
+            67,
+            60,
+            52
+          ],
+          "right_rgb": [
+            79,
+            71,
+            61
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "black horizontal band",
+          "box_xywh": [
+            1,
+            19,
+            14,
+            2
+          ],
+          "left_rgb": [
+            0,
+            0,
+            0
+          ],
+          "right_rgb": [
+            0,
+            0,
+            0
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "brown band lower highlight",
+          "box_xywh": [
+            2,
+            21,
+            4,
+            1
+          ],
+          "left_rgb": [
+            122,
+            76,
+            28
+          ],
+          "right_rgb": [
+            131,
+            81,
+            29
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "beige band lower highlight",
+          "box_xywh": [
+            10,
+            21,
+            4,
+            1
+          ],
+          "left_rgb": [
+            141,
+            124,
+            93
+          ],
+          "right_rgb": [
+            150,
+            132,
+            98
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            20,
+            16,
+            2
+          ],
+          "left_rgb": [
+            144,
+            145,
+            137
+          ],
+          "right_rgb": [
+            144,
+            145,
+            137
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            22,
+            16,
+            1
+          ],
+          "left_rgb": [
+            116,
+            107,
+            88
+          ],
+          "right_rgb": [
+            116,
+            107,
+            88
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            23,
+            16,
+            2
+          ],
+          "left_rgb": [
+            222,
+            222,
+            218
+          ],
+          "right_rgb": [
+            219,
+            220,
+            215
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            25,
+            16,
+            1
+          ],
+          "left_rgb": [
+            239,
+            240,
+            239
+          ],
+          "right_rgb": [
+            239,
+            240,
+            239
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            26,
+            16,
+            1
+          ],
+          "left_rgb": [
+            162,
+            163,
+            156
+          ],
+          "right_rgb": [
+            186,
+            186,
+            182
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            27,
+            16,
+            2
+          ],
+          "left_rgb": [
+            59,
+            58,
+            54
+          ],
+          "right_rgb": [
+            78,
+            75,
+            67
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            29,
+            16,
+            1
+          ],
+          "left_rgb": [
+            219,
+            220,
+            215
+          ],
+          "right_rgb": [
+            159,
+            158,
+            152
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            30,
+            16,
+            1
+          ],
+          "left_rgb": [
+            140,
+            140,
+            131
+          ],
+          "right_rgb": [
+            140,
+            140,
+            131
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        },
+        {
+          "name": "lower horizontal wall band",
+          "box_xywh": [
+            16,
+            31,
+            16,
+            1
+          ],
+          "left_rgb": [
+            35,
+            38,
+            38
+          ],
+          "right_rgb": [
+            51,
+            50,
+            46
+          ],
+          "edge_kind": "source-axis rectangle; no corner radius"
+        }
+      ],
+      "black_rail_source_box": [
+        1,
+        19,
+        15,
+        21
+      ],
+      "outside_mask_rgba_exact_to_parent": true,
+      "source_nearest_alpha_exact_in_mask": true,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_static_candidate",
+        "reason": "Authored planar v2 fixes left panel frames and lower horizontal bands; upper-right organic plaster retains local Photo. v1 pixel-color mosaic rejected as too blocky."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0045",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\rectilinear-v2-FM0045.png",
+      "sha256": "d6b856c155e95d5238ddc7c67947fcc49c64d8dc521635e61a3065e3616f1e94",
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "group_id": "FM0120",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\rectilinear-v2-FM0120.png",
+      "sha256": "72da180d353b682f265e5ec9fc1cef6d85b2850d7442cdee8d4705058d7b5c06",
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ],
+  "new_neural_passes": 0,
+  "limits": [
+    "Structural boxes and source alpha are fixed; small original lighting flecks inside planes are interpreted as shading, not reproduced pixel-for-pixel.",
+    "FM0120 lower horizontal bands use source row-average face colors; unknown consumer and material meaning remain runtime requirements.",
+    "Neither vector output is counted as new AI inference or recovered native8x detail."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

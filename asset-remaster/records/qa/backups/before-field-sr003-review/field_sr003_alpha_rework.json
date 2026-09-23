@@ -1,0 +1,185 @@
+{
+  "schema": "brs-field-alpha-repair/v1",
+  "new_unique_originals": 0,
+  "new_neural_passes": 0,
+  "image_upload": false,
+  "baselines": {
+    "original_local_source_bilinear": {
+      "alpha_mass_ratio": 1.0010708714620575,
+      "texel_center_mae": 0.9031982421875,
+      "texel_center_max_abs_error": 28.25,
+      "source_ge16_reduced_below8": 0,
+      "point_ious": {
+        "8": 0.9098591549295775,
+        "16": 0.9969135802469136,
+        "32": 0.9939914163090129,
+        "64": 0.9986033519553073,
+        "128": 0.9764705882352941,
+        "192": 0.8214285714285714,
+        "240": 0.0
+      },
+      "reduction_ious": {
+        "8": 0.6206764027671022,
+        "16": 0.723764705882353,
+        "32": 0.7643636363636364,
+        "64": 0.7727873183619551,
+        "128": 0.5,
+        "192": 0.047619047619047616,
+        "240": 0.0
+      }
+    },
+    "source_alpha_nearest_control": {
+      "alpha_mass_ratio": 1.0,
+      "texel_center_mae": 0.0,
+      "texel_center_max_abs_error": 0.0,
+      "source_ge16_reduced_below8": 0,
+      "point_ious": {
+        "8": 1.0,
+        "16": 1.0,
+        "32": 1.0,
+        "64": 1.0,
+        "128": 1.0,
+        "192": 1.0,
+        "240": 1.0
+      },
+      "reduction_ious": {
+        "8": 0.7127096204766108,
+        "16": 0.8678938819707634,
+        "32": 0.8824006488240065,
+        "64": 0.8861454046639232,
+        "128": 0.7558139534883721,
+        "192": 0.5176470588235295,
+        "240": 0.0
+      }
+    }
+  },
+  "files": [
+    {
+      "id": "FM0087-wdn-source-bicubic-alpha",
+      "group_id": "FM0087",
+      "method": "bicubic",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_05.bin\\sc11\\sc01\\sc00\\tex022.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_05.bin\\sc11\\sc01\\sc00\\tex022.ptm",
+      "source_ptm_sha256": "01e151cecb5cbf2cc7ccf90e175aaa9655a7c236ac7984e692c2747861327649",
+      "source_rgba_sha256": "bb83bae1399f81ce9e3a72fe8cb6ae309a984765fe08894a9e6d1dee8f656855",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0087-wdn-8x.png",
+      "parent_sha256": "9f5b5c4dbc451e3aa232e3dc70feef52f970389f75663966c1b9ecfa538a4eb2",
+      "reference_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0087-wdn-source-alpha8x.png",
+      "reference_alpha_sha256": "dcb7f0f3a39720c1f94e8031abe42ba3fe7d3d46ed58527d929dd0bda1c719b7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0087-wdn-source-bicubic-alpha-8x.png",
+      "output_sha256": "1882719707e5fc78aff5497942d38f0b81724f79c165ddba800406b0496e2e61",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "alpha_method": "Source bicubic8x with source max254 clamp, source-bilinear zero255 support; RGB byte-exact parent",
+      "metrics": {
+        "alpha_mass_ratio": 1.0494540328164232,
+        "texel_center_mae": 0.2751007080078125,
+        "texel_center_max_abs_error": 8.25,
+        "source_ge16_reduced_below8": 1,
+        "point_ious": {
+          "8": 0.9993811881188119,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 1.0,
+          "240": 0.7659574468085106
+        },
+        "reduction_ious": {
+          "8": 0.6445686900958466,
+          "16": 0.767953102100635,
+          "32": 0.8073463268365817,
+          "64": 0.8548601864181092,
+          "128": 0.7126436781609196,
+          "192": 0.5058823529411764,
+          "240": 0.0
+        }
+      },
+      "actual_local_inference_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0087-wdn-source-lanczos-alpha",
+      "group_id": "FM0087",
+      "method": "lanczos",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_05.bin\\sc11\\sc01\\sc00\\tex022.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_05.bin\\sc11\\sc01\\sc00\\tex022.ptm",
+      "source_ptm_sha256": "01e151cecb5cbf2cc7ccf90e175aaa9655a7c236ac7984e692c2747861327649",
+      "source_rgba_sha256": "bb83bae1399f81ce9e3a72fe8cb6ae309a984765fe08894a9e6d1dee8f656855",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0087-wdn-8x.png",
+      "parent_sha256": "9f5b5c4dbc451e3aa232e3dc70feef52f970389f75663966c1b9ecfa538a4eb2",
+      "reference_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003\\FM0087-wdn-source-alpha8x.png",
+      "reference_alpha_sha256": "dcb7f0f3a39720c1f94e8031abe42ba3fe7d3d46ed58527d929dd0bda1c719b7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr003-rework\\FM0087-wdn-source-lanczos-alpha-8x.png",
+      "output_sha256": "b13bcc6a00389567d0219c491a7a7e2f0bf64f8f8a338c6325eed54f0198e796",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "alpha_method": "Source lanczos8x with source max254 clamp, source-bilinear zero255 support; RGB byte-exact parent",
+      "metrics": {
+        "alpha_mass_ratio": 1.0841610342512034,
+        "texel_center_mae": 0.312408447265625,
+        "texel_center_max_abs_error": 11.0,
+        "source_ge16_reduced_below8": 4,
+        "point_ious": {
+          "8": 0.9853569249542404,
+          "16": 1.0,
+          "32": 1.0,
+          "64": 1.0,
+          "128": 1.0,
+          "192": 0.9882352941176471,
+          "240": 0.7659574468085106
+        },
+        "reduction_ious": {
+          "8": 0.6390321301071004,
+          "16": 0.7716381418092909,
+          "32": 0.8176382660687593,
+          "64": 0.8703703703703703,
+          "128": 0.7992424242424242,
+          "192": 0.7058823529411765,
+          "240": 0.0
+        }
+      },
+      "actual_local_inference_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\FM0087-alpha-whole.png",
+      "sha256": "332e408474ef2e3536d10f81b2ae5cd335b95cb4d69b61aaed7253dac57d7ac9",
+      "source_box": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr003\\FM0087-alpha-detail.png",
+      "sha256": "5ec9e7cc5be8017d0a87de2c9fc76dd773567647848b1f247c61954759da761d",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "limits": [
+    "Downsampled threshold IoU is not a direct simulation of native bilinear sampling or alpha-test behavior. Nearest baseline isolates this measurement limitation.",
+    "Source texel centers are bilinear samples of high-resolution alpha at pixel coordinates8*i+3.5; this is still only a discrete diagnostic.",
+    "Consumer sampler, alpha test and true high-resolution outline remain unverified."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

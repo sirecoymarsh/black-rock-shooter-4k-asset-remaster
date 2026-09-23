@@ -1,0 +1,120 @@
+{
+  "schema": "brs-field-local-pattern-rework/v1",
+  "base_report_sha256": "a7627307e2c889f80c623da88906b6bed2f6cccea80cc6b70a1f3d2c10ea9b05",
+  "hypothesis": "A local anime line-art prior may preserve thin designed curls and repeat motifs better than the two photo priors; acceptance still requires source comparison.",
+  "actual_local_rgb_inference_passes": 2,
+  "actual_alpha_passes": 0,
+  "external_calls": 0,
+  "files": [
+    {
+      "group_id": "FM0525",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "2b8aca3ec939bb1d0b7af4790b4d7a0198152c9fa00d36f02bfd3ff01899df78",
+      "source_rgba_sha256": "d5f19b0744c8d1bc8e245d216c2d68d0d73cbdbdab205590940c7c86ef7e5217",
+      "classification": "opaque_pattern_material",
+      "id": "FM0525-anime025",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-anime025-input.png",
+      "input_sha256": "6bb555771f8aa35d178081f7c3435c9e2dbb7fd2f8339cae342aff069cf76f52",
+      "input_gaussian_sigma_source_px": 0.25,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-anime025-native4x.png",
+      "native_sha256": "9711d3b5c0ee82133ddeaea24dd1dee1205b274d7689debcfca7f0ce07798d82",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0525-anime025-8x.png",
+      "output_sha256": "f052ea34aee84fd9dfa6ff61dc027b0e9228c18aba826991a3ef5f1fedc23b0b",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "alpha": "opaque255",
+      "actual_local_rgb_inference_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 6.639607906341553,
+        "rgb_p99_abs_error_0_255": 30.0,
+        "rgb_mean_shift_0_255": [
+          -1.21240234375,
+          -1.72802734375,
+          -0.494140625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.9380000000237487,
+      "visual_review": "pending_final_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0533",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "c2bfa5e1a6f906bcbaa5e78c531598ce31b9d11e543543e86afe5dcca90bde82",
+      "source_rgba_sha256": "5f9070d4bb6f9358ea0e4aaf44e20c32cd44aaaadd2dbe15497bd5e51aa5cb00",
+      "classification": "opaque_pattern_material",
+      "id": "FM0533-anime025",
+      "model": {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da"
+      },
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-anime025-input.png",
+      "input_sha256": "e4afa98e195f25d2461cb349d08d2c7f0a0cb2ee07339bac78fcb39c31bab258",
+      "input_gaussian_sigma_source_px": 0.25,
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-anime025-native4x.png",
+      "native_sha256": "43e7ecce7ea7ddf4900bf3081baeee29328cb354914e1183e3a09c33653f3fa4",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-anime025-8x.png",
+      "output_sha256": "31fe093bad8f74c3535fcaacf03b2a4102b7a512578d87284764cf487f68cb02",
+      "output_size": [
+        256,
+        1024
+      ],
+      "alpha": "opaque255",
+      "actual_local_rgb_inference_passes": 1,
+      "source_scale_metrics": {
+        "rgb_mae_0_255": 5.174072265625,
+        "rgb_p99_abs_error_0_255": 23.0,
+        "rgb_mean_shift_0_255": [
+          1.73291015625,
+          1.648193359375,
+          1.9853515625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "seconds": 0.14100000000325963,
+      "visual_review": "pending_final_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0525-pattern-rework.png",
+      "sha256": "d1f633df54eb0a7f97f4311b7ec110baa54903609ae4728d0d3279aeb7ec6392",
+      "group_id": "FM0525",
+      "source_box": [
+        40,
+        40,
+        80,
+        80
+      ],
+      "review_status": "pending_final_review"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr005\\FM0533-pattern-rework.png",
+      "sha256": "d90b19943e0ed2ba98096bbcfb51b92a51ecb86527891c3dd8e848a4130ebd27",
+      "group_id": "FM0533",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "pending_final_review"
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

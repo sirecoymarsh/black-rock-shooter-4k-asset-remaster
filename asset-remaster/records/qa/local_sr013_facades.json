@@ -1,0 +1,1013 @@
+{
+  "schema": "brs-sr013-facades/v1",
+  "files": [
+    {
+      "id": "BM087-measured",
+      "group_id": "BM087",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\002_map_b_stg02_02_sky.bin\\002.png",
+      "source_rgba_sha256": "629e564f5ec16bd78f484d34fb26951ebcfd8d1016547af99b1997131951608a",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "alpha_parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-measured.svg",
+      "vector_sha256": "1b437994e460e7021ad8696369dd24aed734cf447f6bf491de778d09b8782cee",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-measured-render.png",
+      "render_sha256": "cbdbb8677b9d4bae1f9bdf517cf451c5196dd8c1233e06e12fcb3556dc5dfd65",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-measured-mask.png",
+      "mask_sha256": "190e35bb1b4669f4ce79821fcc5e6cb442f8490ce7e8395be404fd573bd7cd65",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-measured-8x.png",
+      "output_sha256": "d13c482c11cbdf37e029cde7f4393885dc9c2915540b8f89bb4599a419b19a4f",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Codex-authored facade row rectangles and source-sampled wall gradients; source color blend; local WDN retained below mask; exact roof-mark restoration",
+      "facades": [
+        {
+          "id": "A",
+          "box": [
+            0,
+            0,
+            10,
+            48
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "B",
+          "box": [
+            10,
+            13,
+            22,
+            43
+          ],
+          "rows": [
+            [
+              17,
+              18
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              39,
+              41
+            ]
+          ]
+        },
+        {
+          "id": "C",
+          "box": [
+            32,
+            16,
+            43,
+            56
+          ],
+          "rows": [
+            [
+              20,
+              22
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              45,
+              47
+            ],
+            [
+              49,
+              51
+            ],
+            [
+              53,
+              55
+            ]
+          ]
+        },
+        {
+          "id": "D",
+          "box": [
+            43,
+            2,
+            57,
+            46
+          ],
+          "rows": [
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              26,
+              27
+            ],
+            [
+              30,
+              32
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              39,
+              41
+            ],
+            [
+              44,
+              46
+            ]
+          ]
+        },
+        {
+          "id": "E",
+          "box": [
+            57,
+            18,
+            73,
+            53
+          ],
+          "rows": [
+            [
+              23,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ],
+            [
+              47,
+              49
+            ],
+            [
+              51,
+              53
+            ]
+          ]
+        },
+        {
+          "id": "F",
+          "box": [
+            73,
+            0,
+            89,
+            44
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "G",
+          "box": [
+            85,
+            5,
+            95,
+            50
+          ],
+          "rows": [
+            [
+              9,
+              10
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              17,
+              19
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              27,
+              29
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              36,
+              38
+            ],
+            [
+              41,
+              43
+            ],
+            [
+              45,
+              47
+            ],
+            [
+              49,
+              50
+            ]
+          ]
+        },
+        {
+          "id": "H",
+          "box": [
+            95,
+            20,
+            107,
+            57
+          ],
+          "rows": [
+            [
+              24,
+              26
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              33,
+              35
+            ],
+            [
+              39,
+              40
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              52,
+              54
+            ],
+            [
+              56,
+              57
+            ]
+          ]
+        },
+        {
+          "id": "I",
+          "box": [
+            107,
+            13,
+            118,
+            57
+          ],
+          "rows": [
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              34,
+              35
+            ],
+            [
+              38,
+              40
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              52,
+              54
+            ],
+            [
+              56,
+              57
+            ]
+          ]
+        },
+        {
+          "id": "J",
+          "box": [
+            118,
+            0,
+            128,
+            48
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        }
+      ],
+      "drawn_row_runs": 86,
+      "drawn_row_cells": 868,
+      "inset_source_pixels": 0.08,
+      "source_color_mix": 0.15,
+      "protected_source_box": [
+        74,
+        1,
+        89,
+        4
+      ],
+      "alpha_exact_to_parent": true,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Rejected: individual source-pixel rectangles introduce artificial barcode/window dividers.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM087-soft-material",
+      "group_id": "BM087",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\002_map_b_stg02_02_sky.bin\\002.png",
+      "source_rgba_sha256": "629e564f5ec16bd78f484d34fb26951ebcfd8d1016547af99b1997131951608a",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM087-wdn-rgba8x.png",
+      "alpha_parent_sha256": "614908f9970666f60b2a28ea2aef7f1c39cec5a5dafa01614f0ba99d51f88b74",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-soft-material.svg",
+      "vector_sha256": "b195d51057424aabf316ea54783d5deb718cec158b1ec9c1380acfed6c8e092f",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-soft-material-render.png",
+      "render_sha256": "ea35952912d3a0d73aa04c32abf2b793a6c5b794e2f7272c36978d8dd195350d",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-soft-material-mask.png",
+      "mask_sha256": "190e35bb1b4669f4ce79821fcc5e6cb442f8490ce7e8395be404fd573bd7cd65",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr013-facades\\BM087-soft-material-8x.png",
+      "output_sha256": "6d1ef8d7408c9966e6390eeafc070174c4b6bd13dec67e93c5e9e0f022759cb7",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Codex-authored facade row rectangles and source-sampled wall gradients; source color blend; local WDN retained below mask; exact roof-mark restoration",
+      "facades": [
+        {
+          "id": "A",
+          "box": [
+            0,
+            0,
+            10,
+            48
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "B",
+          "box": [
+            10,
+            13,
+            22,
+            43
+          ],
+          "rows": [
+            [
+              17,
+              18
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              39,
+              41
+            ]
+          ]
+        },
+        {
+          "id": "C",
+          "box": [
+            32,
+            16,
+            43,
+            56
+          ],
+          "rows": [
+            [
+              20,
+              22
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              45,
+              47
+            ],
+            [
+              49,
+              51
+            ],
+            [
+              53,
+              55
+            ]
+          ]
+        },
+        {
+          "id": "D",
+          "box": [
+            43,
+            2,
+            57,
+            46
+          ],
+          "rows": [
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              26,
+              27
+            ],
+            [
+              30,
+              32
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              39,
+              41
+            ],
+            [
+              44,
+              46
+            ]
+          ]
+        },
+        {
+          "id": "E",
+          "box": [
+            57,
+            18,
+            73,
+            53
+          ],
+          "rows": [
+            [
+              23,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ],
+            [
+              47,
+              49
+            ],
+            [
+              51,
+              53
+            ]
+          ]
+        },
+        {
+          "id": "F",
+          "box": [
+            73,
+            0,
+            89,
+            44
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "G",
+          "box": [
+            85,
+            5,
+            95,
+            50
+          ],
+          "rows": [
+            [
+              9,
+              10
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              17,
+              19
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              27,
+              29
+            ],
+            [
+              32,
+              34
+            ],
+            [
+              36,
+              38
+            ],
+            [
+              41,
+              43
+            ],
+            [
+              45,
+              47
+            ],
+            [
+              49,
+              50
+            ]
+          ]
+        },
+        {
+          "id": "H",
+          "box": [
+            95,
+            20,
+            107,
+            57
+          ],
+          "rows": [
+            [
+              24,
+              26
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              33,
+              35
+            ],
+            [
+              39,
+              40
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              52,
+              54
+            ],
+            [
+              56,
+              57
+            ]
+          ]
+        },
+        {
+          "id": "I",
+          "box": [
+            107,
+            13,
+            118,
+            57
+          ],
+          "rows": [
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              34,
+              35
+            ],
+            [
+              38,
+              40
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              52,
+              54
+            ],
+            [
+              56,
+              57
+            ]
+          ]
+        },
+        {
+          "id": "J",
+          "box": [
+            118,
+            0,
+            128,
+            48
+          ],
+          "rows": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              28,
+              30
+            ],
+            [
+              33,
+              34
+            ],
+            [
+              37,
+              39
+            ],
+            [
+              42,
+              44
+            ]
+          ]
+        }
+      ],
+      "drawn_row_runs": 86,
+      "drawn_row_cells": 868,
+      "inset_source_pixels": 0.13,
+      "source_color_mix": 0.35,
+      "protected_source_box": [
+        74,
+        1,
+        89,
+        4
+      ],
+      "alpha_exact_to_parent": true,
+      "new_neural_passes": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Rejected: per-pixel dividers remain artificial even with more source color.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_facade_left.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_facade_right.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_facade_whole.png"
+  ],
+  "new_neural_passes": 0,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "limitation": "Rows and cells trace observable low-resolution marks; they do not establish the number or true appearance of architectural windows."
+}

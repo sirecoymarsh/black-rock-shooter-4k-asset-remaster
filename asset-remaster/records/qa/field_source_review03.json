@@ -1,0 +1,1568 @@
+{
+  "schema": "brs-field-source-review/v3",
+  "scope": "Next72 unclassified field-only pixel groups; source appearance is not consumer/UV/exclusion proof.",
+  "source_inventory": "qa/field_map_inventory_v2.json",
+  "source_inventory_sha256": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+  "prior_classifications_sha256": {
+    "qa\\field_source_review01.json": "bfe35ae164c69580588137564266a98133ea07e65628d54be7bedf1dacbe0f08",
+    "qa\\field_source_review02.json": "d5093f7d1feac04546a7efc14071fae4e58576326d6306b3fe736f87d60a2d61"
+  },
+  "files": [
+    {
+      "group_id": "FM0273",
+      "representative": "map_d_stg03_06.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_06.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_06.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "4ddbea8afd626ad39b6256d2f2b5ae29194f663f2764dde7d7e6f1327901c352",
+      "source_rgba_sha256": "c69a76a247d3036a91caa5321588d6803c0ec69404795be60aa98ca89cce876c",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_natural",
+      "page": 1,
+      "source_visual_note": "Purple icicle fringe; preserve thin tips and alpha.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0274",
+      "representative": "map_d_stg03_06.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_06.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_06.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "969183cac4353b47285a6e55a706e0341663a2ae9f52fa8d983a064633c73bec",
+      "source_rgba_sha256": "7acf84a85030e6464454a8a5dee75f679d89ad3bd4d4a5d4c648ba81d8ae5677",
+      "size": [
+        64,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "classification": "alpha_water_fx",
+      "page": 1,
+      "source_visual_note": "Vertical pale waterfall/spray with stippled alpha edges.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0275",
+      "representative": "map_d_stg03_0d.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_0d.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_0d.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "30661ecad7ac937c54e0a58cf1af7e45d3f85401b4c2b659c1291d3760a5cd40",
+      "source_rgba_sha256": "7725e3f7af509207c2dee76e73c56f4d98538a51852c9c61afbbd6c01eae49ad",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 1,
+      "source_visual_note": "Ribbed rectangular vent plus faceted vehicle/machinery fragments; preserve straight ribs and distinct islands.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0276",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "24fa128d31efad8327e0de98914febe140b85539afaf33660b9c82cda67cf40d",
+      "source_rgba_sha256": "9c8cdf1ea4627913cb9475f436693eba003fdf57c1c950733c1a0b6a7e22cdd3",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 1,
+      "source_visual_note": "Orange-green mottled moss/ground material with pale bands.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0277",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "0e9f068f079a1f11a405aaa75d1d6df5aa5046f2ed6926580b18d6bc1399f08c",
+      "source_rgba_sha256": "87738711fcbef240588dd6dc18d8ee9438e40f7fd20fead4978130dd6e19d372",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 1,
+      "source_visual_note": "Green-gray coarse rock/ground grain.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0278",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "5b91a682a08652bc327db963c4e7f58bdee30c024c3ce4b87611355e36e0f4f1",
+      "source_rgba_sha256": "247b687b06f6f1ec6f0838f5139855d79630c96ca555c220e1fc0f0f9bf69917",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_ruin",
+      "page": 1,
+      "source_visual_note": "Small gray cutout ruin silhouette with narrow legs and broken top.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0280",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "4ef237e667376a26cf535598b12d54f1f26c7583a56fa9f9c4a7ded35d0cb4a4",
+      "source_rgba_sha256": "00ed7fd412d5647e0a6428c1571eb67474bc5b13374ed90c3bc31e850f928625",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 1,
+      "source_visual_note": "Gray layered stone/ground with irregular diagonal shading.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0281",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex005",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex005.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex005.ptm",
+      "source_ptm_sha256": "86bd2460b52519dde61927e1b639c6b61438552bcd7403d4f41254a8d17395c3",
+      "source_rgba_sha256": "7b982b3cb2a406234426c7b532f14f38a75d6dec349fc8d9c2e5f3368a20f966",
+      "size": [
+        32,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_structure",
+      "page": 1,
+      "source_visual_note": "Tall pipe/support atlas with thin horizontal connectors.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0282",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "01835da2e154bf91423c8026ae172e3f411936ea626e1addb6602b9c9a1da65d",
+      "source_rgba_sha256": "d6cc406d06ba26b952433233a459c94f15569de7a459d63496fdc8d8a6b41344",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "structured_panel",
+      "page": 1,
+      "source_visual_note": "Dark flat panel with a fine left vertical light line and bright right edge.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0284",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "b81c6622be2fba3bf9bd58ec6f839bfe440424ce4aea7c64e73497c9e194bd69",
+      "source_rgba_sha256": "94cc33dc8abaf151208461ed1c6647aea2bf96f50cdd1d43e1e0bc3e408ad861",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "protected_lattice",
+      "page": 2,
+      "source_visual_note": "Dense upper metal grid and lower diagonal diamond panel; alpha holes and repeat phase require explicit reconstruction.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0286",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex010",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "422b3964299c2161dac0fba9786219e60b2c60065aa0858901e8a603fab2a138",
+      "source_rgba_sha256": "84da0735e48e71173acafe5937cf48ebb1e2a2e37327cf944c6bee1a7e6fd57d",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 2,
+      "source_visual_note": "Gray shaded surface with a dark broken left edge; material identity not proven.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0289",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex015",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex015.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex015.ptm",
+      "source_ptm_sha256": "45ec1941152e5e94887d764c3f630734898b98125ff7fd09ec9264b4feafac76",
+      "source_rgba_sha256": "14247afd2e1a6d278e644957e36728926ac3672ef4f2178982fdfcd78f56e076",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage_thin",
+      "page": 2,
+      "source_visual_note": "Bare branching tree crown with many thin strands.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0290",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex016",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.ptm",
+      "source_ptm_sha256": "b9672f925e79fdabf2094e347956aa423f47520d88deaef15d14d501334caa15",
+      "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 2,
+      "source_visual_note": "Tall green branching plants with thin stems.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0295",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc00/tex021",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex021.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex021.ptm",
+      "source_ptm_sha256": "491036cf0a25129cfe28362e0649b3337e9c5e3490a6dafa89773250f5e67837",
+      "source_rgba_sha256": "55b92c0b83ddbb3035d1565b6bc7cf21e551d1e9f98eeca5b179c563433fc67b",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage_thin",
+      "page": 2,
+      "source_visual_note": "Radial dark branch/foliage cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0297",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc01/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc01\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc01\\tex001.ptm",
+      "source_ptm_sha256": "12876373ada4a2ef508ce6e106b4fd23c5ab0d48d42dcfa13094c4bcc9cc40c3",
+      "source_rgba_sha256": "3e3d31fa5336f6a355e985c8e8e31b61d571e9de6afb9e3718168b83538934d0",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 2,
+      "source_visual_note": "Pale blue-gray cloudy sky material.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0298",
+      "representative": "map_d_stg04_01.bin/sc11/sc01/sc01/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc01\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc01\\tex002.ptm",
+      "source_ptm_sha256": "c40df049aad8df0c0581eb24a4ff800501f5a46e17e0c990d24d5b276551340b",
+      "source_rgba_sha256": "682b08d000b83b0df0d5d473b31139b1641eedb907e4e66a6ce28fc94bb10dd6",
+      "size": [
+        16,
+        8
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "protected_binary_mask",
+      "page": 2,
+      "source_visual_note": "16x8 binary white shape with symmetric cutouts; consumer/shader meaning unknown, no neural repaint.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0301",
+      "representative": "map_d_stg04_02.bin/sc11/sc01/sc00/tex013",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.ptm",
+      "source_ptm_sha256": "712e7e556cca6731cfa7bf0c3c361435f290ecdd29d7251b7b8b840b1c3b5915",
+      "source_rgba_sha256": "cbf5a31844c147d815c04c70eb24a3c8cea915aec31704617b47324ba8fdabee",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 2,
+      "source_visual_note": "Radial broad olive leaves.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0302",
+      "representative": "map_d_stg04_03.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "53dfffdf1c86774d58e4ec6a2be3dc2b329a7f988c598c28cbed96a51a2a6a03",
+      "source_rgba_sha256": "fa0f58ecc743a4bf27c1488fcb8ef23a38574ec3b67a359eb101243347bfefb2",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 2,
+      "source_visual_note": "Blue-green water-like broad swirls; actual consumer not established.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0303",
+      "representative": "map_d_stg04_03.bin/sc11/sc01/sc00/tex006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "81fc434a03a201519b9bb1c75b8e518a7992db5d7d64c00c1f251a9c3c7c3303",
+      "source_rgba_sha256": "10a2da41a600cb25aac13162ae66b58d00d887451d5b776af53ec9b2ef55767a",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 3,
+      "source_visual_note": "Irregular dark rock faces with pale edges; source cracks already present.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0304",
+      "representative": "map_d_stg04_03.bin/sc11/sc01/sc00/tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "50649960e93923df2d979ea23e98554dda1f184a2b254f9c966e3a0fae0bcead",
+      "source_rgba_sha256": "449a6ea4bed4961529838a11de828fe7ab80d172cc6f69f502c095b5549f6ce5",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 3,
+      "source_visual_note": "Gray vertical striation/bark or stone surface.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0305",
+      "representative": "map_d_stg04_03.bin/sc11/sc01/sc00/tex010",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "02dd90d9352f5b08fa600352ab2c9aba18634e2e989de1765ee22f20ba574899",
+      "source_rgba_sha256": "87ddc0b648b6a1c24baf224e72d286e1968c3b54e60f2f41a2f2294cd030cc67",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 3,
+      "source_visual_note": "Tan concentric wood end-grain rings; keep intentional curves and ring topology.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0306",
+      "representative": "map_d_stg04_03.bin/sc11/sc01/sc00/tex019",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex019.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_03.bin\\sc11\\sc01\\sc00\\tex019.ptm",
+      "source_ptm_sha256": "11aa181712030eb18506271ba50bf8941d3dad62c0adba812c60fbc2f769e733",
+      "source_rgba_sha256": "f4cf2781bc6a9a111282a47cb1a744edd8ba1c98d394999361e3c790e24b626f",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 3,
+      "source_visual_note": "Dark blue-green broad fluid-like swirls.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0307",
+      "representative": "map_d_stg04_04.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_04.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_04.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "e2b1971953d9fb12617e547eb39d1e7575be28921601e2e6e7b79945c4622c72",
+      "source_rgba_sha256": "0c4d2ac566cfd8b3e94f4f5ad50d14bd18be271ebff5fb0aebba32869e907c30",
+      "size": [
+        64,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 3,
+      "source_visual_note": "Tall high-contrast pale-gray bark/rock surface.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0308",
+      "representative": "map_d_stg04_04.bin/sc11/sc01/sc00/tex016",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_04.bin\\sc11\\sc01\\sc00\\tex016.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_04.bin\\sc11\\sc01\\sc00\\tex016.ptm",
+      "source_ptm_sha256": "a76a3fe8711a6d69aa669930626d2707ed65904743e4510596c9a2d91f2ed987",
+      "source_rgba_sha256": "4c64732472b48024ea7ae35405e30880460008989c03327f1c118e7162dea178",
+      "size": [
+        256,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_landscape_fx",
+      "page": 3,
+      "source_visual_note": "Pale cloud/mountain strip with thin bright right-side branches or lightning; preserve alpha.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0310",
+      "representative": "map_d_stg04_0a.bin/sc11/sc01/sc00/tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "de5687f268572b92012c8ed7ba178a5478f6954bd298918bae8baee5cd2c66bb",
+      "source_rgba_sha256": "280824d295a4da6a73c2981bb898390c71ff140dbddd6db8ff67ba55143d2036",
+      "size": [
+        128,
+        256
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage_thin",
+      "page": 3,
+      "source_visual_note": "Tall bare tree branch silhouette, tapering thin tips.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0311",
+      "representative": "map_d_stg04_0a.bin/sc11/sc01/sc00/tex009",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "fb77c51b8c8b6bd9a58391f2585ca37ea628842828f3a245b07de8306e031c0e",
+      "source_rgba_sha256": "06164aeba30ae54c3d1d4e2dd0de8964c9799ef5c8c97d163caf923cd16b9b65",
+      "size": [
+        128,
+        256
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage_thin",
+      "page": 3,
+      "source_visual_note": "Second bare tree branch silhouette, curved trunk and thin tips.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0312",
+      "representative": "map_d_stg04_0a.bin/sc11/sc01/sc00/tex010",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0a.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "0e750b9bff29a7bf902d51f0c58a42b022485134316d832c32d83a05a01f42f3",
+      "source_rgba_sha256": "1f1d29b53cbf5deee68e05205f8935ba7a9dcd6df32197c7af87d64ee4cb0f0f",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 3,
+      "source_visual_note": "Wide gray tree-canopy cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0313",
+      "representative": "map_d_stg04_0h.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "a94051d959a663ec90f1cc778bd5d8aaaaa8f5221d075a213a38b8d2eafddcee",
+      "source_rgba_sha256": "c1a46f10baf159d585a8b612e7731180851351f55c1a35e1a570fabe6419711a",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 4,
+      "source_visual_note": "High-contrast irregular bark/rock pattern with bright streaks.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0314",
+      "representative": "map_d_stg04_0h.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "f8b3b726ab1701df2f49bfbde1b91d54fc703d90b571ab79d90e12b467d22292",
+      "source_rgba_sha256": "2a4c36ca4bb42ea894cd09594b6ffd091f39c23a2c3da5c8f588fd65366e3aab",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Dark tree-line billboard with trunks and leafy canopy.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0315",
+      "representative": "map_d_stg04_0i.bin/sc11/sc01/sc00/tex011",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0i.bin\\sc11\\sc01\\sc00\\tex011.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0i.bin\\sc11\\sc01\\sc00\\tex011.ptm",
+      "source_ptm_sha256": "33a873000022fcedb7d068fafa9e5f0fe70cdf55bdc130dc44868944ea1d22df",
+      "source_rgba_sha256": "0b06022f84c2c22c74f9d3dc96395fb32d65084b061f8aed13e50f27477130fa",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 4,
+      "source_visual_note": "Fine green leaf/grass texture.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0316",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "2f2eec8d3c3d0ea19a16328aa7929bc3ccf234b4e8584049219d0757090e287e",
+      "source_rgba_sha256": "66b0cb690e4f4cd0b38973d0b963303508d53d833a1d5770e71b89b339c716f3",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Pale tree-line billboard with visible trunks and foliage.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0317",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "550b61bf11b04b00f8287c61dac8c759fe79185127d124af2c9f1f7152008834",
+      "source_rgba_sha256": "23ab809579abfe5ed3e4a6b526f3f68a2557fd1284e29f65ff739daf365fa951",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Related pale tree-line billboard; distinct source RGBA, not assumed duplicate.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0318",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "cedc2c2ce9e8dfb7eca356cc7e64e50b6522480614e7fa3b39c22d6f51afbb7b",
+      "source_rgba_sha256": "4931281d35164ecc82cff59b033b81d1f8b030fcdef9a1d862dbe1fa2d2e732a",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Wide pale-gray foliage cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0319",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "e542a3361e97f4777de57efb8d3096f7ea4f742eb006d28857a8bdc38bab7f09",
+      "source_rgba_sha256": "1cfa98ce61442586349bce2d1b2ea841ec0728b2be5fa23fa076cc8b55d3ac28",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage_thin",
+      "page": 4,
+      "source_visual_note": "Yellow-green tree-line with many thin trunks.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0320",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex007",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex007.ptm",
+      "source_ptm_sha256": "3bb02d96884ab4b0fab8e10f57dbf9df6edfba4c7a11a1de4ac6e9a046a2148d",
+      "source_rgba_sha256": "c1603b3d401380e26457d3e22cc6ac5899dfe53aea43e2477a2cf6e9b84a3a16",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 4,
+      "source_visual_note": "Round green canopy cluster.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0321",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex016",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex016.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex016.ptm",
+      "source_ptm_sha256": "012a5ad15fce8f217ea7d30d2668d6a97198737bba0a1991560eabf9e824b76e",
+      "source_rgba_sha256": "fa7f68fb39c7b576446f1efd4709a51fa4e4566ce12d81bb8c6b6af653ca5bae",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_landscape",
+      "page": 4,
+      "source_visual_note": "Distant green landscape and pale mountain strip.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0322",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex017.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex017.ptm",
+      "source_ptm_sha256": "6bf891f365cb27316eeb0e0b2aa29b5c0f125017ee0f4e2eb788a73b3b9c6745",
+      "source_rgba_sha256": "8aab880390e669f1358d93852fe517c064c25dc34ca0e88752218b37b05cd6a8",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 5,
+      "source_visual_note": "Blue-green swirling water-like surface.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0323",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc00/tex018",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex018.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc00\\tex018.ptm",
+      "source_ptm_sha256": "5a5c7766685cb464c4416b51c57a81989a1c5178897992e3c2707656e4421545",
+      "source_rgba_sha256": "77b2acc4fcb32d7610caf141ed337a94e124942906593a4d115d53055641a649",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 7,
+      "alpha_max": 242,
+      "classification": "alpha_water_fx",
+      "page": 5,
+      "source_visual_note": "Bright cellular water/caustic pattern with alpha7..242, no fully opaque boundary.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0324",
+      "representative": "map_d_stg04_0j.bin/sc11/sc01/sc01/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc01\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0j.bin\\sc11\\sc01\\sc01\\tex000.ptm",
+      "source_ptm_sha256": "c30a6af6baf1eebe74494c6c4dff35edfdcaa3aab71895ba74370b97bc299001",
+      "source_rgba_sha256": "85f15e0aaccf34ab52d07f348a5b8fa46ad9ecf9d9ccbe3b8c46f0b041b5656d",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 12,
+      "alpha_max": 247,
+      "classification": "alpha_cloud",
+      "page": 5,
+      "source_visual_note": "Cloud/spray bank alpha12..247; gradient support must be retained.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0325",
+      "representative": "map_d_stg04_0k.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "621fc0924ff3148339892830acffc7d213471b6a6bbff55de250231b076b7b75",
+      "source_rgba_sha256": "60759116fdd8e5adb6785e45b13c7655f7ba621c74fbd141d5f534c93f4bb8b9",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_foliage",
+      "page": 5,
+      "source_visual_note": "Dark tree cluster billboard with several trunks.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0326",
+      "representative": "map_d_stg04_0k.bin/sc11/sc01/sc00/tex018",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex018.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex018.ptm",
+      "source_ptm_sha256": "22b8871a30fd334929349ddf7dd18ee8616dd6fc00cefb064a4324a5930d4d41",
+      "source_rgba_sha256": "c0c73ad1c9df2e10da047e40e8ad5891e5c0163a94b7e6077c4a265f6e5e3251",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 8,
+      "alpha_max": 251,
+      "classification": "alpha_water_fx",
+      "page": 5,
+      "source_visual_note": "Pale vertical water/ice streaks alpha8..251.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0327",
+      "representative": "map_d_stg04_0k.bin/sc11/sc01/sc00/tex019",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex019.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0k.bin\\sc11\\sc01\\sc00\\tex019.ptm",
+      "source_ptm_sha256": "fdb356ad927cfea9ad2751009e8189d8c43a04db6ff70288de36fb3ae3c63cf7",
+      "source_rgba_sha256": "c6562c9689565a103448977c5d2c64a55118ebfa653026664b4cd5db3135ae81",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 1,
+      "alpha_max": 254,
+      "classification": "alpha_water_fx",
+      "page": 5,
+      "source_visual_note": "Pale foam/spray band with strong upper-to-lower alpha gradient.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0328",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex000",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex000.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex000.ptm",
+      "source_ptm_sha256": "3c831c0eff620c7c2171cbc9b4e0d9c226d3dcbd664e042ced2b5e369650c04f",
+      "source_rgba_sha256": "7788cd333cfd4dc2e9fd0932e44388f0e68fd2ef4a33d53a0cf32df75d2ff91b",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 5,
+      "source_visual_note": "Curved and faceted metal parts, dark background and separated islands; consumer association unknown.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0329",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex001",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex001.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex001.ptm",
+      "source_ptm_sha256": "996d7d41c30bf356f5e04d23264eb3d5ce1eb53d5211244408e385dbf2e5de4d",
+      "source_rgba_sha256": "2cb4bd1a2f756e4c3c875edb5f54b94aeb740314588d4241c350ec76caa4627f",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 5,
+      "source_visual_note": "Large faceted armor/machinery atlas with sharp source seams.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0330",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex002",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex002.ptm",
+      "source_ptm_sha256": "90cebad0c1a0d3e14277e631653292c9397d843b7e917661011314074bc5c049",
+      "source_rgba_sha256": "4439738103221dfaa55f91462ef09d9431701dc594c38534f37e4ae918f5b6bc",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 5,
+      "source_visual_note": "Mechanical plates, long diagonal pieces and small round parts on dark background.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0331",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "1dcb9b831ff14ca113cea7bc50ce76b00bd816ea07291d532e23ea6b18f7a459",
+      "source_rgba_sha256": "6264b75b5662f3c32e7c199c886cd4e68a42a3c69faebc65b110d7d07d12a104",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mixed_atlas_identity",
+      "page": 6,
+      "source_visual_note": "Mechanical body/wheels with tiny emblem-like marks; graphic identity unresolved.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0332",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex004.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex004.ptm",
+      "source_ptm_sha256": "bf4c55c40ae4abd3588161db137a6905c45a1ac81f2182334db7f733e39f79ad",
+      "source_rgba_sha256": "8b15076353ed16cd248b58d20ab681426e03076866bab53df58257d8cbed5dc1",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 6,
+      "source_visual_note": "Long dark machine/vehicle panel and curved wheel section.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0333",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex005",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex005.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex005.ptm",
+      "source_ptm_sha256": "65cd4c4b7dc295854321f78fdb5e35d35da9a6311f22d143327d0d994640f5b8",
+      "source_rgba_sha256": "4c2a9088de92b18ed5492142abec4badc9562701a0f4f576b0b609d6f7b788e2",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mechanical_atlas",
+      "page": 6,
+      "source_visual_note": "Dark tapered metallic fixtures and narrow shaft; preserve intentional curves and spikes.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0334",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "5f4fb0fb337d664a71f841b344d4c7dd32501b0cd277628da95d6ae786cec3b0",
+      "source_rgba_sha256": "5bbdaf9149bc102dc16f807f3a9a8bff4788ee8468d949b9503fbda7156abe1d",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "structured_panel",
+      "page": 6,
+      "source_visual_note": "Bright folded V-shaped panels; the source diagonal corner is intentional, not an axis-aligned rectangle.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0335",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex008",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "d6611dda687ea3dd383fb2b3a80ae8b939008b290b702f90789cb283337eb5c8",
+      "source_rgba_sha256": "a91ff0fe06a635a0387a50089d95fd50136661cca3ffc37cae67b639cb6b6f07",
+      "size": [
+        256,
+        128
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_architecture",
+      "page": 6,
+      "source_visual_note": "Detailed distant ruined city panorama; window grids, thin structures and possible signs need separate audit.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0336",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex009",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "b52d49501f2e4041b3fef521d896ae15d4db6eb5f456a6abc47da2eaa627d310",
+      "source_rgba_sha256": "438d5fb57acb846b744c7728bb09d170dead5f7b2e0f375c9af137e822c10b2e",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "structured_panel",
+      "page": 6,
+      "source_visual_note": "Dark road/ground with a narrow central stripe and left border.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0337",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex010",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex010.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex010.ptm",
+      "source_ptm_sha256": "a6cf0b0d558a073c63a16d104bb2f9b76c32c32c8c9e4cef3349399c590fcdf0",
+      "source_rgba_sha256": "8c600b05864a8995e6567144110f6bf45737c4a6fad8ab9010bf34ef607d046c",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "architecture",
+      "page": 6,
+      "source_visual_note": "Repeated upright pale concrete posts above a horizontal base; count and straight edges must be measured.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0338",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex011",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex011.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex011.ptm",
+      "source_ptm_sha256": "de76a13cd9ad5a2702a661c56958446dfbae212b4586e45892cc8f8d040a877e",
+      "source_rgba_sha256": "0e739a26b111277d3e017206a2cc3a02904f4d229381f9f125904ee8351856b0",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "architecture",
+      "page": 6,
+      "source_visual_note": "Damaged tan brick wall; horizontal brick joints and original irregular holes coexist.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0342",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex015",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex015.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex015.ptm",
+      "source_ptm_sha256": "31ea3a27246a6f5bfd382fa780d9142151958e7b8d3eb4a189fde58c127335e1",
+      "source_rgba_sha256": "b7f105e8ce5ba7a0d1e4aeea8c4bd97520d156df6bd987602614e85b89a24af1",
+      "size": [
+        32,
+        16
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "protected_lattice",
+      "page": 6,
+      "source_visual_note": "Tiny two horizontal dark rails and two gray uprights with alpha gaps; preserve exact layout.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0344",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex017",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex017.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex017.ptm",
+      "source_ptm_sha256": "f776169a08a988d139dcc52859c9aa484997ca5a912dd6ba8a7aca763ec68697",
+      "source_rgba_sha256": "e8e178d149689d5999f5187fa6b80f05b6d48926ca7527eac36643c513a68c52",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_vehicle_atlas",
+      "page": 7,
+      "source_visual_note": "Rusty vehicle body strip and side-view car; silhouette and window cutouts require partition-aware work.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0345",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex018",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex018.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex018.ptm",
+      "source_ptm_sha256": "dff0cbfaeca7772d9ef1578ace6139cdbe30822023d756d0d96d8ec98991638c",
+      "source_rgba_sha256": "bef9fc1a9dd469bccc1983a4eeaa5e4b5620d6fb4305d2cfb45385eb05198f1c",
+      "size": [
+        32,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "structured_panel",
+      "page": 7,
+      "source_visual_note": "Green metal strips with a central stepped diagonal seam; preserve that source bend.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0346",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex019",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex019.ptm",
+      "source_ptm_sha256": "3f626f2336a32b2fe61ba752efdec41e146a8351e8e133a0872cd091d209b56f",
+      "source_rgba_sha256": "bc5b03ff297bd8c5ca1eb67991387245818171ed91a547c9a439b6e37eafdaad",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "architecture",
+      "page": 7,
+      "source_visual_note": "Small tan lintel and repeated upright columns; source count and spacing must be anchored.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0347",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex020",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex020.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex020.ptm",
+      "source_ptm_sha256": "38902aba1296fc5c7a7845767dd4d10f2dec56e9d666ff3b05b3327e13700792",
+      "source_rgba_sha256": "e34433de70d4e6131f8155a5536f94949d99ec39080c0a5840a864599be034bc",
+      "size": [
+        64,
+        32
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "structured_panel",
+      "page": 7,
+      "source_visual_note": "Green horizontal molding and ornamental curved lattice; do not square intentional arches.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0348",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex021",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex021.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex021.ptm",
+      "source_ptm_sha256": "8991064fe35a2db5e25748f6b89fc032a34d07e8d681edbce97ee9d21a375e70",
+      "source_rgba_sha256": "662138cc1a52ee80f4dde30f6a23c7283b893142f0b6bc7633d10c8c122cbf0d",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_structure",
+      "page": 7,
+      "source_visual_note": "Tan blocks on green rail frame with rectangular alpha cutouts.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0349",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex022",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex022.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex022.ptm",
+      "source_ptm_sha256": "f7f5131889c683ad64f584e7107900cf84f4dd96a2e3d8199cdedae308af0804",
+      "source_rgba_sha256": "6cb8b1a7fc35614d62e18c9ef4396e51528b2c16a103d64d607daff4c7e4b937",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "protected_graphic",
+      "page": 7,
+      "source_visual_note": "Small blue/gray/red abstract graphic or assembled part; semantic identity unresolved.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0350",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex023",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex023.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex023.ptm",
+      "source_ptm_sha256": "a5fd1de3d2298dae3614010d705e291c1f6d44c5d46124df2f068e0117218107",
+      "source_rgba_sha256": "0d93cf3da6eab1600b5d6833b4c2210e36da53e3a66496cf3c7e28bec9cf68b4",
+      "size": [
+        64,
+        32
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "mixed_atlas_identity",
+      "page": 7,
+      "source_visual_note": "Two dark panels beside tiny light strips that may be markings/text; hold graphic interpretation.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0352",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex025",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex025.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex025.ptm",
+      "source_ptm_sha256": "b3fb9080535b73d7ea981b403a146f1c74441b6d4fe3df9c666bd45016684ced",
+      "source_rgba_sha256": "abe20b6536aeb79baf90966d3d1ee768d1f9b5abc060c7fc4a43539e28536797",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "protected_lattice",
+      "page": 7,
+      "source_visual_note": "Fine fence/grid with diagonal stair rail; many thin alpha intersections.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0353",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex026",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex026.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex026.ptm",
+      "source_ptm_sha256": "c419cfa96f41af645784bf7f8761ace49d863f8a38a7afa6e8401b4bdc9abe1c",
+      "source_rgba_sha256": "f9c233db5fcd79b021cea662d4b1c7fa340dd1e4d35d27b0663f8b29ed9009dc",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "protected_lattice",
+      "page": 7,
+      "source_visual_note": "Stair rail/diagonal structure with thin alpha and a small door/control-like plate.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0354",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex027.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex027.ptm",
+      "source_ptm_sha256": "6e1035a7aa903a61989f01902b3f4a79542008e1256dff2d4f622d78b5a289b6",
+      "source_rgba_sha256": "6ae3a3325add719450338c9fcaa1b066267a0edaa12c1cb54fae295bd87202e3",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "text_illustration_identity",
+      "page": 8,
+      "source_visual_note": "Black-clad character poster with blue/white/red design and cropped lettering; character/protagonist association must be checked, not assumed excluded.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0356",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex029",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex029.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex029.ptm",
+      "source_ptm_sha256": "b6de08d89f65ba1b36eef4bfa2ca4d9ec4b230f4448a1d3f78d5f799961af28a",
+      "source_rgba_sha256": "cc399c00e170cce961651acff469851de405ad42d8026c155f980ed458c2ed60",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_band_atlas",
+      "page": 8,
+      "source_visual_note": "Plain brown upper band and lower irregular rubble/ground material; preserve horizontal partition.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0358",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex031",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex031.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex031.ptm",
+      "source_ptm_sha256": "fe250848b1ea35689adc17c5d82707cb0c0e49adbcc25772583829f899625b5f",
+      "source_rgba_sha256": "e845d81460ef39c83eeffa3b6cd3b3d447b66fce8d05a691cdfba6210986694f",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_architecture",
+      "page": 8,
+      "source_visual_note": "Pale damaged window facade, broken glass alpha; square frames and intentional jagged glass must be distinguished.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0359",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex032",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex032.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex032.ptm",
+      "source_ptm_sha256": "4d20e9472e92d1d2d4d5d77e97292dc4131629e06d98dc002e4c8fd78ef2116d",
+      "source_rgba_sha256": "e04388f63650df0884ae9ddb0d6c804846b86c1831014bde370dfbf091617062",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_architecture",
+      "page": 8,
+      "source_visual_note": "Second damaged window facade, irregular glass and straight frame grid.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0360",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex033",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex033.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex033.ptm",
+      "source_ptm_sha256": "822e7ff162cfe75174b6cf2af2796042a344ab01d3a936337c1919bc27fa4f84",
+      "source_rgba_sha256": "bd9b7758a946bd089cc7fc83f589fe86406846bd800ca595f06b9af1d1cc9b37",
+      "size": [
+        128,
+        8
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "text_illustration_identity",
+      "page": 8,
+      "source_visual_note": "128x8 multicolor sign strip with tiny light lettering; preserve typography until semantic review.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0361",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex034",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex034.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex034.ptm",
+      "source_ptm_sha256": "941f3d444b436704e320a77b1d96c320ea7565a27307affd1a90c70d61e6d1b4",
+      "source_rgba_sha256": "1bc5e8a68bbd3023422b306f0eef75384cc89a72e136217278c6514228807015",
+      "size": [
+        64,
+        8
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_structure",
+      "page": 8,
+      "source_visual_note": "64x8 dark pipe/rail strip with one pale upright.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0362",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex035",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex035.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex035.ptm",
+      "source_ptm_sha256": "890d3f973b4299c9448ec52e9bfbe0266a27bd22981ca1cdb5621461fa8ccc22",
+      "source_rgba_sha256": "da431d10f74d045e377d2c71ddaf1ebc44ec216abcf488e8c7e51d44f2f1cd12",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "text_illustration_identity",
+      "page": 8,
+      "source_visual_note": "Large illustrated girl poster with tan/orange background; identity and any lettering protected.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    },
+    {
+      "group_id": "FM0363",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex036",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex036.ptm",
+      "source_ptm_sha256": "8bff2e124965c704127da4bc2ed6d947a96fc594e71db47d34ecbbe389994d5c",
+      "source_rgba_sha256": "e176536cbbdc31e885187325c0fcaf67292937c1c157c7c69633ef4bd43d550b",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "classification": "opaque_natural",
+      "page": 8,
+      "source_visual_note": "Fine brown mottled material; check whether visible small repeat is material grain or meaningful pattern.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": true
+    },
+    {
+      "group_id": "FM0364",
+      "representative": "map_d_stg05_01.bin/sc11/sc01/sc00/tex037",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex037.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg05_01.bin\\sc11\\sc01\\sc00\\tex037.ptm",
+      "source_ptm_sha256": "e4739f70d0d542c531482315a8ba4f3b23cbf5def2a44712e255c11773b9edb5",
+      "source_rgba_sha256": "43c184c592bc7463fa889d54f9b332591539103a370f41dc5afe65709806549e",
+      "size": [
+        128,
+        64
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "classification": "alpha_architecture",
+      "page": 8,
+      "source_visual_note": "Dark damaged facade with two window rows and jagged glass alpha.",
+      "source_review": "directly_inspected_by_Codex_internal",
+      "selected_for_field_sr004": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-01.png",
+      "sha256": "4f73de6eb0eb3233989f4fef16d77064eb0a624ec521fa4a9d25fc5586265a71",
+      "group_ids": [
+        "FM0273",
+        "FM0274",
+        "FM0275",
+        "FM0276",
+        "FM0277",
+        "FM0278",
+        "FM0280",
+        "FM0281",
+        "FM0282"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-02.png",
+      "sha256": "361975d7c19546a6dd856f3cca6aa1eac43701de791c921787969650041bcfa3",
+      "group_ids": [
+        "FM0284",
+        "FM0286",
+        "FM0289",
+        "FM0290",
+        "FM0295",
+        "FM0297",
+        "FM0298",
+        "FM0301",
+        "FM0302"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-03.png",
+      "sha256": "4c3579438b563782aee493a2b938615520aae0fdae2a60ce335370f09a53686d",
+      "group_ids": [
+        "FM0303",
+        "FM0304",
+        "FM0305",
+        "FM0306",
+        "FM0307",
+        "FM0308",
+        "FM0310",
+        "FM0311",
+        "FM0312"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-04.png",
+      "sha256": "8fa52846e24f102fdf2268398f5a30d54e512a8780ae70e6e75a2ee289443527",
+      "group_ids": [
+        "FM0313",
+        "FM0314",
+        "FM0315",
+        "FM0316",
+        "FM0317",
+        "FM0318",
+        "FM0319",
+        "FM0320",
+        "FM0321"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-05.png",
+      "sha256": "76f4a0e88be43a177837d66a96802969676d4ee1e9224787d10eda39dc1af536",
+      "group_ids": [
+        "FM0322",
+        "FM0323",
+        "FM0324",
+        "FM0325",
+        "FM0326",
+        "FM0327",
+        "FM0328",
+        "FM0329",
+        "FM0330"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-06.png",
+      "sha256": "025574d0ff84d393a317c654a6ef6bd9a4a2ddb35973085ce511cc296f870699",
+      "group_ids": [
+        "FM0331",
+        "FM0332",
+        "FM0333",
+        "FM0334",
+        "FM0335",
+        "FM0336",
+        "FM0337",
+        "FM0338",
+        "FM0342"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-07.png",
+      "sha256": "01aa56501d4e0b41545dab9b50d6f27a94505de5ea080cefa0a2a9816ec9d134",
+      "group_ids": [
+        "FM0344",
+        "FM0345",
+        "FM0346",
+        "FM0347",
+        "FM0348",
+        "FM0349",
+        "FM0350",
+        "FM0352",
+        "FM0353"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-source-review03\\source-08.png",
+      "sha256": "7d84d584e0bc5e8952d99d54d8b2f9aec9b1585e655b3434095045195b300551",
+      "group_ids": [
+        "FM0354",
+        "FM0356",
+        "FM0358",
+        "FM0359",
+        "FM0360",
+        "FM0361",
+        "FM0362",
+        "FM0363",
+        "FM0364"
+      ],
+      "review_status": "directly_inspected_by_Codex_internal"
+    }
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false,
+  "all_game_complete": false,
+  "classification_summary": {
+    "alpha_architecture": 4,
+    "alpha_cloud": 1,
+    "alpha_foliage": 9,
+    "alpha_foliage_thin": 5,
+    "alpha_landscape": 1,
+    "alpha_landscape_fx": 1,
+    "alpha_natural": 1,
+    "alpha_ruin": 1,
+    "alpha_structure": 3,
+    "alpha_vehicle_atlas": 1,
+    "alpha_water_fx": 4,
+    "architecture": 3,
+    "mechanical_atlas": 6,
+    "mixed_atlas_identity": 2,
+    "opaque_band_atlas": 1,
+    "opaque_natural": 15,
+    "protected_binary_mask": 1,
+    "protected_graphic": 1,
+    "protected_lattice": 4,
+    "structured_panel": 5,
+    "text_illustration_identity": 3
+  },
+  "selected_for_local_comparison": [
+    "FM0275",
+    "FM0276",
+    "FM0277",
+    "FM0280",
+    "FM0282",
+    "FM0286",
+    "FM0297",
+    "FM0302",
+    "FM0303",
+    "FM0304",
+    "FM0305",
+    "FM0306",
+    "FM0307",
+    "FM0313",
+    "FM0315",
+    "FM0322",
+    "FM0328",
+    "FM0329",
+    "FM0330",
+    "FM0332",
+    "FM0333",
+    "FM0334",
+    "FM0336",
+    "FM0337",
+    "FM0338",
+    "FM0345",
+    "FM0346",
+    "FM0347",
+    "FM0356",
+    "FM0363"
+  ]
+}

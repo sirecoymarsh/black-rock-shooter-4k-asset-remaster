@@ -1,0 +1,1255 @@
+{
+  "schema": "brs-local-sr-review/v12",
+  "batch": "LOCAL-SR-012",
+  "selected": {
+    "BM065": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM065-wdn",
+      "source_rgba_sha256": "476f2dc7ac55ed5dd96524100d401c1a553b314bb9f5c57f78ffcf084cf37f81",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM065-wdn-rgba8x.png",
+      "output_sha256": "0a61089b941a83be544670c3f0b72bc7983cc2b3efca5da7c35823948ce4a948",
+      "reason": "WDN keeps diamond lattice spacing, crossed braces and thin bars. Full atlas and native 8x lattice detail inspected on both mattes.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM079": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM079-wdn",
+      "source_rgba_sha256": "8116f806534fc6506df2c545a87b4970bfec3b82be73900f4d4cd0bdd1a19319",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM079-wdn-rgba8x.png",
+      "output_sha256": "1824fd169ce8fcf2ebff7bfc854782d123b78d8e4cd9d78358c84cc35cb4d8ae",
+      "reason": "WDN retains four vertical members and their open gaps. Added surface relief is an inference; source spacing and matte visibility checked.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM062": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM062-photo",
+      "source_rgba_sha256": "18a1c34e6a0b07ea232b373d76551087a424a3ace6304d873ee5f504f47f10c5",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM062-photo-rgba8x.png",
+      "output_sha256": "f576d13501e046c99f7a8c74df3d58a1f5ebc2db52494d1520385850609a0888",
+      "reason": "Photo keeps thin ruined beams and blue source masses with less rough surface grain. Full views on both mattes inspected.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM063": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM063-photo",
+      "source_rgba_sha256": "2dca41f649cbde4fa91b42c095c36b84e501d7dd6e71970deb9512d61a75801b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM063-photo-rgba8x.png",
+      "output_sha256": "87880581eb5f3fbe985d8168a8662ca573eb09b1577a8c588f2e9e12d3ab63a1",
+      "reason": "Photo keeps thin scaffold projections and rubble silhouette, with restrained material detail. Both mattes inspected.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM074": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM074-photo",
+      "source_rgba_sha256": "756f626e6d603e2c8eb0d7195d31aeccccc758036fbd51c3fdfc73203f6dc94c",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM074-photo-rgba8x.png",
+      "output_sha256": "fe0eda8a31c56ec055b6db90bb662f3d6eed8202c10dddf193908c684eb398f8",
+      "reason": "Photo keeps two very thin horizontal strips and separated lower plate; detail views on both mattes retain the strips.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM101": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM101-photo",
+      "source_rgba_sha256": "e4fb034c89d3e2fd7cd168e8866365ea0ce3ca7279ae4948ab7f5aaf11b6deb7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM101-photo-rgba8x.png",
+      "output_sha256": "26f9a39e995b356a7b68ab95868c1b3d6cd42c0457b0bc3129a73936f372b6e4",
+      "reason": "Photo keeps three window columns and original horizontal divisions with calmer surfaces. Original bilinear alpha used without alpha inference.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM116": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM116-photo",
+      "source_rgba_sha256": "17c2f6e1d36d8019daee410b305c078792cd16d4782439271fc90550ee3fc2cf",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM116-photo-rgba8x.png",
+      "output_sha256": "b446ca1d1baa45d69ea91400ebb683edd852b532dd5eea4d9cc8cd80db6c34a0",
+      "reason": "Photo retains two paired window rows and the lower panel, with cleaner glass than WDN. Source bilinear alpha verified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM118": {
+      "source_report": "qa/local_sr012_inference.json",
+      "id": "BM118-photo",
+      "source_rgba_sha256": "c8e13e2f447d9d4c91304cf59e7760b9d41ed9c71578005122e4999dcc12a11b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM118-photo-rgba8x.png",
+      "output_sha256": "c4d0bfd216351822f2f8f630b139466abda7dafefef5281bc02ded749bba157f",
+      "reason": "Photo retains paired window rows and dark lower panel with less grain. Source bilinear alpha verified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM110": {
+      "source_report": "qa/local_sr012_manual_shaded.json",
+      "id": "BM110-codex-grid-and-fastener-v3",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-grid-and-fastener-v3.png",
+      "output_sha256": "5360f77687a5403f9cf677bd21903f62ce466e11cea9aae3e32d4040cd3742c0",
+      "reason": "Codex-authored straight grid restores nine full horizontal slats, four vertical slats and the four source row-15 segments. Authored central cross and two holes replace the changed model center. Surrounding frame/rings retain local WDN material, and center broad shading comes from the source. Static candidate only; full geometry/UV/runtime remains unverified.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    "BM111": {
+      "source_report": "qa/local_sr012_smoke_alpha.json",
+      "id": "BM111-wdn-source-bicubic-alpha",
+      "source_rgba_sha256": "ceeba4524ad2bb07f0169f8b509725a167f19062412d054a7f7afd8c346687f7",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr012-smoke-alpha\\BM111-wdn-source-bicubic-alpha.png",
+      "output_sha256": "250aeeb0ed20ee04f475e725ae1e7d2714730303823756ce496f79391243272a",
+      "reason": "WDN RGB with source bicubic alpha retains faint peripheral particles lost in the original WDN/Photo trials. The tested weak-alpha loss count is zero, while threshold128 IoU remains below one; no all-particle geometry claim.",
+      "status": "static_candidate_for_consumer_and_game_review",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  },
+  "new_holds": {
+    "BM087": "All four local model conditions lose/merge original small windows; source-structure retries recover source marks but remain too soft. Direct facade redraw is required.",
+    "BM115": "Initial results add strong metallic sheen and granular edges; filtered and source-guided retries trade that for excessive softness. Direct source-faithful material redraw is required."
+  },
+  "checked_outputs": [
+    {
+      "id": "BM062-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0003535287319485,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM063-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9998766083192584,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM065-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          256
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9996102670485865,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM074-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9997738108915442,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM079-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          16
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9987124940702087,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM087-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0000823613956689,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM101-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.000048578510607,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM110-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9999069025830146,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 4
+    },
+    {
+      "id": "BM111-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          64,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9999255341540044,
+        "source_threshold128_iou": 0.8328125,
+        "source_ge16_reduced_below8": 5,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM115-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9999958485992884,
+        "source_threshold128_iou": 0.9972959052279166,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM116-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0000178380306814,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM118-wdn",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.000000601744964,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM062-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.000098312356146,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM063-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9996052185475145,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM065-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          256
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.999482140161955,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM074-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9997929591758579,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM079-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          16
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9994643421884883,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM087-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0000076649678729,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM101-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.000048578510607,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM110-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9996911138681479,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 4
+    },
+    {
+      "id": "BM111-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          64,
+          128
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 0.9999530119810803,
+        "source_threshold128_iou": 0.8265940902021773,
+        "source_ge16_reduced_below8": 5,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM115-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0000207246969381,
+        "source_threshold128_iou": 0.9984544049459042,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM116-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.0000178380306814,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM118-photo",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          64
+        ]
+      ],
+      "alpha": {
+        "panel_bilinear_reconstructed": true,
+        "zero_and_255_support_verified": true,
+        "mass_ratio": 1.000000601744964,
+        "source_threshold128_iou": 1.0,
+        "source_ge16_reduced_below8": 0,
+        "outside_panel_bilinear_support": 0
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM087-anime-raw",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM110-anime-raw",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM087-general-raw",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM110-general-raw",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 2
+    },
+    {
+      "id": "BM115-wdn-filtered",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          64
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 1
+    },
+    {
+      "id": "BM115-guided",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM115-filtered-guided",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM087-structure-0.15",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM087-structure-0.35",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          128,
+          128
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM110-structure-0.15",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM110-structure-0.35",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          64,
+          32
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM115-structure-0.65",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [
+        [
+          0,
+          0,
+          256,
+          64
+        ]
+      ],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM110-codex-vector-v1",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "exact_to_source_bilinear8x": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM110-codex-grid-and-fastener-v2",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM110-codex-grid-and-fastener-v3",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "exact_to_initial_wdn_alpha": true
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM111-wdn-source-bicubic-alpha",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "source_alpha_kernel_reconstructed": true,
+        "RGB_exact_to_local_parent": true,
+        "source_ge16_reduced_below8": 0,
+        "source_threshold128_iou": 0.8804700162074555,
+        "mass_ratio": 1.0015576142741143,
+        "outside_source_bilinear_support": 0
+      },
+      "actual_neural_passes": 0
+    },
+    {
+      "id": "BM111-wdn-source-lanczos-alpha",
+      "source_ptm_rgba_and_output_hash_verified": true,
+      "model_parent_vector_mask_hashes_verified": true,
+      "size8x_verified": true,
+      "part_coverage": [],
+      "alpha": {
+        "source_alpha_kernel_reconstructed": true,
+        "RGB_exact_to_local_parent": true,
+        "source_ge16_reduced_below8": 5,
+        "source_threshold128_iou": 0.8932078559738135,
+        "mass_ratio": 1.0032353505796887,
+        "outside_source_bilinear_support": 0
+      },
+      "actual_neural_passes": 0
+    }
+  ],
+  "new_unique_originals": 12,
+  "new_actual_local_neural_passes": 53,
+  "external_generative_calls": 1,
+  "gpt_attempt": {
+    "method": "built-in image_gen reference edit",
+    "source_reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+    "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-gpt-redraw-rejected.png",
+    "output_sha256": "332bc1245d937c3f7499654529d799813ec08cb7bb59c194160a61074a2ff87b",
+    "output_size": [
+      1774,
+      887
+    ],
+    "image_upload": true,
+    "decision": "rejected",
+    "reason": "Grille slat count/spacing and vertical divisions differ; oversized cardinal supports and redesigned circular center; object placement does not match original atlas.",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "downsample_alpha128_iou": 0.8425655976676385,
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "manual_authorship": "Codex internal",
+  "manual_geometry_checks": {
+    "horizontal_source_rows": [
+      8,
+      10,
+      12,
+      14,
+      17,
+      19,
+      21,
+      23,
+      25
+    ],
+    "vertical_source_columns": [
+      9,
+      15,
+      21,
+      27
+    ],
+    "source_line_evidence_verified": true,
+    "final_grid_rgb_exact_to_authored_render": true,
+    "outside_manual_edit_mask_exact_to_local_parent": true,
+    "original_alpha_bytes_exact": false
+  },
+  "prior_candidates_preserved": 229,
+  "processing_summary": {
+    "battle_groups_total": 284,
+    "battle_groups_locally_processed": 256,
+    "battle_static_candidates": 239,
+    "battle_processed_without_accepted_candidate": 19,
+    "battle_groups_not_yet_processed": 26,
+    "title_originals_locally_processed": 1,
+    "all_unique_originals_locally_processed": 257,
+    "source_table_entries": 416,
+    "source_decoded_entries": 413,
+    "source_format_unresolved": 3,
+    "all_game_complete": false,
+    "runtime_verified": false,
+    "latest_rework": "qa/local_sr012_review.json",
+    "new_unique_originals_latest_rework": 12,
+    "new_unique_originals_LOCAL_SR_003": 47,
+    "checked_output_records_LOCAL_SR_003": 115,
+    "checked_output_records_latest_rework": 41,
+    "new_unique_originals_LOCAL_SR_005": 49,
+    "neural_passes_LOCAL_SR_005": 102,
+    "new_unique_originals_LOCAL_SR_006": 21,
+    "neural_passes_LOCAL_SR_006": 86,
+    "review_pack_exact_keys": 20,
+    "new_unique_originals_LOCAL_SR_007": 0,
+    "neural_passes_LOCAL_SR_007": 36,
+    "new_unique_originals_LOCAL_SR_008": 24,
+    "neural_passes_LOCAL_SR_008": 54,
+    "new_unique_originals_LOCAL_SR_009": 24,
+    "neural_passes_LOCAL_SR_009": 120,
+    "new_unique_originals_LOCAL_SR_010": 31,
+    "neural_passes_LOCAL_SR_010": 104,
+    "new_unique_originals_LOCAL_SR_011": 42,
+    "neural_passes_LOCAL_SR_011": 184,
+    "battle_groups_processed_any_method": 258,
+    "battle_geometry_only_groups_processed": 2,
+    "battle_groups_never_locally_inferred": 28,
+    "neural_passes_CHECKER_001": 2,
+    "counter_contract": "Locally processed counts mean actual neural inference. Processed-any-method also includes explicitly recorded deterministic geometry. Static candidate/held/unprocessed counts use all methods.",
+    "new_unique_originals_LOCAL_SR_012": 12,
+    "neural_passes_LOCAL_SR_012": 53,
+    "generative_calls_LOCAL_SR_012": 1,
+    "manual_reconstructed_groups_LOCAL_SR_012": 1
+  },
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM065-detail.png",
+      "sha256": "2a945bedd31be7ef528b8d7c4013d4a18ed7eb4ba7cbb6fd851ca41a0d7c900b",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM074-detail.png",
+      "sha256": "bf5681239c64edb80ee3fa74527823d5f4fcb867cd3fe849cb378018d0270ce1",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM079-detail.png",
+      "sha256": "362e0773a1534b4956b805a9b06d25b19f64848ba24043b546c61d39e14b2945",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM087-detail.png",
+      "sha256": "217bf6155ac28c3e5255b49cfe16cb303a014a0349e0bf75f3571c4898902ffc",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM110-detail.png",
+      "sha256": "99420dd302c46f6f804516eb3f6b259cb5a627f2ee24d1e027b1d03e293e0efd",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\BM115-detail.png",
+      "sha256": "c044cfcafe77e41e002877e20e8de8ff219f1f969deec3337391728aadb53c3c",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-01.png",
+      "sha256": "c023bad122cdf06d8d1bb443c29ad00c8dbb35bc6ae4a203daaf2ef520504249",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-02.png",
+      "sha256": "dfb43008892c56410b820c99316f7c6a76642c95332fb8c045ba878311d9dcf8",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-03.png",
+      "sha256": "4c97f773d06d948b803ddb8b5565cd8a8d0b5575d7593478d9c4088d69f19642",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-mattes\\matte-04.png",
+      "sha256": "4c367391e41a1e483dbe920b1a1f7f5f896007dc39b17b4c06118b9f0d710f04",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-review\\review-01.png",
+      "sha256": "ee660da5aa98269ab30201332a5cb5e15682d8d98bf1eb085d02365640300696",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-review\\review-02.png",
+      "sha256": "0a33f07a69a00d3c079a107ee66e731e3172fd53192087790c14b6d554922911",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-review\\review-03.png",
+      "sha256": "ea41cebf71e375e3d725466e7cae74d087eee79ee1af70e232c11ecba1ca50aa",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012-review\\review-04.png",
+      "sha256": "d22dabcd351508ea6a1ac04a4321be2634547949f1b58af4092f3cbc9f9e9593",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_BM087_facade_source.png",
+      "sha256": "434541bb452493d64ffe5d36e535c530206f2ffc86518c49be97d1471db2890f",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_BM110.png",
+      "sha256": "bacc9ad8e25fbd82f20064c5c581519c9ec86754543b481f7423a06f7fc1a69d",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_hybrid_BM110.png",
+      "sha256": "4580697ac24257cf6375cbf73d6c5dc0f07a61f48456d43620ce44b58e86fed1",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_shaded_BM110.png",
+      "sha256": "10712b64e04e2d9d0ddea59bf939b061bc40b36f3a41bd74b5e315b1fdda1bd5",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_rework_BM087.png",
+      "sha256": "15efea00d9986a69c2e5a853eebfa1d64cc029c89a46c56e16c958215ee2ec2c",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_rework_BM110.png",
+      "sha256": "093b998571a49c285d2c86d934f5a444e70f1385f29c4442e47b1b8a858bebbf",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_rework_BM115.png",
+      "sha256": "fe0177300c590db44179511a625ee0ec336440e9d37790e09030163bee6161d9",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_smoke_alpha.png",
+      "sha256": "9b092e6441fc15aed54c20760ce1e8da0bae0637841bd43835c52407bdaa0cab",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM087.png",
+      "sha256": "e10d5cc41035f37f3ed7811700b9144c632d79e59203d212ff82701fa70d1184",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM110.png",
+      "sha256": "4c4c853d835846b3e100550334726a09a472fbff93d740ceeee53d92aa6a5c9f",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_structure_BM115.png",
+      "sha256": "2d3635effb6d57d2957a4cb6a7465250178477ea099604f386856369aeb15c55",
+      "reviewer": "Codex internal"
+    }
+  ],
+  "new_sources_observed_keys": 0,
+  "pack_unchanged_keys": 20,
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "limitations": [
+    "Static candidates still require native UV and actual game display checks.",
+    "Only original source-bilinear zero/255 alpha support is constrained for neural-alpha outputs; single-threshold loss checks do not prove all geometry.",
+    "Manual grid/center is an explicit source-informed reconstruction, not recovered unknown original HD artwork.",
+    "BM087 small windows and BM115 rubble remain held for direct redraw; their local attempts were not accepted.",
+    "Full-vector v1 was rejected for flat material and edge specks; chosen v3 keeps local outer material.",
+    "284 is the battle-map denominator only. Field, enemy, effects and whole-game verification remain unfinished."
+  ],
+  "scripts": {
+    "batch_sr012_alpha.py": "ec70cb9b6db7dd21914fb506c1ba71aba377f3b92fdabde993a5ae27495c8f88",
+    "prepare_sr012_review.py": "797f5044ac75dc85c0aad9ed416976e89aa8eba6b1555c74f9919850d92a9366",
+    "rework_sr012.py": "58b6da4f6616eac5a57d521e0b448b91c83862a31377b753f5f817913de4dfcb",
+    "structure_sr012.py": "4aebe5b59d1605f61b4970aa2fd0930ad2924c522b7d501706c29ce843245bef",
+    "draw_sr012_grille.py": "5fcf78b926c33932d3c8349c30574c58ba6fdb6c52f09ffcf3c597dcfe0c0ef6",
+    "hybrid_sr012_grille.py": "f99565b9425e374c699adb8001d35802526b5ad48ada6f863e453ce7a03fd4d1",
+    "shade_sr012_fastener.py": "ec8541d25203fd6ce4c273b70dcbd211ba1e4bee95884d6c429275f9ab081e23",
+    "repair_sr012_smoke_alpha.py": "2cda7e6359f674ee5de72fc66ecec21f533f0feeafd797e2b17c9401b164cf74",
+    "finalize_sr012.py": "2cde4c92b7efcdd06ed42c48e69906b2035ab4dcaaafa2212b7e0a6d6e00bd14"
+  },
+  "resolved_holds": {
+    "BM115": {
+      "resolved_by": "qa/local_sr013_review.json",
+      "candidate_id": "BM115-tone080-edge2",
+      "runtime_verified": false
+    },
+    "BM087": {
+      "resolved_by": "qa/local_sr013_review.json",
+      "candidate_id": "BM087-bands",
+      "runtime_verified": false
+    }
+  }
+}

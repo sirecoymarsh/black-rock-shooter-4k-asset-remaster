@@ -1,0 +1,76 @@
+{
+  "schema": "brs-sr013-rubble-edge/v1",
+  "files": [
+    {
+      "id": "BM115-tone080-edge2",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone-0.80.png",
+      "parent_sha256": "d5fcbd962a1a65ec9818d535d671e30c652fcb97a9ea44e624e2a593cf8ece5b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone080-edge2.png",
+      "output_sha256": "c9cfa28ce1f4c7936df4679a902b9996ad8d511d26e8e3f6899054b4f8788edc",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Coverage contrast on source bilinear alpha only; half-coverage contour and 0/255 support unchanged; registered repaint RGB byte-exact",
+      "alpha_strength": 2.0,
+      "alpha_formula": "round(clip((source_bilinear_alpha-127.5)*strength+127.5,0,255))",
+      "alpha_metrics": {
+        "source_ge16_reduced_below8": 0,
+        "source_threshold128_iou": 0.9966542272551795,
+        "mass_ratio": 1.0179848370815905,
+        "source_bilinear_half_coverage_exact": true,
+        "components_alpha128": 3,
+        "outside_source_bilinear_support": 0,
+        "opaque_support_preserved": true
+      },
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM115-tone080-edge4",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone-0.80.png",
+      "parent_sha256": "d5fcbd962a1a65ec9818d535d671e30c652fcb97a9ea44e624e2a593cf8ece5b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone080-edge4.png",
+      "output_sha256": "2bf19f38cbd9066fa2729cd52159baddff06ff272ea3965bf9b12f45e24a0cb8",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Coverage contrast on source bilinear alpha only; half-coverage contour and 0/255 support unchanged; registered repaint RGB byte-exact",
+      "alpha_strength": 4.0,
+      "alpha_formula": "round(clip((source_bilinear_alpha-127.5)*strength+127.5,0,255))",
+      "alpha_metrics": {
+        "source_ge16_reduced_below8": 0,
+        "source_threshold128_iou": 0.9966550881255628,
+        "mass_ratio": 1.01871641242218,
+        "source_bilinear_half_coverage_exact": true,
+        "components_alpha128": 3,
+        "outside_source_bilinear_support": 0,
+        "opaque_support_preserved": true
+      },
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_connector.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_middle.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_edge_whole.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

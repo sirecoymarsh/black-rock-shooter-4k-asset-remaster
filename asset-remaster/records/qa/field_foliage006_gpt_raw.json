@@ -1,0 +1,136 @@
+{
+  "schema": "brs-field-foliage006-GPT-raw/v1",
+  "tool": "built-in image_gen",
+  "actual_external_calls": 2,
+  "model_id": "not exposed",
+  "files": [
+    {
+      "group_id": "FM0290",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+      "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+      "reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\source-nearest8x.png",
+      "reference_sha256": "1057cdab0eab1fd5114f2ac949b105b341258b5d1dba0c2420cf031a3db19b17",
+      "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\prompt.txt",
+      "prompt_sha256": "4a9cf7bd68f13a2d515857cd73729cac449170e9ac1d2aadeb8098681bdade70",
+      "tool": "built-in image_gen",
+      "model_id": "not exposed",
+      "status": "raw_generated_pending_review",
+      "raw_generated_image_preserved": true,
+      "source_protected_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0290-source-alpha8x.png",
+      "source_protected_alpha_sha256": "7d2c07f031181a83957d32bb42fe37589c0789bb97b439007ea5302766610110",
+      "generated_store_path": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-ff144a04-4994-4098-895d-ec6a4f854247.png",
+      "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\generated-raw.png",
+      "raw_sha256": "618e94c0749ba51a9abd71b7eea9b1b9063abb49965f2a24ef510b807d2314ee",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "raw_alpha_diagnostics": {
+        "extrema": [
+          0,
+          255
+        ],
+        "unique_values": 256,
+        "source_scale_IoU_at128": 0.8426692644909888,
+        "mass_ratio": 0.8423601809037342,
+        "source_center_mask_disagreements": 323,
+        "source_nonzero_pixels": 1995
+      },
+      "high_chroma_edge_diagnostics": {
+        "opaque_green_pixels": 0,
+        "opaque_cyan_pixels": 0
+      }
+    },
+    {
+      "group_id": "FM0314",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_0h.bin\\sc11\\sc01\\sc00\\tex002.png",
+      "source_rgba_sha256": "2a4c36ca4bb42ea894cd09594b6ffd091f39c23a2c3da5c8f588fd65366e3aab",
+      "reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0314-foliage-v1\\source-nearest8x.png",
+      "reference_sha256": "bca5ac65e1cf326f4e405b7e21efbc54760104b38179d084e69212d201c02d20",
+      "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0314-foliage-v1\\prompt.txt",
+      "prompt_sha256": "48c31e3a536f8724a6b99d854ff77d3127bc01c7108959c78df82c0c32d43865",
+      "tool": "built-in image_gen",
+      "model_id": "not exposed",
+      "status": "raw_generated_pending_review",
+      "raw_generated_image_preserved": true,
+      "source_protected_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0314-source-alpha8x.png",
+      "source_protected_alpha_sha256": "74668b1e66a72b5845e16c6e46ed65d297dba3d2d5fe520daf4dd5334b5bcdee",
+      "generated_store_path": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-7150d026-802f-4136-9bed-10c64d1098cb.png",
+      "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0314-foliage-v1\\generated-raw.png",
+      "raw_sha256": "f8a77326e150b0f565ad20ecc1260c14d345bd6f3f33b5fc93c2b377245c9dd1",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "raw_alpha_diagnostics": {
+        "extrema": [
+          0,
+          255
+        ],
+        "unique_values": 256,
+        "source_scale_IoU_at128": 0.9493893502686859,
+        "mass_ratio": 0.9767064442256906,
+        "source_center_mask_disagreements": 518,
+        "source_nonzero_pixels": 10036
+      },
+      "high_chroma_edge_diagnostics": {
+        "opaque_green_pixels": 0,
+        "opaque_cyan_pixels": 0
+      }
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-raw-whole.png",
+      "sha256": "48b33aac96e57b298980411241200c6b3a80109f2fb855ad56cf6e1a2997c9fa",
+      "group_id": "FM0290",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-raw-native.png",
+      "sha256": "0c97a061941d540622fd3be98ee52cb15a1660843b8ca3949e5286cee123ca7c",
+      "group_id": "FM0290",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-raw-whole.png",
+      "sha256": "8f8e80728c4840265b11dfa39f4ed92919939c012d93f113059cd538658b6f37",
+      "group_id": "FM0314",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-raw-native.png",
+      "sha256": "7b8f29db8601385ddc766e80880b254b4283f81964c927577a2c23ec156b9c00",
+      "group_id": "FM0314",
+      "source_box": [
+        28,
+        20,
+        68,
+        60
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0314-GPT-raw-trunks.png",
+      "sha256": "509aa9676bac94a7e402d2385beb52ab61406662dacde6df80fff82b57113eb8",
+      "group_id": "FM0314",
+      "source_box": [
+        28,
+        80,
+        68,
+        120
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

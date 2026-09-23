@@ -1,0 +1,315 @@
+{
+  "schema": "brs-sr013-gpt-rubble/v1",
+  "files": [
+    {
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\generated-original.png",
+      "generated_sha256": "919b2d18901a9b2d0f1e9061a096d5896c1e4d8ff8074ba68d3d5e96a865d4e0",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "parts": [
+        {
+          "source_component_id": 1,
+          "generated_component_ids": [
+            1
+          ],
+          "source_box": [
+            1,
+            0,
+            106,
+            63
+          ],
+          "generated_box": [
+            10,
+            92,
+            926,
+            636
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.9320566631689402,
+          "source_visible_pixels_without_generated_alpha128": 81,
+          "missing_fraction": 0.02228948816730875,
+          "maximum_source_pixel_distance_for_fill": 2.0,
+          "source_component_pixels": 3634
+        },
+        {
+          "source_component_id": 3,
+          "generated_component_ids": [
+            4,
+            3
+          ],
+          "source_box": [
+            108,
+            18,
+            158,
+            59
+          ],
+          "generated_box": [
+            930,
+            243,
+            1380,
+            613
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.8707865168539326,
+          "source_visible_pixels_without_generated_alpha128": 82,
+          "missing_fraction": 0.0702656383890317,
+          "maximum_source_pixel_distance_for_fill": 2.0,
+          "source_component_pixels": 1167
+        },
+        {
+          "source_component_id": 2,
+          "generated_component_ids": [
+            2
+          ],
+          "source_box": [
+            159,
+            2,
+            255,
+            60
+          ],
+          "generated_box": [
+            1371,
+            102,
+            2172,
+            620
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.8864161849710983,
+          "source_visible_pixels_without_generated_alpha128": 163,
+          "missing_fraction": 0.050464396284829724,
+          "maximum_source_pixel_distance_for_fill": 2.23606797749979,
+          "source_component_pixels": 3230
+        }
+      ],
+      "alpha_method": "exact original source bilinear8x; copied through all source gaps",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Intermediate: registered composition is usable as repaint input, but needs broad source tones and narrower alpha transition.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "id": "BM115-gpt-registered",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-registered-source-alpha.png",
+      "output_sha256": "0ad4cda59f97ab339ab60062d73ca850fb22d1986344da210ede3471e6efe43a",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "External GPT repaint; three source components registered independently with bbox transforms; original alpha restored; nearest generated visible color only for unavailable boundary/support pixels"
+    },
+    {
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\generated-original.png",
+      "generated_sha256": "919b2d18901a9b2d0f1e9061a096d5896c1e4d8ff8074ba68d3d5e96a865d4e0",
+      "generated_size": [
+        2172,
+        724
+      ],
+      "parts": [
+        {
+          "source_component_id": 1,
+          "generated_component_ids": [
+            1
+          ],
+          "source_box": [
+            1,
+            0,
+            106,
+            63
+          ],
+          "generated_box": [
+            10,
+            92,
+            926,
+            636
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.9320566631689402,
+          "source_visible_pixels_without_generated_alpha128": 81,
+          "missing_fraction": 0.02228948816730875,
+          "maximum_source_pixel_distance_for_fill": 2.0,
+          "source_component_pixels": 3634
+        },
+        {
+          "source_component_id": 3,
+          "generated_component_ids": [
+            4,
+            3
+          ],
+          "source_box": [
+            108,
+            18,
+            158,
+            59
+          ],
+          "generated_box": [
+            930,
+            243,
+            1380,
+            613
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.8707865168539326,
+          "source_visible_pixels_without_generated_alpha128": 82,
+          "missing_fraction": 0.0702656383890317,
+          "maximum_source_pixel_distance_for_fill": 2.0,
+          "source_component_pixels": 1167
+        },
+        {
+          "source_component_id": 2,
+          "generated_component_ids": [
+            2
+          ],
+          "source_box": [
+            159,
+            2,
+            255,
+            60
+          ],
+          "generated_box": [
+            1371,
+            102,
+            2172,
+            620
+          ],
+          "registration": "axis-aligned component bbox; no rotation, no dense flow or folding",
+          "raw_registered_alpha128_iou": 0.8864161849710983,
+          "source_visible_pixels_without_generated_alpha128": 163,
+          "missing_fraction": 0.050464396284829724,
+          "maximum_source_pixel_distance_for_fill": 2.23606797749979,
+          "source_component_pixels": 3230
+        }
+      ],
+      "alpha_method": "exact original source bilinear8x; copied through all source gaps",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Rejected: fine source-color guide produces blurry blotches over the painted planes.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "id": "BM115-gpt-source-colors",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-registered-source-alpha.png",
+      "parent_sha256": "0ad4cda59f97ab339ab60062d73ca850fb22d1986344da210ede3471e6efe43a",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-gpt-source-colors.png",
+      "output_sha256": "bb22c8d0e7911d8c58822025f94d309da1f149c59ee94d2c439cafb2a05ac1d6",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Registered external repaint detail weighted0.65 over source bicubic colors; exact source bilinear alpha retained",
+      "detail_weight": 0.65,
+      "lowpass_sigma_output_px": 6.0
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_gpt_rubble_whole.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_gpt_rubble_left.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_gpt_rubble_middle.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_gpt_rubble_right.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 1,
+  "image_upload": true,
+  "tool": "built-in image_gen; model identifier not exposed",
+  "raw_generated": {
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\generated-original.png",
+    "sha256": "919b2d18901a9b2d0f1e9061a096d5896c1e4d8ff8074ba68d3d5e96a865d4e0",
+    "size": [
+      2172,
+      724
+    ],
+    "requested_size": [
+      2048,
+      512
+    ],
+    "direct_use_accepted": false,
+    "decision": "Raw output rejected for direct use; selected derived output is registered, tone-corrected and alpha-adjusted."
+  },
+  "initial_local_parent": {
+    "group_id": "BM115",
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+    "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+    "model_id": "wdn",
+    "model": {
+      "name": "realesr-general-wdn-x4v3.pth",
+      "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+      "bytes": 4885111,
+      "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+    },
+    "prefilter_sigma": 0.35,
+    "parts": [
+      {
+        "source_box": [
+          0,
+          0,
+          256,
+          64
+        ],
+        "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-p0-rgb-input.png",
+        "input_rgb_sha256": "600859937a22f0132ae58c60daa8ece174488944134c8d5d37f97f1592dc098e",
+        "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-p0-alpha-input.png",
+        "input_alpha_sha256": "a051e280408031a8316d952b53170d0e91cb096eb5292749e8133fe2c8378e1e",
+        "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-p0-rgb4x.png",
+        "rgb_native_sha256": "3322ca1cf743261cc6a0e5951ee6ac714120c8e272ea512d791620ec4666e440",
+        "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-p0-alpha4x.png",
+        "alpha_native_sha256": "8bdcbc2a28b0279f40889caada6b1808c1d69424bd4970c7a4a84d1c473d797a",
+        "weighted_mean_rgb_offset": [
+          2.09954833984375,
+          3.0806846618652344,
+          3.8062591552734375
+        ]
+      }
+    ],
+    "new_neural_passes": 2,
+    "native_neural_scale": 4,
+    "post_scale": "Lanczos2x",
+    "precision": "float32",
+    "alpha_method": "0.35 neural alpha + 0.65 source bilinear, per-panel mean restored and zero/255 support constrained",
+    "reference_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-panel-bilinear-alpha.png",
+    "reference_alpha_sha256": "eddad9320880c065e6a52d171c4dec4503c1c8b58805a4105e47ad75c0167cef",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM115-wdn-rgba8x.png",
+    "output_sha256": "887a5ff3302aef12e8b659a5d3713867cd42ce4da11842a1997c6c2a720f399e",
+    "output_size": [
+      2048,
+      512
+    ],
+    "seconds": 0.7189999999827705,
+    "alpha_metrics": {
+      "mass_ratio": 0.9999958485992884,
+      "source_threshold128_iou": 0.9972959052279166,
+      "source_ge16_reduced_below8": 0,
+      "outside_panel_bilinear_support": 0
+    },
+    "visual_review": {
+      "reviewer": "Codex internal",
+      "status": "not_selected",
+      "reason": "Not selected. Initial results add strong metallic sheen and granular edges; filtered and source-guided retries trade that for excessive softness. Direct source-faithful material redraw is required.",
+      "runtime_verified": false
+    },
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "registration_limit": "Source alpha is restored exactly to its bilinear enlargement; this does not prove that every generated material plane matches the original.",
+  "prompt_file": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\prompt.txt",
+  "prompt_sha256": "a1283974d778a54fed9882973e4597e8dcfd08ac41faba4e231cc1799d2afe6f",
+  "reference_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+  "requested_generation_count": 1
+}

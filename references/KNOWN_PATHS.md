@@ -13,3 +13,14 @@
 로컬 복사본:
 
 - `workspace/baseline_hd_ui_pack`
+
+## 현재 확인된 실행 기준 (2026-09-22)
+
+- 아카이브 PPSSPP: `P:\AI\Codex\work_archive\2026-07-25\new-chat-2\work\tools\ppsspp\portable\PPSSPPWindows64.exe` (v1.20.4)
+- 아카이브 memstick: `P:\AI\Codex\work_archive\2026-07-25\new-chat-2\work\tools\ppsspp\portable\memstick`
+- v1.0.1 ISO: `P:\AI\Codex\work_archive\2026-07-25\new-chat-2\work\release_build\runtime_fix_iso_20260823_test_v2\BRS_Korean_v1.0.iso`
+- 프로젝트 실행기: `workspace/runtime/ppsspp-1.20.4/PPSSPPWindows64.exe`
+- 세션 메모리스틱: `workspace/sessions/<SESSION_ID>/memstick`
+- 현재 인벤토리: `workspace/inventory/index.html`
+
+절대 경로와 콘텐츠 식별 해시의 기준은 `qa/evidence/environment.json`이다. 아카이브의 과거 C: 경로 로그는 이동 전 위치이므로 현재 실행 경로로 사용하지 않는다. `runtime_hotfix_20260824_rc1`은 v1.0.1 공개 배포 타깃 해시와 달라 이번 기준에서 제외했다.

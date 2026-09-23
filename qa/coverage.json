@@ -1,0 +1,400 @@
+{
+  "schema": "brs-hd-coverage/v1",
+  "population_denominator": "unknown",
+  "coverage_rule": "Dump existence alone does not prove scene, state or route coverage. Each area requires an actual mission/state checklist before complete.",
+  "lanes": [
+    "ui_font_icon",
+    "battle_hud",
+    "character",
+    "enemy",
+    "background",
+    "object",
+    "effect_particle",
+    "cutscene_texture"
+  ],
+  "units": [
+    {
+      "id": "BOOT-INFO",
+      "label": "초기 안내",
+      "status": "texture_only_scene_unverified",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [
+        "S001-v101-xxh64",
+        "S002-v101-xxh64-gles"
+      ],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "TITLE",
+      "label": "타이틀",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "SAVE-LOAD",
+      "label": "저장 및 불러오기",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "OPTIONS",
+      "label": "옵션",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "STAGE-SELECT",
+      "label": "지역/미션 선택",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "CUSTOMIZE",
+      "label": "커스터마이즈/스킬",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "ITEMS",
+      "label": "아이템",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "LIBRARY-GALLERY",
+      "label": "도감/갤러리",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "RESULT-FAIL",
+      "label": "결과/실패",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "BATTLE-STATES",
+      "label": "전투 HUD/상태/스킬/피격/승패",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-01",
+      "label": "지역 1",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-02",
+      "label": "지역 2",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-03",
+      "label": "지역 3",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-04",
+      "label": "지역 4",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-05",
+      "label": "지역 5",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "AREA-06",
+      "label": "지역 6",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "ROUTE-EX",
+      "label": "EX 경로",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "ROUTE-TRUE",
+      "label": "진엔딩 경로",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    },
+    {
+      "id": "CUTSCENES",
+      "label": "실시간 컷신 및 영상 소비 경로",
+      "status": "not_collected_current_baseline",
+      "lanes": {
+        "ui_font_icon": "unverified",
+        "battle_hud": "unverified",
+        "character": "unverified",
+        "enemy": "unverified",
+        "background": "unverified",
+        "object": "unverified",
+        "effect_particle": "unverified",
+        "cutscene_texture": "unverified"
+      },
+      "evidence_sessions": [],
+      "verified_screenshots": [],
+      "state_variants": [],
+      "mission_ids": [],
+      "next_action": "Capture visible game frame and correlated new dump set; enumerate state/mission variants."
+    }
+  ]
+}

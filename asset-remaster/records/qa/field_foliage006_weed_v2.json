@@ -1,0 +1,105 @@
+{
+  "schema": "brs-field-foliage006-weed-v2/v1",
+  "id": "FM0290-GPT-density-v2",
+  "group_id": "FM0290",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_01.bin\\sc11\\sc01\\sc00\\tex016.png",
+  "source_rgba_sha256": "240bfc7d4edbe24839b98d1739f7c8a2ec5b430f556cc39872517e7ef3b555ea",
+  "references": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\generated-raw.png",
+      "sha256": "618e94c0749ba51a9abd71b7eea9b1b9063abb49965f2a24ef510b807d2314ee",
+      "role": "edit target; v1 too sparse"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v1\\source-nearest8x.png",
+      "sha256": "1057cdab0eab1fd5114f2ac949b105b341258b5d1dba0c2420cf031a3db19b17",
+      "role": "source layout and density"
+    }
+  ],
+  "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v2\\prompt.txt",
+  "prompt_sha256": "ffad0323e55b0849b1b763743cc13906686c4c42e4f1d0c3b44113983eb55829",
+  "tool": "built-in image_gen",
+  "model_id": "not exposed",
+  "actual_external_calls_this_revision": 1,
+  "raw_store": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-c90c07b8-2aaf-4fbf-b5e9-dd14df68193a.png",
+  "raw": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0290-foliage-v2\\generated-raw.png",
+  "raw_sha256": "aeb32795a47c2ae5229959de297205bbae9028d7f17d332fc0d181329b453268",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006-authored\\FM0290-GPT-density-v2-8x.png",
+  "output_sha256": "6fc8275419916af8b6b933c190f6702ba9e7bbb222ba0514edb33ae376003b74",
+  "output_size": [
+    512,
+    512
+  ],
+  "method": "Source-guided GPT foliage repaint v2, Lanczos resampled to original8x. Generated alpha retained through RGBA resize. No replacement with fixed source alpha.",
+  "alpha_diagnostics": {
+    "mass_ratio": 1.1858023121529313,
+    "source_scale_IoU_at128": 0.8007364975450082,
+    "source_scale_disagreements_at128": 487,
+    "zones": {
+      "upper": {
+        "source_alpha_mean": 43.638392857142854,
+        "v1_alpha_mean": 34.913446335565474,
+        "v2_alpha_mean": 52.552769252232146
+      },
+      "middle": {
+        "source_alpha_mean": 145.4296875,
+        "v1_alpha_mean": 117.40973455255681,
+        "v2_alpha_mean": 173.786865234375
+      },
+      "lower": {
+        "source_alpha_mean": 182.52232142857142,
+        "v1_alpha_mean": 161.42515345982142,
+        "v2_alpha_mean": 214.22950381324404
+      }
+    }
+  },
+  "alpha_weighted_RGB_mean": {
+    "source": [
+      85.42907268170426,
+      108.86065162907268,
+      104.00050125313284
+    ],
+    "output": [
+      94.32447426590126,
+      114.22372067776178,
+      105.90295420932482
+    ]
+  },
+  "review_status": "pending",
+  "runtime_verified": false,
+  "release_eligible": false,
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-v2-whole.png",
+      "sha256": "57e93069bc35dbc88b5a4f492854a4903626be3b5c19e63e5326bfdc58905326",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-v2-tips.png",
+      "sha256": "67f36480f5d7466024236e176a9b9134426cada84bbd1e1cfb3d3a61d2df150a",
+      "source_box": [
+        20,
+        0,
+        60,
+        40
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage006\\FM0290-GPT-v2-lower.png",
+      "sha256": "6b73579e426dab2b699ea13ed539a660b86535d49e8089996a8e79d84300a4fb",
+      "source_box": [
+        12,
+        32,
+        52,
+        64
+      ],
+      "review_status": "pending"
+    }
+  ]
+}

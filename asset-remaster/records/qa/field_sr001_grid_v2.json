@@ -1,0 +1,48 @@
+{
+  "schema": "brs-source-grid-redraw/v1",
+  "id": "FM0078-photo-protected-source-lattice",
+  "group_id": "FM0078",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_04.bin\\sc11\\sc01\\sc00\\tex029.png",
+  "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg01_04.bin\\sc11\\sc01\\sc00\\tex029.ptm",
+  "source_ptm_sha256": "9e62741f3816b550922b806b1ea1abaabe3d4dccffbd574bff90890a0280e785",
+  "source_rgba_sha256": "47c1d6d37f7f1a72d8e83373867ff568658570d91273a8f7c2379daeb385eab5",
+  "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-photo-8x.png",
+  "parent_sha256": "2b6d9fe9a1a59fe4f21e6c4aafc76883b19f0a971ac32007bdba2d730da528f8",
+  "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-source-lattice-v2.svg",
+  "vector_sha256": "8913f976d2fa934476615a1af105bec29f9f8710e349eb03ef084b43bbc86f0d",
+  "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-source-lattice-v2.png",
+  "render_sha256": "75093902e3891588ccf2e52dbdb9419926cb2f1c69e1cba54655af8f0f4a921d",
+  "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-grid-mask.png",
+  "mask_sha256": "e421ccd6861f0f924118fa62944049193f1da1193c683a19e784b64f58d2b9fa",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr001\\FM0078-photo-protected-source-lattice-8x.png",
+  "output_sha256": "ddda508ea4eda115679fcca17d6f309163adae2aa86d9cddcfab93d236a1c982",
+  "output_size": [
+    512,
+    512
+  ],
+  "source_box": [
+    40,
+    45,
+    50,
+    56
+  ],
+  "authored_cells": null,
+  "source_grid_rows": 4,
+  "source_grid_columns": 4,
+  "new_local_neural_passes": 0,
+  "new_external_generative_calls": 0,
+  "outside_mask_rgba_exact": true,
+  "method": "Exact source-lattice protection, expressed as SVG pixel rectangles. This region is nearest-neighbor reproduction, NOT new high-resolution detail or hand-painted artistic restoration; Photo neural material retained outside.",
+  "comparison": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-sr001\\grid-FM0078-v2.png",
+  "comparison_sha256": "40952e929e346b4d39924dc863946f40a87db9c1e033eb512e42b488d34ea1a7",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "status": "fallback_only_not_HD_candidate",
+    "reason": "Exact protected source pixels; hard transition/pixel-sized cells remain. Keep as faithful fallback, not finished hand-drawn HD."
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "protected_source_pixels": 110,
+  "protected_output_pixels": 7040,
+  "protected_region_exact_source_nearest": true
+}

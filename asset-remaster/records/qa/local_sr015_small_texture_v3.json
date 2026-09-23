@@ -1,0 +1,233 @@
+{
+  "schema": "brs-sr015-small-texture/v3",
+  "files": [
+    {
+      "group_id": "BM201",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-tone-8x.png",
+      "parent_sha256": "9ab98f402bf8c905047e8bac1aa99999477f28702ae37ba60401035df490d499",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-edit-mask8x.png",
+      "mask_sha256": "55eea4dbbd0b91a6cefd8decead2f6d66d46f1bd7a03a9643082c95ed3a0753b",
+      "source_fragment_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-dark-fragments.png",
+      "source_fragment_mask_sha256": "d1d510156270bb06fdea6095c89d419101c47baf85c90cf6df7803e045a904e9",
+      "source_fragment_pixels": 7,
+      "source_observed_crack_corridor": [
+        [
+          212.0,
+          210.5
+        ],
+        [
+          212.0,
+          214.0
+        ],
+        [
+          213.7,
+          218.0
+        ],
+        [
+          215.1,
+          221.0
+        ],
+        [
+          214.4,
+          226.0
+        ],
+        [
+          213.4,
+          229.0
+        ],
+        [
+          211.5,
+          232.0
+        ],
+        [
+          213.0,
+          234.5
+        ],
+        [
+          214.5,
+          238.0
+        ],
+        [
+          216.0,
+          241.0
+        ],
+        [
+          218.5,
+          244.0
+        ]
+      ],
+      "id": "BM201-small-source-texture-v3",
+      "underlay": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-matching-role-underlay.png",
+      "underlay_sha256": "e374af5dbb66e8f64a1f7b6e35e4d4b8ea7dc711ad4514e90fa8a93868352765",
+      "donor_cells": [
+        {
+          "cell": {
+            "column": 0,
+            "row": 0,
+            "generated_source_unit_bounds": [
+              204.95,
+              206.75,
+              215.5,
+              217.02
+            ],
+            "edited_output_pixels": 1593
+          },
+          "expected_role": "light",
+          "luminance_donor_cut": 51.0,
+          "valid_donors": 1373,
+          "edited_output_pixels": 1593,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 0,
+            "row": 1,
+            "generated_source_unit_bounds": [
+              204.95,
+              217.02,
+              215.5,
+              227.24
+            ],
+            "edited_output_pixels": 1835
+          },
+          "expected_role": "dark",
+          "luminance_donor_cut": 23.0,
+          "valid_donors": 3849,
+          "edited_output_pixels": 1835,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 1,
+            "row": 1,
+            "generated_source_unit_bounds": [
+              215.5,
+              217.02,
+              225.35,
+              227.24
+            ],
+            "edited_output_pixels": 602
+          },
+          "expected_role": "light",
+          "luminance_donor_cut": 125.0,
+          "valid_donors": 1657,
+          "edited_output_pixels": 602,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 0,
+            "row": 2,
+            "generated_source_unit_bounds": [
+              204.95,
+              227.24,
+              215.5,
+              237.5
+            ],
+            "edited_output_pixels": 2529
+          },
+          "expected_role": "light",
+          "luminance_donor_cut": 72.66666666666667,
+          "valid_donors": 1122,
+          "edited_output_pixels": 2529,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 1,
+            "row": 2,
+            "generated_source_unit_bounds": [
+              215.5,
+              227.24,
+              225.35,
+              237.5
+            ],
+            "edited_output_pixels": 60
+          },
+          "expected_role": "dark",
+          "luminance_donor_cut": 26.0,
+          "valid_donors": 4878,
+          "edited_output_pixels": 60,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 0,
+            "row": 3,
+            "generated_source_unit_bounds": [
+              204.95,
+              237.5,
+              215.5,
+              247.75
+            ],
+            "edited_output_pixels": 617
+          },
+          "expected_role": "dark",
+          "luminance_donor_cut": 23.0,
+          "valid_donors": 3677,
+          "edited_output_pixels": 617,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        },
+        {
+          "cell": {
+            "column": 1,
+            "row": 3,
+            "generated_source_unit_bounds": [
+              215.5,
+              237.5,
+              225.35,
+              247.75
+            ],
+            "edited_output_pixels": 1440
+          },
+          "expected_role": "light",
+          "luminance_donor_cut": 82.33333333333333,
+          "valid_donors": 1343,
+          "edited_output_pixels": 1440,
+          "donor_cell_restriction_verified": true,
+          "luminance_role_filter_applied": true,
+          "rim_exclusion_proven": false
+        }
+      ],
+      "source_dark_strength": 1.0,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-texture-v3.png",
+      "output_sha256": "87857a3a0bdce81ffa0bd7642f6a669b21099068c73eb11b1ef254abe5033dc1",
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "Matching light/dark same-cell donors yield an interpolated material field plus fine texture; original source dark fragments restored. No neural inference.",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected",
+        "reason": "Same-cell material restoration still leaves visible patches or blur. Luminance filters do not prove enclosing-rim exclusion."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-texture-v3.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "review_status": "Finalized; no accepted BM201 replacement. See local_sr015_review.json."
+}

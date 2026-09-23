@@ -1,0 +1,1189 @@
+{
+  "schema": "brs-source-geometry-material/v2",
+  "source_audit_sha256": "ec3578effdbfee1801c448fa9d66a77767ccf2bc4942b91872a5845789e63e20",
+  "reconstruction_program": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\author_field_geometry007_v2_frozen.py",
+  "reconstruction_program_sha256": "5753d8a9e0a529f5bcce9ca5222e2e1e7b7d47e5e5bf51351bf8c4f7ab240863",
+  "files": [
+    {
+      "group_id": "FM0495",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex003.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg06_05.bin\\sc11\\sc01\\sc00\\tex003.ptm",
+      "source_ptm_sha256": "b9ef726ab759c5a95c7b5fff9ab94ce8f28a716b27543912b40b3b1cef1c21ce",
+      "source_rgba_sha256": "8ae88b8ac036c865f25683d17d9ef74ee3703b505a9d86708603d5f9cf0b47d6",
+      "id": "FM0495-authored-v2",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0495-photo-8x.png",
+      "parent_sha256": "d829a00b35e9d1356d02f2c68af140d83f5827cfa506e1fee9510759564cade0",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-mortar-v2-render.svg",
+      "vector_sha256": "0270d308a351e7aacb18a6263f81138178a1c9064dbb87a34731aca5211edc57",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-mortar-v2-render.png",
+      "render_sha256": "a5eb24d0828bd50bb83abb4b66ae9eb986162c970dfffddd318abad835f75030",
+      "frozen_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-authored-v2-planes.npz",
+      "frozen_planes_sha256": "891546b3b49b07b065ff8c75afb48d0a7f87093c1410141eea0f446399447da1",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0495-authored-v2-8x.png",
+      "output_sha256": "b556737b47ab6336440892f85104ddda2ae25fe72e728f1810cd5e8397bcec94",
+      "output_size": [
+        512,
+        512
+      ],
+      "recipe": {
+        "course_y_source": [
+          3.5,
+          11.75,
+          20.75,
+          30.5,
+          40.5,
+          49.5,
+          58.5
+        ],
+        "vertical_joints_by_row": [
+          [],
+          [
+            18.5,
+            32.5,
+            59.5
+          ],
+          [
+            4.5,
+            24.5,
+            56.5
+          ],
+          [
+            16.5,
+            43.5
+          ],
+          [
+            1.5,
+            31.5,
+            57.5
+          ],
+          [
+            15.5,
+            41.5
+          ],
+          [
+            3.5,
+            27.5,
+            51.5
+          ],
+          [
+            16.5,
+            41.5
+          ]
+        ],
+        "lines": [
+          {
+            "points": [
+              [
+                18.5,
+                3.5
+              ],
+              [
+                18.5,
+                11.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                32.5,
+                3.5
+              ],
+              [
+                32.5,
+                11.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                59.5,
+                3.5
+              ],
+              [
+                59.5,
+                11.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                4.5,
+                11.75
+              ],
+              [
+                4.5,
+                20.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                24.5,
+                11.75
+              ],
+              [
+                24.5,
+                20.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                56.5,
+                11.75
+              ],
+              [
+                56.5,
+                20.75
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                16.5,
+                20.75
+              ],
+              [
+                16.5,
+                30.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                43.5,
+                20.75
+              ],
+              [
+                43.5,
+                30.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                1.5,
+                30.5
+              ],
+              [
+                1.5,
+                40.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                31.5,
+                30.5
+              ],
+              [
+                31.5,
+                40.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                57.5,
+                30.5
+              ],
+              [
+                57.5,
+                40.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                15.5,
+                40.5
+              ],
+              [
+                15.5,
+                49.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                41.5,
+                40.5
+              ],
+              [
+                41.5,
+                49.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                3.5,
+                49.5
+              ],
+              [
+                3.5,
+                58.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                27.5,
+                49.5
+              ],
+              [
+                27.5,
+                58.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                51.5,
+                49.5
+              ],
+              [
+                51.5,
+                58.5
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                16.5,
+                58.5
+              ],
+              [
+                16.5,
+                64
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                41.5,
+                58.5
+              ],
+              [
+                41.5,
+                64
+              ]
+            ],
+            "axis": "vertical",
+            "width": 0.35,
+            "core_rgb": [
+              103,
+              106,
+              104
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                3.5
+              ],
+              [
+                64,
+                3.5
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              105,
+              106,
+              105
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                11.75
+              ],
+              [
+                64,
+                11.75
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              129,
+              127,
+              129
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                20.75
+              ],
+              [
+                64,
+                20.75
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              121,
+              118,
+              121
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                30.5
+              ],
+              [
+                64,
+                30.5
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              105,
+              106,
+              105
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                40.5
+              ],
+              [
+                64,
+                40.5
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              121,
+              118,
+              121
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                49.5
+              ],
+              [
+                64,
+                49.5
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              96,
+              98,
+              96
+            ]
+          },
+          {
+            "points": [
+              [
+                0,
+                58.5
+              ],
+              [
+                64,
+                58.5
+              ]
+            ],
+            "axis": "horizontal",
+            "width": 0.4,
+            "core_rgb": [
+              96,
+              98,
+              96
+            ]
+          }
+        ],
+        "regions": [
+          {
+            "source_box": [
+              0,
+              0,
+              64,
+              3.5
+            ],
+            "output_box": [
+              0,
+              0,
+              512,
+              28
+            ],
+            "donor_margin_source": 0.875,
+            "source_mean_rgb": [
+              181.8042328042328,
+              181.17460317460316,
+              181.8042328042328
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              3.5,
+              18.5,
+              11.75
+            ],
+            "output_box": [
+              0,
+              28,
+              148,
+              94
+            ],
+            "donor_margin_source": 2.0625,
+            "source_mean_rgb": [
+              197.63194444444446,
+              196.9375,
+              197.63194444444446
+            ]
+          },
+          {
+            "source_box": [
+              18.5,
+              3.5,
+              32.5,
+              11.75
+            ],
+            "output_box": [
+              148,
+              28,
+              260,
+              94
+            ],
+            "donor_margin_source": 2.0625,
+            "source_mean_rgb": [
+              197.9375,
+              196.69642857142858,
+              197.9375
+            ]
+          },
+          {
+            "source_box": [
+              32.5,
+              3.5,
+              59.5,
+              11.75
+            ],
+            "output_box": [
+              260,
+              28,
+              476,
+              94
+            ],
+            "donor_margin_source": 2.0625,
+            "source_mean_rgb": [
+              205.19444444444446,
+              203.8564814814815,
+              205.19444444444446
+            ]
+          },
+          {
+            "source_box": [
+              59.5,
+              3.5,
+              64,
+              11.75
+            ],
+            "output_box": [
+              476,
+              28,
+              512,
+              94
+            ],
+            "donor_margin_source": 1.125,
+            "source_mean_rgb": [
+              174.5625,
+              173.96875,
+              174.5625
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              11.75,
+              4.5,
+              20.75
+            ],
+            "output_box": [
+              0,
+              94,
+              36,
+              166
+            ],
+            "donor_margin_source": 1.125,
+            "source_mean_rgb": [
+              180.15625,
+              178.96875,
+              180.15625
+            ]
+          },
+          {
+            "source_box": [
+              4.5,
+              11.75,
+              24.5,
+              20.75
+            ],
+            "output_box": [
+              36,
+              94,
+              196,
+              166
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              200.63125,
+              199.825,
+              200.63125
+            ]
+          },
+          {
+            "source_box": [
+              24.5,
+              11.75,
+              56.5,
+              20.75
+            ],
+            "output_box": [
+              196,
+              94,
+              452,
+              166
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              202.21484375,
+              200.9921875,
+              202.21484375
+            ]
+          },
+          {
+            "source_box": [
+              56.5,
+              11.75,
+              64,
+              20.75
+            ],
+            "output_box": [
+              452,
+              94,
+              512,
+              166
+            ],
+            "donor_margin_source": 1.875,
+            "source_mean_rgb": [
+              198.35714285714286,
+              197.48214285714286,
+              198.35714285714286
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              20.75,
+              16.5,
+              30.5
+            ],
+            "output_box": [
+              0,
+              166,
+              132,
+              244
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              191.8125,
+              191.02777777777777,
+              191.8125
+            ]
+          },
+          {
+            "source_box": [
+              16.5,
+              20.75,
+              43.5,
+              30.5
+            ],
+            "output_box": [
+              132,
+              166,
+              348,
+              244
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              192.76131687242798,
+              192.0,
+              192.76131687242798
+            ]
+          },
+          {
+            "source_box": [
+              43.5,
+              20.75,
+              64,
+              30.5
+            ],
+            "output_box": [
+              348,
+              166,
+              512,
+              244
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              194.98333333333332,
+              194.26666666666668,
+              194.98333333333332
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              30.5,
+              1.5,
+              40.5
+            ],
+            "output_box": [
+              0,
+              244,
+              12,
+              324
+            ],
+            "donor_margin_source": 0.375,
+            "source_mean_rgb": [
+              136.0,
+              137.5,
+              136.0
+            ]
+          },
+          {
+            "source_box": [
+              1.5,
+              30.5,
+              31.5,
+              40.5
+            ],
+            "output_box": [
+              12,
+              244,
+              252,
+              324
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              191.81666666666666,
+              190.77,
+              191.81666666666666
+            ]
+          },
+          {
+            "source_box": [
+              31.5,
+              30.5,
+              57.5,
+              40.5
+            ],
+            "output_box": [
+              252,
+              244,
+              460,
+              324
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              192.91538461538462,
+              192.05384615384617,
+              192.91538461538462
+            ]
+          },
+          {
+            "source_box": [
+              57.5,
+              30.5,
+              64,
+              40.5
+            ],
+            "output_box": [
+              460,
+              244,
+              512,
+              324
+            ],
+            "donor_margin_source": 1.625,
+            "source_mean_rgb": [
+              194.28333333333333,
+              193.56666666666666,
+              194.28333333333333
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              40.5,
+              15.5,
+              49.5
+            ],
+            "output_box": [
+              0,
+              324,
+              124,
+              396
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              179.72592592592594,
+              179.11111111111111,
+              179.72592592592594
+            ]
+          },
+          {
+            "source_box": [
+              15.5,
+              40.5,
+              41.5,
+              49.5
+            ],
+            "output_box": [
+              124,
+              324,
+              332,
+              396
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              189.73931623931625,
+              188.89316239316238,
+              189.73931623931625
+            ]
+          },
+          {
+            "source_box": [
+              41.5,
+              40.5,
+              64,
+              49.5
+            ],
+            "output_box": [
+              332,
+              324,
+              512,
+              396
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              204.34343434343435,
+              202.8939393939394,
+              204.34343434343435
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              49.5,
+              3.5,
+              58.5
+            ],
+            "output_box": [
+              0,
+              396,
+              28,
+              468
+            ],
+            "donor_margin_source": 0.875,
+            "source_mean_rgb": [
+              165.5185185185185,
+              164.92592592592592,
+              165.5185185185185
+            ]
+          },
+          {
+            "source_box": [
+              3.5,
+              49.5,
+              27.5,
+              58.5
+            ],
+            "output_box": [
+              28,
+              396,
+              220,
+              468
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              175.6712962962963,
+              174.94907407407408,
+              175.6712962962963
+            ]
+          },
+          {
+            "source_box": [
+              27.5,
+              49.5,
+              51.5,
+              58.5
+            ],
+            "output_box": [
+              220,
+              396,
+              412,
+              468
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              185.23611111111111,
+              184.7037037037037,
+              185.23611111111111
+            ]
+          },
+          {
+            "source_box": [
+              51.5,
+              49.5,
+              64,
+              58.5
+            ],
+            "output_box": [
+              412,
+              396,
+              512,
+              468
+            ],
+            "donor_margin_source": 2.2,
+            "source_mean_rgb": [
+              185.30555555555554,
+              184.2314814814815,
+              185.30555555555554
+            ]
+          },
+          {
+            "source_box": [
+              0,
+              58.5,
+              16.5,
+              64
+            ],
+            "output_box": [
+              0,
+              468,
+              132,
+              512
+            ],
+            "donor_margin_source": 1.375,
+            "source_mean_rgb": [
+              190.45,
+              189.45,
+              190.45
+            ]
+          },
+          {
+            "source_box": [
+              16.5,
+              58.5,
+              41.5,
+              64
+            ],
+            "output_box": [
+              132,
+              468,
+              332,
+              512
+            ],
+            "donor_margin_source": 1.375,
+            "source_mean_rgb": [
+              188.024,
+              187.424,
+              188.024
+            ]
+          },
+          {
+            "source_box": [
+              41.5,
+              58.5,
+              64,
+              64
+            ],
+            "output_box": [
+              332,
+              468,
+              512,
+              512
+            ],
+            "donor_margin_source": 1.375,
+            "source_mean_rgb": [
+              187.0818181818182,
+              186.45454545454547,
+              187.0818181818182
+            ]
+          }
+        ],
+        "material": "Per-source-brick local donor inset2.2px max, source-mean color; raster overlay is the source-defined straight mortar."
+      },
+      "method": "Direct source geometry with existing local Photo material; zero new neural inference and zero external generation.",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0533",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_e_stg00_03.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "c2bfa5e1a6f906bcbaa5e78c531598ce31b9d11e543543e86afe5dcca90bde82",
+      "source_rgba_sha256": "5f9070d4bb6f9358ea0e4aaf44e20c32cd44aaaadd2dbe15497bd5e51aa5cb00",
+      "id": "FM0533-authored-v2",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr005\\FM0533-photo-8x.png",
+      "parent_sha256": "abe12d73f8be40972b348c4aedfeb879148fcec472d3a77aa889fa0153c13ae5",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-ornament-v2-render.svg",
+      "vector_sha256": "c0cadae1e9f9dabfd5ac885e90f04e441b0f822fb1f5faef850f1797bb51c8c6",
+      "render": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-ornament-v2-render.png",
+      "render_sha256": "a8e8f3df02da31297166cefe97a8bce80cb0190c476be2656dd098eeb8f907f4",
+      "frozen_planes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-authored-v2-planes.npz",
+      "frozen_planes_sha256": "b632e75e4b30e1e1ef2ee1902ccb13ddfd55c79fb2d645dce4f71fc4f7163a24",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry007\\FM0533-authored-v2-8x.png",
+      "output_sha256": "8be14bc0517d1fa658ec4af8de7d82d593c7803b1255c176e5725070e130c4bc",
+      "output_size": [
+        256,
+        1024
+      ],
+      "recipe": {
+        "source_background_rows_top": [
+          104,
+          109
+        ],
+        "source_background_rows_bottom": [
+          126,
+          128
+        ],
+        "source_chroma_opacity_threshold": 0.48,
+        "opacity_prefilter_output_sigma": 1.35,
+        "curves": "Four manually authored cubic scroll centerlines, stroke1.25source px, with distinct left/right coordinates. Automated v1 contour interpretation rejected as too thick.",
+        "hand_paths": [
+          "M 0 116.2 C 1.7 115.8 0.3 112.6 3.4 110.7 C 5.4 109.4 7.8 110.8 8.4 113.4 C 9.1 116.1 7.7 118.4 5.3 116.7 C 4.6 116.2 4.4 115.6 4.9 115.2",
+          "M 2.0 120.2 C 0.3 121.8 1.2 124.7 4.3 124.5 C 7.2 124.6 12.4 125.0 13.8 122.1 C 15.1 119.5 13.4 116.6 10.6 116.7 C 7.8 116.6 7.3 119.9 9.9 121.0",
+          "M 32 115.8 C 30.4 115.2 31.3 112.1 28.7 110.7 C 26.3 109.3 24.2 111.2 23.8 113.9 C 23.3 116.7 25.6 118.2 27.0 115.6",
+          "M 30.1 120.0 C 31.8 121.8 30.8 124.7 27.4 124.5 C 24.2 124.7 19.4 124.9 18.5 122.0 C 17.4 119.3 19.2 116.4 21.7 116.7 C 24.0 116.8 24.4 119.8 22.4 120.8"
+        ],
+        "stroke_width_source": 1.25,
+        "straight_bars_xywh": [
+          [
+            0,
+            109,
+            32,
+            1
+          ],
+          [
+            0,
+            124,
+            32,
+            1
+          ]
+        ],
+        "motif_clip_xywh": [
+          0,
+          110,
+          32,
+          14
+        ],
+        "upper_parent_RGBA_exact_until_source_y": 104,
+        "new_material": "Existing Photo donor y80..104 high-frequency±1 on interpolated source warm-color background; no external generation."
+      },
+      "method": "Direct source geometry with existing local Photo material; zero new neural inference and zero external generation.",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v2-whole.png",
+      "sha256": "fa661628dde5d5e3c9e85b05ea34acad3880150573d490de3a8bd0e8cf13cc79",
+      "group_id": "FM0495",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0495-v2-native.png",
+      "sha256": "e2eec167bb080ac55e9db7afc06b0b1e655454d0cd5794885cc989a427553932",
+      "group_id": "FM0495",
+      "source_box": [
+        12,
+        12,
+        52,
+        52
+      ],
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v2-whole.png",
+      "sha256": "63bd3bf48caacf9ccea8c702fadd8c50cee96a86d1e3e879e0759d64e9aa7132",
+      "group_id": "FM0533",
+      "source_box": null,
+      "review_status": "pending"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry007\\FM0533-v2-native.png",
+      "sha256": "26d233650dbd2f8ce07026581cfb0c9a30a2aa6617047bb4858684e462a4957c",
+      "group_id": "FM0533",
+      "source_box": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_inference_passes": 0,
+  "new_external_calls": 0,
+  "v1_rejected_reason": "Masonry v1 empty narrow-border color ROI caused nonfinite data and a black edge; source interior crop also left doubled joints, and ornament automated coverage made thick white blobs. v2 fixes source ROI, donor inset, thinner textured joints and replaces ornamental contours with authored centerlines."
+}

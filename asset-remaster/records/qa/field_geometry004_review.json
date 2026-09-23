@@ -1,0 +1,1117 @@
+{
+  "schema": "brs-source-repeat-final-review/v1",
+  "batch": "FIELD-GEOMETRY-004",
+  "previous_goal_turn_classification": "progress: FIELD-SR-004 processed30 new originals, selected14 and classified72.",
+  "this_goal_turn_classification": "progress: three held source-geometry/material defects resolved,10 output recipes verified, one external material comparison incorporated only after source-plane/color projection.",
+  "selected": {
+    "FM0337": "FM0337-source-planes-gpt-material-v3",
+    "FM0346": "FM0346-source-faces-bevel-v3",
+    "FM0347": "FM0347-pixel-center-curves-v3"
+  },
+  "selection_scope": {
+    "FM0337": "Original ten bright source spans and lower horizontal faces are fixed; GPT material projected from region interiors, with source mean colors and smoothed row/column lighting restored. Prior local-material trials smeared or overemphasized coarse grain. Generated whole image alone is not adopted.",
+    "FM0346": "Six period6 bright spans retain pale shaded faces and a narrow darker bevel. v1 flattened the flute, v2 cubic interpolation softened it; v3 separates2-pixel bright/3-pixel shaded/1-pixel bevel supports with original vertical illumination and restrained existing WDN grain.",
+    "FM0347": "Original straight upper dividers/moldings remain fixed; eight authored curved arms retain four waists. v1 was too soft; v2 improved stroke but treated pixel indices as coordinates. v3 shifts source trace x/y by.5 and uses a narrow beveled profile. No full-ellipse or exact source-pixel-identity claim."
+  },
+  "new_neural_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 1,
+  "checked_outputs": [
+    {
+      "id": "FM0337-source-planes-local-grain",
+      "group_id": "FM0337",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-local-grain-8x.png",
+      "sha256": "f8bd3e05d983d0daebb5bb212b6ed4337de66af0a5631dd6d97b8321df0699fc",
+      "decision": "superseded_not_selected",
+      "reason": "Original ten bright source spans and lower horizontal faces are fixed; GPT material projected from region interiors, with source mean colors and smoothed row/column lighting restored. Prior local-material trials smeared or overemphasized coarse grain. Generated whole image alone is not adopted.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0346-source-planes-local-grain",
+      "group_id": "FM0346",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-local-grain-8x.png",
+      "sha256": "a52e63fae3732c3a0afaf88940718bc82da53c8057534cc309ff709bd5b778b1",
+      "decision": "superseded_not_selected",
+      "reason": "Six period6 bright spans retain pale shaded faces and a narrow darker bevel. v1 flattened the flute, v2 cubic interpolation softened it; v3 separates2-pixel bright/3-pixel shaded/1-pixel bevel supports with original vertical illumination and restrained existing WDN grain.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0347-source-planes-local-grain",
+      "group_id": "FM0347",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-local-grain-8x.png",
+      "sha256": "561dec3eba0874bbf3567498bdb708c394eeb65711aa31efbc3663e941450bca",
+      "decision": "superseded_not_selected",
+      "reason": "Original straight upper dividers/moldings remain fixed; eight authored curved arms retain four waists. v1 was too soft; v2 improved stroke but treated pixel indices as coordinates. v3 shifts source trace x/y by.5 and uses a narrow beveled profile. No full-ellipse or exact source-pixel-identity claim.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0337-source-planes-refined-v2",
+      "group_id": "FM0337",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-refined-v2-8x.png",
+      "sha256": "3661849a86a70143c291d1d1ff1397729f129470f59397c4c0ada3ba200bb241",
+      "decision": "superseded_not_selected",
+      "reason": "Original ten bright source spans and lower horizontal faces are fixed; GPT material projected from region interiors, with source mean colors and smoothed row/column lighting restored. Prior local-material trials smeared or overemphasized coarse grain. Generated whole image alone is not adopted.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0346-source-planes-refined-v2",
+      "group_id": "FM0346",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-planes-refined-v2-8x.png",
+      "sha256": "711174a531988aa1f69fbab94fed5ac772aaec23e77aedaf80dbf9436a8c7a7e",
+      "decision": "superseded_not_selected",
+      "reason": "Six period6 bright spans retain pale shaded faces and a narrow darker bevel. v1 flattened the flute, v2 cubic interpolation softened it; v3 separates2-pixel bright/3-pixel shaded/1-pixel bevel supports with original vertical illumination and restrained existing WDN grain.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0347-source-planes-refined-v2",
+      "group_id": "FM0347",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-source-planes-refined-v2-8x.png",
+      "sha256": "9cb00ff54d86b70b1ae74155563e2cfa6061ec4022184edde4d50ebf555b55b1",
+      "decision": "superseded_not_selected",
+      "reason": "Original straight upper dividers/moldings remain fixed; eight authored curved arms retain four waists. v1 was too soft; v2 improved stroke but treated pixel indices as coordinates. v3 shifts source trace x/y by.5 and uses a narrow beveled profile. No full-ellipse or exact source-pixel-identity claim.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0346-source-faces-bevel-v3",
+      "group_id": "FM0346",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0346-source-faces-bevel-v3-8x.png",
+      "sha256": "2cb47162d1cb3dda8ba776b97c90587d44ba086d109e00e8c03544d70c5283d7",
+      "decision": "static_candidate",
+      "reason": "Six period6 bright spans retain pale shaded faces and a narrow darker bevel. v1 flattened the flute, v2 cubic interpolation softened it; v3 separates2-pixel bright/3-pixel shaded/1-pixel bevel supports with original vertical illumination and restrained existing WDN grain.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0337-source-planes-gpt-material-v3",
+      "group_id": "FM0337",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0337-source-planes-gpt-material-v3-8x.png",
+      "sha256": "c91bdf2ec14cdba5b2fdd0c0cc18913a049071bead8515fb53af8d9969bb1800",
+      "decision": "static_candidate",
+      "reason": "Original ten bright source spans and lower horizontal faces are fixed; GPT material projected from region interiors, with source mean colors and smoothed row/column lighting restored. Prior local-material trials smeared or overemphasized coarse grain. Generated whole image alone is not adopted.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0347-pixel-center-curves-v3",
+      "group_id": "FM0347",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry004\\FM0347-pixel-center-curves-v3-8x.png",
+      "sha256": "a837468c0a96e64cedbaecb5df9f3438e698fc502c5537689188c812345867c5",
+      "decision": "static_candidate",
+      "reason": "Original straight upper dividers/moldings remain fixed; eight authored curved arms retain four waists. v1 was too soft; v2 improved stroke but treated pixel indices as coordinates. v3 shifts source trace x/y by.5 and uses a narrow beveled profile. No full-ellipse or exact source-pixel-identity claim.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_from_saved_base_or_region_recipe_exact": true,
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0337-gpt-whole-trial",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0337-v1\\FM0337-gpt-material-trial-8x.png",
+      "sha256": "59372020dc6566add60671dc20d397742c6be89be2a3961972ad551b9e36201c",
+      "decision": "not_selected",
+      "reason": "Whole repaint changes source region colors and does not itself bind all source edges; only source-constrained material derivative is selected.",
+      "raw_prompt_reference_hashes_verified": true,
+      "Lanczos_recipe_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "source_reports_sha256": {
+    "qa\\field_geometry004_source_audit.json": "ee27297caecd615501bdbdcca941ed3ecbd662842ff50c758040161e9aea99be",
+    "qa\\field_geometry004_trials.json": "607b4965da11e466bbf7fbf00e74f2d9575b0c3f88f3fb2228db5d76ec319b5d",
+    "qa\\field_geometry004_refined.json": "f37540c70a1776c51d85c9b7ec2e78b55ec30dd7f971dba24c9ba44afdfdb609",
+    "qa\\field_geometry004_faces_v3.json": "bc3e3e23c52fd0c5eae97995e2264296f1f3548fdf6c1cf66ce5d1e8ee2984da",
+    "qa\\field_geometry004_gpt_and_alignment.json": "7538f1d4905e84a748f9465939d563e2e1f992b5027d8cc3ec5d1c6c3c0b686f"
+  },
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-source-coordinates.png",
+      "sha256": "2c58ba2fa038493c1007b6234359721ec236b6679fbb20497e0d15951fad1276",
+      "group_id": "FM0337",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-source-coordinates.png",
+      "sha256": "1933f77c4c64070d8ede573d3339cae4b5a1e305ff97741617dc3620fd38ab43",
+      "group_id": "FM0346",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-source-coordinates.png",
+      "sha256": "522f07d45ef65bfb18e6982eca2664c401e5fee1685556abd63d4afc6d9e4ae4",
+      "group_id": "FM0347",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_source_audit.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-whole-v1.png",
+      "sha256": "cc6b50fa4f00f33373bcf9c9acbcc36f4cae0f2930d860a83c85d74d8604d3a8",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-detail-v1.png",
+      "sha256": "368d85b14313916a08ef29d5d2050324c94c8eefb2d15625e46fa51a08da9348",
+      "source_box": [
+        40,
+        0,
+        72,
+        32
+      ],
+      "review_status": "not_needed_after_whole_image_rejection",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-whole-v1.png",
+      "sha256": "e48334cbe41d1639409bac85aba533b72a4435ad1bc7ccca95f5c9a7d8a404d8",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-detail-v1.png",
+      "sha256": "e48334cbe41d1639409bac85aba533b72a4435ad1bc7ccca95f5c9a7d8a404d8",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "not_needed_after_whole_image_rejection",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-whole-v1.png",
+      "sha256": "8510663c6bce0cd8900e684b38319ab97208aae63be1c6b3e605c9daba08d014",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-detail-v1.png",
+      "sha256": "9f74917afbeb6548d85106f6454ff5770299a7731e30a23c6efc428f4c3d9489",
+      "source_box": [
+        16,
+        0,
+        48,
+        32
+      ],
+      "review_status": "not_needed_after_whole_image_rejection",
+      "report": "field_geometry004_trials.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-whole-v2.png",
+      "sha256": "0493d70d946d23cde2251d16973a16ee19127b516f625d34905491654fec0a74",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_refined.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-detail-v2.png",
+      "sha256": "921d17f354c8829c87df29e99d283db5de2f8df7bb0c980f66c612e23d74ebf3",
+      "source_box": [
+        40,
+        0,
+        72,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_refined.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-whole-v2.png",
+      "sha256": "27856ba7b5af6a28fd5f7cd5d1d18a5d5959605920df3e04d616faa35274774d",
+      "source_box": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_refined.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-whole-v2.png",
+      "sha256": "0eb5dd7879148277ca44070078975e3d0a0426223b89f777ca60754edf9e0284",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_refined.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-detail-v2.png",
+      "sha256": "eb51e5cb3d74d64ccfa402527eb4ac59cb6334def3b50cbf6d376898e4676311",
+      "source_box": [
+        16,
+        0,
+        48,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_refined.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0346-whole-v3.png",
+      "sha256": "c26b2d4f81e1c1b06a8ed063ced6737c0f1b66800c674f4806c3ea44f92c2136",
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_faces_v3.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-whole-v3.png",
+      "sha256": "5c44f83187354404b9e7a2c40e1034df0531dfd42b3ee0f6c9446fe9e434c2da",
+      "source_box": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_gpt_and_alignment.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0337-detail-v3.png",
+      "sha256": "b50c239313f4726d7589030f25db3ab099d4df73fead4f7b41371eac2eefb041",
+      "source_box": [
+        40,
+        0,
+        72,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_gpt_and_alignment.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-whole-v3.png",
+      "sha256": "63e8223c30970a95eb6b120ab2a34fd1e37f26976514d34919ab0c53f19f8a82",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_gpt_and_alignment.json"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\FM0347-detail-v3.png",
+      "sha256": "8c4d2b2588634bba8fc6bc8e6c54690d49704f19133a98d2f83c9ce058fbb357",
+      "source_box": [
+        16,
+        0,
+        48,
+        32
+      ],
+      "review_status": "directly_inspected_by_Codex_internal",
+      "report": "field_geometry004_gpt_and_alignment.json"
+    }
+  ],
+  "pages_directly_inspected_count": 16,
+  "gpt_raw_directly_inspected": true,
+  "geometry_diagnostics": {
+    "FM0337": {
+      "vertical_edges": [
+        {
+          "source_anchor": 6,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 13,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 19,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 25,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.125
+        },
+        {
+          "source_anchor": 31,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 38,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.625
+        },
+        {
+          "source_anchor": 44,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.25
+        },
+        {
+          "source_anchor": 51,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 57,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 65,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 71,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 78,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.625
+        },
+        {
+          "source_anchor": 84,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.25
+        },
+        {
+          "source_anchor": 92,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 98,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 105,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 111,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        },
+        {
+          "source_anchor": 118,
+          "direction": 1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.25
+        },
+        {
+          "source_anchor": 124,
+          "direction": -1,
+          "sample_count": 320,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.0
+        }
+      ],
+      "horizontal_lower_edges": [
+        {
+          "source_anchor": 47,
+          "direction": 1,
+          "sample_count": 936,
+          "median_absolute_error_source_px": 0.125,
+          "p95_absolute_error_source_px": 0.125,
+          "max_absolute_error_source_px": 0.25
+        },
+        {
+          "source_anchor": 50,
+          "direction": -1,
+          "sample_count": 936,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.375
+        },
+        {
+          "source_anchor": 59,
+          "direction": 1,
+          "sample_count": 936,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.25
+        },
+        {
+          "source_anchor": 62,
+          "direction": -1,
+          "sample_count": 936,
+          "median_absolute_error_source_px": 0.0,
+          "p95_absolute_error_source_px": 0.0,
+          "max_absolute_error_source_px": 0.25
+        }
+      ],
+      "limit": "Dominant signed grayscale gradient within +/-1 source pixel of declared boundary, excluding plane junctions. Not a full UV/render proof."
+    },
+    "FM0346": {
+      "phase_spans_source": [
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          30,
+          32
+        ]
+      ],
+      "face_phase_widths_source": [
+        2,
+        3,
+        1
+      ],
+      "period_source": 6,
+      "grain_RGB_bound": 2,
+      "class_support_identical_for_all_lower_rows": true,
+      "limit": "Six bright texture spans, not independently proven six 3D columns."
+    },
+    "FM0347": {
+      "samples": [
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 18,
+          "predicted_x": 3.1,
+          "weighted_source_center_x": 3.1923076923076916,
+          "difference_source_px": -0.09230769230769154,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 20,
+          "predicted_x": 5.6,
+          "weighted_source_center_x": 5.5,
+          "difference_source_px": 0.09999999999999964,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 22,
+          "predicted_x": 7.75,
+          "weighted_source_center_x": 7.499999999999999,
+          "difference_source_px": 0.2500000000000009,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 25,
+          "predicted_x": 10.25,
+          "weighted_source_center_x": 10.5,
+          "difference_source_px": -0.25,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 27,
+          "predicted_x": 12.5,
+          "weighted_source_center_x": 12.5,
+          "difference_source_px": 0.0,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": 1,
+          "source_row": 29,
+          "predicted_x": 14.7,
+          "weighted_source_center_x": 14.458904109589039,
+          "difference_source_px": 0.24109589041096058,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 18,
+          "predicted_x": 14.9,
+          "weighted_source_center_x": 15.083333333333336,
+          "difference_source_px": -0.18333333333333535,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 20,
+          "predicted_x": 12.4,
+          "weighted_source_center_x": 12.76923076923077,
+          "difference_source_px": -0.3692307692307697,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 22,
+          "predicted_x": 10.25,
+          "weighted_source_center_x": 10.346715328467154,
+          "difference_source_px": -0.09671532846715358,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 25,
+          "predicted_x": 7.75,
+          "weighted_source_center_x": 7.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 27,
+          "predicted_x": 5.5,
+          "weighted_source_center_x": 5.5,
+          "difference_source_px": 0.0,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 0,
+          "direction": -1,
+          "source_row": 29,
+          "predicted_x": 3.3000000000000007,
+          "weighted_source_center_x": 3.36,
+          "difference_source_px": -0.059999999999999165,
+          "neighboring_arm_excluded_at_x": 9
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 18,
+          "predicted_x": 18.1,
+          "weighted_source_center_x": 18.863636363636367,
+          "difference_source_px": -0.7636363636363654,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 20,
+          "predicted_x": 20.6,
+          "weighted_source_center_x": 20.5,
+          "difference_source_px": 0.10000000000000142,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 22,
+          "predicted_x": 22.75,
+          "weighted_source_center_x": 22.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 25,
+          "predicted_x": 25.25,
+          "weighted_source_center_x": 25.38785046728972,
+          "difference_source_px": -0.13785046728972006,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 27,
+          "predicted_x": 27.5,
+          "weighted_source_center_x": 27.5,
+          "difference_source_px": 0.0,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": 1,
+          "source_row": 29,
+          "predicted_x": 29.7,
+          "weighted_source_center_x": 30.250000000000004,
+          "difference_source_px": -0.5500000000000043,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 18,
+          "predicted_x": 29.9,
+          "weighted_source_center_x": 30.25,
+          "difference_source_px": -0.3500000000000014,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 20,
+          "predicted_x": 27.4,
+          "weighted_source_center_x": 27.5,
+          "difference_source_px": -0.10000000000000142,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 22,
+          "predicted_x": 25.25,
+          "weighted_source_center_x": 25.500000000000004,
+          "difference_source_px": -0.25000000000000355,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 25,
+          "predicted_x": 22.75,
+          "weighted_source_center_x": 22.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 27,
+          "predicted_x": 20.5,
+          "weighted_source_center_x": 20.32608695652174,
+          "difference_source_px": 0.17391304347826164,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 1,
+          "direction": -1,
+          "source_row": 29,
+          "predicted_x": 18.3,
+          "weighted_source_center_x": 18.499999999999996,
+          "difference_source_px": -0.19999999999999574,
+          "neighboring_arm_excluded_at_x": 24
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 18,
+          "predicted_x": 33.1,
+          "weighted_source_center_x": 33.5,
+          "difference_source_px": -0.3999999999999986,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 20,
+          "predicted_x": 35.6,
+          "weighted_source_center_x": 35.55102040816327,
+          "difference_source_px": 0.048979591836733505,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 22,
+          "predicted_x": 37.75,
+          "weighted_source_center_x": 37.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 25,
+          "predicted_x": 40.25,
+          "weighted_source_center_x": 40.61214953271028,
+          "difference_source_px": -0.3621495327102835,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 27,
+          "predicted_x": 42.5,
+          "weighted_source_center_x": 42.689189189189186,
+          "difference_source_px": -0.18918918918918592,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": 1,
+          "source_row": 29,
+          "predicted_x": 44.7,
+          "weighted_source_center_x": 44.90384615384615,
+          "difference_source_px": -0.20384615384615046,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 18,
+          "predicted_x": 44.9,
+          "weighted_source_center_x": 45.25,
+          "difference_source_px": -0.3500000000000014,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 20,
+          "predicted_x": 42.4,
+          "weighted_source_center_x": 42.54201680672269,
+          "difference_source_px": -0.1420168067226939,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 22,
+          "predicted_x": 40.25,
+          "weighted_source_center_x": 40.5,
+          "difference_source_px": -0.25,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 25,
+          "predicted_x": 37.75,
+          "weighted_source_center_x": 37.61214953271028,
+          "difference_source_px": 0.1378504672897165,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 27,
+          "predicted_x": 35.5,
+          "weighted_source_center_x": 35.673913043478265,
+          "difference_source_px": -0.1739130434782652,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 2,
+          "direction": -1,
+          "source_row": 29,
+          "predicted_x": 33.3,
+          "weighted_source_center_x": 33.5,
+          "difference_source_px": -0.20000000000000284,
+          "neighboring_arm_excluded_at_x": 39
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 18,
+          "predicted_x": 48.1,
+          "weighted_source_center_x": 48.5,
+          "difference_source_px": -0.3999999999999986,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 20,
+          "predicted_x": 50.6,
+          "weighted_source_center_x": 50.5,
+          "difference_source_px": 0.10000000000000142,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 22,
+          "predicted_x": 52.75,
+          "weighted_source_center_x": 52.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 25,
+          "predicted_x": 55.25,
+          "weighted_source_center_x": 55.38785046728972,
+          "difference_source_px": -0.1378504672897165,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 27,
+          "predicted_x": 57.5,
+          "weighted_source_center_x": 57.5,
+          "difference_source_px": 0.0,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": 1,
+          "source_row": 29,
+          "predicted_x": 59.7,
+          "weighted_source_center_x": 59.82432432432432,
+          "difference_source_px": -0.12432432432431995,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 18,
+          "predicted_x": 59.9,
+          "weighted_source_center_x": 59.625,
+          "difference_source_px": 0.2749999999999986,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 20,
+          "predicted_x": 57.4,
+          "weighted_source_center_x": 57.5,
+          "difference_source_px": -0.10000000000000142,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 22,
+          "predicted_x": 55.25,
+          "weighted_source_center_x": 55.5,
+          "difference_source_px": -0.25,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 25,
+          "predicted_x": 52.75,
+          "weighted_source_center_x": 52.5,
+          "difference_source_px": 0.25,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 27,
+          "predicted_x": 50.5,
+          "weighted_source_center_x": 50.5,
+          "difference_source_px": 0.0,
+          "neighboring_arm_excluded_at_x": 54
+        },
+        {
+          "repeat": 3,
+          "direction": -1,
+          "source_row": 29,
+          "predicted_x": 48.3,
+          "weighted_source_center_x": 48.5,
+          "difference_source_px": -0.20000000000000284,
+          "neighboring_arm_excluded_at_x": 54
+        }
+      ],
+      "median_absolute_error_source_px": 0.1999999999999993,
+      "p95_absolute_error_source_px": 0.3999999999999986,
+      "limit": "Sampled original highlight centers with adjacent crossing arm excluded. Trace/center agreement is not proof of consumer geometry or every edge."
+    }
+  },
+  "catalog_before_sha256": "509a1e58fc38c0ecbaa56829c562ad3193f2df4ddad2d01985fcf08aa2a7cbac",
+  "catalog_after_sha256": "a230d0a9dec4145cc7246351a55e59713cea5e317e71ad08f9eb6b2dc98e6b34",
+  "geometry_contract_before_sha256": "d3b9aee5e840a538464915fec708c336946223bb40adaecc14ecf08366cd3dc2",
+  "geometry_contract_after_sha256": "609eb885ab0702869298c0a393e7757c2bf700c542529654d9005f1838d0323f",
+  "other573_field_groups_unchanged": true,
+  "previous86_field_candidates_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 216,
+    "field_neural_originals": 125,
+    "field_static_candidates": 89,
+    "field_holds": 36,
+    "field_groups_not_processed_in_field_context": 451,
+    "remaining_novel_unprocessed": 226,
+    "latest_review": "qa/field_geometry004_review.json"
+  },
+  "unique_neural_originals_title_battle_novel_field": 382,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\기둥과_장식격자_수정_비교.png",
+    "project_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry004\\기둥과_장식격자_수정_비교.png",
+    "sha256": "807379058829236c6c481689e2dc6b8ecfe570a2b391564c3f41996b1e9c7fcc"
+  },
+  "gpt_prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0337-v1\\prompt.txt",
+  "gpt_actual_raw_size": [
+    1774,
+    887
+  ],
+  "gpt_tool": "built-in image_gen; model identifier not exposed",
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "limits": [
+    "These three are static source/material candidates. The game consumer, UV seams, lighting and in-game scale remain unverified.",
+    "Structured reconstructions retain source geometry and interpreted shading, not every source dither pixel.",
+    "FM0347 revised sample-center diagnostic excludes the neighboring crossing arm; its numbers are not directly interchangeable with the earlier unsplit centroid diagnostic.",
+    "Final output replay uses frozen base planes where recorded; geometry maps/regions and sampled actual-output edges are checked separately.",
+    "Historical57 field and241 battle material candidates still need geometry-applicability review; no final geometry-wide acceptance claim.",
+    "No new observed PPSSPP key, install, emulator launch or final distribution package."
+  ],
+  "next_action": "Continue source-anchored held rail/lattice29/113, perspective facades37/38 and current structured holds. Complete remaining field226, battle43 and other source populations; FM0190 needs changed joint/plane-profile interpretation.",
+  "scripts": {
+    "audit_field_repeats004.py": "e2cdf47a2ecfaf5deaee89c46ecf93e9f9929e157e124f2fbe093479ded5de5b",
+    "rebuild_field_repeats004.py": "dcfaba415a73c9e3454812c48c35e752ebc037b7cb443feeb761b657d534a119",
+    "refine_field_repeats004.py": "3778d4579b4d165d21e8f5490814e6573956917c5b130ba637371e33e0f5b686",
+    "refine_field346_faces.py": "634b6624e661e1d14eb7f09727a480fc540140a23ea6ae4eea3627afd3e63c74",
+    "constrain_field337_gpt_and_align347.py": "a6b72cf22347707255dabe4e9008e49ecb5859faf4363ac0f581a5e389c572c6",
+    "finalize_field_geometry004.py": "db08ac5b24729a24f4a51268f665591b4add122b50e966723d3ddf6da37d2b22"
+  }
+}

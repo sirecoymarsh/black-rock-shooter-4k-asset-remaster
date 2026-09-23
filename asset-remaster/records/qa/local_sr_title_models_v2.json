@@ -1,0 +1,232 @@
+{
+  "schema": "brs-local-sr-comparison/v2",
+  "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\000.png",
+  "input_rgba_sha256": "ded2fa74a3a2753eb35c15b3b373b36cbb76fe264ce12a6c82915982f5553e42",
+  "device": "NVIDIA GeForce RTX 5080",
+  "torch": "2.7.0+cu128",
+  "spandrel": "0.3.4",
+  "color_order": "RGB",
+  "precision": "float32",
+  "neural_scale": 4,
+  "post_scale": "Lanczos 2x",
+  "reason": "Default anime6B removed source metal texture and over-emphasized rivet highlights; compare alternatives.",
+  "files": [
+    {
+      "id": "general-dn0.0",
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+          "weight": 0.0
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+          "weight": 1.0
+        }
+      ],
+      "exposure_before": 1,
+      "exposure_after": 1.0,
+      "native_size": [
+        1920,
+        1088
+      ],
+      "output_size": [
+        3840,
+        2176
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn0.0-active-8x.png",
+      "output_sha256": "c0b7fc5e8b176a8a135a4ad5cfd095122ef431d7bef8e2e0877fd6d8a31803fa",
+      "metrics": {
+        "rgb_mae_0_255": 1.4970996379852295,
+        "rgb_p99_abs_error_0_255": 7.0,
+        "rgb_mean_shift_0_255": [
+          0.09482230246067047,
+          0.1445082724094391,
+          0.5131357312202454
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 6.14100000000326,
+      "visual_review": "selected for isolated game verification: preserves grain, long scratches and rivet body/shading better; true detail vs palette dithering remains uncertain",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "general-dn0.5",
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+          "weight": 0.5
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+          "weight": 0.5
+        }
+      ],
+      "exposure_before": 1,
+      "exposure_after": 1.0,
+      "native_size": [
+        1920,
+        1088
+      ],
+      "output_size": [
+        3840,
+        2176
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn0.5-active-8x.png",
+      "output_sha256": "246e293fa824f76bd9f14cc8c5bdcdfa6ad2515bf2ce1961bdd47e17d40e7d01",
+      "metrics": {
+        "rgb_mae_0_255": 1.6091196537017822,
+        "rgb_p99_abs_error_0_255": 8.0,
+        "rgb_mean_shift_0_255": [
+          0.2894914150238037,
+          0.40571385622024536,
+          0.4664675295352936
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 4.811999999976251,
+      "visual_review": "not selected: more surface grain removed than dn0.0",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "general-dn1.0",
+      "model_sources": [
+        {
+          "name": "realesr-general-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+          "weight": 1.0
+        },
+        {
+          "name": "realesr-general-wdn-x4v3.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+          "bytes": 4885111,
+          "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+          "weight": 0.0
+        }
+      ],
+      "exposure_before": 1,
+      "exposure_after": 1.0,
+      "native_size": [
+        1920,
+        1088
+      ],
+      "output_size": [
+        3840,
+        2176
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn1.0-active-8x.png",
+      "output_sha256": "2142b16cac97fff970bf290d4e960b6eb07cd1ec55039ecbbac7e76cf4b54c17",
+      "metrics": {
+        "rgb_mae_0_255": 1.714943289756775,
+        "rgb_p99_abs_error_0_255": 9.0,
+        "rgb_mean_shift_0_255": [
+          -0.3761565685272217,
+          -0.0723268985748291,
+          0.1763097494840622
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 1.9380000000237487,
+      "visual_review": "rejected for this metal background: excessive smoothing",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "photo-x4plus",
+      "model_sources": [
+        {
+          "name": "RealESRGAN_x4plus.pth",
+          "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+          "bytes": 67040989,
+          "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+        }
+      ],
+      "exposure_before": 1,
+      "exposure_after": 1.0,
+      "native_size": [
+        1920,
+        1088
+      ],
+      "output_size": [
+        3840,
+        2176
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\photo-x4plus-active-8x.png",
+      "output_sha256": "c1ccd99a5a0b6bbd84b695a21f7bc20f346911a544172cef4f82f2dce5a03717",
+      "metrics": {
+        "rgb_mae_0_255": 1.9474800825119019,
+        "rgb_p99_abs_error_0_255": 10.0,
+        "rgb_mean_shift_0_255": [
+          -0.1446308195590973,
+          -0.03291973099112511,
+          -0.8602328300476074
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 2.8589999999967404,
+      "visual_review": "not selected: stronger reinterpretation of scratch and rivet edges",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "anime6B-exposure",
+      "model_sources": [
+        {
+          "path": "P:\\AI\\Codex\\projects\\fate-extra-psp-korean\\work\\hd-texture-pack\\codex-hd-v1\\references\\realesrgan\\RealESRGAN_x4plus_anime_6B.pth",
+          "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da"
+        }
+      ],
+      "exposure_before": 2.7419354838709675,
+      "exposure_after": 0.3647058823529412,
+      "native_size": [
+        1920,
+        1088
+      ],
+      "output_size": [
+        3840,
+        2176
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\anime6B-exposure-active-8x.png",
+      "output_sha256": "10cbfc99ca22a9f0f8434667c128464b7d6b50e66afe74fb5ba731bc741437d3",
+      "metrics": {
+        "rgb_mae_0_255": 1.7695848941802979,
+        "rgb_p99_abs_error_0_255": 9.0,
+        "rgb_mean_shift_0_255": [
+          0.29574140906333923,
+          -0.13514092564582825,
+          -0.2443857192993164
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "elapsed_seconds": 1.4679999999934807,
+      "visual_review": "rejected for this metal background: smooth planes and irregular rivet facets remain",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "external_generation": false,
+  "release_eligible": false,
+  "independent_review": "Read-only agent confirmed general-dn0.0 as first game-verification candidate; not final acceptance."
+}

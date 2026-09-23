@@ -1,0 +1,81 @@
+{
+  "iso": {
+    "path": "P:\\AI\\Codex\\work_archive\\2026-07-25\\new-chat-2\\work\\release_build\\runtime_fix_iso_20260823_test_v2\\BRS_Korean_v1.0.iso",
+    "sha256": "525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a",
+    "size": 1378271232,
+    "version": "Korean v1.0.1",
+    "release_target_match": true
+  },
+  "sources": [
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\PROJECT.md",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\PROJECT.md",
+      "sha256": "e73d084f6228b2b43652a861e39d2dd1dc3497d10ebe190b86723d4a56e41ed7"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\PROGRESS.md",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\PROGRESS.md",
+      "sha256": "8ad195ff86db4c417dc50ad3b95283228118a742397bf1ed01f9dcbd8381f70c"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\qa\\evidence\\environment.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\qa\\evidence\\environment.json",
+      "sha256": "1ef00de2671779d4c7660afac696cce997fd5b56bda7c90f6b27ed557bdb72f8"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\qa\\evidence\\inventory_summary.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\qa\\evidence\\inventory_summary.json",
+      "sha256": "d501dfcdaec7defd12d9b376df72a36626a688c29f68f09bea111c40621aa352"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\inventory\\baseline_mapping_audit.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\workspace\\inventory\\baseline_mapping_audit.json",
+      "sha256": "3a3b88cf8ccd1dff75b79ad0c26d6a8df4cf0b1466afd716f8a18d8294a76b96"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\inventory\\assets.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\workspace\\inventory\\assets.json",
+      "sha256": "a94e5694328364fd421ffe6727083a9c6faa5c26fa9dc9c83e5f059e1a36b0ea"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\inventory\\observations.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\workspace\\inventory\\observations.json",
+      "sha256": "18fd95b29e2996e84dc762e8213f386112367a0e4475e7a6e01742b90a9256da"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\inventory\\crosswalk.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\workspace\\inventory\\crosswalk.json",
+      "sha256": "cb1828e4c0870e0ca2044252cee21a26185302b9ee0bf38c34614ba57998e66c"
+    },
+    {
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\qa\\coverage.json",
+      "snapshot": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\parent_records\\qa\\coverage.json",
+      "sha256": "6a7686d074267b3cf74af1e4a61a743102c8dbd44ec125a857f738a536b58c9d"
+    },
+    {
+      "iso_path": "psp_game/usrdir/gamedata/system.vol",
+      "entry": "ucs2jis.bin",
+      "raw_sha256": "aa93cca163b7619ec8cb4e889be85f17bf604c01e1f9852044e60cfc4816eba7",
+      "decoded_sha256": "d532fd0c87efa68e7c1ebb90ffdcb33421a2d1d37ec45b078afbe9d94cd830e3",
+      "size": 131072,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\font\\ucs2jis.bin"
+    },
+    {
+      "iso_path": "psp_game/usrdir/gamedata/system.vol",
+      "entry": "ascii.ptm",
+      "raw_sha256": "eca90044331f4d960d8cae03200e1dc3645abea958c4c4fb469fc1d633e20e33",
+      "decoded_sha256": "5eddaaa762745baf13fd96cbe251dbd45ad50115551559961b70bc8d2f69e87c",
+      "size": 3664,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\font\\ascii.ptm"
+    },
+    {
+      "iso_path": "psp_game/usrdir/gamedata/system.vol",
+      "entry": "font.lpk",
+      "raw_sha256": "4e4374a5a80e8f79227ccccdb68d52a43c1631debfbf19b3a74472ce749104dd",
+      "decoded_sha256": "9503336b92ecd829b0e4e21113482e1a9bf433a0f1cca160565ffde4c7ffa67c",
+      "size": 412656,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\font\\font.lpk"
+    }
+  ],
+  "font_matches_final_build": true
+}

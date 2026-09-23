@@ -1,0 +1,714 @@
+{
+  "schema": "brs-soft-alpha-rework/v3",
+  "files": [
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "model_id": "wdn",
+      "prefilter_sigma": 0.6,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            64
+          ],
+          "prefilter_sigma": 0.6,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-part0-input-rgb.png",
+          "input_rgb_sha256": "2e88600f64baac9e121151ddba8c1eaf703a1fb12f90d974cce33a0b95617f7d",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-part0-input-alpha.png",
+          "input_alpha_sha256": "f9054fc79ce4da4b4fab4b541fd31d9d9f3022fc42595ab68aa2cb2400b0392e",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-part0-rgb4x.png",
+          "rgb_native_sha256": "0c44fb4ff0f3165840bc9c88ea02a3961651b2b25ec6df150fc75e491d7d779e",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-part0-alpha4x.png",
+          "alpha_native_sha256": "e66b6bfa21c86f3ddc59d912fa407bd747563650a380378550cd4dd5e76f97e2",
+          "weighted_rgb_mean_correction": [
+            -0.7633514404296875,
+            0.1774444580078125,
+            -0.2195587158203125
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma0.6-rgba8x.png",
+      "output_sha256": "bf37b84ffaf147d638385ee1b1baaa091bf4ad0bdc6680bf40f3c716735320e2",
+      "output_size": [
+        1024,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.000841177667686,
+      "roundtrip": {
+        "rgb_mae_0_255": 4.957437992095947,
+        "rgb_p99_abs_error_0_255": 45.0,
+        "rgb_mean_shift_0_255": [
+          -1.2374267578125,
+          -1.014404296875,
+          -1.1304931640625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 2,
+      "seconds": 0.8900000000139698,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM027_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "model_id": "wdn",
+      "prefilter_sigma": 1.0,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            64
+          ],
+          "prefilter_sigma": 1.0,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-part0-input-rgb.png",
+          "input_rgb_sha256": "8d0fd3563f9032f464dab91fe4155b78b4357cbca744ff51390b2fef120915b1",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-part0-input-alpha.png",
+          "input_alpha_sha256": "557b96b4e38f4f3ec7745fc65293913aee2d8ee543446b13cc001ccb8101b636",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-part0-rgb4x.png",
+          "rgb_native_sha256": "711368945d108a87a9315b8cbaa9b07ca750801ac3815b0066f1f896d60f1707",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-part0-alpha4x.png",
+          "alpha_native_sha256": "ccb96b49b8d0102d7636d4276214547104938cf4dca5881396065e0da9111094",
+          "weighted_rgb_mean_correction": [
+            -0.344757080078125,
+            0.2423095703125,
+            -0.8304595947265625
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-wdn-sigma1.0-rgba8x.png",
+      "output_sha256": "2c3321e975f8de924dc99298223d4e17423e721437807daefc0568e5f69efd44",
+      "output_size": [
+        1024,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.0008974845649856,
+      "roundtrip": {
+        "rgb_mae_0_255": 8.243449211120605,
+        "rgb_p99_abs_error_0_255": 63.0,
+        "rgb_mean_shift_0_255": [
+          -0.923095703125,
+          -1.2747802734375,
+          -1.930419921875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 2,
+      "seconds": 0.43799999996554106,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM027_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "model_id": "wdn",
+      "prefilter_sigma": 0.4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            48,
+            64
+          ],
+          "prefilter_sigma": 0.4,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part0-input-rgb.png",
+          "input_rgb_sha256": "fa97b5ebe82640f446cabbe022749f554535c4964f7273bf5113ef809fe6e654",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part0-input-alpha.png",
+          "input_alpha_sha256": "844d3c0800f3e1c1beb411f1706933e4cbaf0828a74136206ead5362589214e9",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part0-rgb4x.png",
+          "rgb_native_sha256": "2293ebb58d323ca11fb6ae054c3fd84385e9a89698bff865e2e09d7fac24076e",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part0-alpha4x.png",
+          "alpha_native_sha256": "d1cb190b7cda8bc5b08a3ae606f7499d399bd6cb8b6245d215830f1470a3de80",
+          "weighted_rgb_mean_correction": [
+            6.071193695068359,
+            8.368385314941406,
+            6.858421325683594
+          ]
+        },
+        {
+          "source_box": [
+            48,
+            0,
+            64,
+            64
+          ],
+          "prefilter_sigma": 0.15,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part1-input-rgb.png",
+          "input_rgb_sha256": "9c91144277e2ca3ae7c23c3d46d16bf8f38d6530b3fbc976b856a5a1b843c4cd",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part1-input-alpha.png",
+          "input_alpha_sha256": "f239254854ff8b8dab38b103deb15ddcf72d01d304f7218da920a6d07e46788a",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part1-rgb4x.png",
+          "rgb_native_sha256": "e016e3cfaff5da9f1c3b6b2cc868b3ea09b1b6806a645fcfb68afcfa24d0c725",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-part1-alpha4x.png",
+          "alpha_native_sha256": "51563de697699d880846a223a7a980bcb0d7336b7837a4ce348b799699f4661b",
+          "weighted_rgb_mean_correction": [
+            7.870147705078125,
+            5.767242431640625,
+            3.506988525390625
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.4-rgba8x.png",
+      "output_sha256": "877a8948725f428972f2cd9ae9557af10a77a2838214c68a28e145f36dd6a1f6",
+      "output_size": [
+        512,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.0041725179376564,
+      "roundtrip": {
+        "rgb_mae_0_255": 19.4326171875,
+        "rgb_p99_abs_error_0_255": 130.0,
+        "rgb_mean_shift_0_255": [
+          13.22216796875,
+          12.610595703125,
+          0.010498046875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 4,
+      "seconds": 0.23399999999674037,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM057_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "model_id": "wdn",
+      "prefilter_sigma": 0.7,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            48,
+            64
+          ],
+          "prefilter_sigma": 0.7,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part0-input-rgb.png",
+          "input_rgb_sha256": "9ed9da83b7ae6abb58759787cd40f0170100839e246ffd85032362e58c5e0df4",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part0-input-alpha.png",
+          "input_alpha_sha256": "e597f24524fcde72dd4704199877442b20ecc7b3fe3e10d310c2dcc33171f297",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part0-rgb4x.png",
+          "rgb_native_sha256": "c90c329b17eff58241d53cd701e8bb2ed2c5371b85aac7fa466be4c872069e86",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part0-alpha4x.png",
+          "alpha_native_sha256": "4d708bbdbc7710b6988276fd6d8a682db8ad1986ab3ac2c0eeb645824c6f639b",
+          "weighted_rgb_mean_correction": [
+            6.645679473876953,
+            6.867118835449219,
+            5.925540924072266
+          ]
+        },
+        {
+          "source_box": [
+            48,
+            0,
+            64,
+            64
+          ],
+          "prefilter_sigma": 0.15,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part1-input-rgb.png",
+          "input_rgb_sha256": "9c91144277e2ca3ae7c23c3d46d16bf8f38d6530b3fbc976b856a5a1b843c4cd",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part1-input-alpha.png",
+          "input_alpha_sha256": "f239254854ff8b8dab38b103deb15ddcf72d01d304f7218da920a6d07e46788a",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part1-rgb4x.png",
+          "rgb_native_sha256": "e016e3cfaff5da9f1c3b6b2cc868b3ea09b1b6806a645fcfb68afcfa24d0c725",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-part1-alpha4x.png",
+          "alpha_native_sha256": "51563de697699d880846a223a7a980bcb0d7336b7837a4ce348b799699f4661b",
+          "weighted_rgb_mean_correction": [
+            7.870147705078125,
+            5.767242431640625,
+            3.506988525390625
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-wdn-sigma0.7-rgba8x.png",
+      "output_sha256": "a03f68971f2ec96101c49c3095bf2a2b25269140d30bfb65d06265d16c489337",
+      "output_size": [
+        512,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.0044202139411915,
+      "roundtrip": {
+        "rgb_mae_0_255": 21.5224609375,
+        "rgb_p99_abs_error_0_255": 131.0,
+        "rgb_mean_shift_0_255": [
+          13.64501953125,
+          12.777099609375,
+          -0.023681640625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 4,
+      "seconds": 0.23399999999674037,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM057_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "model_id": "photo",
+      "prefilter_sigma": 0.6,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            64
+          ],
+          "prefilter_sigma": 0.6,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-part0-input-rgb.png",
+          "input_rgb_sha256": "2e88600f64baac9e121151ddba8c1eaf703a1fb12f90d974cce33a0b95617f7d",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-part0-input-alpha.png",
+          "input_alpha_sha256": "f9054fc79ce4da4b4fab4b541fd31d9d9f3022fc42595ab68aa2cb2400b0392e",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-part0-rgb4x.png",
+          "rgb_native_sha256": "31d149aad90445ef66eec3a70f634ef175ede24987a2c638db665c61a2f4c1c6",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-part0-alpha4x.png",
+          "alpha_native_sha256": "70668d3334b6a3a270bbbee1eb21f53cd4b6612d25a902c1ee137c56bd95c720",
+          "weighted_rgb_mean_correction": [
+            -4.471893310546875,
+            -3.630950927734375,
+            -4.41510009765625
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma0.6-rgba8x.png",
+      "output_sha256": "1b1da24e0ab1c4351f6a5bce6ce223e6ba0796fbc7c3c30e0473e7fe26dd08f3",
+      "output_size": [
+        1024,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 0.9993377106205961,
+      "roundtrip": {
+        "rgb_mae_0_255": 5.661824703216553,
+        "rgb_p99_abs_error_0_255": 45.0,
+        "rgb_mean_shift_0_255": [
+          -0.151611328125,
+          -1.025634765625,
+          -1.2293701171875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 2,
+      "seconds": 0.5160000000032596,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM027_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM027",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\002_map_b_stg01_01_sky.bin\\000.png",
+      "source_rgba_sha256": "eea021c7abd6ae86c8ea9ab8bbc93b8337de30a87ee94e0f7c326aaeba8b2a0d",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "model_id": "photo",
+      "prefilter_sigma": 1.0,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            64
+          ],
+          "prefilter_sigma": 1.0,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-part0-input-rgb.png",
+          "input_rgb_sha256": "8d0fd3563f9032f464dab91fe4155b78b4357cbca744ff51390b2fef120915b1",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-part0-input-alpha.png",
+          "input_alpha_sha256": "557b96b4e38f4f3ec7745fc65293913aee2d8ee543446b13cc001ccb8101b636",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-part0-rgb4x.png",
+          "rgb_native_sha256": "7ce8e0f171c2179702b4d32d243e1d1b16e114e4a94a499dda7bcc48ddab84a1",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-part0-alpha4x.png",
+          "alpha_native_sha256": "0952e4b97888033f3e6294f81a636cd72a67526b1765581262f4bd157c066e99",
+          "weighted_rgb_mean_correction": [
+            -3.68023681640625,
+            -3.324493408203125,
+            -4.4565887451171875
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM027-photo-sigma1.0-rgba8x.png",
+      "output_sha256": "b70201c6fc22931c1e572d6bdeab9d56824aacc6e9a1c307af64997370480329",
+      "output_size": [
+        1024,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 0.9992305635150548,
+      "roundtrip": {
+        "rgb_mae_0_255": 8.035929679870605,
+        "rgb_p99_abs_error_0_255": 66.0,
+        "rgb_mean_shift_0_255": [
+          -1.831298828125,
+          -1.0103759765625,
+          -2.16357421875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 2,
+      "seconds": 0.5470000000204891,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Cloud facets reduced while keeping source cloud placement and density; selected after dark/light matte and 2x review.",
+        "evidence": [
+          "outputs/local_sr_BM027_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "model_id": "photo",
+      "prefilter_sigma": 0.4,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            48,
+            64
+          ],
+          "prefilter_sigma": 0.4,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part0-input-rgb.png",
+          "input_rgb_sha256": "fa97b5ebe82640f446cabbe022749f554535c4964f7273bf5113ef809fe6e654",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part0-input-alpha.png",
+          "input_alpha_sha256": "844d3c0800f3e1c1beb411f1706933e4cbaf0828a74136206ead5362589214e9",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part0-rgb4x.png",
+          "rgb_native_sha256": "d787b539e0e946e274aca89caa81a0d38377ed49116f3f96dd61e26752b25145",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part0-alpha4x.png",
+          "alpha_native_sha256": "2e89491cb8dfb47ab2e9b5189b0e6bb7373c752a5249d8828b20d7700bfe7afc",
+          "weighted_rgb_mean_correction": [
+            9.775787353515625,
+            10.278617858886719,
+            8.131488800048828
+          ]
+        },
+        {
+          "source_box": [
+            48,
+            0,
+            64,
+            64
+          ],
+          "prefilter_sigma": 0.15,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part1-input-rgb.png",
+          "input_rgb_sha256": "9c91144277e2ca3ae7c23c3d46d16bf8f38d6530b3fbc976b856a5a1b843c4cd",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part1-input-alpha.png",
+          "input_alpha_sha256": "f239254854ff8b8dab38b103deb15ddcf72d01d304f7218da920a6d07e46788a",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part1-rgb4x.png",
+          "rgb_native_sha256": "3ad334390a3f3b3a6099d62933408afc5fc1e601e535f3b155ae3bdd148cd288",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-part1-alpha4x.png",
+          "alpha_native_sha256": "01aca9318b0b956deea4f502050d560a1b27fbbe474dd8edc77902f580195d62",
+          "weighted_rgb_mean_correction": [
+            14.674850463867188,
+            11.927352905273438,
+            8.90887451171875
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.4-rgba8x.png",
+      "output_sha256": "d2969c7d62b644fd8d9cc2f8ec9671bee74472e8b91715583a664019420b7919",
+      "output_size": [
+        512,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.0030849539013467,
+      "roundtrip": {
+        "rgb_mae_0_255": 20.31599998474121,
+        "rgb_p99_abs_error_0_255": 132.0,
+        "rgb_mean_shift_0_255": [
+          14.748291015625,
+          13.17333984375,
+          0.3154296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 4,
+      "seconds": 0.5310000000172295,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_parent_only",
+        "reason": "Foliage has suitable shapes but requires lower high-frequency contrast and independent WDN bark; used only as rework parent.",
+        "evidence": [
+          "outputs/local_sr_BM057_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM057",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\019.png",
+      "source_rgba_sha256": "3da338579a8b393cf92afe08c4b43c17edbc1bcd7ff69a8a0eaf328e805fd161",
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "model_id": "photo",
+      "prefilter_sigma": 0.7,
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            48,
+            64
+          ],
+          "prefilter_sigma": 0.7,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part0-input-rgb.png",
+          "input_rgb_sha256": "9ed9da83b7ae6abb58759787cd40f0170100839e246ffd85032362e58c5e0df4",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part0-input-alpha.png",
+          "input_alpha_sha256": "e597f24524fcde72dd4704199877442b20ecc7b3fe3e10d310c2dcc33171f297",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part0-rgb4x.png",
+          "rgb_native_sha256": "20513d9d266e219847e26b9b5798569abc5db7ecf39418e932bf4ba4f6c5d6a3",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part0-alpha4x.png",
+          "alpha_native_sha256": "c946c97f002a373dbed353e5aafeb9cec0364ce0fe5b31c70861f0892c8f8283",
+          "weighted_rgb_mean_correction": [
+            5.899158477783203,
+            6.496131896972656,
+            4.3383636474609375
+          ]
+        },
+        {
+          "source_box": [
+            48,
+            0,
+            64,
+            64
+          ],
+          "prefilter_sigma": 0.15,
+          "input_rgb": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part1-input-rgb.png",
+          "input_rgb_sha256": "9c91144277e2ca3ae7c23c3d46d16bf8f38d6530b3fbc976b856a5a1b843c4cd",
+          "input_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part1-input-alpha.png",
+          "input_alpha_sha256": "f239254854ff8b8dab38b103deb15ddcf72d01d304f7218da920a6d07e46788a",
+          "rgb_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part1-rgb4x.png",
+          "rgb_native_sha256": "3ad334390a3f3b3a6099d62933408afc5fc1e601e535f3b155ae3bdd148cd288",
+          "alpha_native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-part1-alpha4x.png",
+          "alpha_native_sha256": "01aca9318b0b956deea4f502050d560a1b27fbbe474dd8edc77902f580195d62",
+          "weighted_rgb_mean_correction": [
+            14.674850463867188,
+            11.927352905273438,
+            8.90887451171875
+          ]
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\soft-alpha-v3\\BM057-photo-sigma0.7-rgba8x.png",
+      "output_sha256": "bb0447c8ffa90b08c11a2ff73310790eb17d489c7f8110a7dbbcbeb99e044a79",
+      "output_size": [
+        512,
+        512
+      ],
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "alpha_method": "50% actual neural coverage, 50% bilinear prefiltered coverage; source mean opacity restoration; source empty and solid support constraints.",
+      "prefilter_method": "Gaussian premultiplied RGBA filtering before RGB/alpha local inference; atlas parts isolated.",
+      "alpha_mass_ratio": 1.0046736207852125,
+      "roundtrip": {
+        "rgb_mae_0_255": 22.32999610900879,
+        "rgb_p99_abs_error_0_255": 128.0,
+        "rgb_mean_shift_0_255": [
+          13.33544921875,
+          12.03662109375,
+          -0.939697265625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "device": "NVIDIA GeForce RTX 5080",
+      "torch": "2.7.0+cu128",
+      "precision": "float32",
+      "local_inference": true,
+      "image_upload": false,
+      "new_inference_passes": 4,
+      "seconds": 0.4529999999795109,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Residual facets/gloss or excess softness; a better reviewed condition exists in this batch.",
+        "evidence": [
+          "outputs/local_sr_BM057_soft_v3.png",
+          "outputs/local_sr_soft_matte_review_v4.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "unique_originals": 2,
+  "new_originals": 0,
+  "new_neural_inference_passes": 24,
+  "runtime_verified": false,
+  "release_eligible": false
+}

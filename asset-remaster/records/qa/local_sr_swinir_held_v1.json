@@ -1,0 +1,1397 @@
+{
+  "schema": "brs-swinir-held/v1",
+  "group_ids": [
+    "BM130",
+    "BM156",
+    "BM159",
+    "BM162",
+    "BM163",
+    "BM164",
+    "BM165",
+    "BM082",
+    "BM056",
+    "BM114"
+  ],
+  "model": {
+    "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+    "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+    "official_repository": "https://github.com/JingyunLiang/SwinIR",
+    "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+    "bytes": 67869037,
+    "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+    "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+    "task": "classical_sr x4, DF2K, training patch64 window8"
+  },
+  "device": "NVIDIA GeForce RTX 5080",
+  "files": [
+    {
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            256,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p0-input.png",
+          "input_sha256": "02ad99ca01959f31adf8a859fb66a5cdca6fe9b59a595fa72a83eb2ff632c034",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p0-native4x.png",
+          "native_sha256": "6c8210645d6425ae39e36aa35ee42938c4e18f4499fa90bcdf5c0a59e9080b35"
+        },
+        {
+          "source_box": [
+            0,
+            32,
+            256,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p1-input.png",
+          "input_sha256": "23366bb6759659daf8f58110d99cd2c927990923992bc54762d6f7515a41b78b",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p1-native4x.png",
+          "native_sha256": "ec902ec4f950054513b2b94b79940d2e748765914a8c2f25558a96650e032684"
+        },
+        {
+          "source_box": [
+            0,
+            64,
+            256,
+            96
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p2-input.png",
+          "input_sha256": "54dd2292353a99b5f3f4859e0db606698afacd7d9b8bde98987f8108d5bc1e5a",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p2-native4x.png",
+          "native_sha256": "3813f02bbceae750f103c98431e54b8e67be8d3f6d77b3c58e83ba7fd6ce4c22"
+        },
+        {
+          "source_box": [
+            0,
+            96,
+            256,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p3-input.png",
+          "input_sha256": "9ea54dfd6c5bcd63616a57a5fba964f4a71e2e9aab5d293d52907b649c3b9db3",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-p3-native4x.png",
+          "native_sha256": "e0b92326ad08a15ce5eff93bde0aa19bae8a21a2d274d4a82d11c434efd769ab"
+        }
+      ],
+      "new_neural_passes": 4,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.0-rgba8x.png",
+      "output_sha256": "ba02c27d4f3620d91059b291586331a6fa40155bd44bf5ffe41c25cf20895bca",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "seconds": 1.5160000000032596,
+      "metrics": {
+        "rgb_mae_0_255": 14.65247631072998,
+        "rgb_p99_abs_error_0_255": 84.0,
+        "rgb_mean_shift_0_255": [
+          -3.300537109375,
+          -3.552093505859375,
+          -7.91790771484375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Classical SR emphasizes dither into dots and thin etched contours rather than restoring cliff texture.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.0-p0-input.png",
+          "input_sha256": "f66cc0c83ba05dc7cce51bc092cfce609fbe48d41882f41a3a2e13469a671827",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.0-p0-native4x.png",
+          "native_sha256": "0bc0813f9c25a16d27d692205bdecb46cb1dfb987270ada50aa6fd57551f5065"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.0-rgba8x.png",
+      "output_sha256": "507ba341e9bb28d9c6de2116ded491e058623b327003e127d290e82ca1cfda20",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "seconds": 0.48499999998603016,
+      "metrics": {
+        "rgb_mae_0_255": 31.24361228942871,
+        "rgb_p99_abs_error_0_255": 116.0,
+        "rgb_mean_shift_0_255": [
+          25.8238525390625,
+          29.98370361328125,
+          29.80621337890625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Bright rims, dots and flat patches distort crown and trunk detail.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.0-p0-input.png",
+          "input_sha256": "ac2bb802eaa740bf8f1948c7c20d67c028793a9c1ad728f1d66268a0ca87b066",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.0-p0-native4x.png",
+          "native_sha256": "923e7828962109aef54a9a06b9b34557e2342cb1fc02a5e0dfe0f35af13e2866"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.0-rgba8x.png",
+      "output_sha256": "269311857af2510af12f8d90946df41fad702c37f4ecea3970600783771ae002",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.17199999996228144,
+      "metrics": {
+        "rgb_mae_0_255": 2.76123046875,
+        "rgb_p99_abs_error_0_255": 13.0,
+        "rgb_mean_shift_0_255": [
+          2.80419921875,
+          2.754150390625,
+          1.071533203125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Flat yellow islands and dark cutouts retain grid-like artifacts.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.0-p0-input.png",
+          "input_sha256": "e628c2ed19095350ebc404393698cd152c4768ebb97255bdb54d13b81c4690f7",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.0-p0-native4x.png",
+          "native_sha256": "0075485008dd0b4812a00d5c77f14feaa38d6b5a520587cc6fc952221e6160fd"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.0-rgba8x.png",
+      "output_sha256": "0e3e9ea40b4264549629ab4fa6e98ba187402988e2934f0fb39b5ab6f7b62c71",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.15600000001722947,
+      "metrics": {
+        "rgb_mae_0_255": 12.514404296875,
+        "rgb_p99_abs_error_0_255": 59.0,
+        "rgb_mean_shift_0_255": [
+          -7.049560546875,
+          -7.385009765625,
+          -7.674072265625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "White rims and pooled highlights give foliage a glossy cellular appearance.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.0-p0-input.png",
+          "input_sha256": "c7cbbee4571d131a04aaa6bb079cf0949b7bfefd3f310b87490616801bad700c",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.0-p0-native4x.png",
+          "native_sha256": "392c54aa9b062a7db02da32853b6492370c919e337f656fdbfa68eb67081e740"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.0-rgba8x.png",
+      "output_sha256": "be53a5c3875bd579dc6696ca5328a34061a777b622010639d2df5f36dc91f9f2",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.14000000001396984,
+      "metrics": {
+        "rgb_mae_0_255": 41.212890625,
+        "rgb_p99_abs_error_0_255": 94.0,
+        "rgb_mean_shift_0_255": [
+          -13.350341796875,
+          -9.421875,
+          -50.700439453125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Black/yellow rims and repeated tubular shapes do not resolve the leaf geometry.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.0-p0-input.png",
+          "input_sha256": "12ea1db62436b582b6d552e6f8d52dbcddd1457cbf7bfbcff6cf3f3752eb9c17",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.0-p0-native4x.png",
+          "native_sha256": "38403565bc7d24593f311f4cfabc5ae6000e53af32179ea541dba9a466fedf29"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.0-rgba8x.png",
+      "output_sha256": "b3a6e9cca9476de59facd05bd65f178ee18210a575d1dbc4b997bad7e063aee7",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.1559999999590218,
+      "metrics": {
+        "rgb_mae_0_255": 31.2294921875,
+        "rgb_p99_abs_error_0_255": 112.0,
+        "rgb_mean_shift_0_255": [
+          5.878173828125,
+          16.042236328125,
+          -38.2373046875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Curled glossy patches and ringing replace leaf detail.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.0-p0-input.png",
+          "input_sha256": "6222c6c4609b6f27efb9ae354ce5b790877b6fe464cee8f1cb9ef34b5cf484b4",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.0-p0-native4x.png",
+          "native_sha256": "fa41422bc9e9fb6fa83602d967327db43da1bda0a4c7990317f0f25ed47200c7"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.0-rgba8x.png",
+      "output_sha256": "97b864d65d20534b2c9016c724c2ac735fe14f16920d4c966b056d7fa6485ceb",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.15600000001722947,
+      "metrics": {
+        "rgb_mae_0_255": 22.71573829650879,
+        "rgb_p99_abs_error_0_255": 106.0,
+        "rgb_mean_shift_0_255": [
+          8.122802734375,
+          9.42822265625,
+          2.298828125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Gray leaf fragments become bright hard-edged curled patches.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM082",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\008.png",
+      "source_rgba_sha256": "1c7b40d70c40912a266b2a6b057a1e93a8002e36377c1d841c689900f313db34",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.0-p0-input.png",
+          "input_sha256": "2a9d055d20477e445fba3ddc8846ec154fdfb08ab1f6e771bd039551d90f2c0f",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.0-p0-native4x.png",
+          "native_sha256": "7913578784e2659c7cf68508756f58fc70e8829c7759a1e428266a4ef2b15ccd"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM082-dn0.0-8x.png",
+      "alpha_parent_sha256": "95dd25e4cf25e2c9a01d0fa5673560a26b9cc1262ca18be1daa301fd3298763f",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.0-rgba8x.png",
+      "output_sha256": "d930eb70d2640a7f03213b33835c5a8824af7c79d9361af4274e27dc47a62421",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.15600000001722947,
+      "metrics": {
+        "rgb_mae_0_255": 5.91943359375,
+        "rgb_p99_abs_error_0_255": 22.0,
+        "rgb_mean_shift_0_255": [
+          -0.767822265625,
+          -0.665771484375,
+          -0.740234375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Frame stripes, hub outline and blade highlights gain severe ringing and hard invented outlines.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM082.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM056",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\004.png",
+      "source_rgba_sha256": "6d640f01e6e907532d047c811848fb0906feb8acbfa26845333229375cae48bb",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.0-p0-input.png",
+          "input_sha256": "aa38f76d898981e8d8bab85213ae83c3bc5501070ff0acdaaf4cbac1c76d2189",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.0-p0-native4x.png",
+          "native_sha256": "fd8323dde0888d2e32d368eed4e4ae508eab7bb83091aa0a60550d06bffee3cc"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-materials-v1\\BM056-dn0.0-color-8x.png",
+      "alpha_parent_sha256": "97ee210409584a1df95b489b71b10e90e4fe1a0871d1b0684713703fd008af26",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.0-rgba8x.png",
+      "output_sha256": "1977d567cc914f5d3788b9f7ad70c579bb4bdc57e6de3543278af1a265340dec",
+      "output_size": [
+        256,
+        256
+      ],
+      "seconds": 0.11000000004423782,
+      "metrics": {
+        "rgb_mae_0_255": 5.298828125,
+        "rgb_p99_abs_error_0_255": 20.0,
+        "rgb_mean_shift_0_255": [
+          -0.0146484375,
+          -0.0615234375,
+          0.23828125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Vertical window mullions bend and merge with dark openings.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM056.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM114",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\000.png",
+      "source_rgba_sha256": "5fb3162176e98a03310e5f3d5d22b1499377f24cce1403f51ab803912e4dcda4",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.0,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.0-p0-input.png",
+          "input_sha256": "689f36375a25ee78ea35fad975349ee49c344239f479c7a2fc7fd9df37d6bc3a",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.0-p0-native4x.png",
+          "native_sha256": "61c8d59f510ff101b91d170a4f3fca5c9715a08e9c8ac24448b5978db6fd6c3e"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM114-dn0.0-8x.png",
+      "alpha_parent_sha256": "86b4ca4447a9b14bc5c6a72d7af3a45c230b6cc89385857de9c4ebcf818e95aa",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.0-rgba8x.png",
+      "output_sha256": "32bc71210660460f4dbb60f2cbd0ddf0a8cb6671406232918273ecf25de3b0fc",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "seconds": 0.35899999999674037,
+      "metrics": {
+        "rgb_mae_0_255": 0.3628946840763092,
+        "rgb_p99_abs_error_0_255": 5.0,
+        "rgb_mean_shift_0_255": [
+          -0.15216064453125,
+          -0.17181396484375,
+          -0.20367431640625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Dither is emphasized as isolated dots and thin outlines; surface geometry is not improved.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM114.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM130",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg03_01.vol\\001_map_b_stg03_01.bin\\001.png",
+      "source_rgba_sha256": "605d10c1e03000f5e7a1da12d9d46e72a541cef82a6d9f34dcba3b9e6ede673f",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            256,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p0-input.png",
+          "input_sha256": "908546d6e475a2cfbcc359949619185c77a22403ed8c7d83bcad55a84c4d96e0",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p0-native4x.png",
+          "native_sha256": "ca923946393a96c6496e0b3b8b8c16277d35e2928b147d7cc05145f553c34117"
+        },
+        {
+          "source_box": [
+            0,
+            32,
+            256,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p1-input.png",
+          "input_sha256": "cbd1e14debab778ff4cf41afc67ab2a2cbeeb95d93b95e7ab401f583eeecfa6f",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p1-native4x.png",
+          "native_sha256": "12abc4774bdf4da4eef674b1cc8bca88ef20cc4fa4050eeea2c81abfd1fdd975"
+        },
+        {
+          "source_box": [
+            0,
+            64,
+            256,
+            96
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p2-input.png",
+          "input_sha256": "4e7014ec84a88fdee9eccb4ab19c39b3251350a7fce608baa0754766a1d2104b",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p2-native4x.png",
+          "native_sha256": "951212f22e90284e95d7575896ed1bc0d9e6eb2b5d87a89b4ba782a753d6b485"
+        },
+        {
+          "source_box": [
+            0,
+            96,
+            256,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p3-input.png",
+          "input_sha256": "311c1c721e853967f7c6a6c3d2d69d07b4c7b566d0799588f84627021da674e4",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-p3-native4x.png",
+          "native_sha256": "91ff64c7d3c543093d52d7d5f1b4529564215a5f7ff69fa376a9d7f31128a620"
+        }
+      ],
+      "new_neural_passes": 4,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM130-wdn-rgba8x.png",
+      "alpha_parent_sha256": "29ba3dc3bb131fc09e2104d499a539dd94482236ac1af01fe5457095cbf350f3",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM130-sigma0.35-rgba8x.png",
+      "output_sha256": "2ae22fbd32ead20d950ff52949b9272bf40bfd21c6df00e4496de6ef231baaad",
+      "output_size": [
+        2048,
+        1024
+      ],
+      "seconds": 1.125,
+      "metrics": {
+        "rgb_mae_0_255": 14.451008796691895,
+        "rgb_p99_abs_error_0_255": 84.0,
+        "rgb_mean_shift_0_255": [
+          -3.258026123046875,
+          -3.5030517578125,
+          -7.907379150390625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Classical SR emphasizes dither into dots and thin etched contours rather than restoring cliff texture.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM130.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM156",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\000.png",
+      "source_rgba_sha256": "9cc5f6578757a24dc4c67603c6764f8fa138b349abec7fce25319ecf4a50ce3e",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.35-p0-input.png",
+          "input_sha256": "fbc40b953116c0e590ed135976a309c443cb71d6948fe6bb8a69360079f273ef",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.35-p0-native4x.png",
+          "native_sha256": "a9db302104f1996ed68925100960a1150648730d6a052c6388e7572f9f88d314"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM156-wdn-rgba8x.png",
+      "alpha_parent_sha256": "b434077c130c70ead6a511a7783a34755fe5ae1d0d0612257bdfa8647175610e",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM156-sigma0.35-rgba8x.png",
+      "output_sha256": "e9da7553de8cf95f8c941d763c5d4a18c1c9af675000f7d68f42079521502206",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "seconds": 0.46899999998277053,
+      "metrics": {
+        "rgb_mae_0_255": 30.8106689453125,
+        "rgb_p99_abs_error_0_255": 116.0,
+        "rgb_mean_shift_0_255": [
+          26.09765625,
+          30.25213623046875,
+          30.07025146484375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Bright rims, dots and flat patches distort crown and trunk detail.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM156.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM159",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\003.png",
+      "source_rgba_sha256": "98fc19ab595032d80467b0ae5dfb354021542a30404de67d9e7db32cd90d1f1a",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.35-p0-input.png",
+          "input_sha256": "3d67423ae7feff9e5f76e83cfaa41c5c18cdacd006468de971689c665f2fb6ad",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.35-p0-native4x.png",
+          "native_sha256": "887539244580388878ec7b8f8019d2572a4bbae8f77f0fa325d238196083b602"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM159-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f345aa72bbe0f579ded48ee7e7c33ba9590764fdfb4a5fcb318f2e84f1139939",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM159-sigma0.35-rgba8x.png",
+      "output_sha256": "db5348778280d59ef55628ddfb99d867baa17c11476ad64686244f845af8ecc4",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.17199999996228144,
+      "metrics": {
+        "rgb_mae_0_255": 2.8365886211395264,
+        "rgb_p99_abs_error_0_255": 23.0,
+        "rgb_mean_shift_0_255": [
+          3.3828125,
+          3.138427734375,
+          0.936279296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Flat yellow islands and dark cutouts retain grid-like artifacts.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM159.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM162",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\007.png",
+      "source_rgba_sha256": "ce5e3f0a02458cdd51b26ef7575fa4309ee05f2af43d3a8e36cf424b70d3b54b",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.35-p0-input.png",
+          "input_sha256": "2c4ba15c5f28dc212b3b42315d1c3a184f919d3159822418c0e372fe2201f1e5",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.35-p0-native4x.png",
+          "native_sha256": "38882afd3ddd453bd34514c67bc9b69f06a02798614adca172c0960c3d993773"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM162-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f920b4ff84c7d57ee671e5217c3ba41d07f3667d9650e1fdaa4dd79a1353c5d9",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM162-sigma0.35-rgba8x.png",
+      "output_sha256": "34e8dcf5f12e70f86175e14e825efba4485f4ccd447d34ccc8d16eb684ce2dab",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.1720000000204891,
+      "metrics": {
+        "rgb_mae_0_255": 11.259033203125,
+        "rgb_p99_abs_error_0_255": 44.1299999999992,
+        "rgb_mean_shift_0_255": [
+          -6.79833984375,
+          -7.128662109375,
+          -7.42138671875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "White rims and pooled highlights give foliage a glossy cellular appearance.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM162.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM163",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\008.png",
+      "source_rgba_sha256": "c7247cf4d73a1e9ca7f5345888f2ca82e8bbdd17492656ee2de861801533a578",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.35-p0-input.png",
+          "input_sha256": "b6c187e38743fa541efda0dfdd3808fca943becd78e3b56eae6afc190040f6fd",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.35-p0-native4x.png",
+          "native_sha256": "7cf94d6e8af011923c76baa1a7879278914655d94e41b7e10e9f7ebd44213c74"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM163-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0d8751e5696d9795ee6eda0b2d691486f857f34ff0db09c2d8a8d920a3078396",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM163-sigma0.35-rgba8x.png",
+      "output_sha256": "8ac6a505b5e6ad41aaec4d49720b7df8b04a8138946ff676f9e3b055c6313b37",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.13999999995576218,
+      "metrics": {
+        "rgb_mae_0_255": 39.78084182739258,
+        "rgb_p99_abs_error_0_255": 93.0,
+        "rgb_mean_shift_0_255": [
+          -12.80224609375,
+          -8.809326171875,
+          -50.4423828125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Black/yellow rims and repeated tubular shapes do not resolve the leaf geometry.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM163.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM164",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\009.png",
+      "source_rgba_sha256": "7e9e26d1db5995531ba90fa04ce9b71b1fdaf60930f3b7f9794dae495f78d72d",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.35-p0-input.png",
+          "input_sha256": "34aa40d60f549d2e213d07acd9ca9f1fd5a3f3669fd40c376d2dd27b55d9a80d",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.35-p0-native4x.png",
+          "native_sha256": "69eaef235b29765953810e63a80638efa9fe2bbb4d79aac81e756867625711b6"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM164-wdn-rgba8x.png",
+      "alpha_parent_sha256": "daf5d2306671c90b2f2d0dae774580d3346e7cecd7393aa5b8692a5ac7c2e124",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM164-sigma0.35-rgba8x.png",
+      "output_sha256": "0edf893cf64334a9e2f243c7854058e2651b474b98a34adcb106192fd6cf3ca5",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.1720000000204891,
+      "metrics": {
+        "rgb_mae_0_255": 30.498779296875,
+        "rgb_p99_abs_error_0_255": 111.0,
+        "rgb_mean_shift_0_255": [
+          5.841796875,
+          16.007080078125,
+          -38.091796875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Curled glossy patches and ringing replace leaf detail.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM164.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM165",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg04_01.vol\\001_map_b_stg04_01.bin\\010.png",
+      "source_rgba_sha256": "a651154f38e2384adf74d4a9954d5b774b9751ef99d09a4d90213c6384eb1c9a",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.35-p0-input.png",
+          "input_sha256": "3ad468b0c8f3570ccec7d5a873170f474880abe137dfe1299d3ff19e6770510f",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.35-p0-native4x.png",
+          "native_sha256": "c1183018ce95e2d6613dcec4a4a28a15fe354e738d7ee1e6d4816bc5f709af42"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\observed-v1\\BM165-wdn-rgba8x.png",
+      "alpha_parent_sha256": "c47ffb06ea6cd1e2b0f9cc906882790e6ea993aea57b297cf303156ddb03b359",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM165-sigma0.35-rgba8x.png",
+      "output_sha256": "33c5f1a1066baa0971b4172131f5a055392d969fd963c90ac638996486045895",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.15600000001722947,
+      "metrics": {
+        "rgb_mae_0_255": 21.79427146911621,
+        "rgb_p99_abs_error_0_255": 105.0,
+        "rgb_mean_shift_0_255": [
+          8.223876953125,
+          9.519775390625,
+          2.37939453125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Gray leaf fragments become bright hard-edged curled patches.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM165.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM082",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\008.png",
+      "source_rgba_sha256": "1c7b40d70c40912a266b2a6b057a1e93a8002e36377c1d841c689900f313db34",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.35-p0-input.png",
+          "input_sha256": "1a32a4989c855364f07a429fdfca455923e097369d63899ee64ffded23d72b94",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.35-p0-native4x.png",
+          "native_sha256": "89d2a7757d01bd042ea1b92d844ef11da4830e40e912296d669b6c15ec3891ba"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM082-dn0.0-8x.png",
+      "alpha_parent_sha256": "95dd25e4cf25e2c9a01d0fa5673560a26b9cc1262ca18be1daa301fd3298763f",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM082-sigma0.35-rgba8x.png",
+      "output_sha256": "a3687357a02c4f606b27725a55dae6f2c27c2470e7e46e59528a1ffecd9e8791",
+      "output_size": [
+        512,
+        512
+      ],
+      "seconds": 0.20400000002700835,
+      "metrics": {
+        "rgb_mae_0_255": 4.430745601654053,
+        "rgb_p99_abs_error_0_255": 17.0,
+        "rgb_mean_shift_0_255": [
+          -0.34912109375,
+          -0.262451171875,
+          -0.2978515625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Frame stripes, hub outline and blade highlights gain severe ringing and hard invented outlines.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM082.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM056",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_03.vol\\001_map_b_stg01_03.bin\\004.png",
+      "source_rgba_sha256": "6d640f01e6e907532d047c811848fb0906feb8acbfa26845333229375cae48bb",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.35-p0-input.png",
+          "input_sha256": "13feba55ee61582fb84e5e0eb648654905d8e1dc47f7f3a21b401bbbed1e8e52",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.35-p0-native4x.png",
+          "native_sha256": "8fd55fbc1c8540809b47c2a8a17265aee0a7ea6963028600726cc86ed1f01088"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage01-materials-v1\\BM056-dn0.0-color-8x.png",
+      "alpha_parent_sha256": "97ee210409584a1df95b489b71b10e90e4fe1a0871d1b0684713703fd008af26",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM056-sigma0.35-rgba8x.png",
+      "output_sha256": "d53fd8af8635941c8cda3f5a747e8c960d200accc6da022d5aaab63fd91be464",
+      "output_size": [
+        256,
+        256
+      ],
+      "seconds": 0.125,
+      "metrics": {
+        "rgb_mae_0_255": 3.5263671875,
+        "rgb_p99_abs_error_0_255": 14.0,
+        "rgb_mean_shift_0_255": [
+          0.0263671875,
+          -0.0224609375,
+          0.0615234375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Vertical window mullions bend and merge with dark openings.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM056.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "BM114",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\000.png",
+      "source_rgba_sha256": "5fb3162176e98a03310e5f3d5d22b1499377f24cce1403f51ab803912e4dcda4",
+      "model": {
+        "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "source_url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "official_repository": "https://github.com/JingyunLiang/SwinIR",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+        "bytes": 67869037,
+        "sha256": "4e78e33f22c1aa8a773db0cf4a7381bae97c2362c717f155439ebc690cbd9215",
+        "downloaded_utc": "2026-09-23T01:08:18.716797+00:00",
+        "task": "classical_sr x4, DF2K, training patch64 window8"
+      },
+      "prefilter_sigma": 0.35,
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "parts": [
+        {
+          "source_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.35-p0-input.png",
+          "input_sha256": "8b6f1dce81e503207ccc62820cfb32662c53501e40c8684c125f4cb9dd780022",
+          "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.35-p0-native4x.png",
+          "native_sha256": "5b6a7a8b7927f3c263de29a7699703f49615487ea5ce4e242257401eb00c2c14"
+        }
+      ],
+      "new_neural_passes": 1,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM114-dn0.0-8x.png",
+      "alpha_parent_sha256": "86b4ca4447a9b14bc5c6a72d7af3a45c230b6cc89385857de9c4ebcf818e95aa",
+      "alpha_exact_to_parent": true,
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\swinir-held-v1\\BM114-sigma0.35-rgba8x.png",
+      "output_sha256": "6b0460f4eb17992f791174b2613798f4be9129ab8f3a389bfcae10459ad7e216",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "seconds": 0.3899999999557622,
+      "metrics": {
+        "rgb_mae_0_255": 0.34710693359375,
+        "rgb_p99_abs_error_0_255": 4.0,
+        "rgb_mean_shift_0_255": [
+          -0.1490478515625,
+          -0.16766357421875,
+          -0.220458984375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      },
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected_condition",
+        "reason": "Dither is emphasized as isolated dots and thin outlines; surface geometry is not improved.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM114.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM130.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM156.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM159.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM162.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM163.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM164.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM165.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM082.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM056.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr_swinir_BM114.png"
+  ],
+  "new_neural_passes": 26
+}

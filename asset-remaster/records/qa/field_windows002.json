@@ -1,0 +1,474 @@
+{
+  "schema": "brs-straight-field-windows/v2",
+  "basis": "v1 source-derived frame colors looked like new flat pasted strips. v2 reuses the actual aged local frame material and fixes all frame positions independently of it.",
+  "files": [
+    {
+      "group_id": "FM0257",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex005.ptm",
+      "source_ptm_sha256": "c26423eb368a0ed72936afc69c7a728e3862c2f3f79397f9a4cfdae0a9f96711",
+      "source_rgba_sha256": "f1a001082b2855defbdf1d6b533bd0e3ec6349bdd1c8e68867c46d2657bf5783",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+      "parent_sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+      "parent_id": "FM0257-wdn",
+      "candidate_before": {
+        "id": "FM0257-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0257-wdn-8x.png",
+        "sha256": "ed2f6f7ceb80e405232ca857ec0b70abe838de94913cf39aa025aeb11a509cae",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0257-straight-windows-local-frame-v2",
+      "method": "Source-axis rectangular frame; existing local frame material sampled onto straight bars; existing glass constrained to exact pane interiors.",
+      "plan": {
+        "outer": [
+          23,
+          9,
+          40,
+          20
+        ],
+        "panes": [
+          [
+            24,
+            10,
+            31,
+            19
+          ],
+          [
+            32,
+            10,
+            39,
+            19
+          ]
+        ],
+        "glass_max_rgb": 64,
+        "frame_floor": 112,
+        "bevel_width": 1
+      },
+      "frame_bars": [
+        {
+          "direction": "vertical",
+          "source_position": 23,
+          "source_nominal_center": 23.5,
+          "output_box": [
+            184,
+            80,
+            192,
+            152
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-vertical-23-map-v2.npz",
+          "map_sha256": "f5426f0baf8fccf0d0f39c561ef31aa4e74513cd8d825027340f458f8e729997",
+          "ridge_offset_range_output_px": [
+            -1.4923858642578125,
+            0.051483154296875
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 31,
+          "source_nominal_center": 31.5,
+          "output_box": [
+            248,
+            80,
+            256,
+            152
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-vertical-31-map-v2.npz",
+          "map_sha256": "f15b8b5a7f9255dc9ae7a39e8c16706ce7fb32649f658fe66563ed1f345c07c1",
+          "ridge_offset_range_output_px": [
+            -1.5,
+            -0.5
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 39,
+          "source_nominal_center": 39.5,
+          "output_box": [
+            312,
+            80,
+            320,
+            152
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-vertical-39-map-v2.npz",
+          "map_sha256": "2566cf851782a110d52350f385c28a58ae2f9845de3c830df13d7864a9bdeb60",
+          "ridge_offset_range_output_px": [
+            -0.49224853515625,
+            0.285064697265625
+          ]
+        },
+        {
+          "direction": "horizontal",
+          "source_position": 9,
+          "source_nominal_center": 9.5,
+          "output_box": [
+            184,
+            72,
+            320,
+            80
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-horizontal-9-map-v2.npz",
+          "map_sha256": "c3f0327fb7be01cdc76f5f69305deb2e2b51142fe349208f827e99f2310305af",
+          "ridge_offset_range_output_px": [
+            -2.2718582153320312,
+            2.8412551879882812
+          ]
+        },
+        {
+          "direction": "horizontal",
+          "source_position": 19,
+          "source_nominal_center": 19.5,
+          "output_box": [
+            184,
+            152,
+            320,
+            160
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-horizontal-19-map-v2.npz",
+          "map_sha256": "06bdbf79b2b24f1ec1caea61c48a1250fa97d32079fb35d060e27eb41d49eb71",
+          "ridge_offset_range_output_px": [
+            -4.07257080078125,
+            2.14593505859375
+          ]
+        }
+      ],
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-frame-geometry-v2.svg",
+      "vector_sha256": "1a4b98aff06f1c80ec330c5ce83b7ffc4b778722cc771606afcb1808effe338b",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-mask-v2.png",
+      "mask_sha256": "e8696a8e4e5e94fb510076b534883a2c687f78b549d873937e9e2173762ed887",
+      "classes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-window-classes-v2.png",
+      "classes_sha256": "483e5866a7d47834bea7c06dd55214f7a333ff69f3d5293819210528027b725d",
+      "frame_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-frame-mask-v2.png",
+      "frame_mask_sha256": "ba9d060fdf11e428c85a15c1a680d005aafe980bca9f62677dc49d2be640e5ef",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-local-frame-v2-8x.png",
+      "output_sha256": "ec10d417f293d720ca0db448d16fc044e56a19231f4ce9bafaef4000e6d973da",
+      "output_size": [
+        512,
+        256
+      ],
+      "geometry_checks": {
+        "dark_class_threshold108_exact_to_pane_rectangles": true,
+        "separate_panes": 2,
+        "vertical_bar_source_positions": [
+          23,
+          31,
+          39
+        ],
+        "horizontal_bar_source_positions": [
+          9,
+          19
+        ],
+        "source_frame_pitch": 8,
+        "coverage_once_per_frame_pixel": true,
+        "outside_mask_parent_rgba_exact": true,
+        "opaque255": true
+      },
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0258",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg03_03.bin\\sc11\\sc01\\sc00\\tex006.ptm",
+      "source_ptm_sha256": "f6e202868e06fcf10f6ff1d43a708db52e2c5822e410da7d0d3eef274ec974f4",
+      "source_rgba_sha256": "555e43dd565eda95fe4349d91d5964afcca66f2dc527c220ce239ad8449037ed",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+      "parent_sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+      "parent_id": "FM0258-wdn",
+      "candidate_before": {
+        "id": "FM0258-wdn",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0258-wdn-8x.png",
+        "sha256": "94ea11581080a39d841fe77ee11612b0e5acb15ffd7bc52528bf9b1b6125bb85",
+        "review": "qa/field_sr002_review.json",
+        "method": "Local RGB neural4x, Lanczos2x",
+        "runtime_verified": false,
+        "release_eligible": false
+      },
+      "id": "FM0258-straight-windows-local-frame-v2",
+      "method": "Source-axis rectangular frame; existing local frame material sampled onto straight bars; existing glass constrained to exact pane interiors.",
+      "plan": {
+        "outer": [
+          9,
+          18,
+          54,
+          31
+        ],
+        "panes": [
+          [
+            10,
+            19,
+            20,
+            30
+          ],
+          [
+            21,
+            19,
+            31,
+            30
+          ],
+          [
+            32,
+            19,
+            42,
+            30
+          ],
+          [
+            43,
+            19,
+            53,
+            30
+          ]
+        ],
+        "glass_max_rgb": 100,
+        "frame_floor": 116,
+        "bevel_width": 1
+      },
+      "frame_bars": [
+        {
+          "direction": "vertical",
+          "source_position": 9,
+          "source_nominal_center": 9.5,
+          "output_box": [
+            72,
+            152,
+            80,
+            240
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-vertical-9-map-v2.npz",
+          "map_sha256": "717947852880d6d647e57e964ccae093700112c09176c6c34177867effc3956c",
+          "ridge_offset_range_output_px": [
+            -1.7425994873046875,
+            -0.5516128540039062
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 20,
+          "source_nominal_center": 20.5,
+          "output_box": [
+            160,
+            152,
+            168,
+            240
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-vertical-20-map-v2.npz",
+          "map_sha256": "e3e8ca25052f45faf63350a77988d35dd774737b274f7682d1b2f6300dbc73fa",
+          "ridge_offset_range_output_px": [
+            -0.5,
+            0.14654541015625
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 31,
+          "source_nominal_center": 31.5,
+          "output_box": [
+            248,
+            152,
+            256,
+            240
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-vertical-31-map-v2.npz",
+          "map_sha256": "f255a9c60339d049c66ca1148245d1f69888d9ffb6eb22b6b470cac744ce682d",
+          "ridge_offset_range_output_px": [
+            -1.1801910400390625,
+            0.2406768798828125
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 42,
+          "source_nominal_center": 42.5,
+          "output_box": [
+            336,
+            152,
+            344,
+            240
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-vertical-42-map-v2.npz",
+          "map_sha256": "d613908b9eaf898d3a0bd32c7b26b000c68255b3b2b1fb66ba1b130d119f6ae7",
+          "ridge_offset_range_output_px": [
+            -2.416015625,
+            -0.5
+          ]
+        },
+        {
+          "direction": "vertical",
+          "source_position": 53,
+          "source_nominal_center": 53.5,
+          "output_box": [
+            424,
+            152,
+            432,
+            240
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-vertical-53-map-v2.npz",
+          "map_sha256": "f8bf409afe90a7d7601e12fdb2908f41ac14a1b03bbb6488d41dc70825e7c2b0",
+          "ridge_offset_range_output_px": [
+            -2.681121826171875,
+            1.811859130859375
+          ]
+        },
+        {
+          "direction": "horizontal",
+          "source_position": 18,
+          "source_nominal_center": 18.5,
+          "output_box": [
+            72,
+            144,
+            432,
+            152
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-horizontal-18-map-v2.npz",
+          "map_sha256": "77fb6d06eeccfe3e3b8bc9524eb2a33ddc1561f5cb0005ac371787438b857be6",
+          "ridge_offset_range_output_px": [
+            -3.9326324462890625,
+            3.7304534912109375
+          ]
+        },
+        {
+          "direction": "horizontal",
+          "source_position": 30,
+          "source_nominal_center": 30.5,
+          "output_box": [
+            72,
+            240,
+            432,
+            248
+          ],
+          "ridge_search_output_radius": 5,
+          "ridge_search_rule": "Mean RGB smoothed sigma1 across width, argmax, sigma4 along length; a material sampling rule, not proof of original edge positions.",
+          "map": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-horizontal-30-map-v2.npz",
+          "map_sha256": "101f0000e8cbb396f90fbf3248be29be28124c7683ea31381b194dae4d7a81f0",
+          "ridge_offset_range_output_px": [
+            -1.40679931640625,
+            3.4824371337890625
+          ]
+        }
+      ],
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-frame-geometry-v2.svg",
+      "vector_sha256": "e46c9e5b9881c2559df7b66457f99893ea8e4df8f792f0e2c22f66ff7f4901d1",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-mask-v2.png",
+      "mask_sha256": "2217bfd65f69d3e8b9ce1a9a15c566f8cd4a92d9fd856884b0044dd271fd488a",
+      "classes": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-window-classes-v2.png",
+      "classes_sha256": "3c51da62ab429fad824e2129584ddeac063b303fa27359f078bc61394d393fc8",
+      "frame_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-frame-mask-v2.png",
+      "frame_mask_sha256": "d6eaeb598f7ace047edb9ce8a258198b5fb3081b3ecc5c53d5faeb2c3937d9c8",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-local-frame-v2-8x.png",
+      "output_sha256": "fca7d7cb0e47932e1f6be97944de03a7c9a09f839e8929ef279d63a28f3b0cd5",
+      "output_size": [
+        512,
+        512
+      ],
+      "geometry_checks": {
+        "dark_class_threshold108_exact_to_pane_rectangles": true,
+        "separate_panes": 4,
+        "vertical_bar_source_positions": [
+          9,
+          20,
+          31,
+          42,
+          53
+        ],
+        "horizontal_bar_source_positions": [
+          18,
+          30
+        ],
+        "source_frame_pitch": 11,
+        "coverage_once_per_frame_pixel": true,
+        "outside_mask_parent_rgba_exact": true,
+        "opaque255": true
+      },
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0257-whole.png",
+      "sha256": "4d74775868b4b33cb204a0cdf7f726ac98ef9323024388de248d1abf44f1573b",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0257-windows.png",
+      "sha256": "3fd6eb65383de8985501368e9cec9f0095e8a20dec260148f1a5772dbeeff6d0",
+      "source_box": [
+        21,
+        7,
+        42,
+        22
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0258-whole.png",
+      "sha256": "149f4e7a476f80a0843bc264ee7c03828d1be242224bb1680fa40fcb26008ff2",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0258-windows.png",
+      "sha256": "0101b827600eddf70c782bdd9c97a84b8f43c668c6b895d6a766b412a5906556",
+      "source_box": [
+        7,
+        16,
+        56,
+        33
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_neural_passes": 0,
+  "external_calls": 0,
+  "image_upload": false,
+  "limits": [
+    "FM0258 frame peak coordinates9,20,31,42,53 establish11-source-pixel pitch. Edge gray texels are interpreted as bevel/sampling, giving four equal10-pixel openings rather than9/10/10/9 strong-dark cores.",
+    "Exact source color/lighting is not claimed; the geometry masks, high-contrast class and bar coordinates are exact to the declared source interpretation.",
+    "Ridge search only selects existing material; it is not geometry evidence. Consumer UV and runtime remain unverified."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

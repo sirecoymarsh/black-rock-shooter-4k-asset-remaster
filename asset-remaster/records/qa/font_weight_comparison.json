@@ -1,0 +1,58 @@
+[
+  {
+    "weight": 100,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 0.5560247942263535,
+    "native_downsample_mae": 22.586013783097574,
+    "clipped": []
+  },
+  {
+    "weight": 300,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 0.8530718664150441,
+    "native_downsample_mae": 17.214818038931206,
+    "clipped": []
+  },
+  {
+    "weight": 310,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 0.9114721453668156,
+    "native_downsample_mae": 16.978111473824207,
+    "clipped": []
+  },
+  {
+    "weight": 315,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 0.9411573707157621,
+    "native_downsample_mae": 16.980853584814415,
+    "clipped": []
+  },
+  {
+    "weight": 320,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 0.9705014038134866,
+    "native_downsample_mae": 17.02557369121025,
+    "clipped": []
+  },
+  {
+    "weight": 325,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 1.0002701393686144,
+    "native_downsample_mae": 17.197185346391006,
+    "clipped": []
+  },
+  {
+    "weight": 330,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 1.0291785121780141,
+    "native_downsample_mae": 17.37429573207593,
+    "clipped": []
+  },
+  {
+    "weight": 350,
+    "glyph_count": 919,
+    "integrated_alpha_ratio_to_native": 1.1449136228792127,
+    "native_downsample_mae": 18.91951638254141,
+    "clipped": []
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "schema": "brs-sr011-rework/v1",
+  "group_ids": [
+    "BM262",
+    "BM264",
+    "BM277"
+  ],
+  "files": [
+    {
+      "id": "BM262-filtered",
+      "group_id": "BM262",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\003.png",
+      "source_rgba_sha256": "5cc42abfe13fb4c2d8fa337cd3f697abb0239a3d723d893c7df621f98856d84d",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.75,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM262-wdn-rgba8x.png",
+      "alpha_parent_sha256": "4c17de18e039fcb1bd4bf2a9443736f53e45c2f7f8b2f247740b38b7dcc2e374",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-filtered.png",
+      "output_sha256": "1df20416c17f529d523c6b403bc18f09fec0c3290bfae658d32e504a8fe602a4",
+      "output_size": [
+        2048,
+        512
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "actual filtered source neural RGB4x with existing alpha",
+      "detail_weight": null,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-filtered-input.png",
+      "input_sha256": "a99e6ea092bf19e7431aef6404de5c1be00277df0d3e376c66d4b5b192609fb8",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-filtered-native4x.png",
+      "native_sha256": "7e8d6c67ae557504846d676e2b9f956a788fc6fca0732bf20dab08bf1ad363c2",
+      "seconds": 0.8130000000237487
+    },
+    {
+      "id": "BM262-guided",
+      "group_id": "BM262",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\003.png",
+      "source_rgba_sha256": "5cc42abfe13fb4c2d8fa337cd3f697abb0239a3d723d893c7df621f98856d84d",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.35,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM262-wdn-rgba8x.png",
+      "alpha_parent_sha256": "4c17de18e039fcb1bd4bf2a9443736f53e45c2f7f8b2f247740b38b7dcc2e374",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-guided.png",
+      "output_sha256": "37e1be6472f96dc1c476eda74f84a2e7c108cae2ec8eccfa3acc9009a8241ee2",
+      "output_size": [
+        2048,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.45,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM262-wdn-rgba8x.png",
+      "parent_sha256": "4c17de18e039fcb1bd4bf2a9443736f53e45c2f7f8b2f247740b38b7dcc2e374"
+    },
+    {
+      "id": "BM262-filtered-guided",
+      "group_id": "BM262",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\003.png",
+      "source_rgba_sha256": "5cc42abfe13fb4c2d8fa337cd3f697abb0239a3d723d893c7df621f98856d84d",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.75,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM262-wdn-rgba8x.png",
+      "alpha_parent_sha256": "4c17de18e039fcb1bd4bf2a9443736f53e45c2f7f8b2f247740b38b7dcc2e374",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-filtered-guided.png",
+      "output_sha256": "09c4711290d120226214696b9185a1d6757294cea6521116984832e8b1c1b97c",
+      "output_size": [
+        2048,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.45,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM262-filtered.png",
+      "parent_sha256": "1df20416c17f529d523c6b403bc18f09fec0c3290bfae658d32e504a8fe602a4"
+    },
+    {
+      "id": "BM264-filtered",
+      "group_id": "BM264",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\006.png",
+      "source_rgba_sha256": "13d12c0d1447d59893fb6f003861b7b0b051123269c205b1f1f7356a48691875",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM264-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0ae5db532de6dc867066a0d3991a238dc50b98d38947d660f7d9127dbc6ef814",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-filtered.png",
+      "output_sha256": "7a1c27b78c21600a99a7c29cbc2926887e1487947674cad699283768976755cd",
+      "output_size": [
+        256,
+        256
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "actual filtered source neural RGB4x with existing alpha",
+      "detail_weight": null,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-filtered-input.png",
+      "input_sha256": "756ff99e4f51edee3873a3f6cccd579fa3946c4c3863ca2ecab225182eb24d3a",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-filtered-native4x.png",
+      "native_sha256": "a78b7ccaeb720eae48318087b5767b16816a1423d69066f4d208937278025308",
+      "seconds": 0.07800000003771856
+    },
+    {
+      "id": "BM264-guided",
+      "group_id": "BM264",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\006.png",
+      "source_rgba_sha256": "13d12c0d1447d59893fb6f003861b7b0b051123269c205b1f1f7356a48691875",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.75,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM264-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0ae5db532de6dc867066a0d3991a238dc50b98d38947d660f7d9127dbc6ef814",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-guided.png",
+      "output_sha256": "ef58313f79441ae2b823bb6019240ac2545638460b78b9efda88a53687d8b97f",
+      "output_size": [
+        256,
+        256
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM264-wdn-rgba8x.png",
+      "parent_sha256": "0ae5db532de6dc867066a0d3991a238dc50b98d38947d660f7d9127dbc6ef814"
+    },
+    {
+      "id": "BM264-filtered-guided",
+      "group_id": "BM264",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_02.vol\\001_map_b_stg06_02.bin\\006.png",
+      "source_rgba_sha256": "13d12c0d1447d59893fb6f003861b7b0b051123269c205b1f1f7356a48691875",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM264-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0ae5db532de6dc867066a0d3991a238dc50b98d38947d660f7d9127dbc6ef814",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-filtered-guided.png",
+      "output_sha256": "f9f60d1b1adadc924a5b1748c73ada5c581cfb561f2326f6d1c675fb51a8bbaa",
+      "output_size": [
+        256,
+        256
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM264-filtered.png",
+      "parent_sha256": "7a1c27b78c21600a99a7c29cbc2926887e1487947674cad699283768976755cd"
+    },
+    {
+      "id": "BM277-filtered",
+      "group_id": "BM277",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_03.vol\\001_map_b_stg06_03.bin\\002.png",
+      "source_rgba_sha256": "e3740138aed1f3f3d4ce20c19edb9def63fb25115e7cdf9da460704b5a5d1019",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM277-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f59ca6648befae09fb055aa51cdacc167bb642bb994d002fedeaeaa23f84767e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-filtered.png",
+      "output_sha256": "faf6ddcecc1cb5f1d7794c5a45ed67033bff6e3cbe105cc46e07f6370a4877e9",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 1,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "actual filtered source neural RGB4x with existing alpha",
+      "detail_weight": null,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-filtered-input.png",
+      "input_sha256": "86435ee5bc8af0f9e98f9c58e162b1adc2c1f08e97c325a552aa847a8c5bf0f0",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-filtered-native4x.png",
+      "native_sha256": "f759cacd695904f3a7277ce79d09452023f4b4daa53b055ab792c73beb7da9b3",
+      "seconds": 0.18699999997625127
+    },
+    {
+      "id": "BM277-guided",
+      "group_id": "BM277",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_03.vol\\001_map_b_stg06_03.bin\\002.png",
+      "source_rgba_sha256": "e3740138aed1f3f3d4ce20c19edb9def63fb25115e7cdf9da460704b5a5d1019",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 0.75,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM277-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f59ca6648befae09fb055aa51cdacc167bb642bb994d002fedeaeaa23f84767e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-guided.png",
+      "output_sha256": "c0960b531cce688d9bb850d0c561572f4bf05a0900cf58f1a3d42708cd109314",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM277-wdn-rgba8x.png",
+      "parent_sha256": "f59ca6648befae09fb055aa51cdacc167bb642bb994d002fedeaeaa23f84767e"
+    },
+    {
+      "id": "BM277-filtered-guided",
+      "group_id": "BM277",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg06_03.vol\\001_map_b_stg06_03.bin\\002.png",
+      "source_rgba_sha256": "e3740138aed1f3f3d4ce20c19edb9def63fb25115e7cdf9da460704b5a5d1019",
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "prefilter_sigma": 1.25,
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage0506-alpha-v1\\BM277-wdn-rgba8x.png",
+      "alpha_parent_sha256": "f59ca6648befae09fb055aa51cdacc167bb642bb994d002fedeaeaa23f84767e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-filtered-guided.png",
+      "output_sha256": "a4cfc23cf036578094d2f96fea0155cad3dd5a1840f8efec6cfd6d50267c682c",
+      "output_size": [
+        512,
+        512
+      ],
+      "new_neural_passes": 0,
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos2x",
+      "method": "Source premultiplied color guide plus weighted alpha-normalized neural high-frequency residual; alpha exact to original trial",
+      "detail_weight": 0.2,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\sr011-rework\\BM277-filtered.png",
+      "parent_sha256": "faf6ddcecc1cb5f1d7794c5a45ed67033bff6e3cbe105cc46e07f6370a4877e9"
+    }
+  ],
+  "local_inference": true,
+  "image_upload": false,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr011_rework_BM262.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr011_rework_BM264.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr011_rework_BM277.png"
+  ],
+  "new_neural_passes": 3
+}

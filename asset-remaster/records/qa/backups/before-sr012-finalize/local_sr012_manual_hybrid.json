@@ -1,0 +1,68 @@
+{
+  "schema": "brs-sr012-manual-hybrid/v1",
+  "files": [
+    {
+      "id": "BM110-codex-grid-and-fastener-v2",
+      "group_id": "BM110",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\025.png",
+      "source_rgba_sha256": "9f0f8f1cfc6ea3c7d8bc958b9ce335926ba88439f9159f86c8a78abbb69eb250",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "alpha_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-alpha-v2\\BM110-wdn-rgba8x.png",
+      "alpha_parent_sha256": "0bb5122578f2b3937396b37dc0472266b1c507b38893ad1d675c0f1cf77e7e0f",
+      "manual_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1-render.png",
+      "manual_parent_sha256": "707565ff44a280b09ee7d6cacad4b97eb38b00daaf9d30adbe84948d39e62e6d",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-vector-v1.svg",
+      "vector_sha256": "e86a5da5384f6112581b93a1ef9072a180a0d3c2fdd628fafc2209a2235188d5",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-redraw-mask-v2.png",
+      "mask_sha256": "49897aca493c0196ceae4b116ed87b5221ff2acc2da22a5a07709fa02917e797",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\manual-redraw\\sr012\\BM110-codex-grid-and-fastener-v2.png",
+      "output_sha256": "c2dd81c8dfaf3795c9ddf342ce1b2a0a2f303d4b7d1624597f5d74e869312b9e",
+      "output_size": [
+        512,
+        256
+      ],
+      "method": "Codex-authored vector grille interior and source-shaped central fastener over previously inferred local frame/outer circle; alpha exact to WDN parent",
+      "new_neural_passes": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false,
+      "grid_source_box": [
+        6,
+        6,
+        32,
+        26
+      ],
+      "horizontal_slat_rows": [
+        8,
+        10,
+        12,
+        14,
+        17,
+        19,
+        21,
+        23,
+        25
+      ],
+      "vertical_slat_columns": [
+        9,
+        15,
+        21,
+        27
+      ],
+      "center_source_xy": [
+        48,
+        15.7
+      ],
+      "center_radius_full": 4.3,
+      "center_radius_zero": 4.65,
+      "exterior_not_manual_redraw": true
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr012_manual_hybrid_BM110.png"
+  ],
+  "new_neural_passes": 0,
+  "runtime_verified": false,
+  "release_eligible": false
+}

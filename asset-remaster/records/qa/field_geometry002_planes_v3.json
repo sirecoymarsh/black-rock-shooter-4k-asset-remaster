@@ -1,0 +1,734 @@
+{
+  "schema": "brs-facade-plane-local-material/v3",
+  "basis": "v2 retained good local material but local-gradient warps alone left rounded corners, header waviness and new seams where X warp started/ended. v3 uses fixed source rectangles and local sharp cross-section material rather than source low-resolution color profiles.",
+  "files": [
+    {
+      "group_id": "FM0189",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex008.ptm",
+      "source_ptm_sha256": "3cf337434e733a455b9259afa32fc58f8cffab637bcf6618c113e7765b824f71",
+      "source_rgba_sha256": "66937534e6f349912a0b370a980cf93a5a962183015d073a6312f22d6fa42a70",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0189-photo-8x.png",
+      "parent_sha256": "57b7f6b5fc5508f5629d4d532248dd7dd10e195bf2b74ae0adc72588fc57957a",
+      "parent_id": "FM0189-photo",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-regions-v1.png",
+      "region_classmap_sha256": "3d69ecd0721716e91c2d8191b497f2f54e929095bc6b259b47def86e27617d3c",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-facade-planes-v1.svg",
+      "vector_sha256": "c66cbadddf9ab9d902801525bb37ce4539405b1b4fecb49780f17ae5aefaeba5",
+      "id": "FM0189-fixed-planes-local-profiles-v3",
+      "material_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-local-material-source-lines-v2-8x.png",
+      "material_parent_sha256": "4a45746823a486ac4c8dc910fe8f809852fd4ee9693866adbd0d684110066a01",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-fixed-planes-local-profiles-v3-8x.png",
+      "output_sha256": "1159c695cfd2f17cada20e7bf7e8855d5fd33dd178e3fd451581697585be5ea0",
+      "profiles": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-material-profiles-v3.npz",
+      "profiles_sha256": "5e5d407010144a745f2792c2235da63af3576048895988ec8489d84b068762b4",
+      "regions": [
+        {
+          "name": "left exterior molding",
+          "kind": "vertical",
+          "box": [
+            0,
+            0,
+            3,
+            128
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_1"
+        },
+        {
+          "name": "right exterior pier",
+          "kind": "vertical",
+          "box": [
+            62,
+            0,
+            64,
+            128
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_2"
+        },
+        {
+          "name": "continuous horizontal molding 0",
+          "kind": "horizontal",
+          "box": [
+            3,
+            0,
+            62,
+            9
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 3,
+          "grain_gain": 0.65,
+          "profile_key": "profile_3"
+        },
+        {
+          "name": "continuous horizontal molding 1",
+          "kind": "horizontal",
+          "box": [
+            3,
+            43,
+            62,
+            54
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 3,
+          "grain_gain": 0.65,
+          "profile_key": "profile_4"
+        },
+        {
+          "name": "continuous horizontal molding 2",
+          "kind": "horizontal",
+          "box": [
+            3,
+            88,
+            62,
+            103
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 3,
+          "grain_gain": 0.65,
+          "profile_key": "profile_5"
+        },
+        {
+          "name": "left frame 0",
+          "kind": "vertical",
+          "box": [
+            3,
+            9,
+            5,
+            43
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_6"
+        },
+        {
+          "name": "central narrow frame 0",
+          "kind": "vertical",
+          "box": [
+            31,
+            9,
+            33,
+            43
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_7"
+        },
+        {
+          "name": "right shaded edge 0",
+          "kind": "vertical",
+          "box": [
+            61,
+            9,
+            62,
+            43
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_8"
+        },
+        {
+          "name": "left glass 0",
+          "kind": "glass",
+          "box": [
+            5,
+            9,
+            31,
+            43
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 180
+        },
+        {
+          "name": "right glass 0",
+          "kind": "glass",
+          "box": [
+            33,
+            9,
+            61,
+            43
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 180
+        },
+        {
+          "name": "left frame 1",
+          "kind": "vertical",
+          "box": [
+            3,
+            54,
+            5,
+            88
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_11"
+        },
+        {
+          "name": "central narrow frame 1",
+          "kind": "vertical",
+          "box": [
+            31,
+            54,
+            33,
+            88
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_12"
+        },
+        {
+          "name": "right shaded edge 1",
+          "kind": "vertical",
+          "box": [
+            61,
+            54,
+            62,
+            88
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 2,
+          "grain_gain": 0.6,
+          "profile_key": "profile_13"
+        },
+        {
+          "name": "left glass 1",
+          "kind": "glass",
+          "box": [
+            5,
+            54,
+            31,
+            88
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 180
+        },
+        {
+          "name": "right glass 1",
+          "kind": "glass",
+          "box": [
+            33,
+            54,
+            61,
+            88
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 180
+        },
+        {
+          "name": "lower left jamb",
+          "kind": "surface",
+          "box": [
+            3,
+            103,
+            9,
+            128
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "lower right jamb",
+          "kind": "surface",
+          "box": [
+            56,
+            103,
+            62,
+            128
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "lower left shutter",
+          "kind": "shutter",
+          "box": [
+            9,
+            103,
+            32,
+            128
+          ],
+          "profile_key": "profile_18",
+          "gain_key": "gain_18",
+          "grain_gain": 0.5,
+          "grain_strength": 2
+        },
+        {
+          "name": "lower center seam",
+          "kind": "horizontal",
+          "box": [
+            32,
+            103,
+            33,
+            128
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 3,
+          "grain_gain": 0.65,
+          "profile_key": "profile_19"
+        },
+        {
+          "name": "lower right shutter",
+          "kind": "shutter",
+          "box": [
+            33,
+            103,
+            56,
+            128
+          ],
+          "profile_key": "profile_20",
+          "gain_key": "gain_20",
+          "grain_gain": 0.5,
+          "grain_strength": 2
+        }
+      ],
+      "method": "Fixed source-plane partition fromv1 with existing local median cross-section profiles fromv2, bounded grain and half-source-pixel reflected glass-edge material.",
+      "new_local_passes": 0,
+      "external_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "group_id": "FM0190",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.png",
+      "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg02_06.bin\\sc11\\sc01\\sc00\\tex009.ptm",
+      "source_ptm_sha256": "7af42fc74d326ac0afa68bb6c2f4c7342c221791955a91bcd4e288d927663a49",
+      "source_rgba_sha256": "aa706f8f05fb73dc031fd6497b3662c83c0461e4be8bcebc26ec8b6f3f5a510b",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-sr002\\FM0190-wdn-8x.png",
+      "parent_sha256": "3ba72636bbdf97704d0f6d5d5f4caa30a8c294bdba0fb5c461fddcb15edca5e9",
+      "parent_id": "FM0190-wdn",
+      "region_classmap": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-regions-v1.png",
+      "region_classmap_sha256": "410d3905b4c627f5e1da6cbc9319fe27e085482fa6c851cb820c2f014235d765",
+      "vector": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-facade-planes-v1.svg",
+      "vector_sha256": "1cff1dbfd05acc71d2ecb2b79191cd1867fbcecbb2d9aa1305916a19e8d5e572",
+      "id": "FM0190-fixed-planes-local-profiles-v3",
+      "material_parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-local-material-source-lines-v2-8x.png",
+      "material_parent_sha256": "cc7388b4d65edb72024fef7e46982266d395817a035aaf787c2cfde7b38f32fc",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-local-profiles-v3-8x.png",
+      "output_sha256": "489f6d8a1bd2ca5a05fe7594cf543076fe6b8b58f9fe1f03b1a8aaf693a1d455",
+      "profiles": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-material-profiles-v3.npz",
+      "profiles_sha256": "93d512fa9d6a947b6826792118a0b642ddeaac27c5c5599273fcde7a3582bf3e",
+      "regions": [
+        {
+          "name": "horizontal cornice 0",
+          "kind": "horizontal",
+          "box": [
+            0,
+            0,
+            64,
+            12
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 6,
+          "grain_gain": 0.65,
+          "profile_key": "profile_1"
+        },
+        {
+          "name": "horizontal cornice 1",
+          "kind": "horizontal",
+          "box": [
+            0,
+            46,
+            64,
+            57
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 6,
+          "grain_gain": 0.65,
+          "profile_key": "profile_2"
+        },
+        {
+          "name": "horizontal cornice 2",
+          "kind": "horizontal",
+          "box": [
+            0,
+            91,
+            64,
+            103
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 6,
+          "grain_gain": 0.65,
+          "profile_key": "profile_3"
+        },
+        {
+          "name": "horizontal cornice 3",
+          "kind": "horizontal",
+          "box": [
+            0,
+            124,
+            64,
+            128
+          ],
+          "profile_axis": "horizontal",
+          "grain_strength": 6,
+          "grain_gain": 0.65,
+          "profile_key": "profile_4"
+        },
+        {
+          "name": "left brick edge 0",
+          "kind": "surface",
+          "box": [
+            0,
+            12,
+            4,
+            46
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "left light frame 0",
+          "kind": "vertical",
+          "box": [
+            4,
+            12,
+            5,
+            46
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 4,
+          "grain_gain": 0.6,
+          "profile_key": "profile_6"
+        },
+        {
+          "name": "central brick pier 0",
+          "kind": "surface",
+          "box": [
+            29,
+            12,
+            36,
+            46
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "right light frame 0",
+          "kind": "vertical",
+          "box": [
+            36,
+            12,
+            37,
+            46
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 4,
+          "grain_gain": 0.6,
+          "profile_key": "profile_8"
+        },
+        {
+          "name": "right brick edge 0",
+          "kind": "surface",
+          "box": [
+            61,
+            12,
+            64,
+            46
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "left upper glass 0",
+          "kind": "glass",
+          "box": [
+            5,
+            12,
+            29,
+            29
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "left lower glass 0",
+          "kind": "glass",
+          "box": [
+            5,
+            29,
+            29,
+            46
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "right upper glass 0",
+          "kind": "glass",
+          "box": [
+            37,
+            12,
+            61,
+            29
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "right lower glass 0",
+          "kind": "glass",
+          "box": [
+            37,
+            29,
+            61,
+            46
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "left brick edge 1",
+          "kind": "surface",
+          "box": [
+            0,
+            57,
+            4,
+            91
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "left light frame 1",
+          "kind": "vertical",
+          "box": [
+            4,
+            57,
+            5,
+            91
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 4,
+          "grain_gain": 0.6,
+          "profile_key": "profile_15"
+        },
+        {
+          "name": "central brick pier 1",
+          "kind": "surface",
+          "box": [
+            29,
+            57,
+            36,
+            91
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "right light frame 1",
+          "kind": "vertical",
+          "box": [
+            36,
+            57,
+            37,
+            91
+          ],
+          "profile_axis": "vertical",
+          "grain_strength": 4,
+          "grain_gain": 0.6,
+          "profile_key": "profile_17"
+        },
+        {
+          "name": "right brick edge 1",
+          "kind": "surface",
+          "box": [
+            61,
+            57,
+            64,
+            91
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "left upper glass 1",
+          "kind": "glass",
+          "box": [
+            5,
+            57,
+            29,
+            74
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "left lower glass 1",
+          "kind": "glass",
+          "box": [
+            5,
+            74,
+            29,
+            91
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "right upper glass 1",
+          "kind": "glass",
+          "box": [
+            37,
+            57,
+            61,
+            74
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "right lower glass 1",
+          "kind": "glass",
+          "box": [
+            37,
+            74,
+            61,
+            91
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 115
+        },
+        {
+          "name": "lower left pier",
+          "kind": "surface",
+          "box": [
+            0,
+            103,
+            9,
+            124
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "lower right pier",
+          "kind": "surface",
+          "box": [
+            56,
+            103,
+            64,
+            124
+          ],
+          "material": "existing rectified local RGB at same coordinates"
+        },
+        {
+          "name": "lower opening",
+          "kind": "glass",
+          "box": [
+            9,
+            103,
+            56,
+            124
+          ],
+          "edge_extension_output_px": 4,
+          "edge_method": "BORDER_REFLECT_101",
+          "glass_ceiling": 90
+        }
+      ],
+      "method": "Fixed source-plane partition fromv1 with existing local median cross-section profiles fromv2, bounded grain and half-source-pixel reflected glass-edge material.",
+      "new_local_passes": 0,
+      "external_calls": 0,
+      "visual_review": "pending",
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v3.png",
+      "sha256": "3599d5107ea8c1226fde0af53f004f5fa4b4706aa722de3daef010dd1b80bbdb",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v3.png",
+      "sha256": "30c3702356e86f5910fa60fe5f3c33d1fe75f14e29b32de375b51bf1d5248176",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v3.png",
+      "sha256": "d5c3d3f77dd0a086fd26760169bc0bf68f61e4962b4eb250bf67ad4a400ae67a",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v3.png",
+      "sha256": "d7bed2578b7de56ca6c7cda17d297c09076bc404957817127a0109ce94ee885b",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v3.png",
+      "sha256": "cf282c30ca2295983a63808858e9b529db1fdd7a60b5f1864c4a1d35854866fd",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "pending"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v3.png",
+      "sha256": "0a1e01d29ef4ccd89796a4a8d88e247be2b63ca7c18f915a9d93260b30e47511",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "new_local_passes": 0,
+  "external_calls": 0,
+  "limits": [
+    "Profiles constrain major line placement; limited local grain does not prove all visible contours are geometrically perfect.",
+    "Glass edge half-source-pixel reflection is material extension, not recovered detail.",
+    "Source-coordinate planes and appearance still require direct review, exact recipe checks and eventual runtime/UV proof."
+  ],
+  "runtime_verified": false,
+  "release_eligible": false
+}

@@ -1,0 +1,442 @@
+{
+  "schema": "brs-field-geometry-review/v1",
+  "batch": "FIELD-GEOMETRY-001",
+  "previous_goal_turn_classification": "progress: FIELD-SR-00327 originals,102local passes,12 static candidates,15 holds; straight-line geometry contract recorded.",
+  "new_neural_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 0,
+  "derived_outputs": 6,
+  "source_groups_audited": 8,
+  "checked_outputs": [
+    {
+      "id": "FM0257-straight-windows-v1",
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-v1-8x.png",
+      "sha256": "c38a499c396b3648ea41e5899de592f736cff798c0e7cf1e8ef3b11dcad9c175",
+      "decision": "rejected",
+      "reason": "Frame colors look like flat newly pasted strips.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 2,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0258-straight-windows-v1",
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-v1-8x.png",
+      "sha256": "548d7468d8fce77dd3272bee17f4e2e10d2a402febeae8176d42c93ea4f70e27",
+      "decision": "rejected",
+      "reason": "Frame colors look like flat newly pasted strips.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 4,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0257-straight-windows-local-frame-v2",
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-local-frame-v2-8x.png",
+      "sha256": "ec10d417f293d720ca0db448d16fc044e56a19231f4ce9bafaef4000e6d973da",
+      "decision": "superseded",
+      "reason": "Exact rectangle classes still contain rounded bright remnants inside glass edges.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 2,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0258-straight-windows-local-frame-v2",
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-local-frame-v2-8x.png",
+      "sha256": "fca7d7cb0e47932e1f6be97944de03a7c9a09f839e8929ef279d63a28f3b0cd5",
+      "decision": "superseded",
+      "reason": "Exact rectangle classes still contain rounded bright remnants inside glass edges.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 4,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0257-straight-windows-v3-clean-glass",
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0257-straight-windows-v3-clean-glass-8x.png",
+      "sha256": "f94f2f77507a44118da8b2defb44ec767c5758d10077a06f70a931819b4427ae",
+      "decision": "static_candidate",
+      "reason": "Straight source-anchored frames and six rectangular openings; aged local material retained, old curved glass-edge remnants removed.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 2,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0258-straight-windows-v3-clean-glass",
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry001\\FM0258-straight-windows-v3-clean-glass-8x.png",
+      "sha256": "1df3b0d6ea31d5c7f122ca4b6158b36d8dd43786b16b6b9108913f1cbd1d6a2f",
+      "decision": "static_candidate",
+      "reason": "Straight source-anchored frames and six rectangular openings; aged local material retained, old curved glass-edge remnants removed.",
+      "source_ptm_rgba_and_lineage_hashes_verified": true,
+      "saved_recipe_reproduces_rgba_exactly": true,
+      "axis_aligned_vector_and_exact_frame_coverage": true,
+      "declared_pane_class_exact_threshold108": true,
+      "pane_count": 4,
+      "outside_mask_parent_rgba_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages_directly_inspected": [
+    {
+      "group_id": "FM0029",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0029.png",
+      "sha256": "09a91695a3c3bf0d801a1eda114969f8682eaae3bd0f8915634f00bdf0713b60",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0029",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\source-coordinates-FM0029.png",
+      "sha256": "38d4db0e7ebbb357a079dbd9d326f5fa147d3184af09a7220cccb1c41ccc828b",
+      "source_box": [
+        30,
+        0,
+        57,
+        23
+      ],
+      "review_status": "directly_inspected",
+      "diagnostic": "Coordinate overlay only, not a game asset.",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0113",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0113.png",
+      "sha256": "2d5b00c1b3a8df50a47adf69316f941f402d8a288c90b777aeea739868e23c92",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0113",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\source-coordinates-FM0113.png",
+      "sha256": "44389cfcecf6a3f797c32c272cbdbcddea7cea12eebffd6fd52aebcbf41e0889",
+      "source_box": [
+        0,
+        0,
+        18,
+        32
+      ],
+      "review_status": "directly_inspected",
+      "diagnostic": "Coordinate overlay only, not a game asset.",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0037",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0037.png",
+      "sha256": "eb3971ab06d53f3031bdbaa76758a3028c37e0e86440a33a9f16385086fb5dff",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0038",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0038.png",
+      "sha256": "e08c5e2014a22699d1f8955d05c7026dcd1296410747c6ea17173460846895e1",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0189.png",
+      "sha256": "547ee4d91dbe9dd25a145477510c24cb5a2aebadf2c9816bca4e00e783222f87",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0190.png",
+      "sha256": "131ea760559a2f54f19c96e3345f8700b7c6b24b4dc9d465e4f56c08d5df7331",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0257.png",
+      "sha256": "e8d7e648a90c0679f5f778edb03eaf738dbcc2770940157be9de45aa68a7d508",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\audit-FM0258.png",
+      "sha256": "9a904e3661d94156db606aaf671c33ef81f7770bad0126268e72bfc5c1e1e63c",
+      "review_status": "directly_inspected",
+      "scope": "source audit"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0257-whole.png",
+      "sha256": "e42097dcf5d3818b947751e39ac83b0b8b84fa8acc2e19162732ed9fddffde56",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v1 whole/crop"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0257-windows.png",
+      "sha256": "e4c5609f4f48f8a453fb020b385724ad40aa8a8041d26cfdab6be005d0d3db48",
+      "source_box": [
+        21,
+        7,
+        42,
+        22
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v1 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0258-whole.png",
+      "sha256": "44513cd53c60b72b8f229dfa3c497f3e88de7e5bb878654e0210470ce221a844",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v1 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-FM0258-windows.png",
+      "sha256": "ed2595f801f569e9fab191b9bc611671615a03325ac0afc2c6330077487d2a59",
+      "source_box": [
+        7,
+        16,
+        56,
+        33
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v1 whole/crop"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0257-whole.png",
+      "sha256": "4d74775868b4b33cb204a0cdf7f726ac98ef9323024388de248d1abf44f1573b",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v2 whole/crop"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0257-windows.png",
+      "sha256": "3fd6eb65383de8985501368e9cec9f0095e8a20dec260148f1a5772dbeeff6d0",
+      "source_box": [
+        21,
+        7,
+        42,
+        22
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v2 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0258-whole.png",
+      "sha256": "149f4e7a476f80a0843bc264ee7c03828d1be242224bb1680fa40fcb26008ff2",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v2 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v2-FM0258-windows.png",
+      "sha256": "0101b827600eddf70c782bdd9c97a84b8f43c668c6b895d6a766b412a5906556",
+      "source_box": [
+        7,
+        16,
+        56,
+        33
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v2 whole/crop"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v3-FM0257-whole.png",
+      "sha256": "f8ac31c8490a0882a754443f980f9a2ce05449dfe4f191027a5b3fafd34b0563",
+      "source_box": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v3 whole/crop"
+    },
+    {
+      "group_id": "FM0257",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v3-FM0257-windows.png",
+      "sha256": "688e9b6fb6fa5b0ece80dcb0125b11ef07072c0390a017b1d372c0125741be33",
+      "source_box": [
+        21,
+        7,
+        42,
+        22
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v3 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v3-FM0258-whole.png",
+      "sha256": "e1c9b4dfbf09fbf76419ad25ce24224b8c2215df72d459f1219e0a7101ab9a2f",
+      "source_box": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v3 whole/crop"
+    },
+    {
+      "group_id": "FM0258",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry001\\windows-v3-FM0258-windows.png",
+      "sha256": "248b273406da54707e126d0576d7b1dd89a964ea0b4825ce7cbf4355497309b3",
+      "source_box": [
+        7,
+        16,
+        56,
+        33
+      ],
+      "review_status": "directly_inspected",
+      "scope": "window v3 whole/crop"
+    }
+  ],
+  "audit_findings": {
+    "FM0029": "Grille source x32..54/y0..19 has alternating opaque/transparent phases; crossing rows5/10/15 invert ordinary row phase. Do not replace it with continuous bars. Right lower yellow window has4 columns by2 rows; upper transom has3. No repair this batch.",
+    "FM0113": "Upper grid horizontal dark rows1/6/12/18/24/29 and lower diagonal X braces require source anchors. Do not equate threshold-derived columns with physical bar count. No repair this batch.",
+    "FM0037": "Preserve perspective slopes of roof and side-face windows; locally bowed edges need anchored quadrilaterals. No repair this batch.",
+    "FM0038": "Multiple facades and cornices include perspective slopes; local sill/column waviness needs anchored straight segments. No repair this batch.",
+    "FM0189": "Source-audit whole image shows bowed central mullions and uneven horizontal frame/header edges. Earlier material acceptance is revoked under the straight-line gate; source-anchored frame/shutter reconstruction remains required. Visual finding, not a claimed complete geometric measurement.",
+    "FM0190": "Source-audit whole image shows uneven window frame/sill edges and altered brick-column alignment. Earlier material acceptance is revoked; source-defined straight frame and horizontal band geometry is required. Original surface weathering is not itself a defect."
+  },
+  "selected_replacements": {
+    "FM0257": "FM0257-straight-windows-v3-clean-glass",
+    "FM0258": "FM0258-straight-windows-v3-clean-glass"
+  },
+  "historical_candidates_revoked": {
+    "FM0189": "Source-audit whole image shows bowed central mullions and uneven horizontal frame/header edges. Earlier material acceptance is revoked under the straight-line gate; source-anchored frame/shutter reconstruction remains required. Visual finding, not a claimed complete geometric measurement.",
+    "FM0190": "Source-audit whole image shows uneven window frame/sill edges and altered brick-column alignment. Earlier material acceptance is revoked; source-defined straight frame and horizontal band geometry is required. Original surface weathering is not itself a defect."
+  },
+  "source_reports_sha256": {
+    "qa\\field_geometry001_sources.json": "aa7ba6cb4f7551cce2018a624a339523238cd0ccd648b666f8b3ee586a72131d",
+    "qa\\field_windows001.json": "d98c58e5f6e3a848f4cc44ae128427478d21a3fb128f504313f171f4c31df236",
+    "qa\\field_windows002.json": "b78e28dd32f63bfcaa4c1d502b6895eb9f8e213300c6a57a3d4a5fa503f5628f",
+    "qa\\field_windows003.json": "445eda3f74078a653f43b8bb4dca27c2443cb0b4c3677df902725c87bf36c751"
+  },
+  "catalog_before_sha256": "c5b496ad23a6f471e5a800823dba0837c5d2fc18ffba69165dedd7eef2d965e2",
+  "catalog_after_sha256": "7ad3e23104963b837bcec614caf9eefc53e958bfef22f04a38afbd50c072cc9c",
+  "geometry_contract_before_sha256": "077c76c37ba61bd70c0dc09f5a9881e08257e02d3b20460495220ec4036a05c0",
+  "geometry_contract_after_sha256": "7153b8ac9a2ffa9d0df6f555e21f335e7d3ef5cc1d5208cdcd9bf002a4fa25fd",
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 144,
+    "field_neural_originals": 95,
+    "field_static_candidates": 71,
+    "field_holds": 24,
+    "field_groups_not_processed_in_field_context": 481,
+    "remaining_novel_unprocessed": 256,
+    "latest_review": "qa/field_geometry001_review.json"
+  },
+  "unique_neural_originals_title_battle_novel_field": 352,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "other572_field_groups_unchanged": true,
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\창틀_직선_직각_수정_비교.png",
+    "sha256": "c21633f354a8acba309e1373bf2574659ab38f417b11d89f20f66f475bf9da59"
+  },
+  "limits": [
+    "FM0258 equal10-source-pixel openings use bright bar peaks9/20/31/42/53 as11px pitch; low-resolution bevel texels are interpreted, not copied byte-exactly.",
+    "Glass edge padding extends existing local interior color by1source pixel. No newly recovered detail or new neural inference is claimed.",
+    "Threshold/connected-component checks prove the declared masks only; direct visual review found the v2 curved residue despite passing those checks.",
+    "Only static source/frame review. Unknown consumer UV/repeat, observed texture keys and actual game rendering remain open."
+  ],
+  "next_action": "Source-anchor FM0189/0190 facade frames and horizontal bands; continue FM0029/0113 grille and FM0037/0038 perspective geometry. Remaining field256 originals, battle43 unresolved, other game asset inventories and runtime verification remain.",
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "scripts": {
+    "prepare_field_geometry001.py": "cbea11b40d9d2b2beae8a2c080a6cdd45ec0b21e875fa2e03baed4dc2a6bc16f",
+    "redraw_field_windows001.py": "c9938df16a674b72da8f77e5c65a0fa8e086ed643faf199d989c3c2580d38ebf",
+    "redraw_field_windows002.py": "60f2eab983e479d9ed8de4a5366b7e7fe0b32f7e29219a70bb2bc8f3a0e5a131",
+    "refine_field_window_glass.py": "b211d3d6171be972637ca006848f43ccaad0e85a3fdddbb6c2f33b9ab6d8a521",
+    "finalize_field_geometry001.py": "37a5adc8173ed0d163488b940ee95038825a8b349420fec53e7817d542b0349d"
+  }
+}

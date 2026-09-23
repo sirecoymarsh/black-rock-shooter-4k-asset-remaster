@@ -1,0 +1,878 @@
+{
+  "schema": "brs-field-geometry-audit/v2",
+  "line_threshold_sensitivity": [
+    {
+      "group_id": "FM0147",
+      "source_common_sigma_px": 0.5,
+      "counts_by_prominence": {
+        "source": {
+          "6": 18,
+          "10": 8,
+          "14": 8,
+          "18": 8,
+          "24": 8
+        },
+        "wdn": {
+          "6": 8,
+          "10": 8,
+          "14": 8,
+          "18": 8,
+          "24": 7
+        },
+        "photo": {
+          "6": 8,
+          "10": 8,
+          "14": 8,
+          "18": 8,
+          "24": 7
+        }
+      },
+      "interpretation": "One common source-coordinate smoothing scale suppresses source dithering; sensitivity is reported at every threshold. These are profile extrema, not physical slat counts."
+    },
+    {
+      "group_id": "FM0161",
+      "source_common_sigma_px": 0.5,
+      "counts_by_prominence": {
+        "source": {
+          "6": 17,
+          "10": 17,
+          "14": 17,
+          "18": 17,
+          "24": 8
+        },
+        "wdn": {
+          "6": 25,
+          "10": 25,
+          "14": 17,
+          "18": 8,
+          "24": 8
+        },
+        "photo": {
+          "6": 20,
+          "10": 17,
+          "14": 17,
+          "18": 10,
+          "24": 8
+        }
+      },
+      "interpretation": "One common source-coordinate smoothing scale suppresses source dithering; sensitivity is reported at every threshold. These are profile extrema, not physical slat counts."
+    }
+  ],
+  "hazard_regions": [
+    {
+      "id": "FM0137-wdn",
+      "threshold": "R,G>70 and R,G>1.7B",
+      "source_yellow_regions_ge4px": [
+        {
+          "pixels": 30,
+          "box": [
+            0,
+            41,
+            5,
+            10
+          ]
+        },
+        {
+          "pixels": 66,
+          "box": [
+            5,
+            41,
+            11,
+            10
+          ]
+        },
+        {
+          "pixels": 69,
+          "box": [
+            14,
+            41,
+            12,
+            10
+          ]
+        },
+        {
+          "pixels": 64,
+          "box": [
+            24,
+            41,
+            11,
+            10
+          ]
+        },
+        {
+          "pixels": 68,
+          "box": [
+            34,
+            41,
+            12,
+            10
+          ]
+        },
+        {
+          "pixels": 70,
+          "box": [
+            44,
+            41,
+            12,
+            10
+          ]
+        },
+        {
+          "pixels": 59,
+          "box": [
+            54,
+            41,
+            10,
+            10
+          ]
+        }
+      ],
+      "output_yellow_regions_ge256px": [
+        {
+          "pixels": 3600,
+          "box": [
+            119,
+            325,
+            82,
+            84
+          ]
+        },
+        {
+          "pixels": 3866,
+          "box": [
+            275,
+            325,
+            86,
+            84
+          ]
+        },
+        {
+          "pixels": 1591,
+          "box": [
+            0,
+            326,
+            39,
+            75
+          ]
+        },
+        {
+          "pixels": 3409,
+          "box": [
+            41,
+            326,
+            79,
+            83
+          ]
+        },
+        {
+          "pixels": 3803,
+          "box": [
+            196,
+            326,
+            86,
+            84
+          ]
+        },
+        {
+          "pixels": 3457,
+          "box": [
+            360,
+            326,
+            79,
+            83
+          ]
+        },
+        {
+          "pixels": 3291,
+          "box": [
+            438,
+            326,
+            74,
+            83
+          ]
+        }
+      ],
+      "region_count_match": true,
+      "source_vs_downsample_yellow_IoU": 0.8215962441314554,
+      "mean_rgb_yellow_source_output": [
+        [
+          174.48591549295776,
+          167.63145539906102,
+          44.31455399061033
+        ],
+        [
+          202.53734196463483,
+          187.62223573880175,
+          38.82734500586523
+        ]
+      ],
+      "interpretation": "Yellow connected regions only; edge AA and thresholding affect boundaries. Not exact full-colored geometry/phase or native UV proof."
+    },
+    {
+      "id": "FM0148-photo",
+      "threshold": "R,G>70 and R,G>1.7B",
+      "source_yellow_regions_ge4px": [
+        {
+          "pixels": 122,
+          "box": [
+            4,
+            0,
+            10,
+            17
+          ]
+        },
+        {
+          "pixels": 170,
+          "box": [
+            4,
+            22,
+            10,
+            26
+          ]
+        },
+        {
+          "pixels": 168,
+          "box": [
+            4,
+            55,
+            10,
+            25
+          ]
+        },
+        {
+          "pixels": 168,
+          "box": [
+            4,
+            87,
+            10,
+            25
+          ]
+        },
+        {
+          "pixels": 46,
+          "box": [
+            5,
+            119,
+            9,
+            9
+          ]
+        }
+      ],
+      "output_yellow_regions_ge256px": [
+        {
+          "pixels": 7551,
+          "box": [
+            32,
+            0,
+            80,
+            133
+          ]
+        },
+        {
+          "pixels": 10936,
+          "box": [
+            32,
+            176,
+            80,
+            209
+          ]
+        },
+        {
+          "pixels": 10586,
+          "box": [
+            32,
+            436,
+            80,
+            204
+          ]
+        },
+        {
+          "pixels": 10501,
+          "box": [
+            32,
+            697,
+            80,
+            202
+          ]
+        },
+        {
+          "pixels": 2926,
+          "box": [
+            38,
+            951,
+            74,
+            73
+          ]
+        }
+      ],
+      "region_count_match": true,
+      "source_vs_downsample_yellow_IoU": 0.9925816023738873,
+      "mean_rgb_yellow_source_output": [
+        [
+          136.9391691394659,
+          130.06379821958458,
+          52.70919881305638
+        ],
+        [
+          139.51178823529412,
+          131.81849411764705,
+          47.48435294117647
+        ]
+      ],
+      "interpretation": "Yellow connected regions only; edge AA and thresholding affect boundaries. Not exact full-colored geometry/phase or native UV proof."
+    },
+    {
+      "id": "FM0149-photo",
+      "threshold": "R,G>70 and R,G>1.7B",
+      "source_yellow_regions_ge4px": [
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            0,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            16,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            32,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            48,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            64,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            80,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            96,
+            29,
+            8
+          ]
+        },
+        {
+          "pixels": 232,
+          "box": [
+            99,
+            112,
+            29,
+            8
+          ]
+        }
+      ],
+      "output_yellow_regions_ge256px": [
+        {
+          "pixels": 14234,
+          "box": [
+            796,
+            0,
+            224,
+            65
+          ]
+        },
+        {
+          "pixels": 14152,
+          "box": [
+            795,
+            127,
+            225,
+            65
+          ]
+        },
+        {
+          "pixels": 14183,
+          "box": [
+            795,
+            256,
+            225,
+            65
+          ]
+        },
+        {
+          "pixels": 14310,
+          "box": [
+            795,
+            382,
+            225,
+            67
+          ]
+        },
+        {
+          "pixels": 14211,
+          "box": [
+            795,
+            512,
+            225,
+            64
+          ]
+        },
+        {
+          "pixels": 14259,
+          "box": [
+            795,
+            640,
+            225,
+            64
+          ]
+        },
+        {
+          "pixels": 14237,
+          "box": [
+            795,
+            768,
+            225,
+            64
+          ]
+        },
+        {
+          "pixels": 14196,
+          "box": [
+            795,
+            894,
+            225,
+            66
+          ]
+        }
+      ],
+      "region_count_match": true,
+      "source_vs_downsample_yellow_IoU": 0.9633620689655172,
+      "mean_rgb_yellow_source_output": [
+        [
+          122.5603448275862,
+          115.76724137931035,
+          40.558728448275865
+        ],
+        [
+          125.77411189819128,
+          118.01971313564536,
+          34.2691902058322
+        ]
+      ],
+      "interpretation": "Yellow connected regions only; edge AA and thresholding affect boundaries. Not exact full-colored geometry/phase or native UV proof."
+    },
+    {
+      "id": "FM0152-photo",
+      "threshold": "R,G>70 and R,G>1.7B",
+      "source_yellow_regions_ge4px": [
+        {
+          "pixels": 54,
+          "box": [
+            4,
+            0,
+            14,
+            6
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            21,
+            0,
+            14,
+            6
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            38,
+            0,
+            14,
+            6
+          ]
+        },
+        {
+          "pixels": 45,
+          "box": [
+            55,
+            0,
+            9,
+            9
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            0,
+            5,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            58,
+            12,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            0,
+            22,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            58,
+            29,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            0,
+            39,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            58,
+            46,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            0,
+            56,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 54,
+          "box": [
+            58,
+            63,
+            6,
+            14
+          ]
+        },
+        {
+          "pixels": 33,
+          "box": [
+            0,
+            73,
+            6,
+            8
+          ]
+        }
+      ],
+      "output_yellow_regions_ge256px": [
+        {
+          "pixels": 3394,
+          "box": [
+            33,
+            0,
+            113,
+            49
+          ]
+        },
+        {
+          "pixels": 3371,
+          "box": [
+            168,
+            0,
+            114,
+            49
+          ]
+        },
+        {
+          "pixels": 3412,
+          "box": [
+            304,
+            0,
+            115,
+            49
+          ]
+        },
+        {
+          "pixels": 2856,
+          "box": [
+            440,
+            0,
+            72,
+            71
+          ]
+        },
+        {
+          "pixels": 3323,
+          "box": [
+            0,
+            43,
+            49,
+            109
+          ]
+        },
+        {
+          "pixels": 3462,
+          "box": [
+            462,
+            96,
+            50,
+            111
+          ]
+        },
+        {
+          "pixels": 3328,
+          "box": [
+            0,
+            178,
+            49,
+            110
+          ]
+        },
+        {
+          "pixels": 3439,
+          "box": [
+            463,
+            231,
+            49,
+            112
+          ]
+        },
+        {
+          "pixels": 3309,
+          "box": [
+            0,
+            314,
+            49,
+            111
+          ]
+        },
+        {
+          "pixels": 3422,
+          "box": [
+            462,
+            365,
+            50,
+            113
+          ]
+        },
+        {
+          "pixels": 3307,
+          "box": [
+            0,
+            449,
+            49,
+            112
+          ]
+        },
+        {
+          "pixels": 3382,
+          "box": [
+            463,
+            501,
+            49,
+            112
+          ]
+        },
+        {
+          "pixels": 1956,
+          "box": [
+            0,
+            586,
+            51,
+            61
+          ]
+        }
+      ],
+      "region_count_match": true,
+      "source_vs_downsample_yellow_IoU": 0.986627043090639,
+      "mean_rgb_yellow_source_output": [
+        [
+          155.6775631500743,
+          151.1411589895988,
+          50.974739970282315
+        ],
+        [
+          157.99096780343652,
+          151.24689592717047,
+          37.064250137032005
+        ]
+      ],
+      "interpretation": "Yellow connected regions only; edge AA and thresholding affect boundaries. Not exact full-colored geometry/phase or native UV proof."
+    }
+  ],
+  "connected_grid_check": {
+    "id": "FM0078-photo-connected-grid-v3",
+    "source_grid_components": 16,
+    "output_grid_components": 16,
+    "dark_class_threshold_mean_RGB": 95,
+    "complete_class_mask_equal_source_nearest": true,
+    "dark_cell_core_rgb_exact": [
+      {
+        "source_pixel": [
+          42,
+          47
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          44,
+          47
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          46,
+          47
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          48,
+          47
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          42,
+          49
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          44,
+          49
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          46,
+          49
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          48,
+          49
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          42,
+          51
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          44,
+          51
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          46,
+          51
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          48,
+          51
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          42,
+          53
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          44,
+          53
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          46,
+          53
+        ],
+        "rgba_exact_output_pixels": 64
+      },
+      {
+        "source_pixel": [
+          48,
+          53
+        ],
+        "rgba_exact_output_pixels": 64
+      }
+    ],
+    "bar_count_per_axis": 5,
+    "bar_positions_source_fixed": true,
+    "outside_edit_mask_rgba_exact": true,
+    "opaque255": true,
+    "edit_pixels": 5184,
+    "source_ptm_rgba_parent_svg_mask_output_hashes_verified": true,
+    "interpretation": "Geometric source reconstruction with source-colored bar gradients. No new neural inference or recovered fine raster detail. Material/frame outside patch remains the previously inspected Photo output."
+  },
+  "runtime_verified": false
+}

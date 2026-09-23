@@ -1,0 +1,60 @@
+{
+  "group_id": "FM0301",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.png",
+  "source_ptm": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\field_maps\\map_d_stg04_02.bin\\sc11\\sc01\\sc00\\tex013.ptm",
+  "source_ptm_sha256": "712e7e556cca6731cfa7bf0c3c361435f290ecdd29d7251b7b8b840b1c3b5915",
+  "source_rgba_sha256": "cbf5a31844c147d815c04c70eb24a3c8cea915aec31704617b47324ba8fdabee",
+  "source_size": [
+    64,
+    64
+  ],
+  "source_nonzero_alpha": 1986,
+  "source_alpha_mean": 123.64013671875,
+  "reference": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\source-nearest8x.png",
+  "reference_sha256": "61bd9e320e4378c58e098c5465992f3551c3b82ec29273c0b294b11275ebb3e7",
+  "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\prompt.txt",
+  "prompt_sha256": "c6fb9ce258e65a526641a630ae86ec3381c5ceae28ea6ac5af7f9385487d410b",
+  "source_protected_alpha": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage006\\FM0301-source-alpha8x.png",
+  "source_protected_alpha_sha256": "abb77d8f6c81dfc29262f7b61aa7ca39c3c1ad04be31034586939fc01854739a",
+  "tool": "built-in image_gen",
+  "model_id": "not exposed",
+  "status": "raw_generated_pending_review",
+  "raw_generated_image_preserved": true,
+  "generated_store_path": "P:\\AI\\Codex\\generated_images\\01a0c802-c7cf-7f71-a268-2f12b1fd7bd3\\exec-154d89a4-6be5-4357-aebb-22d86b5ebc10.png",
+  "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\generated-raw.png",
+  "raw_sha256": "bf7f5b1a1ca5a19242546ab8cd59442aaced4c6b3ac4bf46f7e6fba401ef21e6",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_alpha_diagnostics": {
+    "source_alpha_mean": 123.64013671875,
+    "raw_alpha_mean": 124.12598790727725,
+    "mass_ratio": 1.0039295588101171,
+    "source_scale_IoU_at128": 0.9345613184682501,
+    "source_scale_alpha_mask_disagreements": 135,
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "raw_alpha_unique_count": 256,
+    "edge_chroma_by_alpha_threshold": {
+      "1": {
+        "green_pixels": 2978,
+        "cyan_pixels": 105
+      },
+      "64": {
+        "green_pixels": 0,
+        "cyan_pixels": 0
+      },
+      "128": {
+        "green_pixels": 0,
+        "cyan_pixels": 0
+      },
+      "240": {
+        "green_pixels": 0,
+        "cyan_pixels": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "schema": "brs-field-geometry-review/v2",
+  "batch": "FIELD-GEOMETRY-002",
+  "previous_goal_turn_classification": "progress: two source-anchored window replacements, two candidate revocations and six verified outputs in FIELD-GEOMETRY-001.",
+  "new_neural_unique_originals": 0,
+  "new_local_inference_passes": 0,
+  "external_generative_calls": 1,
+  "derived_outputs": 9,
+  "checked_outputs": [
+    {
+      "id": "FM0189-source-planes-local-material-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-source-planes-local-material-v1-8x.png",
+      "sha256": "0f0dea9f6d1af86b41fee50e917f5803d3fc9cb74d247e8fef2b59fad463ecbb",
+      "decision": "held",
+      "reason": "Low-resolution source profiles produce blurred/pasted molding and lose local material.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-source-planes-local-material-v1",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-source-planes-local-material-v1-8x.png",
+      "sha256": "26e23f5c6a6add7bd1b7f9cd8f8fbf71039d43f49c3e982bddebb10fd4e12554",
+      "decision": "held",
+      "reason": "Low-resolution source profiles produce blurred/pasted molding and lose local material.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0189-local-material-source-lines-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-local-material-source-lines-v2-8x.png",
+      "sha256": "4a45746823a486ac4c8dc910fe8f809852fd4ee9693866adbd0d684110066a01",
+      "decision": "held",
+      "reason": "Unconstrained local-gradient rectification leaves bowed corners and creates steps where the X warp starts/ends.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-local-material-source-lines-v2",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-local-material-source-lines-v2-8x.png",
+      "sha256": "cc7388b4d65edb72024fef7e46982266d395817a035aaf787c2cfde7b38f32fc",
+      "decision": "held",
+      "reason": "Unconstrained local-gradient rectification leaves bowed corners and creates steps where the X warp starts/ends.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0189-fixed-planes-local-profiles-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-fixed-planes-local-profiles-v3-8x.png",
+      "sha256": "1159c695cfd2f17cada20e7bf7e8855d5fd33dd178e3fd451581697585be5ea0",
+      "decision": "superseded",
+      "reason": "FM0189 gray side face became as bright as white frame, doubling apparent frame width; FM0190 cornice material/joints still look pasted.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-fixed-planes-local-profiles-v3",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-local-profiles-v3-8x.png",
+      "sha256": "489f6d8a1bd2ca5a05fe7594cf543076fe6b8b58f9fe1f03b1a8aaf693a1d455",
+      "decision": "held",
+      "reason": "FM0189 gray side face became as bright as white frame, doubling apparent frame width; FM0190 cornice material/joints still look pasted.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0189-fixed-planes-source-bevels-v4",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0189-fixed-planes-source-bevels-v4-8x.png",
+      "sha256": "3542c50fb0ae89728937e1a83c6dde78d40526ef4fb97f942848d03ccfcd656c",
+      "decision": "static_candidate",
+      "reason": "FM0189 restores narrow white core, gray side face, straight profiles and source shutter spacing; FM0190 material integration and corner shading interpretation remain unresolved.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-fixed-planes-source-bevels-v4",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-geometry002\\FM0190-fixed-planes-source-bevels-v4-8x.png",
+      "sha256": "c165db7f801587d1378f68aba189be0e22aa6ac7c8db6968bee16cc576fc2d4c",
+      "decision": "held",
+      "reason": "FM0189 restores narrow white core, gray side face, straight profiles and source shutter spacing; FM0190 material integration and corner shading interpretation remain unresolved.",
+      "source_and_lineage_hashes_verified": true,
+      "rgba_reproduced_from_saved_recipe": true,
+      "size": [
+        512,
+        1024
+      ],
+      "opaque255": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "FM0190-gpt-material-trial",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0190-v1\\FM0190-gpt-material-trial-8x.png",
+      "sha256": "fe0c1b1e53dda503609b41c6b4436d980829e3d506681eb3f241dc64a8341140",
+      "decision": "held",
+      "reason": "Whole output has visually excessive pebbled/embossed material in glass and masonry, and source-fixed planes are not guaranteed by generation. Keep only as a possible masonry material reference for a separately constrained follow-up.",
+      "actual_raw_size": [
+        887,
+        1774
+      ],
+      "saved_Lanczos_recipe_exact": true,
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "pages": [
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v1.png",
+      "sha256": "10c1292b5b7d1ea03bad178d5e545318f446b9e55674b81eaf8b0e96d0d03aad",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v1.png",
+      "sha256": "707b20d35bf5066ee72181104deaa7fed2e6b48c6d5a475dde58906aa3fa91d6",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v1.png",
+      "sha256": "d07c7230353ec2b6bee826778d0c664fe86b29488cf068014661458ad54f4d65",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v1.png",
+      "sha256": "30ead22d9efe2f0f76b06075f9ef3f3562d91016cf3ce25f73fc3bce21319401",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v1.png",
+      "sha256": "fec14412126b5abbd2fd11bb7a78a0c2c3e2e8ecad3598cdc7103eca910b2e33",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v1.png",
+      "sha256": "30f0fe31fc6ce975c3934610e796dd431eca706a02d850b2a6da36eed086a976",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v2.png",
+      "sha256": "ba32322e51d963e6e76d7065691c798f44749d846eb6bfe64c5214a5b05391b7",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v2.png",
+      "sha256": "d832d8b208921ff4ca08c4ec2cfd8c274a6a427e0baa2efd6da42ee3ba3cb652",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v2.png",
+      "sha256": "6c6dccb6da25b072c476d9007afe275623d8eb03175a4b6032b16ebb83e80eb8",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v2.png",
+      "sha256": "d7db6583e0ea9b890cbe4b849966cc9bfc8913e6b57e2e179ab69eaa0490a46d",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v2.png",
+      "sha256": "73ad3d0217ee9552c5fe8132e59264a90c7e73f15c9550675ad02c29c9ee6f0d",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v2.png",
+      "sha256": "87f43149e781d3a4676d724f883f66b8365c9076ef4bfcb7f09f1bf27ade8ad4",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "not_needed_after_whole_image_rejection"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v3.png",
+      "sha256": "3599d5107ea8c1226fde0af53f004f5fa4b4706aa722de3daef010dd1b80bbdb",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v3.png",
+      "sha256": "30c3702356e86f5910fa60fe5f3c33d1fe75f14e29b32de375b51bf1d5248176",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v3.png",
+      "sha256": "d5c3d3f77dd0a086fd26760169bc0bf68f61e4962b4eb250bf67ad4a400ae67a",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v3.png",
+      "sha256": "d7bed2578b7de56ca6c7cda17d297c09076bc404957817127a0109ce94ee885b",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v3.png",
+      "sha256": "cf282c30ca2295983a63808858e9b529db1fdd7a60b5f1864c4a1d35854866fd",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v3.png",
+      "sha256": "0a1e01d29ef4ccd89796a4a8d88e247be2b63ca7c18f915a9d93260b30e47511",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-whole-v4.png",
+      "sha256": "35177d8a36d23e32238c38a229a361614bceef6a72b792c398a2959525662fc9",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-upper-v4.png",
+      "sha256": "baec6159180f1d651c6bee013fc7b1af6983ca1f8320b49a2ffed5f062ac9806",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0189",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0189-lower-v4.png",
+      "sha256": "39367ecde552de5a3d2584e57af308c519175e54a5ba96bfe594564d2ed970ef",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-v4.png",
+      "sha256": "1c8c8c557a756a071fc3899f02d0c8fb5df01b1a1274f8ceb38bdadc47debb83",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-v4.png",
+      "sha256": "673ccd97303b4ed87f84f9145a67d3a8272502bfed0f0a93232720fff281339d",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "group_id": "FM0190",
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-v4.png",
+      "sha256": "d76d49bba2f5057c539399e516ad356fe66e01304c71a78fc5ae289c4db5031c",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-whole-gpt.png",
+      "sha256": "a83393f588110e198fd8cea97cfa5e6a7f1d1d7f570720a84c298a23ca28b00a",
+      "source_box": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-upper-gpt.png",
+      "sha256": "cd7810173434feab2aa7c478c7e68525335045223005c752de66279a4cd20cbc",
+      "source_box": [
+        0,
+        0,
+        64,
+        57
+      ],
+      "review_status": "directly_inspected"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-geometry002\\FM0190-lower-gpt.png",
+      "sha256": "3243fde16a03f05b65dfa6dcc677384ccf484743abcb6b463be51d1b148ef4a0",
+      "source_box": [
+        0,
+        88,
+        64,
+        128
+      ],
+      "review_status": "directly_inspected"
+    }
+  ],
+  "pages_directly_inspected_count": 19,
+  "selected": {
+    "FM0189": "FM0189-fixed-planes-source-bevels-v4"
+  },
+  "remaining_hold": {
+    "FM0190": "Fixed source planes improve geometry, but FM0190 cornices look pasted/smoother than the brick piers and source dark corner bevels need coherent joint shading. GPT trial1 is overtextured in glass and masonry. Keep held; evaluate constrained use of generated masonry material only, with source corner patches and unchanged glass."
+  },
+  "geometry_diagnostics": {
+    "vertical_white_cores": [
+      {
+        "source_box": [
+          3,
+          9,
+          5,
+          43
+        ],
+        "threshold_mean_RGB": 200,
+        "distinct_row_patterns": 1,
+        "bright_output_columns_relative": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "limit": "7-pixel visible white core within8-pixel source-column support; remaining pixel is an edge transition, not exact source-nearest color."
+      },
+      {
+        "source_box": [
+          31,
+          9,
+          33,
+          43
+        ],
+        "threshold_mean_RGB": 200,
+        "distinct_row_patterns": 1,
+        "bright_output_columns_relative": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "limit": "7-pixel visible white core within8-pixel source-column support; remaining pixel is an edge transition, not exact source-nearest color."
+      },
+      {
+        "source_box": [
+          3,
+          54,
+          5,
+          88
+        ],
+        "threshold_mean_RGB": 200,
+        "distinct_row_patterns": 1,
+        "bright_output_columns_relative": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "limit": "7-pixel visible white core within8-pixel source-column support; remaining pixel is an edge transition, not exact source-nearest color."
+      },
+      {
+        "source_box": [
+          31,
+          54,
+          33,
+          88
+        ],
+        "threshold_mean_RGB": 200,
+        "distinct_row_patterns": 1,
+        "bright_output_columns_relative": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "limit": "7-pixel visible white core within8-pixel source-column support; remaining pixel is an edge transition, not exact source-nearest color."
+      }
+    ],
+    "horizontal_sill_threshold_patterns": [
+      {
+        "source_y": 43,
+        "source_x_span": [
+          5,
+          59
+        ],
+        "threshold": 200,
+        "all_bright_relative_rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "any_bright_relative_rows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "distinct_column_patterns": 2,
+        "limit": "Bounded grain changes one edge row at this threshold; source plane geometry remains fixed. No pixel-perfect source color/threshold claim."
+      },
+      {
+        "source_y": 88,
+        "source_x_span": [
+          5,
+          59
+        ],
+        "threshold": 200,
+        "all_bright_relative_rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "any_bright_relative_rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "distinct_column_patterns": 2,
+        "limit": "Bounded grain changes one edge row at this threshold; source plane geometry remains fixed. No pixel-perfect source color/threshold claim."
+      }
+    ],
+    "shutter_profile_threshold_sensitivity": [
+      {
+        "source_x_span": [
+          13,
+          29
+        ],
+        "prominence": 3,
+        "source_profile_peaks_y": [
+          104,
+          107,
+          110,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          104.1875,
+          106.8125,
+          109.9375,
+          112.8125,
+          116.0625,
+          119.8125,
+          122.8125,
+          125.9375
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          13,
+          29
+        ],
+        "prominence": 5,
+        "source_profile_peaks_y": [
+          104,
+          107,
+          110,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          104.1875,
+          106.8125,
+          109.9375,
+          112.8125,
+          116.0625,
+          119.8125,
+          122.8125,
+          125.9375
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          13,
+          29
+        ],
+        "prominence": 8,
+        "source_profile_peaks_y": [
+          104,
+          107,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          106.8125,
+          109.9375,
+          112.8125,
+          116.0625,
+          119.8125,
+          122.8125,
+          125.9375
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          13,
+          29
+        ],
+        "prominence": 10,
+        "source_profile_peaks_y": [
+          107,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          106.8125,
+          109.9375,
+          112.8125,
+          116.0625,
+          119.8125,
+          122.8125,
+          125.9375
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          37,
+          52
+        ],
+        "prominence": 3,
+        "source_profile_peaks_y": [
+          104,
+          107,
+          110,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          104.0625,
+          106.8125,
+          109.8125,
+          112.8125,
+          116.0625,
+          119.9375,
+          122.9375,
+          125.8125
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          37,
+          52
+        ],
+        "prominence": 5,
+        "source_profile_peaks_y": [
+          104,
+          107,
+          110,
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          104.0625,
+          106.8125,
+          109.8125,
+          112.8125,
+          116.0625,
+          119.9375,
+          122.9375,
+          125.8125
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          37,
+          52
+        ],
+        "prominence": 8,
+        "source_profile_peaks_y": [
+          113,
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          106.8125,
+          109.8125,
+          112.8125,
+          116.0625,
+          119.9375,
+          122.9375,
+          125.8125
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      },
+      {
+        "source_x_span": [
+          37,
+          52
+        ],
+        "prominence": 10,
+        "source_profile_peaks_y": [
+          116,
+          120,
+          123,
+          126
+        ],
+        "output_profile_peaks_in_source_y": [
+          109.8125,
+          112.8125,
+          116.0625,
+          119.9375,
+          122.9375,
+          125.8125
+        ],
+        "limit": "Brightness-profile maxima, not independently established physical shutter slat count. Higher thresholds differ because contrast changes."
+      }
+    ]
+  },
+  "gpt_trial_report": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\field_geometry002_gpt190.json",
+  "gpt_trial_report_sha256": "2764c2164ec24eacdaa91e85fab016d228682da9b6b96bab9b3b1e2409941155",
+  "gpt_limits": "Dark pixels at source right window corners and side-face bevels do exist; do not classify all dark corner marks as generated inventions or erase them by default. Their geometry/shading interpretation still needs to yield a coherent joint.",
+  "source_reports_sha256": {
+    "qa\\field_geometry002_trials.json": "78989ef58a0e1f530f7142c2acb06a857b82ae7756e8b524303c57d66f51d2ce",
+    "qa\\field_geometry002_rectification.json": "17133f9ea5e141f20287a7f396af605a9688d5c35c2cd93cbd389511daebd3da",
+    "qa\\field_geometry002_planes_v3.json": "c9e053dd24b3348810893a7ff6033e9344a080d5390bbd8d093cef7f037fa5d4",
+    "qa\\field_geometry002_bevels_v4.json": "364a3b676ebd8e3d7c1c63fb81bd5a640be649b0cf8cb24f8dbe135316fba547"
+  },
+  "catalog_before_sha256": "7ad3e23104963b837bcec614caf9eefc53e958bfef22f04a38afbd50c072cc9c",
+  "catalog_after_sha256": "692b5b7e4042f0bcb9fd949df3e035ec9fe6ba8372081a1d50ed2d1caee0c981",
+  "geometry_contract_before_sha256": "7153b8ac9a2ffa9d0df6f555e21f335e7d3ef5cc1d5208cdcd9bf002a4fa25fd",
+  "geometry_contract_after_sha256": "ab087e6265fb61e46806ecab8bf7fcc435a2b43880b4477a44ac15cd259e03e4",
+  "other574_field_groups_unchanged": true,
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 144,
+    "field_neural_originals": 95,
+    "field_static_candidates": 72,
+    "field_holds": 23,
+    "field_groups_not_processed_in_field_context": 481,
+    "remaining_novel_unprocessed": 256,
+    "latest_review": "qa/field_geometry002_review.json"
+  },
+  "unique_neural_originals_title_battle_novel_field": 352,
+  "protected_file_hashes": {
+    "qa/battle_sr_catalog.json": "699a1182aba73041aa282e82ba53f93d300902d0d29850290340629675e3d441",
+    "qa/checker_design_contract.json": "9f90b63070c69e43415e5f45daad694288caae9d1d150f12e21298e48e440d8a",
+    "qa/checker_fidelity_review_v1.json": "de3bc0b531a5de35f99175bff7b917d977d999500e401adf7fe38a39842b700c",
+    "qa/field_map_inventory_v2.json": "132bd10d0bb1bdf316c351f671485d8818bf118e163622eabf8a97b60e7f741e",
+    "tools/Start-Title-QA.ps1": "0bef82373bab32b944c39cd7e68869d906ae53076e1d88e889fe8f917b9e999c"
+  },
+  "pack_hashes": {
+    "README.txt": "8819f09882ad60bccc8da0992601bd10d32ce008e4fd2f0e707ea96f2b5eea89",
+    "textures.ini": "a8d3104f35ca776b1a7de8cd52fa122534dfe196930a2e5778ef58ae6c74b7a5",
+    "materials\\BM023.png": "49186f831441116713db26327007bb64c8ed9f6cc4937ff9cfe3cccd44533d45",
+    "materials\\BM130.png": "5be23417c5035aade67116e55d534d1f2d287a10bc2f3fe67ab1d2a77ea40774",
+    "materials\\BM131.png": "b67d33e7a2f02acd2dac778749c01a9c5319c433e01007d302415bec1f01bf44",
+    "materials\\BM134.png": "a7189fde85b5d7403b57cf2c9acaeb71ec5701c61c7ce7eb13960baa5a1e9311",
+    "materials\\BM148.png": "96cad653c90caccf5768f062da545ace3d41dff08dc4cfa3fbebe864003380cd",
+    "materials\\BM149.png": "1ca454f50d1dd1f0e9ac5f27bdc1d48d6afb5ccfc29a911af4e8426ee89e1045",
+    "materials\\BM150.png": "476780eed61e53e76e6423e9eda59f2ba6cc76ebb9f75cf955e8edf931de6439",
+    "materials\\BM151.png": "89821863f01473e61612c0a78e932ea059935b31bdbeb34935a413c50a599846",
+    "materials\\BM152.png": "d198f92ac2352fd24a3099dbfc18732770797e36908a3242dc3522f49dbb7798",
+    "materials\\BM157.png": "7fef34f9ca566fb88d202c3c77bf6c3819fe424449a1967b9dae41ebc62d3d4e",
+    "materials\\BM158.png": "98b51d930f229e46db28a67933c9ca5d71901e827e542b6fa389e92bb09a7787",
+    "materials\\BM159.png": "c175f11a4432dff57e9ad8fdb3682a4a49566fbfb321400a36704aeb0f5ef1e5",
+    "materials\\BM160.png": "5ac492592c223d726a1916f2af437a334a8ccd1100fb816c6f52656f14fe8731",
+    "materials\\BM161.png": "8ec67611c4bc716067ec5b4cd8dd4638458128bd1cc1f1962415936b15c7c4d5",
+    "materials\\BM164.png": "b74945155b1f33d44e5dfec5c84f9ebdc3c284c391f6c656b0554b69ad5787a4",
+    "materials\\BM165.png": "969df67ff499b368f43cada7a0ac4b4c986401df879902ec2038e99dc3d02a44",
+    "materials\\BM166.png": "a7d1424abf5f1763182a1ba9a6133561e186b6ee60dd5e881da2a433ead163a2",
+    "materials\\BM167.png": "e4f32dba67df125f74206fd18eb2b740dc25069b4aec1ec08f3731c89f2114b6",
+    "materials\\BM168.png": "60879d032b4a5eaf1ef1ebb032389336d9511b636c89a74c555d20e21551e46c",
+    "title\\title-metal-local-sr.png": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8"
+  },
+  "preview": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-09-22\\brs-hd-ui-fonts\\outputs\\건물_창틀과_셔터_수정_비교.png",
+    "sha256": "35177d8a36d23e32238c38a229a361614bceef6a72b792c398a2959525662fc9"
+  },
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false,
+  "next_action": "FM0190 constrained generated masonry material trial on fixed source header planes, source corner patches and unchanged glass; continue held grille/perspective facades and remaining field256/battle43/other game populations.",
+  "scripts": {
+    "redraw_field_facades002.py": "1b2971a70b26f06d4a1572f6126c276e81343c448995485e8b731bb0f833756a",
+    "rectify_field_facades002.py": "8689408d68695c073386ccb53350c4266067b3b46bfeac10608ed82ea88047c5",
+    "constrain_field_facades002.py": "7ed9afa16c5fd3fa2414688464405813414d1941da1884fb12db8badf2c3cbaa",
+    "restore_facade_bevels002.py": "7f67797f37113b93c2ec7941028141b4d76d0d7a41e6bdacc1e0534ab9578683",
+    "review_field190_gpt001.py": "2253795751927d213fc148f1e942cbb85bc54b9a95cf11ad1d3a0573330ef5e2",
+    "finalize_field_geometry002.py": "356f32cca31d67de37d266c5dd33f95546deff5ee7d315f7ab2e1a67a99f94f5"
+  }
+}

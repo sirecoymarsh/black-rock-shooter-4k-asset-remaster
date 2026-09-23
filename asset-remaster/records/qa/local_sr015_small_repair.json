@@ -1,0 +1,328 @@
+{
+  "schema": "brs-sr015-small-crack-repair/v1",
+  "files": [
+    {
+      "id": "BM201-small-source-crack-1.0",
+      "group_id": "BM201",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-tone-8x.png",
+      "parent_sha256": "9ab98f402bf8c905047e8bac1aa99999477f28702ae37ba60401035df490d499",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-edit-mask8x.png",
+      "mask_sha256": "55eea4dbbd0b91a6cefd8decead2f6d66d46f1bd7a03a9643082c95ed3a0753b",
+      "underlay": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-healed-underlay.png",
+      "underlay_sha256": "0d0986ba705d09f64012115accceea6d33064e43dfdf8fb5d1be3dc2faaa5967",
+      "source_fragment_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-dark-fragments.png",
+      "source_fragment_mask_sha256": "d1d510156270bb06fdea6095c89d419101c47baf85c90cf6df7803e045a904e9",
+      "source_fragment_pixels": 7,
+      "source_dark_strength": 1.0,
+      "source_observed_crack_corridor": [
+        [
+          212.0,
+          210.5
+        ],
+        [
+          212.0,
+          214.0
+        ],
+        [
+          213.7,
+          218.0
+        ],
+        [
+          215.1,
+          221.0
+        ],
+        [
+          214.4,
+          226.0
+        ],
+        [
+          213.4,
+          229.0
+        ],
+        [
+          211.5,
+          232.0
+        ],
+        [
+          213.0,
+          234.5
+        ],
+        [
+          214.5,
+          238.0
+        ],
+        [
+          216.0,
+          241.0
+        ],
+        [
+          218.5,
+          244.0
+        ]
+      ],
+      "checker_cell_fills": [
+        {
+          "column": 0,
+          "row": 0,
+          "generated_source_unit_bounds": [
+            204.95,
+            206.75,
+            215.5,
+            217.02
+          ],
+          "edited_output_pixels": 1593
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "generated_source_unit_bounds": [
+            204.95,
+            217.02,
+            215.5,
+            227.24
+          ],
+          "edited_output_pixels": 1835
+        },
+        {
+          "column": 1,
+          "row": 1,
+          "generated_source_unit_bounds": [
+            215.5,
+            217.02,
+            225.35,
+            227.24
+          ],
+          "edited_output_pixels": 602
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "generated_source_unit_bounds": [
+            204.95,
+            227.24,
+            215.5,
+            237.5
+          ],
+          "edited_output_pixels": 2529
+        },
+        {
+          "column": 1,
+          "row": 2,
+          "generated_source_unit_bounds": [
+            215.5,
+            227.24,
+            225.35,
+            237.5
+          ],
+          "edited_output_pixels": 60
+        },
+        {
+          "column": 0,
+          "row": 3,
+          "generated_source_unit_bounds": [
+            204.95,
+            237.5,
+            215.5,
+            247.75
+          ],
+          "edited_output_pixels": 617
+        },
+        {
+          "column": 1,
+          "row": 3,
+          "generated_source_unit_bounds": [
+            215.5,
+            237.5,
+            225.35,
+            247.75
+          ],
+          "edited_output_pixels": 1440
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-crack-1.0.png",
+      "output_sha256": "54091e1d282a057a5d20d0bbd39302a220340a26a55c83f0d0c0173a1a2ed731",
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "Within-cell local inpainting for over-emphasized generated crack, followed by source dark-fragment restoration; original repaint exact outside the authored edit mask.",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected",
+        "reason": "Inpainted narrow crack corridor leaves blurry fills/halos; seven strong source pixels do not establish the full original crack."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM201-small-source-crack-0.7",
+      "group_id": "BM201",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+      "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-tone-8x.png",
+      "parent_sha256": "9ab98f402bf8c905047e8bac1aa99999477f28702ae37ba60401035df490d499",
+      "mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-edit-mask8x.png",
+      "mask_sha256": "55eea4dbbd0b91a6cefd8decead2f6d66d46f1bd7a03a9643082c95ed3a0753b",
+      "underlay": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-healed-underlay.png",
+      "underlay_sha256": "0d0986ba705d09f64012115accceea6d33064e43dfdf8fb5d1be3dc2faaa5967",
+      "source_fragment_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-dark-fragments.png",
+      "source_fragment_mask_sha256": "d1d510156270bb06fdea6095c89d419101c47baf85c90cf6df7803e045a904e9",
+      "source_fragment_pixels": 7,
+      "source_dark_strength": 0.7,
+      "source_observed_crack_corridor": [
+        [
+          212.0,
+          210.5
+        ],
+        [
+          212.0,
+          214.0
+        ],
+        [
+          213.7,
+          218.0
+        ],
+        [
+          215.1,
+          221.0
+        ],
+        [
+          214.4,
+          226.0
+        ],
+        [
+          213.4,
+          229.0
+        ],
+        [
+          211.5,
+          232.0
+        ],
+        [
+          213.0,
+          234.5
+        ],
+        [
+          214.5,
+          238.0
+        ],
+        [
+          216.0,
+          241.0
+        ],
+        [
+          218.5,
+          244.0
+        ]
+      ],
+      "checker_cell_fills": [
+        {
+          "column": 0,
+          "row": 0,
+          "generated_source_unit_bounds": [
+            204.95,
+            206.75,
+            215.5,
+            217.02
+          ],
+          "edited_output_pixels": 1593
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "generated_source_unit_bounds": [
+            204.95,
+            217.02,
+            215.5,
+            227.24
+          ],
+          "edited_output_pixels": 1835
+        },
+        {
+          "column": 1,
+          "row": 1,
+          "generated_source_unit_bounds": [
+            215.5,
+            217.02,
+            225.35,
+            227.24
+          ],
+          "edited_output_pixels": 602
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "generated_source_unit_bounds": [
+            204.95,
+            227.24,
+            215.5,
+            237.5
+          ],
+          "edited_output_pixels": 2529
+        },
+        {
+          "column": 1,
+          "row": 2,
+          "generated_source_unit_bounds": [
+            215.5,
+            227.24,
+            225.35,
+            237.5
+          ],
+          "edited_output_pixels": 60
+        },
+        {
+          "column": 0,
+          "row": 3,
+          "generated_source_unit_bounds": [
+            204.95,
+            237.5,
+            215.5,
+            247.75
+          ],
+          "edited_output_pixels": 617
+        },
+        {
+          "column": 1,
+          "row": 3,
+          "generated_source_unit_bounds": [
+            215.5,
+            237.5,
+            225.35,
+            247.75
+          ],
+          "edited_output_pixels": 1440
+        }
+      ],
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-small-source-crack-0.7.png",
+      "output_sha256": "8ee464b02d4f9e45a6d405f9cc3e8815d0da0ef982b83f49936ab604d9c43d32",
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "Within-cell local inpainting for over-emphasized generated crack, followed by source dark-fragment restoration; original repaint exact outside the authored edit mask.",
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rejected",
+        "reason": "Inpainted narrow crack corridor leaves blurry fills/halos; seven strong source pixels do not establish the full original crack."
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-repair-0.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr015-BM201-small-repair-1.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 0,
+  "runtime_verified": false,
+  "release_eligible": false,
+  "review_status": "Finalized; no accepted BM201 replacement. See local_sr015_review.json."
+}

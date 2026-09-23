@@ -1,0 +1,6169 @@
+{
+  "schema": "brs-hd-ui/v3",
+  "translator_model": "Codex internal",
+  "translation_change": "Source-backed corrections to misread categories, stage rows, omitted HUD terms and abbreviations; unchanged wording inherited from the frozen source. See wording_corrections.",
+  "wording_corrections": [
+    {
+      "assets": [
+        "UI-11",
+        "UI-14"
+      ],
+      "source": "USE",
+      "korean": "사용"
+    },
+    {
+      "assets": [
+        "UI-11",
+        "UI-14"
+      ],
+      "source": "KEY ITEMS",
+      "korean": "중요 아이템"
+    },
+    {
+      "assets": [
+        "UI-11",
+        "UI-14"
+      ],
+      "source": "EQUIP",
+      "korean": "장비"
+    },
+    {
+      "assets": [
+        "UI-19"
+      ],
+      "source": "OK / __ / R / HP / %",
+      "korean": "OK / __ / R / HP / %",
+      "reason": "Separate status and unit sprites, not DMG_RANK. Preserve standard HUD abbreviations."
+    },
+    {
+      "assets": [
+        "UI-24"
+      ],
+      "source": "CHALLENGES / CLEARED",
+      "korean": "도전 과제 / 완료",
+      "reason": "Separate consumers; restore omitted challenge meaning."
+    },
+    {
+      "assets": [
+        "UI-24"
+      ],
+      "source": "CLEAR / RECORD",
+      "korean": "완료 / 기록",
+      "reason": "Restore two independent packed labels."
+    },
+    {
+      "assets": [
+        "UI-01",
+        "UI-03"
+      ],
+      "source": "STAGE 1: SAN FRANCISCO",
+      "korean": "1 샌프란시스코"
+    },
+    {
+      "assets": [
+        "UI-01",
+        "UI-03"
+      ],
+      "source": "STAGE 4: FUJI JUKAI",
+      "korean": "4 후지 수해"
+    },
+    {
+      "assets": [
+        "UI-01",
+        "UI-03"
+      ],
+      "source": "STAGE 3: MOSCOW",
+      "korean": "3 모스크바",
+      "reason": "Restore correct row order; stage 3 and 4 source rows are not sequential."
+    },
+    {
+      "assets": [
+        "UI-12"
+      ],
+      "source": "/",
+      "korean": "/",
+      "reason": "Preserve page separator; it is not ALL."
+    },
+    {
+      "assets": [
+        "UI-16"
+      ],
+      "source": "SFX VOLUME",
+      "korean": "효과음 음량"
+    }
+  ],
+  "geometry_corrected_ids": [
+    "UI-00",
+    "UI-01",
+    "UI-02",
+    "UI-03",
+    "UI-04",
+    "UI-06",
+    "UI-07",
+    "UI-09",
+    "UI-10",
+    "UI-11",
+    "UI-12",
+    "UI-13",
+    "UI-14",
+    "UI-15",
+    "UI-16",
+    "UI-17",
+    "UI-18",
+    "UI-19",
+    "UI-20",
+    "UI-21",
+    "UI-22",
+    "UI-23",
+    "UI-24",
+    "UI-25",
+    "UI-26"
+  ],
+  "geometry_reviewed_unchanged_ids": [
+    "UI-05",
+    "UI-08"
+  ],
+  "wording_source_sha256": "28e718ca4078d52937c7839c16520c5ac53934947a757e2078eed76683d2d7ba",
+  "geometry_source_sha256": "e9c5fd2cb20bece02d4d5cea65a257850ba35c2402cdf628cb5fc9a5bbd0595f",
+  "scale": 8,
+  "font": "C:\\Windows\\Fonts\\NotoSansKR-VF.ttf",
+  "font_sha256": "018174e8cdd366aff67c8d366c7dc806a7babbe7f2819fc23b00d59f7b8353d0",
+  "asset_count": 27,
+  "mapped_asset_count": 19,
+  "exact_binding_count": 17,
+  "broad_wildcards": 0,
+  "runtime_status": "unverified; not release eligible",
+  "records": [
+    {
+      "id": "UI-00",
+      "source_relative": "MENU/IF_MISSION_FAILED/000_PTMD.ptm",
+      "source_ptmd_sha256": "eef6c1fa0540162c9672992922216f6f3c08076175b9b145e40511967fbe65b4",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-00_8x.png",
+      "candidate_sha256": "59ed36375f9308468112ca486cdefff25e4f51ce524d75b312a6d3122444cf9d",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        72
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무",
+            "box": [
+              1,
+              1,
+              98,
+              16
+            ],
+            "size_px": 129,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "실패",
+            "box": [
+              0,
+              17,
+              91,
+              32
+            ],
+            "size_px": 129,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "임무 재도전",
+            "box": [
+              1,
+              33,
+              125,
+              43
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스테이지 선택",
+            "box": [
+              1,
+              44,
+              126,
+              54
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "불러오기",
+            "box": [
+              84,
+              55,
+              127,
+              65
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              1,
+              98,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              0,
+              17,
+              91,
+              32
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              33,
+              125,
+              43
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              44,
+              126,
+              54
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              84,
+              55,
+              127,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 5740,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 13,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              55,
+              69,
+              58
+            ],
+            "screen_xy": [
+              332.0,
+              182.0
+            ],
+            "vertex_bytes_sha256": "671a9e4df74b980e1e4632ec9c203f909d71370c06d02ca7146a57cdaa148c9a"
+          },
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 14,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              33,
+              125,
+              43
+            ],
+            "screen_xy": [
+              339.0,
+              184.0
+            ],
+            "vertex_bytes_sha256": "92886b96dafcbccfc9e90f242401f818787f10421786a105835744603ee5c621"
+          },
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 15,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              44,
+              126,
+              54
+            ],
+            "screen_xy": [
+              339.0,
+              211.0
+            ],
+            "vertex_bytes_sha256": "dcaa98bca2b638a96837fca5418b888eb226ca22ac60c344bdd755f82269fb57"
+          },
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 16,
+            "texture_slot": 1,
+            "uv_box": [
+              84,
+              55,
+              127,
+              65
+            ],
+            "screen_xy": [
+              339.0,
+              238.0
+            ],
+            "vertex_bytes_sha256": "3b76b911fcc3d4e8d3ff47583d9a219bffd7b912c7639febdfc4a0b8aa943a07"
+          },
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 17,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              1,
+              98,
+              16
+            ],
+            "screen_xy": [
+              27.0,
+              129.0
+            ],
+            "vertex_bytes_sha256": "4c776fdff5ade52fe0f3306f35e43af6e3003e09234cc3b4e0ce9e3b93feda57"
+          },
+          {
+            "archive": "MENU/IF_MISSION_FAILED",
+            "member": 3,
+            "member_sha256": "851754c914e1373dbd6e70ff02a63b8a6cfc9838f9fbdef4fe215b22664d42a7",
+            "record": 18,
+            "texture_slot": 1,
+            "uv_box": [
+              0,
+              17,
+              91,
+              32
+            ],
+            "screen_xy": [
+              132.0,
+              129.0
+            ],
+            "vertex_bytes_sha256": "9a09684b45c785ea8c87ffa247d146942981574d5fb9b4e2f48250b2a8c77d3e"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-01",
+      "source_relative": "MENU/IF_REC_INFO/005_PTMD.ptm",
+      "source_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-01_8x.png",
+      "candidate_sha256": "e48776344c2aeb58c0f237b831f6b809e4449ae232d6f21f336a4bc4b299fcf9",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        96
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "1 샌프란시스코",
+            "box": [
+              8,
+              59,
+              121,
+              64
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "2 뉴욕",
+            "box": [
+              8,
+              65,
+              121,
+              70
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "4 후지 수해",
+            "box": [
+              8,
+              71,
+              102,
+              76
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "3 모스크바",
+            "box": [
+              8,
+              77,
+              87,
+              82
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "5 도쿄",
+            "box": [
+              8,
+              83,
+              81,
+              88
+            ],
+            "size_px": 50,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "6 달",
+            "box": [
+              8,
+              89,
+              75,
+              94
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              8,
+              59,
+              121,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              65,
+              121,
+              70
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              71,
+              102,
+              76
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              77,
+              87,
+              82
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              83,
+              81,
+              88
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              89,
+              75,
+              94
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2695,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 87,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              59,
+              121,
+              64
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "09005c3058fbcb7c4da019be3227c41d2f7a59666cf08a4b4cf429e658707522"
+          },
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 88,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              65,
+              121,
+              70
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "22614f7f3d91eb3c4f22439b5d82e797915fccb37d7fb43ae399b53797377b71"
+          },
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 89,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              77,
+              87,
+              82
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "08df21c06bc386eda23bd311a21d039c2251b0ad76611a6cba5a500bc3e22f54"
+          },
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 90,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              71,
+              102,
+              76
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "cf19d3818fddd7ead6abf81b6a3c402f360e35719978824fb8b18c70208c24e3"
+          },
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 91,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              83,
+              81,
+              88
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "35bcacd8dba9129b4711639d165663e784b7369d3e4c63cebde499c6728ee6a0"
+          },
+          {
+            "archive": "MENU/IF_REC_INFO",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 92,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              89,
+              75,
+              94
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "c7a857fa9588710dd7917f7fcf6d0e648f3f8557029b16200189ebd76d779866"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "replacement": "ui/000000000d6c3d6677f95023.png",
+          "output_rgba_sha256": "2d1307efd875df6ec357e55ef81d215881e8ca914ac549d2d24b521de8a49705",
+          "source_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-02",
+      "source_relative": "MENU/IF_REC_INFO/007_PTMD.ptm",
+      "source_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-02_8x.png",
+      "candidate_sha256": "03f12a951ec050f1c62ee7a8d79dec2964af9020d6cb75cf95e937d2f4be2070",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "미확인",
+            "box": [
+              94,
+              1,
+              99,
+              42
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              94,
+              1,
+              99,
+              42
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 205,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "replacement": "ui/0000000052e1c9281baca172.png",
+          "output_rgba_sha256": "35d7ef747ba811cd4c80b003b96777c142f32b3063e65f4c25fed0899bcafa28",
+          "source_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-03",
+      "source_relative": "MENU/MENU_LIBRARY/005_PTMD.ptm",
+      "source_ptmd_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-03_8x.png",
+      "candidate_sha256": "e48776344c2aeb58c0f237b831f6b809e4449ae232d6f21f336a4bc4b299fcf9",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        96
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "1 샌프란시스코",
+            "box": [
+              8,
+              59,
+              121,
+              64
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "2 뉴욕",
+            "box": [
+              8,
+              65,
+              121,
+              70
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "4 후지 수해",
+            "box": [
+              8,
+              71,
+              102,
+              76
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "3 모스크바",
+            "box": [
+              8,
+              77,
+              87,
+              82
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "5 도쿄",
+            "box": [
+              8,
+              83,
+              81,
+              88
+            ],
+            "size_px": 50,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "6 달",
+            "box": [
+              8,
+              89,
+              75,
+              94
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              8,
+              59,
+              121,
+              64
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              65,
+              121,
+              70
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              71,
+              102,
+              76
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              77,
+              87,
+              82
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              83,
+              81,
+              88
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              89,
+              75,
+              94
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2695,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 87,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              59,
+              121,
+              64
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "09005c3058fbcb7c4da019be3227c41d2f7a59666cf08a4b4cf429e658707522"
+          },
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 88,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              65,
+              121,
+              70
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "22614f7f3d91eb3c4f22439b5d82e797915fccb37d7fb43ae399b53797377b71"
+          },
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 89,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              77,
+              87,
+              82
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "08df21c06bc386eda23bd311a21d039c2251b0ad76611a6cba5a500bc3e22f54"
+          },
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 90,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              71,
+              102,
+              76
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "cf19d3818fddd7ead6abf81b6a3c402f360e35719978824fb8b18c70208c24e3"
+          },
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 91,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              83,
+              81,
+              88
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "35bcacd8dba9129b4711639d165663e784b7369d3e4c63cebde499c6728ee6a0"
+          },
+          {
+            "archive": "MENU/MENU_LIBRARY",
+            "member": 1,
+            "member_sha256": "13fe90cf513e0332993015d7097091119735277c3952bdbc33226310c526b88f",
+            "record": 92,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              89,
+              75,
+              94
+            ],
+            "screen_xy": [
+              39.0,
+              74.0
+            ],
+            "vertex_bytes_sha256": "c7a857fa9588710dd7917f7fcf6d0e648f3f8557029b16200189ebd76d779866"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "000000000d6c3d6677f95023",
+          "replacement": "ui/000000000d6c3d6677f95023.png",
+          "output_rgba_sha256": "2d1307efd875df6ec357e55ef81d215881e8ca914ac549d2d24b521de8a49705",
+          "source_rgba_sha256": "4d96c5461c766c74fe11789bd0e5f14eae8883c3bf2e227f29610cef398cdc6b",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-04",
+      "source_relative": "MENU/MENU_LIBRARY/007_PTMD.ptm",
+      "source_ptmd_sha256": "2d2e36aede37453f659f5a5d1c365fe6c5e24ca186e2e1b76d44a65d072ace6e",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-04_8x.png",
+      "candidate_sha256": "03f12a951ec050f1c62ee7a8d79dec2964af9020d6cb75cf95e937d2f4be2070",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "미확인",
+            "box": [
+              94,
+              1,
+              99,
+              42
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              94,
+              1,
+              99,
+              42
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 205,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000052e1c9281baca172",
+          "replacement": "ui/0000000052e1c9281baca172.png",
+          "output_rgba_sha256": "35d7ef747ba811cd4c80b003b96777c142f32b3063e65f4c25fed0899bcafa28",
+          "source_rgba_sha256": "ef4372c0096de7a43d7446e35d903277bffd81b478b58eca5a68b336b5090147",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-05",
+      "source_relative": "MENU/IF_STAGE_SELECT/014_PTMD.ptm",
+      "source_ptmd_sha256": "497c218abae49c4b8e760b2937994137ad1c80a7aca6465563e210427d718559",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-05_8x.png",
+      "candidate_sha256": "bcd133aebc4e5eb991c94a6bd9aa4ccc97acc28dfff12a294e9adf4eaf65326e",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "스테이지",
+            "box": [
+              2,
+              0,
+              126,
+              10
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "저장",
+            "box": [
+              2,
+              11,
+              62,
+              21
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "헌트",
+            "box": [
+              66,
+              11,
+              126,
+              21
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "로드",
+            "box": [
+              2,
+              22,
+              62,
+              32
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "추가",
+            "box": [
+              66,
+              22,
+              126,
+              32
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "메뉴",
+            "box": [
+              2,
+              32,
+              62,
+              42
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스토리",
+            "box": [
+              66,
+              32,
+              126,
+              42
+            ],
+            "size_px": 72,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              128,
+              43
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 5504,
+        "geometry_review": "Known SDO consumers and visible protected pixels reviewed; remaining dynamic consumers unverified",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "000000007659bb4033bec8ea",
+          "replacement": "ui/000000007659bb4033bec8ea.png",
+          "output_rgba_sha256": "28f804726a36032b9f377d3250b417b58a9a2bdfd465378b1dd7b69b208eeded",
+          "source_rgba_sha256": "13a883fbbfc5c58ccfece6dea20c7bd4a32af20c8488ee6c50f505c42c9d1e90",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-06",
+      "source_relative": "MENU/IF_STAGE_SELECT/018_PTMD.ptm",
+      "source_ptmd_sha256": "4cbbda960b5edc8ca556d81de2fcdf3ab465fcc88e8a31b2e094d2218091b963",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-06_8x.png",
+      "candidate_sha256": "4eb7a6b92db403d11fe7208b7d6da4898a543c1d2f03e8d3418f0ccb54d4a571",
+      "source_size": [
+        256,
+        128
+      ],
+      "logical_size": [
+        256,
+        72
+      ],
+      "output_size": [
+        2048,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 목록",
+            "box": [
+              15,
+              3,
+              80,
+              10
+            ],
+            "size_px": 56,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "나가기",
+            "box": [
+              218,
+              56,
+              255,
+              70
+            ],
+            "size_px": 88,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              15,
+              3,
+              80,
+              10
+            ],
+            "rgba": [
+              10,
+              7,
+              5,
+              255
+            ]
+          },
+          {
+            "box": [
+              218,
+              56,
+              255,
+              70
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 973,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000011f56fa381c8d890",
+          "replacement": "ui/0000000011f56fa381c8d890.png",
+          "output_rgba_sha256": "4420489063a5d5b7a73eefc8f80a6336c2b135737142f1f547d2875b62d47c2a",
+          "source_rgba_sha256": "fb72cd57af2c3d14c262ca617ebd9c9e766613229d359e2e7bd16665362fbdfb",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-07",
+      "source_relative": "MENU/IF_STAGE_SELECT/021_PTMD.ptm",
+      "source_ptmd_sha256": "186a00266d0644d7c02cd76b52827e69133c8e759537dbdce258d83eb48a4f90",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-07_8x.png",
+      "candidate_sha256": "84a72fc5361fc1cbc896ca484e931c3a508aff43e5ecc44a201f5df908c73dce",
+      "source_size": [
+        128,
+        256
+      ],
+      "logical_size": [
+        128,
+        192
+      ],
+      "output_size": [
+        1024,
+        2048
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무",
+            "box": [
+              65,
+              66,
+              97,
+              71
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "정보",
+            "box": [
+              65,
+              60,
+              101,
+              65
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "스테이지",
+            "box": [
+              65,
+              72,
+              101,
+              77
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "조건",
+            "box": [
+              55,
+              186,
+              102,
+              191
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "이전",
+            "box": [
+              105,
+              180,
+              128,
+              185
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "다음",
+            "box": [
+              105,
+              186,
+              128,
+              191
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              65,
+              66,
+              97,
+              71
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              65,
+              60,
+              101,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              65,
+              72,
+              101,
+              77
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              55,
+              186,
+              102,
+              191
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              105,
+              180,
+              128,
+              185
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              105,
+              186,
+              128,
+              191
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 985,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "00000000b609b2b43d4a0f88",
+          "replacement": "ui/00000000b609b2b43d4a0f88.png",
+          "output_rgba_sha256": "34fde95b2b7824658b89b58b0e787015b9d762b5289cc0a436af533139e40aa2",
+          "source_rgba_sha256": "70cbf05b7c4fdc637cc512b982b37078949430b5d1bd034ad8c923026ddbc89d",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-08",
+      "source_relative": "MENU/IF_STAGE_SELECT/023_PTMD.ptm",
+      "source_ptmd_sha256": "634b3d77a4160394d08131bc47e8c50de0a08be9660f55cf298ce552073becb8",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-08_8x.png",
+      "candidate_sha256": "c5ad0b58b748949213ae4fd91bc60444d4eac187587ac7b6a221a6d36aea41b1",
+      "source_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        256,
+        232
+      ],
+      "output_size": [
+        2048,
+        2048
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "발신",
+            "box": [
+              1,
+              60,
+              50,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "포보스",
+            "box": [
+              1,
+              67,
+              50,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              60,
+              101,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "매리언",
+            "box": [
+              52,
+              67,
+              101,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              60,
+              153,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "로스콜",
+            "box": [
+              103,
+              67,
+              153,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              60,
+              204,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "BRS",
+            "box": [
+              155,
+              67,
+              204,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              206,
+              60,
+              255,
+              68
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "나나",
+            "box": [
+              206,
+              67,
+              255,
+              76
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              1,
+              137,
+              50,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              137,
+              101,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              137,
+              153,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "미확인",
+            "box": [
+              103,
+              144,
+              153,
+              153
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              137,
+              204,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "샤오민",
+            "box": [
+              155,
+              144,
+              204,
+              153
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              206,
+              137,
+              255,
+              145
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              1,
+              215,
+              50,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              52,
+              215,
+              101,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              103,
+              215,
+              153,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "발신",
+            "box": [
+              155,
+              215,
+              204,
+              223
+            ],
+            "size_px": 48,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "???",
+            "box": [
+              155,
+              222,
+              204,
+              231
+            ],
+            "size_px": 64,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              60,
+              51,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              60,
+              102,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              60,
+              154,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              60,
+              205,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              205,
+              60,
+              256,
+              77
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              0,
+              137,
+              51,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              137,
+              102,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              137,
+              154,
+              154
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              137,
+              205,
+              154
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              205,
+              137,
+              256,
+              145
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              0,
+              215,
+              51,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              51,
+              215,
+              102,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              102,
+              215,
+              154,
+              223
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          },
+          {
+            "box": [
+              154,
+              215,
+              205,
+              232
+            ],
+            "rgba": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 9426,
+        "geometry_review": "Known SDO consumers and visible protected pixels reviewed; remaining dynamic consumers unverified",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "000000006b38aa9e9adf1a85",
+          "replacement": "ui/000000006b38aa9e9adf1a85.png",
+          "output_rgba_sha256": "0ae9a7f7c947c281ea9a8349262e4068a72745dd0af0b8f0a590d8ef87ef85c0",
+          "source_rgba_sha256": "e9ebabaf53958f6054cb1f9a8df4a906b649126d2a7bba97ec068020a5389f10",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-09",
+      "source_relative": "MENU/MENU_CUSTOM/006_PTMD.ptm",
+      "source_ptmd_sha256": "3c30f2c0429761385c0c4630ac254cd64b84a641befbb9092754ddb45fedd753",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-09_8x.png",
+      "candidate_sha256": "6817965ec5e99dbe551312d5ba3c345354f58aa3ca58976143bef3d2760a5395",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "커스터마이즈",
+            "size_px": 136,
+            "orientation": "SDO-composite",
+            "pieces": [
+              {
+                "box": [
+                  1,
+                  1,
+                  18,
+                  19
+                ],
+                "screen_xy": [
+                  70,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  19,
+                  1,
+                  36,
+                  19
+                ],
+                "screen_xy": [
+                  86,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  37,
+                  1,
+                  54,
+                  19
+                ],
+                "screen_xy": [
+                  102,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  55,
+                  1,
+                  72,
+                  19
+                ],
+                "screen_xy": [
+                  118,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  73,
+                  1,
+                  90,
+                  19
+                ],
+                "screen_xy": [
+                  134,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  91,
+                  1,
+                  108,
+                  19
+                ],
+                "screen_xy": [
+                  150,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  61,
+                  21,
+                  66,
+                  39
+                ],
+                "screen_xy": [
+                  167,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  73,
+                  21,
+                  90,
+                  39
+                ],
+                "screen_xy": [
+                  172,
+                  33
+                ]
+              },
+              {
+                "box": [
+                  91,
+                  21,
+                  108,
+                  39
+                ],
+                "screen_xy": [
+                  188,
+                  33
+                ]
+              }
+            ],
+            "virtual_size": [
+              135,
+              18
+            ],
+            "overlap_alpha_owner": "first"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              36,
+              4,
+              37,
+              11
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              90,
+              4,
+              91,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              90,
+              25,
+              91,
+              26
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              1,
+              18,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              19,
+              1,
+              36,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              37,
+              1,
+              54,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              55,
+              1,
+              72,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              73,
+              1,
+              90,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              91,
+              1,
+              108,
+              19
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              61,
+              21,
+              66,
+              39
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              73,
+              21,
+              90,
+              39
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              91,
+              21,
+              108,
+              39
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2558,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 61,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              1,
+              18,
+              19
+            ],
+            "screen_xy": [
+              70.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "c8339af0b447f4014f550963f4df998cc8b893a4dbd81a0417b200de7668e1ac"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 62,
+            "texture_slot": 1,
+            "uv_box": [
+              19,
+              1,
+              36,
+              19
+            ],
+            "screen_xy": [
+              86.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "d5b87f440e87c14bd4eec5a5105730f46f69c0516a4aee30607ae9faa937495d"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 63,
+            "texture_slot": 1,
+            "uv_box": [
+              37,
+              1,
+              54,
+              19
+            ],
+            "screen_xy": [
+              102.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "c9f6ea82ffdc9e3f909ac01ad2fcab630388d7776f0fb31e1b96b7235264a22a"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 64,
+            "texture_slot": 1,
+            "uv_box": [
+              55,
+              1,
+              72,
+              19
+            ],
+            "screen_xy": [
+              118.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "dc6987ddbcc00951c24f63d435850afe30a5812df67345d4b832651b32e04613"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 65,
+            "texture_slot": 1,
+            "uv_box": [
+              73,
+              1,
+              90,
+              19
+            ],
+            "screen_xy": [
+              134.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "9c7a57fa0ddcfddffa17c23be66b69b71d0dbc9690212c8159c1a4cc0bdc383f"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 66,
+            "texture_slot": 1,
+            "uv_box": [
+              91,
+              1,
+              108,
+              19
+            ],
+            "screen_xy": [
+              150.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "609e34370ff5f86dc8bbf48743c27a0623055ef498262c2693b9fa14f96304e6"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 81,
+            "texture_slot": 1,
+            "uv_box": [
+              61,
+              21,
+              66,
+              39
+            ],
+            "screen_xy": [
+              167.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "0addfb0bfcd5a9ac56839a36561995e7c9bb8e921985d58b6d18e473a2e217f7"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 82,
+            "texture_slot": 1,
+            "uv_box": [
+              73,
+              21,
+              90,
+              39
+            ],
+            "screen_xy": [
+              172.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "5c94ea36a9bca9b68bd7f5b95a857b6f838892185c26b86238ccbe0d0e3bfeb0"
+          },
+          {
+            "archive": "MENU/MENU_CUSTOM",
+            "member": 2,
+            "member_sha256": "4622654624d9aaced2532c09fd8151be15ac2a7f795b1287d0af2f2c4568b922",
+            "record": 83,
+            "texture_slot": 1,
+            "uv_box": [
+              91,
+              21,
+              108,
+              39
+            ],
+            "screen_xy": [
+              188.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "3d66ab580c6b6bbed742038054e3f6004d3423e5ce8f5d2214343b5b3c13147d"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "000000009d9a963a64c43cc4",
+          "replacement": "ui/000000009d9a963a64c43cc4.png",
+          "output_rgba_sha256": "aa4cb0efb5de473e567cc9bdf6fc2fc87a3565fcbaf25aa6ca6e158b61dec2f1",
+          "source_rgba_sha256": "8d4f9bcb2d716a76bfa03829a9718071021f17a891bb993fe8009e8f75654aeb",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-10",
+      "source_relative": "MENU/MENU_CUSTOM/007_PTMD.ptm",
+      "source_ptmd_sha256": "6e25c81213c6079f4f3fd1e1b5ef5bfef1deecc5b021399dc287896879c05e32",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-10_8x.png",
+      "candidate_sha256": "e64fdf2e867965052d046066044ae805dd00c833a9133c68c03cf48f1ba8cffc",
+      "source_size": [
+        256,
+        128
+      ],
+      "logical_size": [
+        256,
+        96
+      ],
+      "output_size": [
+        2048,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "켬",
+            "box": [
+              215,
+              9,
+              232,
+              14
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "끔",
+            "box": [
+              215,
+              15,
+              232,
+              20
+            ],
+            "size_px": 45,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "무기 스킬",
+            "box": [
+              164,
+              30,
+              237,
+              35
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "패시브 스킬",
+            "box": [
+              164,
+              36,
+              241,
+              41
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              215,
+              9,
+              232,
+              14
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              215,
+              15,
+              232,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              164,
+              30,
+              237,
+              35
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              164,
+              36,
+              241,
+              41
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 920,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "00000000c981c3ccf93215a8",
+          "replacement": "ui/00000000c981c3ccf93215a8.png",
+          "output_rgba_sha256": "9d917f557cece31682e40363ccfae47a034413bdef0a32863e2118284f92567c",
+          "source_rgba_sha256": "fb3e03057e1cc2bae77715419b321193a7770f009cb3e7162b3362e203a1afa0",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-11",
+      "source_relative": "MENU/MENU_CUSTOM/009_PTMD.ptm",
+      "source_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-11_8x.png",
+      "candidate_sha256": "ac1d2f27788b9a34bb43ab781ed7004b3272d1515e869b0a678a0d9ca3fdbb00",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "공격",
+            "box": [
+              1,
+              1,
+              77,
+              11
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "블레이드",
+            "box": [
+              1,
+              12,
+              55,
+              22
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "사용",
+            "box": [
+              112,
+              20,
+              117,
+              61
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "중요 아이템",
+            "box": [
+              106,
+              14,
+              111,
+              61
+            ],
+            "size_px": 43,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "장비",
+            "box": [
+              100,
+              20,
+              105,
+              47
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              1,
+              77,
+              11
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              12,
+              55,
+              22
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              112,
+              20,
+              117,
+              61
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              106,
+              14,
+              111,
+              61
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              100,
+              20,
+              105,
+              47
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1875,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "replacement": "ui/0000000011b0765a71a523ed.png",
+          "output_rgba_sha256": "72bade814896705b71522cd13a3b9df6a1e07d4690a72d1b0f717ea286cde5fb",
+          "source_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-12",
+      "source_relative": "MENU/MENU_GALLERY/009_PTMD.ptm",
+      "source_ptmd_sha256": "b5c4418e13ea14ab955d610b433c1466423de532c007a4f7f9c1cb71e5ba4ab4",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-12_8x.png",
+      "candidate_sha256": "33d34a4eecc0c8d276f81745651e1ee8e3a85044a111c60604b13cae38d2a284",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        80
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "아트 감상",
+            "box": [
+              8,
+              30,
+              63,
+              35
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음악 감상",
+            "box": [
+              8,
+              36,
+              77,
+              41
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "영상 감상",
+            "box": [
+              8,
+              42,
+              73,
+              47
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "비어 있음",
+            "box": [
+              1,
+              48,
+              59,
+              58
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "비어 있음",
+            "box": [
+              33,
+              59,
+              62,
+              65
+            ],
+            "size_px": 51,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음악",
+            "box": [
+              90,
+              38,
+              117,
+              43
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              8,
+              30,
+              63,
+              35
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              36,
+              77,
+              41
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              42,
+              73,
+              47
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              48,
+              59,
+              58
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              33,
+              59,
+              62,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              90,
+              38,
+              117,
+              43
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1834,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 9,
+            "texture_slot": 2,
+            "uv_box": [
+              78,
+              30,
+              85,
+              41
+            ],
+            "screen_xy": [
+              12.0,
+              167.0
+            ],
+            "vertex_bytes_sha256": "9c2636fe21e1cf58bb6f661de0957536595de2b5c095501bbbe3932541421e60"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 10,
+            "texture_slot": 2,
+            "uv_box": [
+              78,
+              30,
+              85,
+              41
+            ],
+            "screen_xy": [
+              461.0,
+              167.0
+            ],
+            "vertex_bytes_sha256": "5d53835e52356791d82fb72831daffd5c3650c73c59d1ba7d8830a01ee793ce9"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 20,
+            "texture_slot": 2,
+            "uv_box": [
+              88,
+              19,
+              119,
+              60
+            ],
+            "screen_xy": [
+              48.0,
+              149.0
+            ],
+            "vertex_bytes_sha256": "ea08f97c9085cc4bb812dc0f448f56319dcb62b18344ac20e27c8b6e59b492e5"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 22,
+            "texture_slot": 2,
+            "uv_box": [
+              33,
+              59,
+              62,
+              65
+            ],
+            "screen_xy": [
+              49.0,
+              168.0
+            ],
+            "vertex_bytes_sha256": "b1f1c1453a4fb62fbecbcc52363cb72937ad97a845fbe64421f9af03d9b08125"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 33,
+            "texture_slot": 2,
+            "uv_box": [
+              60,
+              48,
+              71,
+              58
+            ],
+            "screen_xy": [
+              452.0,
+              4.0
+            ],
+            "vertex_bytes_sha256": "7efd98426f562aac8315f8d57b3a4b743e61ef4ee4bda720368c78df1b7f4424"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 35,
+            "texture_slot": 2,
+            "uv_box": [
+              1,
+              30,
+              63,
+              35
+            ],
+            "screen_xy": [
+              48.0,
+              88.0
+            ],
+            "vertex_bytes_sha256": "44de9d2ede8d528cb7e096633d37541a6c44c6c9e5c6263b64755924aa1fdd4b"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 36,
+            "texture_slot": 2,
+            "uv_box": [
+              1,
+              36,
+              77,
+              41
+            ],
+            "screen_xy": [
+              48.0,
+              88.0
+            ],
+            "vertex_bytes_sha256": "46c2b05c5401659bfe8aaa1a039dd5da141a9fc5a00be052ab136516b042c598"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 37,
+            "texture_slot": 2,
+            "uv_box": [
+              1,
+              42,
+              73,
+              47
+            ],
+            "screen_xy": [
+              48.0,
+              88.0
+            ],
+            "vertex_bytes_sha256": "d7f1345fdde116f73c175b72be9fdb74549da378f3890798a41350c7f5bd35c1"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 41,
+            "texture_slot": 2,
+            "uv_box": [
+              1,
+              48,
+              59,
+              58
+            ],
+            "screen_xy": [
+              414.0,
+              68.0
+            ],
+            "vertex_bytes_sha256": "8bfaba192976df2e246808c70a4a59f915bfc17f3e504caf3a6ab4782e7b85ce"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 43,
+            "texture_slot": 2,
+            "uv_box": [
+              17,
+              59,
+              32,
+              74
+            ],
+            "screen_xy": [
+              179.0,
+              6.0
+            ],
+            "vertex_bytes_sha256": "8d829122c654c2e5de40defd22baf69041037d318c4bddf6fb0cde15c054947e"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 44,
+            "texture_slot": 2,
+            "uv_box": [
+              72,
+              48,
+              84,
+              57
+            ],
+            "screen_xy": [
+              197.0,
+              6.0
+            ],
+            "vertex_bytes_sha256": "a35ece37e7b5866d6d6f20e6812db1198883159221eb5adf26621a221e40f62f"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 45,
+            "texture_slot": 2,
+            "uv_box": [
+              1,
+              59,
+              16,
+              74
+            ],
+            "screen_xy": [
+              288.0,
+              6.0
+            ],
+            "vertex_bytes_sha256": "a3d7d5763c696c69c7f8748b21af77cc50c27f78efc912f66298a056780a1367"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 46,
+            "texture_slot": 2,
+            "uv_box": [
+              72,
+              48,
+              84,
+              57
+            ],
+            "screen_xy": [
+              273.0,
+              6.0
+            ],
+            "vertex_bytes_sha256": "fe87fb1830b5f76f3f564adf9b7beb7007de4af150cd2e2ad4bef196fba9def0"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-13",
+      "source_relative": "MENU/MENU_GALLERY/010_PTMD.ptm",
+      "source_ptmd_sha256": "1ba7763306a6c335fbd5329e4252cb624ac5ccdabd4019492bb42b5b7bfbe8f0",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-13_8x.png",
+      "candidate_sha256": "4ac6814d5f375c494bacb042793d5d65092bee2c79def9823b464891a1e8e281",
+      "source_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        80
+      ],
+      "output_size": [
+        512,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "갤러리",
+            "size_px": 136,
+            "orientation": "SDO-composite",
+            "pieces": [
+              {
+                "box": [
+                  21,
+                  41,
+                  40,
+                  60
+                ],
+                "screen_xy": [
+                  137,
+                  43
+                ]
+              },
+              {
+                "box": [
+                  1,
+                  61,
+                  20,
+                  80
+                ],
+                "screen_xy": [
+                  154,
+                  43
+                ]
+              },
+              {
+                "box": [
+                  21,
+                  61,
+                  40,
+                  80
+                ],
+                "screen_xy": [
+                  171,
+                  43
+                ]
+              }
+            ],
+            "virtual_size": [
+              53,
+              19
+            ],
+            "overlap_alpha_owner": "first"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              37,
+              1,
+              56,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              37,
+              21,
+              56,
+              40
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              41,
+              20,
+              60
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              21,
+              41,
+              40,
+              60
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              61,
+              20,
+              80
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              21,
+              61,
+              40,
+              80
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2166,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 54,
+            "texture_slot": 3,
+            "uv_box": [
+              37,
+              1,
+              56,
+              20
+            ],
+            "screen_xy": [
+              69.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "ef06478384056c3ff97564621e298770a41ac20a6f67ad1252d188914ca66345"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 55,
+            "texture_slot": 3,
+            "uv_box": [
+              37,
+              21,
+              56,
+              40
+            ],
+            "screen_xy": [
+              86.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "e957b8ec2c2a47fb1e2b4f174b082486cbb5a03597616a03bffabd0641b86a7b"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 56,
+            "texture_slot": 3,
+            "uv_box": [
+              1,
+              41,
+              20,
+              60
+            ],
+            "screen_xy": [
+              103.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "495a2355f978e50709bd0bea35134dcc173dbc5cdd331603cc764008ea1ff30b"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 57,
+            "texture_slot": 3,
+            "uv_box": [
+              1,
+              41,
+              20,
+              60
+            ],
+            "screen_xy": [
+              120.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "495a2355f978e50709bd0bea35134dcc173dbc5cdd331603cc764008ea1ff30b"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 58,
+            "texture_slot": 3,
+            "uv_box": [
+              21,
+              41,
+              40,
+              60
+            ],
+            "screen_xy": [
+              137.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "810f06f6a4a7d91b3b4647e84af9e857e9eb859c2759551ec38024c70af79c1e"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 59,
+            "texture_slot": 3,
+            "uv_box": [
+              1,
+              61,
+              20,
+              80
+            ],
+            "screen_xy": [
+              154.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "43a5e7c363494fe5d319c8c7afc8f3a579ca6e356a6c2882245a7277ba2dac6f"
+          },
+          {
+            "archive": "MENU/MENU_GALLERY",
+            "member": 4,
+            "member_sha256": "f8ad05d4d3ad548d07e1880084aa5b202a37f2813a3ed353290dd9b25c351c0b",
+            "record": 60,
+            "texture_slot": 3,
+            "uv_box": [
+              21,
+              61,
+              40,
+              80
+            ],
+            "screen_xy": [
+              171.0,
+              43.0
+            ],
+            "vertex_bytes_sha256": "82c987f4ddba227c64689fce99c77d3eccfaae4d14f79c47b2581e36c4b86a50"
+          }
+        ],
+        "layout_note": "Gallery title right-aligned within original title envelope; shared repeated L cell blank. Runtime transition review pending."
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-14",
+      "source_relative": "MENU/MENU_ITEM/005_PTMD.ptm",
+      "source_ptmd_sha256": "7738395ac914c98a41711f1aaf7b86dd67bf6c35210fef3e0b1dd6f3d260b57d",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-14_8x.png",
+      "candidate_sha256": "ac1d2f27788b9a34bb43ab781ed7004b3272d1515e869b0a678a0d9ca3fdbb00",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "공격",
+            "box": [
+              1,
+              1,
+              77,
+              11
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "블레이드",
+            "box": [
+              1,
+              12,
+              55,
+              22
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "사용",
+            "box": [
+              112,
+              20,
+              117,
+              61
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "중요 아이템",
+            "box": [
+              106,
+              14,
+              111,
+              61
+            ],
+            "size_px": 43,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "장비",
+            "box": [
+              100,
+              20,
+              105,
+              47
+            ],
+            "size_px": 42,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              1,
+              77,
+              11
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              12,
+              55,
+              22
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              112,
+              20,
+              117,
+              61
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              106,
+              14,
+              111,
+              61
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              100,
+              20,
+              105,
+              47
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1875,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000011b0765a71a523ed",
+          "replacement": "ui/0000000011b0765a71a523ed.png",
+          "output_rgba_sha256": "72bade814896705b71522cd13a3b9df6a1e07d4690a72d1b0f717ea286cde5fb",
+          "source_rgba_sha256": "8a7e641387de57f2714a55e1f235770096d3748b8670206254893c35f3180e92",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-15",
+      "source_relative": "MENU/MENU_ITEM/006_PTMD.ptm",
+      "source_ptmd_sha256": "5d30b711d3eebf23274a8a96a63ff3fe3aa1047bfe2f431af4472ba70be6e447",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-15_8x.png",
+      "candidate_sha256": "68f37752e1c556ed7018c55093d20d84719259b76a8022c811dd4089f8d9ed2c",
+      "source_size": [
+        128,
+        256
+      ],
+      "logical_size": [
+        128,
+        144
+      ],
+      "output_size": [
+        1024,
+        2048
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "아",
+            "box": [
+              8,
+              103,
+              25,
+              121
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "이",
+            "box": [
+              26,
+              103,
+              43,
+              121
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "템",
+            "box": [
+              44,
+              103,
+              62,
+              121
+            ],
+            "size_px": 144,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              2,
+              103,
+              7,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              103,
+              25,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              26,
+              103,
+              43,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              44,
+              103,
+              62,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              110,
+              103,
+              128,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              43,
+              112,
+              44,
+              113
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              8,
+              103,
+              25,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              26,
+              103,
+              43,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              44,
+              103,
+              62,
+              121
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1351,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_ITEM",
+            "member": 2,
+            "member_sha256": "acbb1d0d5b5ea14842d0570afdc6ecfd1eda913e23a8fd21d0e3a7218bdbe628",
+            "record": 60,
+            "texture_slot": 1,
+            "uv_box": [
+              2,
+              103,
+              7,
+              121
+            ],
+            "screen_xy": [
+              70.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "6f210f1faca4ee17d980983d16b9c0af834d6765e6adff181fb6bb4546bcf982"
+          },
+          {
+            "archive": "MENU/MENU_ITEM",
+            "member": 2,
+            "member_sha256": "acbb1d0d5b5ea14842d0570afdc6ecfd1eda913e23a8fd21d0e3a7218bdbe628",
+            "record": 61,
+            "texture_slot": 1,
+            "uv_box": [
+              8,
+              103,
+              25,
+              121
+            ],
+            "screen_xy": [
+              76.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "0f840cff3d5ed28aefe8319a8637de6cec40772cefc42901086e64e72aa873fe"
+          },
+          {
+            "archive": "MENU/MENU_ITEM",
+            "member": 2,
+            "member_sha256": "acbb1d0d5b5ea14842d0570afdc6ecfd1eda913e23a8fd21d0e3a7218bdbe628",
+            "record": 62,
+            "texture_slot": 1,
+            "uv_box": [
+              26,
+              103,
+              43,
+              121
+            ],
+            "screen_xy": [
+              94.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "2cc53d5480a7227b8780d9053e7ad28508fe75d87cea485be2f77e9788fa85d9"
+          },
+          {
+            "archive": "MENU/MENU_ITEM",
+            "member": 2,
+            "member_sha256": "acbb1d0d5b5ea14842d0570afdc6ecfd1eda913e23a8fd21d0e3a7218bdbe628",
+            "record": 63,
+            "texture_slot": 1,
+            "uv_box": [
+              44,
+              103,
+              62,
+              121
+            ],
+            "screen_xy": [
+              112.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "d9e2deb5256be1be9f6e3928483e6e8ea1298b8229d2094f882ddb7cd3302103"
+          },
+          {
+            "archive": "MENU/MENU_ITEM",
+            "member": 2,
+            "member_sha256": "acbb1d0d5b5ea14842d0570afdc6ecfd1eda913e23a8fd21d0e3a7218bdbe628",
+            "record": 65,
+            "texture_slot": 1,
+            "uv_box": [
+              110,
+              103,
+              128,
+              121
+            ],
+            "screen_xy": [
+              130.0,
+              33.0
+            ],
+            "vertex_bytes_sha256": "139c1839b5c4b84a5fead7e0001840799932697ec8e6e9d88f915f7209ba144d"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000084bb9de3ca720b5f",
+          "replacement": "ui/0000000084bb9de3ca720b5f.png",
+          "output_rgba_sha256": "6a672fe3e643acb3eafc2351c300b969c1d93d807a7208510bec9d21badb0a66",
+          "source_rgba_sha256": "e9c218af4a030a8705ff08fc2492a507540c5a23fc0d56568d000bedb40bc3cd",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-16",
+      "source_relative": "MENU/MENU_OPTION/005_PTMD.ptm",
+      "source_ptmd_sha256": "bb3a786093f4c5c51710b380bc35e0634167beba4f0db08128ac21cbf7086808",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-16_8x.png",
+      "candidate_sha256": "8d92845f863c64175ef24c619e011d7bb9e8d7ce6cabef40bfbe807a8d73ff58",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        64
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "데이터 설치",
+            "box": [
+              1,
+              6,
+              118,
+              16
+            ],
+            "size_px": 86,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음성 음량",
+            "box": [
+              119,
+              6,
+              238,
+              16
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "BGM 음량",
+            "box": [
+              1,
+              18,
+              104,
+              28
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "효과음 음량",
+            "box": [
+              1,
+              30,
+              104,
+              40
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "자동 넘김",
+            "box": [
+              1,
+              42,
+              115,
+              52
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "끔",
+            "box": [
+              155,
+              24,
+              193,
+              34
+            ],
+            "size_px": 91,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "켬",
+            "box": [
+              155,
+              36,
+              193,
+              46
+            ],
+            "size_px": 87,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "음소거",
+            "box": [
+              105,
+              24,
+              154,
+              34
+            ],
+            "size_px": 85,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              6,
+              118,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              119,
+              6,
+              238,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              18,
+              104,
+              28
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              30,
+              104,
+              40
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              42,
+              115,
+              52
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              155,
+              24,
+              193,
+              34
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              155,
+              36,
+              193,
+              46
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              105,
+              24,
+              154,
+              35
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              105,
+              24,
+              154,
+              34
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 6859,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 4,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              18,
+              104,
+              28
+            ],
+            "screen_xy": [
+              42.0,
+              109.0
+            ],
+            "vertex_bytes_sha256": "28cd45f989a4b7f692fa1c91d4a489e7de8d19d5d5d155e692f2caa87c285069"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 5,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              30,
+              104,
+              40
+            ],
+            "screen_xy": [
+              42.0,
+              131.0
+            ],
+            "vertex_bytes_sha256": "5f75e6d665bbe4831a4c5995368ab9d99158404a72ce04101493866e2727ff86"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 6,
+            "texture_slot": 0,
+            "uv_box": [
+              119,
+              6,
+              238,
+              16
+            ],
+            "screen_xy": [
+              26.0,
+              153.0
+            ],
+            "vertex_bytes_sha256": "aa87c4fa640d3410932a0230dc37f5c6e93447c72f4532a26aa252a78580f592"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 7,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              42,
+              115,
+              52
+            ],
+            "screen_xy": [
+              31.0,
+              175.0
+            ],
+            "vertex_bytes_sha256": "59a976ccbb19dca70d37815323e153e4e58fa88216fb86a059ca3bfe3647202c"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 8,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              6,
+              118,
+              16
+            ],
+            "screen_xy": [
+              28.0,
+              197.0
+            ],
+            "vertex_bytes_sha256": "26144e136581e8187be466f9258b9801c7f31309e429ed536d3dc659432c6cce"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 9,
+            "texture_slot": 0,
+            "uv_box": [
+              0,
+              1,
+              256,
+              4
+            ],
+            "screen_xy": [
+              180.0,
+              113.0
+            ],
+            "vertex_bytes_sha256": "e1b8366980f413aea58839875ba09c6ae8d27118c4cbb26688a8b6ae0baf6131"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 10,
+            "texture_slot": 0,
+            "uv_box": [
+              0,
+              1,
+              256,
+              4
+            ],
+            "screen_xy": [
+              180.0,
+              112.0
+            ],
+            "vertex_bytes_sha256": "58ef5d5e1a37e9fc16206e232afa74a447caaf7176d7e7deb10d4db7ec942deb"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 11,
+            "texture_slot": 0,
+            "uv_box": [
+              240,
+              6,
+              255,
+              17
+            ],
+            "screen_xy": [
+              162.0,
+              109.0
+            ],
+            "vertex_bytes_sha256": "5fc26f269481d27cd3d4fe473ee077aa87566e0b25af25430827abf24cb7e6ec"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 12,
+            "texture_slot": 0,
+            "uv_box": [
+              240,
+              6,
+              255,
+              17
+            ],
+            "screen_xy": [
+              438.0,
+              109.0
+            ],
+            "vertex_bytes_sha256": "60ef01d833d8ab6a9d54afdaa2db89a5f66727d4cf059483ad142f50bbe833fd"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 13,
+            "texture_slot": 0,
+            "uv_box": [
+              155,
+              24,
+              193,
+              34
+            ],
+            "screen_xy": [
+              232.0,
+              175.0
+            ],
+            "vertex_bytes_sha256": "3aad68a90386bfa3987cd3b574c24d7b15cbb5e408b87bd3d317e13c7f2d1d31"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 14,
+            "texture_slot": 0,
+            "uv_box": [
+              240,
+              6,
+              255,
+              17
+            ],
+            "screen_xy": [
+              290.0,
+              175.0
+            ],
+            "vertex_bytes_sha256": "5fc26f269481d27cd3d4fe473ee077aa87566e0b25af25430827abf24cb7e6ec"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 15,
+            "texture_slot": 0,
+            "uv_box": [
+              240,
+              6,
+              255,
+              17
+            ],
+            "screen_xy": [
+              310.0,
+              175.0
+            ],
+            "vertex_bytes_sha256": "60ef01d833d8ab6a9d54afdaa2db89a5f66727d4cf059483ad142f50bbe833fd"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 16,
+            "texture_slot": 0,
+            "uv_box": [
+              155,
+              36,
+              193,
+              46
+            ],
+            "screen_xy": [
+              345.0,
+              175.0
+            ],
+            "vertex_bytes_sha256": "485e5e42b3dd4b1bd367394c435ef6eb2d5a4ef3288234b9447387110fba2f8a"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000061b9cd9108a0507a",
+          "replacement": "ui/0000000061b9cd9108a0507a.png",
+          "output_rgba_sha256": "78d1a0989e702e4396d76ea7a7d0678a9db4b9e8454be94968662f1f3ed68961",
+          "source_rgba_sha256": "86aa9161406e574431368d11deb9ec225a468bc40dc8c71745e800ec2d400c1a",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-17",
+      "source_relative": "MENU/MENU_OPTION/006_PTMD.ptm",
+      "source_ptmd_sha256": "8713121fda69e5a79fe97f5eb7b9c56c4f1ed3fc3d5620e1cd4e3b878d4b3ad1",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-17_8x.png",
+      "candidate_sha256": "d485c019ef9503375866225bfacae676f9c76371265b25eafc47b34e190685da",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        24
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "최소",
+            "box": [
+              1,
+              6,
+              52,
+              21
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "최대",
+            "box": [
+              53,
+              6,
+              92,
+              21
+            ],
+            "size_px": 96,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              6,
+              52,
+              21
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              53,
+              6,
+              92,
+              21
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1350,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000004fb7415bdbbc91c",
+          "replacement": "ui/0000000004fb7415bdbbc91c.png",
+          "output_rgba_sha256": "b3d76997bb2c97da1fe06b833aaa3d7aac8e7ec5b43fda7fa556e1b570341a7e",
+          "source_rgba_sha256": "b37b2b3695ce34fed70cda9fada5e1c8041e18d6ef5dcea47315b4e0fcd1ec8c",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-18",
+      "source_relative": "MENU/MENU_OPTION/007_PTMD.ptm",
+      "source_ptmd_sha256": "d4d200491298cc3403619872917103365c2938b705512c4c029d99fdc69b548c",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-18_8x.png",
+      "candidate_sha256": "fbcebc6ca8b346db737ef3b5d45fce20f54b711ddefcde5c05542ac01e1d5a29",
+      "source_size": [
+        128,
+        64
+      ],
+      "logical_size": [
+        128,
+        48
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "설정",
+            "size_px": 135,
+            "orientation": "SDO-composite",
+            "pieces": [
+              {
+                "box": [
+                  88,
+                  1,
+                  107,
+                  20
+                ],
+                "screen_xy": [
+                  105,
+                  51
+                ]
+              },
+              {
+                "box": [
+                  108,
+                  1,
+                  127,
+                  20
+                ],
+                "screen_xy": [
+                  117,
+                  51
+                ]
+              }
+            ],
+            "virtual_size": [
+              31,
+              19
+            ],
+            "overlap_alpha_owner": "first"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              48,
+              1,
+              67,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              68,
+              1,
+              87,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              88,
+              1,
+              107,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              108,
+              1,
+              127,
+              20
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              48,
+              21,
+              67,
+              40
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              68,
+              21,
+              87,
+              40
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2166,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 18,
+            "texture_slot": 3,
+            "uv_box": [
+              48,
+              1,
+              67,
+              20
+            ],
+            "screen_xy": [
+              69.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "625650c026f52f134d91a92d3ac0a885c4b355eb30631b927b3c150e08584dca"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 19,
+            "texture_slot": 3,
+            "uv_box": [
+              68,
+              1,
+              87,
+              20
+            ],
+            "screen_xy": [
+              87.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "275d3c1be8f3444ed0c77b6e95378d22f65a9169fcb7c1bbe14660f12f7cff2f"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 20,
+            "texture_slot": 3,
+            "uv_box": [
+              88,
+              1,
+              107,
+              20
+            ],
+            "screen_xy": [
+              105.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "4c3921f9a65fee40f911875ad98dadd49437d4686bbfce712f383bed1ad78b96"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 21,
+            "texture_slot": 3,
+            "uv_box": [
+              108,
+              1,
+              127,
+              20
+            ],
+            "screen_xy": [
+              117.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "90314bb21d11d279d21befcc18fffe0b5213dfe24c482bcecaf468c5a366be8c"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 23,
+            "texture_slot": 3,
+            "uv_box": [
+              48,
+              21,
+              67,
+              40
+            ],
+            "screen_xy": [
+              147.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "d296c8e584371f0622ef9525498665907b6b38ba17460f461e5698066a50a813"
+          },
+          {
+            "archive": "MENU/MENU_OPTION",
+            "member": 2,
+            "member_sha256": "3600557c3ac34a9186c758e29e03c9e680e303046d1885afed106f8d0e4174ba",
+            "record": 24,
+            "texture_slot": 3,
+            "uv_box": [
+              68,
+              21,
+              87,
+              40
+            ],
+            "screen_xy": [
+              165.0,
+              51.0
+            ],
+            "vertex_bytes_sha256": "7091ba273f061a30e3b29a4379115ce64ca5d637ee4621dc0d7685cd290f7184"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000035517ce10c8ed4a1",
+          "replacement": "ui/0000000035517ce10c8ed4a1.png",
+          "output_rgba_sha256": "0b4c0f54e2d5482957766d76e4f12be50553cd04d757f4767e9ada18fc816bb3",
+          "source_rgba_sha256": "7b458f888c5ba5ca0ae26689eb4a4e3f164399adeba18a3aad225fb900c80cbe",
+          "padding_preserved": true
+        },
+        {
+          "key": "0000000035517ce18b0d810e",
+          "replacement": "ui/0000000035517ce18b0d810e.png",
+          "output_rgba_sha256": "1c23fbafdbb0161d68b0c8ebfeebf4369c4ced38ef9ff94d350eb35a95292802",
+          "source_rgba_sha256": "1989817df5f5c76099148e5afe35cdd472ac4f201769049254c16d563db790c7",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-19",
+      "source_relative": "SYSTEM/if_btlsys/003_PTMD.ptm",
+      "source_ptmd_sha256": "37e2c3c1ff686d80725f6c655b77515974c91421d548afcc6b3dd6ecdaf06222",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-19_8x.png",
+      "candidate_sha256": "27e6fb1664ff7df31559853ce32d748fb091a85b9865f776d7414a26b0a815b1",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        48
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "OK",
+            "box": [
+              155,
+              37,
+              166,
+              42
+            ],
+            "size_px": 51,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "HP",
+            "box": [
+              185,
+              37,
+              197,
+              42
+            ],
+            "size_px": 54,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "%",
+            "box": [
+              198,
+              37,
+              203,
+              42
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              155,
+              37,
+              166,
+              42
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              185,
+              37,
+              197,
+              42
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              198,
+              37,
+              203,
+              42
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 140,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 20,
+            "texture_slot": 0,
+            "uv_box": [
+              155,
+              37,
+              166,
+              42
+            ],
+            "screen_xy": [
+              462.0,
+              15.0
+            ],
+            "vertex_bytes_sha256": "a53b17118cc3815f01594d09dee5d4968003f8ca60cc47024c6bc39a2f2777a5"
+          },
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 19,
+            "texture_slot": 0,
+            "uv_box": [
+              167,
+              37,
+              178,
+              42
+            ],
+            "screen_xy": [
+              462.0,
+              15.0
+            ],
+            "vertex_bytes_sha256": "04e32f018171cbad3224de9520d5330a9520403861d188a4601dd7fd2ffc1cc2"
+          },
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 27,
+            "texture_slot": 0,
+            "uv_box": [
+              198,
+              37,
+              203,
+              42
+            ],
+            "screen_xy": [
+              363.0,
+              258.0
+            ],
+            "vertex_bytes_sha256": "ab737b6bbb847274387d7ad4ae1e0feeda64248adf197c4b48577727ddc905d9"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "00000000a10bede75312961c",
+          "replacement": "ui/00000000a10bede75312961c.png",
+          "output_rgba_sha256": "6752a5dc3ae49457731e6d32586c53056da936ef5adbfb9511d832863d35c38c",
+          "source_rgba_sha256": "3b627b41e528f59287a4860d03204e15ed66dabf6fd16e1cae6c6e762f30f47a",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-20",
+      "source_relative": "SYSTEM/if_btlsys/004_PTMD.ptm",
+      "source_ptmd_sha256": "d492b10dfb2a380138b081b4e855a78cc4ef0008f72be397f0d20abfe372b56c",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-20_8x.png",
+      "candidate_sha256": "65b01bea84133be2f1cff0c39665113aa5cb3ca253d7c423ea7107d23069158b",
+      "source_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        120
+      ],
+      "output_size": [
+        512,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "정보",
+            "box": [
+              49,
+              43,
+              55,
+              106
+            ],
+            "size_px": 51,
+            "orientation": "counterclockwise"
+          },
+          {
+            "text": "적",
+            "box": [
+              1,
+              113,
+              41,
+              119
+            ],
+            "size_px": 51,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              49,
+              43,
+              55,
+              106
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              113,
+              41,
+              119
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 618,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 4,
+            "texture_slot": 1,
+            "uv_box": [
+              49,
+              43,
+              55,
+              113
+            ],
+            "screen_xy": [
+              5.0,
+              25.0
+            ],
+            "vertex_bytes_sha256": "7cb58a7ec5eb09296bbe488b52dc09b39048458ce3420043495c604e496a6373"
+          },
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 38,
+            "texture_slot": 1,
+            "uv_box": [
+              1,
+              113,
+              41,
+              119
+            ],
+            "screen_xy": [
+              19.0,
+              260.0
+            ],
+            "vertex_bytes_sha256": "278db6c7fec80d9a6603237f67b6ff1e6684a37624ed2667e52789562d70d130"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "00000000519412d5791323ee",
+          "replacement": "ui/00000000519412d5791323ee.png",
+          "output_rgba_sha256": "5f5e509099851518c023a33d2f8f8f8cf1233b28df88178c1e41741391ae9c4e",
+          "source_rgba_sha256": "d4b767e13e953f090db35b2a20e2988fbc3b3d74e114bc6c3f64087338c963a1",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-21",
+      "source_relative": "SYSTEM/if_btlsys/005_PTMD.ptm",
+      "source_ptmd_sha256": "e5e7275620bf14f31cd2a0bb65f7bc43f34d5402ffe125d46843b5b691a74137",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-21_8x.png",
+      "candidate_sha256": "81744f66604cd4600461be9fbd8740e971ef0f3195ceae4a38366ecffafff4c5",
+      "source_size": [
+        256,
+        64
+      ],
+      "logical_size": [
+        256,
+        48
+      ],
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "과열",
+            "box": [
+              0,
+              0,
+              110,
+              23
+            ],
+            "size_px": 144,
+            "orientation": "horizontal",
+            "glow_rgb": [
+              238,
+              0,
+              0
+            ],
+            "ink_rgba": [
+              255,
+              238,
+              119,
+              255
+            ]
+          },
+          {
+            "text": "블레이드 모드 준비",
+            "box": [
+              0,
+              23,
+              195,
+              47
+            ],
+            "size_px": 144,
+            "orientation": "horizontal",
+            "glow_rgb": [
+              0,
+              51,
+              255
+            ],
+            "ink_rgba": [
+              204,
+              255,
+              255,
+              255
+            ]
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              0,
+              110,
+              23
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              0,
+              23,
+              195,
+              47
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 7210,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_btlsys",
+            "member": 0,
+            "member_sha256": "10b98083088bc32e542c772c83486f139061e3a866861c298ed74d9d38b5369d",
+            "record": 28,
+            "texture_slot": 2,
+            "uv_box": [
+              0,
+              0,
+              110,
+              23
+            ],
+            "screen_xy": [
+              344.0,
+              248.0
+            ],
+            "vertex_bytes_sha256": "1823b54b0fb4d4fcc185b454d01c67d72ca02b88a7a696c4917763d290be4afc"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-22",
+      "source_relative": "SYSTEM/if_btlsys/010_PTMD.ptm",
+      "source_ptmd_sha256": "d8650bbd1daaec707fe8811af1c1e295f3e4441c113304e4049bb5dbfa4bb2b6",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-22_8x.png",
+      "candidate_sha256": "dd360d00c78adc33dd2b7d2692a0586010c0f36437e4cccd433ef957985cb156",
+      "source_size": [
+        128,
+        512
+      ],
+      "logical_size": [
+        128,
+        360
+      ],
+      "output_size": [
+        1024,
+        4096
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "조준 고정",
+            "box": [
+              48,
+              296,
+              87,
+              303
+            ],
+            "size_px": 56,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "사격",
+            "box": [
+              53,
+              339,
+              108,
+              350
+            ],
+            "size_px": 94,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              48,
+              296,
+              87,
+              303
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              53,
+              339,
+              108,
+              350
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 878,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-23",
+      "source_relative": "SYSTEM/if_fldsys/015_PTMD.ptm",
+      "source_ptmd_sha256": "89d533e33970f8497cf7fc3a4a349ed4d25ec5ab53d67cdf91b01e67e7ff9508",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-23_8x.png",
+      "candidate_sha256": "81e35023f7b6b05878d779301caf270d47cd8121282dc6870c8b794da2285d0c",
+      "source_size": [
+        128,
+        128
+      ],
+      "logical_size": [
+        128,
+        104
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무",
+            "box": [
+              116,
+              1,
+              126,
+              65
+            ],
+            "size_px": 86,
+            "orientation": "clockwise"
+          },
+          {
+            "text": "결과",
+            "box": [
+              105,
+              1,
+              115,
+              77
+            ],
+            "size_px": 85,
+            "orientation": "clockwise"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              116,
+              1,
+              126,
+              65
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              105,
+              1,
+              115,
+              77
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 1400,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 52,
+            "texture_slot": 3,
+            "uv_box": [
+              116,
+              1,
+              126,
+              65
+            ],
+            "screen_xy": [
+              20.0,
+              5.0
+            ],
+            "vertex_bytes_sha256": "6ef5740fab8e756a6ba34f350d19e9b2663150a3243b3a7f92b326f2f4888e31"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 53,
+            "texture_slot": 3,
+            "uv_box": [
+              105,
+              1,
+              115,
+              77
+            ],
+            "screen_xy": [
+              92.0,
+              5.0
+            ],
+            "vertex_bytes_sha256": "61cff6da9452c18a4f7f8f3da80b153c3a7aa655a2c26ae58ac3180a0c19f07e"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-24",
+      "source_relative": "SYSTEM/if_fldsys/017_PTMD.ptm",
+      "source_ptmd_sha256": "ef696d6a9f6c0f66ccfa8dee8d0b34fe4f6d88b5321e79c262d285f74061c320",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-24_8x.png",
+      "candidate_sha256": "84e1ee887f24152454606e9bd6c2d9054a48901b1e60ee133caecd29c3d41b91",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        24
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "일시정지",
+            "box": [
+              1,
+              1,
+              88,
+              16
+            ],
+            "size_px": 129,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "완료",
+            "box": [
+              96,
+              1,
+              113,
+              6
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "기록",
+            "box": [
+              89,
+              7,
+              125,
+              12
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "도전 과제",
+            "box": [
+              1,
+              17,
+              60,
+              22
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "완료",
+            "box": [
+              60,
+              17,
+              105,
+              22
+            ],
+            "size_px": 43,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              1,
+              88,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              96,
+              1,
+              113,
+              6
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              89,
+              7,
+              125,
+              12
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              17,
+              60,
+              22
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              60,
+              17,
+              105,
+              22
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2090,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 26,
+            "member_sha256": "29981eb5ee361a7c63e57dcf51d75b9eb0f0b6f3c663ac02a588cee0a20e5e76",
+            "record": 28,
+            "texture_slot": 8,
+            "uv_box": [
+              1,
+              1,
+              88,
+              16
+            ],
+            "screen_xy": [
+              30.0,
+              128.0
+            ],
+            "vertex_bytes_sha256": "78a3f60758169427a80f0448f6aa8995a075b5865f4577aaf8d34dc1c4a602b4"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 17,
+            "texture_slot": 8,
+            "uv_box": [
+              89,
+              1,
+              95,
+              6
+            ],
+            "screen_xy": [
+              420.0,
+              166.0
+            ],
+            "vertex_bytes_sha256": "1e0bc4c0fd203ec47967cfd049652e32025a99a715b14409f27260aca3b459f7"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 19,
+            "texture_slot": 8,
+            "uv_box": [
+              114,
+              1,
+              119,
+              6
+            ],
+            "screen_xy": [
+              439.0,
+              166.0
+            ],
+            "vertex_bytes_sha256": "40207117b18f2438aa75a43a9e39b3edab7f8e66e2ac7449367ef903bf58bd25"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 20,
+            "texture_slot": 8,
+            "uv_box": [
+              96,
+              1,
+              113,
+              6
+            ],
+            "screen_xy": [
+              427.0,
+              166.0
+            ],
+            "vertex_bytes_sha256": "63785cf14737e1065d1c2c929a8679007d38b9c46c7c599aa0823ba29d07c436"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 56,
+            "texture_slot": 8,
+            "uv_box": [
+              1,
+              17,
+              60,
+              22
+            ],
+            "screen_xy": [
+              251.0,
+              150.0
+            ],
+            "vertex_bytes_sha256": "c630cf93f1d9b6cff069ebd1f7c91dfd2d1d435626bcfc41160b61d8f0944d00"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 57,
+            "texture_slot": 8,
+            "uv_box": [
+              60,
+              17,
+              105,
+              22
+            ],
+            "screen_xy": [
+              310.0,
+              150.0
+            ],
+            "vertex_bytes_sha256": "c3e4799e48a77d97c9506c6da1415935dffe569f143cd3161d27b075db638f0c"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-25",
+      "source_relative": "SYSTEM/if_fldsys/018_PTMD.ptm",
+      "source_ptmd_sha256": "3c45df97a0559b9ff14efae258ec2a4d9d9d44792b38abbafe427b9ac9335ae1",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-25_8x.png",
+      "candidate_sha256": "52c38adf974bcc68daf277365aaf7653004fb040ceb5deed8c21f21e9d65713e",
+      "source_size": [
+        128,
+        32
+      ],
+      "logical_size": [
+        128,
+        32
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무 시작",
+            "size_px": 129,
+            "orientation": "SDO-composite",
+            "pieces": [
+              {
+                "box": [
+                  1,
+                  17,
+                  84,
+                  32
+                ],
+                "screen_xy": [
+                  51,
+                  135
+                ]
+              },
+              {
+                "box": [
+                  1,
+                  1,
+                  94,
+                  16
+                ],
+                "screen_xy": [
+                  132,
+                  135
+                ]
+              }
+            ],
+            "virtual_size": [
+              174,
+              15
+            ],
+            "overlap_alpha_owner": "first"
+          },
+          {
+            "text": "시간",
+            "box": [
+              85,
+              17,
+              108,
+              22
+            ],
+            "size_px": 42,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              1,
+              17,
+              84,
+              32
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              1,
+              1,
+              94,
+              16
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              85,
+              17,
+              108,
+              22
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 2755,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 23,
+            "member_sha256": "860ac02a66a2a4153bbb408b23e28e4abcfaf93ea75071dd16896d30fce8a6fd",
+            "record": 2,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              1,
+              94,
+              16
+            ],
+            "screen_xy": [
+              132.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "064e68d4af949cc0eeeb2fe06cc2bf9a32bf78f9db608ae68e087947702cf1c5"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 23,
+            "member_sha256": "860ac02a66a2a4153bbb408b23e28e4abcfaf93ea75071dd16896d30fce8a6fd",
+            "record": 3,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              17,
+              84,
+              32
+            ],
+            "screen_xy": [
+              51.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "2f44db85e0a02d524ff37f9afbee05d99ae45229fe70a16231f2929ac1bc926c"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 23,
+            "member_sha256": "860ac02a66a2a4153bbb408b23e28e4abcfaf93ea75071dd16896d30fce8a6fd",
+            "record": 5,
+            "texture_slot": 0,
+            "uv_box": [
+              95,
+              1,
+              109,
+              14
+            ],
+            "screen_xy": [
+              235.0,
+              136.0
+            ],
+            "vertex_bytes_sha256": "3ef6f81c78d284e5105ffde4100fc9e14ada6f175c6b647c55d85ecc31578d0d"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 23,
+            "member_sha256": "860ac02a66a2a4153bbb408b23e28e4abcfaf93ea75071dd16896d30fce8a6fd",
+            "record": 3,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              17,
+              84,
+              32
+            ],
+            "screen_xy": [
+              51.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "2f44db85e0a02d524ff37f9afbee05d99ae45229fe70a16231f2929ac1bc926c"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 23,
+            "member_sha256": "860ac02a66a2a4153bbb408b23e28e4abcfaf93ea75071dd16896d30fce8a6fd",
+            "record": 2,
+            "texture_slot": 0,
+            "uv_box": [
+              1,
+              1,
+              94,
+              16
+            ],
+            "screen_xy": [
+              132.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "064e68d4af949cc0eeeb2fe06cc2bf9a32bf78f9db608ae68e087947702cf1c5"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [
+        {
+          "key": "0000000088ec82fa11c211d4",
+          "replacement": "ui/0000000088ec82fa11c211d4.png",
+          "output_rgba_sha256": "c7bf21ad0c4e99bd832d23bb8ecd83a8ad8ff713a815ec10b3bf287eadd93301",
+          "source_rgba_sha256": "37b26299aecfbae5eddee7b0400d77e3ed7b2dba06d6db4e5daaa36993bf1cdc",
+          "padding_preserved": true
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-26",
+      "source_relative": "SYSTEM/if_fldsys/021_PTMD.ptm",
+      "source_ptmd_sha256": "169307458040a9f583070ac698704d159873f3d72a784d1a6229ceb81f843c14",
+      "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui_candidates_v3\\UI-26_8x.png",
+      "candidate_sha256": "c69a804d14796cf66607666965a27000fd9ed7ad5464088185f7d9a6eb60a67d",
+      "source_size": [
+        256,
+        32
+      ],
+      "logical_size": [
+        256,
+        32
+      ],
+      "output_size": [
+        2048,
+        256
+      ],
+      "method": "Korean labels rerasterized from Noto Sans KR Bold with source-backed wording and consumer-bound corrections. Original ornament, portraits, numeric cells and alpha preserved outside declared text regions. This is not a claim that all nontext art is remastered.",
+      "proof": {
+        "protected_rgba_pass": true,
+        "clipping_pass": true,
+        "labels": [
+          {
+            "text": "임무",
+            "box": [
+              0,
+              10,
+              117,
+              25
+            ],
+            "size_px": 129,
+            "orientation": "horizontal"
+          },
+          {
+            "text": "완료",
+            "box": [
+              118,
+              10,
+              245,
+              25
+            ],
+            "size_px": 131,
+            "orientation": "horizontal"
+          }
+        ],
+        "clear_regions": [
+          {
+            "box": [
+              0,
+              10,
+              117,
+              25
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "box": [
+              118,
+              10,
+              245,
+              25
+            ],
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ],
+        "editable_native_pixel_count": 3660,
+        "geometry_review": "SDO coordinates and fixed-ISO pixel boundaries; runtime acceptance pending",
+        "sdo_evidence": [
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 32,
+            "texture_slot": 16,
+            "uv_box": [
+              0,
+              10,
+              117,
+              25
+            ],
+            "screen_xy": [
+              97.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "8dab40114e8938b773f16daf52e9143353eb691fb1bd288997b351b1d38f5593"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 33,
+            "texture_slot": 16,
+            "uv_box": [
+              0,
+              1,
+              255,
+              9
+            ],
+            "screen_xy": [
+              -21.0,
+              125.0
+            ],
+            "vertex_bytes_sha256": "b14ebe59fced5bc8ae695b6c64ab3610fd751bafa8375e686cda63140a6227e6"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 34,
+            "texture_slot": 16,
+            "uv_box": [
+              0,
+              1,
+              255,
+              9
+            ],
+            "screen_xy": [
+              253.0,
+              152.0
+            ],
+            "vertex_bytes_sha256": "ba936658b6c7b70be9427c33aeb9b82f7e9ce11dddd58d188d1ee6089c48c25c"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 54,
+            "texture_slot": 16,
+            "uv_box": [
+              246,
+              10,
+              256,
+              20
+            ],
+            "screen_xy": [
+              8.0,
+              5.0
+            ],
+            "vertex_bytes_sha256": "a1b7e90533b9cdfbc19fee5bdc8e6eb9ed43d40bd5be364049df5eba44f2eabf"
+          },
+          {
+            "archive": "SYSTEM/if_fldsys",
+            "member": 12,
+            "member_sha256": "ce6f0a6a5079b6fe883c5b6558277cfd3038a509abc8061d44ffdd7828e4893a",
+            "record": 55,
+            "texture_slot": 16,
+            "uv_box": [
+              118,
+              10,
+              245,
+              25
+            ],
+            "screen_xy": [
+              264.0,
+              135.0
+            ],
+            "vertex_bytes_sha256": "c87d6099d66d0fae9327751e6c023f33c9b3bee51355110878d9040b41576275"
+          }
+        ],
+        "layout_note": null
+      },
+      "bindings": [],
+      "runtime_verified": false
+    }
+  ]
+}

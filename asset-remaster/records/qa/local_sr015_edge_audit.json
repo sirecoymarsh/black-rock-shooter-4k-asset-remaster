@@ -1,0 +1,4073 @@
+{
+  "schema": "brs-sr015-edge-audit/v1",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg05_01.vol\\001_map_b_stg05_01.bin\\001.png",
+  "source_rgba_sha256": "04140460922b39d830b1351da0c0a5caa10cec9e0f9994c3afd7996c99748c58",
+  "candidate": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM201-v1\\BM201-gpt-tone-8x.png",
+  "candidate_sha256": "9ab98f402bf8c905047e8bac1aa99999477f28702ae37ba60401035df490d499",
+  "patches": [
+    {
+      "patch": "upper",
+      "fits": {
+        "x": {
+          "source_to_generated_scale": 1.0018402117252858,
+          "source_to_generated_offset": -0.027365923635003845,
+          "samples": 20,
+          "fit_inliers": 20,
+          "median_abs_offset_source_pixels": 0.28677861550814043,
+          "p95_abs_offset_source_pixels": 0.6046353854083449,
+          "fit_p95_abs_residual_source_pixels": 0.4894123124834019
+        },
+        "y": {
+          "source_to_generated_scale": 1.006176983878943,
+          "source_to_generated_offset": -0.27572834009512565,
+          "samples": 18,
+          "fit_inliers": 18,
+          "median_abs_offset_source_pixels": 0.31384632743693075,
+          "p95_abs_offset_source_pixels": 0.7543147034303963,
+          "fit_p95_abs_residual_source_pixels": 0.7046905522181518
+        }
+      },
+      "samples": [
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 91,
+          "source_raster_edge": 32.5,
+          "generated_edge_source_units": 31.720836508692642,
+          "offset_source_pixels": -0.779163491307358,
+          "source_peak_gradient": 13.809830598219726,
+          "generated_peak_gradient": 51.33063723208227
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 32.5,
+          "generated_edge_source_units": 31.775861469470897,
+          "offset_source_pixels": -0.7241385305291033,
+          "source_peak_gradient": 14.575842673291753,
+          "generated_peak_gradient": 48.09077564750767
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 131,
+          "source_raster_edge": 31.5,
+          "generated_edge_source_units": 31.800973621340965,
+          "offset_source_pixels": 0.3009736213409653,
+          "source_peak_gradient": 18.5305481889895,
+          "generated_peak_gradient": 83.44368416954399
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 86.5,
+          "generated_edge_source_units": 86.33375920772818,
+          "offset_source_pixels": -0.16624079227182165,
+          "source_peak_gradient": 13.594411706733842,
+          "generated_peak_gradient": 64.18749326430773
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 42.5,
+          "generated_edge_source_units": 42.173280966467104,
+          "offset_source_pixels": -0.3267190335328962,
+          "source_peak_gradient": 24.534021344735066,
+          "generated_peak_gradient": 84.42261601255859
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 96.5,
+          "generated_edge_source_units": 96.40336984116963,
+          "offset_source_pixels": -0.09663015883036508,
+          "source_peak_gradient": 18.496907257095422,
+          "generated_peak_gradient": 74.99789163374732
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 91,
+          "source_raster_edge": 41.5,
+          "generated_edge_source_units": 41.996918171611796,
+          "offset_source_pixels": 0.49691817161179586,
+          "source_peak_gradient": 24.789809582867598,
+          "generated_peak_gradient": 81.28621083960522
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 106.49999999999999,
+          "generated_edge_source_units": 107.09624164688472,
+          "offset_source_pixels": 0.5962416468847351,
+          "source_peak_gradient": 24.78980958286759,
+          "generated_peak_gradient": 90.76262083483053
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 41.5,
+          "generated_edge_source_units": 42.14826951494706,
+          "offset_source_pixels": 0.6482695149470601,
+          "source_peak_gradient": 24.352255374765523,
+          "generated_peak_gradient": 88.58793529427146
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 116.5,
+          "generated_edge_source_units": 116.85066133661395,
+          "offset_source_pixels": 0.35066133661395327,
+          "source_peak_gradient": 13.594396291505214,
+          "generated_peak_gradient": 66.06442261123485
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 41.5,
+          "generated_edge_source_units": 41.98054270906509,
+          "offset_source_pixels": 0.4805427090650909,
+          "source_peak_gradient": 34.74796770067274,
+          "generated_peak_gradient": 105.62341724251641
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 127.5,
+          "generated_edge_source_units": 127.3278319457082,
+          "offset_source_pixels": -0.17216805429180226,
+          "source_peak_gradient": 14.575842673291753,
+          "generated_peak_gradient": 86.70925964673424
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 121,
+          "source_raster_edge": 42.5,
+          "generated_edge_source_units": 42.09567934205038,
+          "offset_source_pixels": -0.4043206579496186,
+          "source_peak_gradient": 31.049055561517083,
+          "generated_peak_gradient": 99.03230089800996
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 35,
+          "source_raster_edge": 137.5,
+          "generated_edge_source_units": 137.2505221578169,
+          "offset_source_pixels": -0.2494778421830972,
+          "source_peak_gradient": 13.594411706733842,
+          "generated_peak_gradient": 71.98190425382688
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 46,
+          "source_raster_edge": 75.5,
+          "generated_edge_source_units": 75.92917604078735,
+          "offset_source_pixels": 0.42917604078735394,
+          "source_peak_gradient": 18.71230787868071,
+          "generated_peak_gradient": 78.54255172666109
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 70,
+          "source_raster_edge": 52.5,
+          "generated_edge_source_units": 52.463682304797864,
+          "offset_source_pixels": -0.036317695202136235,
+          "source_peak_gradient": 24.789809582867594,
+          "generated_peak_gradient": 75.4234668390925
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 46,
+          "source_raster_edge": 85.5,
+          "generated_edge_source_units": 85.92955643021519,
+          "offset_source_pixels": 0.42955643021518597,
+          "source_peak_gradient": 18.712329574187667,
+          "generated_peak_gradient": 67.2966890904749
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 51.5,
+          "generated_edge_source_units": 52.249929623216815,
+          "offset_source_pixels": 0.7499296232168149,
+          "source_peak_gradient": 20.397554997477332,
+          "generated_peak_gradient": 69.93535946836522
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 46,
+          "source_raster_edge": 96.50000000000001,
+          "generated_edge_source_units": 96.49847867100081,
+          "offset_source_pixels": -0.0015213289992033197,
+          "source_peak_gradient": 24.789809582867594,
+          "generated_peak_gradient": 94.40376991447846
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 91,
+          "source_raster_edge": 52.5,
+          "generated_edge_source_units": 52.392895123804294,
+          "offset_source_pixels": -0.10710487619570586,
+          "source_peak_gradient": 18.496888987194822,
+          "generated_peak_gradient": 72.84780388043288
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 46,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.82407938883318,
+          "offset_source_pixels": 0.32407938883318366,
+          "source_peak_gradient": 24.789772472132007,
+          "generated_peak_gradient": 88.16018106816318
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 50.5,
+          "generated_edge_source_units": 51.039624015701996,
+          "offset_source_pixels": 0.539624015701996,
+          "source_peak_gradient": 25.032135282151046,
+          "generated_peak_gradient": 69.85709270428666
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 46,
+          "source_raster_edge": 116.5,
+          "generated_edge_source_units": 116.93765266397132,
+          "offset_source_pixels": 0.4376526639713205,
+          "source_peak_gradient": 35.003776492443436,
+          "generated_peak_gradient": 109.78929908233988
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 53.49999999999999,
+          "generated_edge_source_units": 53.374089286979924,
+          "offset_source_pixels": -0.12591071302006895,
+          "source_peak_gradient": 19.325117538738326,
+          "generated_peak_gradient": 72.4493898421672
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 121,
+          "source_raster_edge": 52.5,
+          "generated_edge_source_units": 52.31786081506027,
+          "offset_source_pixels": -0.1821391849397287,
+          "source_peak_gradient": 24.78980958286759,
+          "generated_peak_gradient": 91.73538800702744
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 65.89555906399184,
+          "offset_source_pixels": -0.6044409360081602,
+          "source_peak_gradient": 30.305081108157566,
+          "generated_peak_gradient": 50.29239933382894
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 60,
+          "source_raster_edge": 62.5,
+          "generated_edge_source_units": 62.61420189173274,
+          "offset_source_pixels": 0.11420189173274053,
+          "source_peak_gradient": 18.712274193551483,
+          "generated_peak_gradient": 67.59759520731865
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 75.5,
+          "generated_edge_source_units": 75.74055595020047,
+          "offset_source_pixels": 0.2405559502004735,
+          "source_peak_gradient": 24.53400592950644,
+          "generated_peak_gradient": 66.85379947735757
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 70,
+          "source_raster_edge": 62.5,
+          "generated_edge_source_units": 62.31560835306466,
+          "offset_source_pixels": -0.18439164693533883,
+          "source_peak_gradient": 24.78978788736063,
+          "generated_peak_gradient": 70.45290932501675
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 85.5,
+          "generated_edge_source_units": 86.10832992401185,
+          "offset_source_pixels": 0.6083299240118549,
+          "source_peak_gradient": 19.567445521759346,
+          "generated_peak_gradient": 70.80705087551803
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 96.5,
+          "generated_edge_source_units": 96.38336317249136,
+          "offset_source_pixels": -0.11663682750864268,
+          "source_peak_gradient": 13.594411706733842,
+          "generated_peak_gradient": 53.88980866165855
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.97032109242488,
+          "offset_source_pixels": 0.4703210924248822,
+          "source_peak_gradient": 18.71230787868071,
+          "generated_peak_gradient": 78.93823658180958
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 62.50000000000001,
+          "generated_edge_source_units": 62.592122002127766,
+          "offset_source_pixels": 0.09212200212775912,
+          "source_peak_gradient": 13.594411706733842,
+          "generated_peak_gradient": 49.363002436780505
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 56,
+          "source_raster_edge": 115.5,
+          "generated_edge_source_units": 115.98288717632654,
+          "offset_source_pixels": 0.48288717632654254,
+          "source_peak_gradient": 18.954654131602325,
+          "generated_peak_gradient": 61.14224387063183
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 62.50000000000001,
+          "generated_edge_source_units": 62.352313148956945,
+          "offset_source_pixels": -0.147686851043062,
+          "source_peak_gradient": 18.71230787868071,
+          "generated_peak_gradient": 53.060077459408035
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 66,
+          "source_raster_edge": 65.5,
+          "generated_edge_source_units": 65.51174405217908,
+          "offset_source_pixels": 0.011744052179082587,
+          "source_peak_gradient": 18.49688898719483,
+          "generated_peak_gradient": 59.285809559215494
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 66,
+          "source_raster_edge": 96.5,
+          "generated_edge_source_units": 96.43774999408454,
+          "offset_source_pixels": -0.06225000591545893,
+          "source_peak_gradient": 13.594396291505216,
+          "generated_peak_gradient": 64.96852335674942
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 66,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.65869802277082,
+          "offset_source_pixels": 0.158698022770821,
+          "source_peak_gradient": 13.594429976634439,
+          "generated_peak_gradient": 54.40686640752466
+        }
+      ]
+    },
+    {
+      "patch": "right",
+      "fits": {
+        "x": {
+          "source_to_generated_scale": 0.990836286361947,
+          "source_to_generated_offset": 1.721494256282235,
+          "samples": 48,
+          "fit_inliers": 46,
+          "median_abs_offset_source_pixels": 0.29898373525756483,
+          "p95_abs_offset_source_pixels": 0.6851435280971443,
+          "fit_p95_abs_residual_source_pixels": 0.5842399978293784
+        },
+        "y": {
+          "source_to_generated_scale": 1.0031110640368306,
+          "source_to_generated_offset": -0.29260292834425344,
+          "samples": 53,
+          "fit_inliers": 53,
+          "median_abs_offset_source_pixels": 0.26747763748011266,
+          "p95_abs_offset_source_pixels": 0.5912562943510465,
+          "fit_p95_abs_residual_source_pixels": 0.5967100426687636
+        }
+      },
+      "samples": [
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 36.5,
+          "generated_edge_source_units": 36.119360542941166,
+          "offset_source_pixels": -0.38063945705883384,
+          "source_peak_gradient": 24.136821068051017,
+          "generated_peak_gradient": 68.43014201421548
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "perpendicular_source_coordinate": 30,
+          "source_raster_edge": 212.50000000000003,
+          "generated_edge_source_units": 216.89095770291755,
+          "offset_source_pixels": 4.390957702917518,
+          "source_peak_gradient": 10.514744382309836,
+          "generated_peak_gradient": 17.106820957556977
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 36.5,
+          "generated_edge_source_units": 36.19053401272904,
+          "offset_source_pixels": -0.3094659872709613,
+          "source_peak_gradient": 49.11491741572123,
+          "generated_peak_gradient": 141.49778358683886
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 36.5,
+          "generated_edge_source_units": 36.14002916466512,
+          "offset_source_pixels": -0.3599708353348774,
+          "source_peak_gradient": 38.529033975230554,
+          "generated_peak_gradient": 127.5905727588476
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 41,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.32167503106072,
+          "offset_source_pixels": -0.17832496893927896,
+          "source_peak_gradient": 30.692283437722217,
+          "generated_peak_gradient": 94.71577750960199
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 46.5,
+          "generated_edge_source_units": 46.277077139998646,
+          "offset_source_pixels": -0.2229228600013542,
+          "source_peak_gradient": 34.58638583309213,
+          "generated_peak_gradient": 92.93347000861718
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 41,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.89506711924128,
+          "offset_source_pixels": 0.3950671192412756,
+          "source_peak_gradient": 65.23806090285657,
+          "generated_peak_gradient": 160.7412963800919
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 46.5,
+          "generated_edge_source_units": 46.4074526800228,
+          "offset_source_pixels": -0.0925473199772,
+          "source_peak_gradient": 60.99900987434949,
+          "generated_peak_gradient": 149.4761966682545
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 41,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 214.88771420581998,
+          "offset_source_pixels": -0.6122857941800248,
+          "source_peak_gradient": 59.41634686586781,
+          "generated_peak_gradient": 159.74809640787373
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 46.5,
+          "generated_edge_source_units": 46.23334191061849,
+          "offset_source_pixels": -0.26665808938150803,
+          "source_peak_gradient": 64.98227266472404,
+          "generated_peak_gradient": 163.41598066118212
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 46.50000000000001,
+          "generated_edge_source_units": 46.34941222639272,
+          "offset_source_pixels": -0.1505877736072847,
+          "source_peak_gradient": 52.620212118464366,
+          "generated_peak_gradient": 126.88454339586883
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 51,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.47187061978693,
+          "offset_source_pixels": -0.02812938021307332,
+          "source_peak_gradient": 63.29704609956558,
+          "generated_peak_gradient": 135.79528255803484
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 56.5,
+          "generated_edge_source_units": 56.552723698877585,
+          "offset_source_pixels": 0.052723698877585434,
+          "source_peak_gradient": 63.034504325567156,
+          "generated_peak_gradient": 147.61151849418076
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 51,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.66276191463268,
+          "offset_source_pixels": 0.1627619146326822,
+          "source_peak_gradient": 61.25479811248201,
+          "generated_peak_gradient": 169.9864865343145
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 56.5,
+          "generated_edge_source_units": 56.41323283102269,
+          "offset_source_pixels": -0.0867671689773104,
+          "source_peak_gradient": 69.37454780375246,
+          "generated_peak_gradient": 132.27475846910698
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 51,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 215.03654990218072,
+          "offset_source_pixels": -0.46345009781927615,
+          "source_peak_gradient": 60.73646810035106,
+          "generated_peak_gradient": 160.2896029853664
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 56.5,
+          "generated_edge_source_units": 56.54923104405607,
+          "offset_source_pixels": 0.04923104405607148,
+          "source_peak_gradient": 64.98227266472404,
+          "generated_peak_gradient": 154.65661624610163
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 51,
+          "source_raster_edge": 225.50000000000003,
+          "generated_edge_source_units": 225.2516676644503,
+          "offset_source_pixels": -0.24833233554971912,
+          "source_peak_gradient": 38.529061951015834,
+          "generated_peak_gradient": 101.19626371878633
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 56.5,
+          "generated_edge_source_units": 56.523244773965274,
+          "offset_source_pixels": 0.023244773965274135,
+          "source_peak_gradient": 57.23463798933762,
+          "generated_peak_gradient": 131.29925291775606
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 61,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.35387366311159,
+          "offset_source_pixels": -0.1461263368884147,
+          "source_peak_gradient": 63.20953217489944,
+          "generated_peak_gradient": 144.37655344471784
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 66.81827128421301,
+          "offset_source_pixels": 0.31827128421301154,
+          "source_peak_gradient": 50.03758165324311,
+          "generated_peak_gradient": 120.3616736839951
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 61,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.30417302166978,
+          "offset_source_pixels": -0.19582697833021712,
+          "source_peak_gradient": 63.0345191698614,
+          "generated_peak_gradient": 142.06573892938252
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 66.66889993907579,
+          "offset_source_pixels": 0.1688999390757857,
+          "source_peak_gradient": 62.90661020650089,
+          "generated_peak_gradient": 126.91546070649309
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 61,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.84109087095445,
+          "offset_source_pixels": 0.3410908709544458,
+          "source_peak_gradient": 63.29702383312423,
+          "generated_peak_gradient": 151.42421335001097
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 66.80893318858351,
+          "offset_source_pixels": 0.3089331885835094,
+          "source_peak_gradient": 52.92314493461639,
+          "generated_peak_gradient": 146.12457365677517
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 61,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 214.89624118048445,
+          "offset_source_pixels": -0.6037588195155479,
+          "source_peak_gradient": 57.322129647562406,
+          "generated_peak_gradient": 137.11663029407697
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 66.6623799983841,
+          "offset_source_pixels": 0.16237999838409678,
+          "source_peak_gradient": 59.07305212521626,
+          "generated_peak_gradient": 131.25611042228462
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 66.5,
+          "generated_edge_source_units": 66.79962291579785,
+          "offset_source_pixels": 0.2996229157978547,
+          "source_peak_gradient": 50.03757080548963,
+          "generated_peak_gradient": 126.85160028666445
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 71,
+          "source_raster_edge": 174.5,
+          "generated_edge_source_units": 173.9885246279119,
+          "offset_source_pixels": -0.511475372088114,
+          "source_peak_gradient": 39.188766890962725,
+          "generated_peak_gradient": 108.27323143894014
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 76.5,
+          "generated_edge_source_units": 77.02337531014591,
+          "offset_source_pixels": 0.5233753101459087,
+          "source_peak_gradient": 29.48846899828667,
+          "generated_peak_gradient": 76.49718579306011
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 71,
+          "source_raster_edge": 184.50000000000003,
+          "generated_edge_source_units": 183.09718641717944,
+          "offset_source_pixels": -1.4028135828205848,
+          "source_peak_gradient": 46.20406410830041,
+          "generated_peak_gradient": 88.42592462934749
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 77.5,
+          "generated_edge_source_units": 76.82370218734714,
+          "offset_source_pixels": -0.6762978126528623,
+          "source_peak_gradient": 50.34050362164166,
+          "generated_peak_gradient": 137.88844979134683
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 71,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.47581097460787,
+          "offset_source_pixels": -0.024189025392132635,
+          "source_peak_gradient": 69.29375087515103,
+          "generated_peak_gradient": 139.87577447461092
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 76.5,
+          "generated_edge_source_units": 76.9043529982757,
+          "offset_source_pixels": 0.40435299827569793,
+          "source_peak_gradient": 51.54984950139389,
+          "generated_peak_gradient": 137.60421650224583
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 71,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.71621703821194,
+          "offset_source_pixels": 0.21621703821193705,
+          "source_peak_gradient": 58.89803912017821,
+          "generated_peak_gradient": 147.00882407253897
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 76.5,
+          "generated_edge_source_units": 76.76747763748011,
+          "offset_source_pixels": 0.26747763748011266,
+          "source_peak_gradient": 55.08981160128305,
+          "generated_peak_gradient": 132.64119345920574
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 71,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 215.04787227206438,
+          "offset_source_pixels": -0.4521277279356184,
+          "source_peak_gradient": 52.67403658181298,
+          "generated_peak_gradient": 122.88522447355194
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 77.5,
+          "generated_edge_source_units": 76.96149916759873,
+          "offset_source_pixels": -0.5385008324012688,
+          "source_peak_gradient": 55.089789334841704,
+          "generated_peak_gradient": 134.9563931165356
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 77.5,
+          "generated_edge_source_units": 76.81350576289336,
+          "offset_source_pixels": -0.6864942371066434,
+          "source_peak_gradient": 38.52906195101584,
+          "generated_peak_gradient": 110.90387392602452
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 173.5,
+          "generated_edge_source_units": 173.89478327968524,
+          "offset_source_pixels": 0.3947832796852424,
+          "source_peak_gradient": 45.77994275045896,
+          "generated_peak_gradient": 97.41057073681856
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 87.5,
+          "generated_edge_source_units": 87.01295858638161,
+          "offset_source_pixels": -0.4870414136183854,
+          "source_peak_gradient": 38.529061951015834,
+          "generated_peak_gradient": 112.04933230183468
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.33795172279665,
+          "offset_source_pixels": -0.16204827720335402,
+          "source_peak_gradient": 64.98227266472404,
+          "generated_peak_gradient": 142.8642967947348
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 87.49999999999999,
+          "generated_edge_source_units": 87.04154009221268,
+          "offset_source_pixels": -0.45845990778730084,
+          "source_peak_gradient": 52.62023781051208,
+          "generated_peak_gradient": 142.73886567824616
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.32808623974367,
+          "offset_source_pixels": -0.17191376025633076,
+          "source_peak_gradient": 68.85599113066729,
+          "generated_peak_gradient": 128.43957482646584
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 87.5,
+          "generated_edge_source_units": 87.02924024082425,
+          "offset_source_pixels": -0.4707597591757491,
+          "source_peak_gradient": 57.322129647562406,
+          "generated_peak_gradient": 131.3636467005325
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.8228527581953,
+          "offset_source_pixels": 0.322852758195296,
+          "source_peak_gradient": 57.322129647562406,
+          "generated_peak_gradient": 147.25651993105635
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 87.5,
+          "generated_edge_source_units": 87.14833802382206,
+          "offset_source_pixels": -0.3516619761779367,
+          "source_peak_gradient": 59.07306696951049,
+          "generated_peak_gradient": 130.37876074073392
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 81,
+          "source_raster_edge": 215.50000000000003,
+          "generated_edge_source_units": 214.83693078571824,
+          "offset_source_pixels": -0.6630692142817907,
+          "source_peak_gradient": 50.34050362164165,
+          "generated_peak_gradient": 109.17874734130942
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 87.5,
+          "generated_edge_source_units": 87.02453997544113,
+          "offset_source_pixels": -0.4754600245588705,
+          "source_peak_gradient": 48.939882144241835,
+          "generated_peak_gradient": 114.71327163750789
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 86.5,
+          "generated_edge_source_units": 87.11423732429583,
+          "offset_source_pixels": 0.6142373242958286,
+          "source_peak_gradient": 34.54566099451805,
+          "generated_peak_gradient": 112.98811088774121
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.6214661962664,
+          "offset_source_pixels": 0.12146619626639676,
+          "source_peak_gradient": 42.510694828149305,
+          "generated_peak_gradient": 86.53256069784732
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 97.5,
+          "generated_edge_source_units": 97.33128655649877,
+          "offset_source_pixels": -0.16871344350123252,
+          "source_peak_gradient": 30.867311287054495,
+          "generated_peak_gradient": 98.9385896232838
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 173.5,
+          "generated_edge_source_units": 174.01271151252004,
+          "offset_source_pixels": 0.5127115125200419,
+          "source_peak_gradient": 52.923159778910616,
+          "generated_peak_gradient": 140.18347947486302
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 97.50000000000001,
+          "generated_edge_source_units": 97.39085156299744,
+          "offset_source_pixels": -0.10914843700257393,
+          "source_peak_gradient": 50.037581653243116,
+          "generated_peak_gradient": 118.25081744368896
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.2166252277713,
+          "offset_source_pixels": -0.28337477222871144,
+          "source_peak_gradient": 52.620212118464366,
+          "generated_peak_gradient": 125.58588424975511
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 97.5,
+          "generated_edge_source_units": 97.25593964787915,
+          "offset_source_pixels": -0.24406035212085442,
+          "source_peak_gradient": 57.23462314504338,
+          "generated_peak_gradient": 121.3910895207454
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 196.5,
+          "generated_edge_source_units": 195.804024610424,
+          "offset_source_pixels": -0.6959753895760059,
+          "source_peak_gradient": 69.14887424486983,
+          "generated_peak_gradient": 164.12928896734064
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 97.49999999999999,
+          "generated_edge_source_units": 97.42503066952645,
+          "offset_source_pixels": -0.07496933047353593,
+          "source_peak_gradient": 56.75665905395272,
+          "generated_peak_gradient": 131.34583616279002
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 204.49999999999997,
+          "generated_edge_source_units": 204.72066442158388,
+          "offset_source_pixels": 0.22066442158390487,
+          "source_peak_gradient": 48.93986387434124,
+          "generated_peak_gradient": 112.58623767160992
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 97.5,
+          "generated_edge_source_units": 97.3306875234039,
+          "offset_source_pixels": -0.1693124765961045,
+          "source_peak_gradient": 68.33439064450047,
+          "generated_peak_gradient": 149.5353317945614
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 92,
+          "source_raster_edge": 216.5,
+          "generated_edge_source_units": 216.08992731233184,
+          "offset_source_pixels": -0.41007268766816196,
+          "source_peak_gradient": 15.545174017145229,
+          "generated_peak_gradient": 78.24410714832874
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 97.5,
+          "generated_edge_source_units": 97.37650134424638,
+          "offset_source_pixels": -0.12349865575362173,
+          "source_peak_gradient": 41.22453747422712,
+          "generated_peak_gradient": 97.81100871899713
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 102,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.81211101927644,
+          "offset_source_pixels": 0.31211101927644336,
+          "source_peak_gradient": 42.84055500573706,
+          "generated_peak_gradient": 113.34300605125509
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 107.5,
+          "generated_edge_source_units": 107.5784675218767,
+          "offset_source_pixels": 0.07846752187670347,
+          "source_peak_gradient": 35.003776492443436,
+          "generated_peak_gradient": 113.89245334665696
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 102,
+          "source_raster_edge": 173.49999999999997,
+          "generated_edge_source_units": 173.9310533933125,
+          "offset_source_pixels": 0.43105339331253845,
+          "source_peak_gradient": 52.674051426107205,
+          "generated_peak_gradient": 128.24466739112
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 107.49999999999999,
+          "generated_edge_source_units": 107.43259985888086,
+          "offset_source_pixels": -0.06740014111912274,
+          "source_peak_gradient": 49.73466368138532,
+          "generated_peak_gradient": 102.33157552269054
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 102,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.35851575893204,
+          "offset_source_pixels": -0.14148424106795687,
+          "source_peak_gradient": 52.923119242568674,
+          "generated_peak_gradient": 133.2877186415878
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 107.5,
+          "generated_edge_source_units": 107.57443416793507,
+          "offset_source_pixels": 0.07443416793506685,
+          "source_peak_gradient": 56.93169032889136,
+          "generated_peak_gradient": 138.08503647997316
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 102,
+          "source_raster_edge": 194.5,
+          "generated_edge_source_units": 194.56423223962352,
+          "offset_source_pixels": 0.06423223962352154,
+          "source_peak_gradient": 62.931592128175666,
+          "generated_peak_gradient": 146.52440165393375
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 107.5,
+          "generated_edge_source_units": 107.48515222717747,
+          "offset_source_pixels": -0.014847772822534466,
+          "source_peak_gradient": 56.93169032889136,
+          "generated_peak_gradient": 110.80548213619863
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 102,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.80133786538028,
+          "offset_source_pixels": 0.30133786538027607,
+          "source_peak_gradient": 52.620212118464366,
+          "generated_peak_gradient": 130.20852022006875
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 107.5,
+          "generated_edge_source_units": 107.61896029977689,
+          "offset_source_pixels": 0.11896029977688727,
+          "source_peak_gradient": 52.62018642641665,
+          "generated_peak_gradient": 129.83271245310863
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 107.5,
+          "generated_edge_source_units": 107.44957686818384,
+          "offset_source_pixels": -0.050423131816160094,
+          "source_peak_gradient": 42.66552715640479,
+          "generated_peak_gradient": 79.44175718845159
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 112,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.64513222738958,
+          "offset_source_pixels": 0.1451322273895812,
+          "source_peak_gradient": 42.51069482814931,
+          "generated_peak_gradient": 101.5592007762427
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 117.5,
+          "generated_edge_source_units": 117.7530153458843,
+          "offset_source_pixels": 0.2530153458842932,
+          "source_peak_gradient": 42.6924391026119,
+          "generated_peak_gradient": 106.06890167916575
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 112,
+          "source_raster_edge": 174.5,
+          "generated_edge_source_units": 174.0705125970194,
+          "offset_source_pixels": -0.4294874029806124,
+          "source_peak_gradient": 45.779942750458964,
+          "generated_peak_gradient": 129.06089524245056
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              8
+            ],
+            [
+              1,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 117.5,
+          "generated_edge_source_units": 117.87172913940758,
+          "offset_source_pixels": 0.37172913940757724,
+          "source_peak_gradient": 42.840555005737066,
+          "generated_peak_gradient": 119.5376669662109
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 112,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.27986808507922,
+          "offset_source_pixels": -0.22013191492078477,
+          "source_peak_gradient": 52.620212118464366,
+          "generated_peak_gradient": 129.56288624752796
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 117.50000000000001,
+          "generated_edge_source_units": 117.70798961368713,
+          "offset_source_pixels": 0.20798961368711844,
+          "source_peak_gradient": 49.916393111553674,
+          "generated_peak_gradient": 115.93783096048696
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 112,
+          "source_raster_edge": 195.5,
+          "generated_edge_source_units": 194.83497278607788,
+          "offset_source_pixels": -0.6650272139221158,
+          "source_peak_gradient": 57.35574945488392,
+          "generated_peak_gradient": 151.5922222548335
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 117.49999999999999,
+          "generated_edge_source_units": 117.79077662354754,
+          "offset_source_pixels": 0.29077662354755773,
+          "source_peak_gradient": 50.03759649753734,
+          "generated_peak_gradient": 136.84239223461776
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              8
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "perpendicular_source_coordinate": 112,
+          "source_raster_edge": 204.49999999999997,
+          "generated_edge_source_units": 204.68441832579657,
+          "offset_source_pixels": 0.18441832579659945,
+          "source_peak_gradient": 45.423170626664096,
+          "generated_peak_gradient": 95.24523171320789
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 199,
+          "source_raster_edge": 117.5,
+          "generated_edge_source_units": 117.7030640822538,
+          "offset_source_pixels": 0.20306408225380324,
+          "source_peak_gradient": 45.59818363170214,
+          "generated_peak_gradient": 108.05019361403828
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 117.5,
+          "generated_edge_source_units": 117.81872432164728,
+          "offset_source_pixels": 0.3187243216472808,
+          "source_peak_gradient": 24.934633687184586,
+          "generated_peak_gradient": 78.6059876424251
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 122,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.79662960513485,
+          "offset_source_pixels": 0.2966296051348536,
+          "source_peak_gradient": 42.84055500573706,
+          "generated_peak_gradient": 126.2457562961888
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 127.5,
+          "generated_edge_source_units": 128.0759356077212,
+          "offset_source_pixels": 0.5759356077211919,
+          "source_peak_gradient": 35.003776492443436,
+          "generated_peak_gradient": 115.09816117621958
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 122,
+          "source_raster_edge": 173.5,
+          "generated_edge_source_units": 173.96906763759353,
+          "offset_source_pixels": 0.46906763759352543,
+          "source_peak_gradient": 38.88581923051647,
+          "generated_peak_gradient": 108.95583122249423
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 127.5,
+          "generated_edge_source_units": 127.96945617910026,
+          "offset_source_pixels": 0.4694561791002627,
+          "source_peak_gradient": 38.37424275425141,
+          "generated_peak_gradient": 92.54759318863847
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 122,
+          "source_raster_edge": 184.5,
+          "generated_edge_source_units": 184.3904314978783,
+          "offset_source_pixels": -0.10956850212170366,
+          "source_peak_gradient": 45.423170626664096,
+          "generated_peak_gradient": 132.65548983315364
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 127.5,
+          "generated_edge_source_units": 128.0240382713779,
+          "offset_source_pixels": 0.5240382713778899,
+          "source_peak_gradient": 42.665499180619506,
+          "generated_peak_gradient": 123.58039365913413
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 122,
+          "source_raster_edge": 194.50000000000003,
+          "generated_edge_source_units": 194.49867370305978,
+          "offset_source_pixels": -0.0013262969402489944,
+          "source_peak_gradient": 43.02231469542828,
+          "generated_peak_gradient": 106.35963110406539
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 189,
+          "source_raster_edge": 127.5,
+          "generated_edge_source_units": 127.9781980677423,
+          "offset_source_pixels": 0.4781980677422979,
+          "source_peak_gradient": 38.8858340748107,
+          "generated_peak_gradient": 90.0896633401668
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "perpendicular_source_coordinate": 122,
+          "source_raster_edge": 204.5,
+          "generated_edge_source_units": 204.63337610166218,
+          "offset_source_pixels": 0.13337610166217928,
+          "source_peak_gradient": 29.427856172074165,
+          "generated_peak_gradient": 84.96348297642413
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 132,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.6465288941374,
+          "offset_source_pixels": 0.1465288941373899,
+          "source_peak_gradient": 42.510694828149305,
+          "generated_peak_gradient": 94.82662307264755
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              11
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 138.5,
+          "generated_edge_source_units": 138.1039104558099,
+          "offset_source_pixels": -0.39608954419009024,
+          "source_peak_gradient": 29.48846899828667,
+          "generated_peak_gradient": 73.3227345099508
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 132,
+          "source_raster_edge": 173.5,
+          "generated_edge_source_units": 174.0232959295945,
+          "offset_source_pixels": 0.5232959295944966,
+          "source_peak_gradient": 35.333593849951676,
+          "generated_peak_gradient": 107.31201934450519
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              11
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 138.5,
+          "generated_edge_source_units": 138.2984417613972,
+          "offset_source_pixels": -0.20155823860278588,
+          "source_peak_gradient": 34.76143023952182,
+          "generated_peak_gradient": 89.86739426174108
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              10
+            ],
+            [
+              3,
+              10
+            ]
+          ],
+          "perpendicular_source_coordinate": 132,
+          "source_raster_edge": 184.49999999999997,
+          "generated_edge_source_units": 184.22917024536395,
+          "offset_source_pixels": -0.27082975463602565,
+          "source_peak_gradient": 25.17701134149785,
+          "generated_peak_gradient": 84.26392559036148
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              10
+            ],
+            [
+              2,
+              11
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 138.5,
+          "generated_edge_source_units": 138.0923189268565,
+          "offset_source_pixels": -0.4076810731434932,
+          "source_peak_gradient": 24.9346856422144,
+          "generated_peak_gradient": 74.0896429056892
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              11
+            ]
+          ],
+          "perpendicular_source_coordinate": 143,
+          "source_raster_edge": 163.5,
+          "generated_edge_source_units": 163.80147505285683,
+          "offset_source_pixels": 0.30147505285682996,
+          "source_peak_gradient": 30.692277728378276,
+          "generated_peak_gradient": 86.40154198302042
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              11
+            ],
+            [
+              2,
+              11
+            ]
+          ],
+          "perpendicular_source_coordinate": 143,
+          "source_raster_edge": 173.5,
+          "generated_edge_source_units": 173.96004776304153,
+          "offset_source_pixels": 0.46004776304152983,
+          "source_peak_gradient": 25.096198997667784,
+          "generated_peak_gradient": 62.594387867603615
+        }
+      ]
+    },
+    {
+      "patch": "left",
+      "fits": {
+        "x": {
+          "source_to_generated_scale": 1.002119438177847,
+          "source_to_generated_offset": -0.20022999208968822,
+          "samples": 19,
+          "fit_inliers": 19,
+          "median_abs_offset_source_pixels": 0.3594711923449623,
+          "p95_abs_offset_source_pixels": 0.9057417874395678,
+          "fit_p95_abs_residual_source_pixels": 0.7612530194272568
+        },
+        "y": {
+          "source_to_generated_scale": 1.0038066408819153,
+          "source_to_generated_offset": -0.678706230062114,
+          "samples": 22,
+          "fit_inliers": 21,
+          "median_abs_offset_source_pixels": 0.3383398996888758,
+          "p95_abs_offset_source_pixels": 0.7734973094248999,
+          "fit_p95_abs_residual_source_pixels": 0.5707739761405861
+        }
+      },
+      "samples": [
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 113.5,
+          "generated_edge_source_units": 113.43178677790408,
+          "offset_source_pixels": -0.0682132220959204,
+          "source_peak_gradient": 18.496888987194822,
+          "generated_peak_gradient": 65.46155333156722
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 124.5,
+          "generated_edge_source_units": 123.92314361807905,
+          "offset_source_pixels": -0.5768563819209476,
+          "source_peak_gradient": 20.653360934576057,
+          "generated_peak_gradient": 82.62112626499658
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 117,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.19924413401395,
+          "offset_source_pixels": -0.30075586598604787,
+          "source_peak_gradient": 18.712329574187663,
+          "generated_peak_gradient": 69.57747759785477
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 49,
+          "source_raster_edge": 124.49999999999999,
+          "generated_edge_source_units": 123.72444658359574,
+          "offset_source_pixels": -0.7755534164042501,
+          "source_peak_gradient": 24.78978788736063,
+          "generated_peak_gradient": 85.84129590206777
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 117,
+          "source_raster_edge": 65.5,
+          "generated_edge_source_units": 65.69501579867786,
+          "offset_source_pixels": 0.1950157986778578,
+          "source_peak_gradient": 13.378992815247964,
+          "generated_peak_gradient": 37.63286685749188
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 123.5,
+          "generated_edge_source_units": 123.8571451251521,
+          "offset_source_pixels": 0.3571451251521012,
+          "source_peak_gradient": 18.71230787868071,
+          "generated_peak_gradient": 63.98763682630391
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 127,
+          "source_raster_edge": 34.5,
+          "generated_edge_source_units": 35.0135179869986,
+          "offset_source_pixels": 0.5135179869986004,
+          "source_peak_gradient": 24.78980958286759,
+          "generated_peak_gradient": 82.31150261387694
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 29,
+          "source_raster_edge": 134.5,
+          "generated_edge_source_units": 133.9935893173564,
+          "offset_source_pixels": -0.5064106826436046,
+          "source_peak_gradient": 29.232679618285363,
+          "generated_peak_gradient": 89.74272856465103
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 127,
+          "source_raster_edge": 45.5,
+          "generated_edge_source_units": 45.062926677577366,
+          "offset_source_pixels": -0.4370733224226342,
+          "source_peak_gradient": 24.608065308405006,
+          "generated_peak_gradient": 81.50593772523675
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 133.5,
+          "generated_edge_source_units": 133.87834487302408,
+          "offset_source_pixels": 0.3783448730240764,
+          "source_peak_gradient": 21.126415303239725,
+          "generated_peak_gradient": 91.16981409440677
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 127,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.28853618883505,
+          "offset_source_pixels": -0.21146381116494695,
+          "source_peak_gradient": 29.05091992859415,
+          "generated_peak_gradient": 79.80049336850803
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 49,
+          "source_raster_edge": 134.5,
+          "generated_edge_source_units": 134.08634194501718,
+          "offset_source_pixels": -0.41365805498281816,
+          "source_peak_gradient": 34.5661486338046,
+          "generated_peak_gradient": 84.26830938206689
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 133.5,
+          "generated_edge_source_units": 133.83561738988274,
+          "offset_source_pixels": 0.33561738988274215,
+          "source_peak_gradient": 20.6532861421705,
+          "generated_peak_gradient": 68.2825918518449
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 137,
+          "source_raster_edge": 25.500000000000004,
+          "generated_edge_source_units": 24.598060948184674,
+          "offset_source_pixels": -0.9019390518153294,
+          "source_peak_gradient": 24.789809582867598,
+          "generated_peak_gradient": 39.22919176992173
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 137,
+          "source_raster_edge": 34.5,
+          "generated_edge_source_units": 34.85947119234496,
+          "offset_source_pixels": 0.3594711923449623,
+          "source_peak_gradient": 34.76143023952182,
+          "generated_peak_gradient": 89.95687818098642
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 29,
+          "source_raster_edge": 144.5,
+          "generated_edge_source_units": 144.158937590505,
+          "offset_source_pixels": -0.34106240949500943,
+          "source_peak_gradient": 29.24612674190581,
+          "generated_peak_gradient": 94.49883206984919
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 144.5,
+          "generated_edge_source_units": 144.2192648633878,
+          "offset_source_pixels": -0.2807351366122077,
+          "source_peak_gradient": 30.86731128705449,
+          "generated_peak_gradient": 107.80954864557035
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 137,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.201602660839995,
+          "offset_source_pixels": -0.29839733916000455,
+          "source_peak_gradient": 29.246163852641388,
+          "generated_peak_gradient": 75.92551603022144
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 144.5,
+          "generated_edge_source_units": 144.2425106558984,
+          "offset_source_pixels": -0.2574893441016002,
+          "source_peak_gradient": 29.232664203056736,
+          "generated_peak_gradient": 87.24452487450134
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 147,
+          "source_raster_edge": 34.5,
+          "generated_edge_source_units": 34.904590392063724,
+          "offset_source_pixels": 0.4045903920637244,
+          "source_peak_gradient": 35.003776492443436,
+          "generated_peak_gradient": 111.68483791702243
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 29,
+          "source_raster_edge": 154.5,
+          "generated_edge_source_units": 154.5199932976217,
+          "offset_source_pixels": 0.01999329762170987,
+          "source_peak_gradient": 24.608049893176382,
+          "generated_peak_gradient": 91.14023079121858
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 147,
+          "source_raster_edge": 44.5,
+          "generated_edge_source_units": 45.07001122605166,
+          "offset_source_pixels": 0.5700112260516619,
+          "source_peak_gradient": 25.291478890581825,
+          "generated_peak_gradient": 94.79961417194352
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 154.5,
+          "generated_edge_source_units": 154.44868420999583,
+          "offset_source_pixels": -0.05131579000416764,
+          "source_peak_gradient": 40.94316937557487,
+          "generated_peak_gradient": 106.30554857232309
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 147,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.35401039552881,
+          "offset_source_pixels": -0.1459896044711897,
+          "source_peak_gradient": 35.003741094511035,
+          "generated_peak_gradient": 108.63324301338642
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 49,
+          "source_raster_edge": 154.5,
+          "generated_edge_source_units": 154.50176609782594,
+          "offset_source_pixels": 0.0017660978259357307,
+          "source_peak_gradient": 57.35578542375072,
+          "generated_peak_gradient": 133.963780516369
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 154.5,
+          "generated_edge_source_units": 154.33502054805857,
+          "offset_source_pixels": -0.16497945194143426,
+          "source_peak_gradient": 34.56620686911275,
+          "generated_peak_gradient": 93.94694685342463
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 33.5,
+          "generated_edge_source_units": 32.560033591942286,
+          "offset_source_pixels": -0.9399664080577139,
+          "source_peak_gradient": 25.03215583578921,
+          "generated_peak_gradient": 42.884482059368
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 29,
+          "source_raster_edge": 165.5,
+          "generated_edge_source_units": 164.5219271864103,
+          "offset_source_pixels": -0.978072813589705,
+          "source_peak_gradient": 24.60796139834538,
+          "generated_peak_gradient": 81.82571932491555
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 45.5,
+          "generated_edge_source_units": 45.139826210652565,
+          "offset_source_pixels": -0.36017378934743505,
+          "source_peak_gradient": 41.43990783628955,
+          "generated_peak_gradient": 139.32521814904788
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 165.5,
+          "generated_edge_source_units": 164.76556872318275,
+          "offset_source_pixels": -0.7344312768172472,
+          "source_peak_gradient": 21.981556371924732,
+          "generated_peak_gradient": 107.27942534031473
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "perpendicular_source_coordinate": 158,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.179658528806314,
+          "offset_source_pixels": -0.32034147119368583,
+          "source_peak_gradient": 38.83198391941438,
+          "generated_peak_gradient": 115.03240286873194
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 49,
+          "source_raster_edge": 164.5,
+          "generated_edge_source_units": 164.60816435281998,
+          "offset_source_pixels": 0.10816435281998338,
+          "source_peak_gradient": 42.692467078397186,
+          "generated_peak_gradient": 90.98168531636372
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 59,
+          "source_raster_edge": 164.5,
+          "generated_edge_source_units": 164.76465709848517,
+          "offset_source_pixels": 0.2646570984851735,
+          "source_peak_gradient": 29.050919928594148,
+          "generated_peak_gradient": 94.17423852586916
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 35.5,
+          "generated_edge_source_units": 34.92954599216238,
+          "offset_source_pixels": -0.5704540078376183,
+          "source_peak_gradient": 34.90257128443615,
+          "generated_peak_gradient": 92.234444806429
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 29,
+          "source_raster_edge": 175.5,
+          "generated_edge_source_units": 175.03552223941327,
+          "offset_source_pixels": -0.46447776058673185,
+          "source_peak_gradient": 38.55598931245157,
+          "generated_peak_gradient": 114.89781900480517
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 44.5,
+          "generated_edge_source_units": 45.055726317241486,
+          "offset_source_pixels": 0.5557263172414864,
+          "source_peak_gradient": 25.291442921715035,
+          "generated_peak_gradient": 95.74998903454494
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 39,
+          "source_raster_edge": 174.5,
+          "generated_edge_source_units": 174.77411530523253,
+          "offset_source_pixels": 0.27411530523252736,
+          "source_peak_gradient": 30.8673112870545,
+          "generated_peak_gradient": 86.21530273543692
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "perpendicular_source_coordinate": 168,
+          "source_raster_edge": 55.5,
+          "generated_edge_source_units": 55.32052722492098,
+          "offset_source_pixels": -0.17947277507902015,
+          "source_peak_gradient": 24.9144547232052,
+          "generated_peak_gradient": 100.89115497888679
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 49,
+          "source_raster_edge": 174.5,
+          "generated_edge_source_units": 174.91458548357954,
+          "offset_source_pixels": 0.4145854835795433,
+          "source_peak_gradient": 18.099907378383513,
+          "generated_peak_gradient": 71.23643297614962
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 34.5,
+          "generated_edge_source_units": 34.84864952061946,
+          "offset_source_pixels": 0.3486495206194604,
+          "source_peak_gradient": 45.59819847599637,
+          "generated_peak_gradient": 113.0994706462651
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "perpendicular_source_coordinate": 178,
+          "source_raster_edge": 45.5,
+          "generated_edge_source_units": 45.22997396216004,
+          "offset_source_pixels": -0.27002603783996193,
+          "source_peak_gradient": 20.471584687787434,
+          "generated_peak_gradient": 75.86023762212216
+        }
+      ]
+    },
+    {
+      "patch": "bottom",
+      "fits": {
+        "x": {
+          "source_to_generated_scale": 1.0101149876580702,
+          "source_to_generated_offset": -0.9560366380536779,
+          "samples": 10,
+          "fit_inliers": 10,
+          "median_abs_offset_source_pixels": 0.222737158724577,
+          "p95_abs_offset_source_pixels": 0.4566077298490292,
+          "fit_p95_abs_residual_source_pixels": 0.3823530467596143
+        },
+        "y": {
+          "source_to_generated_scale": 1.0148500613503741,
+          "source_to_generated_offset": -3.6047372910309416,
+          "samples": 9,
+          "fit_inliers": 8,
+          "median_abs_offset_source_pixels": 0.32661134127357627,
+          "p95_abs_offset_source_pixels": 0.5126035047305378,
+          "fit_p95_abs_residual_source_pixels": 0.08855249080372828
+        }
+      },
+      "samples": [
+        {
+          "axis": "y",
+          "pair": [
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 206.49999999999997,
+          "generated_edge_source_units": 205.94694532693313,
+          "offset_source_pixels": -0.5530546730668391,
+          "source_peak_gradient": 22.13640354447444,
+          "generated_peak_gradient": 101.9738236485297
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 96.5,
+          "generated_edge_source_units": 96.75528286991853,
+          "offset_source_pixels": 0.2552828699185312,
+          "source_peak_gradient": 30.692283437722214,
+          "generated_peak_gradient": 80.64660101320965
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 91,
+          "source_raster_edge": 216.5,
+          "generated_edge_source_units": 216.17338865872642,
+          "offset_source_pixels": -0.32661134127357627,
+          "source_peak_gradient": 26.46667439442605,
+          "generated_peak_gradient": 95.78319907608017
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.69019144753062,
+          "offset_source_pixels": 0.19019144753062278,
+          "source_peak_gradient": 38.199201773428086,
+          "generated_peak_gradient": 118.93889492183382
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 215.9519267522261,
+          "offset_source_pixels": 0.45192675222608614,
+          "source_peak_gradient": 21.19374341271376,
+          "generated_peak_gradient": 84.95714280897425
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              9,
+              1
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 216.5,
+          "generated_edge_source_units": 216.1279744558392,
+          "offset_source_pixels": -0.372025544160806,
+          "source_peak_gradient": 34.720812165679334,
+          "generated_peak_gradient": 119.24998709694455
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 220,
+          "source_raster_edge": 86.49999999999999,
+          "generated_edge_source_units": 86.03815098576042,
+          "offset_source_pixels": -0.4618490142395615,
+          "source_peak_gradient": 26.46667439442605,
+          "generated_peak_gradient": 98.11683292162249
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              8,
+              2
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 220,
+          "source_raster_edge": 106.50000000000001,
+          "generated_edge_source_units": 106.76709827852729,
+          "offset_source_pixels": 0.2670982785272713,
+          "source_peak_gradient": 45.4231706266641,
+          "generated_peak_gradient": 124.54902384359349
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 226.5,
+          "generated_edge_source_units": 226.23669981764746,
+          "offset_source_pixels": -0.2633001823525376,
+          "source_peak_gradient": 34.39097996387686,
+          "generated_peak_gradient": 96.27566380128502
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              9,
+              2
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 111,
+          "source_raster_edge": 226.5,
+          "generated_edge_source_units": 226.16394628084237,
+          "offset_source_pixels": -0.3360537191576327,
+          "source_peak_gradient": 34.00054806735294,
+          "generated_peak_gradient": 98.17411708857449
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 70,
+          "source_raster_edge": 236.5,
+          "generated_edge_source_units": 236.48414944751127,
+          "offset_source_pixels": -0.01585055248872891,
+          "source_peak_gradient": 13.412652017042632,
+          "generated_peak_gradient": 60.287922720931476
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 230,
+          "source_raster_edge": 96.5,
+          "generated_edge_source_units": 96.39856280939674,
+          "offset_source_pixels": -0.10143719060326362,
+          "source_peak_gradient": 30.86731128705449,
+          "generated_peak_gradient": 101.07907541894178
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 91,
+          "source_raster_edge": 236.5,
+          "generated_edge_source_units": 236.4472208992507,
+          "offset_source_pixels": -0.05277910074929082,
+          "source_peak_gradient": 24.739426873872922,
+          "generated_peak_gradient": 97.94301445994137
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              8,
+              3
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 230,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.62139880943583,
+          "offset_source_pixels": 0.12139880943583137,
+          "source_peak_gradient": 34.5457808907407,
+          "generated_peak_gradient": 96.26473114225956
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 101,
+          "source_raster_edge": 236.49999999999997,
+          "generated_edge_source_units": 236.34158733837526,
+          "offset_source_pixels": -0.15841266162470902,
+          "source_peak_gradient": 38.37422962276036,
+          "generated_peak_gradient": 89.58818781894303
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 240,
+          "source_raster_edge": 65.5,
+          "generated_edge_source_units": 65.59015247697825,
+          "offset_source_pixels": 0.09015247697824691,
+          "source_peak_gradient": 18.5305481889895,
+          "generated_peak_gradient": 73.96781909611974
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 240,
+          "source_raster_edge": 86.5,
+          "generated_edge_source_units": 86.04979828440607,
+          "offset_source_pixels": -0.4502017155939342,
+          "source_peak_gradient": 14.394082983600544,
+          "generated_peak_gradient": 63.85646467594145
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 240,
+          "source_raster_edge": 96.50000000000001,
+          "generated_edge_source_units": 96.33307853462271,
+          "offset_source_pixels": -0.16692146537729968,
+          "source_peak_gradient": 24.934633687184586,
+          "generated_peak_gradient": 80.82873139175697
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ]
+          ],
+          "perpendicular_source_coordinate": 240,
+          "source_raster_edge": 106.5,
+          "generated_edge_source_units": 106.845617348685,
+          "offset_source_pixels": 0.3456173486849963,
+          "source_peak_gradient": 30.867259332024673,
+          "generated_peak_gradient": 81.1256950006682
+        }
+      ]
+    },
+    {
+      "patch": "small",
+      "fits": {
+        "x": {
+          "source_to_generated_scale": 1.0186554120298412,
+          "source_to_generated_offset": -3.8818314134706364,
+          "samples": 4,
+          "fit_inliers": 4,
+          "median_abs_offset_source_pixels": 0.30507455264658745,
+          "p95_abs_offset_source_pixels": 0.7150416946476709,
+          "fit_p95_abs_residual_source_pixels": 0.45380935287933394
+        },
+        "y": {
+          "source_to_generated_scale": 1.024116467931654,
+          "source_to_generated_offset": -5.738177099680647,
+          "samples": 4,
+          "fit_inliers": 4,
+          "median_abs_offset_source_pixels": 0.261293972686957,
+          "p95_abs_offset_source_pixels": 0.4627494538002935,
+          "fit_p95_abs_residual_source_pixels": 0.09211706503334369
+        }
+      },
+      "samples": [
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "perpendicular_source_coordinate": 210,
+          "source_raster_edge": 225.5,
+          "generated_edge_source_units": 225.41031585957182,
+          "offset_source_pixels": -0.08968414042817585,
+          "source_peak_gradient": 29.050898233087192,
+          "generated_peak_gradient": 91.37033989483234
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 217.5,
+          "generated_edge_source_units": 217.01676800291142,
+          "offset_source_pixels": -0.48323199708858056,
+          "source_peak_gradient": 34.76143023952182,
+          "generated_peak_gradient": 108.86508080539437
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 220,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 215.92044842384635,
+          "offset_source_pixels": 0.42044842384635217,
+          "source_peak_gradient": 42.510674274511146,
+          "generated_peak_gradient": 98.79409933209286
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 209,
+          "source_raster_edge": 227.49999999999997,
+          "generated_edge_source_units": 227.32409376312606,
+          "offset_source_pixels": -0.1759062368739137,
+          "source_peak_gradient": 24.60804361289805,
+          "generated_peak_gradient": 73.6646907067323
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "perpendicular_source_coordinate": 220,
+          "source_raster_edge": 224.49999999999997,
+          "generated_edge_source_units": 225.2670287424361,
+          "offset_source_pixels": 0.767028742436139,
+          "source_peak_gradient": 20.653360934576057,
+          "generated_peak_gradient": 69.43561880975619
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 227.5,
+          "generated_edge_source_units": 227.1533182915,
+          "offset_source_pixels": -0.34668170850000024,
+          "source_peak_gradient": 35.003776492443436,
+          "generated_peak_gradient": 108.35617487884147
+        },
+        {
+          "axis": "x",
+          "pair": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "perpendicular_source_coordinate": 231,
+          "source_raster_edge": 215.5,
+          "generated_edge_source_units": 215.31029931855318,
+          "offset_source_pixels": -0.18970068144682273,
+          "source_peak_gradient": 29.050919928594148,
+          "generated_peak_gradient": 99.43924385541249
+        },
+        {
+          "axis": "y",
+          "pair": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "perpendicular_source_coordinate": 219,
+          "source_raster_edge": 237.5,
+          "generated_edge_source_units": 237.4990973615446,
+          "offset_source_pixels": -0.0009026384553862954,
+          "source_peak_gradient": 29.050919928594148,
+          "generated_peak_gradient": 99.51810326512233
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Measures visible source raster transitions only; original continuous HD edges remain unknown.",
+    "Strong source contrasts >=20/255, 3-source-pixel perpendicular medians, +/-2.5-source-pixel search. Not every edge or occluded cell is measured.",
+    "Measured geometric offsets do not establish UV/runtime consumer correctness."
+  ],
+  "runtime_verified": false
+}

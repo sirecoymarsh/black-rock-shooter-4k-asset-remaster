@@ -1,0 +1,87 @@
+{
+  "schema": "brs-local-sr-title-stage/v1",
+  "asset_id": "title.vol::001_if_title.zzz::000",
+  "selected_trial": {
+    "id": "general-dn0.0",
+    "model_sources": [
+      {
+        "name": "realesr-general-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+        "weight": 0.0
+      },
+      {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+        "weight": 1.0
+      }
+    ],
+    "exposure_before": 1,
+    "exposure_after": 1.0,
+    "native_size": [
+      1920,
+      1088
+    ],
+    "output_size": [
+      3840,
+      2176
+    ],
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-trial-v2\\general-dn0.0-active-8x.png",
+    "output_sha256": "c0b7fc5e8b176a8a135a4ad5cfd095122ef431d7bef8e2e0877fd6d8a31803fa",
+    "metrics": {
+      "rgb_mae_0_255": 1.4970996379852295,
+      "rgb_p99_abs_error_0_255": 7.0,
+      "rgb_mean_shift_0_255": [
+        0.09482230246067047,
+        0.1445082724094391,
+        0.5131357312202454
+      ],
+      "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+    },
+    "elapsed_seconds": 6.14100000000326,
+    "visual_review": "pending",
+    "runtime_verified": false,
+    "release_eligible": false
+  },
+  "key": "0000000086ba34d7c28b381c",
+  "source_full_png_sha256": "5eb948ab8d3be9e99afda5cfe6ce5fb0ec5953916726c5a884d159961c142e67",
+  "source_full_rgba_sha256": "5eb4550b8d09e31a1bb520b8972c06e309777f547cb05731f057c2e44c3ee74f",
+  "observed_source_paths": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000086ba34d7c28b381c.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000086ba34d7c28b381c.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000086ba34d7c28b381c.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S002-v101-xxh64-gles\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\0000000086ba34d7c28b381c.png"
+  ],
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\title-review-pack\\PSP\\TEXTURES\\NPUH10126\\title\\title-metal-local-sr.png",
+  "output_size": [
+    4096,
+    4096
+  ],
+  "output_sha256": "9bfc5e1abb745a408ca66c8f15ee6a809564e3ebb2f1099e508b2672896916d8",
+  "output_rgba_sha256": "a82bb207a4b9bfe5223ffeebd113761a984063c4535b2bb6ff6e6f567d90ef29",
+  "native_neural_scale": 4,
+  "post_scale": "Lanczos 2x",
+  "alpha_unchanged_from_nearest_source": true,
+  "outside_active_rect_unchanged": true,
+  "geometry": {
+    "source": {
+      "vertical_dark_center_x": 239,
+      "horizontal_dark_center_y": 192
+    },
+    "candidate": {
+      "vertical_dark_center_x": 239,
+      "horizontal_dark_center_y": 192
+    },
+    "limit": "Darkest profile sample within one native pixel; this alone does not prove all edges or in-game alignment."
+  },
+  "status": "Selected for isolated game verification; not installed or release eligible",
+  "visual_review": "General WDN retains more grain, scratch shape and rivet shading than anime6B. Palette dithering vs authentic high-frequency grain is not fully separable from this source.",
+  "runtime_verified": false,
+  "installed": false,
+  "release_eligible": false
+}

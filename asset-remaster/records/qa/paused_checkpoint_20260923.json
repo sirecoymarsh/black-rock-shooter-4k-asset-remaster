@@ -1,0 +1,118 @@
+{
+  "schema": "brs-4k-asset-remaster-paused/v1",
+  "project_title": "BLACK★ROCK SHOOTER THE GAME — 4K 애셋 리마스터",
+  "status": "paused_by_user",
+  "reason": "User requested pause due to remaining Codex allowance; save work and organize in Git for later resumption.",
+  "asset_work_running": false,
+  "latest_completed_batch": "FIELD-FOLIAGE-007",
+  "authoritative_review": "qa/field_foliage007_review.json",
+  "active_unfinished_batch": "FIELD-FOLIAGE-008",
+  "confirmed_counts": {
+    "denominator": 635,
+    "static_candidates": 354,
+    "static_candidate_percent": 55.748031496062985,
+    "processed_at_least_once": 420,
+    "processed_percent": 66.14173228346458,
+    "is_entire_game_completion_percent": false
+  },
+  "field_processing_summary": {
+    "field_unique_groups": 576,
+    "battle_pixel_equivalent_groups": 225,
+    "field_novel_groups": 351,
+    "field_novel_sources_classified": 351,
+    "field_neural_originals": 158,
+    "field_static_candidates": 113,
+    "field_holds": 49,
+    "field_groups_not_processed_in_field_context": 414,
+    "remaining_novel_unprocessed": 189,
+    "latest_review": "qa/field_foliage007_review.json",
+    "field_direct_gpt_only_originals": 3,
+    "field_processed_novel_originals_all_routes": 162,
+    "counting_note": "158 locally inferred originals +3 direct-GPT-only +1 geometry-only =162 processed novel field originals. Four existing tree holds become candidates using existing materials; no new originals or inference calls. Static candidate113, held49, novel unprocessed189.",
+    "field_geometry_only_originals": 1
+  },
+  "current_batch": {
+    "actual_GPT_calls": 3,
+    "actual_new_local_calls": 0,
+    "new_unique_originals": 0,
+    "raw_GPT": [
+      {
+        "group_id": "FM0301",
+        "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\generated-raw.png",
+        "raw_sha256": "bf7f5b1a1ca5a19242546ab8cd59442aaced4c6b3ac4bf46f7e6fba401ef21e6",
+        "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0301-foliage008-v1\\prompt.txt",
+        "prompt_sha256": "c6fb9ce258e65a526641a630ae86ec3381c5ceae28ea6ac5af7f9385487d410b"
+      },
+      {
+        "group_id": "FM0312",
+        "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0312-foliage008-v1\\generated-raw.png",
+        "raw_sha256": "caf5555db39b361f224fdd547e5b768dca1066c708ae798d9c438675156dc50a",
+        "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0312-foliage008-v1\\prompt.txt",
+        "prompt_sha256": "4091aebca34c6543d48eaf981ac7c23fcf183a5ce25c98fa325c6aaf7ada54f2"
+      },
+      {
+        "group_id": "FM0320",
+        "raw_generated_image": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0320-foliage008-v1\\generated-raw.png",
+        "raw_sha256": "f3bde2661adac6cab7a7027c949c6cb11f4a1cfae4d279750b4e385a3916c5ab",
+        "prompt": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\FM0320-foliage008-v1\\prompt.txt",
+        "prompt_sha256": "8310d94d1c36033f8366c7d127cec225de033840a3d7f3e8208deacb1504ec5e"
+      }
+    ],
+    "pending_candidates": [
+      {
+        "group_id": "FM0301",
+        "id": "FM0301-source-palette-density-v1",
+        "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0301-source-palette-density-v1-8x.png",
+        "output_sha256": "0ba7968bb369115eba604fa8ecd2fe6c2871f4c3f6389d4ab0502995ea195265",
+        "review_status": "pending"
+      },
+      {
+        "group_id": "FM0312",
+        "id": "FM0312-source-palette-density-v1",
+        "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0312-source-palette-density-v1-8x.png",
+        "output_sha256": "450a2bacea8236c90dd76cb4b3637b18b79cd0549c7f9974cf64ba0596890da0",
+        "review_status": "pending"
+      },
+      {
+        "group_id": "FM0318",
+        "id": "FM0318-source-palette-density-v1",
+        "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0318-source-palette-density-v1-8x.png",
+        "output_sha256": "b487b9688e457cc4e362de7acf8f0b3a26dcbd0d10176e2f95fb84d17911c6c8",
+        "review_status": "pending"
+      },
+      {
+        "group_id": "FM0320",
+        "id": "FM0320-source-palette-density-v1",
+        "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\field-foliage008\\FM0320-source-palette-density-v1-8x.png",
+        "output_sha256": "3fcaac9cba04c3322eb6bb065f218c06313933e8cff647c639d438ab98b6ac4a",
+        "review_status": "pending"
+      }
+    ],
+    "unreviewed_comparison_pages": [
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-whole.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-detail.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0301-material-v1-edge.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-whole.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-detail.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0312-material-v1-edge.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-whole.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-detail.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0318-material-v1-edge.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-whole.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-detail.png",
+      "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\field-foliage008\\FM0320-material-v1-edge.png"
+    ],
+    "raw_comparison_pages_directly_inspected": 8,
+    "latest_material_candidates_directly_inspected": 0,
+    "counts_updated_for_this_batch": false
+  },
+  "next_step": "After explicit user resume, inspect all12 FIELD-FOLIAGE-008 material-v1 whole/detail/edge pages on both mattes; compare source silhouettes/leaf structure/palette. Do not treat generated files or matching total alpha as accepted. Then perform frozen recipe/integrity checks and finalize selected/held catalog entries. No new inference has started.",
+  "remaining_full_scope": "Field49 holds and189 novel unprocessed; battle43 unresolved; historical geometry applicability, characters/enemies/UI/effects/cutscenes/unsupported source populations, exact consumer mapping, actual-game verification and final packaging remain.",
+  "runtime_constraint": "No Computer Use emulator launch. Native GUI unavailable at pause; do not repeat black capture attempts without new recovery evidence. Exact QA exe+ISO only if runtime work resumes.",
+  "git_repository": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture",
+  "local_full_working_artifacts": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts",
+  "rendering_resolution_note": "4K Asset Remaster is the user-requested project name. Current assets retain their actual4x/8x/native sizes; not all PNGs are4096px.",
+  "runtime_verified": false,
+  "release_eligible": false,
+  "all_game_complete": false
+}

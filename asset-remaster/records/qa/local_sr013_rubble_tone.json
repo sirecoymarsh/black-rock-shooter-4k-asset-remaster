@@ -1,0 +1,77 @@
+{
+  "schema": "brs-sr013-rubble-tone/v1",
+  "files": [
+    {
+      "id": "BM115-tone-0.55",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-registered-source-alpha.png",
+      "parent_sha256": "0ad4cda59f97ab339ab60062d73ca850fb22d1986344da210ede3471e6efe43a",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\generated-original.png",
+      "generated_sha256": "919b2d18901a9b2d0f1e9061a096d5896c1e4d8ff8074ba68d3d5e96a865d4e0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone-0.55.png",
+      "output_sha256": "0eb0e2a895a7ec7483c279652ecd2929d9a6baa4f54682688a63a5a7b888eedd",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Low-frequency source color correction on the registered GPT repaint; original source alpha preserved",
+      "source_smoothing_sigma": 1.5,
+      "registered_smoothing_sigma": 12.0,
+      "strength": 0.55,
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Not selected: weaker broad color correction is farther from the source blue/gray/ochre balance.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    },
+    {
+      "id": "BM115-tone-0.80",
+      "group_id": "BM115",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\001.png",
+      "source_rgba_sha256": "d17d3f4903a57d7e390fa4ed5dd5c1dc8ceb79b5dda946b2882ae85caf3337d6",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-registered-source-alpha.png",
+      "parent_sha256": "0ad4cda59f97ab339ab60062d73ca850fb22d1986344da210ede3471e6efe43a",
+      "generated": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\generated-original.png",
+      "generated_sha256": "919b2d18901a9b2d0f1e9061a096d5896c1e4d8ff8074ba68d3d5e96a865d4e0",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\gpt-trials\\BM115-v1\\BM115-tone-0.80.png",
+      "output_sha256": "d5fcbd962a1a65ec9818d535d671e30c652fcb97a9ea44e624e2a593cf8ece5b",
+      "output_size": [
+        2048,
+        512
+      ],
+      "method": "Low-frequency source color correction on the registered GPT repaint; original source alpha preserved",
+      "source_smoothing_sigma": 1.5,
+      "registered_smoothing_sigma": 12.0,
+      "strength": 0.8,
+      "new_neural_passes": 0,
+      "new_generative_calls": 0,
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "not_selected",
+        "reason": "Intermediate selected as RGB parent: broad tones are closer to source; alpha edge still visibly too broad on light matte.",
+        "runtime_verified": false
+      },
+      "runtime_verified": false,
+      "release_eligible": false
+    }
+  ],
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_tone_whole.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_tone_left.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_tone_middle.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\sr013_rubble_tone_right.png"
+  ],
+  "new_neural_passes": 0,
+  "new_generative_calls": 0,
+  "image_upload": false,
+  "external_parent_repaint": true,
+  "runtime_verified": false,
+  "release_eligible": false
+}

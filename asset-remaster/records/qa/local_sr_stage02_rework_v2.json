@@ -1,0 +1,869 @@
+{
+  "schema": "brs-stage02-rework/v2",
+  "device": "NVIDIA GeForce RTX 5080",
+  "local_inference": true,
+  "image_upload": false,
+  "files": [
+    {
+      "id": "BM006-paint-aware",
+      "group_id": "BM006",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_01.vol\\001_map_b_stg01_01.bin\\005.png",
+      "source_rgba_sha256": "2673f797b3aaa1c98cabd805f653236fbc93c7e2c3f8b142f1243c62890a195a",
+      "source_png_sha256": "8b4e020d3147c76f3660ce934cac12dbe7e6e82dac66798ccce1df868a449f46",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM006-paint-aware-8x.png",
+      "output_sha256": "af9cf965dc1d157d95e0f3b1c172754bed55f65e9adfe200b10cac0cafb74ad1",
+      "output_size": [
+        256,
+        256
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Original paint RGB and pixel-cell shape kept exactly; asphalt received actual local neural inference. Lettering/paint itself still needs any desired high-resolution redraw and game-scale review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM006-paint-aware-input.png",
+      "input_sha256": "28e82b66149150a7804d7c32b9aee246da877a9b5bf82a904d39dde199670c0c",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM006-paint-aware-native4x.png",
+      "native_sha256": "31860d015c03bbb41cd224d0c8589a97550a95c3da1949b609cdcefdfcf57e17",
+      "mean_color_offset_rgb": [
+        1.6934814453125,
+        1.5789794921875,
+        -0.49029541015625
+      ],
+      "seconds": 0.26500000001396984,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM006-paint-aware-mask.png",
+      "paint_mask_sha256": "2ac99f61f489c864cd93bdddb94d8e81c9beaeae73f61959eec173587f1c67a3",
+      "paint_pixels": 204,
+      "paint_threshold_red": 100,
+      "paint_scope_x": [
+        0,
+        32
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 5.2607421875,
+        "rgb_p99_abs_error_0_255": 16.0,
+        "rgb_mean_shift_0_255": [
+          0.193359375,
+          0.28515625,
+          0.2646484375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM030-paint-aware",
+      "group_id": "BM030",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg01_02.vol\\001_map_b_stg01_02.bin\\008.png",
+      "source_rgba_sha256": "f2b777cc45e38a5cae47bbe250c35514f328436e6692cdef5495f3c9fa242948",
+      "source_png_sha256": "2d5683f5da9930000bd2656f9438aa7f1846cf8dab1c9fc629673016e6b49d4b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM030-paint-aware-8x.png",
+      "output_sha256": "2661b379943d08df1bef2c568362bf7e38c22e696d3d2633dee410c958d515cb",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "superseded",
+        "reason": "Neural asphalt introduced pronounced cracks; later source prefilter retry is selected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM030-paint-aware-input.png",
+      "input_sha256": "d80b8abaec384c851fe4d50d8ef40ee72799fee36c564fe5620133e97bb7ea74",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM030-paint-aware-native4x.png",
+      "native_sha256": "0b1aad128035e725d9e7827e699073d30517382d9139f827875e2c1e7685d4a7",
+      "mean_color_offset_rgb": [
+        1.758636474609375,
+        1.396148681640625,
+        -0.128692626953125
+      ],
+      "seconds": 0.0470000000204891,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM030-paint-aware-mask.png",
+      "paint_mask_sha256": "69ca0f913035e7585d6f19ff449b2b65a0dedebbe98b08ef6822784f52bb3357",
+      "paint_pixels": 908,
+      "paint_threshold_red": 100,
+      "paint_scope_x": [
+        0,
+        64
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 5.15966796875,
+        "rgb_p99_abs_error_0_255": 15.0,
+        "rgb_mean_shift_0_255": [
+          0.146240234375,
+          -0.3525390625,
+          0.058837890625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM089-paint-aware",
+      "group_id": "BM089",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\000.png",
+      "source_rgba_sha256": "604e1345a2d9f12e2d785c11a4c41dd9defd02d2e99729f6550cdc1a71ffecee",
+      "source_png_sha256": "b885fe78dcbf5e3824e8dffbde6bbc7ddef16d7f11779f415e48f38447fc528e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM089-paint-aware-8x.png",
+      "output_sha256": "003280f4541df418f2927d6b514251f504541aedbf374f6b8702a1862c259cd7",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "superseded",
+        "reason": "Neural asphalt introduced pronounced cracks; later source prefilter retry is selected.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM089-paint-aware-input.png",
+      "input_sha256": "a9cd8adac7fe3a67a707587968cbf5d43d44604e39061e44ac78c25a56fa15c6",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM089-paint-aware-native4x.png",
+      "native_sha256": "826d602cfe33888bfcc5c886165d2e43380cf8b34e2a8bdf71aab9e229ceda2b",
+      "mean_color_offset_rgb": [
+        0.499908447265625,
+        0.6378173828125,
+        -0.3449859619140625
+      ],
+      "seconds": 0.0470000000204891,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM089-paint-aware-mask.png",
+      "paint_mask_sha256": "51a7596c3cec28633e7b8d9a4e8857dc81fdfe17acf4e388baa6f7174edd1eee",
+      "paint_pixels": 1856,
+      "paint_threshold_red": 93,
+      "paint_scope_x": [
+        0,
+        64
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 3.4915363788604736,
+        "rgb_p99_abs_error_0_255": 11.0,
+        "rgb_mean_shift_0_255": [
+          -0.259521484375,
+          0.20068359375,
+          0.208251953125
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM090-paint-aware",
+      "group_id": "BM090",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\001.png",
+      "source_rgba_sha256": "936a360f8ac5443e57028304c1854ae18bf239d7ad74df799f1e6bc4c01a74ee",
+      "source_png_sha256": "a848f3204ba79bceda888539a6075302fef65fc80c176e05d8b0fb7eff324fae",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM090-paint-aware-8x.png",
+      "output_sha256": "ff4fdb091716fd5a3ad421eaa89d0ba34d7e480d5f2c3d57c2e91284579ab7c5",
+      "output_size": [
+        2048,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Original paint RGB and pixel-cell shape kept exactly; asphalt received actual local neural inference. Lettering/paint itself still needs any desired high-resolution redraw and game-scale review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM090-paint-aware-input.png",
+      "input_sha256": "fe2c0315af149d24acf2bdefeb18abd7ec2017f1afa4a1d0d3c0c9d25c1addd6",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM090-paint-aware-native4x.png",
+      "native_sha256": "917a2ab84a4eb619816987d706b77d86f5871019d19e12c311e37ee3aba33684",
+      "mean_color_offset_rgb": [
+        0.8174896240234375,
+        0.729583740234375,
+        -0.30823516845703125
+      ],
+      "seconds": 0.14100000000325963,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM090-paint-aware-mask.png",
+      "paint_mask_sha256": "f5201238cb55801f31e5e29fe8949c9ffa13b7cf46788bff8dc7911fe4d3e353",
+      "paint_pixels": 512,
+      "paint_threshold_red": 72,
+      "paint_scope_x": [
+        37,
+        187
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 3.9711711406707764,
+        "rgb_p99_abs_error_0_255": 17.0,
+        "rgb_mean_shift_0_255": [
+          0.204833984375,
+          0.31854248046875,
+          0.3544921875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM091-paint-aware",
+      "group_id": "BM091",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_03.vol\\001_map_b_stg02_03.bin\\002.png",
+      "source_rgba_sha256": "8eb4ef9a8736f2ff2b27c18be645c8b9acceb6a80e0178cf028cb9871376577c",
+      "source_png_sha256": "3e3f5db5a4c9aea8fb558f7c439a60f59b8514c5915b5176743808b0151b12e5",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM091-paint-aware-8x.png",
+      "output_sha256": "423e5642679c6754ddacebeca10b17d76d00306bcacb9645c79bab3821cedb95",
+      "output_size": [
+        256,
+        256
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Original paint RGB and pixel-cell shape kept exactly; asphalt received actual local neural inference. Lettering/paint itself still needs any desired high-resolution redraw and game-scale review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM091-paint-aware-input.png",
+      "input_sha256": "276b728e870b48f22a11e0bc316857bde41b3c3439267e856d957042ec3f09be",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM091-paint-aware-native4x.png",
+      "native_sha256": "1e3ba7ddaad6e55ade02484c8c4634133db2950f8526c08caabd696250ea74ad",
+      "mean_color_offset_rgb": [
+        0.7371826171875,
+        1.07342529296875,
+        0.239501953125
+      ],
+      "seconds": 0.03200000000651926,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM091-paint-aware-mask.png",
+      "paint_mask_sha256": "95ade33a5e439c13f3de513ab499b8b39cf7942221a3dce38677801170c51dd2",
+      "paint_pixels": 386,
+      "paint_threshold_red": 42,
+      "paint_scope_x": [
+        0,
+        32
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 3.38671875,
+        "rgb_p99_abs_error_0_255": 12.0,
+        "rgb_mean_shift_0_255": [
+          0.2294921875,
+          0.0009765625,
+          -0.12890625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM126-paint-aware",
+      "group_id": "BM126",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_05.vol\\001_map_b_stg02_05.bin\\004.png",
+      "source_rgba_sha256": "e1fd0d7d924e9432c16b9373556d1fbd4cf8165b95fe7a1744c8661b8e022658",
+      "source_png_sha256": "8d55b899871dfc5ee4689a064e0bdf513d6d3c4f53f27813b18fce570b534f9b",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM126-paint-aware-8x.png",
+      "output_sha256": "006e4420c9c1d3ff3d010dcd0dc4d0b3bae5d24567e270b158899ad9e3b25133",
+      "output_size": [
+        256,
+        256
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Original paint RGB and pixel-cell shape kept exactly; asphalt received actual local neural inference. Lettering/paint itself still needs any desired high-resolution redraw and game-scale review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM126-paint-aware-input.png",
+      "input_sha256": "2bb6f52712ba601cae17c9ce64002d20f592e6e9e8983087dc3906446b96bcee",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM126-paint-aware-native4x.png",
+      "native_sha256": "fcfd01f112cc6bf758947332c54905944edc657db047995347ead250575b99e9",
+      "mean_color_offset_rgb": [
+        0.366943359375,
+        0.53076171875,
+        -0.2281494140625
+      ],
+      "seconds": 0.014999999955762178,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM126-paint-aware-mask.png",
+      "paint_mask_sha256": "6816400732b843f473cc13803067eda79437901b061cc11cd762220dbc1d3f01",
+      "paint_pixels": 68,
+      "paint_threshold_red": 56,
+      "paint_scope_x": [
+        0,
+        32
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 2.0364582538604736,
+        "rgb_p99_abs_error_0_255": 10.0,
+        "rgb_mean_shift_0_255": [
+          -0.3359375,
+          0.412109375,
+          0.19921875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM127-paint-aware",
+      "group_id": "BM127",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_05.vol\\001_map_b_stg02_05.bin\\005.png",
+      "source_rgba_sha256": "30c5c1c61cb96f80aa500a7561cdc29f145533a00eadc46dcec33714fbbd5ab3",
+      "source_png_sha256": "8f4b17ca0cf9d7bd1e06e559d39ffd7bd97a63378ee1a2d858dd4f73a8c2cc9e",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM127-paint-aware-8x.png",
+      "output_sha256": "71506d16aac1e9112e4dce89344a18094339d1c2b258d166e46ca4278d5e93ad",
+      "output_size": [
+        256,
+        256
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Original paint RGB and pixel-cell shape kept exactly; asphalt received actual local neural inference. Lettering/paint itself still needs any desired high-resolution redraw and game-scale review.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM127-paint-aware-input.png",
+      "input_sha256": "259269245c0e7c69fcb423e5d9574e8b5d1e6f6cc214e96a6f9847160d07f132",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM127-paint-aware-native4x.png",
+      "native_sha256": "1ce3a887f7401d725746570bb8585290f807de02310ec0aba16c8afadc73ab9c",
+      "mean_color_offset_rgb": [
+        -0.00506591796875,
+        0.7674560546875,
+        0.12445068359375
+      ],
+      "seconds": 0.03200000000651926,
+      "method": "Actual local neural clean asphalt; exact source RGB and pixel-cell geometry for all protected paint. Protected lettering itself is not neural-redrawn.",
+      "paint_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM127-paint-aware-mask.png",
+      "paint_mask_sha256": "f2e35f3cfd8f3b77a07c09147f17ed4030372f996c7d43e75bebd3a0b3b3e122",
+      "paint_pixels": 94,
+      "paint_threshold_red": 46,
+      "paint_scope_x": [
+        0,
+        32
+      ],
+      "protected_rgba_exact": true,
+      "metrics": {
+        "rgb_mae_0_255": 1.8854166269302368,
+        "rgb_p99_abs_error_0_255": 9.0,
+        "rgb_mean_shift_0_255": [
+          0.017578125,
+          0.2509765625,
+          -0.1005859375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM076-geometry-preserved",
+      "group_id": "BM076",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\001.png",
+      "source_rgba_sha256": "275dcd8c640fdbef6b16430c1348c4d7e85255f68f0d84558378be7b618d545d",
+      "source_png_sha256": "17ebac7078d557311bafd29d49395dfc0c8e8480ef075e7624706cdf8ede549d",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM076-geometry-preserved-8x.png",
+      "output_sha256": "eb4ebbd415fd164081e2040ed24818df52a143eecd9452bcbf3a3971ab3494e6",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Straight source panel restored exactly; all remaining pixels equal the recorded neural parent. Protected geometry is source enlargement, not a new high-resolution reconstruction.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 0,
+      "method": "Recorded WDN neural parent with exact source nearest8x pixels in the explicit protected geometric region. Not a new inference or HD vector redraw.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM076-dn0.0-8x.png",
+      "parent_sha256": "3a0a4b0299de1124711da9f549ca5c0fa35f7030cdebfe692733872d4dcd8847",
+      "protected_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM076-geometry-preserved-mask.png",
+      "protected_mask_sha256": "b113300efe2a7465cc7b9db9998472148a2983f617f95c02b21b1dc7d3ae5915",
+      "protected_source_pixels": 2515,
+      "protected_rgba_exact": true,
+      "unprotected_rgba_exact_to_parent": true
+    },
+    {
+      "id": "BM083-geometry-preserved",
+      "group_id": "BM083",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\009.png",
+      "source_rgba_sha256": "1fc69c7166f064a91cf440a23805c8b940259d037230302ec199536aecfd99c4",
+      "source_png_sha256": "429d52fba67053b4f9347edbc389a378a5d4e4aad3a5e3c7aacfe67226b6b591",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM083-geometry-preserved-8x.png",
+      "output_sha256": "542808f3107e16cad3bcb755b87660815d3cb68a893fae7d722ba221d36d143a",
+      "output_size": [
+        512,
+        128
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "selected_for_game_review",
+        "reason": "Straight source panel restored exactly; all remaining pixels equal the recorded neural parent. Protected geometry is source enlargement, not a new high-resolution reconstruction.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 0,
+      "method": "Recorded WDN neural parent with exact source nearest8x pixels in the explicit protected geometric region. Not a new inference or HD vector redraw.",
+      "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-materials-v1\\BM083-dn0.0-8x.png",
+      "parent_sha256": "4fea86a55c461cb1ec119944c01aa470ecb2acec1aa8f32d0fb0f188d9a24380",
+      "protected_mask": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM083-geometry-preserved-mask.png",
+      "protected_mask_sha256": "bb915a699ca315b69ac325e7711b378fa78b5e60e2fcd78ae6b7c918bb3108d1",
+      "protected_source_pixels": 104,
+      "protected_rgba_exact": true,
+      "unprotected_rgba_exact_to_parent": true
+    },
+    {
+      "id": "BM082-wdn-sigma0.35",
+      "group_id": "BM082",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\008.png",
+      "source_rgba_sha256": "1c7b40d70c40912a266b2a6b057a1e93a8002e36377c1d841c689900f313db34",
+      "source_png_sha256": "cb109c08eeaa7005cc9aff324c07787a608fe6425e40fae6efa1504b7fdc4498",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-wdn-sigma0.35-8x.png",
+      "output_sha256": "f82f1181563b8a4c7fdd9427ed185f075eb94aeb800c0fb936131e7adfa40b98",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_required",
+        "reason": "Hub became an overly regular rhombus and blade-tip interpretation differs from the low-resolution source. Source-center interpolation is softer but does not resolve the whole fan.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-wdn-sigma0.35-input.png",
+      "input_sha256": "1a32a4989c855364f07a429fdfca455923e097369d63899ee64ffded23d72b94",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-wdn-sigma0.35-native4x.png",
+      "native_sha256": "cd8b6f93ac6c799c5c85ea6ee24a4917452792ed75c4467dd040c650e836e1f4",
+      "mean_color_offset_rgb": [
+        1.1089324951171875,
+        3.2352142333984375,
+        3.90350341796875
+      ],
+      "seconds": 0.031000000017229468,
+      "model_id": "wdn",
+      "prefilter_sigma": 0.35,
+      "method": "Source-space RGB prefilter then actual local model inference, source input RGB mean restored.",
+      "metrics": {
+        "rgb_mae_0_255": 10.3798828125,
+        "rgb_p99_abs_error_0_255": 40.1299999999992,
+        "rgb_mean_shift_0_255": [
+          -0.390380859375,
+          -0.64208984375,
+          -0.340087890625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM114-wdn-sigma0.4",
+      "group_id": "BM114",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\000.png",
+      "source_rgba_sha256": "5fb3162176e98a03310e5f3d5d22b1499377f24cce1403f51ab803912e4dcda4",
+      "source_png_sha256": "83ab2358fc4664609505c72f21065d8d03c444ec0fece4d0edfbf1e1abeb4dc2",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.4-8x.png",
+      "output_sha256": "a73d3519b624f2e4046d1f2f5e9b4bf5513d818c97371ed5aae6eb2acffed2ba",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_required",
+        "reason": "Dark surface gains grid/crack structures; sigma0.7 reduces them but loses surrounding detail. Material/consumer interpretation remains unresolved.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.4-input.png",
+      "input_sha256": "cfed3e7244227ce34a665c81e1c550133d8534da7387f7473b1c8585318c9bb6",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.4-native4x.png",
+      "native_sha256": "fa85fc5c7b0a8a2f82de7d87e1c5480d2f7bb0a31e079bff91719007bcc0981d",
+      "mean_color_offset_rgb": [
+        0.6214256286621094,
+        0.7037620544433594,
+        0.3654289245605469
+      ],
+      "seconds": 0.1559999999590218,
+      "model_id": "wdn",
+      "prefilter_sigma": 0.4,
+      "method": "Source-space RGB prefilter then actual local model inference, source input RGB mean restored.",
+      "metrics": {
+        "rgb_mae_0_255": 2.31072998046875,
+        "rgb_p99_abs_error_0_255": 15.0,
+        "rgb_mean_shift_0_255": [
+          0.35540771484375,
+          0.32269287109375,
+          -0.35760498046875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM114-wdn-sigma0.7",
+      "group_id": "BM114",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_04.vol\\001_map_b_stg02_04.bin\\000.png",
+      "source_rgba_sha256": "5fb3162176e98a03310e5f3d5d22b1499377f24cce1403f51ab803912e4dcda4",
+      "source_png_sha256": "83ab2358fc4664609505c72f21065d8d03c444ec0fece4d0edfbf1e1abeb4dc2",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.7-8x.png",
+      "output_sha256": "4c214df3b27d850cd2628889f066c9139a6b35e415294a5977ec7072449de1df",
+      "output_size": [
+        1024,
+        1024
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_required",
+        "reason": "Dark surface gains grid/crack structures; sigma0.7 reduces them but loses surrounding detail. Material/consumer interpretation remains unresolved.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "realesr-general-wdn-x4v3.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\realesr-general-wdn-x4v3.pth",
+        "bytes": 4885111,
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.7-input.png",
+      "input_sha256": "c664d400354b3c275e6291e09ad914bd54d4464e99021e5812f2c780f142ac37",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM114-wdn-sigma0.7-native4x.png",
+      "native_sha256": "fa7986810112b447cbdb1fd91301d19e3c0aa226aed5ec320c720bd85e2a8b17",
+      "mean_color_offset_rgb": [
+        0.7265472412109375,
+        0.6382255554199219,
+        0.14046478271484375
+      ],
+      "seconds": 0.1720000000204891,
+      "model_id": "wdn",
+      "prefilter_sigma": 0.7,
+      "method": "Source-space RGB prefilter then actual local model inference, source input RGB mean restored.",
+      "metrics": {
+        "rgb_mae_0_255": 2.4664714336395264,
+        "rgb_p99_abs_error_0_255": 15.0,
+        "rgb_mean_shift_0_255": [
+          0.2752685546875,
+          0.37371826171875,
+          -0.14447021484375
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM082-photo-sigma0.0",
+      "group_id": "BM082",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\008.png",
+      "source_rgba_sha256": "1c7b40d70c40912a266b2a6b057a1e93a8002e36377c1d841c689900f313db34",
+      "source_png_sha256": "cb109c08eeaa7005cc9aff324c07787a608fe6425e40fae6efa1504b7fdc4498",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-photo-sigma0.0-8x.png",
+      "output_sha256": "c6702672bef1172f072b9e0209cadac6a7ffd67413af2d13cf454e24ebe87548",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_required",
+        "reason": "Hub became an overly regular rhombus and blade-tip interpretation differs from the low-resolution source. Source-center interpolation is softer but does not resolve the whole fan.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "name": "RealESRGAN_x4plus.pth",
+        "source_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-photo-sigma0.0-input.png",
+      "input_sha256": "2a9d055d20477e445fba3ddc8846ec154fdfb08ab1f6e771bd039551d90f2c0f",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-photo-sigma0.0-native4x.png",
+      "native_sha256": "76db5e142c96bf1b57b56e77ca535e0cf8fa9181e63dbee60c757448436cf645",
+      "mean_color_offset_rgb": [
+        -5.0090179443359375,
+        -3.936859130859375,
+        -3.90777587890625
+      ],
+      "seconds": 0.125,
+      "model_id": "photo",
+      "prefilter_sigma": 0.0,
+      "method": "Source-space RGB prefilter then actual local model inference, source input RGB mean restored.",
+      "metrics": {
+        "rgb_mae_0_255": 10.921305656433105,
+        "rgb_p99_abs_error_0_255": 44.0,
+        "rgb_mean_shift_0_255": [
+          -0.018310546875,
+          -0.1416015625,
+          -0.1572265625
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    },
+    {
+      "id": "BM082-anime-sigma0.0",
+      "group_id": "BM082",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\battle_maps\\map_b_stg02_02.vol\\001_map_b_stg02_02.bin\\008.png",
+      "source_rgba_sha256": "1c7b40d70c40912a266b2a6b057a1e93a8002e36377c1d841c689900f313db34",
+      "source_png_sha256": "cb109c08eeaa7005cc9aff324c07787a608fe6425e40fae6efa1504b7fdc4498",
+      "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-anime-sigma0.0-8x.png",
+      "output_sha256": "108d0decbf9bd3839a1976ca5f818348582ff008ac22a1fae43c3f9411c1272c",
+      "output_size": [
+        512,
+        512
+      ],
+      "visual_review": {
+        "reviewer": "Codex internal",
+        "status": "rework_required",
+        "reason": "Hub became an overly regular rhombus and blade-tip interpretation differs from the low-resolution source. Source-center interpolation is softer but does not resolve the whole fan.",
+        "evidence": [
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+          "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+        ]
+      },
+      "runtime_verified": false,
+      "release_eligible": false,
+      "new_neural_passes": 1,
+      "model": {
+        "path": "P:/AI/Codex/projects/fate-extra-psp-korean/work/hd-texture-pack/codex-hd-v1/references/realesrgan/RealESRGAN_x4plus_anime_6B.pth",
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "name": "RealESRGAN_x4plus_anime_6B.pth"
+      },
+      "precision": "float32",
+      "native_neural_scale": 4,
+      "post_scale": "Lanczos 2x",
+      "input": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-anime-sigma0.0-input.png",
+      "input_sha256": "2a9d055d20477e445fba3ddc8846ec154fdfb08ab1f6e771bd039551d90f2c0f",
+      "native": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\stage02-rework-v2\\BM082-anime-sigma0.0-native4x.png",
+      "native_sha256": "a4ca608950b15e00275f4d9838aee7c654e62c5c7f7d6a17f92bacd44451b9d6",
+      "mean_color_offset_rgb": [
+        -4.92327880859375,
+        -4.88970947265625,
+        -4.81048583984375
+      ],
+      "seconds": 0.062000000034458935,
+      "model_id": "anime",
+      "prefilter_sigma": 0.0,
+      "method": "Source-space RGB prefilter then actual local model inference, source input RGB mean restored.",
+      "metrics": {
+        "rgb_mae_0_255": 10.441975593566895,
+        "rgb_p99_abs_error_0_255": 46.0,
+        "rgb_mean_shift_0_255": [
+          -0.21533203125,
+          -0.211181640625,
+          -0.2529296875
+        ],
+        "interpretation": "Source-scale consistency only; not proof of restored true high-resolution detail or visual acceptance."
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "release_eligible": false,
+  "comparison_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road1.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_road2.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_geometry.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_fan.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\local_sr005_panel.png"
+  ],
+  "new_neural_passes": 12
+}

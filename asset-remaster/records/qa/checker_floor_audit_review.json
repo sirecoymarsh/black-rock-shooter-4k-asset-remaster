@@ -1,0 +1,43 @@
+{
+  "floor_review": {
+    "BM201": {
+      "decision": "held_rework_required",
+      "reason": "Whole-source comparison shows newly sharpened triangular fractures through checker cells and changed patch boundaries. Protect the grid and original damage masks before accepting the material."
+    },
+    "BM209": {
+      "decision": "held_rework_required",
+      "reason": "Upper patches and horizontal checker strip acquire folded/slit-like cell interpretations. Separate grid design from surrounding damage and material."
+    },
+    "BM244": {
+      "decision": "held_rework_required",
+      "reason": "Several checker patches acquire faceted/folded shading and altered internal boundaries. Requires source-guided checker and clipping masks."
+    },
+    "BM226": {
+      "decision": "retained_static_candidate_pending_geometric_audit",
+      "reason": "Whole-source comparison retains the diagonal checker rows and phase visibly. No mesh substitution or blur seen; precise cell/UV audit and runtime remain unverified."
+    }
+  },
+  "review_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_audit_BM201.png",
+      "sha256": "2cbd6f7b9f6c824dca42c3bec3176b534073f75cea4ed948dd4484a8afb5c7c7",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_audit_BM209.png",
+      "sha256": "2c6bda26dfce07e7c52aee22a99a0d8152ebb46f6d9dbc9bd199fba8bca249aa",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_audit_BM244.png",
+      "sha256": "1d3fd4f8980d7fc6bb26a5c1f7377545f66901bda2043b99e3dafaf56454523e",
+      "reviewer": "Codex internal"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\checker_audit_BM226.png",
+      "sha256": "ee68d43f989486341d60ff6ec4418df84cb5e0d07ad7040cebc8acc2b8def4c7",
+      "reviewer": "Codex internal"
+    }
+  ],
+  "runtime_verified": false
+}
