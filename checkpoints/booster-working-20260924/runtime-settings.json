@@ -1,0 +1,23 @@
+{
+  "SystemParam": {
+    "PSPModel": "1"
+  },
+  "CPU": {
+    "CPUCore": "1"
+  },
+  "Graphics": {
+    "GraphicsBackend": "3 (VULKAN)",
+    "InternalResolution": "8",
+    "ReplaceTextures": "True",
+    "SaveNewTextures": "True"
+  },
+  "Sound": {
+    "Enable": "True",
+    "GameVolume": "75"
+  },
+  "General": {
+    "AutoLoadSaveState": "0",
+    "RemoteISOPort": "49324",
+    "RemoteDebuggerLocal": "True"
+  }
+}

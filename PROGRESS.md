@@ -200,3 +200,18 @@
 - 기존black-rock-shooter-hd-retexture Git저장소에asset-remaster 체크포인트로정리. 원본ISO/무가공추출/모델가중치/에뮬레이터/세이브는기존로컬에보존하며Git에포함하지않음. 프로젝트명4K애셋리마스터;현PNG전체가4096해상도라는의미아님.
 
 - 통합 Git 체크포인트: asset-remaster/RESUME.md 및 snapshot-manifest.json.
+
+## 2026-09-24 — FONT-RUNTIME-001: 사용자 지적 글자 흐림 수정
+- 사용자 스크린샷: 리페어 200/500/800/1000 및 HP 설명, 포톤 샤워/BB 제노사이드/스킬 부스트+/이그니션이 저해상도. 제작량과 별개로 실제 표시가 미완료였음을 인정하고 글자 적용을 우선 수정.
+- 실행본 release/combined-test-20260924-001005에는 v4 폰트522키가 설치되어 있었지만, 당시 새 캐시138개가 전부 매핑에 없었다. 폰트 미설치라는 초기 가설은 기각. 기존 v4 숫자/영문은 nearest8배만 적용되어 실제 HD가 아니었음.
+- tools/build_brs_font_repair.py: 검증된 font.lpk의 15x15 RGBA와 모든 비어 있지 않은 셀을 정확히 대조, 원본 Shift-JIS 코드표로 ASCII 식별, Orbit 벡터 글꼴로 재렌더. 919한글+92ASCII/기호 제작. ASCII는 원본 잉크 경계/기준선/간격 유지. 같은 모양의 대시류26/27/28/59는 의미를 추정하지 않고 원본 유지.
+- 최종671 정확키(기존522+149추가), 관측487글리프. 전체 캐시 보호영역/간격 검사 통과, 미식별 셀0. 독립 읽기 리뷰는 첫660캐시43,012교체셀/365모호대시셀/해시/메트릭 오류0. 후속11캐시는 동일 빌더 검사 통과.
+- 기존 통합본 memstick/PSP/TEXTURES/NPUH10126/font-repair-v1에671캐시 설치, 전체 textures.ini711키. 백업 workspace/font-repair-20260924/textures-before.ini. build-manifest.json은 최초 빌드 기록이므로 갱신 수치는 별도 installation.json 참조.
+- 실게임: 원본 한글 ISO SHA525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a + 복사 state로 독립 QA. 전투 결과 리페어200/500, 아이템 이름200/500/800/1000/1500 및 HP 설명, 스킬 목록과 장착4종의 글자/영문/숫자/기호가 선명하게 표시됨을 직접 확인. 현재 관측 QA 폰트키 미매핑0. 이미지 보정 없는 실제 화면 비교: workspace/font-repair-20260924/font-runtime-before-after.png. 상세 runtime-proof.json.
+- QA는 workspace/font-repair-20260924/qa-session, PPSSPPBRSFontQA.exe, port49325. 마지막 PID70072. 원본 사용자 세이브 미변경. 기존 combined PID21532는 폰트 설치 전에 이미 종료. 그 종료 원인은 확정하지 않음. combined49324 제어는 UI 작업에 반환했고 폰트 QA49325는 별도임.
+- 한계: 정적 exact-cache 매핑이므로 아직 관측하지 않은 배열은 native fallback 가능. PGR 모델 통합 실행 검증이나 전체 UI/대사/전 지역 글자 완료가 아니다. 새 매핑 추가만으로 전역 완료 주장 금지. 다음은 안정된 전체 폰트 아틀라스 소비 또는 에뮬레이터의 글리프 단위 대체 방식 검토로 배열 의존을 제거해야 함.
+
+## 2026-09-24 — 성공 버전 Git 보존
+- 사용자 요청으로 checkpoints/booster-working-20260924 저장. 추가 모델링/생성/게임 조작 없음. ISO b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21의 모델 전체 RAM 일치 2곳과 사용자 동작 확인을 보존. 직접 캡처/장시간/전투 검증은 미완료.
+- RVLS/설치 데이터 동기화 및 메모리 v2 네 워드 수정, MEMSIZE=1, 현재 711키/711PNG와 폰트 QA 기록 저장. 실패한 v1은 채택하지 않음. 원본/출력 ISO·에뮬레이터·세이브·전체 RAM은 로컬 유지.
+- asset-remaster 작업 일시정지 유지. 다음 작업은 사용자 재개 시 이동/전투/반복 의상 변경 검사.

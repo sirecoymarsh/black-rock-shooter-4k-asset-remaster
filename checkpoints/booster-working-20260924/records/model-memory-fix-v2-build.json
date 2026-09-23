@@ -1,0 +1,76 @@
+{
+  "status": "static_validated_runtime_pending",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\diagnostics\\combined-20260924\\BRS_combined_model_loader_fix.iso",
+  "source_sha256": "b76505a511ae02cfac9440acc9743f8430466bd89c90aa0fe02b178c1567e3d9",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\diagnostics\\combined-20260924\\BRS_combined_model_memory_fix_v2.iso",
+  "output_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "elf_source_sha256": "ef8dfc67c82005e06e7ace5e315d7d433f9bc18bb7e1c34c4c4081ae7264fe7b",
+  "elf_output_sha256": "d8459ec7db6a4db8a8864b647585cf9fc7663f56e61d2b2e6aee31f205a0facd",
+  "changes": [
+    {
+      "address": "0x8804100",
+      "file_offset": 448,
+      "before": "0x3c040030",
+      "after": "0x3c040078",
+      "reason": "Shared load arena: 3 MiB to 7.5 MiB; existing first 1.5 MiB preserved",
+      "before_instruction": [
+        "lui $a0, 0x30"
+      ],
+      "after_instruction": [
+        "lui $a0, 0x78"
+      ]
+    },
+    {
+      "address": "0x884086c",
+      "file_offset": 248108,
+      "before": "0xa08025",
+      "after": "0x3c100060",
+      "reason": "Model heap constructor: size 6 MiB; caller base remains arena + 1.5 MiB",
+      "before_instruction": [
+        "move $s0, $a1"
+      ],
+      "after_instruction": [
+        "lui $s0, 0x60"
+      ]
+    },
+    {
+      "address": "0x8969638",
+      "file_offset": 1464056,
+      "before": "0x1480000",
+      "after": "0x1c80000",
+      "reason": "Main heap backing: 20.5 MiB to 28.5 MiB within declared 64 MiB RAM"
+    },
+    {
+      "address": "0x8974c98",
+      "file_offset": 1510744,
+      "before": "0x5400",
+      "after": "0x7400",
+      "reason": "SDK C heap reservation in KiB: 21 MiB to 29 MiB; preserves original 0.5 MiB headroom"
+    }
+  ],
+  "iso_edits": [
+    {
+      "iso_path": "PSP_GAME/SYSDIR/EBOOT.BIN",
+      "old_extent": 608,
+      "new_extent": 608,
+      "old_size": 1939920,
+      "new_size": 1939920,
+      "relocated": false,
+      "sha256": "d8459ec7db6a4db8a8864b647585cf9fc7663f56e61d2b2e6aee31f205a0facd"
+    },
+    {
+      "iso_path": "PSP_GAME/PARAM.SFO",
+      "old_extent": 54832,
+      "new_extent": 54832,
+      "old_size": 560,
+      "new_size": 588,
+      "relocated": false,
+      "sha256": "157d875c6eddb37a440ac402292d5bdd2d71aacee0941a4e77e2a3e45e711f05"
+    }
+  ],
+  "model_byte_exact": true,
+  "model_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "other_iso_files_preserved": true,
+  "requires_64mb_memory": true,
+  "runtime_verified": false
+}

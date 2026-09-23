@@ -1,0 +1,30 @@
+{
+  "iso_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "ram_local_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005\\captures\\model-ram-67604-1790183816726.bin",
+  "ram_sha256": "5832fcdc81f3e1e171fabb9edd1b5f72138a80b7f1c18495c9f0d99cbdb8be1f",
+  "ram_bytes": 67108864,
+  "ram_base": "0x08000000",
+  "ram_committed": false,
+  "candidate_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "insm_bytes": 3109904,
+  "insm_sha256": "2ec0b628309773e0c14745603aa9f2c510b4071f72b3eb5cdde84d0b88aa9ba8",
+  "candidate_matches": [
+    {
+      "address": "0x8cc9750",
+      "full_exact": true
+    },
+    {
+      "address": "0xa22d2a0",
+      "full_exact": true
+    }
+  ],
+  "rvls_records": [
+    {
+      "address": "0x9bbedd0",
+      "sha1": "2ea453d9452c1fcb4a3845a99ebfcdb1c5e697f7",
+      "size": 727157,
+      "offset": 311009184
+    }
+  ],
+  "original_report_sha256": "dd66f4455617977e586be0ca8fdef028b83c89ca8bf9a1598b7cfb38977a9460"
+}

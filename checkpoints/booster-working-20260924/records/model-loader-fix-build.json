@@ -1,0 +1,35 @@
+{
+  "status": "metadata_consistency_fixed_runtime_retest_pending",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005\\BRS_4K_combined_test.iso",
+  "source_sha256": "ffd94390d4f0703a5ba4c2fe66e15cf576215ffaabf588a2a0574cdb7398dd42",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\model_port\\diagnostics\\combined-20260924\\BRS_combined_model_loader_fix.iso",
+  "output_sha256": "b76505a511ae02cfac9440acc9743f8430466bd89c90aa0fe02b178c1567e3d9",
+  "model_geometry_unchanged": true,
+  "model_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "model_decompressed_sha256": "ba5edb2a1a48c419e2766971027f64ba69bf2f875d02aeaef7870cd9d970fbb7",
+  "rvls_record_offset": 18272,
+  "old_compressed_size": 322859,
+  "new_compressed_size": 727157,
+  "old_install_offset": 115471296,
+  "new_install_offset": 311009184,
+  "system_change": {
+    "iso_path": "PSP_GAME/USRDIR/GAMEDATA/SYSTEM.VOL",
+    "old_extent": 671022,
+    "new_extent": 671022,
+    "old_size": 4018048,
+    "new_size": 4018048,
+    "relocated": false,
+    "sha256": "85e1ca022ab4d1880e7b29f523080bce283861ae060fbd1f5d03bb117d0e2273"
+  },
+  "install_change": {
+    "iso_path": "PSP_GAME/INSDIR/INSTDAT.VLD",
+    "old_extent": 512240,
+    "new_extent": 673340,
+    "old_size": 311009184,
+    "new_size": 311736352,
+    "relocated": true,
+    "sha256": "b674f4dba781bdaf1dccc4c3664645eee773188b0c87ae1e3cd2e5a8b7b66c28"
+  },
+  "other_files_preserved": true,
+  "runtime_verified": false
+}

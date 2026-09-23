@@ -1,0 +1,25 @@
+{
+  "checkpoint_date": "2026-09-23",
+  "scope": "PGR face, eyes, hair, body, coat and zipper to PSP Booster Unit development checkpoint",
+  "candidate_bin_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "candidate_iso_sha256": "ffd94390d4f0703a5ba4c2fe66e15cf576215ffaabf588a2a0574cdb7398dd42",
+  "target": "NPUH10126 v1.01 / FCHR_P_BRS02 / Booster Unit",
+  "vertices": 15846,
+  "pgr_triangles": 18863,
+  "psp_bones": 47,
+  "original_reencode_runtime_consumed": true,
+  "original_reencode_model_in_ram_exact": true,
+  "pgr_candidate_runtime_verified": false,
+  "pgr_candidate_game_applied": false,
+  "full_animation_verified": false,
+  "interruption": "PGR candidate launched at 2026-09-22 18:55 KST; user physical Escape stopped Computer Use before candidate display or movement verification.",
+  "work_policy": "Git checkpoint only. Emulator operation requires a new user request to resume.",
+  "next_step": "On explicit resume: inspect separate model test state, start from Normal Suit and preview/equip Booster Unit, prove candidate memory consumption and inspect movement. Preserve source saves and coordinate UI with asset-remaster task.",
+  "limitations": [
+    "PGR facial blendshapes not transplanted",
+    "Original alternate hand meshes disabled; weapon meshes preserved",
+    "Accessory skin collapsed to available PSP joints; motion and clipping unverified",
+    "Memory budget and loader growth unverified"
+  ],
+  "historical_status_file": "records/history/STATUS_before_runtime_confirmation.json"
+}

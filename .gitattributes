@@ -2,3 +2,6 @@
 
 # Preserve checkpoint file hashes exactly
 /asset-remaster/** -text
+
+/model-port/** -text
+/checkpoints/** -text

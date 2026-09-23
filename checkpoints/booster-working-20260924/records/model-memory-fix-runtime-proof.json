@@ -1,0 +1,18 @@
+{
+  "status": "model_loaded_exact_user_reports_working",
+  "model_insm_full_exact_addresses": [
+    "0x08cc9750",
+    "0x0a22d2a0"
+  ],
+  "model_heap_bytes": 6291456,
+  "user_report_interpretation": "User reports the Booster retest works after previous repeated failures",
+  "pid": 67604,
+  "schema": "brs-booster-memory-fix-runtime/v1",
+  "long_gameplay_regression_verified": false,
+  "model_load_verified": true,
+  "iso_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "direct_visual_capture": false,
+  "model_heap_base": "0x0a006040",
+  "user_report": "?되네?",
+  "ram_proof": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005\\captures\\model-ram-67604-1790183816726.json"
+}

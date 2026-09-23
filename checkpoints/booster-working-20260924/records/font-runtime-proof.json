@@ -1,0 +1,25 @@
+{
+  "schema": "brs-font-runtime-proof/v1",
+  "status": "tested_scenes_only",
+  "scenes": [
+    "battle-results repair200/500",
+    "inventory names/digits and two-line item description",
+    "customize skill names and selected four-skill list"
+  ],
+  "source_iso_sha256": "525b5d2b7d8f4723be25b026e72b69d07d30c2cf84d8a48235577ca3728fc92a",
+  "combined_pack_installed": true,
+  "combined_model_runtime_verified": false,
+  "manifest_sha256": "fb3c20515d3544a79595b1b5104890acd2466e991e000af3e126ecaf761a83e0",
+  "static_cache_count": 671,
+  "unmapped_observed_qa_keys": [],
+  "captures": {
+    "items-after.png": "54c18b5ff1c05947efb5ed02c5a49ec50253eb786a5e6c87500deacfd6eacd0b",
+    "items-before.png": "8c12fc722394543f7209189b9cd5feace917dd45646333056a611cfced8748c6",
+    "results-after.png": "0f76331d5026eb3997f9202dbc4d8a8787ef9166f5042bda6fcd97b58c436b8c",
+    "results-before.png": "177f4c50a268c45370d026119e9d6ca947357424655f2b53a3f59454e9e6cbcf",
+    "skills-after.png": "f018197be0debdf148972a2e9c5a87e283bb2af2ed4bde8f1a4218149a70cfb8",
+    "skills-before.png": "3c1a655196e67ca77e74e30d49427a9a5b4b232da0206faa1a2d0c4c2e6c5d1f"
+  },
+  "coverage_limit": "New unseen dynamic cache contents can still fall back to native. Global solution requires stable font-atlas consumption or emulator-side glyph substitution, not more wildcard aliases.",
+  "preserved": "Button glyphs and bitmap UI titles remain original in this font-only QA; not a full UI upscale proof."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "model_loaded_exact_user_reports_working",
+  "game": "NPUH10126",
+  "iso_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "executable_sha256": "27d3edbb06dc623dab60877d3e3a975aef4034c7d4fac464e92fd4998864d2ec",
+  "font_cache_keys": 671,
+  "ui_keys": 17,
+  "total_keys": 711,
+  "environment_title_keys": 23,
+  "saved_candidates": 354,
+  "mapped_candidate_count": 22,
+  "unmapped_candidate_count": 332,
+  "requires_64mb_memory": true,
+  "model_load_verified": true,
+  "model_rendering_verification": {
+    "direct_visual_capture": false,
+    "quote": "?되네?",
+    "method": "user_report"
+  },
+  "font_validation_scope": "Observed item/description/skill caches verified in separate original-ISO QA; unseen caches still may fall back",
+  "runtime_verified": false,
+  "schema": "brs-working-checkpoint/v1",
+  "checkpoint_date": "2026-09-24",
+  "local_bundle": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005",
+  "candidate_bin_sha256": "d711234f6c86f771c9730eefbfc0b0e2621a8e88a26c3f9a2833f2b95203a597",
+  "model": "PGR Booster Unit: exact full model RAM load verified; user reports working",
+  "direct_visual_capture": false,
+  "long_gameplay_regression_verified": false,
+  "asset_production": "paused_by_user",
+  "scope": "Archive the successful version only; no new asset work or game operation"
+}

@@ -757,16 +757,16 @@
     },
     {
       "path": "model-port/STATUS.json",
-      "bytes": 1545,
-      "sha256": "be917018153b32942660f68628f6a67766b7272b33ecb60d94940cd5a91c7eb5",
+      "bytes": 1652,
+      "sha256": "091c8e9ef08d4425d39a93635a878aac4c364d40e3065f0f2c157b9639fae765",
       "source": null,
       "role": "current authoritative model status",
       "copy_exact": false
     },
     {
       "path": "model-port/README.md",
-      "bytes": 4897,
-      "sha256": "1cfdd2d12dbd54771093e514752e5d5a0df4540dfb60a40143821e4960b59b1a",
+      "bytes": 5109,
+      "sha256": "b2158cfb06faa82cf6afe1de2a1e5294cc9a52c6e981cda0b7bff1542ab252b4",
       "source": null,
       "role": "resume guide and verified scope",
       "copy_exact": false
@@ -788,7 +788,7 @@
       "copy_exact": false
     }
   ],
-  "total_bytes": 141148649,
+  "total_bytes": 141148968,
   "excluded": [
     "original game ISO/CSO",
     "PGR bundle snapshots and decryption key file",
@@ -796,5 +796,7 @@
     "saves and savestates",
     "32MiB PSP memory dumps"
   ],
-  "current_status": "model-port/STATUS.json"
+  "current_status": "model-port/STATUS.json",
+  "status_updated_at": "2026-09-24",
+  "current_success_checkpoint": "checkpoints/booster-working-20260924/STATUS.json"
 }
