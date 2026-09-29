@@ -1,0 +1,1780 @@
+{
+  "inventory_sha256": "e5332d90ec5b5035470c06ebf989fb755f46c72eee3efb948d44c8dac12f66fc",
+  "source_textures": 443,
+  "icon_source_aliases": 95,
+  "entries": [
+    {
+      "asset": "if::evt::mini_map_stage01.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage01.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage02.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage03.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage04.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage05.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::000::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::evt::mini_map_stage06.gz::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_mission_failed.gz::000",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_mission_failed.gz::001",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_mission_failed.gz::002",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::005",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::007",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::010",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::011",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::012",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::013",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::014",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::015",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::016",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::017",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::018",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::019",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::020",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::021",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::022",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::023",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::024",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::025",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::026",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::027",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::028",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::029",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::030",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_rec_info.gz::031",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::000",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::001",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::002",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::010",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::011",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::012",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::013",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::014",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::015",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::016",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::017",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::018",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::019",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::020",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::021",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::022",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::023",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::024",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::025",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::026",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::027",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::028",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::if_stage_select.gz::029",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::007",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::009",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_custom.gz::010",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::009",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::010",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::000",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::001",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::002",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::003",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::004",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::005",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::006",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::007",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::008",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::009",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::010",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::011",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::012",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::013",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::014",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::015",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::016",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::017",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::018",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::019",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::020",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::021",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::022",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::023",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::024",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::025",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::026",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::027",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::028",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::029",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::030",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::031",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::032",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::033",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::034",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::035",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::036",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::037",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::038",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::039",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::040",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::041",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::042",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::043",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::044",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::045",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::046",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::047",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::048",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::049",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::050",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::051",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::052",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::053",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::054",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::055",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::056",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::057",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::058",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::059",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::060",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::061",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::062",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::063",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::064",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::065",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::066",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::067",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::068",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::069",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::070",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::071",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::072",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::073",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::074",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::075",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::076",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::077",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::078",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::079",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::080",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::081",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::082",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::083",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::084",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::085",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::086",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::087",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::088",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::089",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::090",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::091",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::092",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::093",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::094",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::095",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::096",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::097",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::098",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::099",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::100",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::101",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::102",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::103",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::104",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::105",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::106",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::107",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::108",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::109",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::110",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::111",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::112",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::113",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::114",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::115",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::116",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::117",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::118",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::119",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::120",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::121",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::122",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::123",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::124",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::125",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::126",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::127",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::128",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::129",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::130",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::131",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::132",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::133",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::134",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::135",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::136",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::137",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::138",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::139",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::140",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::141",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::142",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::143",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::144",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_gallery.gz::011::145",
+      "status": "gallery_art_strip_not_standalone_ui_icon"
+    },
+    {
+      "asset": "if::menu::menu_item.gz::005",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_item.gz::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_item.gz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_item.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::005",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::007",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::010",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::011",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::012",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::013",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::014",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::015",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::016",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::017",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::018",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::019",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::020",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::021",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::022",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::023",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::024",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::025",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::026",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::027",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::028",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::029",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::030",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_library.gz::031",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::menu::menu_option.gz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_option.gz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "if::menu::menu_option.gz::007",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "if::pict::btl_pit260.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::ev01_01_0100b_bg.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::ev06_01_0600b_c06.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::ev06_01_0600b_c08.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::hut.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::kan00.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict01.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict02.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict03.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict101.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict102.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict103.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict11.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict21.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict22.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict23.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict31.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict32.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict33.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict41.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict42.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict43.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict44.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict51.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict71.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict72.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict81.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict91.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict92.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict93.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pict94.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit001.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit002.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit011.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit021.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit022.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit023.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit051.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit052.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit061.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit062.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit063.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit101.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit102.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit103.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit104.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit121.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit122.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit131.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit141.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit142.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit143.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit144.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit145.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit151.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit152.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit153.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit154.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit161.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit162.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit163.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit164.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit171.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit181.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit182.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit183.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "if::pict::tut_pit184.ptm.zzz",
+      "status": "embedded_tutorial_or_illustration_separate_scope"
+    },
+    {
+      "asset": "mc.vol::000_icon_new.png",
+      "status": "native_save_system_art_fixed_resolution_not_HD_texture_overlay"
+    },
+    {
+      "asset": "mc.vol::001_icon0.png",
+      "status": "native_save_system_art_fixed_resolution_not_HD_texture_overlay"
+    },
+    {
+      "asset": "mc.vol::002_pic1.png",
+      "status": "native_save_system_art_fixed_resolution_not_HD_texture_overlay"
+    },
+    {
+      "asset": "mc.vol::003_icon_sys.png",
+      "status": "native_save_system_art_fixed_resolution_not_HD_texture_overlay"
+    },
+    {
+      "asset": "system.vol::001_ascii.ptm",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::000::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::000::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::010",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::011",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::012",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::016",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::017",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::005",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::006",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::007",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::009",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::010",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::011",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::012",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::013",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::014",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::015",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::018::016",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::003",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::013",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::019::014",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::020",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::021::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::021::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::021::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::005_if_rsdsys.lpk::022::000",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::000::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::000::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::000::005",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::000::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::011",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::015",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::016",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::017",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::018",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::019",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::020",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::021",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::006_if_fldsys.lpk::022",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::003",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::006::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::006::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::010",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::011::003",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::011::004",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::007_if_btlsys.lpk::011::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "system.vol::010_persisvision.ptm",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::000_ie.zzz",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::000",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::001",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::002",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::003",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::004",
+      "status": "icon_family_covered"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::005",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::006",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::007",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    },
+    {
+      "asset": "title.vol::001_if_title.zzz::008",
+      "status": "other_UI_text_frame_map_background_or_art_not_selected_icon_family"
+    }
+  ],
+  "scope": "Standalone icon families in IF/SYSTEM/TITLE UI; screenshots, character artwork and native PSP save-system images are separate surfaces."
+}

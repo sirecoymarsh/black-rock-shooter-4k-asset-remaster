@@ -1,0 +1,117 @@
+{
+  "schema": "brs-ui-localization-batch-acceptance/v1",
+  "batch": "RUI-001..RUI-006",
+  "reviewed_on": "2026-09-29",
+  "translator_model": "Codex internal",
+  "reviewer": "active Codex internal model",
+  "task": "brs-hd-ui-fonts",
+  "manifest_sha256": "f69cbbfa41f87a37eaf964e5e27438534f65825911726150079b339f75288eb2",
+  "static_review_sha256": "6b67433b57f370136b6a3fe3f8b5bd231408c3543935756539a17b80175af2f6",
+  "determinism": {
+    "status": "PASS",
+    "compared_file_count": 768,
+    "changed_files": []
+  },
+  "visual_review": {
+    "status": "PASS",
+    "source_cleanplate_candidate_pages": 6,
+    "consumer_comparison_pages": 4,
+    "files": [
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-001-proof.png",
+        "sha256": "cc0c2c7fd51a9bd30844a3d07a7e68c1d38812a4afba250597ce8d869a246aaa"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-002-proof.png",
+        "sha256": "6fa9dfd8955f9ba1e35f6d7081c7d91446df4089f971af2d71ba10a6b23bf0a7"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-003-proof.png",
+        "sha256": "6405bca71a7a1c502e26ca7fca0f1263cb6e07b60bf5ad7035a3f1f559e6a426"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-004-proof.png",
+        "sha256": "fb6b3fb86794c129885a71870ebef607d016b9babdb1974e286b1f9d3c0a6b8c"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-005-proof.png",
+        "sha256": "f53e4430aad908d222b3e6e2f1fce824ef6f1b9d54ce968fc42145ba969931b8"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-006-proof.png",
+        "sha256": "4289ede2e4c4f235b8556aa99970ec01bd37a419fe28f7150f3fc8f8f204ff23"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-1.png",
+        "sha256": "4093448398bd24def99cbdd8e8a0686beddaf3936fc36f7e90536f64649b9620"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-2.png",
+        "sha256": "7c759d936a63bed404f06bb2a6b3c19dd9fb85a7bad70dd56e7e9b08fbb13a18"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-3.png",
+        "sha256": "f3ead6227c3dc78c4afcb7dc5d448c013cdac9fc30bd3931955bd41682bc3993"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-4.png",
+        "sha256": "aa207a7b048fe4301e7b9edc4ff3054510665d986ed8fbe68b3041f6626a6f4d"
+      }
+    ],
+    "findings": [
+      "All 19 Korean labels are legible and fit their source-derived slots.",
+      "Split MENU and CUSTOM+IZE consumers assemble into correct Korean labels.",
+      "Source labels and their antialias/shadow pixels are absent from clean plates.",
+      "Source-owned non-text icons, borders, star, numeric glyphs and padding retain source pixels.",
+      "Five/six native-pixel-high NEXT and CRITICAL slots remain inherently small; 8x output does not enlarge their on-screen layout."
+    ]
+  },
+  "semantic_review": {
+    "status": "PASS",
+    "label_count": 19,
+    "decisions": [
+      {
+        "source": "INFORMATION",
+        "target": "안내",
+        "reason": "Prompt/dialog heading"
+      },
+      {
+        "source": "NEXT",
+        "target": [
+          "다음",
+          "다음 레벨"
+        ],
+        "reason": "Message continuation and experience threshold have distinct functions"
+      },
+      {
+        "source": "ATTACK / DEFENSE",
+        "target": "공격력 / 방어력",
+        "reason": "Numeric attributes rather than action commands"
+      },
+      {
+        "source": "TALK / CHECK",
+        "target": "대화 / 조사",
+        "reason": "Field interaction prompts"
+      },
+      {
+        "source": "CUSTOMIZE / OPTIONS",
+        "target": "커스터마이즈 / 설정",
+        "reason": "Maintain terms on already localized destination screens"
+      }
+    ]
+  },
+  "static_status": "PASS",
+  "protected_regions": 15,
+  "baseline_keys_preserved": 711,
+  "new_exact_keys": 6,
+  "staged_total_keys": 717,
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "iso_modified": false,
+  "scope": "Static approval of this six-atlas batch only. Not whole-game localization or runtime acceptance.",
+  "remaining": [
+    "Actual in-game tint, animation, filtering and code-generated consumers remain unverified.",
+    "RUI-001 INFORMATION duplicate has no identified SDO consumer; it is reviewed as an atlas region.",
+    "Title sharp/glow family, unmapped existing UI candidates and tutorial decode investigation are next batches."
+  ]
+}

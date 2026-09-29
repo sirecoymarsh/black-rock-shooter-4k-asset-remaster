@@ -1,0 +1,383 @@
+{
+  "schema": "brs-remaining-ko-review/v1",
+  "manifest_sha256": "76a34eaa56aef1c38fa449a7a7cf34f97a460633cb4c48c5ffd49cca4c494aa6",
+  "static_status": "PASS",
+  "checks": [
+    {
+      "asset": "MUI-01",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "MUI-05",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "MUI-16",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "MUI-19",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "RUI-007",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "RUI-008",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "RUI-009",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "RUI-010",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "RUI-011",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "RUI-012",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "BUI-001",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "BUI-002",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "BUI-003",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "MUI-27",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "MUI-28",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 1
+    },
+    {
+      "asset": "UI-00",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-12",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-13",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-21",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-22",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 163,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-23",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-24",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "UI-26",
+      "outside_ownership_rgba": "exact",
+      "padding": "exact",
+      "clean_plus_layer": "exact",
+      "bindings": 1,
+      "observed_bindings": 0
+    },
+    {
+      "asset": "MUI-01",
+      "protected_box": [
+        0,
+        0,
+        91,
+        46
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "MUI-01",
+      "protected_box": [
+        96,
+        46,
+        103,
+        51
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "MUI-01",
+      "protected_box": [
+        117,
+        0,
+        128,
+        13
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-007",
+      "protected_box": [
+        0,
+        0,
+        20,
+        152
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-008",
+      "protected_box": [
+        0,
+        0,
+        64,
+        10
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-008",
+      "protected_box": [
+        0,
+        17,
+        64,
+        32
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-009",
+      "protected_box": [
+        0,
+        0,
+        128,
+        37
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-009",
+      "protected_box": [
+        39,
+        37,
+        77,
+        38
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "RUI-009",
+      "protected_box": [
+        85,
+        37,
+        128,
+        56
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "MUI-28",
+      "protected_box": [
+        0,
+        0,
+        44,
+        48
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "BUI-002",
+      "protected_box": [
+        88,
+        0,
+        128,
+        17
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "BUI-002",
+      "protected_box": [
+        67,
+        28,
+        78,
+        38
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "BUI-003",
+      "protected_box": [
+        0,
+        0,
+        24,
+        11
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "BUI-003",
+      "protected_box": [
+        30,
+        0,
+        32,
+        11
+      ],
+      "rgba_exact": true
+    },
+    {
+      "asset": "BUI-003",
+      "protected_box": [
+        0,
+        17,
+        9,
+        22
+      ],
+      "rgba_exact": true
+    },
+    {
+      "family": "도전 과제 제목",
+      "repeated_letter_aliases_empty": true,
+      "sdo_unchanged": true
+    },
+    {
+      "family": "전투 결과 제목",
+      "plural_S_alias_empty": true
+    }
+  ],
+  "consumer_proofs": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-1.png",
+      "sha256": "afec9439170712f65fa6c9d38787486d3c39233170019c81645df1ec1b59c9f5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-2.png",
+      "sha256": "7dd5e41dcda5651e6158eed1475b79bb6562384d3fa79bce27e23bc5162bbf43"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-3.png",
+      "sha256": "98df0e8652a96568b83c8da540b6aba54380117f1756dd599e14f9b12b7018f1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-4.png",
+      "sha256": "ed197047333735aaca2f90239e2cb8f57d089ce7c7943f11fcd19547864ed8e0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-5.png",
+      "sha256": "dd9c81a6a7c383eea41c97f1d6cc98460c88343113dfe9575cc138eeb98b2b6b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-6.png",
+      "sha256": "c2fbb4fc14572ee9a258696f74f3dcca8e5912a0ee56aec078609230e51dd2d7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-7.png",
+      "sha256": "5df9be4a3c29ab4fc75c30c047be341fbefe2ea47a538a6af978c10d3c19def1"
+    }
+  ],
+  "visual_status": "pending direct inspection",
+  "runtime_verified": false,
+  "live_installation_performed": false
+}

@@ -1,0 +1,2286 @@
+{
+  "schema": "brs-remaining-ko-001/v1",
+  "translator_model": "Codex internal",
+  "baseline": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\pack\\PSP\\TEXTURES\\NPUH10126",
+  "baseline_ini_sha256": "362d531b047feacbe68d54a85bfea708d8b5fa0b06bcefb029671f7ad4fc7302",
+  "font": {
+    "font": "Orbit Regular",
+    "font_sha256": "5d0206fb0a9e3eeac51aff8d4a6dbb7613d63fc435f1a51f96dc35cefb5f9f87",
+    "source_commit": "95122395c6d1fda07aebdf36f566a75678bc3bdd",
+    "license": "SIL OFL 1.1",
+    "author": "Sooun Cho, JAMO",
+    "source_url": "https://github.com/JAMO-TYPEFACE/Orbit",
+    "intent": "Straight diagonal Hangul strokes and uniform stroke construction echo the fixed-ISO UI; not a claim of an exact original typeface match.",
+    "ui_space_advance_em": 0.45,
+    "ui_ink_expansion": "square max filter, radius round(font_size*0.015), minimum 1 output pixel",
+    "body_origin_8x": [
+      8,
+      -33
+    ],
+    "body_size_8x": 112,
+    "body_ink_expansion": 0,
+    "runtime_status": "unverified candidate"
+  },
+  "build_script_sha256": "6d54d1fae213ee7fd479db06bd0f284790306a35751d6e20241d341f3c65220f",
+  "records": [
+    {
+      "id": "MUI-01",
+      "asset": "if::menu::if_rec_info.gz::005",
+      "source_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+      "logical_size": [
+        128,
+        96
+      ],
+      "binding": {
+        "keys": {
+          "000000000d6c3d6677f95023": 128
+        },
+        "observed": [
+          "000000000d6c3d6677f95023"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\if_rec_info.gz\\container.lpk",
+        "parent_sha256": "c4ed95c5757f14f14639bd46e8daff71312210fc47473c77335715f66beb8845",
+        "offset": 27968,
+        "source_sha256": "19b57b5bca4eb4ed85234d077f6046b028138d084026be29dabfc65c77bc3755",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "TO UNLOCK",
+          "korean": "해금 조건",
+          "box": [
+            58,
+            46,
+            96,
+            58
+          ],
+          "uid": "MUI-01/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "TO CLEAR",
+          "korean": "완료 조건",
+          "box": [
+            85,
+            84,
+            123,
+            96
+          ],
+          "uid": "MUI-01/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "REWARD",
+          "korean": "보상",
+          "box": [
+            88,
+            76,
+            127,
+            84
+          ],
+          "slot": [
+            89,
+            77,
+            126,
+            83
+          ],
+          "uid": "MUI-01/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "CLEAR",
+          "korean": "완료",
+          "box": [
+            103,
+            46,
+            120,
+            51
+          ],
+          "uid": "MUI-01/4",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "NO.",
+          "korean": "번호",
+          "box": [
+            91,
+            30,
+            104,
+            35
+          ],
+          "uid": "MUI-01/5",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\source.png",
+          "sha256": "1bd07188ce86cfa006f0bb254ee7410cc5edd6567323f910f34a7a4be776606e"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\before.png",
+          "sha256": "15112ec16fb8c3d39e222b479201d076761f2c5dc3208b170ef204c7246df3c7"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\clean.png",
+          "sha256": "258642cd9532fe0313810f1e7faee2fb8f5d38649e43f7460e9082b949799e68"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\layer.png",
+          "sha256": "7ae6d40e54f7cf303a5d47852420a816000806c694af814922a6bfb81cc2f22d"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\mask.png",
+          "sha256": "23a8d6e88ed223ad6f17c9e55ba2493c7aa77e130fa41200df7c947a6bfd4054"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-01\\candidate.png",
+          "sha256": "61ae6ae78eb6f27d4b00ce551add1ce2932e186cba1b666a12d19de6b2b166c4"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-01.png",
+      "output_sha256": "61ae6ae78eb6f27d4b00ce551add1ce2932e186cba1b666a12d19de6b2b166c4",
+      "runtime_verified": false
+    },
+    {
+      "id": "MUI-05",
+      "asset": "if::menu::if_stage_select.gz::014",
+      "source_sha256": "497c218abae49c4b8e760b2937994137ad1c80a7aca6465563e210427d718559",
+      "logical_size": [
+        128,
+        48
+      ],
+      "binding": {
+        "keys": {
+          "000000007659bb4033bec8ea": 64
+        },
+        "observed": [
+          "000000007659bb4033bec8ea"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\if_stage_select.gz\\container.lpk",
+        "parent_sha256": "b5f73ab55efb240033d266ece7ce752669284673f60735eeaaf46269366d2dad",
+        "offset": 244320,
+        "source_sha256": "497c218abae49c4b8e760b2937994137ad1c80a7aca6465563e210427d718559",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "STAGE SELECT",
+          "korean": "스테이지 선택",
+          "box": [
+            0,
+            0,
+            128,
+            11
+          ],
+          "slot": [
+            1,
+            0,
+            128,
+            10
+          ],
+          "uid": "MUI-05/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "LOAD",
+          "korean": "불러오기",
+          "box": [
+            0,
+            22,
+            46,
+            32
+          ],
+          "uid": "MUI-05/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "SAVE",
+          "korean": "저장",
+          "box": [
+            0,
+            11,
+            46,
+            21
+          ],
+          "uid": "MUI-05/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "HUNT",
+          "korean": "헌트",
+          "box": [
+            57,
+            11,
+            104,
+            21
+          ],
+          "uid": "MUI-05/4",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "MENU",
+          "korean": "메뉴",
+          "box": [
+            0,
+            32,
+            46,
+            42
+          ],
+          "uid": "MUI-05/5",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "STORY",
+          "korean": "스토리",
+          "box": [
+            46,
+            32,
+            128,
+            42
+          ],
+          "uid": "MUI-05/6",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "EXTRA",
+          "korean": "추가 임무",
+          "box": [
+            57,
+            22,
+            114,
+            32
+          ],
+          "uid": "MUI-05/7",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "MISSION",
+          "korean": "임무",
+          "box": [
+            0,
+            43,
+            39,
+            48
+          ],
+          "slot": [
+            1,
+            43,
+            38,
+            48
+          ],
+          "uid": "MUI-05/8",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "REC. LEVEL",
+          "korean": "권장 레벨",
+          "box": [
+            39,
+            43,
+            93,
+            48
+          ],
+          "slot": [
+            39,
+            43,
+            91,
+            48
+          ],
+          "uid": "MUI-05/9",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "TYPE",
+          "korean": "유형",
+          "box": [
+            93,
+            43,
+            116,
+            48
+          ],
+          "uid": "MUI-05/10",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\source.png",
+          "sha256": "179dd4945bfebebcb295597c4b433ddb66a5eab2f5faeb972b753142f741ea57"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\before.png",
+          "sha256": "87bdeef5f5e43e35b215c64f36932506c5c77ff8490a43b7abc577180cca330d"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\clean.png",
+          "sha256": "b7232ea767685257fd947d5ae90e33eaefceedb68a18582f3aee5a2d9c164a75"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\layer.png",
+          "sha256": "453e34c933256da6bb1e87689f4b91aa59e3217dbffd2d915d8f314bdc00f3cd"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\mask.png",
+          "sha256": "2b2c172d2259b96854675358d8c3025d0e51a3ac99f27bab1b93f7d627379db7"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-05\\candidate.png",
+          "sha256": "4c30013c20050cbd65aa8b7ae46a8547e5b500adc524cebd52c14c17e2753b38"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-05.png",
+      "output_sha256": "4c30013c20050cbd65aa8b7ae46a8547e5b500adc524cebd52c14c17e2753b38",
+      "runtime_verified": false
+    },
+    {
+      "id": "MUI-16",
+      "asset": "if::menu::menu_option.gz::005",
+      "source_sha256": "bb3a786093f4c5c51710b380bc35e0634167beba4f0db08128ac21cbf7086808",
+      "logical_size": [
+        256,
+        64
+      ],
+      "binding": {
+        "keys": {
+          "0000000061b9cd9108a0507a": 64
+        },
+        "observed": [
+          "0000000061b9cd9108a0507a"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\menu_option.gz\\container.lpk",
+        "parent_sha256": "1b834cc5468c16b529c20fa268df538458e76a7b04986a0e357ee673aac1b80f",
+        "offset": 30864,
+        "source_sha256": "bb3a786093f4c5c51710b380bc35e0634167beba4f0db08128ac21cbf7086808",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "BGM VOLUME",
+          "korean": "배경음 음량",
+          "box": [
+            1,
+            18,
+            104,
+            28
+          ],
+          "align": "left",
+          "uid": "MUI-16/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\source.png",
+          "sha256": "7d8e7b04cb4f43148401a6e66d4f177c57a49fc3f2cb1292f4cd4ccb0a0f2384"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\before.png",
+          "sha256": "914ee33faec96ea3015f9fae07d8a61c86b69a304576f60ec944698e64a8ff39"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\clean.png",
+          "sha256": "2c34e1fa6291e13d86c967e0158b5f558a5973c2613ceebf1144a08580d41b70"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\layer.png",
+          "sha256": "448ebc926aa1f960e5143deaabaf5888dc648f2aeac399b033d0d87e43fd35c8"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\mask.png",
+          "sha256": "19018ec2ccdfad094e17562d6be8db0c9999338643aee535717fc27591fb8dde"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-16\\candidate.png",
+          "sha256": "b133cb6b644941ae8f2d856d42ce756226679233d0dd017b710a9ab8a6a70574"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-16.png",
+      "output_sha256": "b133cb6b644941ae8f2d856d42ce756226679233d0dd017b710a9ab8a6a70574",
+      "runtime_verified": false
+    },
+    {
+      "id": "MUI-19",
+      "asset": "system.vol::007_if_btlsys.lpk::003",
+      "source_sha256": "37e2c3c1ff686d80725f6c655b77515974c91421d548afcc6b3dd6ecdaf06222",
+      "logical_size": [
+        256,
+        48
+      ],
+      "binding": {
+        "keys": {
+          "00000000a10bede75312961c": 64
+        },
+        "observed": [
+          "00000000a10bede75312961c"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\container.lpk",
+        "parent_sha256": "fc0054f3161fbdc4069a21045220f74852c70c721e6f647123dd071dff49adf0",
+        "offset": 10848,
+        "source_sha256": "37e2c3c1ff686d80725f6c655b77515974c91421d548afcc6b3dd6ecdaf06222",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "OK",
+          "korean": "준비",
+          "box": [
+            155,
+            37,
+            166,
+            42
+          ],
+          "uid": "MUI-19/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "HP",
+          "korean": "체력",
+          "box": [
+            185,
+            37,
+            197,
+            42
+          ],
+          "uid": "MUI-19/2",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\source.png",
+          "sha256": "6e09c4455ec85b315bb84b51fae19a34885ecd2801e14649a493ad07db00ac6d"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\before.png",
+          "sha256": "6e09c4455ec85b315bb84b51fae19a34885ecd2801e14649a493ad07db00ac6d"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\clean.png",
+          "sha256": "73a2faf4a6ea32debaf82fe6c4dc427fa962fb2530de560dcd841d7a72b9794c"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\layer.png",
+          "sha256": "15b3faa142904cf093c8ca28b804e597ebc9a0a77524a36d233e8a1b70169ab3"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\mask.png",
+          "sha256": "46f98dfafcff875f4224b8738cb52617486ca66299104ce885471109a2d94b17"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-19\\candidate.png",
+          "sha256": "9ae96cd44dc203f48b9138c9f0bebb93e7fd93efda6f1ab1a453542e40ebac33"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-19.png",
+      "output_sha256": "9ae96cd44dc203f48b9138c9f0bebb93e7fd93efda6f1ab1a453542e40ebac33",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-007",
+      "asset": "system.vol::005_if_rsdsys.lpk::016",
+      "source_sha256": "873f835f03d63a5183b19b3d4c6f828ec4c530e04eac18e8e79f308808043105",
+      "logical_size": [
+        32,
+        152
+      ],
+      "binding": {
+        "keys": {
+          "00000000a10be3ea417e08cb": 256
+        },
+        "observed": [
+          "00000000a10be3ea417e08cb"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\container.lpk",
+        "parent_sha256": "85538001696e17a35f6eeb9906910ae25105a52817c18d2ecf255ffed5fcdcd1",
+        "offset": 59792,
+        "source_sha256": "873f835f03d63a5183b19b3d4c6f828ec4c530e04eac18e8e79f308808043105",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "HP",
+          "korean": "체력",
+          "box": [
+            20,
+            1,
+            32,
+            6
+          ],
+          "uid": "RUI-007/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\source.png",
+          "sha256": "17dd6a18fddd4c9fd11d51a295161f7f1bd0e092082d18594f1afa937c76bbf3"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\before.png",
+          "sha256": "17dd6a18fddd4c9fd11d51a295161f7f1bd0e092082d18594f1afa937c76bbf3"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\clean.png",
+          "sha256": "aaa8cbf8f0b7159614389a024ffdadda08ffd041d353b49f22a99cc9b91f01b3"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\layer.png",
+          "sha256": "dcf3b936445c80d724f53080aaefea4ad1649748a74b4b13d0ff2e8455aa6c60"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\mask.png",
+          "sha256": "c23402a495fa252a8fdd1ad2bd1f23e0b467d0bdd987d4b37329f062bf1f42f4"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-007\\candidate.png",
+          "sha256": "8b99e698762fb17dfc6b33e9808f24783893d042dcfc089690915b9d736e463d"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-007.png",
+      "output_sha256": "8b99e698762fb17dfc6b33e9808f24783893d042dcfc089690915b9d736e463d",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-008",
+      "asset": "system.vol::005_if_rsdsys.lpk::018::015",
+      "source_sha256": "559d6b66cf79acd704c3bc17730e02df4458487b3e58ec5adbf7164004716da2",
+      "logical_size": [
+        64,
+        32
+      ],
+      "binding": {
+        "keys": {
+          "00000000108e8825c63c0d16": 32
+        },
+        "observed": [
+          "00000000108e8825c63c0d16"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\container.lpk",
+        "parent_sha256": "6c5c5af4ff9184a19844da509cfb7900b097fd70a8aeb739db046d523b03001d",
+        "offset": 39952,
+        "source_sha256": "559d6b66cf79acd704c3bc17730e02df4458487b3e58ec5adbf7164004716da2",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "LV",
+          "korean": "레벨",
+          "box": [
+            24,
+            10,
+            37,
+            17
+          ],
+          "clean": [
+            40,
+            40,
+            40,
+            255
+          ],
+          "ink": [
+            233,
+            234,
+            220,
+            255
+          ],
+          "uid": "RUI-008/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\source.png",
+          "sha256": "367137906d5183ec87612920275240c5d8ccf926d0858442fb1084fdc3c59866"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\before.png",
+          "sha256": "367137906d5183ec87612920275240c5d8ccf926d0858442fb1084fdc3c59866"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\clean.png",
+          "sha256": "d74687c33c9fc522afa1094c4def4a0b025911fb436112fa28c423ae26ad420c"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\layer.png",
+          "sha256": "edd58055d168ef991260a9c1ff28f6c769e6424595eace4db0a640d6ca768c0c"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\mask.png",
+          "sha256": "50b2ad0188ffbba11247558a1b0ffa94f693e6805310fe3b99b4598df1497da1"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-008\\candidate.png",
+          "sha256": "1ea6ee36572370541ca27e114fb0cb620142774903eb68170c3b811a7607198e"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-008.png",
+      "output_sha256": "1ea6ee36572370541ca27e114fb0cb620142774903eb68170c3b811a7607198e",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-009",
+      "asset": "system.vol::005_if_rsdsys.lpk::018::016",
+      "source_sha256": "c9136c3f0a2be275df827a23f958699e615053e08fdaf00475ff28e9d700f005",
+      "logical_size": [
+        128,
+        56
+      ],
+      "binding": {
+        "keys": {
+          "00000000f2cff8e71da84b27": 64
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\container.lpk",
+        "parent_sha256": "85538001696e17a35f6eeb9906910ae25105a52817c18d2ecf255ffed5fcdcd1",
+        "offset": 106896,
+        "source_sha256": "c9136c3f0a2be275df827a23f958699e615053e08fdaf00475ff28e9d700f005",
+        "enclosing_lpk": [
+          {
+            "child": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\container.lpk",
+            "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\container.lpk",
+            "child_offset": 63856
+          }
+        ],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "OVER / HEAT",
+          "korean": "과열",
+          "box": [
+            1,
+            37,
+            24,
+            50
+          ],
+          "uid": "RUI-009/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "STUN",
+          "korean": "기절",
+          "box": [
+            1,
+            51,
+            27,
+            56
+          ],
+          "uid": "RUI-009/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "JUST",
+          "korean": "정확",
+          "box": [
+            28,
+            51,
+            54,
+            56
+          ],
+          "uid": "RUI-009/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "GOOD",
+          "korean": "성공",
+          "box": [
+            55,
+            51,
+            79,
+            56
+          ],
+          "uid": "RUI-009/4",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "STATUS / DOWN",
+          "korean": "능력\n저하",
+          "box": [
+            28,
+            38,
+            54,
+            50
+          ],
+          "uid": "RUI-009/5",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "BAD / EFFECT",
+          "korean": "상태\n이상",
+          "box": [
+            55,
+            39,
+            73,
+            50
+          ],
+          "extra": [
+            [
+              73,
+              44,
+              77,
+              50
+            ]
+          ],
+          "uid": "RUI-009/6",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "UP",
+          "korean": "상승",
+          "box": [
+            73,
+            39,
+            83,
+            44
+          ],
+          "uid": "RUI-009/7",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\source.png",
+          "sha256": "7c2bbe3bab1211e1c75c9355d5754b807f77c0469e9889fd925fe596e689b5f8"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\before.png",
+          "sha256": "7c2bbe3bab1211e1c75c9355d5754b807f77c0469e9889fd925fe596e689b5f8"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\clean.png",
+          "sha256": "19ce5926b0a811abc0b22435a8427178c8dd8bb00ea48b94f6045f0bc40a4baa"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\layer.png",
+          "sha256": "d0fa53e3bc19deac1d9f8859d718037e260d3ad7c871e0df083eba7a634bd54a"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\mask.png",
+          "sha256": "5687861541ffe5d474149f8ca8b938e99f953a1324b1d00c757cc77f588cc5a5"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-009\\candidate.png",
+          "sha256": "74ffb244997b8b64e208136c7a9879489e465494a34e240cac5bc2b0385256d3"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-009.png",
+      "output_sha256": "74ffb244997b8b64e208136c7a9879489e465494a34e240cac5bc2b0385256d3",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-010",
+      "asset": "system.vol::005_if_rsdsys.lpk::019::007",
+      "source_sha256": "befb06a30a5c293953af59259a06d98db527049148b4b7b65c52f644b9e61290",
+      "logical_size": [
+        32,
+        72
+      ],
+      "binding": {
+        "keys": {
+          "000000001ee1eabb59a18747": 128
+        },
+        "observed": [
+          "000000001ee1eabb59a18747"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\019\\container.lpk",
+        "parent_sha256": "80458cb1307202d81230ecabc47c8251b0031d65b3b748b0de86a120d5de0666",
+        "offset": 96752,
+        "source_sha256": "befb06a30a5c293953af59259a06d98db527049148b4b7b65c52f644b9e61290",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "CHALLE / NGES",
+          "korean": "도전 과제",
+          "box": [
+            1,
+            1,
+            11,
+            66
+          ],
+          "rotate": true,
+          "extra": [
+            [
+              22,
+              1,
+              32,
+              44
+            ]
+          ],
+          "uid": "RUI-010/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "MAX",
+          "korean": "최대",
+          "box": [
+            12,
+            1,
+            22,
+            33
+          ],
+          "rotate": true,
+          "uid": "RUI-010/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "HP",
+          "korean": "체력",
+          "box": [
+            12,
+            34,
+            22,
+            55
+          ],
+          "rotate": true,
+          "uid": "RUI-010/3",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\source.png",
+          "sha256": "4e7baa852b95a5c86249a67176224b971d4508a5dc3f2b131251f8ebe54125e9"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\before.png",
+          "sha256": "4e7baa852b95a5c86249a67176224b971d4508a5dc3f2b131251f8ebe54125e9"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\clean.png",
+          "sha256": "a18f4eb3328cb9ae335664502b7aa4d918365fca0a8016827acf4f1f22d44f73"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\layer.png",
+          "sha256": "ebbddbb7b367f16576e6560b1ed7d2cbb67ad45bf2d9c2ec8bc26c357f9d2359"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\mask.png",
+          "sha256": "42b1224950649a187adc8f6518fd22eb114e7edc7755f97d22ae3527119e24c5"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-010\\candidate.png",
+          "sha256": "dc7c00ec33b597f98e0b4476a05ed6e9a1ff5a1d50609e518c02933e27536161"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-010.png",
+      "output_sha256": "dc7c00ec33b597f98e0b4476a05ed6e9a1ff5a1d50609e518c02933e27536161",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-011",
+      "asset": "system.vol::005_if_rsdsys.lpk::020",
+      "source_sha256": "2db9798db56ec28704f09fa4d7ec900e9e2eeb3f1a067d83c19945377c6793d8",
+      "logical_size": [
+        64,
+        240
+      ],
+      "binding": {
+        "keys": {
+          "0000000000fbaacab9e9a9c5": 256
+        },
+        "observed": [
+          "0000000000fbaacab9e9a9c5"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\container.lpk",
+        "parent_sha256": "85538001696e17a35f6eeb9906910ae25105a52817c18d2ecf255ffed5fcdcd1",
+        "offset": 276464,
+        "source_sha256": "2db9798db56ec28704f09fa4d7ec900e9e2eeb3f1a067d83c19945377c6793d8",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "ATK",
+          "korean": "공격",
+          "box": [
+            16,
+            182,
+            32,
+            188
+          ],
+          "color_mask": true,
+          "ink": [
+            198,
+            86,
+            94,
+            255
+          ],
+          "uid": "RUI-011/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "DEF",
+          "korean": "방어",
+          "box": [
+            32,
+            182,
+            48,
+            188
+          ],
+          "color_mask": true,
+          "ink": [
+            107,
+            137,
+            94,
+            255
+          ],
+          "uid": "RUI-011/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "SPD",
+          "korean": "속도",
+          "box": [
+            48,
+            182,
+            64,
+            188
+          ],
+          "color_mask": true,
+          "ink": [
+            88,
+            166,
+            215,
+            255
+          ],
+          "uid": "RUI-011/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "ATK",
+          "korean": "공격",
+          "box": [
+            0,
+            198,
+            16,
+            204
+          ],
+          "color_mask": true,
+          "ink": [
+            198,
+            86,
+            94,
+            255
+          ],
+          "uid": "RUI-011/4",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "DEF",
+          "korean": "방어",
+          "box": [
+            16,
+            198,
+            32,
+            204
+          ],
+          "color_mask": true,
+          "ink": [
+            107,
+            137,
+            94,
+            255
+          ],
+          "uid": "RUI-011/5",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "SPD",
+          "korean": "속도",
+          "box": [
+            32,
+            198,
+            48,
+            204
+          ],
+          "color_mask": true,
+          "ink": [
+            88,
+            166,
+            215,
+            255
+          ],
+          "uid": "RUI-011/6",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\source.png",
+          "sha256": "986f35bb6bd41a96060e2c5bffdd7f07e0d02e48fb6a410fed30ce4959c92c60"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\before.png",
+          "sha256": "986f35bb6bd41a96060e2c5bffdd7f07e0d02e48fb6a410fed30ce4959c92c60"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\clean.png",
+          "sha256": "a68f7f3a596ecd6f1ed36dc6994a89c013153402b78dcf9afa8fc9de3c33343a"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\layer.png",
+          "sha256": "3e5f064c95c0c6c067d3af06a514c94b271331a4e2dc021a25d5224e25baa849"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\mask.png",
+          "sha256": "54e210a2ddd7e75d65d3027b1caeef52d0550e0c5ba2ecbe37a86787ceca43a0"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-011\\candidate.png",
+          "sha256": "bdacd12d1aef1140c08579ddcd15fac63af8a60c52e3f68dedc8cb6dfaae6c8f"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-011.png",
+      "output_sha256": "bdacd12d1aef1140c08579ddcd15fac63af8a60c52e3f68dedc8cb6dfaae6c8f",
+      "runtime_verified": false
+    },
+    {
+      "id": "RUI-012",
+      "asset": "system.vol::005_if_rsdsys.lpk::021::004",
+      "source_sha256": "765b0e1a6fe1ad6c42988f052a38b2b6f21084caf6d983f00fcd92b83e4d7c77",
+      "logical_size": [
+        32,
+        56
+      ],
+      "binding": {
+        "keys": {
+          "00000000717a71bdf4acedb0": 64
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\021\\container.lpk",
+        "parent_sha256": "638304bb7562b01001b07deeda33a85b6967d8d734206fc0270c0a27c653ef74",
+        "offset": 11200,
+        "source_sha256": "765b0e1a6fe1ad6c42988f052a38b2b6f21084caf6d983f00fcd92b83e4d7c77",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "CHALLENGE",
+          "korean": "도전 과제",
+          "box": [
+            9,
+            1,
+            14,
+            54
+          ],
+          "rotate": true,
+          "uid": "RUI-012/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "UNLOCKED",
+          "korean": "해금",
+          "box": [
+            15,
+            1,
+            20,
+            48
+          ],
+          "rotate": true,
+          "uid": "RUI-012/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "CLEARED",
+          "korean": "완료",
+          "box": [
+            27,
+            1,
+            32,
+            42
+          ],
+          "rotate": true,
+          "uid": "RUI-012/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "CLEAR",
+          "korean": "완료",
+          "box": [
+            21,
+            1,
+            26,
+            18
+          ],
+          "rotate": true,
+          "uid": "RUI-012/4",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\source.png",
+          "sha256": "2ecc8944c4dc1370b6a7987a96960c0118ca3e0c2641fec4dfd88b524c0ca67a"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\before.png",
+          "sha256": "2ecc8944c4dc1370b6a7987a96960c0118ca3e0c2641fec4dfd88b524c0ca67a"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\clean.png",
+          "sha256": "ec71800c54d24423b46a1bc0656e4b00e2b931528f239627e9fb18459aab9530"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\layer.png",
+          "sha256": "96e8673f21f812c67a0656d210f772e087d0e98858ea48c7345844f0138b490d"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\mask.png",
+          "sha256": "6fa3cec66063e84f34a887c55f2c145c572448a519e27201631441668fbf9d70"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\RUI-012\\candidate.png",
+          "sha256": "7e57a18361a29d546fc2687bfc353fcb217a32529eefa91e8fc547c50d87977a"
+        }
+      },
+      "replacement": "remaining-ko-001/RUI-012.png",
+      "output_sha256": "7e57a18361a29d546fc2687bfc353fcb217a32529eefa91e8fc547c50d87977a",
+      "runtime_verified": false
+    },
+    {
+      "id": "BUI-001",
+      "asset": "system.vol::007_if_btlsys.lpk::006::003",
+      "source_sha256": "d4c9bcef6f2433327cfdc8df1d9e7fbf447a0ec07711343a8f29dce7860ecfe8",
+      "logical_size": [
+        64,
+        200
+      ],
+      "binding": {
+        "keys": {
+          "000000005d59f584c0709743": 256
+        },
+        "observed": [
+          "000000005d59f584c0709743"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\006\\container.lpk",
+        "parent_sha256": "0712b4c653f2b456ffddd5537c217bd07f70644967b1530d12f99891be2ed3bc",
+        "offset": 7584,
+        "source_sha256": "d4c9bcef6f2433327cfdc8df1d9e7fbf447a0ec07711343a8f29dce7860ecfe8",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "ITEMS FOUND",
+          "korean": "획득 아이템",
+          "box": [
+            54,
+            6,
+            63,
+            69
+          ],
+          "rotate": true,
+          "blue_plate": true,
+          "ink": [
+            195,
+            220,
+            240,
+            220
+          ],
+          "uid": "BUI-001/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\source.png",
+          "sha256": "56861caddb4877cb53892bfb8509004617fef66722f862f372a134fc63d85bd5"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\before.png",
+          "sha256": "56861caddb4877cb53892bfb8509004617fef66722f862f372a134fc63d85bd5"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\clean.png",
+          "sha256": "7fed27fb3efef22572fe225b481c963a85ee1bc3c81abc22a917a065374fbb57"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\layer.png",
+          "sha256": "5cefdcc70a2f1db8643a363bf030ecda335252e97ed2b683ca09712543bfba17"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\mask.png",
+          "sha256": "d83e15293ea974bea31a06cc5631ebd1f6f51267def5f7c60767e558992592c6"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-001\\candidate.png",
+          "sha256": "5bb26f994ecf5029a22692043c8219036130fd3f8706332095931a93daa91394"
+        }
+      },
+      "replacement": "remaining-ko-001/BUI-001.png",
+      "output_sha256": "5bb26f994ecf5029a22692043c8219036130fd3f8706332095931a93daa91394",
+      "runtime_verified": false
+    },
+    {
+      "id": "BUI-002",
+      "asset": "system.vol::007_if_btlsys.lpk::006::004",
+      "source_sha256": "0d3c66f11c39f65a845a9763abf382f5143835268253b8c985c356ab04cf4593",
+      "logical_size": [
+        128,
+        40
+      ],
+      "binding": {
+        "keys": {
+          "000000003340f1bf6e0043f3": 64
+        },
+        "observed": [
+          "000000003340f1bf6e0043f3"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\container.lpk",
+        "parent_sha256": "fc0054f3161fbdc4069a21045220f74852c70c721e6f647123dd071dff49adf0",
+        "offset": 60544,
+        "source_sha256": "0d3c66f11c39f65a845a9763abf382f5143835268253b8c985c356ab04cf4593",
+        "enclosing_lpk": [
+          {
+            "child": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\006\\container.lpk",
+            "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\container.lpk",
+            "child_offset": 39120
+          }
+        ],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "RESULT(S)",
+          "korean": "결과",
+          "box": [
+            0,
+            5,
+            67,
+            17
+          ],
+          "slot": [
+            1,
+            6,
+            23,
+            16
+          ],
+          "reason": "Shared S crop [23,6,33,16] kept blank; Korean has no plural suffix.",
+          "uid": "BUI-002/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "BATTLE",
+          "korean": "전투",
+          "box": [
+            0,
+            28,
+            67,
+            40
+          ],
+          "slot": [
+            1,
+            28,
+            66,
+            38
+          ],
+          "align": "right",
+          "uid": "BUI-002/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "LV",
+          "korean": "레벨",
+          "box": [
+            67,
+            5,
+            87,
+            17
+          ],
+          "slot": [
+            67,
+            6,
+            87,
+            16
+          ],
+          "uid": "BUI-002/3",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "LEVEL",
+          "korean": "레벨",
+          "box": [
+            0,
+            17,
+            56,
+            28
+          ],
+          "slot": [
+            1,
+            17,
+            55,
+            27
+          ],
+          "align": "right",
+          "uid": "BUI-002/4",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "UP",
+          "korean": "상승",
+          "box": [
+            56,
+            17,
+            83,
+            28
+          ],
+          "slot": [
+            56,
+            17,
+            82,
+            27
+          ],
+          "uid": "BUI-002/5",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "RANK",
+          "korean": "등급",
+          "box": [
+            99,
+            17,
+            123,
+            22
+          ],
+          "uid": "BUI-002/6",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "NEXT",
+          "korean": "다음",
+          "box": [
+            99,
+            22,
+            123,
+            28
+          ],
+          "slot": [
+            99,
+            22,
+            122,
+            27
+          ],
+          "uid": "BUI-002/7",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "EXP",
+          "korean": "경험치",
+          "box": [
+            99,
+            28,
+            117,
+            34
+          ],
+          "slot": [
+            99,
+            28,
+            116,
+            33
+          ],
+          "uid": "BUI-002/8",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "EARNED",
+          "korean": "획득",
+          "box": [
+            92,
+            34,
+            128,
+            40
+          ],
+          "slot": [
+            93,
+            34,
+            128,
+            39
+          ],
+          "uid": "BUI-002/9",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\source.png",
+          "sha256": "7cdc011cb19a019ac505a47132f539b37b646d8536e97026bda7bdc08ed8e883"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\before.png",
+          "sha256": "7cdc011cb19a019ac505a47132f539b37b646d8536e97026bda7bdc08ed8e883"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\clean.png",
+          "sha256": "4cabc55a7505f0a128dcc884fffaaf43654a0d905243305c9e206142f4a500c6"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\layer.png",
+          "sha256": "83cebf986323c8876daae9d472d13e5b09c9c6800b1a5e3376a24c2319fce8f8"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\mask.png",
+          "sha256": "73ea3e51b10d8be7ccd90e5eee5a2b374c31f22d7b22a008e182d482b146d53d"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-002\\candidate.png",
+          "sha256": "537b61f78ce2e4d3ae02b9c14b28539f3a52ed1ae09363f05dbcf8f5163554b4"
+        }
+      },
+      "replacement": "remaining-ko-001/BUI-002.png",
+      "output_sha256": "537b61f78ce2e4d3ae02b9c14b28539f3a52ed1ae09363f05dbcf8f5163554b4",
+      "runtime_verified": false
+    },
+    {
+      "id": "BUI-003",
+      "asset": "system.vol::007_if_btlsys.lpk::011::003",
+      "source_sha256": "4cf7f10dc2bf8a29d2764f5615bbd5ed2fe44a382f6a2a78ea3b2f66c25fd50e",
+      "logical_size": [
+        32,
+        24
+      ],
+      "binding": {
+        "keys": {
+          "00000000b8610cd9308e00a5": 32
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\011\\container.lpk",
+        "parent_sha256": "4bc8f20f1f387f965c488026e8d91363a7f962d022490604a6f336e5b7e69e78",
+        "offset": 6896,
+        "source_sha256": "4cf7f10dc2bf8a29d2764f5615bbd5ed2fe44a382f6a2a78ea3b2f66c25fd50e",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "CLOSE",
+          "korean": "닫기",
+          "box": [
+            1,
+            11,
+            30,
+            16
+          ],
+          "ink": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "align": "right",
+          "uid": "BUI-003/1",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "ITEM",
+          "korean": "아이템",
+          "box": [
+            9,
+            17,
+            29,
+            22
+          ],
+          "ink": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "uid": "BUI-003/2",
+          "translator_model": "Codex internal"
+        },
+        {
+          "source": "S (ITEMS plural tail)",
+          "korean": "",
+          "box": [
+            25,
+            5,
+            30,
+            10
+          ],
+          "reason": "Consumer 23 appends English plural S; Korean label needs no suffix.",
+          "uid": "BUI-003/3",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\source.png",
+          "sha256": "e05f9095eabd142d834c3b7b516be11b8f8fe44824668c455f7cec4606bf539c"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\before.png",
+          "sha256": "e05f9095eabd142d834c3b7b516be11b8f8fe44824668c455f7cec4606bf539c"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\clean.png",
+          "sha256": "16a852ea8c41162d00d5909fbe4e3a1b3290038a6acfc018d571d8a9275cf490"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\layer.png",
+          "sha256": "e897338c980c3b9009eb7a458f9889a073caf0f47093b8e54d0885bf2ece5325"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\mask.png",
+          "sha256": "0d3d9540bf873d7c35c440802a8e6a2dd50d9390c1ad615bec4220d784200af7"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\BUI-003\\candidate.png",
+          "sha256": "3424c445390ab7d9f076c72db0902e73dde8c94697f09d3c946c5945a87254e9"
+        }
+      },
+      "replacement": "remaining-ko-001/BUI-003.png",
+      "output_sha256": "3424c445390ab7d9f076c72db0902e73dde8c94697f09d3c946c5945a87254e9",
+      "runtime_verified": false
+    },
+    {
+      "id": "MUI-27",
+      "asset": "if::menu::if_rec_info.gz::009",
+      "source_sha256": "9f6cbf97f07a654faa8b836e54b37d1b2336785fd1c89fdb521eaeb9393ba509",
+      "logical_size": [
+        64,
+        40
+      ],
+      "binding": {
+        "keys": {
+          "000000008371d89971907658": 64
+        },
+        "observed": [
+          "000000008371d89971907658"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\if_rec_info.gz\\container.lpk",
+        "parent_sha256": "c4ed95c5757f14f14639bd46e8daff71312210fc47473c77335715f66beb8845",
+        "offset": 48672,
+        "source_sha256": "9f6cbf97f07a654faa8b836e54b37d1b2336785fd1c89fdb521eaeb9393ba509",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "CHALLENGES",
+          "korean": "도전 과제",
+          "box": [
+            0,
+            0,
+            64,
+            40
+          ],
+          "composite": [
+            [
+              [
+                41,
+                1,
+                60,
+                20
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                1,
+                20,
+                20
+              ],
+              17
+            ],
+            [
+              [
+                1,
+                21,
+                20,
+                40
+              ],
+              34
+            ]
+          ],
+          "reason": "Shared L and E sprites must stay empty. Complete Korean occupies C/H/A union, 53x19 native; SDO geometry unchanged.",
+          "uid": "MUI-27/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\source.png",
+          "sha256": "cb4e9bd7bcb12a3523ff5e9df20ecd6d89705099b080c0b771f464124e4ba553"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\before.png",
+          "sha256": "cb4e9bd7bcb12a3523ff5e9df20ecd6d89705099b080c0b771f464124e4ba553"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\clean.png",
+          "sha256": "930227000df5a9665b7d869aab4f1f1dca0e9bb1f685402051ef50612013f896"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\layer.png",
+          "sha256": "e479b59e6b1803a7ddffc0f75f6cc394d22b9eaff6e0f977d9d7f4d8f88dc081"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\mask.png",
+          "sha256": "920b71d10dc5360d5d862d30a341eb639ed9b9de63978646a7bd2783296e9474"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-27\\candidate.png",
+          "sha256": "3ec8c9210d57f70df32b39d2a2604a5dd27244909b47390ae6248ab4ba93c1a5"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-27.png",
+      "output_sha256": "3ec8c9210d57f70df32b39d2a2604a5dd27244909b47390ae6248ab4ba93c1a5",
+      "runtime_verified": false
+    },
+    {
+      "id": "MUI-28",
+      "asset": "if::menu::if_rec_info.gz::010",
+      "source_sha256": "f99a232138bf6092ff3c63c95b889cafa9a04a9d026bb726e2dcb039de41e23f",
+      "logical_size": [
+        64,
+        48
+      ],
+      "binding": {
+        "keys": {
+          "00000000dde4dde33ec0b33f": 64
+        },
+        "observed": [
+          "00000000dde4dde33ec0b33f"
+        ],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\if_rec_info.gz\\container.lpk",
+        "parent_sha256": "c4ed95c5757f14f14639bd46e8daff71312210fc47473c77335715f66beb8845",
+        "offset": 51760,
+        "source_sha256": "f99a232138bf6092ff3c63c95b889cafa9a04a9d026bb726e2dcb039de41e23f",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [
+        {
+          "source": "G / S (CHALLENGES tail)",
+          "korean": "",
+          "box": [
+            44,
+            0,
+            64,
+            48
+          ],
+          "reason": "Word rendered as a complete semantic unit in MUI-27; remove all glyph shadow pixels and preserve trophy.",
+          "uid": "MUI-28/1",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\source.png",
+          "sha256": "b7d83b1da810cd4654706b0f886eb8937aaff74bb43aa9403031aa8e58af5807"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\before.png",
+          "sha256": "b7d83b1da810cd4654706b0f886eb8937aaff74bb43aa9403031aa8e58af5807"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\clean.png",
+          "sha256": "ccf4063b7c862f345e704cde6755f14f5cde9957150a3046718ceaee05d5aa62"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\layer.png",
+          "sha256": "663c407f10153287c3eb97c3c59a9b517f3c4805d2d4356a39ecad16194a5d99"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\mask.png",
+          "sha256": "5b0c360132a45186aa7ae32b26d39d361eceac3d79bb0cdd7508ebac3724cadf"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\MUI-28\\candidate.png",
+          "sha256": "ccf4063b7c862f345e704cde6755f14f5cde9957150a3046718ceaee05d5aa62"
+        }
+      },
+      "replacement": "remaining-ko-001/MUI-28.png",
+      "output_sha256": "ccf4063b7c862f345e704cde6755f14f5cde9957150a3046718ceaee05d5aa62",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-00",
+      "asset": "if::menu::if_mission_failed.gz::000",
+      "source_sha256": "eef6c1fa0540162c9672992922216f6f3c08076175b9b145e40511967fbe65b4",
+      "logical_size": [
+        128,
+        72
+      ],
+      "binding": {
+        "keys": {
+          "000000007824eb9f11602f4c": 128
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\if_mission_failed.gz\\container.lpk",
+        "parent_sha256": "939a82b1b65db9e12dea599e1ef7922266da50c1505fe08560a07036330b5d39",
+        "offset": 64,
+        "source_sha256": "eef6c1fa0540162c9672992922216f6f3c08076175b9b145e40511967fbe65b4",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\source.png",
+          "sha256": "21746911256b1acc10782977044901cf850cc0218a5e648e1409c508d7045fbf"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\before.png",
+          "sha256": "e774839cc237913ef8cb421996377e11e731daa297738af0a1d04f04ee89f978"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\clean.png",
+          "sha256": "e774839cc237913ef8cb421996377e11e731daa297738af0a1d04f04ee89f978"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\layer.png",
+          "sha256": "94da4da4418de17f9abb15be2fcaf368fae7d75e030092f5988d212b75e98ed9"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\mask.png",
+          "sha256": "1eb50a3ee3fcac0adc60c0e90baa6d051c642f3a930330ac9aec9dd92996f3f7"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-00\\candidate.png",
+          "sha256": "e774839cc237913ef8cb421996377e11e731daa297738af0a1d04f04ee89f978"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-00.png",
+      "output_sha256": "e774839cc237913ef8cb421996377e11e731daa297738af0a1d04f04ee89f978",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-12",
+      "asset": "if::menu::menu_gallery.gz::009",
+      "source_sha256": "b5c4418e13ea14ab955d610b433c1466423de532c007a4f7f9c1cb71e5ba4ab4",
+      "logical_size": [
+        128,
+        80
+      ],
+      "binding": {
+        "keys": {
+          "000000008670d6c058e9e541": 128
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\menu_gallery.gz\\container.lpk",
+        "parent_sha256": "4b670ac071dc9daacd9af61b3ab297dcf3d1b65fc09d5b5f097afbfe82c6ff89",
+        "offset": 47248,
+        "source_sha256": "b5c4418e13ea14ab955d610b433c1466423de532c007a4f7f9c1cb71e5ba4ab4",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\source.png",
+          "sha256": "f9e51d5b92bc189174577fe5e67caca8dad772a7bfe7c7113344f009b4402c46"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\before.png",
+          "sha256": "b22742aadbde8cb4f4c8efbbba533ab7f0bb943c7ded59cb7f1100b5286310bb"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\clean.png",
+          "sha256": "b22742aadbde8cb4f4c8efbbba533ab7f0bb943c7ded59cb7f1100b5286310bb"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\layer.png",
+          "sha256": "94da4da4418de17f9abb15be2fcaf368fae7d75e030092f5988d212b75e98ed9"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\mask.png",
+          "sha256": "1eb50a3ee3fcac0adc60c0e90baa6d051c642f3a930330ac9aec9dd92996f3f7"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-12\\candidate.png",
+          "sha256": "b22742aadbde8cb4f4c8efbbba533ab7f0bb943c7ded59cb7f1100b5286310bb"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-12.png",
+      "output_sha256": "b22742aadbde8cb4f4c8efbbba533ab7f0bb943c7ded59cb7f1100b5286310bb",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-13",
+      "asset": "if::menu::menu_gallery.gz::010",
+      "source_sha256": "1ba7763306a6c335fbd5329e4252cb624ac5ccdabd4019492bb42b5b7bfbe8f0",
+      "logical_size": [
+        64,
+        80
+      ],
+      "binding": {
+        "keys": {
+          "00000000a74f0056a089e2eb": 128
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\if\\menu\\menu_gallery.gz\\container.lpk",
+        "parent_sha256": "4b670ac071dc9daacd9af61b3ab297dcf3d1b65fc09d5b5f097afbfe82c6ff89",
+        "offset": 52416,
+        "source_sha256": "1ba7763306a6c335fbd5329e4252cb624ac5ccdabd4019492bb42b5b7bfbe8f0",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\source.png",
+          "sha256": "317e289ab78bd5786981ac2d69efb7173833874b1f99d1f03e1975ae6daaad69"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\before.png",
+          "sha256": "20beaf0f0454fb6e7380c1830c7f479ecdf3906f5458f04423543367cec26404"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\clean.png",
+          "sha256": "20beaf0f0454fb6e7380c1830c7f479ecdf3906f5458f04423543367cec26404"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\layer.png",
+          "sha256": "70c8f4a2c8d2e75b92cc380e62b2d424c19ca371a7b7420fbe6e4c8e12182774"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\mask.png",
+          "sha256": "0bfd942295eec85d00e2b842ab564b888abe743e3ef7f188aa577da61bf1217a"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-13\\candidate.png",
+          "sha256": "20beaf0f0454fb6e7380c1830c7f479ecdf3906f5458f04423543367cec26404"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-13.png",
+      "output_sha256": "20beaf0f0454fb6e7380c1830c7f479ecdf3906f5458f04423543367cec26404",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-21",
+      "asset": "system.vol::007_if_btlsys.lpk::005",
+      "source_sha256": "e5e7275620bf14f31cd2a0bb65f7bc43f34d5402ffe125d46843b5b691a74137",
+      "logical_size": [
+        256,
+        48
+      ],
+      "binding": {
+        "keys": {
+          "00000000fc37f5f923fcfb1e": 64
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\container.lpk",
+        "parent_sha256": "fc0054f3161fbdc4069a21045220f74852c70c721e6f647123dd071dff49adf0",
+        "offset": 25792,
+        "source_sha256": "e5e7275620bf14f31cd2a0bb65f7bc43f34d5402ffe125d46843b5b691a74137",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\source.png",
+          "sha256": "89e764a00381f745ac41d203ab3c02867a9eec952d4e74919f1c7fc9d058afbe"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\before.png",
+          "sha256": "ec2ebd525f9406d69e9a2cb4fe97dddde0c68be8eb7462492d98a299982e7f27"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\clean.png",
+          "sha256": "ec2ebd525f9406d69e9a2cb4fe97dddde0c68be8eb7462492d98a299982e7f27"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\layer.png",
+          "sha256": "43ca6dd26bf64ee6a4e8969c7dffa8ee1198c2cfc0a78cb52d05155eba3b5746"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\mask.png",
+          "sha256": "47f37a0f8978cb7bbc561ef9c2e366a4eb802eae031cbb549acb542014610345"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-21\\candidate.png",
+          "sha256": "ec2ebd525f9406d69e9a2cb4fe97dddde0c68be8eb7462492d98a299982e7f27"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-21.png",
+      "output_sha256": "ec2ebd525f9406d69e9a2cb4fe97dddde0c68be8eb7462492d98a299982e7f27",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-22",
+      "asset": "system.vol::007_if_btlsys.lpk::010",
+      "source_sha256": "d8650bbd1daaec707fe8811af1c1e295f3e4441c113304e4049bb5dbfa4bb2b6",
+      "logical_size": [
+        128,
+        360
+      ],
+      "binding": {
+        "keys": {
+          "000000009881822fd9a71f2a": 350,
+          "000000009881822f68f3db1f": 351,
+          "000000009881822f0d98ce8b": 352,
+          "000000009881822f5b28a796": 353,
+          "000000009881822fb64d03c2": 354,
+          "000000009881822f3fe855ae": 355,
+          "000000009881822ffb66e972": 356,
+          "000000009881822f4f15fd84": 357,
+          "000000009881822f34c8fce6": 358,
+          "000000009881822fc863839b": 359,
+          "000000009881822f0fcbdc6c": 360,
+          "000000009881822f36a96717": 361,
+          "000000009881822f63e47a92": 362,
+          "000000009881822f18261b99": 363,
+          "000000009881822ff20f4647": 364,
+          "000000009881822fec040fc2": 365,
+          "000000009881822f805fc022": 366,
+          "000000009881822fdeac217c": 367,
+          "000000009881822fe43ab53d": 368,
+          "000000009881822fd3c7167b": 369,
+          "000000009881822f895b8408": 370,
+          "000000009881822fa067d758": 371,
+          "000000009881822fcf40468f": 372,
+          "000000009881822f49e22c34": 373,
+          "000000009881822f94a64abe": 374,
+          "000000009881822fb7dd939f": 375,
+          "000000009881822fac995899": 376,
+          "000000009881822f5c3c8ca0": 377,
+          "000000009881822fb6914b12": 378,
+          "000000009881822f8ce41a82": 379,
+          "000000009881822f913e3b99": 380,
+          "000000009881822facd083f8": 381,
+          "000000009881822f6d8a1438": 382,
+          "000000009881822fd030476f": 383,
+          "000000009881822f5e8d3eee": 384,
+          "000000009881822f6c8c22de": 385,
+          "000000009881822f4d83a57b": 386,
+          "000000009881822fc51a8f18": 387,
+          "000000009881822f222e599b": 388,
+          "000000009881822fc235a4c7": 389,
+          "000000009881822f84816b28": 390,
+          "000000009881822f646c643a": 391,
+          "000000009881822ff8170c84": 392,
+          "000000009881822fa75ac2f9": 393,
+          "000000009881822fd3917c88": 394,
+          "000000009881822fc0805c83": 395,
+          "000000009881822fa40e9650": 396,
+          "000000009881822f7eccccc1": 397,
+          "000000009881822fe94b8b1b": 398,
+          "000000009881822f34e12ce0": 399,
+          "000000009881822f3efd16ef": 400,
+          "000000009881822f2c0f74c2": 401,
+          "000000009881822fd97cd761": 402,
+          "000000009881822ff58e4e13": 403,
+          "000000009881822f023fd8d7": 404,
+          "000000009881822fda373f36": 405,
+          "000000009881822f45fa3263": 406,
+          "000000009881822f307682bb": 407,
+          "000000009881822f6067525d": 408,
+          "000000009881822ffc7e56e7": 409,
+          "000000009881822ff8556370": 410,
+          "000000009881822f72479665": 411,
+          "000000009881822f74edb4f4": 412,
+          "000000009881822f17e25d30": 413,
+          "000000009881822f6cb34675": 414,
+          "000000009881822f9f603622": 415,
+          "000000009881822f43e9a641": 416,
+          "000000009881822f3ea5def3": 417,
+          "000000009881822f0e11ec98": 418,
+          "000000009881822f23e9f289": 419,
+          "000000009881822f0223c3ed": 420,
+          "000000009881822f54cac232": 421,
+          "000000009881822fbe25febd": 422,
+          "000000009881822f9b069dfc": 423,
+          "000000009881822fdf2fa2b4": 424,
+          "000000009881822f8996c61a": 425,
+          "000000009881822fdf6bb89f": 426,
+          "000000009881822fba21f302": 427,
+          "000000009881822f96ce8a30": 428,
+          "000000009881822fce2f0132": 429,
+          "000000009881822fe354e2c6": 430,
+          "000000009881822f55fef91b": 431,
+          "000000009881822fd45512a2": 432,
+          "000000009881822f747fb942": 433,
+          "000000009881822f8df4ae66": 434,
+          "000000009881822f02b74e5e": 435,
+          "000000009881822f163c28d3": 436,
+          "000000009881822fde3cf27d": 437,
+          "000000009881822ff479a73a": 438,
+          "000000009881822fcce47a6e": 439,
+          "000000009881822fed332b70": 440,
+          "000000009881822fbf5eccac": 441,
+          "000000009881822f3a1700c3": 442,
+          "000000009881822fdeca75d8": 443,
+          "000000009881822fb4744f0e": 444,
+          "000000009881822f90b4f11c": 445,
+          "000000009881822ff083a8d0": 446,
+          "000000009881822f1d68265b": 447,
+          "000000009881822f50e4f289": 448,
+          "000000009881822faf9df98d": 449,
+          "000000009881822f583ed935": 450,
+          "000000009881822f1f202760": 451,
+          "000000009881822f509db6f6": 452,
+          "000000009881822fda2e891e": 453,
+          "000000009881822f611f1fbc": 454,
+          "000000009881822f093bd805": 455,
+          "000000009881822f85c2a8db": 456,
+          "000000009881822fbb8010e0": 457,
+          "000000009881822f3e5b987c": 458,
+          "000000009881822fddc889d0": 459,
+          "000000009881822f8d09c02e": 460,
+          "000000009881822f97b4e841": 461,
+          "000000009881822fcb944dae": 462,
+          "000000009881822f24ca2c83": 463,
+          "000000009881822f3ec996f6": 464,
+          "000000009881822fd55eeea7": 465,
+          "000000009881822fbb92b591": 466,
+          "000000009881822f4da07a49": 467,
+          "000000009881822ffaa03a8a": 468,
+          "000000009881822fd268e19c": 469,
+          "000000009881822f3106a6c6": 470,
+          "000000009881822f1c46e23b": 471,
+          "000000009881822f318c6cb1": 472,
+          "000000009881822fdf44b6c0": 473,
+          "000000009881822fc1358084": 474,
+          "000000009881822f58205621": 475,
+          "000000009881822ff6bf4103": 476,
+          "000000009881822fca173fd0": 477,
+          "000000009881822f43a39314": 478,
+          "000000009881822f82934852": 479,
+          "000000009881822f2952b697": 480,
+          "000000009881822f432c3d98": 481,
+          "000000009881822ffa728df7": 482,
+          "000000009881822f9522d25e": 483,
+          "000000009881822fb7532bcb": 484,
+          "000000009881822fc46585b8": 485,
+          "000000009881822f3e43a40f": 486,
+          "000000009881822f416feec7": 487,
+          "000000009881822fbf23394f": 488,
+          "000000009881822fc29f36a5": 489,
+          "000000009881822feaaceca4": 490,
+          "000000009881822fb75b13d3": 491,
+          "000000009881822f1ae1c496": 492,
+          "000000009881822fab2f53da": 493,
+          "000000009881822f6d945ab7": 494,
+          "000000009881822fff6f1c92": 495,
+          "000000009881822f5583c9b3": 496,
+          "000000009881822f1acb5f8f": 497,
+          "000000009881822f5fd18985": 498,
+          "000000009881822f7d25dc74": 499,
+          "000000009881822fc39e25c6": 500,
+          "000000009881822f013bd17a": 501,
+          "000000009881822f6b36a55d": 502,
+          "000000009881822ff2ec7c30": 503,
+          "000000009881822ff244171a": 504,
+          "000000009881822ff704bff0": 505,
+          "000000009881822fb1d44632": 506,
+          "000000009881822f84ddf56c": 507,
+          "000000009881822fbadb5a9f": 508,
+          "000000009881822f2ce1911a": 509,
+          "000000009881822f6806941a": 510,
+          "000000009881822f95c2fff7": 511,
+          "000000009881822fdf95c383": 512
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\007_if_btlsys.lpk\\container.lpk",
+        "parent_sha256": "fc0054f3161fbdc4069a21045220f74852c70c721e6f647123dd071dff49adf0",
+        "offset": 72080,
+        "source_sha256": "d8650bbd1daaec707fe8811af1c1e295f3e4441c113304e4049bb5dbfa4bb2b6",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\source.png",
+          "sha256": "3998daac05cf8f011947674e26c0b23ec2c7e3cebe0467898ce3b504a705523a"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\before.png",
+          "sha256": "5dddb87078a50a48379b60df18fb2c6c0cde870301eb5d20df9f773e3b3176bc"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\clean.png",
+          "sha256": "5dddb87078a50a48379b60df18fb2c6c0cde870301eb5d20df9f773e3b3176bc"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\layer.png",
+          "sha256": "bb061031819cda155bc362642b9f9fc48e1a201595b65867135a9a2cf304cd2c"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\mask.png",
+          "sha256": "5f411fe65a4c2dab8720db7a30d5c34e494217ce33f7b3e94697f8745a306df9"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-22\\candidate.png",
+          "sha256": "5dddb87078a50a48379b60df18fb2c6c0cde870301eb5d20df9f773e3b3176bc"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-22.png",
+      "output_sha256": "5dddb87078a50a48379b60df18fb2c6c0cde870301eb5d20df9f773e3b3176bc",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-23",
+      "asset": "system.vol::006_if_fldsys.lpk::015",
+      "source_sha256": "89d533e33970f8497cf7fc3a4a349ed4d25ec5ab53d67cdf91b01e67e7ff9508",
+      "logical_size": [
+        128,
+        104
+      ],
+      "binding": {
+        "keys": {
+          "00000000dedaefdb088ff519": 128
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\006_if_fldsys.lpk\\container.lpk",
+        "parent_sha256": "759cac1e44f58d62f1ef11592f7a311c82d438e8698a19e0e9fbf6a47fd69186",
+        "offset": 104560,
+        "source_sha256": "89d533e33970f8497cf7fc3a4a349ed4d25ec5ab53d67cdf91b01e67e7ff9508",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\source.png",
+          "sha256": "052f63bd6d8b88b28a9c3f6904b94173b0f0d05056c98473fba625e9878ac973"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\before.png",
+          "sha256": "59e2d365fc5ba05de77fb459e4eb666bd2e621035a070f05ff60b5939b76c929"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\clean.png",
+          "sha256": "59e2d365fc5ba05de77fb459e4eb666bd2e621035a070f05ff60b5939b76c929"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\layer.png",
+          "sha256": "94da4da4418de17f9abb15be2fcaf368fae7d75e030092f5988d212b75e98ed9"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\mask.png",
+          "sha256": "1eb50a3ee3fcac0adc60c0e90baa6d051c642f3a930330ac9aec9dd92996f3f7"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-23\\candidate.png",
+          "sha256": "59e2d365fc5ba05de77fb459e4eb666bd2e621035a070f05ff60b5939b76c929"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-23.png",
+      "output_sha256": "59e2d365fc5ba05de77fb459e4eb666bd2e621035a070f05ff60b5939b76c929",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-24",
+      "asset": "system.vol::006_if_fldsys.lpk::017",
+      "source_sha256": "ef696d6a9f6c0f66ccfa8dee8d0b34fe4f6d88b5321e79c262d285f74061c320",
+      "logical_size": [
+        128,
+        24
+      ],
+      "binding": {
+        "keys": {
+          "00000000717a72bf99925418": 32
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\006_if_fldsys.lpk\\container.lpk",
+        "parent_sha256": "759cac1e44f58d62f1ef11592f7a311c82d438e8698a19e0e9fbf6a47fd69186",
+        "offset": 113392,
+        "source_sha256": "ef696d6a9f6c0f66ccfa8dee8d0b34fe4f6d88b5321e79c262d285f74061c320",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\source.png",
+          "sha256": "1ea7253291bcd1f153d8a9bc0161d563773a1d58a520c6d974468dced965401b"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\before.png",
+          "sha256": "0ee9054a63b054f9fb79262f0136ffe92f5ac23ef15ccfebcc3b44ef57fadbc8"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\clean.png",
+          "sha256": "0ee9054a63b054f9fb79262f0136ffe92f5ac23ef15ccfebcc3b44ef57fadbc8"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\layer.png",
+          "sha256": "09fa03bee3a8e50ed4c0d51e01f570ca8b7de9faa9830ed1face4136bcd97025"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\mask.png",
+          "sha256": "d43b7020e7b96294b68895089f11a4378f220ceabbf0930f09fa98fc3f041744"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-24\\candidate.png",
+          "sha256": "0ee9054a63b054f9fb79262f0136ffe92f5ac23ef15ccfebcc3b44ef57fadbc8"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-24.png",
+      "output_sha256": "0ee9054a63b054f9fb79262f0136ffe92f5ac23ef15ccfebcc3b44ef57fadbc8",
+      "runtime_verified": false
+    },
+    {
+      "id": "UI-26",
+      "asset": "system.vol::006_if_fldsys.lpk::021",
+      "source_sha256": "169307458040a9f583070ac698704d159873f3d72a784d1a6229ceb81f843c14",
+      "logical_size": [
+        256,
+        32
+      ],
+      "binding": {
+        "keys": {
+          "0000000014245bc03bd79368": 32
+        },
+        "observed": [],
+        "parent": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\006_if_fldsys.lpk\\container.lpk",
+        "parent_sha256": "759cac1e44f58d62f1ef11592f7a311c82d438e8698a19e0e9fbf6a47fd69186",
+        "offset": 120304,
+        "source_sha256": "169307458040a9f583070ac698704d159873f3d72a784d1a6229ceb81f843c14",
+        "enclosing_lpk": [],
+        "padding": "Decoded from actual contiguous LPK bytes; no transparent padding invented. Unobserved enclosing-LPK cases require runtime confirmation."
+      },
+      "labels": [],
+      "files": {
+        "source": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\source.png",
+          "sha256": "64c7d89654174bea2b998f30f26ac4f36833ec73ffe770f3c2619036adee8389"
+        },
+        "before": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\before.png",
+          "sha256": "ee2be79546d0e1fab505aad363e53979f57f13ae8b9ece7e0943a1379dc2251f"
+        },
+        "clean": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\clean.png",
+          "sha256": "ee2be79546d0e1fab505aad363e53979f57f13ae8b9ece7e0943a1379dc2251f"
+        },
+        "layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\layer.png",
+          "sha256": "faac630720961c5798c9e18b78277c60f13c5f400689d0b01ffa9d638c0be39a"
+        },
+        "mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\mask.png",
+          "sha256": "292252b0078c22f0bbc4b8738da36e054849398b92880b03fdf4fc88c1a20ee8"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-remaining-ko-001\\assets\\UI-26\\candidate.png",
+          "sha256": "ee2be79546d0e1fab505aad363e53979f57f13ae8b9ece7e0943a1379dc2251f"
+        }
+      },
+      "replacement": "remaining-ko-001/UI-26.png",
+      "output_sha256": "ee2be79546d0e1fab505aad363e53979f57f13ae8b9ece7e0943a1379dc2251f",
+      "runtime_verified": false
+    }
+  ],
+  "asset_count": 23,
+  "semantic_entry_count": 53,
+  "total_keys": 900,
+  "calculated_binding_note": "Keys without captured observations are exact contiguous-source hypotheses; runtime verification pending. UI-22 shortened hashes cover at least all 350 translated rows; no short blank-prefix or wildcard keys.",
+  "required_companion_iso": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\BRS_UI_title_v2.iso",
+  "runtime_verified": false,
+  "live_installation_performed": false
+}

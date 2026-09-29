@@ -1,0 +1,141 @@
+{
+  "schema": "brs-title-ko-static-review/v1",
+  "manifest_sha256": "ab736cca2ab1e1840343308be4d77cf856629145e169f454a19a51c318281aa7",
+  "static_status": "PASS",
+  "asset_count": 2,
+  "semantic_label_count": 6,
+  "visual_regions": 11,
+  "protected_checks": [
+    {
+      "consumer": 14,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 16,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 18,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 22,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 24,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 40,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 47,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 48,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 49,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 56,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 66,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 67,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 68,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 42,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 43,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 55,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 44,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 45,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    }
+  ],
+  "protected_check_count": 18,
+  "baseline_keys_preserved": 717,
+  "new_exact_keys": 2,
+  "total_keys": 719,
+  "source_mask_erased": true,
+  "outside_owned_pixels": "exact",
+  "persisted_composite_exact": true,
+  "shared_GAME_alias_separated": true,
+  "sharp_glow_pairs": 5,
+  "original_right_edge_restored": 464,
+  "menu_ink_height_native": 9.75,
+  "consumer_patch_required": "e7ecfebe0adb636bd70f37baa9638dab89fb26ca3cb0a4421b9e00b34637e3dc",
+  "comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\menu-states-1.png",
+      "sha256": "d9b1a3a8abc87341a866fa1dd0acaf0a4dd41fe7f736f5b5b8f9707ecaa92119"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\menu-states-2.png",
+      "sha256": "3cf2598df2211c6d7c8828da870f55b610fea9c783b0e0bddf342e95f59aeaaf"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\sharp-atlas-proof.png",
+      "sha256": "22af3d82d117147da5ba030a896ae06fb67e09b0216ba97af0c3b1cfeda13cbd"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\glow-atlas-proof.png",
+      "sha256": "95851caf72d71c1d1061a6080362b9221dbf967bb5bc4ca06903a33591660389"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\glow-regions-proof.png",
+      "sha256": "9f8198ad65ee55b43b6bb22defbd63bd447c3e91623f1c4f55598820a4aa64b8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\start-prompt-proof.png",
+      "sha256": "d4683ceb1291eb585f6b431cc8c753fb9ef70f0d8cbd3537ca5f0940104fd5c5"
+    }
+  ],
+  "visual_review": "pending",
+  "runtime_verified": false,
+  "limitation": "Point-sampled static SDO reconstruction; code-driven tint, animation and texture filtering remain unverified."
+}

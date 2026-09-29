@@ -1,0 +1,192 @@
+{
+  "schema": "brs-resident-ko-static-review/v1",
+  "manifest_sha256": "f69cbbfa41f87a37eaf964e5e27438534f65825911726150079b339f75288eb2",
+  "asset_count": 6,
+  "labels": 19,
+  "protected_regions": [
+    {
+      "id": "RUI-001",
+      "box": [
+        0,
+        23,
+        71,
+        32
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-001",
+      "box": [
+        71,
+        12,
+        128,
+        32
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-002",
+      "box": [
+        109,
+        0,
+        128,
+        16
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-002",
+      "box": [
+        0,
+        12,
+        109,
+        16
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-003",
+      "box": [
+        0,
+        34,
+        64,
+        64
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-003",
+      "box": [
+        61,
+        0,
+        64,
+        34
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-004",
+      "box": [
+        0,
+        0,
+        170,
+        32
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-004",
+      "box": [
+        170,
+        8,
+        256,
+        32
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-004",
+      "box": [
+        216,
+        0,
+        256,
+        8
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-005",
+      "box": [
+        84,
+        0,
+        128,
+        46
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-005",
+      "box": [
+        72,
+        46,
+        128,
+        63
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-005",
+      "box": [
+        0,
+        75,
+        128,
+        128
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-006",
+      "box": [
+        105,
+        0,
+        128,
+        64
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-006",
+      "box": [
+        78,
+        23,
+        105,
+        56
+      ],
+      "rgba_exact": true
+    },
+    {
+      "id": "RUI-006",
+      "box": [
+        0,
+        56,
+        128,
+        64
+      ],
+      "rgba_exact": true
+    }
+  ],
+  "protected_region_count": 15,
+  "outside_owned_pixels": "exact",
+  "source_mask_erased": true,
+  "persisted_composite_exact": true,
+  "consumer_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-1.png",
+      "sha256": "4093448398bd24def99cbdd8e8a0686beddaf3936fc36f7e90536f64649b9620"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-2.png",
+      "sha256": "7c759d936a63bed404f06bb2a6b3c19dd9fb85a7bad70dd56e7e9b08fbb13a18"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-3.png",
+      "sha256": "f3ead6227c3dc78c4afcb7dc5d448c013cdac9fc30bd3931955bd41682bc3993"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\consumed-labels-4.png",
+      "sha256": "aa207a7b048fe4301e7b9edc4ff3054510665d986ed8fbe68b3041f6626a6f4d"
+    }
+  ],
+  "source_target_function_exceptions": [
+    {
+      "source": "NEXT",
+      "modal": "다음",
+      "experience_panel": "다음 레벨",
+      "reason": "Different runtime meaning: advance message vs experience threshold"
+    }
+  ],
+  "static_status": "PASS",
+  "visual_review": "pending",
+  "runtime_verified": false,
+  "limitation": "Point-sampled SDO reconstruction does not verify runtime animation, tint, filtering, or code-generated consumers."
+}

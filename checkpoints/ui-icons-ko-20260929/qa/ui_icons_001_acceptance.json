@@ -1,0 +1,63 @@
+{
+  "schema": "brs-icons-001-acceptance/v1",
+  "asset_families": 61,
+  "source_aliases": 95,
+  "static_primary_checks": 183,
+  "allocation_variant_checks": [
+    {
+      "key": "0000000035517ce18b0d810e",
+      "padding_and_protected_pixels": true,
+      "geometry": true
+    },
+    {
+      "key": "000000008a48e9c19d40bb44",
+      "padding_and_protected_pixels": true,
+      "geometry": true
+    }
+  ],
+  "overlay_keys": 243,
+  "unique_overlay_pngs": 81,
+  "comparison_regions": 144,
+  "comparison_pages": [
+    "comparison-01.png",
+    "comparison-02.png",
+    "comparison-03.png",
+    "comparison-04.png",
+    "comparison-05.png",
+    "comparison-06.png",
+    "comparison-07.png",
+    "comparison-08.png",
+    "comparison-09.png",
+    "comparison-10.png",
+    "comparison-11.png",
+    "comparison-12.png",
+    "comparison-13.png",
+    "comparison-14.png",
+    "comparison-15.png",
+    "comparison-16.png",
+    "comparison-17.png",
+    "comparison-18.png"
+  ],
+  "source_bytes_unchanged": true,
+  "overlay_file_allowlist_pass": true,
+  "existing_Korean_pixels_equal": true,
+  "geometry_8x_pass": true,
+  "visual_review": "PASS_STATIC_ORIGINAL_COMPARISON",
+  "deterministic_rebuild": "PASS",
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "manifest_sha256": "859ae0f400291563fd249d1d9abff1fc68e1e032d5617a68e6752134b4d47349",
+  "required_companion_iso": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\BRS_UI_title_v2.iso",
+  "visual_report_sha256": "b2618ba716d8a28cbc18a23cbe46f6d08cb2b2e183c16a1edcca6afd8a302a94",
+  "determinism_scope": "Rebuilt complete composition from persisted source-bound model/geometry caches; every referenced PNG SHA-256 and byte length identical",
+  "fresh_neural_reinference": false,
+  "icon_binding_keys": 225,
+  "observed_icon_keys": 38,
+  "calculated_only_icon_keys": 187,
+  "processing_boxes_disjoint": true,
+  "independent_code_review": "Read-only review found two issues; stale QA hash binding and overlapping-part order dependence fixed and re-reviewed",
+  "known_scope_exclusions": [
+    "Embedded tutorial screenshots and native PSP save-system art are separate lanes",
+    "Source aliases do not prove every runtime consumer/state"
+  ]
+}

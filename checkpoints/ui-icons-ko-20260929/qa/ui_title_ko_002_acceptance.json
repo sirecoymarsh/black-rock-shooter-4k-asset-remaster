@@ -1,0 +1,80 @@
+{
+  "schema": "brs-ui-localization-batch-acceptance/v2",
+  "batch": "TUI-004/TUI-005 typography v2",
+  "translator_model": "Codex internal",
+  "reviewer": "active Codex internal model",
+  "reviewed_on": "2026-09-29",
+  "manifest_sha256": "ab736cca2ab1e1840343308be4d77cf856629145e169f454a19a51c318281aa7",
+  "static_review_sha256": "77c055566982951e65525e7ba70ed8332ad9604485082a7720235a5670530059",
+  "static_status": "PASS",
+  "visual_status": "PASS",
+  "visual_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\menu-states-1.png",
+      "sha256": "d9b1a3a8abc87341a866fa1dd0acaf0a4dd41fe7f736f5b5b8f9707ecaa92119"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\menu-states-2.png",
+      "sha256": "3cf2598df2211c6d7c8828da870f55b610fea9c783b0e0bddf342e95f59aeaaf"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\sharp-atlas-proof.png",
+      "sha256": "22af3d82d117147da5ba030a896ae06fb67e09b0216ba97af0c3b1cfeda13cbd"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\glow-atlas-proof.png",
+      "sha256": "95851caf72d71c1d1061a6080362b9221dbf967bb5bc4ca06903a33591660389"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\glow-regions-proof.png",
+      "sha256": "9f8198ad65ee55b43b6bb22defbd63bd447c3e91623f1c4f55598820a4aa64b8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-002\\start-prompt-proof.png",
+      "sha256": "d4683ceb1291eb585f6b431cc8c753fb9ef70f0d8cbd3537ca5f0940104fd5c5"
+    }
+  ],
+  "determinism": {
+    "status": "PASS",
+    "compared_files": 739,
+    "changed_files": []
+  },
+  "required_companion_iso": {
+    "schema": "brs-title-companion-iso/v1",
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005\\BRS_4K_combined_test.iso",
+    "source_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\BRS_UI_title_v2.iso",
+    "output_sha256": "a923932df5b5eb09e692866a4328f8c8bf8fa7a6eef9ddc6965cc4046ae1e572",
+    "size": 1690738688,
+    "changed_file": "PSP_GAME/USRDIR/GAMEDATA/TITLE.VOL",
+    "change": {
+      "iso_path": "PSP_GAME/USRDIR/GAMEDATA/TITLE.VOL",
+      "old_extent": 250768,
+      "new_extent": 250768,
+      "old_size": 258496,
+      "new_size": 257504,
+      "relocated": false,
+      "sha256": "be4117ce072032ea481c8884ed97054c1290e5b018d9bee64ae69ed90bbd7c8d"
+    },
+    "allowed_physical_ranges": [
+      [
+        513572864,
+        513832960
+      ],
+      [
+        57874,
+        57882
+      ]
+    ],
+    "changed_byte_count": 255224,
+    "unrelated_physical_bytes_exact": true,
+    "required_texture_pack": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\pack\\PSP\\TEXTURES\\NPUH10126",
+    "requires_title_pngs": true,
+    "runtime_verified": false,
+    "live_installation_performed": false
+  },
+  "user_feedback": "좀 낫군. Apply this size/style to remaining English UI.",
+  "state_closure": "All five sharp/glow menu pairs; same target glyphs generate matching glows. Record 65 alone separates shared GAME tail.",
+  "runtime_verified": false,
+  "live_installation_performed": false
+}

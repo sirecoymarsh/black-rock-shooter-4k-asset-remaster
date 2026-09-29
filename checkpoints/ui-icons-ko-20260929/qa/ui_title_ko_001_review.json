@@ -1,0 +1,138 @@
+{
+  "schema": "brs-title-ko-static-review/v1",
+  "manifest_sha256": "1d5b1cf90e959b1e9ed1a4cd3feca67f98fcc1084b27188610b9146bb84277ac",
+  "static_status": "PASS",
+  "asset_count": 2,
+  "semantic_label_count": 6,
+  "visual_regions": 11,
+  "protected_checks": [
+    {
+      "consumer": 14,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 16,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 18,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 22,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 24,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 40,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 47,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 48,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 49,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 56,
+      "texture_slot": 7,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 66,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 67,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 68,
+      "texture_slot": 5,
+      "rgba_exact": true
+    },
+    {
+      "consumer": 42,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 43,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 55,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 44,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    },
+    {
+      "consumer": 45,
+      "selector_first_20_pixels_exact": true,
+      "sharp_glow_alignment_exact": true
+    }
+  ],
+  "protected_check_count": 18,
+  "baseline_keys_preserved": 717,
+  "new_exact_keys": 2,
+  "total_keys": 719,
+  "source_mask_erased": true,
+  "outside_owned_pixels": "exact",
+  "persisted_composite_exact": true,
+  "shared_GAME_blank": true,
+  "sharp_glow_pairs": 5,
+  "comparison_pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\menu-states-1.png",
+      "sha256": "79c3723d465dc0f31a2f1b152ff8f3848f305c792cb08167f8046ac9a4bc7be4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\menu-states-2.png",
+      "sha256": "c1ba1fc6e9d8123de5ab0e220c1b9fa47db96ed0abecb1dd27a9e3ad322f0583"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\sharp-atlas-proof.png",
+      "sha256": "4dcd936dad0f1ca315665e99d24681d21069383d33cf42b7b13d6dc7dd841121"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\glow-atlas-proof.png",
+      "sha256": "8bc649d5f7cb8a539e221db715756855c6502f5eec1634e62fb3f2cf4f55b7b5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\glow-regions-proof.png",
+      "sha256": "0f2864ce8667b770bb18fa8e00d849fd234d6108c46e330f6e8f81d0de1704ef"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\start-prompt-proof.png",
+      "sha256": "cde89d4a5566590ee9520d80e72cd6fcf9f058ea309c8398f77f374e6ae80612"
+    }
+  ],
+  "visual_review": "pending",
+  "runtime_verified": false,
+  "limitation": "Point-sampled static SDO reconstruction; code-driven tint, animation and texture filtering remain unverified."
+}

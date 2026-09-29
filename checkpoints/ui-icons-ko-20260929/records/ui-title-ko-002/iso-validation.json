@@ -1,0 +1,34 @@
+{
+  "schema": "brs-title-companion-iso/v1",
+  "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\release\\combined-test-20260924-001005\\BRS_4K_combined_test.iso",
+  "source_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\BRS_UI_title_v2.iso",
+  "output_sha256": "a923932df5b5eb09e692866a4328f8c8bf8fa7a6eef9ddc6965cc4046ae1e572",
+  "size": 1690738688,
+  "changed_file": "PSP_GAME/USRDIR/GAMEDATA/TITLE.VOL",
+  "change": {
+    "iso_path": "PSP_GAME/USRDIR/GAMEDATA/TITLE.VOL",
+    "old_extent": 250768,
+    "new_extent": 250768,
+    "old_size": 258496,
+    "new_size": 257504,
+    "relocated": false,
+    "sha256": "be4117ce072032ea481c8884ed97054c1290e5b018d9bee64ae69ed90bbd7c8d"
+  },
+  "allowed_physical_ranges": [
+    [
+      513572864,
+      513832960
+    ],
+    [
+      57874,
+      57882
+    ]
+  ],
+  "changed_byte_count": 255224,
+  "unrelated_physical_bytes_exact": true,
+  "required_texture_pack": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\pack\\PSP\\TEXTURES\\NPUH10126",
+  "requires_title_pngs": true,
+  "runtime_verified": false,
+  "live_installation_performed": false
+}

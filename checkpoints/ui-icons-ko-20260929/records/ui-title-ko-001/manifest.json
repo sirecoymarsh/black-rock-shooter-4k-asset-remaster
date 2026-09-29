@@ -1,0 +1,1053 @@
+{
+  "schema": "brs-title-ko-001/v1",
+  "translator_model": "Codex internal",
+  "task": "brs-hd-ui-fonts",
+  "font": {
+    "font": "Orbit Regular",
+    "font_sha256": "5d0206fb0a9e3eeac51aff8d4a6dbb7613d63fc435f1a51f96dc35cefb5f9f87",
+    "source_commit": "95122395c6d1fda07aebdf36f566a75678bc3bdd",
+    "license": "SIL OFL 1.1",
+    "author": "Sooun Cho, JAMO",
+    "source_url": "https://github.com/JAMO-TYPEFACE/Orbit",
+    "intent": "Straight diagonal Hangul strokes and uniform stroke construction echo the fixed-ISO UI; not a claim of an exact original typeface match.",
+    "ui_space_advance_em": 0.45,
+    "ui_ink_expansion": "square max filter, radius round(font_size*0.015), minimum 1 output pixel",
+    "body_origin_8x": [
+      8,
+      -33
+    ],
+    "body_size_8x": 112,
+    "body_ink_expansion": 0,
+    "runtime_status": "unverified candidate"
+  },
+  "build_script_sha256": "e0cd27de27ae522467401543f25c6acf698d40f74db976e5896daa26d0bfcac5",
+  "font_renderer_sha256": "7e8ded13f6e40011b0b45b045d442198d9173ecf94b45cfe5aa4c19f3257eed0",
+  "previous_batch_manifest_sha256": "f69cbbfa41f87a37eaf964e5e27438534f65825911726150079b339f75288eb2",
+  "sdo_source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\009.sdo",
+  "sdo_sha256": "21a7bc340b0611af154c0695bc5739b8c61ce62c7a10ba11395849c5242b7d9e",
+  "pack": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\pack\\PSP\\TEXTURES\\NPUH10126",
+  "asset_count": 2,
+  "semantic_label_count": 6,
+  "localized_visual_regions": 11,
+  "baseline_keys": 717,
+  "new_keys": 2,
+  "total_keys": 719,
+  "records": [
+    {
+      "id": "TUI-004",
+      "asset_id": "title.vol::001_if_title.zzz::004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\004.ptm",
+      "source_sha256": "44ba5a500805657f83a652f0632ba52da1a068f1e20e29d812d3d5551dbdcdb2",
+      "source_rgba_sha256": "8bd35507fb651ce3acb23e70fdbebd046dea4db1c7802cd34b90f9d6480cd283",
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009798e21a4f02de2d.png",
+      "observed_png_sha256": "ce29f9f76eadae53db8a44e26d6bf4f6a8fbb98a9a14dcc9e29c9d6fcc1607e7",
+      "padded_size": [
+        256,
+        512
+      ],
+      "logical_size": [
+        256,
+        272
+      ],
+      "key": "000000009798e21a4f02de2d",
+      "replacement": "title-ko-001/000000009798e21a4f02de2d.png",
+      "output_sha256": "354280bd55297f69ce6540dc0eb4382d440b109454494a2b0c39c0bc055a93cb",
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\source-8x.png",
+          "sha256": "87daa66da8d45a4dbcd7cd0d21df04c5e707256b122edd9d22b9abcf5b332869"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\source-glyph-mask.png",
+          "sha256": "9edfe9516212a804b6dcf73c71623eb586cdd516e9b978780ff4abb3215b84cd"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\clean-plate.png",
+          "sha256": "cd64ca38b01ab1eb47a618da6bb298d12f8a9cba3a646178b2205481c0b5b8c5"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\korean-layer.png",
+          "sha256": "a38c06df2b31146c24976073233d6af12952f878022292b7fdf0450cb6fafd4e"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\candidate.png",
+          "sha256": "354280bd55297f69ce6540dc0eb4382d440b109454494a2b0c39c0bc055a93cb"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-004\\owned-mask.png",
+          "sha256": "8c56c86e71f94c8f8c80b3667b418a7394d922009e9274930dfcee3dc7ad406b"
+        }
+      },
+      "erasures": [
+        {
+          "uid": "TUI-001/new/glow",
+          "box": [
+            139,
+            21,
+            163,
+            127
+          ],
+          "source_ink_pixels": 85632
+        },
+        {
+          "uid": "TUI-001/load/glow",
+          "box": [
+            162,
+            21,
+            186,
+            127
+          ],
+          "source_ink_pixels": 93568
+        },
+        {
+          "uid": "TUI-001/gallery/glow",
+          "box": [
+            139,
+            147,
+            163,
+            253
+          ],
+          "source_ink_pixels": 78592
+        },
+        {
+          "uid": "TUI-001/options/glow",
+          "box": [
+            185,
+            21,
+            209,
+            127
+          ],
+          "source_ink_pixels": 77440
+        },
+        {
+          "uid": "TUI-001/install/glow",
+          "box": [
+            162,
+            147,
+            186,
+            253
+          ],
+          "source_ink_pixels": 71424
+        },
+        {
+          "uid": "TUI-001/start",
+          "box": [
+            185,
+            126,
+            220,
+            194
+          ],
+          "source_ink_pixels": 105920
+        }
+      ],
+      "texture_slot": 5,
+      "outside_owned_mask_diff_pixels": 0
+    },
+    {
+      "id": "TUI-005",
+      "asset_id": "title.vol::001_if_title.zzz::005",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\005.ptm",
+      "source_sha256": "4f6ed91df60414ca5427250215416bf411e805404294c64ebb685218d96fe013",
+      "source_rgba_sha256": "b07a1fd4ae66b2d6295fb92f525a798e3fae07711a9961698eba1eb9cccc7b13",
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000975fbdd90a83fcd.png",
+      "observed_png_sha256": "a611d98c138e93ebeadfa6de4e4a3c9704c211bd2641704760b2f4ac44450c5b",
+      "padded_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        88
+      ],
+      "key": "000000000975fbdd90a83fcd",
+      "replacement": "title-ko-001/000000000975fbdd90a83fcd.png",
+      "output_sha256": "5aa59e87831913bcbcfc693543ba96c8f1a6c568f7129eafccf82708f8b273bf",
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\source-8x.png",
+          "sha256": "681d1e8bcb99a226195a42e3581c5d0918f71319d39a4ca7e0726fd3abea7199"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\source-glyph-mask.png",
+          "sha256": "85f1c0e0369073ad5c30097752224545f49cb28a9dab73a4b00e644cac537a72"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\clean-plate.png",
+          "sha256": "419745b8913a385876d23f95dfbf1de3d41e6e1d4a0f4eb5fdd7eef35e91e219"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\korean-layer.png",
+          "sha256": "bef1d5d73711641a8576f7d4d70bac8352f680d249421ec80546ccf77548ce6f"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\candidate.png",
+          "sha256": "5aa59e87831913bcbcfc693543ba96c8f1a6c568f7129eafccf82708f8b273bf"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-001\\assets\\TUI-005\\owned-mask.png",
+          "sha256": "a5a6d2c2359866bb6e5e172150d4458e9d5b8aae508dd0dcf344867a3acc8380"
+        }
+      },
+      "erasures": [
+        {
+          "uid": "TUI-001/new",
+          "box": [
+            0,
+            0,
+            12,
+            85
+          ],
+          "source_ink_pixels": 30592
+        },
+        {
+          "uid": "TUI-001/load",
+          "box": [
+            34,
+            0,
+            45,
+            45
+          ],
+          "source_ink_pixels": 14464
+        },
+        {
+          "uid": "TUI-001/gallery",
+          "box": [
+            45,
+            0,
+            56,
+            78
+          ],
+          "source_ink_pixels": 24576
+        },
+        {
+          "uid": "TUI-001/options",
+          "box": [
+            12,
+            0,
+            23,
+            72
+          ],
+          "source_ink_pixels": 23936
+        },
+        {
+          "uid": "TUI-001/install",
+          "box": [
+            23,
+            0,
+            34,
+            71
+          ],
+          "source_ink_pixels": 20864
+        }
+      ],
+      "texture_slot": 7,
+      "outside_owned_mask_diff_pixels": 0
+    }
+  ],
+  "labels": [
+    {
+      "uid": "TUI-001/new",
+      "source": "NEW GAME",
+      "korean": "새 게임",
+      "sharp": 32,
+      "glow": 42,
+      "erase": [
+        0,
+        0,
+        12,
+        85
+      ],
+      "font_size_px": 72,
+      "screen_right": 417,
+      "sharp_consumer": {
+        "id": 32,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          381,
+          194,
+          83,
+          10
+        ],
+        "offset": 4832,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.171875,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.015625,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.171875,
+            0.65625,
+            83.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.015625,
+            0.65625,
+            83.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "b37d118d7f80415f8a28fa46c6d6f33504909e42af48541e5ee9452bfab1ee0c",
+        "uv_normalized": [
+          0.015625,
+          0.0078125,
+          0.171875,
+          0.65625
+        ]
+      },
+      "glow_consumer": {
+        "id": 42,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          188,
+          125,
+          22
+        ],
+        "offset": 6196,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6328125,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.6328125,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "4493eeed1b793b1973b15e554b15595428d3d90ae9dfd0723055589af9a117cc",
+        "uv_normalized": [
+          0.546875,
+          0.001953125,
+          0.6328125,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/load",
+      "source": "LOAD GAME",
+      "korean": "불러오기",
+      "sharp": 34,
+      "glow": 43,
+      "erase": [
+        34,
+        0,
+        45,
+        45
+      ],
+      "shared_tail": 65,
+      "font_size_px": 72,
+      "screen_right": 417,
+      "sharp_consumer": {
+        "id": 34,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          374,
+          208,
+          43,
+          10
+        ],
+        "offset": 5108,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6875,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.53125,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.6875,
+            0.34375,
+            43.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.53125,
+            0.34375,
+            43.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "dd9abf9df1e40ba9274df2b0ebcfc8625a3836f117e60911cfcdd73e90231137",
+        "uv_normalized": [
+          0.53125,
+          0.0078125,
+          0.6875,
+          0.34375
+        ]
+      },
+      "glow_consumer": {
+        "id": 43,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          202,
+          125,
+          22
+        ],
+        "offset": 6336,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.72265625,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.72265625,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "e3a7f5bde315ebfcab4d7cc60eba60e077da7c4e8be305cb6c83b30b0bbb34a7",
+        "uv_normalized": [
+          0.63671875,
+          0.001953125,
+          0.72265625,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/gallery",
+      "source": "GALLERY",
+      "korean": "갤러리",
+      "sharp": 53,
+      "glow": 55,
+      "erase": [
+        45,
+        0,
+        56,
+        78
+      ],
+      "font_size_px": 72,
+      "screen_right": 417,
+      "sharp_consumer": {
+        "id": 53,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          388,
+          222,
+          76,
+          10
+        ],
+        "offset": 7604,
+        "vtype": "0x183",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x12000183",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.859375,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.703125,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.859375,
+            0.6015625,
+            76.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.703125,
+            0.6015625,
+            76.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "44d55c49f2dc4db9e44815071593545ef809466a365c9a195dc35e3ea439f31d",
+        "uv_normalized": [
+          0.703125,
+          0.0078125,
+          0.859375,
+          0.6015625
+        ]
+      },
+      "glow_consumer": {
+        "id": 55,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          216,
+          125,
+          22
+        ],
+        "offset": 7868,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6328125,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.248046875,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.6328125,
+            0.4921875,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.4921875,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "3cfce58d8b2c0bd81028e951913ed97ba9f2e37c33b33a2470a0fb5d8c2f8da5",
+        "uv_normalized": [
+          0.546875,
+          0.248046875,
+          0.6328125,
+          0.4921875
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/options",
+      "source": "OPTIONS",
+      "korean": "설정",
+      "sharp": 36,
+      "glow": 44,
+      "erase": [
+        12,
+        0,
+        23,
+        72
+      ],
+      "font_size_px": 72,
+      "screen_right": 417,
+      "sharp_consumer": {
+        "id": 36,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          394,
+          236,
+          70,
+          10
+        ],
+        "offset": 5388,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.34375,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.34375,
+            0.5546875,
+            70.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            0.5546875,
+            70.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "1580ce8d28e2d741cc1a50893753331e082bafa111e366aa89d36e53dae001ef",
+        "uv_normalized": [
+          0.1875,
+          0.0078125,
+          0.34375,
+          0.5546875
+        ]
+      },
+      "glow_consumer": {
+        "id": 44,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          230,
+          125,
+          22
+        ],
+        "offset": 6476,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.8125,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.8125,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "21b93d55bf33d39705b5c62a24713589ac4c795b9925d697b0469badd3cdea04",
+        "uv_normalized": [
+          0.7265625,
+          0.001953125,
+          0.8125,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/install",
+      "source": "INSTALL",
+      "korean": "설치",
+      "sharp": 38,
+      "glow": 45,
+      "erase": [
+        23,
+        0,
+        34,
+        71
+      ],
+      "font_size_px": 72,
+      "screen_right": 417,
+      "sharp_consumer": {
+        "id": 38,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          395,
+          250,
+          69,
+          10
+        ],
+        "offset": 5668,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.515625,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.359375,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.515625,
+            0.546875,
+            69.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.359375,
+            0.546875,
+            69.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "48dde3cb168eb029ea598b2614434f3b56274567972dc712ee3d6e4c166590de",
+        "uv_normalized": [
+          0.359375,
+          0.0078125,
+          0.515625,
+          0.546875
+        ]
+      },
+      "glow_consumer": {
+        "id": 45,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          244,
+          125,
+          22
+        ],
+        "offset": 6616,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.72265625,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.248046875,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.72265625,
+            0.4921875,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.4921875,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "ac91ddfd8cd4fad4d1170c5e2af472744ae40c9c9e785e3a7963293e29960fc8",
+        "uv_normalized": [
+          0.63671875,
+          0.248046875,
+          0.72265625,
+          0.4921875
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/start",
+      "source": "PRESS START",
+      "korean": "START 버튼을\n눌러 주세요",
+      "consumer": {
+        "id": 31,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          402,
+          231,
+          66,
+          33
+        ],
+        "offset": 4708,
+        "vtype": "0x183",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000001",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x12000183",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.85546875,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.248046875,
+            0.0,
+            33.0,
+            0.0
+          ],
+          [
+            0.85546875,
+            0.376953125,
+            66.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.376953125,
+            66.0,
+            33.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "3153266939fe8b48ba09f59fe7795cadd0a3a260a258702a0549cc8db9d70609",
+        "uv_normalized": [
+          0.7265625,
+          0.248046875,
+          0.85546875,
+          0.376953125
+        ]
+      },
+      "font_size_px": 72,
+      "translator_model": "Codex internal"
+    }
+  ],
+  "geometry_exception": "Established exact 8x normalized-UV replacement; original canvas, UV, sprite origins, selector icons and legal/logo artwork unchanged.",
+  "layout_decision": "Shared GAME crop is blank. All five Korean menu labels align at screen x=417 inside their original independent slots, rather than the English right edge 464. This avoids incorrect suffixes without patching SDO or ISO.",
+  "state_closure": "Five sharp/menu-glow pairs plus PRESS START; record 65 shared suffix blank and all other static consumers of slots 5/7 protected.",
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "static_review": "pending",
+  "remaining": "Persisted-file verification, static state reconstruction, direct visual review, then in-game acceptance."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "brs-ui-checkpoint/v1",
+  "created_at": "2026-09-29T20:28:13.619187+09:00",
+  "translator_model": "Codex internal",
+  "task": "brs-hd-ui-fonts",
+  "asset_families": 61,
+  "source_aliases": 95,
+  "overlay_keys": 243,
+  "pngs": 81,
+  "static_verified": true,
+  "runtime_verified": false,
+  "historical_qa_immutable": true,
+  "local_workspace": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts",
+  "installed": true,
+  "total_installed_keys": 940,
+  "existing_pngs_preserved": 711,
+  "non_ui_keys_preserved": 697,
+  "installation_record": "installation.json"
+}

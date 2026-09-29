@@ -1,0 +1,4731 @@
+{
+  "schema": "brs-title-ko-002/v1",
+  "translator_model": "Codex internal",
+  "task": "brs-hd-ui-fonts",
+  "font": {
+    "font": "Orbit Regular",
+    "font_sha256": "5d0206fb0a9e3eeac51aff8d4a6dbb7613d63fc435f1a51f96dc35cefb5f9f87",
+    "source_commit": "95122395c6d1fda07aebdf36f566a75678bc3bdd",
+    "license": "SIL OFL 1.1",
+    "author": "Sooun Cho, JAMO",
+    "source_url": "https://github.com/JAMO-TYPEFACE/Orbit",
+    "intent": "Straight diagonal Hangul strokes and uniform stroke construction echo the fixed-ISO UI; not a claim of an exact original typeface match.",
+    "ui_space_advance_em": 0.45,
+    "ui_ink_expansion": "square max filter, radius round(font_size*0.015), minimum 1 output pixel",
+    "body_origin_8x": [
+      8,
+      -33
+    ],
+    "body_size_8x": 112,
+    "body_ink_expansion": 0,
+    "runtime_status": "unverified candidate"
+  },
+  "build_script_sha256": "8ea5cb14c85bd77a2c6600e81a0089a1a4d619ebd8db8eeee82a7952a16ff55b",
+  "font_renderer_sha256": "7e8ded13f6e40011b0b45b045d442198d9173ecf94b45cfe5aa4c19f3257eed0",
+  "previous_batch_manifest_sha256": "f69cbbfa41f87a37eaf964e5e27438534f65825911726150079b339f75288eb2",
+  "sdo_source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\009.sdo",
+  "sdo_sha256": "21a7bc340b0611af154c0695bc5739b8c61ce62c7a10ba11395849c5242b7d9e",
+  "pack": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\pack\\PSP\\TEXTURES\\NPUH10126",
+  "asset_count": 2,
+  "semantic_label_count": 6,
+  "localized_visual_regions": 11,
+  "baseline_keys": 717,
+  "new_keys": 2,
+  "total_keys": 719,
+  "records": [
+    {
+      "id": "TUI-004",
+      "asset_id": "title.vol::001_if_title.zzz::004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\004.ptm",
+      "source_sha256": "44ba5a500805657f83a652f0632ba52da1a068f1e20e29d812d3d5551dbdcdb2",
+      "source_rgba_sha256": "8bd35507fb651ce3acb23e70fdbebd046dea4db1c7802cd34b90f9d6480cd283",
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000009798e21a4f02de2d.png",
+      "observed_png_sha256": "ce29f9f76eadae53db8a44e26d6bf4f6a8fbb98a9a14dcc9e29c9d6fcc1607e7",
+      "padded_size": [
+        256,
+        512
+      ],
+      "logical_size": [
+        256,
+        272
+      ],
+      "key": "000000009798e21a4f02de2d",
+      "replacement": "title-ko-002/000000009798e21a4f02de2d.png",
+      "output_sha256": "262b96c338c1866a0a4f33a185578114b19f7220478df27ca866c1da948df6be",
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\source-8x.png",
+          "sha256": "87daa66da8d45a4dbcd7cd0d21df04c5e707256b122edd9d22b9abcf5b332869"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\source-glyph-mask.png",
+          "sha256": "9edfe9516212a804b6dcf73c71623eb586cdd516e9b978780ff4abb3215b84cd"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\clean-plate.png",
+          "sha256": "cd64ca38b01ab1eb47a618da6bb298d12f8a9cba3a646178b2205481c0b5b8c5"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\korean-layer.png",
+          "sha256": "502c42a460219b468723ef48109883709c2a59aeae62a8415222ca10b74285f0"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\candidate.png",
+          "sha256": "262b96c338c1866a0a4f33a185578114b19f7220478df27ca866c1da948df6be"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-004\\owned-mask.png",
+          "sha256": "257bd07880f64d520d9bd524347f00f85454a6be68f170718ffb9070879ff7d3"
+        }
+      },
+      "erasures": [
+        {
+          "uid": "TUI-001/new/glow",
+          "box": [
+            139,
+            21,
+            163,
+            127
+          ],
+          "source_ink_pixels": 85632
+        },
+        {
+          "uid": "TUI-001/load/glow",
+          "box": [
+            162,
+            21,
+            186,
+            127
+          ],
+          "source_ink_pixels": 93568
+        },
+        {
+          "uid": "TUI-001/gallery/glow",
+          "box": [
+            139,
+            147,
+            163,
+            253
+          ],
+          "source_ink_pixels": 78592
+        },
+        {
+          "uid": "TUI-001/options/glow",
+          "box": [
+            185,
+            21,
+            209,
+            127
+          ],
+          "source_ink_pixels": 77440
+        },
+        {
+          "uid": "TUI-001/install/glow",
+          "box": [
+            162,
+            147,
+            186,
+            253
+          ],
+          "source_ink_pixels": 71424
+        },
+        {
+          "uid": "TUI-001/start",
+          "box": [
+            185,
+            126,
+            220,
+            194
+          ],
+          "source_ink_pixels": 105920
+        }
+      ],
+      "texture_slot": 5,
+      "outside_owned_mask_diff_pixels": 0
+    },
+    {
+      "id": "TUI-005",
+      "asset_id": "title.vol::001_if_title.zzz::005",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\005.ptm",
+      "source_sha256": "4f6ed91df60414ca5427250215416bf411e805404294c64ebb685218d96fe013",
+      "source_rgba_sha256": "b07a1fd4ae66b2d6295fb92f525a798e3fae07711a9961698eba1eb9cccc7b13",
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\000000000975fbdd90a83fcd.png",
+      "observed_png_sha256": "a611d98c138e93ebeadfa6de4e4a3c9704c211bd2641704760b2f4ac44450c5b",
+      "padded_size": [
+        64,
+        128
+      ],
+      "logical_size": [
+        64,
+        88
+      ],
+      "key": "000000000975fbdd90a83fcd",
+      "replacement": "title-ko-002/000000000975fbdd90a83fcd.png",
+      "output_sha256": "2aef432caaf214ad598e9965094a0443e10ff55f5757b3bd8e0b7659c8d2c509",
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\source-8x.png",
+          "sha256": "681d1e8bcb99a226195a42e3581c5d0918f71319d39a4ca7e0726fd3abea7199"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\source-glyph-mask.png",
+          "sha256": "85f1c0e0369073ad5c30097752224545f49cb28a9dab73a4b00e644cac537a72"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\clean-plate.png",
+          "sha256": "419745b8913a385876d23f95dfbf1de3d41e6e1d4a0f4eb5fdd7eef35e91e219"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\korean-layer.png",
+          "sha256": "74025895cb1a5276fee732e3ca9dfb6be12efb250cfd419be296cda3e918da2a"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\candidate.png",
+          "sha256": "2aef432caaf214ad598e9965094a0443e10ff55f5757b3bd8e0b7659c8d2c509"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\assets\\TUI-005\\owned-mask.png",
+          "sha256": "ec0b7e6a0b97e576f020bfa3e3aa422e1a317fa7fa08de1f7c7922e1cdba4ce9"
+        }
+      },
+      "erasures": [
+        {
+          "uid": "TUI-001/new",
+          "box": [
+            0,
+            0,
+            12,
+            85
+          ],
+          "source_ink_pixels": 30592
+        },
+        {
+          "uid": "TUI-001/load",
+          "box": [
+            34,
+            0,
+            45,
+            45
+          ],
+          "source_ink_pixels": 14464
+        },
+        {
+          "uid": "TUI-001/gallery",
+          "box": [
+            45,
+            0,
+            56,
+            78
+          ],
+          "source_ink_pixels": 24576
+        },
+        {
+          "uid": "TUI-001/options",
+          "box": [
+            12,
+            0,
+            23,
+            72
+          ],
+          "source_ink_pixels": 23936
+        },
+        {
+          "uid": "TUI-001/install",
+          "box": [
+            23,
+            0,
+            34,
+            71
+          ],
+          "source_ink_pixels": 20864
+        }
+      ],
+      "texture_slot": 7,
+      "outside_owned_mask_diff_pixels": 0
+    }
+  ],
+  "labels": [
+    {
+      "uid": "TUI-001/new",
+      "source": "NEW GAME",
+      "korean": "새 게임",
+      "sharp": 32,
+      "glow": 42,
+      "erase": [
+        0,
+        0,
+        12,
+        85
+      ],
+      "typography": {
+        "font_em": 128,
+        "extra_stroke_radius": 1,
+        "extra_stroke_strength": 0.45,
+        "height_px": 78,
+        "width_px": 417,
+        "horizontal_stretch": 1.65
+      },
+      "screen_right": 464,
+      "sharp_consumer": {
+        "id": 32,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          381,
+          194,
+          83,
+          10
+        ],
+        "offset": 4832,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.171875,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.015625,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.171875,
+            0.65625,
+            83.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.015625,
+            0.65625,
+            83.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "b37d118d7f80415f8a28fa46c6d6f33504909e42af48541e5ee9452bfab1ee0c",
+        "uv_normalized": [
+          0.015625,
+          0.0078125,
+          0.171875,
+          0.65625
+        ]
+      },
+      "glow_consumer": {
+        "id": 42,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          188,
+          125,
+          22
+        ],
+        "offset": 6196,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6328125,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.6328125,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "4493eeed1b793b1973b15e554b15595428d3d90ae9dfd0723055589af9a117cc",
+        "uv_normalized": [
+          0.546875,
+          0.001953125,
+          0.6328125,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/load",
+      "source": "LOAD GAME",
+      "korean": "불러오기",
+      "sharp": 34,
+      "glow": 43,
+      "erase": [
+        34,
+        0,
+        45,
+        45
+      ],
+      "shared_tail": 65,
+      "typography": {
+        "font_em": 128,
+        "extra_stroke_radius": 1,
+        "extra_stroke_strength": 0.45,
+        "height_px": 78,
+        "width_px": 478,
+        "horizontal_stretch": 1.65
+      },
+      "screen_right": 464,
+      "sharp_consumer": {
+        "id": 34,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          374,
+          208,
+          43,
+          10
+        ],
+        "offset": 5108,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6875,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.53125,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.6875,
+            0.34375,
+            43.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.53125,
+            0.34375,
+            43.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "dd9abf9df1e40ba9274df2b0ebcfc8625a3836f117e60911cfcdd73e90231137",
+        "uv_normalized": [
+          0.53125,
+          0.0078125,
+          0.6875,
+          0.34375
+        ]
+      },
+      "glow_consumer": {
+        "id": 43,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          202,
+          125,
+          22
+        ],
+        "offset": 6336,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.72265625,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.72265625,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "e3a7f5bde315ebfcab4d7cc60eba60e077da7c4e8be305cb6c83b30b0bbb34a7",
+        "uv_normalized": [
+          0.63671875,
+          0.001953125,
+          0.72265625,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/gallery",
+      "source": "GALLERY",
+      "korean": "갤러리",
+      "sharp": 53,
+      "glow": 55,
+      "erase": [
+        45,
+        0,
+        56,
+        78
+      ],
+      "typography": {
+        "font_em": 128,
+        "extra_stroke_radius": 1,
+        "extra_stroke_strength": 0.45,
+        "height_px": 78,
+        "width_px": 352,
+        "horizontal_stretch": 1.65
+      },
+      "screen_right": 464,
+      "sharp_consumer": {
+        "id": 53,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          388,
+          222,
+          76,
+          10
+        ],
+        "offset": 7604,
+        "vtype": "0x183",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x12000183",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.859375,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.703125,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.859375,
+            0.6015625,
+            76.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.703125,
+            0.6015625,
+            76.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "44d55c49f2dc4db9e44815071593545ef809466a365c9a195dc35e3ea439f31d",
+        "uv_normalized": [
+          0.703125,
+          0.0078125,
+          0.859375,
+          0.6015625
+        ]
+      },
+      "glow_consumer": {
+        "id": 55,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          216,
+          125,
+          22
+        ],
+        "offset": 7868,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.6328125,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.248046875,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.6328125,
+            0.4921875,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.546875,
+            0.4921875,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "3cfce58d8b2c0bd81028e951913ed97ba9f2e37c33b33a2470a0fb5d8c2f8da5",
+        "uv_normalized": [
+          0.546875,
+          0.248046875,
+          0.6328125,
+          0.4921875
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/options",
+      "source": "OPTIONS",
+      "korean": "설정",
+      "sharp": 36,
+      "glow": 44,
+      "erase": [
+        12,
+        0,
+        23,
+        72
+      ],
+      "typography": {
+        "font_em": 128,
+        "extra_stroke_radius": 1,
+        "extra_stroke_strength": 0.45,
+        "height_px": 78,
+        "width_px": 230,
+        "horizontal_stretch": 1.65
+      },
+      "screen_right": 464,
+      "sharp_consumer": {
+        "id": 36,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          394,
+          236,
+          70,
+          10
+        ],
+        "offset": 5388,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.34375,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.34375,
+            0.5546875,
+            70.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            0.5546875,
+            70.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "1580ce8d28e2d741cc1a50893753331e082bafa111e366aa89d36e53dae001ef",
+        "uv_normalized": [
+          0.1875,
+          0.0078125,
+          0.34375,
+          0.5546875
+        ]
+      },
+      "glow_consumer": {
+        "id": 44,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          230,
+          125,
+          22
+        ],
+        "offset": 6476,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.8125,
+            0.001953125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.001953125,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.8125,
+            0.24609375,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.24609375,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "21b93d55bf33d39705b5c62a24713589ac4c795b9925d697b0469badd3cdea04",
+        "uv_normalized": [
+          0.7265625,
+          0.001953125,
+          0.8125,
+          0.24609375
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/install",
+      "source": "INSTALL",
+      "korean": "설치",
+      "sharp": 38,
+      "glow": 45,
+      "erase": [
+        23,
+        0,
+        34,
+        71
+      ],
+      "typography": {
+        "font_em": 128,
+        "extra_stroke_radius": 1,
+        "extra_stroke_strength": 0.45,
+        "height_px": 78,
+        "width_px": 227,
+        "horizontal_stretch": 1.65
+      },
+      "screen_right": 464,
+      "sharp_consumer": {
+        "id": 38,
+        "kind": 3,
+        "texture_slot": 7,
+        "layout_xywh": [
+          395,
+          250,
+          69,
+          10
+        ],
+        "offset": 5668,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.515625,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.359375,
+            0.0078125,
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            0.515625,
+            0.546875,
+            69.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.359375,
+            0.546875,
+            69.0,
+            10.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "48dde3cb168eb029ea598b2614434f3b56274567972dc712ee3d6e4c166590de",
+        "uv_normalized": [
+          0.359375,
+          0.0078125,
+          0.515625,
+          0.546875
+        ]
+      },
+      "glow_consumer": {
+        "id": 45,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          345,
+          244,
+          125,
+          22
+        ],
+        "offset": 6616,
+        "vtype": "0x19f",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000000",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x1200019f",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.72265625,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.248046875,
+            0.0,
+            22.0,
+            0.0
+          ],
+          [
+            0.72265625,
+            0.4921875,
+            125.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.63671875,
+            0.4921875,
+            125.0,
+            22.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "ac91ddfd8cd4fad4d1170c5e2af472744ae40c9c9e785e3a7963293e29960fc8",
+        "uv_normalized": [
+          0.63671875,
+          0.248046875,
+          0.72265625,
+          0.4921875
+        ]
+      },
+      "halo_radius_native": 2,
+      "translator_model": "Codex internal"
+    },
+    {
+      "uid": "TUI-001/start",
+      "source": "PRESS START",
+      "korean": "START를\n눌러 주세요",
+      "consumer": {
+        "id": 31,
+        "kind": 3,
+        "texture_slot": 5,
+        "layout_xywh": [
+          402,
+          231,
+          66,
+          33
+        ],
+        "offset": 4708,
+        "vtype": "0x183",
+        "ops": [
+          "0x14000000",
+          "0x1e000001",
+          "0x20000001",
+          "0xc6000101",
+          "0xdf0000a2",
+          "0xe1ffffff",
+          "0x12000183",
+          "0x10000000",
+          "0x100002c",
+          "0x4040004",
+          "0xb000000"
+        ],
+        "primitive": 4,
+        "vertices": [
+          [
+            0.85546875,
+            0.248046875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.248046875,
+            0.0,
+            33.0,
+            0.0
+          ],
+          [
+            0.85546875,
+            0.376953125,
+            66.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.7265625,
+            0.376953125,
+            66.0,
+            33.0,
+            0.0
+          ]
+        ],
+        "vertex_bytes_sha256": "3153266939fe8b48ba09f59fe7795cadd0a3a260a258702a0549cc8db9d70609",
+        "uv_normalized": [
+          0.7265625,
+          0.248046875,
+          0.85546875,
+          0.376953125
+        ]
+      },
+      "typography": [
+        {
+          "font_em": 128,
+          "extra_stroke_radius": 1,
+          "extra_stroke_strength": 0.45,
+          "height_px": 94,
+          "width_px": 412,
+          "horizontal_stretch": 1.0
+        },
+        {
+          "font_em": 128,
+          "extra_stroke_radius": 1,
+          "extra_stroke_strength": 0.45,
+          "height_px": 94,
+          "width_px": 481,
+          "horizontal_stretch": 1.0
+        }
+      ],
+      "translator_model": "Codex internal"
+    }
+  ],
+  "geometry_exception": "Same exact 8x canvas. SDO record 65 alone repoints LOAD tail to an unused 8x47 native atlas cell and joins the four-pixel English word gap; the total LOAD screen bounds stay 374..464 by 208..218. The tail has effective 6.4x vertical sampling within the 8x texture.",
+  "consumer_patch": {
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\001_if_title.zzz\\009.sdo",
+    "source_sha256": "21a7bc340b0611af154c0695bc5739b8c61ce62c7a10ba11395849c5242b7d9e",
+    "patched": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\consumer\\009.sdo",
+    "patched_sha256": "e7ecfebe0adb636bd70f37baa9638dab89fb26ca3cb0a4421b9e00b34637e3dc",
+    "changed_record": 65,
+    "field_writes": [
+      {
+        "offset": 1052,
+        "before": "a501",
+        "after": "a101"
+      },
+      {
+        "offset": 1056,
+        "before": "2b00",
+        "after": "2f00"
+      },
+      {
+        "offset": 8868,
+        "before": "0000303e",
+        "after": "00007c3f"
+      },
+      {
+        "offset": 8872,
+        "before": "0000a43e",
+        "after": "0000003c"
+      },
+      {
+        "offset": 8892,
+        "before": "0000803c",
+        "after": "00005c3f"
+      },
+      {
+        "offset": 8896,
+        "before": "0000a43e",
+        "after": "0000003c"
+      },
+      {
+        "offset": 8916,
+        "before": "0000303e",
+        "after": "00007c3f"
+      },
+      {
+        "offset": 8920,
+        "before": "0000283f",
+        "after": "0000c03e"
+      },
+      {
+        "offset": 8928,
+        "before": "00002c42",
+        "after": "00003c42"
+      },
+      {
+        "offset": 8940,
+        "before": "0000803c",
+        "after": "00005c3f"
+      },
+      {
+        "offset": 8944,
+        "before": "0000283f",
+        "after": "0000c03e"
+      },
+      {
+        "offset": 8952,
+        "before": "00002c42",
+        "after": "00003c42"
+      }
+    ],
+    "changed_byte_count": 20,
+    "allowlisted_bytes": 44,
+    "source_record": {
+      "id": 65,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        421,
+        208,
+        43,
+        10
+      ],
+      "offset": 8824,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.171875,
+          0.3203125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.015625,
+          0.3203125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.171875,
+          0.65625,
+          43.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.015625,
+          0.65625,
+          43.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "79174fb34cbb502cd67bcda4a28a8fad537302be05f1cbbc17e2f51ecbba7b4d",
+      "uv_normalized": [
+        0.015625,
+        0.3203125,
+        0.171875,
+        0.65625
+      ]
+    },
+    "patched_record": {
+      "id": 65,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        417,
+        208,
+        47,
+        10
+      ],
+      "offset": 8824,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.984375,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.984375,
+          0.375,
+          47.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.375,
+          47.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "ca7825fe39e791f80bd915f926bcbe1f369addf738cb5dd565479041d61f3b4f",
+      "uv_normalized": [
+        0.859375,
+        0.0078125,
+        0.984375,
+        0.375
+      ]
+    },
+    "new_uv_box": [
+      55,
+      1,
+      63,
+      48
+    ],
+    "overall_load_screen_bounds": [
+      374,
+      208,
+      464,
+      218
+    ]
+  },
+  "volume_patch": {
+    "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\title.vol\\container.vol",
+    "source_sha256": "73f93041e376f2e45c2c9e57ea5ddb0ca345153c255ac334aa6246443536df18",
+    "output": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-title-ko-002\\consumer\\TITLE.VOL",
+    "output_sha256": "be4117ce072032ea481c8884ed97054c1290e5b018d9bee64ae69ed90bbd7c8d",
+    "only_changed_lpk_member": 9,
+    "all_texture_members_unchanged": true,
+    "source_size": 258496,
+    "output_size": 257504,
+    "runtime_verified": false
+  },
+  "sdo_records": [
+    {
+      "id": 0,
+      "kind": 0,
+      "texture_slot": 0,
+      "layout_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "offset": 0,
+      "empty": true
+    },
+    {
+      "id": 1,
+      "kind": 1,
+      "texture_slot": 1,
+      "layout_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "offset": 1112,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 2,
+      "kind": 3,
+      "texture_slot": 0,
+      "layout_xywh": [
+        0,
+        0,
+        480,
+        272
+      ],
+      "offset": 1216,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x12000183",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          0.0,
+          272.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.0,
+          480.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.53125,
+          480.0,
+          272.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "0212956be41289142918d20bf69b086db52a33e86a2a55b9f84ca530395a0df9",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.9375,
+        0.53125
+      ]
+    },
+    {
+      "id": 3,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        240,
+        136,
+        480,
+        272
+      ],
+      "offset": 1336,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 4,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        240,
+        136,
+        480,
+        272
+      ],
+      "offset": 1444,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000001",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 5,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        0,
+        0,
+        480,
+        272
+      ],
+      "offset": 1552,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000001",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 6,
+      "kind": 3,
+      "texture_slot": 2,
+      "layout_xywh": [
+        0,
+        0,
+        240,
+        136
+      ],
+      "offset": 1660,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          0.0,
+          136.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.0,
+          240.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.53125,
+          240.0,
+          136.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "9fb89c9db9e531aee3f3071c2b3a5288a878a9dc83b225b75a067723dafe9a3e",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.9375,
+        0.53125
+      ]
+    },
+    {
+      "id": 7,
+      "kind": 3,
+      "texture_slot": 2,
+      "layout_xywh": [
+        240,
+        0,
+        239,
+        136
+      ],
+      "offset": 1800,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.93359375,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.93359375,
+          0.53125,
+          0.0,
+          136.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          239.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          239.0,
+          136.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "75bebf87476b350d80e1b93ab4d52ed501554e170fe10a6208b7abf612c284dd",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.93359375,
+        0.53125
+      ]
+    },
+    {
+      "id": 8,
+      "kind": 3,
+      "texture_slot": 2,
+      "layout_xywh": [
+        0,
+        136,
+        240,
+        135
+      ],
+      "offset": 1940,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.52734375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          135.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.52734375,
+          240.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9375,
+          0.0,
+          240.0,
+          135.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "56a273e68256a27c24d2956e69a3c3083cd8511a59faae80fec53bb579ae7037",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.9375,
+        0.52734375
+      ]
+    },
+    {
+      "id": 9,
+      "kind": 3,
+      "texture_slot": 2,
+      "layout_xywh": [
+        240,
+        136,
+        239,
+        135
+      ],
+      "offset": 2080,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.93359375,
+          0.52734375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.93359375,
+          0.0,
+          0.0,
+          135.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.52734375,
+          239.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          239.0,
+          135.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "b3303e14b3bbb396a0895af17aa7826b1f991261130615cb0fa526ec104ff744",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.93359375,
+        0.52734375
+      ]
+    },
+    {
+      "id": 10,
+      "kind": 3,
+      "texture_slot": 3,
+      "layout_xywh": [
+        120,
+        68,
+        241,
+        136
+      ],
+      "offset": 2220,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          -120.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          -120.0,
+          68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.0,
+          121.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.53125,
+          121.0,
+          68.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "e1be65cb7cdb2aa6ea5ecedfb2b447def8d347e044a5b53eb4b425bf0a49d8b7",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.94140625,
+        0.53125
+      ]
+    },
+    {
+      "id": 11,
+      "kind": 3,
+      "texture_slot": 3,
+      "layout_xywh": [
+        361,
+        68,
+        241,
+        136
+      ],
+      "offset": 2356,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.94140625,
+          0.0,
+          -120.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.53125,
+          -120.0,
+          68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          121.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          121.0,
+          68.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "addd302934359c9df021f6bb818b63af0a9cd53e4372d878dffe5ac32cb0b87d",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.94140625,
+        0.53125
+      ]
+    },
+    {
+      "id": 12,
+      "kind": 3,
+      "texture_slot": 3,
+      "layout_xywh": [
+        120,
+        204,
+        241,
+        136
+      ],
+      "offset": 2492,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.53125,
+          -120.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -120.0,
+          68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.53125,
+          121.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.0,
+          121.0,
+          68.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "a1894c5e5cb9ff4b7ebefd35fdf9e5b3ce54c0b42a3b66d65e7df217ac58864e",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.94140625,
+        0.53125
+      ]
+    },
+    {
+      "id": 13,
+      "kind": 3,
+      "texture_slot": 3,
+      "layout_xywh": [
+        361,
+        204,
+        241,
+        136
+      ],
+      "offset": 2628,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.94140625,
+          0.53125,
+          -120.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.0,
+          -120.0,
+          68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.53125,
+          121.0,
+          -68.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          121.0,
+          68.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "99ecc1d0be5646ea8cc85a9540c92a8a4abcdc47834b01ac16f9205b9fbfb999",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.94140625,
+        0.53125
+      ]
+    },
+    {
+      "id": 14,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        14,
+        245,
+        242,
+        12
+      ],
+      "offset": 2764,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.9765625,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9296875,
+          0.001953125,
+          0.0,
+          12.0,
+          0.0
+        ],
+        [
+          0.9765625,
+          0.474609375,
+          242.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9296875,
+          0.474609375,
+          242.0,
+          12.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "00db602411f510aee360783a898db6e5b02eb74a315905df0724ad143a023319",
+      "uv_normalized": [
+        0.9296875,
+        0.001953125,
+        0.9765625,
+        0.474609375
+      ]
+    },
+    {
+      "id": 15,
+      "kind": 3,
+      "texture_slot": 4,
+      "layout_xywh": [
+        242,
+        141,
+        262,
+        140
+      ],
+      "offset": 2900,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6171875,
+          0.017578125,
+          -131.0,
+          -70.0,
+          0.0
+        ],
+        [
+          0.0703125,
+          0.017578125,
+          -131.0,
+          70.0,
+          0.0
+        ],
+        [
+          0.6171875,
+          0.529296875,
+          131.0,
+          -70.0,
+          0.0
+        ],
+        [
+          0.0703125,
+          0.529296875,
+          131.0,
+          70.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "6751caff1e43f50963a25159a5e6b8858cf34979ac99f476a76d9aa28553bc59",
+      "uv_normalized": [
+        0.0703125,
+        0.017578125,
+        0.6171875,
+        0.529296875
+      ]
+    },
+    {
+      "id": 16,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        107,
+        76,
+        268,
+        138
+      ],
+      "offset": 3036,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x12000183",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.54296875,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.001953125,
+          0.0,
+          138.0,
+          0.0
+        ],
+        [
+          0.54296875,
+          0.525390625,
+          268.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.525390625,
+          268.0,
+          138.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "cde2f38b64a41e386af6b2e7b676f4d0d03b0f6c114ff43499641e60720f9044",
+      "uv_normalized": [
+        0.00390625,
+        0.001953125,
+        0.54296875,
+        0.525390625
+      ]
+    },
+    {
+      "id": 17,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        19,
+        16,
+        3,
+        225
+      ],
+      "offset": 3156,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 18,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        19,
+        33,
+        3,
+        254
+      ],
+      "offset": 3260,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.98046875,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.98046875,
+          0.498046875,
+          0.0,
+          254.0,
+          0.0
+        ],
+        [
+          0.9921875,
+          0.001953125,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9921875,
+          0.498046875,
+          3.0,
+          254.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2b392a1ff5f690756c13298f3b9c0285697a59154d05fe383d60312bc23fa003",
+      "uv_normalized": [
+        0.98046875,
+        0.001953125,
+        0.9921875,
+        0.498046875
+      ]
+    },
+    {
+      "id": 19,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        16,
+        16,
+        1,
+        225
+      ],
+      "offset": 3396,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 20,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        12,
+        16,
+        2,
+        1
+      ],
+      "offset": 3500,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 21,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        12,
+        240,
+        2,
+        1
+      ],
+      "offset": 3604,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 22,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        12,
+        134,
+        2,
+        3
+      ],
+      "offset": 3708,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.94140625,
+          0.478515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.94140625,
+          0.484375,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.94921875,
+          0.478515625,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.94921875,
+          0.484375,
+          2.0,
+          3.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "cd758315d210e1a6bcd2893b9950e386ddfa81537c3645b6691b3e65834747d5",
+      "uv_normalized": [
+        0.94140625,
+        0.478515625,
+        0.94921875,
+        0.484375
+      ]
+    },
+    {
+      "id": 23,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        368,
+        19,
+        96,
+        8
+      ],
+      "offset": 3844,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 24,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        368,
+        19,
+        192,
+        8
+      ],
+      "offset": 3948,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.92578125,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.89453125,
+          0.001953125,
+          0.0,
+          8.0,
+          0.0
+        ],
+        [
+          0.92578125,
+          0.376953125,
+          192.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.89453125,
+          0.376953125,
+          192.0,
+          8.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "f3c5bdce92d62ca00654664d985e482cda151ca15747de13b285090d244d8a83",
+      "uv_normalized": [
+        0.89453125,
+        0.001953125,
+        0.92578125,
+        0.376953125
+      ]
+    },
+    {
+      "id": 25,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        368,
+        16,
+        96,
+        1
+      ],
+      "offset": 4084,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 26,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        368,
+        14,
+        1,
+        1
+      ],
+      "offset": 4188,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 27,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        463,
+        14,
+        1,
+        1
+      ],
+      "offset": 4292,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 28,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        368,
+        29,
+        2,
+        1
+      ],
+      "offset": 4396,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 29,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        415,
+        29,
+        2,
+        1
+      ],
+      "offset": 4500,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 30,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        462,
+        29,
+        2,
+        1
+      ],
+      "offset": 4604,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 31,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        402,
+        231,
+        66,
+        33
+      ],
+      "offset": 4708,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000001",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x12000183",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.85546875,
+          0.248046875,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7265625,
+          0.248046875,
+          0.0,
+          33.0,
+          0.0
+        ],
+        [
+          0.85546875,
+          0.376953125,
+          66.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7265625,
+          0.376953125,
+          66.0,
+          33.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "3153266939fe8b48ba09f59fe7795cadd0a3a260a258702a0549cc8db9d70609",
+      "uv_normalized": [
+        0.7265625,
+        0.248046875,
+        0.85546875,
+        0.376953125
+      ]
+    },
+    {
+      "id": 32,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        381,
+        194,
+        83,
+        10
+      ],
+      "offset": 4832,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.171875,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.015625,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.171875,
+          0.65625,
+          83.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.015625,
+          0.65625,
+          83.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "b37d118d7f80415f8a28fa46c6d6f33504909e42af48541e5ee9452bfab1ee0c",
+      "uv_normalized": [
+        0.015625,
+        0.0078125,
+        0.171875,
+        0.65625
+      ]
+    },
+    {
+      "id": 33,
+      "kind": 3,
+      "texture_slot": 6,
+      "layout_xywh": [
+        364,
+        202,
+        17,
+        1
+      ],
+      "offset": 4972,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000092",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.125,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.1328125,
+          0.0,
+          17.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1328125,
+          0.125,
+          17.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "1608e793a070d366f7aacd4e0a38b754fbb0ca58ebf5f73045e45956de356f07",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.1328125,
+        0.125
+      ]
+    },
+    {
+      "id": 34,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        374,
+        208,
+        43,
+        10
+      ],
+      "offset": 5108,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.34375,
+          43.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.34375,
+          43.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "dd9abf9df1e40ba9274df2b0ebcfc8625a3836f117e60911cfcdd73e90231137",
+      "uv_normalized": [
+        0.53125,
+        0.0078125,
+        0.6875,
+        0.34375
+      ]
+    },
+    {
+      "id": 35,
+      "kind": 3,
+      "texture_slot": 6,
+      "layout_xywh": [
+        364,
+        216,
+        7,
+        1
+      ],
+      "offset": 5248,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.125,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0546875,
+          0.0,
+          7.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0546875,
+          0.125,
+          7.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "eacf142befb2aa8420cf72dd0751d9b09feede85d417fc5421f62587720fca61",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.0546875,
+        0.125
+      ]
+    },
+    {
+      "id": 36,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        394,
+        236,
+        70,
+        10
+      ],
+      "offset": 5388,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.34375,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.34375,
+          0.5546875,
+          70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          0.5546875,
+          70.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "1580ce8d28e2d741cc1a50893753331e082bafa111e366aa89d36e53dae001ef",
+      "uv_normalized": [
+        0.1875,
+        0.0078125,
+        0.34375,
+        0.5546875
+      ]
+    },
+    {
+      "id": 37,
+      "kind": 3,
+      "texture_slot": 6,
+      "layout_xywh": [
+        364,
+        244,
+        27,
+        1
+      ],
+      "offset": 5528,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.125,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.2109375,
+          0.0,
+          27.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2109375,
+          0.125,
+          27.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "fd7f403b69e075ce085f3c0322034091aef22ef0070d26cdbd029bdb6eb84bf3",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.2109375,
+        0.125
+      ]
+    },
+    {
+      "id": 38,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        395,
+        250,
+        69,
+        10
+      ],
+      "offset": 5668,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.515625,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.359375,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.515625,
+          0.546875,
+          69.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.359375,
+          0.546875,
+          69.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "48dde3cb168eb029ea598b2614434f3b56274567972dc712ee3d6e4c166590de",
+      "uv_normalized": [
+        0.359375,
+        0.0078125,
+        0.515625,
+        0.546875
+      ]
+    },
+    {
+      "id": 39,
+      "kind": 3,
+      "texture_slot": 6,
+      "layout_xywh": [
+        364,
+        258,
+        27,
+        1
+      ],
+      "offset": 5808,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.125,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.2109375,
+          0.0,
+          27.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2109375,
+          0.125,
+          27.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "fd7f403b69e075ce085f3c0322034091aef22ef0070d26cdbd029bdb6eb84bf3",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.2109375,
+        0.125
+      ]
+    },
+    {
+      "id": 40,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        351,
+        194,
+        10,
+        10
+      ],
+      "offset": 5948,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.3515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.3515625,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.4296875,
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.4296875,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2630c65ef920e733e824a4d6195a2ce844311505eeb0cd1f0e731fadf95d3e9f",
+      "uv_normalized": [
+        0.53125,
+        0.3515625,
+        0.6875,
+        0.4296875
+      ]
+    },
+    {
+      "id": 41,
+      "kind": 1,
+      "texture_slot": 5,
+      "layout_xywh": [
+        351,
+        194,
+        10,
+        10
+      ],
+      "offset": 6088,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 42,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        345,
+        188,
+        125,
+        22
+      ],
+      "offset": 6196,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6328125,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.546875,
+          0.001953125,
+          0.0,
+          22.0,
+          0.0
+        ],
+        [
+          0.6328125,
+          0.24609375,
+          125.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.546875,
+          0.24609375,
+          125.0,
+          22.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "4493eeed1b793b1973b15e554b15595428d3d90ae9dfd0723055589af9a117cc",
+      "uv_normalized": [
+        0.546875,
+        0.001953125,
+        0.6328125,
+        0.24609375
+      ]
+    },
+    {
+      "id": 43,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        345,
+        202,
+        125,
+        22
+      ],
+      "offset": 6336,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.72265625,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.63671875,
+          0.001953125,
+          0.0,
+          22.0,
+          0.0
+        ],
+        [
+          0.72265625,
+          0.24609375,
+          125.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.63671875,
+          0.24609375,
+          125.0,
+          22.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "e3a7f5bde315ebfcab4d7cc60eba60e077da7c4e8be305cb6c83b30b0bbb34a7",
+      "uv_normalized": [
+        0.63671875,
+        0.001953125,
+        0.72265625,
+        0.24609375
+      ]
+    },
+    {
+      "id": 44,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        345,
+        230,
+        125,
+        22
+      ],
+      "offset": 6476,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.8125,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7265625,
+          0.001953125,
+          0.0,
+          22.0,
+          0.0
+        ],
+        [
+          0.8125,
+          0.24609375,
+          125.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7265625,
+          0.24609375,
+          125.0,
+          22.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "21b93d55bf33d39705b5c62a24713589ac4c795b9925d697b0469badd3cdea04",
+      "uv_normalized": [
+        0.7265625,
+        0.001953125,
+        0.8125,
+        0.24609375
+      ]
+    },
+    {
+      "id": 45,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        345,
+        244,
+        125,
+        22
+      ],
+      "offset": 6616,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.72265625,
+          0.248046875,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.63671875,
+          0.248046875,
+          0.0,
+          22.0,
+          0.0
+        ],
+        [
+          0.72265625,
+          0.4921875,
+          125.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.63671875,
+          0.4921875,
+          125.0,
+          22.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "ac91ddfd8cd4fad4d1170c5e2af472744ae40c9c9e785e3a7963293e29960fc8",
+      "uv_normalized": [
+        0.63671875,
+        0.248046875,
+        0.72265625,
+        0.4921875
+      ]
+    },
+    {
+      "id": 46,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        0,
+        0,
+        480,
+        272
+      ],
+      "offset": 6756,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 47,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        351,
+        208,
+        10,
+        10
+      ],
+      "offset": 6860,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.3515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.3515625,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.4296875,
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.4296875,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2630c65ef920e733e824a4d6195a2ce844311505eeb0cd1f0e731fadf95d3e9f",
+      "uv_normalized": [
+        0.53125,
+        0.3515625,
+        0.6875,
+        0.4296875
+      ]
+    },
+    {
+      "id": 48,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        351,
+        236,
+        10,
+        10
+      ],
+      "offset": 7000,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.3515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.3515625,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.4296875,
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.4296875,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2630c65ef920e733e824a4d6195a2ce844311505eeb0cd1f0e731fadf95d3e9f",
+      "uv_normalized": [
+        0.53125,
+        0.3515625,
+        0.6875,
+        0.4296875
+      ]
+    },
+    {
+      "id": 49,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        351,
+        250,
+        10,
+        10
+      ],
+      "offset": 7140,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.3515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.3515625,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.4296875,
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.4296875,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2630c65ef920e733e824a4d6195a2ce844311505eeb0cd1f0e731fadf95d3e9f",
+      "uv_normalized": [
+        0.53125,
+        0.3515625,
+        0.6875,
+        0.4296875
+      ]
+    },
+    {
+      "id": 50,
+      "kind": 1,
+      "texture_slot": 5,
+      "layout_xywh": [
+        351,
+        208,
+        10,
+        10
+      ],
+      "offset": 7280,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 51,
+      "kind": 1,
+      "texture_slot": 5,
+      "layout_xywh": [
+        351,
+        236,
+        10,
+        10
+      ],
+      "offset": 7388,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 52,
+      "kind": 1,
+      "texture_slot": 5,
+      "layout_xywh": [
+        351,
+        250,
+        10,
+        10
+      ],
+      "offset": 7496,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 53,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        388,
+        222,
+        76,
+        10
+      ],
+      "offset": 7604,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x12000183",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.859375,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.703125,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.6015625,
+          76.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.703125,
+          0.6015625,
+          76.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "44d55c49f2dc4db9e44815071593545ef809466a365c9a195dc35e3ea439f31d",
+      "uv_normalized": [
+        0.703125,
+        0.0078125,
+        0.859375,
+        0.6015625
+      ]
+    },
+    {
+      "id": 54,
+      "kind": 3,
+      "texture_slot": 6,
+      "layout_xywh": [
+        364,
+        230,
+        21,
+        1
+      ],
+      "offset": 7728,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.125,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.1640625,
+          0.0,
+          21.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1640625,
+          0.125,
+          21.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "aa104f01861feb5a30e6dd0420e7279cffc59d7ab0ee36609edec3fb7198b7db",
+      "uv_normalized": [
+        0.0,
+        0.0,
+        0.1640625,
+        0.125
+      ]
+    },
+    {
+      "id": 55,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        345,
+        216,
+        125,
+        22
+      ],
+      "offset": 7868,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6328125,
+          0.248046875,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.546875,
+          0.248046875,
+          0.0,
+          22.0,
+          0.0
+        ],
+        [
+          0.6328125,
+          0.4921875,
+          125.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.546875,
+          0.4921875,
+          125.0,
+          22.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "3cfce58d8b2c0bd81028e951913ed97ba9f2e37c33b33a2470a0fb5d8c2f8da5",
+      "uv_normalized": [
+        0.546875,
+        0.248046875,
+        0.6328125,
+        0.4921875
+      ]
+    },
+    {
+      "id": 56,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        351,
+        222,
+        10,
+        10
+      ],
+      "offset": 8008,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.6875,
+          0.3515625,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.3515625,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.6875,
+          0.4296875,
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.53125,
+          0.4296875,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "2630c65ef920e733e824a4d6195a2ce844311505eeb0cd1f0e731fadf95d3e9f",
+      "uv_normalized": [
+        0.53125,
+        0.3515625,
+        0.6875,
+        0.4296875
+      ]
+    },
+    {
+      "id": 57,
+      "kind": 1,
+      "texture_slot": 5,
+      "layout_xywh": [
+        351,
+        222,
+        10,
+        10
+      ],
+      "offset": 8148,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019c",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 58,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        0,
+        0,
+        64,
+        272
+      ],
+      "offset": 8256,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000001",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 59,
+      "kind": 3,
+      "texture_slot": 9,
+      "layout_xywh": [
+        53,
+        89,
+        254,
+        286
+      ],
+      "offset": 8360,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x12000183",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.00390625,
+          0.001953125,
+          -127.0,
+          -143.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.560546875,
+          -127.0,
+          143.0,
+          0.0
+        ],
+        [
+          0.99609375,
+          0.001953125,
+          127.0,
+          -143.0,
+          0.0
+        ],
+        [
+          0.99609375,
+          0.560546875,
+          127.0,
+          143.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "4af487c818c11d15702c9e6dd629a3be9c899ae7c68407b533200bc3fa0cb0b2",
+      "uv_normalized": [
+        0.00390625,
+        0.001953125,
+        0.99609375,
+        0.560546875
+      ]
+    },
+    {
+      "id": 60,
+      "kind": 0,
+      "texture_slot": 0,
+      "layout_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "offset": 0,
+      "empty": true
+    },
+    {
+      "id": 61,
+      "kind": 3,
+      "texture_slot": 10,
+      "layout_xywh": [
+        368,
+        77,
+        350,
+        238
+      ],
+      "offset": 8480,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x12000183",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.93359375,
+          0.001953125,
+          -184.0,
+          67.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.001953125,
+          -184.0,
+          305.0,
+          0.0
+        ],
+        [
+          0.93359375,
+          0.685546875,
+          166.0,
+          67.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.685546875,
+          166.0,
+          305.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "a85b8b6834cc11aae87abd0cceb06575e8950e9874601d4c734f9ddbb9439b52",
+      "uv_normalized": [
+        0.00390625,
+        0.001953125,
+        0.93359375,
+        0.685546875
+      ]
+    },
+    {
+      "id": 62,
+      "kind": 3,
+      "texture_slot": 8,
+      "layout_xywh": [
+        4,
+        36,
+        398,
+        213
+      ],
+      "offset": 8600,
+      "vtype": "0x183",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x12000183",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.8359375,
+          0.001953125,
+          -199.0,
+          -106.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.001953125,
+          -199.0,
+          107.0,
+          0.0
+        ],
+        [
+          0.8359375,
+          0.779296875,
+          199.0,
+          -106.0,
+          0.0
+        ],
+        [
+          0.00390625,
+          0.779296875,
+          199.0,
+          107.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "c1f0b17ecc2351d67128257be562ecb65498d071cf5948caa2b54e07df6a6604",
+      "uv_normalized": [
+        0.00390625,
+        0.001953125,
+        0.8359375,
+        0.779296875
+      ]
+    },
+    {
+      "id": 63,
+      "kind": 0,
+      "texture_slot": 0,
+      "layout_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "offset": 0,
+      "empty": true
+    },
+    {
+      "id": 64,
+      "kind": 1,
+      "texture_slot": 65535,
+      "layout_xywh": [
+        0,
+        0,
+        480,
+        272
+      ],
+      "offset": 8720,
+      "vtype": "0x19c",
+      "ops": [
+        "0x14000000",
+        "0x1e000000",
+        "0x20000001",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019c",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "untextured": true,
+      "classification": "No texture-coordinate component in vertex format"
+    },
+    {
+      "id": 65,
+      "kind": 3,
+      "texture_slot": 7,
+      "layout_xywh": [
+        417,
+        208,
+        47,
+        10
+      ],
+      "offset": 8824,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf0000a2",
+        "0xe1ffffff",
+        "0x1200019f",
+        "0x10000000",
+        "0x100002c",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.984375,
+          0.0078125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.0078125,
+          0.0,
+          10.0,
+          0.0
+        ],
+        [
+          0.984375,
+          0.375,
+          47.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.375,
+          47.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "ca7825fe39e791f80bd915f926bcbe1f369addf738cb5dd565479041d61f3b4f",
+      "uv_normalized": [
+        0.859375,
+        0.0078125,
+        0.984375,
+        0.375
+      ]
+    },
+    {
+      "id": 66,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        259,
+        248,
+        79,
+        7
+      ],
+      "offset": 8964,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.88671875,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.001953125,
+          0.0,
+          7.0,
+          0.0
+        ],
+        [
+          0.88671875,
+          0.15625,
+          79.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.15625,
+          79.0,
+          7.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "118b93de929e8674b11f443c866e7988856e8b4b3b84695792ac1815c9620278",
+      "uv_normalized": [
+        0.859375,
+        0.001953125,
+        0.88671875,
+        0.15625
+      ]
+    },
+    {
+      "id": 67,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        137,
+        259,
+        122,
+        7
+      ],
+      "offset": 9100,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.85546875,
+          0.001953125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.828125,
+          0.001953125,
+          0.0,
+          7.0,
+          0.0
+        ],
+        [
+          0.85546875,
+          0.240234375,
+          122.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.828125,
+          0.240234375,
+          122.0,
+          7.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "32f0065f03318cbbd089456b8c058f967b3748c3dc30062ed41ed54864e70bec",
+      "uv_normalized": [
+        0.828125,
+        0.001953125,
+        0.85546875,
+        0.240234375
+      ]
+    },
+    {
+      "id": 68,
+      "kind": 3,
+      "texture_slot": 5,
+      "layout_xywh": [
+        18,
+        259,
+        116,
+        7
+      ],
+      "offset": 9236,
+      "vtype": "0x19f",
+      "ops": [
+        "0x14000000",
+        "0x1e000001",
+        "0x20000000",
+        "0xc6000101",
+        "0xdf000032",
+        "0x1200019f",
+        "0x10000000",
+        "0x1000028",
+        "0x4040004",
+        "0xb000000"
+      ],
+      "primitive": 4,
+      "vertices": [
+        [
+          0.88671875,
+          0.162109375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.162109375,
+          0.0,
+          7.0,
+          0.0
+        ],
+        [
+          0.88671875,
+          0.388671875,
+          116.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.859375,
+          0.388671875,
+          116.0,
+          7.0,
+          0.0
+        ]
+      ],
+      "vertex_bytes_sha256": "c57374457b032b785fee63dd35e1a05432ec4175e88aefdc5ef1e3e1ed2246f6",
+      "uv_normalized": [
+        0.859375,
+        0.162109375,
+        0.88671875,
+        0.388671875
+      ]
+    }
+  ],
+  "layout_decision": "Restore full original menu slots and right edge x=464; 9.75-native-pixel ink height, expanded strokes and 1.65x horizontal type proportions.",
+  "state_closure": "Five sharp/menu-glow pairs plus PRESS START; original shared GAME alias separated by the mandatory TITLE.VOL companion patch. Do not use these PNGs alone with the old SDO.",
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "static_review": "pending",
+  "remaining": "Persisted-file verification, static state reconstruction, direct visual review, then in-game acceptance."
+}

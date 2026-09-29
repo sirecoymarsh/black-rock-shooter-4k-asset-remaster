@@ -1,0 +1,73 @@
+{
+  "schema": "brs-ui-localization-batch-acceptance/v1",
+  "batch": "TUI-004/TUI-005",
+  "reviewed_on": "2026-09-29",
+  "reviewer": "active Codex internal model",
+  "translator_model": "Codex internal",
+  "task": "brs-hd-ui-fonts",
+  "manifest_sha256": "1d5b1cf90e959b1e9ed1a4cd3feca67f98fcc1084b27188610b9146bb84277ac",
+  "static_review_sha256": "1486f62030e045b9325f086fbe0be3b81ee75850c0c8a1b3812c493b6a5c9ec4",
+  "determinism": {
+    "status": "PASS",
+    "compared_file_count": 746,
+    "changed_files": []
+  },
+  "visual_review": {
+    "status": "PASS",
+    "files": [
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\menu-states-1.png",
+        "sha256": "79c3723d465dc0f31a2f1b152ff8f3848f305c792cb08167f8046ac9a4bc7be4"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\menu-states-2.png",
+        "sha256": "c1ba1fc6e9d8123de5ab0e220c1b9fa47db96ed0abecb1dd27a9e3ad322f0583"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\sharp-atlas-proof.png",
+        "sha256": "4dcd936dad0f1ca315665e99d24681d21069383d33cf42b7b13d6dc7dd841121"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\glow-atlas-proof.png",
+        "sha256": "8bc649d5f7cb8a539e221db715756855c6502f5eec1634e62fb3f2cf4f55b7b5"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\glow-regions-proof.png",
+        "sha256": "0f2864ce8667b770bb18fa8e00d849fd234d6108c46e330f6e8f81d0de1704ef"
+      },
+      {
+        "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-title-ko-001\\start-prompt-proof.png",
+        "sha256": "cde89d4a5566590ee9520d80e72cd6fcf9f058ea309c8398f77f374e6ae80612"
+      }
+    ],
+    "findings": [
+      "Five menu selections show correct Korean with matching Korean glows.",
+      "Shared GAME is blank, avoiding unintended suffixes in LOAD GAME.",
+      "All five labels align at x=417 within their independent original slots; the original English right edge was 464.",
+      "Isolated low-alpha source glyph specks found during first review were removed; only selector-connected source connector rows 13..15 remain.",
+      "Logo, legal text, selector icon and all other identified static consumers are unchanged.",
+      "PRESS START reads START 버튼을 / 눌러 주세요 on two lines without clipping."
+    ]
+  },
+  "asset_count": 2,
+  "semantic_label_count": 6,
+  "visual_regions": 11,
+  "new_exact_keys": 2,
+  "staged_total_keys": 719,
+  "static_status": "PASS",
+  "protected_checks": 18,
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "scope": "Static review of the title sharp/glow family. Actual animation, tint, filtering and full title scene remain unverified.",
+  "combined_progress": {
+    "batches": [
+      "RUI-001..006",
+      "TUI-004/TUI-005"
+    ],
+    "assets": 8,
+    "semantic_entries": 25,
+    "new_exact_keys": 8,
+    "baseline_keys": 711,
+    "total_keys": 719
+  }
+}

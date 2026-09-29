@@ -1,0 +1,159 @@
+{
+  "schema": "brs-remaining-ko-acceptance/v1",
+  "translator_model": "Codex internal",
+  "reviewer": "active Codex internal model",
+  "reviewed_on": "2026-09-29",
+  "manifest_sha256": "76a34eaa56aef1c38fa449a7a7cf34f97a460633cb4c48c5ffd49cca4c494aa6",
+  "static_review_sha256": "6408e84f4cdd3da8e5e62d9f33870533e285f63ad759ab2d950c8fff50b24840",
+  "asset_families": 23,
+  "semantic_entries": 53,
+  "static_status": "PASS",
+  "visual_status": "PASS",
+  "visual_scope": "Full atlas comparisons and seven affine SDO assemblies. Atlas fragments are judged in their assembled state.",
+  "proofs": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\BUI-001-atlas.png",
+      "sha256": "d88dd00bccbea076706d932cd9ede79a808619c3c9de1d2251dd5841d70cbf5a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\BUI-002-atlas.png",
+      "sha256": "bdc85b7ebc2d8bbcd880d0028e5626de203a74462f04ba5882ccdd47e9d3baf3"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\BUI-003-atlas.png",
+      "sha256": "732353240aa34f768d81c202a03b6bc454a3bd0c04fb885a98fae0596f4aa362"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-01-atlas.png",
+      "sha256": "36b022c2ab8e987f6f9de2917ec6c7b4e6c967b0de91a57ab4fe6b746eb184f7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-05-atlas.png",
+      "sha256": "651ba58fab5058fbe85f1fc4505369e26e323cb9fe4a7f1a198a55294d173cf6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-16-atlas.png",
+      "sha256": "430f7b24ef8a799fc4524ad51a0d1a134d1c59c75ed0d7148eb0fdca12ab974c"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-19-atlas.png",
+      "sha256": "2d28d15be8d6fb3d0edf275b2dbb90005058032bf20503ac9d7ce5cee91348bc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-27-atlas.png",
+      "sha256": "116e2adf18827b4be0b979835adb8c1351dde8fef68a78018f4dc760e481a4ce"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\MUI-28-atlas.png",
+      "sha256": "1aeef2823b0a10e75ed8d2b3c6ba229e692a1751ff9b3b9b91f69817e187af69"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-007-atlas.png",
+      "sha256": "9b2985098e97600fee2b9308488db57babaa5a894d3a506686dc8304e17a4760"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-008-atlas.png",
+      "sha256": "84af4addb992afa32f2d14d6dff0138421d0a73836984afa52f02ce29b8e826b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-009-atlas.png",
+      "sha256": "f344728a6cdc2b72668aa9572192897566ffaf22427bc0fa90b0b296e30272b2"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-010-atlas.png",
+      "sha256": "97bc22184c75ed65362cdf007c293f838cd530671f36bcf4953e56580bd45d8e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-011-atlas.png",
+      "sha256": "ee4fc86f0b64f0f12e22b2f04778de59a9f2478b43834dfe839269af3eb4b73b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\RUI-012-atlas.png",
+      "sha256": "b5c14b3fd6b7c1ce8a364ee8e94df239b61619bfa3d1e4514edd089a689ce9a6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-00-atlas.png",
+      "sha256": "e9818cb72931138b9279e2b0e7324938ff96897d5fa1249f6c697eb2dd18ddcd"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-12-atlas.png",
+      "sha256": "739d529f4ce75879f1fbd1af7fdcdf49479431f85ce538271b39fbfd1ffa0a03"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-13-atlas.png",
+      "sha256": "7938c39b13a1689ae23ae6a9192078ef4a2fcbe9cfedf2b3086835d23ba93136"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-21-atlas.png",
+      "sha256": "aa438e1731187fef137df642cc0da4c790f8f321a6e28bcb2b92682e0bc9a611"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-22-atlas.png",
+      "sha256": "1da8a30caa56ee9e1bca34d3d640c695bfb967d1d26104b88409dea36e8188e6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-23-atlas.png",
+      "sha256": "a41a465d8abd1dc67e4176f957777afc49d7250ae90309666903177ccc84102b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-24-atlas.png",
+      "sha256": "778f84a1aa5ec56b204d38454e0b30794f1c39797557a9161defe60189b898e5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\UI-26-atlas.png",
+      "sha256": "c1274875eab06fbea77ee43a5c6ed68a300531e4b03c96edcac9e13bd6666315"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-1.png",
+      "sha256": "afec9439170712f65fa6c9d38787486d3c39233170019c81645df1ec1b59c9f5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-2.png",
+      "sha256": "7dd5e41dcda5651e6158eed1475b79bb6562384d3fa79bce27e23bc5162bbf43"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-3.png",
+      "sha256": "98df0e8652a96568b83c8da540b6aba54380117f1756dd599e14f9b12b7018f1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-4.png",
+      "sha256": "ed197047333735aaca2f90239e2cb8f57d089ce7c7943f11fcd19547864ed8e0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-5.png",
+      "sha256": "dd9c81a6a7c383eea41c97f1d6cc98460c88343113dfe9575cc138eeb98b2b6b"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-6.png",
+      "sha256": "c2fbb4fc14572ee9a258696f74f3dcca8e5912a0ee56aec078609230e51dd2d7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-remaining-ko-001\\consumer-7.png",
+      "sha256": "5df9be4a3c29ab4fc75c30c047be341fbefe2ea47a538a6af978c10d3c19def1"
+    }
+  ],
+  "determinism": {
+    "status": "PASS",
+    "compared_files": 882,
+    "changed_files": []
+  },
+  "unaffected_baseline_bindings_verified": 715,
+  "observed_binding_families": 12,
+  "calculated_unobserved_binding_families": 11,
+  "runtime_verified": false,
+  "live_installation_performed": false,
+  "runtime_limitations": [
+    "Unobserved contiguous-source keys require in-game matching; enclosing-LPK padding is a recorded hypothesis.",
+    "UI-22 has exact calculated maxSeenV hashes only from 350 through 512 rows, covering every edited glyph.",
+    "Title v2 requires its companion ISO. Other combined packs must receive only the UI delta."
+  ],
+  "protected_latin": [
+    "Actual L/R/START/SELECT button labels",
+    "A/B/C grades, numeric digits and standard units",
+    "Brand logos/copyright and character identifiers"
+  ],
+  "remaining_outside_this_batch": [
+    "Original tutorial screenshots: 61 assets / 31 unique images with embedded English or Japanese, audited separately; inclusion question sent to user.",
+    "Native save-dialog art and any unparsed runtime-only surface are not included in this acceptance."
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "schema": "brs-icons-static-review/v1",
+  "asset_checks": [
+    {
+      "id": "ICO-001",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 486639,
+      "candidate_sha256": "3b51f4017ed246d0d0a25536c982f3ed0987f090a9983cf115c243d2fa7f14ea"
+    },
+    {
+      "id": "ICO-002",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 24474,
+      "candidate_sha256": "efd194ef250fb8f69917340bdb8861d1b7ce8c98915696896eb28b26f4b601d4"
+    },
+    {
+      "id": "ICO-003",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 53652,
+      "candidate_sha256": "7f28595101282e86de9b709d15dfab29f6da22682a127f9d844a16eb041d3592"
+    },
+    {
+      "id": "ICO-004",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 96559,
+      "candidate_sha256": "5293c14c9b4809d9be82dd1a88a33654f24db96abe7ebaf5f33d3de04a6a1734"
+    },
+    {
+      "id": "ICO-005",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 72671,
+      "candidate_sha256": "4b6536f81d0adb6ee960c33977b317af3ca981421592248478e5ba9775e78da8"
+    },
+    {
+      "id": "ICO-006",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 131743,
+      "candidate_sha256": "c54da6e994c8c136f809653a9609144159af5832066b51f345b6c4085d70329f"
+    },
+    {
+      "id": "ICO-007",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 31260,
+      "candidate_sha256": "10b7616836abda848270d146597d1027531816f53c3212646e579863fc4d4514"
+    },
+    {
+      "id": "ICO-008",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 194321,
+      "candidate_sha256": "4a1e2289378f44f0781e20e671f95657cbb04b5bd586db97db642c6791598dbe"
+    },
+    {
+      "id": "ICO-009",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 195531,
+      "candidate_sha256": "853f0be09f4a0d90a83e59ea21c92f9da188524b37064d37f4c56e5770144c0f"
+    },
+    {
+      "id": "ICO-010",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 195924,
+      "candidate_sha256": "9c2b289f65614dbd0f87b45334c7904b89e18ce2110456033dc478a2918361dc"
+    },
+    {
+      "id": "ICO-011",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 185304,
+      "candidate_sha256": "f39633ee0bf34c45a0e5925e67d100879d93d58db4a33aed797b79b3347a7ba7"
+    },
+    {
+      "id": "ICO-012",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 185409,
+      "candidate_sha256": "db35eade93b412a3e978b444c7c651fcf2be5b09f8dfef50b2b891cb3173e41b"
+    },
+    {
+      "id": "ICO-013",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 179964,
+      "candidate_sha256": "30a7e1625ec3bb868ab34afa6e3a67b03d07fb07cfce3a4f0bfb3cb512b227ec"
+    },
+    {
+      "id": "ICO-014",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 192061,
+      "candidate_sha256": "0186ad19efb57329d5ae7669ceb84a282caaeb350e8bb8a5c053a409105a007b"
+    },
+    {
+      "id": "ICO-015",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 196136,
+      "candidate_sha256": "3ab90fcb86a95a17eeec6cdc79249265395d41d0fe907dd6245f69ce12c580e9"
+    },
+    {
+      "id": "ICO-016",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 194777,
+      "candidate_sha256": "f6e05c615ad9a00587c55e60b565035e35724221dfa2573098b2565aabbd81d2"
+    },
+    {
+      "id": "ICO-017",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 180266,
+      "candidate_sha256": "119f4ded58b351d647d60350ed2607d83472bd2e10f1e0a5c922b10a926b25ba"
+    },
+    {
+      "id": "ICO-018",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 186299,
+      "candidate_sha256": "0e9cdabb76383c89610bafedd6f96ce7e08d5c73ad579943345a23be7c568854"
+    },
+    {
+      "id": "ICO-019",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 186206,
+      "candidate_sha256": "f981f41238cdf04014cc9266e5c37f4fd9ed86c7cea724a164b8dc19fa3c3772"
+    },
+    {
+      "id": "ICO-020",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 191192,
+      "candidate_sha256": "dcf8fa8ddd78a9a5083d6ec92f0c4643432b2198da07f2f1a2143e4ca457dabb"
+    },
+    {
+      "id": "ICO-021",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 183101,
+      "candidate_sha256": "2089d213a40133123c01bae7265f5449c38633874cce086ee9dbd27bf256452f"
+    },
+    {
+      "id": "ICO-022",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 180399,
+      "candidate_sha256": "b20a5b1bd623be2c9ae806c4e366ab8ce43d05995464ccbca5cae285b91d1887"
+    },
+    {
+      "id": "ICO-023",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 178797,
+      "candidate_sha256": "12c8d1caf732511a71940e7b5bfa2e4a2ed100f038dffdfc12102bb268b8180e"
+    },
+    {
+      "id": "ICO-024",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 187487,
+      "candidate_sha256": "513c12b5e6c8b9d80c0314bc0ad8b0214979f4df412c0331aa13d3ad5005517d"
+    },
+    {
+      "id": "ICO-025",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 182862,
+      "candidate_sha256": "54c942a27cc0228d2a919132450816c3ceb2b07ca498f4640ddc0454ce473c0b"
+    },
+    {
+      "id": "ICO-026",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 188490,
+      "candidate_sha256": "aa3e32ec2c2d2bec71fb7d076dcf551196e13ddfc181fe2876bee5cc1baf10fd"
+    },
+    {
+      "id": "ICO-027",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 175532,
+      "candidate_sha256": "815bfd4b73a9791bf99e24e78d38fe356827aba0894f02b33c9b2ae6422ec909"
+    },
+    {
+      "id": "ICO-028",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 67536,
+      "candidate_sha256": "d4671cb2eb330da345308a070f67e76b1619314c407ffa794b06e28668b1363a"
+    },
+    {
+      "id": "ICO-029",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 276250,
+      "candidate_sha256": "0804d2918cc20f88b2cdabd95d07d1cd08a1bf10dc3628d682c963e4d397611d"
+    },
+    {
+      "id": "ICO-030",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 232519,
+      "candidate_sha256": "030be0e871ad97e9a8b38b09f253a4a57c3008318d59ad86b52cdfcefad42883"
+    },
+    {
+      "id": "ICO-031",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 1637822,
+      "candidate_sha256": "ee59de410f35e7930b11b05252d1ef21ccfc5de6107bcba74d9907cf3ab60f11"
+    },
+    {
+      "id": "ICO-032",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 1127253,
+      "candidate_sha256": "7398328546d088ed6052df9d32855a5957b9c9943fc8cda1c446084aee25524c"
+    },
+    {
+      "id": "ICO-033",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 20151,
+      "candidate_sha256": "b57059de2cd2adb782117123a85f0e034b42b625ac38acae14339968234c481a"
+    },
+    {
+      "id": "ICO-034",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 93795,
+      "candidate_sha256": "aaaa6a1c92acb52035826bf7fb2813af0da596673085b1043f7f984559a8a614"
+    },
+    {
+      "id": "ICO-035",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 29790,
+      "candidate_sha256": "869955abe5231566d21919e6fd0aabc1e616a4122d142bc1ee041e09f54f3606"
+    },
+    {
+      "id": "ICO-036",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 10398,
+      "candidate_sha256": "7b16a9f597fbc59636244aab4c7eee0ca25443c2b7b91f2632e6e9555ca2d4c0"
+    },
+    {
+      "id": "ICO-037",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 14502,
+      "candidate_sha256": "aede1bc24d1ed95e5e80d16d3ed9fec010326f5e911b66d42d1f737a80f171ee"
+    },
+    {
+      "id": "ICO-038",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 326672,
+      "candidate_sha256": "268089bed4ce2993ad5726240d8f734d1da8d8d6a380825fe4509887e18db2ff"
+    },
+    {
+      "id": "ICO-039",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 261421,
+      "candidate_sha256": "872c28c080fbc7799a35252d611eba82eef16b5ce41096649ae9e8e205efbda3"
+    },
+    {
+      "id": "ICO-040",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 114804,
+      "candidate_sha256": "e4bc7a7f75e75b268d94ba21114976df25ab49b9734d812f0f7e27d2456902a5"
+    },
+    {
+      "id": "ICO-041",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 65493,
+      "candidate_sha256": "dc142083c5883a99c3273fac6dda17934eedf0dfa2116c1d6d3dd5235c24231a"
+    },
+    {
+      "id": "ICO-042",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 47235,
+      "candidate_sha256": "964dbbd2807a5e0af10443743c71a0476bcfd3db0a41b2656b9be3e7d5f2ef1a"
+    },
+    {
+      "id": "ICO-043",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 21183,
+      "candidate_sha256": "246be9af9fbe3fb8c00b25d4fe45a1aba3fc816c6af3da17963592274efe5ca3"
+    },
+    {
+      "id": "ICO-044",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 27181,
+      "candidate_sha256": "acf6c64a2f2404ea0fe818af46c0b8fc57e6909cc8b9c683cdc4c4d0f70697e9"
+    },
+    {
+      "id": "ICO-045",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 44904,
+      "candidate_sha256": "8a3f3f96e7a03fb49caa05b111979dbd97ec609329607650a4cc748a2ec72e79"
+    },
+    {
+      "id": "ICO-046",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 14868,
+      "candidate_sha256": "485a9e161e8522ce24b37821792b8d3ebcc6965b027480840c83798f3f6831f0"
+    },
+    {
+      "id": "ICO-047",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 30398,
+      "candidate_sha256": "67cc8588b72921638ee60cb3eb8cafce3fe3521d9679500ea09bd769d0ede1cc"
+    },
+    {
+      "id": "ICO-048",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 8002,
+      "candidate_sha256": "84a8b54ce9afdd4648c7dc46025bb650a4064a286098a3ae395570615b6f0dc4"
+    },
+    {
+      "id": "ICO-049",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 73924,
+      "candidate_sha256": "73b526c23f5f8f246ca6606918290f9cca6b736ba427a30ef18a08afdb020542"
+    },
+    {
+      "id": "ICO-050",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 122244,
+      "candidate_sha256": "d0a53b1a0f1f62c81aa88c0f44075f7c9c240becc9e4b8c1273bc540ea800361"
+    },
+    {
+      "id": "ICO-051",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 245244,
+      "candidate_sha256": "d5a4a9b86af8703344dff56fa858aa6c3b6b7932e5144fb8dc7d60e187dd1873"
+    },
+    {
+      "id": "ICO-052",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 232528,
+      "candidate_sha256": "213d9a24fd5d846a79bc7df47b95bb127a4141069f03f0889f0577cc57bd4afd"
+    },
+    {
+      "id": "ICO-053",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 16003,
+      "candidate_sha256": "6c5a96374e5f12ad21424d25e11317c6b08f8c1036c656f5bf8a4d8f32600537"
+    },
+    {
+      "id": "ICO-054",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 39233,
+      "candidate_sha256": "c8b29ed1c6ca53c3460c6f781991a961bb8d5595c913a1935ae6bd4e74d87ea7"
+    },
+    {
+      "id": "ICO-055",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 123216,
+      "candidate_sha256": "3c6d329c1309fc7895e04ebab76255e889d24ad174558cd55665fe07fcb25865"
+    },
+    {
+      "id": "ICO-056",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 7983,
+      "candidate_sha256": "a60656399581d17674888c100c15cd1a70f50560fe0b7a6e3e2aebab056587fc"
+    },
+    {
+      "id": "ICO-057",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 193693,
+      "candidate_sha256": "e38908a31dba3d1714b4d34e143473741e68842e330ea4b70af445d977fd3f22"
+    },
+    {
+      "id": "ICO-058",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 2658,
+      "candidate_sha256": "1ed2e9e88be76e7bd716a9815809b5d1be3ecf12c711a3764f0341c4ac51692f"
+    },
+    {
+      "id": "ICO-059",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 133668,
+      "candidate_sha256": "7470d758599bce4eea860c82fa44b56de693893f49211c5e52fea4d0264cde8f"
+    },
+    {
+      "id": "ICO-060",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 99600,
+      "candidate_sha256": "42829f020d67b6ea00cb9184aa4980346067f0c081a34cf2893471d516824e90"
+    },
+    {
+      "id": "ICO-061",
+      "geometry": true,
+      "protected_rgba": true,
+      "prior_localization_equal": true,
+      "changed_pixels": 32124,
+      "candidate_sha256": "61a6453f3714c0409b71d9088bdbf79afb3803bad4f03a85a9bf7797a7861b76"
+    }
+  ],
+  "check_count": 183,
+  "comparison_pages": [
+    "comparison-01.png",
+    "comparison-02.png",
+    "comparison-03.png",
+    "comparison-04.png",
+    "comparison-05.png",
+    "comparison-06.png",
+    "comparison-07.png",
+    "comparison-08.png",
+    "comparison-09.png",
+    "comparison-10.png",
+    "comparison-11.png",
+    "comparison-12.png",
+    "comparison-13.png",
+    "comparison-14.png",
+    "comparison-15.png",
+    "comparison-16.png",
+    "comparison-17.png",
+    "comparison-18.png"
+  ],
+  "comparison_regions": 144,
+  "visual_review": "PASS_STATIC_ORIGINAL_COMPARISON",
+  "runtime_verified": false,
+  "blocked": [],
+  "visual_report": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\qa\\ui_icons_001_visual.json"
+}

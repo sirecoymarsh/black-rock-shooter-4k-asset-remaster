@@ -1,0 +1,2138 @@
+{
+  "schema": "brs-resident-ko-001/v1",
+  "translator_model": "Codex internal",
+  "task": "brs-hd-ui-fonts",
+  "authored_by": "active Codex internal model",
+  "source_language": "English raster UI from the established NPUH10126 Korean-patch baseline",
+  "target_language": "Korean",
+  "replacement_surface": "Previously untranslated resident UI texture labels; existing Korean script and font mappings preserved",
+  "baseline_iso_sha256": "b162f45f10622992a4fd068b8414008cd7f455c7c9b203c1c610554d43de9b21",
+  "baseline_tag": "booster-working-20260924",
+  "delivery": "Staged cumulative PPSSPP replacement pack; successful live bundle untouched",
+  "geometry_exception": "Existing PPSSPP 8x normalized-UV replacement contract: same logical crop, origin, padding and UV layout scaled exactly by 8; no new source rows or columns",
+  "font": {
+    "font": "Orbit Regular",
+    "font_sha256": "5d0206fb0a9e3eeac51aff8d4a6dbb7613d63fc435f1a51f96dc35cefb5f9f87",
+    "source_commit": "95122395c6d1fda07aebdf36f566a75678bc3bdd",
+    "license": "SIL OFL 1.1",
+    "author": "Sooun Cho, JAMO",
+    "source_url": "https://github.com/JAMO-TYPEFACE/Orbit",
+    "intent": "Straight diagonal Hangul strokes and uniform stroke construction echo the fixed-ISO UI; not a claim of an exact original typeface match.",
+    "ui_space_advance_em": 0.45,
+    "ui_ink_expansion": "square max filter, radius round(font_size*0.015), minimum 1 output pixel",
+    "body_origin_8x": [
+      8,
+      -33
+    ],
+    "body_size_8x": 112,
+    "body_ink_expansion": 0,
+    "runtime_status": "unverified candidate"
+  },
+  "build_script_sha256": "7b193206586c810d1397aa19f934fbed4d365dced3f97ac1294690a4b993a44d",
+  "font_renderer_sha256": "7e8ded13f6e40011b0b45b045d442198d9173ecf94b45cfe5aa4c19f3257eed0",
+  "asset_count": 6,
+  "label_count": 19,
+  "baseline_keys": 711,
+  "new_keys": 6,
+  "total_keys": 717,
+  "pack": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\pack\\PSP\\TEXTURES\\NPUH10126",
+  "records": [
+    {
+      "id": "RUI-001",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::000::003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\000\\003.ptm",
+      "source_sha256": "ed1285c28ecdab31a481d409d6dd7e3c4b4169843d5f3e8293120264f36deedf",
+      "source_rgba_sha256": "68b25d28e9a807606c826d6afe092db8d2a95db9c02a3d4fdcdf9880e944dad7",
+      "source_size": [
+        128,
+        32
+      ],
+      "padded_size": [
+        128,
+        32
+      ],
+      "output_size": [
+        1024,
+        256
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000bd0c2510b1d2d469.png",
+      "observed_png_sha256": "4f7ecd87c9c17664d5687920de2357d380b372d95a40a83174be5e861c3e9e12",
+      "observed_rgba_sha256": "68b25d28e9a807606c826d6afe092db8d2a95db9c02a3d4fdcdf9880e944dad7",
+      "key": "00000000bd0c2510b1d2d469",
+      "replacement": "resident-ko-001/00000000bd0c2510b1d2d469.png",
+      "output_sha256": "331efb42bd4099b9c55183690e48d043069868b02216e1b24693351c68f18c18",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\000\\000.sdo",
+      "consumer_sha256": "f290bdbe1c1b3f37de8cc54b2d9ed12e575275ba9ec56830e096786b97832dcc",
+      "texture_slot": 0,
+      "erase_regions": [
+        {
+          "uid": "RUI-001/information",
+          "box": [
+            0,
+            0,
+            102,
+            12
+          ],
+          "source_ink_pixels": 33920
+        },
+        {
+          "uid": "RUI-001/next",
+          "box": [
+            102,
+            0,
+            128,
+            8
+          ],
+          "source_ink_pixels": 3072
+        },
+        {
+          "uid": "RUI-001/no",
+          "box": [
+            0,
+            12,
+            36,
+            23
+          ],
+          "source_ink_pixels": 8320
+        },
+        {
+          "uid": "RUI-001/yes",
+          "box": [
+            36,
+            12,
+            71,
+            23
+          ],
+          "source_ink_pixels": 11520
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-001/information",
+          "source": "INFORMATION",
+          "korean": "안내",
+          "context": "Shared modal prompt heading; static SDO uses its duplicate atlas RUI-002",
+          "consumer_records": [],
+          "slot": [
+            1,
+            1,
+            102,
+            11
+          ],
+          "ink_bounds_output": [
+            14,
+            11,
+            147,
+            85
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-001/next",
+          "source": "NEXT",
+          "korean": "다음",
+          "context": "Advance the current message",
+          "consumer_records": [
+            {
+              "record": 35,
+              "uv_box": [
+                104,
+                1,
+                127,
+                6
+              ],
+              "layout_xywh": [
+                376,
+                117,
+                23,
+                5
+              ],
+              "vertices": [
+                [
+                  0.8125,
+                  0.03125,
+                  -11.0,
+                  -2.0,
+                  0.0
+                ],
+                [
+                  0.8125,
+                  0.1875,
+                  -11.0,
+                  3.0,
+                  0.0
+                ],
+                [
+                  0.9921875,
+                  0.03125,
+                  12.0,
+                  -2.0,
+                  0.0
+                ],
+                [
+                  0.9921875,
+                  0.1875,
+                  12.0,
+                  3.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "edd4ff1385f7fd7e4a916db7339bbc02d4b5308bdc2a98155fd0489020cc6cf1"
+            }
+          ],
+          "slot": [
+            104,
+            1,
+            127,
+            6
+          ],
+          "ink_bounds_output": [
+            835,
+            8,
+            908,
+            47
+          ],
+          "size_px": 42
+        },
+        {
+          "uid": "RUI-001/no",
+          "source": "NO",
+          "korean": "아니요",
+          "context": "Negative modal response; original NO has a wide internal gap",
+          "consumer_records": [
+            {
+              "record": 31,
+              "uv_box": [
+                1,
+                12,
+                35,
+                22
+              ],
+              "layout_xywh": [
+                359,
+                164,
+                34,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.375,
+                  2.0,
+                  -12.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.6875,
+                  2.0,
+                  -2.0,
+                  0.0
+                ],
+                [
+                  0.2734375,
+                  0.375,
+                  36.0,
+                  -12.0,
+                  0.0
+                ],
+                [
+                  0.2734375,
+                  0.6875,
+                  36.0,
+                  -2.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "16530bccbf52417bacf1ac0f1d23e1776a9dd95683ec9bf2d3358e4e5ca09816"
+            }
+          ],
+          "slot": [
+            1,
+            12,
+            35,
+            22
+          ],
+          "ink_bounds_output": [
+            13,
+            98,
+            223,
+            173
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-001/yes",
+          "source": "YES",
+          "korean": "예",
+          "context": "Affirmative modal response",
+          "consumer_records": [
+            {
+              "record": 30,
+              "uv_box": [
+                36,
+                12,
+                70,
+                22
+              ],
+              "layout_xywh": [
+                359,
+                146,
+                34,
+                10
+              ],
+              "vertices": [
+                [
+                  0.28125,
+                  0.375,
+                  2.0,
+                  -12.0,
+                  0.0
+                ],
+                [
+                  0.28125,
+                  0.6875,
+                  2.0,
+                  -2.0,
+                  0.0
+                ],
+                [
+                  0.546875,
+                  0.375,
+                  36.0,
+                  -12.0,
+                  0.0
+                ],
+                [
+                  0.546875,
+                  0.6875,
+                  36.0,
+                  -2.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "44e9961e1296a9c74b50d434f320e00d3aeb427fe302380119f679f8deba708d"
+            }
+          ],
+          "slot": [
+            36,
+            12,
+            70,
+            22
+          ],
+          "ink_bounds_output": [
+            291,
+            99,
+            354,
+            173
+          ],
+          "size_px": 80
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\source-8x.png",
+          "sha256": "2f6f16a09bba459a3d3ca429bbbcfdb24b48397c007410de918659adc7efd95d"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\source-glyph-mask.png",
+          "sha256": "41cfbbcfe879f62c419b7971ecfa45a641fd49e083deaf54ca56a891b4c200b8"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\clean-plate.png",
+          "sha256": "291a79c8e4837272ecb942176d80a0d254121894bbbd6a6e07ceea7bd6cd8414"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\korean-layer.png",
+          "sha256": "08fa5b1744fe3c2de4474456e657024c4bbd9509541c683b910b9521ed4319f3"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\candidate.png",
+          "sha256": "331efb42bd4099b9c55183690e48d043069868b02216e1b24693351c68f18c18"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-001\\owned-mask.png",
+          "sha256": "2a1185fd42a66261078f1699c5022aff429611191429c3735c55ea88c12fe1d1"
+        }
+      },
+      "source_ink_count": 56832,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    },
+    {
+      "id": "RUI-002",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::000::005",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\000\\005.ptm",
+      "source_sha256": "373b58a6816c8a3849c0e9cd0a63cc4fa1b81f656736bb31cd1ba5c3193fa7e0",
+      "source_rgba_sha256": "522e96bd9feb3908305d5c4db980fa5faaa49e0386558687fa87277f20abb51d",
+      "source_size": [
+        128,
+        16
+      ],
+      "padded_size": [
+        128,
+        16
+      ],
+      "output_size": [
+        1024,
+        128
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000fba85b2b5a8838a6.png",
+      "observed_png_sha256": "f1204716514f22fd97677e81f5266dd0423226713c0517041078e3573c12ad41",
+      "observed_rgba_sha256": "522e96bd9feb3908305d5c4db980fa5faaa49e0386558687fa87277f20abb51d",
+      "key": "00000000fba85b2b5a8838a6",
+      "replacement": "resident-ko-001/00000000fba85b2b5a8838a6.png",
+      "output_sha256": "294aa59be847d53d209539af893bea09a9031011367a698ef883c602378c0c34",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\000\\000.sdo",
+      "consumer_sha256": "f290bdbe1c1b3f37de8cc54b2d9ed12e575275ba9ec56830e096786b97832dcc",
+      "texture_slot": 2,
+      "erase_regions": [
+        {
+          "uid": "RUI-002/information",
+          "box": [
+            0,
+            0,
+            109,
+            12
+          ],
+          "source_ink_pixels": 38080
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-002/information",
+          "source": "INFORMATION",
+          "korean": "안내",
+          "context": "Same shared modal heading as RUI-001",
+          "consumer_records": [
+            {
+              "record": 13,
+              "uv_box": [
+                1,
+                1,
+                108,
+                11
+              ],
+              "layout_xywh": [
+                79,
+                110,
+                107,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.0625,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.6875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.0625,
+                  107.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.6875,
+                  107.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "58f2141291b0d3e128df5438c7b55e38c20b595ca2a2bbaf78fcf0a95fd59f43"
+            },
+            {
+              "record": 24,
+              "uv_box": [
+                1,
+                1,
+                108,
+                11
+              ],
+              "layout_xywh": [
+                19,
+                110,
+                107,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.0625,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.6875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.0625,
+                  107.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.6875,
+                  107.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "58f2141291b0d3e128df5438c7b55e38c20b595ca2a2bbaf78fcf0a95fd59f43"
+            },
+            {
+              "record": 33,
+              "uv_box": [
+                1,
+                1,
+                108,
+                11
+              ],
+              "layout_xywh": [
+                79,
+                110,
+                107,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.0625,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.6875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.0625,
+                  107.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.84375,
+                  0.6875,
+                  107.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "58f2141291b0d3e128df5438c7b55e38c20b595ca2a2bbaf78fcf0a95fd59f43"
+            }
+          ],
+          "slot": [
+            1,
+            1,
+            108,
+            11
+          ],
+          "ink_bounds_output": [
+            14,
+            11,
+            147,
+            85
+          ],
+          "size_px": 80
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\source-8x.png",
+          "sha256": "719c37d6674e9c832417360d3f5b10da3234a53acde948e7f696f08bd2834351"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\source-glyph-mask.png",
+          "sha256": "324ec62cbacba08294f48c4e971856fdf80989c7efa322ffabff017115cbce6a"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\clean-plate.png",
+          "sha256": "e1c80c0581aa61a6be76ca36e709bcdcc5704836bd2c5da9c2e67445bcd9f0d6"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\korean-layer.png",
+          "sha256": "294aa59be847d53d209539af893bea09a9031011367a698ef883c602378c0c34"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\candidate.png",
+          "sha256": "294aa59be847d53d209539af893bea09a9031011367a698ef883c602378c0c34"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-002\\owned-mask.png",
+          "sha256": "9eb8ef43055ea2a501e5fdeca0f53d18a10509f8c6a18d0b42020b3bcf977f18"
+        }
+      },
+      "source_ink_count": 38080,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    },
+    {
+      "id": "RUI-003",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::018::009",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\009.ptm",
+      "source_sha256": "13c50638468a7979847681e2809c011f039222aa7f9ea22725c405dcd3270561",
+      "source_rgba_sha256": "bfd1a52f82841d27aa125de4a49c54d3a82fce2693990f3d2cc5018c75186ecc",
+      "source_size": [
+        64,
+        40
+      ],
+      "padded_size": [
+        64,
+        64
+      ],
+      "output_size": [
+        512,
+        512
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-145156-354b41\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000e944dee4e06c8505.png",
+      "observed_png_sha256": "539539f8cddc162042c7b381efb65be080bd114389ecc481101a49a3c23a916e",
+      "observed_rgba_sha256": "e9d3528f8243c51d9505d8bbd440a83120fb14ffc7f01fa7b9f045e6ff1d70e6",
+      "key": "00000000e944dee4e06c8505",
+      "replacement": "resident-ko-001/00000000e944dee4e06c8505.png",
+      "output_sha256": "9842a317b0bd9aec3041fdddc1af34a7ab87dca83a8cc491543554b250e2e70a",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\000.sdo",
+      "consumer_sha256": "7e8fadf0177c9bcbfbfbde9d9457a70943aca4406c07251e460d31e0dec8bbf3",
+      "texture_slot": 12,
+      "erase_regions": [
+        {
+          "uid": "RUI-003/action",
+          "box": [
+            0,
+            0,
+            61,
+            12
+          ],
+          "source_ink_pixels": 19456
+        },
+        {
+          "uid": "RUI-003/talk",
+          "box": [
+            0,
+            12,
+            45,
+            23
+          ],
+          "source_ink_pixels": 12544
+        },
+        {
+          "uid": "RUI-003/check",
+          "box": [
+            0,
+            23,
+            56,
+            34
+          ],
+          "source_ink_pixels": 18176
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-003/action",
+          "source": "ACTION",
+          "korean": "행동",
+          "context": "Generic context-sensitive field action",
+          "consumer_records": [
+            {
+              "record": 24,
+              "uv_box": [
+                1,
+                1,
+                60,
+                11
+              ],
+              "layout_xywh": [
+                185,
+                208,
+                59,
+                10
+              ],
+              "vertices": [
+                [
+                  0.015625,
+                  0.015625,
+                  -16.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.015625,
+                  0.171875,
+                  -16.0,
+                  5.0,
+                  0.0
+                ],
+                [
+                  0.9375,
+                  0.015625,
+                  43.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.9375,
+                  0.171875,
+                  43.0,
+                  5.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "52c01ec19cef30e524a9f1e9d9a0b8dbefedce77ba6dbda44be75172ba4b4123"
+            }
+          ],
+          "slot": [
+            1,
+            1,
+            60,
+            11
+          ],
+          "ink_bounds_output": [
+            12,
+            11,
+            150,
+            85
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-003/talk",
+          "source": "TALK",
+          "korean": "대화",
+          "context": "Talk to a character",
+          "consumer_records": [
+            {
+              "record": 34,
+              "uv_box": [
+                1,
+                12,
+                44,
+                22
+              ],
+              "layout_xywh": [
+                177,
+                243,
+                43,
+                10
+              ],
+              "vertices": [
+                [
+                  0.015625,
+                  0.1875,
+                  -8.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.015625,
+                  0.34375,
+                  -8.0,
+                  5.0,
+                  0.0
+                ],
+                [
+                  0.6875,
+                  0.1875,
+                  35.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.6875,
+                  0.34375,
+                  35.0,
+                  5.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "98f3fc0bf2f930d02fe4907583e0a6e776700424891c349afb5006fbe058e6ed"
+            }
+          ],
+          "slot": [
+            1,
+            12,
+            44,
+            22
+          ],
+          "ink_bounds_output": [
+            14,
+            98,
+            152,
+            173
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-003/check",
+          "source": "CHECK",
+          "korean": "조사",
+          "context": "Examine a field object",
+          "consumer_records": [
+            {
+              "record": 29,
+              "uv_box": [
+                1,
+                23,
+                55,
+                33
+              ],
+              "layout_xywh": [
+                292,
+                208,
+                54,
+                10
+              ],
+              "vertices": [
+                [
+                  0.015625,
+                  0.359375,
+                  -13.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.015625,
+                  0.515625,
+                  -13.0,
+                  5.0,
+                  0.0
+                ],
+                [
+                  0.859375,
+                  0.359375,
+                  41.0,
+                  -5.0,
+                  0.0
+                ],
+                [
+                  0.859375,
+                  0.515625,
+                  41.0,
+                  5.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "b808dfaba4b1cfcf355f1f8160f958b627d5c7c1aa08ce59270a887ebe221353"
+            }
+          ],
+          "slot": [
+            1,
+            23,
+            55,
+            33
+          ],
+          "ink_bounds_output": [
+            11,
+            187,
+            152,
+            261
+          ],
+          "size_px": 80
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\source-8x.png",
+          "sha256": "e9bb4ffa6cee79f6ba7d43706740bbad5763cdb1a583782a658f7df618cd7666"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\source-glyph-mask.png",
+          "sha256": "1aee8182bade41b8d9519ef1e2f2594a316646d4b3d1267504900ad3f757f29e"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\clean-plate.png",
+          "sha256": "e8af2055de78edb68bcb755645ff2ccc98273bed6cce978bdb5987c52d1594f1"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\korean-layer.png",
+          "sha256": "077961ceecf87dd88b5c34d83cb173b281382447a805dd1799690de578443d76"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\candidate.png",
+          "sha256": "9842a317b0bd9aec3041fdddc1af34a7ab87dca83a8cc491543554b250e2e70a"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-003\\owned-mask.png",
+          "sha256": "6dbdde9eb3bd6c0cc9fda44abb58efb74e9da8d3b690b7cc36d2fdf094bdf97a"
+        }
+      },
+      "source_ink_count": 50176,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    },
+    {
+      "id": "RUI-004",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::018::014",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\014.ptm",
+      "source_sha256": "0d46ef98c11a1c0ef4ad56f1d4ef2ab9e9838aff0317427b455c8c16566eb40c",
+      "source_rgba_sha256": "e6892522e530ce9b090770d1bb2db54d7a06722b28c22b2d3996b107b5bca417",
+      "source_size": [
+        256,
+        24
+      ],
+      "padded_size": [
+        256,
+        32
+      ],
+      "output_size": [
+        2048,
+        256
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-retexture\\workspace\\sessions\\S-20260922-151804-baseline-d7d8b6\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000a4f3e3da706b6914.png",
+      "observed_png_sha256": "b0e793f66f307f58843b210afab0421add273cb4445ca936e0e3028a2cf03d03",
+      "observed_rgba_sha256": "0c7f5921a52b98f73188c00f02fd9a3c0e57807b09df3e0cd56043abe04d833a",
+      "key": "00000000a4f3e3da706b6914",
+      "replacement": "resident-ko-001/00000000a4f3e3da706b6914.png",
+      "output_sha256": "703af58cb3272b2c7409426b63a4eb6eb780d6aaf36e06123c9e8d868f9ea42c",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\018\\000.sdo",
+      "consumer_sha256": "7e8fadf0177c9bcbfbfbde9d9457a70943aca4406c07251e460d31e0dec8bbf3",
+      "texture_slot": 18,
+      "erase_regions": [
+        {
+          "uid": "RUI-004/critical",
+          "box": [
+            170,
+            0,
+            216,
+            8
+          ],
+          "source_ink_pixels": 10304
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-004/critical",
+          "source": "CRITICAL",
+          "korean": "치명타",
+          "context": "Critical-hit indicator; preserve all damage digits and bars",
+          "consumer_records": [
+            {
+              "record": 45,
+              "uv_box": [
+                171,
+                1,
+                215,
+                7
+              ],
+              "layout_xywh": [
+                256,
+                153,
+                44,
+                6
+              ],
+              "vertices": [
+                [
+                  0.66796875,
+                  0.03125,
+                  -22.0,
+                  7.0,
+                  0.0
+                ],
+                [
+                  0.66796875,
+                  0.21875,
+                  -22.0,
+                  13.0,
+                  0.0
+                ],
+                [
+                  0.83984375,
+                  0.03125,
+                  22.0,
+                  7.0,
+                  0.0
+                ],
+                [
+                  0.83984375,
+                  0.21875,
+                  22.0,
+                  13.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "d8be8aceab469e697133ccea4dc3a03bb8b5c42553e4c468c60aa683c7ec14f7"
+            }
+          ],
+          "slot": [
+            171,
+            1,
+            215,
+            7
+          ],
+          "ink_bounds_output": [
+            1371,
+            8,
+            1505,
+            56
+          ],
+          "size_px": 50
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\source-8x.png",
+          "sha256": "f8f98c5e533759b7200c8ff7360f19195b7c47a4f32299cd8cd76cdde695b960"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\source-glyph-mask.png",
+          "sha256": "76a9e599326bc05126f5b24a1bd412e26aef642ffeada146125efc56ceadcd5e"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\clean-plate.png",
+          "sha256": "9184799305f80e012b3c965e00e8f8f73c025575bd4a5e1a77ac851358d745b2"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\korean-layer.png",
+          "sha256": "6cbfd3677d1562933a88c3908ef07bc45b80aad2ea419dedd5e41193e4097d0a"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\candidate.png",
+          "sha256": "703af58cb3272b2c7409426b63a4eb6eb780d6aaf36e06123c9e8d868f9ea42c"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-004\\owned-mask.png",
+          "sha256": "071ac566ca3614fb8f4b815763bad2f10e4fae28a739375457d203dc2db2266c"
+        }
+      },
+      "source_ink_count": 10304,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    },
+    {
+      "id": "RUI-005",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::019::003",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\019\\003.ptm",
+      "source_sha256": "778d702ba784017c8c119677992cecebb6e0dd5a05eebe24b6a67943c8f8f831",
+      "source_rgba_sha256": "1a341b2b6d57e8d32fba61927fc839e3f8593ceb8c531c5c5939d02463163b34",
+      "source_size": [
+        128,
+        96
+      ],
+      "padded_size": [
+        128,
+        128
+      ],
+      "output_size": [
+        1024,
+        1024
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b5c034b316222202.png",
+      "observed_png_sha256": "c660ae43dbc72ee32a8f30b57e17247d92c892d676a88e4e1d993930cd0085b0",
+      "observed_rgba_sha256": "e469635f4593471f8bf8fbbc01b2199147a3a72b8f9b575fe95094d2e4c18405",
+      "key": "00000000b5c034b316222202",
+      "replacement": "resident-ko-001/00000000b5c034b316222202.png",
+      "output_sha256": "6bc1e7fc83afda7e1d157b87d301a3c49379f0e266d3b05954e5ecdede7bd479",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\019\\000.sdo",
+      "consumer_sha256": "23acfd684b7e02385b009d23e964549ecfd494a539a6a69baabd1f59d43cb7cc",
+      "texture_slot": 0,
+      "erase_regions": [
+        {
+          "uid": "RUI-005/menu",
+          "box": [
+            0,
+            0,
+            84,
+            25
+          ],
+          "source_ink_pixels": 63552
+        },
+        {
+          "uid": "RUI-005/defense",
+          "box": [
+            0,
+            24,
+            82,
+            42
+          ],
+          "source_ink_pixels": 28224
+        },
+        {
+          "uid": "RUI-005/attack",
+          "box": [
+            0,
+            42,
+            71,
+            59
+          ],
+          "source_ink_pixels": 19456
+        },
+        {
+          "uid": "RUI-005/skill",
+          "box": [
+            0,
+            59,
+            62,
+            75
+          ],
+          "source_ink_pixels": 13568
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-005/menu",
+          "source": "MENU",
+          "korean": "메뉴",
+          "context": "Menu title assembled from four overlapping letter sprites",
+          "consumer_records": [
+            {
+              "record": 49,
+              "uv_box": [
+                1,
+                5,
+                20,
+                23
+              ],
+              "layout_xywh": [
+                79,
+                56,
+                19,
+                18
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.0390625,
+                  -9.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.1796875,
+                  -9.0,
+                  9.0,
+                  0.0
+                ],
+                [
+                  0.15625,
+                  0.0390625,
+                  10.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.15625,
+                  0.1796875,
+                  10.0,
+                  9.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "01d9cdaff3bc00a291a221ee69d1508f6ce409dced8c29e4df1fbda538545e52"
+            },
+            {
+              "record": 50,
+              "uv_box": [
+                22,
+                5,
+                41,
+                23
+              ],
+              "layout_xywh": [
+                97,
+                56,
+                19,
+                18
+              ],
+              "vertices": [
+                [
+                  0.171875,
+                  0.0390625,
+                  -9.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.171875,
+                  0.1796875,
+                  -9.0,
+                  9.0,
+                  0.0
+                ],
+                [
+                  0.3203125,
+                  0.0390625,
+                  10.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.3203125,
+                  0.1796875,
+                  10.0,
+                  9.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "393c31f0959d53e76714e088bb3f2c84ed5fcc698a26c4d1f7429d61096a348f"
+            },
+            {
+              "record": 51,
+              "uv_box": [
+                43,
+                5,
+                62,
+                23
+              ],
+              "layout_xywh": [
+                115,
+                56,
+                19,
+                18
+              ],
+              "vertices": [
+                [
+                  0.3359375,
+                  0.0390625,
+                  -9.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.3359375,
+                  0.1796875,
+                  -9.0,
+                  9.0,
+                  0.0
+                ],
+                [
+                  0.484375,
+                  0.0390625,
+                  10.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.484375,
+                  0.1796875,
+                  10.0,
+                  9.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "07bd78ed25f5d701e68c9a1da46f2e00b2581cc6ef53d59d345b0508782c41a4"
+            },
+            {
+              "record": 52,
+              "uv_box": [
+                64,
+                5,
+                83,
+                23
+              ],
+              "layout_xywh": [
+                133,
+                56,
+                19,
+                18
+              ],
+              "vertices": [
+                [
+                  0.5,
+                  0.0390625,
+                  -9.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.5,
+                  0.1796875,
+                  -9.0,
+                  9.0,
+                  0.0
+                ],
+                [
+                  0.6484375,
+                  0.0390625,
+                  10.0,
+                  -9.0,
+                  0.0
+                ],
+                [
+                  0.6484375,
+                  0.1796875,
+                  10.0,
+                  9.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "da498b057735c0de2ee75f538504522786ca65f726039137b996a869c1cbf96e"
+            }
+          ],
+          "composite_box": [
+            70,
+            47,
+            143,
+            65
+          ],
+          "overlap_rule": "first sprite owns overlap",
+          "size_px": 144
+        },
+        {
+          "uid": "RUI-005/defense",
+          "source": "DEFENSE",
+          "korean": "방어력",
+          "context": "Numeric character defense stat",
+          "consumer_records": [
+            {
+              "record": 36,
+              "uv_box": [
+                3,
+                26,
+                79,
+                40
+              ],
+              "layout_xywh": [
+                156,
+                192,
+                76,
+                14
+              ],
+              "vertices": [
+                [
+                  0.0234375,
+                  0.203125,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0234375,
+                  0.3125,
+                  0.0,
+                  14.0,
+                  0.0
+                ],
+                [
+                  0.6171875,
+                  0.203125,
+                  76.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.6171875,
+                  0.3125,
+                  76.0,
+                  14.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "32aff52b06471542569bacce183479cfe7dcffc04d5eae479fbb46b1afc2b7a2"
+            }
+          ],
+          "slot": [
+            3,
+            26,
+            79,
+            40
+          ],
+          "ink_bounds_output": [
+            34,
+            211,
+            317,
+            317
+          ],
+          "size_px": 112
+        },
+        {
+          "uid": "RUI-005/attack",
+          "source": "ATTACK",
+          "korean": "공격력",
+          "context": "Numeric character attack stat",
+          "consumer_records": [
+            {
+              "record": 35,
+              "uv_box": [
+                3,
+                43,
+                68,
+                57
+              ],
+              "layout_xywh": [
+                156,
+                166,
+                65,
+                14
+              ],
+              "vertices": [
+                [
+                  0.0234375,
+                  0.3359375,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0234375,
+                  0.4453125,
+                  0.0,
+                  14.0,
+                  0.0
+                ],
+                [
+                  0.53125,
+                  0.3359375,
+                  65.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.53125,
+                  0.4453125,
+                  65.0,
+                  14.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "36808c954728f5ba017c3fe799e27a08913317f61fcbd482c153e160b390b4de"
+            }
+          ],
+          "slot": [
+            3,
+            43,
+            68,
+            57
+          ],
+          "ink_bounds_output": [
+            29,
+            347,
+            317,
+            453
+          ],
+          "size_px": 112
+        },
+        {
+          "uid": "RUI-005/skill",
+          "source": "SKILL",
+          "korean": "스킬",
+          "context": "Skill section of the character menu",
+          "consumer_records": [
+            {
+              "record": 37,
+              "uv_box": [
+                2,
+                60,
+                59,
+                74
+              ],
+              "layout_xywh": [
+                155,
+                218,
+                57,
+                14
+              ],
+              "vertices": [
+                [
+                  0.015625,
+                  0.46875,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.015625,
+                  0.578125,
+                  0.0,
+                  14.0,
+                  0.0
+                ],
+                [
+                  0.4609375,
+                  0.46875,
+                  57.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.4609375,
+                  0.578125,
+                  57.0,
+                  14.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "70f7ff7d873a4ef51ef2287e9ff9303050803d6b617828802e988f8df3f5835b"
+            }
+          ],
+          "slot": [
+            2,
+            60,
+            59,
+            74
+          ],
+          "ink_bounds_output": [
+            20,
+            484,
+            212,
+            587
+          ],
+          "size_px": 112
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\source-8x.png",
+          "sha256": "6fe0643fbf815526fd4cf0780ae0ba83e8aa5f1f5c61b0cfb8cdb6617b9fb152"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\source-glyph-mask.png",
+          "sha256": "7e27feed9caf6a0fa0245a6fe16df2b4c3fae8776f3ee1db20262eea31c3ca7e"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\clean-plate.png",
+          "sha256": "af04c4e283a3f7aa413ceba44aac93528bbeb6ee2a409c322d0bc40ffb7423d2"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\korean-layer.png",
+          "sha256": "e6f063cb299b2e444f9b6eb57e9fac8ab45a1c6407573502912eacf59cada547"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\candidate.png",
+          "sha256": "6bc1e7fc83afda7e1d157b87d301a3c49379f0e266d3b05954e5ecdede7bd479"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-005\\owned-mask.png",
+          "sha256": "4720400499a68c5dae1736d8b8a24e4572582ecad6ecc30dc3be115596839b8c"
+        }
+      },
+      "source_ink_count": 124800,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    },
+    {
+      "id": "RUI-006",
+      "asset_id": "system.vol::005_if_rsdsys.lpk::019::004",
+      "source": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\019\\004.ptm",
+      "source_sha256": "af611bcc0ef4f37875c49e91a3ba956d757f3b9f920b8f0a8f01b65391ff2a38",
+      "source_rgba_sha256": "7e8ba021990a944af7a9a953082b101322917e53a9dc73e7b97f599579c04e44",
+      "source_size": [
+        128,
+        56
+      ],
+      "padded_size": [
+        128,
+        64
+      ],
+      "output_size": [
+        1024,
+        512
+      ],
+      "scale": 8,
+      "observed_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\sessions\\UIF-S002-coldboot\\memstick\\PSP\\TEXTURES\\NPUH10126\\new\\00000000b1e5ca21eb33dae6.png",
+      "observed_png_sha256": "bf1eb11803db9698a88481ce16044d044ecf8006314e0599148391ebacaddced",
+      "observed_rgba_sha256": "295e1f5873b68d8b1f5efc0d69d9a0c5246bb983cdc7c6fd08300b14a5f680ec",
+      "key": "00000000b1e5ca21eb33dae6",
+      "replacement": "resident-ko-001/00000000b1e5ca21eb33dae6.png",
+      "output_sha256": "285435a3ee2909c4d76988042f0ddb7110c525dbd867510ed2bfec5b60280726",
+      "consumer_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\source\\ui_expanded\\system.vol\\005_if_rsdsys.lpk\\019\\000.sdo",
+      "consumer_sha256": "23acfd684b7e02385b009d23e964549ecfd494a539a6a69baabd1f59d43cb7cc",
+      "texture_slot": 1,
+      "erase_regions": [
+        {
+          "uid": "RUI-006/customize",
+          "box": [
+            0,
+            0,
+            72,
+            12
+          ],
+          "source_ink_pixels": 22400
+        },
+        {
+          "uid": "RUI-006/customize",
+          "box": [
+            0,
+            34,
+            31,
+            45
+          ],
+          "source_ink_pixels": 10048
+        },
+        {
+          "uid": "RUI-006/exp",
+          "box": [
+            72,
+            0,
+            105,
+            12
+          ],
+          "source_ink_pixels": 11712
+        },
+        {
+          "uid": "RUI-006/items",
+          "box": [
+            0,
+            12,
+            53,
+            23
+          ],
+          "source_ink_pixels": 17280
+        },
+        {
+          "uid": "RUI-006/next",
+          "box": [
+            53,
+            12,
+            98,
+            23
+          ],
+          "source_ink_pixels": 14656
+        },
+        {
+          "uid": "RUI-006/options",
+          "box": [
+            0,
+            23,
+            78,
+            34
+          ],
+          "source_ink_pixels": 23936
+        },
+        {
+          "uid": "RUI-006/level",
+          "box": [
+            0,
+            45,
+            56,
+            56
+          ],
+          "source_ink_pixels": 16576
+        }
+      ],
+      "layouts": [
+        {
+          "uid": "RUI-006/customize",
+          "source": "CUSTOM + IZE",
+          "korean": "커스터마이즈",
+          "context": "Keep the established destination-screen term; full Korean fits the first sprite",
+          "consumer_records": [
+            {
+              "record": 8,
+              "uv_box": [
+                1,
+                1,
+                71,
+                11
+              ],
+              "layout_xywh": [
+                27,
+                111,
+                70,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.015625,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.171875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.5546875,
+                  0.015625,
+                  70.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.5546875,
+                  0.171875,
+                  70.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "0811dd19cfcf3b648019c8d811184043490df8dfe5d937c3051b65d79b8f3a40"
+            },
+            {
+              "record": 65,
+              "uv_box": [
+                1,
+                34,
+                29,
+                44
+              ],
+              "layout_xywh": [
+                100,
+                111,
+                28,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.53125,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.6875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.2265625,
+                  0.53125,
+                  28.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.2265625,
+                  0.6875,
+                  28.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "00f6a99fe22071d9bd1473ea83fd4dbd301d6f1e2a3f0ae20434c197b51d453b"
+            }
+          ],
+          "slot": [
+            1,
+            1,
+            71,
+            11
+          ],
+          "ink_bounds_output": [
+            13,
+            10,
+            439,
+            85
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-006/exp",
+          "source": "EXP",
+          "korean": "경험치",
+          "context": "Current experience value",
+          "consumer_records": [
+            {
+              "record": 44,
+              "uv_box": [
+                72,
+                1,
+                104,
+                11
+              ],
+              "layout_xywh": [
+                156,
+                69,
+                32,
+                10
+              ],
+              "vertices": [
+                [
+                  0.5625,
+                  0.015625,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.5625,
+                  0.171875,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.8125,
+                  0.015625,
+                  32.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.8125,
+                  0.171875,
+                  32.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "4f6c686ac400ca584793737cd162a77e6f5729334c627b08a099152a8f2e8be7"
+            }
+          ],
+          "slot": [
+            72,
+            1,
+            104,
+            11
+          ],
+          "ink_bounds_output": [
+            581,
+            10,
+            784,
+            85
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-006/items",
+          "source": "ITEMS",
+          "korean": "아이템",
+          "context": "Open the existing item menu",
+          "consumer_records": [
+            {
+              "record": 9,
+              "uv_box": [
+                1,
+                12,
+                52,
+                22
+              ],
+              "layout_xywh": [
+                76,
+                130,
+                51,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.1875,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.34375,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.40625,
+                  0.1875,
+                  51.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.40625,
+                  0.34375,
+                  51.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "520003ecba340f0d7981db19eb727ca13b401c9c759f38b73439e022b7d1e718"
+            }
+          ],
+          "slot": [
+            1,
+            12,
+            52,
+            22
+          ],
+          "ink_bounds_output": [
+            13,
+            98,
+            218,
+            173
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-006/next",
+          "source": "NEXT",
+          "korean": "다음 레벨",
+          "context": "Experience required for the next level; distinct from modal Next",
+          "consumer_records": [
+            {
+              "record": 45,
+              "uv_box": [
+                53,
+                12,
+                96,
+                22
+              ],
+              "layout_xywh": [
+                156,
+                95,
+                43,
+                10
+              ],
+              "vertices": [
+                [
+                  0.4140625,
+                  0.1875,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.4140625,
+                  0.34375,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.75,
+                  0.1875,
+                  43.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.75,
+                  0.34375,
+                  43.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "93ba61d4798a851e654648e5e2d9229200bce46da7cfcad2385027f5963deb82"
+            }
+          ],
+          "slot": [
+            53,
+            12,
+            96,
+            22
+          ],
+          "ink_bounds_output": [
+            431,
+            99,
+            745,
+            172
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-006/options",
+          "source": "OPTIONS",
+          "korean": "설정",
+          "context": "Open game settings",
+          "consumer_records": [
+            {
+              "record": 11,
+              "uv_box": [
+                1,
+                23,
+                77,
+                33
+              ],
+              "layout_xywh": [
+                51,
+                168,
+                76,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.359375,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.515625,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.6015625,
+                  0.359375,
+                  76.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.6015625,
+                  0.515625,
+                  76.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "880bc3258b408d4b66d6bbde393e5f981d2972737cec6f465848208d12575600"
+            }
+          ],
+          "slot": [
+            1,
+            23,
+            77,
+            33
+          ],
+          "ink_bounds_output": [
+            13,
+            187,
+            145,
+            261
+          ],
+          "size_px": 80
+        },
+        {
+          "uid": "RUI-006/level",
+          "source": "LEVEL",
+          "korean": "레벨",
+          "context": "Character level label",
+          "consumer_records": [
+            {
+              "record": 48,
+              "uv_box": [
+                1,
+                45,
+                55,
+                55
+              ],
+              "layout_xywh": [
+                167,
+                30,
+                54,
+                10
+              ],
+              "vertices": [
+                [
+                  0.0078125,
+                  0.703125,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0078125,
+                  0.859375,
+                  0.0,
+                  10.0,
+                  0.0
+                ],
+                [
+                  0.4296875,
+                  0.703125,
+                  54.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.4296875,
+                  0.859375,
+                  54.0,
+                  10.0,
+                  0.0
+                ]
+              ],
+              "vertex_sha256": "757fe143334b96d2f72c60254c41b8121aa6263b0c9f9e49cd835d32a6c35e7a"
+            }
+          ],
+          "slot": [
+            1,
+            45,
+            55,
+            55
+          ],
+          "ink_bounds_output": [
+            13,
+            363,
+            149,
+            436
+          ],
+          "size_px": 80
+        }
+      ],
+      "files": {
+        "source-8x": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\source-8x.png",
+          "sha256": "264874bcbe56ffee56dfe4cd8792f8a3bd5cf15d3d589fe04c820b6e89c84ddc"
+        },
+        "source-glyph-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\source-glyph-mask.png",
+          "sha256": "703e47bd10fc9fcaa9fcaa680663b6cfd6c8c65f2287234a1e004d5a0ef93e56"
+        },
+        "clean-plate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\clean-plate.png",
+          "sha256": "6909b764648a22b2e54be1626fd8b71176856782b991985a69cbdf8f89451eed"
+        },
+        "korean-layer": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\korean-layer.png",
+          "sha256": "07c57cce4607971f8e8fa91b2ca68577f92428a45179bab87d2e6493ce128dec"
+        },
+        "candidate": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\candidate.png",
+          "sha256": "285435a3ee2909c4d76988042f0ddb7110c525dbd867510ed2bfec5b60280726"
+        },
+        "owned-mask": {
+          "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\ui-resident-ko-001\\assets\\RUI-006\\owned-mask.png",
+          "sha256": "93b1ea5223cbbb06b230ad2ce7d789be9389bbf67bc4d5f5d46738ed755a6adc"
+        }
+      },
+      "source_ink_count": 116608,
+      "outside_owned_mask_diff_pixels": 0,
+      "clean_plate_visible_source_pixels": 0,
+      "static_checks": "PASS",
+      "runtime_verified": false,
+      "consumer_scope": "Listed static SDO records; dynamic animation and code-generated uses require runtime QA"
+    }
+  ],
+  "preview_sheets": [
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-001-proof.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-002-proof.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-003-proof.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-004-proof.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-005-proof.png",
+    "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-resident-ko-001\\RUI-006-proof.png"
+  ],
+  "runtime_verified": false,
+  "remaining": "Visual review and independent static QA, then runtime acceptance. Whole-game asset localization remains incomplete."
+}

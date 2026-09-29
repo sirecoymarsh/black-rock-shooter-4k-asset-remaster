@@ -1,0 +1,13 @@
+{
+  "model": "RealESRGAN_x4plus.pth",
+  "model_path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\workspace\\local-sr\\models\\RealESRGAN_x4plus.pth",
+  "model_sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+  "inference": "Local PyTorch CUDA RGB, float32",
+  "native_neural_scale": 4,
+  "final_canvas_scale": 8,
+  "post_scale": "Lanczos 2x",
+  "alpha": "Original alpha, Lanczos 8x; no neural silhouette",
+  "source_color_correction": 0.75,
+  "image_upload": false,
+  "external_image_generation": false
+}

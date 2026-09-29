@@ -1,0 +1,90 @@
+{
+  "status": "PASS_STATIC_ORIGINAL_COMPARISON",
+  "reviewer": "Codex internal primary",
+  "regions": 144,
+  "pages": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-01.png",
+      "sha256": "b6be333596163b018f724a1a02ac3c0a7a39ac7fce9eb5f8bf8a0770f77ab355"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-02.png",
+      "sha256": "97c50a0410b5f15484200f9b28e06cb9ac7cf73eb5a5e6cdf7630ae06f01ac66"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-03.png",
+      "sha256": "e718d14fdf943ce0d31a9e2a5bbc75a22d83f68dd199fd1ba73b6c30d3cbad30"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-04.png",
+      "sha256": "db9c534c60055afe93216764b4538d216e68a5f6122ab281fe555c00fa06a408"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-05.png",
+      "sha256": "f41959c993306690a51ec33364bbd46d0a1de47be902f91d405b90f38ecc959f"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-06.png",
+      "sha256": "f1e793db3bb4eae679c0c855d7a838053e638a149d193dd72a861bd3948eb3eb"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-07.png",
+      "sha256": "c2544a9ef95d227f71a5efeca45d79f7db3aca7478056289dd4c28372fe357b0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-08.png",
+      "sha256": "25e6f81ad344ce0db2fe74ad70f25a962482dd29171b955a16b315fe00b501fa"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-09.png",
+      "sha256": "5e7f343f91b9590748daf14a7c563662716337d695293630dd51f42c9e5ebaf9"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-10.png",
+      "sha256": "2169eeb950e3ff5bb213bb003323b0fceeeba527d0b03978c51d0a31ed1e6353"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-11.png",
+      "sha256": "a2afb191f9f244090798dd12c452ce32ca13f3c60342747467c4789ad941a30e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-12.png",
+      "sha256": "d42e73aeadfa99ab098aaa3fdb8a09aa9b006124d158989dc6196c0e455fa340"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-13.png",
+      "sha256": "bf0fa6983428a08402ffdd0fb768d73bdecef3825d3942fdaad338a823a238ff"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-14.png",
+      "sha256": "6919360a05240e77e698fb9c3d55968f757183301e5b74ee37bbfd914a21236a"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-15.png",
+      "sha256": "c5d6aaa5ce3766fee271bcfce3be4cb9ef529002b219b116f0f5f9107619e64d"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-16.png",
+      "sha256": "13a5bb755bf3a63168f16bdf313d3c1833233e8e6773b5e3c9611c781bc9ea78"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-17.png",
+      "sha256": "79a9fa56ab894750ed32f88c6aad7d72d73eb476dd6f1a75b6d04bf6d1177cfe"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\black-rock-shooter-hd-ui-fonts\\outputs\\ui-icons-001\\comparison-18.png",
+      "sha256": "938048e215be8549059bc7c79a92ec3933ef30ffc9c14d760b7e00cb264a29f1"
+    }
+  ],
+  "criteria": [
+    "Original motif, proportions and source color family",
+    "Right angles, number/button glyphs and checker pattern preserved",
+    "Acquired/locked medals reviewed together",
+    "Existing Korean pixels unchanged",
+    "No preview padding introduced into release PNGs"
+  ],
+  "limitations": [
+    "Static source-versus-candidate judgement; runtime sampling and game state transitions not verified",
+    "Low-resolution source cannot establish unknown original high-resolution microdetail"
+  ]
+}
